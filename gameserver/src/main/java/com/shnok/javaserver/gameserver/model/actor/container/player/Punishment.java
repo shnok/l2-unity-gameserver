@@ -3,15 +3,15 @@ package com.shnok.javaserver.gameserver.model.actor.container.player;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.gameserver.enums.PunishmentType;
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.olympiad.OlympiadManager;
-import net.sf.l2j.gameserver.network.serverpackets.EtcStatusUpdate;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.enums.PunishmentType;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.olympiad.OlympiadManager;
+import com.shnok.javaserver.gameserver.network.serverpackets.EtcStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
 
 public class Punishment
 {

@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network;
 
-import net.sf.l2j.Config;
+import com.shnok.javaserver.Config;
 
 public class ClientStats
 {

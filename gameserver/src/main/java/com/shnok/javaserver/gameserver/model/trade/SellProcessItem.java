@@ -1,4 +1,4 @@
-package net.sf.l2j.gameserver.model.trade;
+package com.shnok.javaserver.gameserver.model.trade;
 
 public record SellProcessItem(int objectId, int count, int price)
 {

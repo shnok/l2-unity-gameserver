@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.List;
 
-import net.sf.l2j.gameserver.model.records.CursedWeaponInfo;
+import com.shnok.javaserver.gameserver.model.records.CursedWeaponInfo;
 
 public class ExCursedWeaponLocation extends L2GameServerPacket
 {

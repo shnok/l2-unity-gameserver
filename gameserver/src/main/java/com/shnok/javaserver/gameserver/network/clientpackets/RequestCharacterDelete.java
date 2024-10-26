@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.enums.FloodProtector;
-import net.sf.l2j.gameserver.network.serverpackets.CharDeleteFail;
-import net.sf.l2j.gameserver.network.serverpackets.CharDeleteOk;
-import net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo;
+import com.shnok.javaserver.gameserver.enums.FloodProtector;
+import com.shnok.javaserver.gameserver.network.serverpackets.CharDeleteFail;
+import com.shnok.javaserver.gameserver.network.serverpackets.CharDeleteOk;
+import com.shnok.javaserver.gameserver.network.serverpackets.CharSelectInfo;
 
 public final class RequestCharacterDelete extends L2GameClientPacket
 {

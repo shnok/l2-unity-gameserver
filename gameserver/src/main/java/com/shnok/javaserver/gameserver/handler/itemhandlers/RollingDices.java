@@ -1,15 +1,15 @@
 package com.shnok.javaserver.gameserver.handler.itemhandlers;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.enums.FloodProtector;
-import net.sf.l2j.gameserver.handler.IItemHandler;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.Dice;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.enums.FloodProtector;
+import com.shnok.javaserver.gameserver.handler.IItemHandler;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.Dice;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class RollingDices implements IItemHandler
 {

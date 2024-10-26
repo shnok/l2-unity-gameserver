@@ -1,14 +1,14 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.data.manager.CastleManager;
-import net.sf.l2j.gameserver.data.manager.ClanHallManager;
-import net.sf.l2j.gameserver.enums.SiegeSide;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.Monster;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.model.residence.castle.Siege;
-import net.sf.l2j.gameserver.model.residence.clanhall.ClanHallSiege;
+import com.shnok.javaserver.gameserver.data.manager.CastleManager;
+import com.shnok.javaserver.gameserver.data.manager.ClanHallManager;
+import com.shnok.javaserver.gameserver.enums.SiegeSide;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.Monster;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.model.residence.castle.Siege;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHallSiege;
 
 public class Die extends L2GameServerPacket
 {

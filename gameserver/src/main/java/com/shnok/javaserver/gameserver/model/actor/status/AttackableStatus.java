@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.model.actor.status;
 
-import net.sf.l2j.gameserver.model.actor.Attackable;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.instance.Monster;
+import com.shnok.javaserver.gameserver.model.actor.Attackable;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.instance.Monster;
 
 public class AttackableStatus extends NpcStatus<Attackable>
 {

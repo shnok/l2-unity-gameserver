@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.boss.antharas;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.memo.GlobalMemo;
-import net.sf.l2j.gameserver.scripting.Quest;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.memo.GlobalMemo;
+import com.shnok.javaserver.gameserver.scripting.Quest;
 
 public class HeartOfWarding extends Quest
 {

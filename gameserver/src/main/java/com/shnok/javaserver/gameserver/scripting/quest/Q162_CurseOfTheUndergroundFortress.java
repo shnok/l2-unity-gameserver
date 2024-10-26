@@ -3,13 +3,13 @@ package com.shnok.javaserver.gameserver.scripting.quest;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.l2j.gameserver.enums.QuestStatus;
-import net.sf.l2j.gameserver.enums.actors.ClassRace;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.scripting.Quest;
-import net.sf.l2j.gameserver.scripting.QuestState;
+import com.shnok.javaserver.gameserver.enums.QuestStatus;
+import com.shnok.javaserver.gameserver.enums.actors.ClassRace;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.scripting.QuestState;
 
 public class Q162_CurseOfTheUndergroundFortress extends Quest
 {

@@ -2,13 +2,13 @@ package com.shnok.javaserver.gameserver.model.actor.instance;
 
 import java.util.List;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.enums.EventHandler;
-import net.sf.l2j.gameserver.model.actor.Attackable;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.enums.EventHandler;
+import com.shnok.javaserver.gameserver.model.actor.Attackable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.scripting.Quest;
 
 /**
  * This class extends {@link Attackable} and manages all {@link Guard}s.<br>

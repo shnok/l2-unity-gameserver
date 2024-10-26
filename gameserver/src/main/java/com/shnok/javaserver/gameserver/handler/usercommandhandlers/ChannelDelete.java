@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.handler.usercommandhandlers;
 
-import net.sf.l2j.gameserver.handler.IUserCommandHandler;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.group.CommandChannel;
-import net.sf.l2j.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.handler.IUserCommandHandler;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.group.CommandChannel;
+import com.shnok.javaserver.gameserver.model.group.Party;
 
 public class ChannelDelete implements IUserCommandHandler
 {

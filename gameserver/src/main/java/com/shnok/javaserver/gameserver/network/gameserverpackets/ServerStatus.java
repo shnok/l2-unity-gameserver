@@ -3,9 +3,9 @@ package com.shnok.javaserver.gameserver.network.gameserverpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.commons.network.AttributeType;
+import com.shnok.javaserver.commons.network.AttributeType;
 
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
+import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
 
 public class ServerStatus extends GameServerBasePacket
 {

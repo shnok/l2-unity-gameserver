@@ -1,13 +1,13 @@
 package com.shnok.javaserver.gameserver.model.olympiad;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.SpawnType;
-import net.sf.l2j.gameserver.model.zone.type.OlympiadStadiumZone;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.SpawnType;
+import com.shnok.javaserver.gameserver.model.zone.type.OlympiadStadiumZone;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public final class OlympiadGameTask implements Runnable
 {

@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.trade.TradeItem;
-import net.sf.l2j.gameserver.model.trade.TradeList;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.trade.TradeItem;
+import com.shnok.javaserver.gameserver.model.trade.TradeList;
 
 public class PrivateStoreListSell extends L2GameServerPacket
 {

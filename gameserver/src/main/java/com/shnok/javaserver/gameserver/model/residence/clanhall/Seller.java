@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.model.residence.clanhall;
 
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
 
 /**
  * A container used to retain ClanHall seller informations.<br>

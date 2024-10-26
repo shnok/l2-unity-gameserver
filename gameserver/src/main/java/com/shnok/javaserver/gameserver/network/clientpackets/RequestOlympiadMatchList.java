@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.olympiad.Olympiad;
-import net.sf.l2j.gameserver.model.olympiad.OlympiadGameManager;
-import net.sf.l2j.gameserver.model.olympiad.OlympiadGameTask;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.olympiad.Olympiad;
+import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameManager;
+import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameTask;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
 
 public final class RequestOlympiadMatchList extends L2GameClientPacket
 {

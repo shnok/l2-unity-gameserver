@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.individual.Monster.WarriorBase.Warrior.PartyLeaderWarrior;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.enums.actors.NpcSkillType;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.enums.actors.NpcSkillType;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class PartyLeaderCastSplashAggressive extends PartyLeaderWarriorAggressive
 {

@@ -3,16 +3,16 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.Folk;
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.itemcontainer.ItemContainer;
-import net.sf.l2j.gameserver.model.itemcontainer.PcFreight;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.Folk;
+import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.itemcontainer.ItemContainer;
+import com.shnok.javaserver.gameserver.model.itemcontainer.PcFreight;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public final class RequestPackageSend extends L2GameClientPacket
 {

@@ -2,17 +2,17 @@ package com.shnok.javaserver.gameserver.handler.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.gameserver.data.manager.CastleManager;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.model.location.TowerSpawnLocation;
-import net.sf.l2j.gameserver.model.residence.castle.Castle;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.SiegeInfo;
+import com.shnok.javaserver.gameserver.data.manager.CastleManager;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.model.location.TowerSpawnLocation;
+import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.SiegeInfo;
 
 public class AdminSiege implements IAdminCommandHandler
 {

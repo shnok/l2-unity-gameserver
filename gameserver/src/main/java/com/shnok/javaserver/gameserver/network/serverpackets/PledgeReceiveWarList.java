@@ -2,8 +2,8 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.Set;
 
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
 
 public class PledgeReceiveWarList extends L2GameServerPacket
 {

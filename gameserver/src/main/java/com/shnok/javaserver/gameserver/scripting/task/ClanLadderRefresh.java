@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.scripting.task;
 
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.scripting.ScheduledQuest;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.scripting.ScheduledQuest;
 
 public final class ClanLadderRefresh extends ScheduledQuest
 {

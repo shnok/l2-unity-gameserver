@@ -3,10 +3,10 @@ package com.shnok.javaserver.gameserver.model.itemcontainer.listeners;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.gameserver.enums.Paperdoll;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.itemcontainer.Inventory;
+import com.shnok.javaserver.gameserver.enums.Paperdoll;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.itemcontainer.Inventory;
 
 /**
  * Recorder of alterations in a given {@link Inventory}.

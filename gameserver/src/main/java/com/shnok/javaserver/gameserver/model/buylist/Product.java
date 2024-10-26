@@ -4,13 +4,13 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import net.sf.l2j.commons.data.StatSet;
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.data.StatSet;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
 
-import net.sf.l2j.gameserver.data.xml.ItemData;
-import net.sf.l2j.gameserver.model.item.kind.Item;
-import net.sf.l2j.gameserver.taskmanager.BuyListTaskManager;
+import com.shnok.javaserver.gameserver.data.xml.ItemData;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.gameserver.taskmanager.BuyListTaskManager;
 
 /**
  * A datatype entry for {@link NpcBuyList}. It can own a count and a restock delay, the whole system of tasks being controlled by {@link BuyListTaskManager}.

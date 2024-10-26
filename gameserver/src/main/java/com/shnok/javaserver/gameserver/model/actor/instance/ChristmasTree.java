@@ -2,14 +2,14 @@ package com.shnok.javaserver.gameserver.model.actor.instance;
 
 import java.util.concurrent.ScheduledFuture;
 
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.gameserver.data.SkillTable.FrequentSkill;
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.data.SkillTable.FrequentSkill;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**
  * Christmas trees used on events.<br>

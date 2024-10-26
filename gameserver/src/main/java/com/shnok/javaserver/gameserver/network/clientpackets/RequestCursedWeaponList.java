@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.manager.CursedWeaponManager;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.ExCursedWeaponList;
+import com.shnok.javaserver.gameserver.data.manager.CursedWeaponManager;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExCursedWeaponList;
 
 public class RequestCursedWeaponList extends L2GameClientPacket
 {

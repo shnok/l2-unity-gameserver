@@ -3,8 +3,8 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.gameserver.data.manager.CastleManorManager;
-import net.sf.l2j.gameserver.model.manor.SeedProduction;
+import com.shnok.javaserver.gameserver.data.manager.CastleManorManager;
+import com.shnok.javaserver.gameserver.model.manor.SeedProduction;
 
 public final class BuyListSeed extends L2GameServerPacket
 {

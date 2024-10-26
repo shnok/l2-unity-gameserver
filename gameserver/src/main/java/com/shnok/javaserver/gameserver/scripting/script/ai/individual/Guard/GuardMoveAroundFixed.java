@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.individual.Guard;
 
-import net.sf.l2j.gameserver.enums.IntentionType;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.enums.IntentionType;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public class GuardMoveAroundFixed extends GuardMoveAround
 {

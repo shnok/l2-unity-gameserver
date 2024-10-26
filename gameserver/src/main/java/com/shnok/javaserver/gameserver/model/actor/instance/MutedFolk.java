@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.model.actor.instance;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 
 /**
  * An instance similar to {@link Folk}, except they can't be interacted by {@link Player}s.

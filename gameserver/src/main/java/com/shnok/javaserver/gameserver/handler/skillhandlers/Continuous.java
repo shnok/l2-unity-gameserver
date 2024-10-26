@@ -1,27 +1,27 @@
 package com.shnok.javaserver.gameserver.handler.skillhandlers;
 
-import net.sf.l2j.commons.util.ArraysUtil;
+import com.shnok.javaserver.commons.util.ArraysUtil;
 
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.enums.AiEventType;
-import net.sf.l2j.gameserver.enums.items.ShotType;
-import net.sf.l2j.gameserver.enums.skills.EffectType;
-import net.sf.l2j.gameserver.enums.skills.ShieldDefense;
-import net.sf.l2j.gameserver.enums.skills.SkillType;
-import net.sf.l2j.gameserver.handler.ISkillHandler;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Attackable;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.ClanHallManagerNpc;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.skills.AbstractEffect;
-import net.sf.l2j.gameserver.skills.Formulas;
-import net.sf.l2j.gameserver.skills.L2Skill;
-import net.sf.l2j.gameserver.skills.effects.EffectFear;
+import com.shnok.javaserver.gameserver.data.SkillTable;
+import com.shnok.javaserver.gameserver.enums.AiEventType;
+import com.shnok.javaserver.gameserver.enums.items.ShotType;
+import com.shnok.javaserver.gameserver.enums.skills.EffectType;
+import com.shnok.javaserver.gameserver.enums.skills.ShieldDefense;
+import com.shnok.javaserver.gameserver.enums.skills.SkillType;
+import com.shnok.javaserver.gameserver.handler.ISkillHandler;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Attackable;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.ClanHallManagerNpc;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.skills.AbstractEffect;
+import com.shnok.javaserver.gameserver.skills.Formulas;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.skills.effects.EffectFear;
 
 public class Continuous implements ISkillHandler
 {

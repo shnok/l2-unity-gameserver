@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.handler;
 
-import net.sf.l2j.commons.logging.CLogger;
+import com.shnok.javaserver.commons.logging.CLogger;
 
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 
 /**
  * Mother class of all itemHandlers.

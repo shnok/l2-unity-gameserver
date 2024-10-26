@@ -3,8 +3,8 @@ package com.shnok.javaserver.gameserver.scripting.quest;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.scripting.Quest;
 
 /**
  * Superclass for all second class quests.<br>

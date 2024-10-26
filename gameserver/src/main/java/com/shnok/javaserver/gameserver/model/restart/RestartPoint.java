@@ -3,13 +3,13 @@ package com.shnok.javaserver.gameserver.model.restart;
 import java.awt.Color;
 import java.util.List;
 
-import net.sf.l2j.commons.data.StatSet;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.data.StatSet;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.enums.actors.ClassRace;
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.enums.actors.ClassRace;
+import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
 
 /**
  * A zone used as restart point when dead or scrolling out.<br>

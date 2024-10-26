@@ -2,13 +2,13 @@ package com.shnok.javaserver.gameserver.handler.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.model.pledge.ClanMember;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.GMViewPledgeInfo;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.model.pledge.ClanMember;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.GMViewPledgeInfo;
 
 public class AdminPledge implements IAdminCommandHandler
 {

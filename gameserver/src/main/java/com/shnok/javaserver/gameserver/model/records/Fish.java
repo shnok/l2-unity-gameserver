@@ -1,8 +1,8 @@
-package net.sf.l2j.gameserver.model.records;
+package com.shnok.javaserver.gameserver.model.records;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.taskmanager.GameTimeTaskManager;
+import com.shnok.javaserver.gameserver.taskmanager.GameTimeTaskManager;
 
 public record Fish(int id, int level, int hp, int hpRegen, int type, int group, int guts, int gutsCheckTime, int waitTime, int combatTime)
 {

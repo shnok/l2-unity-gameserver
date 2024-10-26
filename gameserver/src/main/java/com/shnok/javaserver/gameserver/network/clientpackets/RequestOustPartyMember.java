@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.enums.MessageType;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.enums.MessageType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.group.Party;
 
 public final class RequestOustPartyMember extends L2GameClientPacket
 {

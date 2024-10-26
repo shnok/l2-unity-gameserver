@@ -4,10 +4,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
 
-import net.sf.l2j.gameserver.enums.Paperdoll;
+import com.shnok.javaserver.gameserver.enums.Paperdoll;
 
 /**
  * A datatype used to store character selection screen informations.

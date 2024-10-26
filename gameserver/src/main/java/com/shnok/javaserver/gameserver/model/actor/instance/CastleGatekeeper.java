@@ -2,14 +2,14 @@ package com.shnok.javaserver.gameserver.model.actor.instance;
 
 import java.util.concurrent.Future;
 
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.gameserver.enums.SayType;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
+import com.shnok.javaserver.gameserver.enums.SayType;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcSay;
 
 /**
  * This class manages all Mass Gatekeepers, an entity linked to Castle system. It inherits from {@link Folk}.<br>

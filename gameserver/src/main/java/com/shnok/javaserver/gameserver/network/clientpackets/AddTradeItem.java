@@ -1,15 +1,15 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.trade.TradeItem;
-import net.sf.l2j.gameserver.model.trade.TradeList;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.TradeItemUpdate;
-import net.sf.l2j.gameserver.network.serverpackets.TradeOtherAdd;
-import net.sf.l2j.gameserver.network.serverpackets.TradeOwnAdd;
-import net.sf.l2j.gameserver.network.serverpackets.TradeUpdate;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.trade.TradeItem;
+import com.shnok.javaserver.gameserver.model.trade.TradeList;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.TradeItemUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.TradeOtherAdd;
+import com.shnok.javaserver.gameserver.network.serverpackets.TradeOwnAdd;
+import com.shnok.javaserver.gameserver.network.serverpackets.TradeUpdate;
 
 public final class AddTradeItem extends L2GameClientPacket
 {

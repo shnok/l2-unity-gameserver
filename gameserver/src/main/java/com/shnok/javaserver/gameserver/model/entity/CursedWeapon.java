@@ -5,29 +5,29 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.concurrent.ScheduledFuture;
 
-import net.sf.l2j.commons.data.StatSet;
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.pool.ConnectionPool;
-import net.sf.l2j.commons.pool.ThreadPool;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.data.StatSet;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.enums.MessageType;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Attackable;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.Earthquake;
-import net.sf.l2j.gameserver.network.serverpackets.ExRedSky;
-import net.sf.l2j.gameserver.network.serverpackets.SkillList;
-import net.sf.l2j.gameserver.network.serverpackets.SocialAction;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.network.serverpackets.UserInfo;
-import net.sf.l2j.gameserver.skills.AbstractEffect;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.data.SkillTable;
+import com.shnok.javaserver.gameserver.enums.MessageType;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Attackable;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.Earthquake;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExRedSky;
+import com.shnok.javaserver.gameserver.network.serverpackets.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.skills.AbstractEffect;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**
  * One of these swords can drop from any mob. But only one instance of each sword can exist in the world. When a cursed sword drops, the world becomes red for several seconds, the ground shakes, and there's also an announcement as a system message that a cursed sword is found.<br>

@@ -1,9 +1,9 @@
-package net.sf.l2j.gameserver.model.records;
+package com.shnok.javaserver.gameserver.model.records;
 
-import net.sf.l2j.commons.data.StatSet;
-import net.sf.l2j.commons.util.ArraysUtil;
+import com.shnok.javaserver.commons.data.StatSet;
+import com.shnok.javaserver.commons.util.ArraysUtil;
 
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public record Henna(int symbolId, int dyeId, int drawPrice, int INT, int STR, int CON, int MEN, int DEX, int WIT, int[] classes)
 {

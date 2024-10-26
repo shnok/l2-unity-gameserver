@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.enums.FailReason;
+import com.shnok.javaserver.gameserver.enums.FailReason;
 
 public class AuthLoginFail extends L2GameServerPacket
 {

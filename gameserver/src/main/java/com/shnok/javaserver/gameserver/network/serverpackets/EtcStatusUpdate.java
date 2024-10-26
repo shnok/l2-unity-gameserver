@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.enums.skills.EffectFlag;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.enums.skills.EffectFlag;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public class EtcStatusUpdate extends L2GameServerPacket
 {

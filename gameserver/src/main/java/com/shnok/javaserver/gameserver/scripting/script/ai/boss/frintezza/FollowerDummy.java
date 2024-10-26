@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.boss.frintezza;
 
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.scripting.script.ai.individual.DefaultNpc;
+import com.shnok.javaserver.gameserver.data.SkillTable;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.scripting.script.ai.individual.DefaultNpc;
 
 public class FollowerDummy extends DefaultNpc
 {

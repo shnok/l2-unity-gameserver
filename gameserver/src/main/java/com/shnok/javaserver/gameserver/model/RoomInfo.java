@@ -3,8 +3,8 @@ package com.shnok.javaserver.gameserver.model;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import net.sf.l2j.gameserver.model.group.Party;
-import net.sf.l2j.gameserver.taskmanager.GameTimeTaskManager;
+import com.shnok.javaserver.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.taskmanager.GameTimeTaskManager;
 
 public class RoomInfo
 {

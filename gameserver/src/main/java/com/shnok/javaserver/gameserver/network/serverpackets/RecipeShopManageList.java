@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.craft.ManufactureList;
-import net.sf.l2j.gameserver.model.records.ManufactureItem;
-import net.sf.l2j.gameserver.model.records.Recipe;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.craft.ManufactureList;
+import com.shnok.javaserver.gameserver.model.records.ManufactureItem;
+import com.shnok.javaserver.gameserver.model.records.Recipe;
 
 public class RecipeShopManageList extends L2GameServerPacket
 {

@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.individual.Monster.RaidBoss.RaidBossParty;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.scripting.script.ai.individual.Monster.RaidBoss.RaidBossStandard;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.scripting.script.ai.individual.Monster.RaidBoss.RaidBossStandard;
 
 public class RaidBossParty extends RaidBossStandard
 {

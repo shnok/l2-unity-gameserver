@@ -4,23 +4,23 @@ import java.text.SimpleDateFormat;
 import java.util.StringTokenizer;
 import java.util.concurrent.TimeUnit;
 
-import net.sf.l2j.gameserver.data.xml.ClanHallDecoData;
-import net.sf.l2j.gameserver.enums.PrivilegeType;
-import net.sf.l2j.gameserver.enums.TeleportType;
-import net.sf.l2j.gameserver.enums.actors.NpcTalkCond;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.ai.type.ClanHallManagerNpcAI;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.model.residence.clanhall.ClanHall;
-import net.sf.l2j.gameserver.model.residence.clanhall.ClanHallFunction;
-import net.sf.l2j.gameserver.model.residence.clanhall.SiegableHall;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.ClanHallDecoration;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.WarehouseDepositList;
-import net.sf.l2j.gameserver.network.serverpackets.WarehouseWithdrawList;
+import com.shnok.javaserver.gameserver.data.xml.ClanHallDecoData;
+import com.shnok.javaserver.gameserver.enums.PrivilegeType;
+import com.shnok.javaserver.gameserver.enums.TeleportType;
+import com.shnok.javaserver.gameserver.enums.actors.NpcTalkCond;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.ai.type.ClanHallManagerNpcAI;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHall;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHallFunction;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.SiegableHall;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.ClanHallDecoration;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.WarehouseDepositList;
+import com.shnok.javaserver.gameserver.network.serverpackets.WarehouseWithdrawList;
 
 public class ClanHallManagerNpc extends Merchant
 {

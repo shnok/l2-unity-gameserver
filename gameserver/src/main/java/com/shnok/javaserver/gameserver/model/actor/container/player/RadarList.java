@@ -2,10 +2,10 @@ package com.shnok.javaserver.gameserver.model.actor.container.player;
 
 import java.util.ArrayList;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.location.RadarMarker;
-import net.sf.l2j.gameserver.network.serverpackets.RadarControl;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.location.RadarMarker;
+import com.shnok.javaserver.gameserver.network.serverpackets.RadarControl;
 
 public final class RadarList extends ArrayList<RadarMarker>
 {

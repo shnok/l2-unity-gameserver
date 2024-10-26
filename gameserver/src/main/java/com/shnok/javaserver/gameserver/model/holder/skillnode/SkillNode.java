@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.model.holder.skillnode;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
+import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
 
 /**
  * A generic datatype used to store skills informations for player templates.<br>

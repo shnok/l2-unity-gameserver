@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.location.Location;
 
 public class Earthquake extends L2GameServerPacket
 {

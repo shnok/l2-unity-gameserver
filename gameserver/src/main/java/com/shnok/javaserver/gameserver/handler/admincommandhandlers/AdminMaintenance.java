@@ -2,17 +2,17 @@ package com.shnok.javaserver.gameserver.handler.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import net.sf.l2j.commons.network.ServerType;
-import net.sf.l2j.commons.util.SysUtil;
+import com.shnok.javaserver.commons.network.ServerType;
+import com.shnok.javaserver.commons.util.SysUtil;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.LoginServerThread;
-import net.sf.l2j.gameserver.Shutdown;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.taskmanager.GameTimeTaskManager;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.LoginServerThread;
+import com.shnok.javaserver.gameserver.Shutdown;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.taskmanager.GameTimeTaskManager;
 
 public class AdminMaintenance implements IAdminCommandHandler
 {

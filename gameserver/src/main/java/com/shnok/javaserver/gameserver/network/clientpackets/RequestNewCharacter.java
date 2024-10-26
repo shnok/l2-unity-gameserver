@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.network.serverpackets.NewCharacterSuccess;
+import com.shnok.javaserver.gameserver.network.serverpackets.NewCharacterSuccess;
 
 public final class RequestNewCharacter extends L2GameClientPacket
 {

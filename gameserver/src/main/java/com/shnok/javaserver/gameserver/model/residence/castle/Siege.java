@@ -11,29 +11,29 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledFuture;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.pool.ConnectionPool;
-import net.sf.l2j.commons.pool.ThreadPool;
-import net.sf.l2j.commons.util.ArraysUtil;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.util.ArraysUtil;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.manager.CastleManager;
-import net.sf.l2j.gameserver.data.manager.HeroManager;
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.enums.SiegeSide;
-import net.sf.l2j.gameserver.enums.SiegeStatus;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.location.TowerSpawnLocation;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.model.pledge.ClanMember;
-import net.sf.l2j.gameserver.model.residence.Siegable;
-import net.sf.l2j.gameserver.model.spawn.NpcMaker;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.manager.CastleManager;
+import com.shnok.javaserver.gameserver.data.manager.HeroManager;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.enums.SiegeSide;
+import com.shnok.javaserver.gameserver.enums.SiegeStatus;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.location.TowerSpawnLocation;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.model.pledge.ClanMember;
+import com.shnok.javaserver.gameserver.model.residence.Siegable;
+import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
 
 public class Siege implements Siegable
 {

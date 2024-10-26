@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.network.serverpackets.L2GameServerPacket;
-import net.sf.l2j.gameserver.network.serverpackets.VersionCheck;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
+import com.shnok.javaserver.gameserver.network.serverpackets.VersionCheck;
 
 public final class SendProtocolVersion extends L2GameClientPacket
 {

@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.actor.instance.Fence;
+import com.shnok.javaserver.gameserver.model.actor.instance.Fence;
 
 /**
  * Format: (ch)ddddddd d: object id d: type (00 - no fence, 01 - only 4 columns, 02 - columns with fences) d: x coord d: y coord d: z coord d: width d: height

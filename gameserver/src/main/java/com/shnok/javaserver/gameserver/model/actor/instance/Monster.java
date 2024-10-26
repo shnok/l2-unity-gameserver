@@ -8,32 +8,32 @@ import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledFuture;
 
-import net.sf.l2j.commons.math.MathUtil;
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.math.MathUtil;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.manager.CursedWeaponManager;
-import net.sf.l2j.gameserver.enums.BossInfoType;
-import net.sf.l2j.gameserver.enums.DropType;
-import net.sf.l2j.gameserver.model.actor.Attackable;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.Summon;
-import net.sf.l2j.gameserver.model.actor.container.monster.OverhitState;
-import net.sf.l2j.gameserver.model.actor.container.monster.SeedState;
-import net.sf.l2j.gameserver.model.actor.container.monster.SpoilState;
-import net.sf.l2j.gameserver.model.actor.container.npc.AbsorbInfo;
-import net.sf.l2j.gameserver.model.actor.container.npc.AggroInfo;
-import net.sf.l2j.gameserver.model.actor.container.npc.RewardInfo;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.model.group.CommandChannel;
-import net.sf.l2j.gameserver.model.group.Party;
-import net.sf.l2j.gameserver.model.item.DropCategory;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.manager.CursedWeaponManager;
+import com.shnok.javaserver.gameserver.enums.BossInfoType;
+import com.shnok.javaserver.gameserver.enums.DropType;
+import com.shnok.javaserver.gameserver.model.actor.Attackable;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.Summon;
+import com.shnok.javaserver.gameserver.model.actor.container.monster.OverhitState;
+import com.shnok.javaserver.gameserver.model.actor.container.monster.SeedState;
+import com.shnok.javaserver.gameserver.model.actor.container.monster.SpoilState;
+import com.shnok.javaserver.gameserver.model.actor.container.npc.AbsorbInfo;
+import com.shnok.javaserver.gameserver.model.actor.container.npc.AggroInfo;
+import com.shnok.javaserver.gameserver.model.actor.container.npc.RewardInfo;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.group.CommandChannel;
+import com.shnok.javaserver.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.model.item.DropCategory;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**
  * A monster extends {@link Attackable} class.<br>

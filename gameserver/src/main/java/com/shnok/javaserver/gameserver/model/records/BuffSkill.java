@@ -1,7 +1,7 @@
-package net.sf.l2j.gameserver.model.records;
+package com.shnok.javaserver.gameserver.model.records;
 
-import net.sf.l2j.gameserver.model.records.interfaces.ISkill;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.model.records.interfaces.ISkill;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public record BuffSkill(int id, int level, int price, String type, String description) implements ISkill
 {

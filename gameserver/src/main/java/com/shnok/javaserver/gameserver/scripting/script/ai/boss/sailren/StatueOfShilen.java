@@ -1,15 +1,15 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.boss.sailren;
 
-import net.sf.l2j.commons.math.MathUtil;
+import com.shnok.javaserver.commons.math.MathUtil;
 
-import net.sf.l2j.gameserver.data.manager.SpawnManager;
-import net.sf.l2j.gameserver.data.manager.ZoneManager;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.group.Party;
-import net.sf.l2j.gameserver.model.spawn.NpcMaker;
-import net.sf.l2j.gameserver.model.zone.type.BossZone;
-import net.sf.l2j.gameserver.scripting.script.ai.individual.DefaultNpc;
+import com.shnok.javaserver.gameserver.data.manager.SpawnManager;
+import com.shnok.javaserver.gameserver.data.manager.ZoneManager;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
+import com.shnok.javaserver.gameserver.model.zone.type.BossZone;
+import com.shnok.javaserver.gameserver.scripting.script.ai.individual.DefaultNpc;
 
 public class StatueOfShilen extends DefaultNpc
 {

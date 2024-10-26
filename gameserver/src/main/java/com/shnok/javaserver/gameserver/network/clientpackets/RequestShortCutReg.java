@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.enums.ShortcutType;
-import net.sf.l2j.gameserver.model.Shortcut;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.ShortCutRegister;
+import com.shnok.javaserver.gameserver.enums.ShortcutType;
+import com.shnok.javaserver.gameserver.model.Shortcut;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.ShortCutRegister;
 
 public final class RequestShortCutReg extends L2GameClientPacket
 {

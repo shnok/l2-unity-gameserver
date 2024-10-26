@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.enums.Paperdoll;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.enums.Paperdoll;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public class GMViewCharacterInfo extends L2GameServerPacket
 {

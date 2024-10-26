@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.model.actor.Boat;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.container.player.BoatInfo;
-import net.sf.l2j.gameserver.model.location.Point2D;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.GetOffVehicle;
+import com.shnok.javaserver.gameserver.model.actor.Boat;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.container.player.BoatInfo;
+import com.shnok.javaserver.gameserver.model.location.Point2D;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.GetOffVehicle;
 
 public final class RequestGetOffVehicle extends L2GameClientPacket
 {

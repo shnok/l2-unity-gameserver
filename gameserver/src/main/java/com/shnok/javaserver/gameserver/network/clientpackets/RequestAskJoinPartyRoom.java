@@ -1,10 +1,10 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ExAskJoinPartyRoom;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExAskJoinPartyRoom;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class RequestAskJoinPartyRoom extends L2GameClientPacket
 {

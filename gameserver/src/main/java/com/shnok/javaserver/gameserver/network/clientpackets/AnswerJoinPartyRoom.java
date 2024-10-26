@@ -1,14 +1,14 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.manager.PartyMatchRoomManager;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.group.PartyMatchRoom;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ExManagePartyRoomMember;
-import net.sf.l2j.gameserver.network.serverpackets.ExPartyRoomMember;
-import net.sf.l2j.gameserver.network.serverpackets.PartyMatchDetail;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.data.manager.PartyMatchRoomManager;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.group.PartyMatchRoom;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExManagePartyRoomMember;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExPartyRoomMember;
+import com.shnok.javaserver.gameserver.network.serverpackets.PartyMatchDetail;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public final class AnswerJoinPartyRoom extends L2GameClientPacket
 {

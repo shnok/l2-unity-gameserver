@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.individual.Monster.WarriorBase.Warrior.RoyalRushBomb;
 
-import net.sf.l2j.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
 
 public class RoyalRushHereticBomb2 extends RoyalRushHereticBomb
 {

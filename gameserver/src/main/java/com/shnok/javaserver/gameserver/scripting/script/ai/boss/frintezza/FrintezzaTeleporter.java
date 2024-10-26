@@ -2,21 +2,21 @@ package com.shnok.javaserver.gameserver.scripting.script.ai.boss.frintezza;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.manager.SpawnManager;
-import net.sf.l2j.gameserver.data.manager.ZoneManager;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.group.CommandChannel;
-import net.sf.l2j.gameserver.model.group.Party;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.model.memo.GlobalMemo;
-import net.sf.l2j.gameserver.model.spawn.NpcMaker;
-import net.sf.l2j.gameserver.model.zone.type.BossZone;
-import net.sf.l2j.gameserver.network.NpcStringId;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowScreenMessage;
-import net.sf.l2j.gameserver.scripting.script.ai.individual.DefaultNpc;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.manager.SpawnManager;
+import com.shnok.javaserver.gameserver.data.manager.ZoneManager;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.group.CommandChannel;
+import com.shnok.javaserver.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.model.memo.GlobalMemo;
+import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
+import com.shnok.javaserver.gameserver.model.zone.type.BossZone;
+import com.shnok.javaserver.gameserver.network.NpcStringId;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowScreenMessage;
+import com.shnok.javaserver.gameserver.scripting.script.ai.individual.DefaultNpc;
 
 public class FrintezzaTeleporter extends DefaultNpc
 {

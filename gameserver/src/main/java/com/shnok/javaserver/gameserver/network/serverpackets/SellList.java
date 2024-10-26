@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.List;
 
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 
 public class SellList extends L2GameServerPacket
 {

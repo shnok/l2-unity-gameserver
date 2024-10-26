@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.manager.PartyMatchRoomManager;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.data.manager.PartyMatchRoomManager;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public class RequestDismissPartyRoom extends L2GameClientPacket
 {

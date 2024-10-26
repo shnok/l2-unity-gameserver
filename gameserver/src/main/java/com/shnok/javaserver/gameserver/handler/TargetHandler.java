@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.handler;
 
-import net.sf.l2j.gameserver.enums.skills.SkillTargetType;
+import com.shnok.javaserver.gameserver.enums.skills.SkillTargetType;
 
 public class TargetHandler extends AbstractHandler<SkillTargetType, ITargetHandler>
 {

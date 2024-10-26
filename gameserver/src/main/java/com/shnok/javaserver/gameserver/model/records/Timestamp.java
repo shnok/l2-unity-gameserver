@@ -1,6 +1,6 @@
-package net.sf.l2j.gameserver.model.records;
+package com.shnok.javaserver.gameserver.model.records;
 
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public record Timestamp(int skillId, int skillLevel, long reuse, long stamp)
 {

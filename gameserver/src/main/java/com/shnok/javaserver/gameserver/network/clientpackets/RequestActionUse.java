@@ -1,20 +1,20 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.commons.random.Rnd;
-import net.sf.l2j.commons.util.ArraysUtil;
+import com.shnok.javaserver.commons.random.Rnd;
+import com.shnok.javaserver.commons.util.ArraysUtil;
 
-import net.sf.l2j.gameserver.enums.SayType;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.Summon;
-import net.sf.l2j.gameserver.model.actor.instance.Door;
-import net.sf.l2j.gameserver.model.actor.instance.Pet;
-import net.sf.l2j.gameserver.model.actor.instance.Servitor;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.enums.SayType;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.Summon;
+import com.shnok.javaserver.gameserver.model.actor.instance.Door;
+import com.shnok.javaserver.gameserver.model.actor.instance.Pet;
+import com.shnok.javaserver.gameserver.model.actor.instance.Servitor;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcSay;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public final class RequestActionUse extends L2GameClientPacket
 {

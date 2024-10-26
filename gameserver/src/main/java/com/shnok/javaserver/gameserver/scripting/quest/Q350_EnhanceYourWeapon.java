@@ -1,22 +1,22 @@
 package com.shnok.javaserver.gameserver.scripting.quest;
 
-import net.sf.l2j.commons.random.Rnd;
-import net.sf.l2j.commons.util.ArraysUtil;
+import com.shnok.javaserver.commons.random.Rnd;
+import com.shnok.javaserver.commons.util.ArraysUtil;
 
-import net.sf.l2j.gameserver.data.xml.SoulCrystalData;
-import net.sf.l2j.gameserver.enums.QuestStatus;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.container.npc.AbsorbInfo;
-import net.sf.l2j.gameserver.model.actor.instance.Monster;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.records.LevelingInfo;
-import net.sf.l2j.gameserver.model.records.SoulCrystal;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.scripting.Quest;
-import net.sf.l2j.gameserver.scripting.QuestState;
+import com.shnok.javaserver.gameserver.data.xml.SoulCrystalData;
+import com.shnok.javaserver.gameserver.enums.QuestStatus;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.container.npc.AbsorbInfo;
+import com.shnok.javaserver.gameserver.model.actor.instance.Monster;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.records.LevelingInfo;
+import com.shnok.javaserver.gameserver.model.records.SoulCrystal;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.scripting.QuestState;
 
 public class Q350_EnhanceYourWeapon extends Quest
 {

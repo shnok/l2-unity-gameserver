@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.geoengine.geodata;
 
-import net.sf.l2j.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.World;
 
 public final class GeoStructure
 {

@@ -2,16 +2,16 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 
 import java.awt.Color;
 
-import net.sf.l2j.gameserver.enums.TeleportMode;
-import net.sf.l2j.gameserver.enums.actors.MoveType;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.WorldRegion;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.container.player.BoatInfo;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.network.serverpackets.ExServerPrimitive;
-import net.sf.l2j.gameserver.network.serverpackets.GetOnVehicle;
-import net.sf.l2j.gameserver.network.serverpackets.ValidateLocation;
+import com.shnok.javaserver.gameserver.enums.TeleportMode;
+import com.shnok.javaserver.gameserver.enums.actors.MoveType;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.WorldRegion;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.container.player.BoatInfo;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.GetOnVehicle;
+import com.shnok.javaserver.gameserver.network.serverpackets.ValidateLocation;
 
 public class ValidatePosition extends L2GameClientPacket
 {

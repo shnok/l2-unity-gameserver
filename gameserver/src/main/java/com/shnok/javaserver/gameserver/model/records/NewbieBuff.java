@@ -1,9 +1,9 @@
-package net.sf.l2j.gameserver.model.records;
+package com.shnok.javaserver.gameserver.model.records;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.model.records.interfaces.ISkill;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.model.records.interfaces.ISkill;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public record NewbieBuff(int skillId, int skillLevel, int lowerLevel, int upperLevel, boolean isMagicClass) implements ISkill
 {

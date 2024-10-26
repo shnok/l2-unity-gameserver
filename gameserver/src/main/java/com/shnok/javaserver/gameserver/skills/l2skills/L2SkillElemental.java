@@ -1,14 +1,14 @@
 package com.shnok.javaserver.gameserver.skills.l2skills;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.enums.items.ShotType;
-import net.sf.l2j.gameserver.enums.skills.ShieldDefense;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.skills.AbstractEffect;
-import net.sf.l2j.gameserver.skills.Formulas;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.enums.items.ShotType;
+import com.shnok.javaserver.gameserver.enums.skills.ShieldDefense;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.skills.AbstractEffect;
+import com.shnok.javaserver.gameserver.skills.Formulas;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class L2SkillElemental extends L2Skill
 {

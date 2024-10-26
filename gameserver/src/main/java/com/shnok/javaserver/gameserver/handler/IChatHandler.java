@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.handler;
 
-import net.sf.l2j.gameserver.enums.SayType;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.enums.SayType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 /**
  * Interface used by chat handlers.

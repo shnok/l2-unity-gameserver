@@ -3,10 +3,10 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.l2j.gameserver.data.manager.CastleManager;
-import net.sf.l2j.gameserver.data.manager.CastleManorManager;
-import net.sf.l2j.gameserver.model.manor.CropProcure;
-import net.sf.l2j.gameserver.model.residence.castle.Castle;
+import com.shnok.javaserver.gameserver.data.manager.CastleManager;
+import com.shnok.javaserver.gameserver.data.manager.CastleManorManager;
+import com.shnok.javaserver.gameserver.model.manor.CropProcure;
+import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
 
 public class ExShowProcureCropDetail extends L2GameServerPacket
 {

@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.List;
 
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
 public class ShowBoard extends L2GameServerPacket
 {

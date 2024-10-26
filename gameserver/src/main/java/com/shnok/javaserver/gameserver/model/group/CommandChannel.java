@@ -4,17 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.network.NpcStringId;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.CreatureSay;
-import net.sf.l2j.gameserver.network.serverpackets.ExCloseMPCC;
-import net.sf.l2j.gameserver.network.serverpackets.ExMPCCPartyInfoUpdate;
-import net.sf.l2j.gameserver.network.serverpackets.ExOpenMPCC;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowScreenMessage;
-import net.sf.l2j.gameserver.network.serverpackets.L2GameServerPacket;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.network.NpcStringId;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.CreatureSay;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExCloseMPCC;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExMPCCPartyInfoUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExOpenMPCC;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowScreenMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 /**
  * Mass events, like sieges or raids require joining several {@link Party}. That's what {@link CommandChannel}s are for in the world of Lineage.<br>

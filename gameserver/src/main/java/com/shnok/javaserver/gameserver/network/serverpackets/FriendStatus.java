@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.data.sql.PlayerInfoTable;
-import net.sf.l2j.gameserver.model.World;
+import com.shnok.javaserver.gameserver.data.sql.PlayerInfoTable;
+import com.shnok.javaserver.gameserver.model.World;
 
 public class FriendStatus extends L2GameServerPacket
 {

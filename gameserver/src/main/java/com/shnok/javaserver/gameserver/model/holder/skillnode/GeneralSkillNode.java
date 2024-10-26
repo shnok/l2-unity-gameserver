@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.model.holder.skillnode;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
 /**
  * A datatype used by general skill types. It extends {@link SkillNode}.

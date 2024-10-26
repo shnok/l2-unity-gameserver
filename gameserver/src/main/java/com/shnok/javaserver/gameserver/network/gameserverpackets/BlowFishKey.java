@@ -5,7 +5,7 @@ import java.security.interfaces.RSAPublicKey;
 
 import javax.crypto.Cipher;
 
-import net.sf.l2j.commons.logging.CLogger;
+import com.shnok.javaserver.commons.logging.CLogger;
 
 public class BlowFishKey extends GameServerBasePacket
 {

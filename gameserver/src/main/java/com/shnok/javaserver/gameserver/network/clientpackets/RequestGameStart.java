@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.enums.FloodProtector;
-import net.sf.l2j.gameserver.model.CharSelectSlot;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.GameClient;
-import net.sf.l2j.gameserver.network.GameClient.GameClientState;
-import net.sf.l2j.gameserver.network.serverpackets.CharSelected;
-import net.sf.l2j.gameserver.network.serverpackets.SSQInfo;
+import com.shnok.javaserver.gameserver.enums.FloodProtector;
+import com.shnok.javaserver.gameserver.model.CharSelectSlot;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.GameClient;
+import com.shnok.javaserver.gameserver.network.GameClient.GameClientState;
+import com.shnok.javaserver.gameserver.network.serverpackets.CharSelected;
+import com.shnok.javaserver.gameserver.network.serverpackets.SSQInfo;
 
 public class RequestGameStart extends L2GameClientPacket
 {

@@ -7,20 +7,20 @@ import java.util.Objects;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.math.MathUtil;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.math.MathUtil;
 
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.enums.items.ShotType;
-import net.sf.l2j.gameserver.idfactory.IdFactory;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.boat.BoatItinerary;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.model.zone.type.subtype.ZoneType;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.enums.items.ShotType;
+import com.shnok.javaserver.gameserver.idfactory.IdFactory;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.boat.BoatItinerary;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.model.zone.type.subtype.ZoneType;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
 
 /**
  * Mother class of all interactive objects in the world (PC, NPC, Item...)

@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.scripting.task;
 
-import net.sf.l2j.gameserver.data.manager.CastleManager;
-import net.sf.l2j.gameserver.scripting.ScheduledQuest;
+import com.shnok.javaserver.gameserver.data.manager.CastleManager;
+import com.shnok.javaserver.gameserver.scripting.ScheduledQuest;
 
 public final class CastleTaxRefresh extends ScheduledQuest
 {

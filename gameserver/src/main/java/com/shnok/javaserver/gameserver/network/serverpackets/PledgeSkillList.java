@@ -2,8 +2,8 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.Collection;
 
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class PledgeSkillList extends L2GameServerPacket
 {

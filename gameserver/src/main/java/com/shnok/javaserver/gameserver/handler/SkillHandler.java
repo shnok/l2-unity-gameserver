@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.handler;
 
-import net.sf.l2j.gameserver.enums.skills.SkillType;
+import com.shnok.javaserver.gameserver.enums.skills.SkillType;
 
 public class SkillHandler extends AbstractHandler<SkillType, ISkillHandler>
 {

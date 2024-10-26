@@ -4,13 +4,13 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.enums.skills.EffectType;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.skills.AbstractEffect;
-import net.sf.l2j.gameserver.skills.Formulas;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.enums.skills.EffectType;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.skills.AbstractEffect;
+import com.shnok.javaserver.gameserver.skills.Formulas;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class EffectCancel extends AbstractEffect
 {

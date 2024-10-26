@@ -1,13 +1,13 @@
 package com.shnok.javaserver.gameserver.handler.admincommandhandlers;
 
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.gameserver.data.manager.CastleManager;
-import net.sf.l2j.gameserver.data.manager.CastleManorManager;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.residence.castle.Castle;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.data.manager.CastleManager;
+import com.shnok.javaserver.gameserver.data.manager.CastleManorManager;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
 
 public class AdminManor implements IAdminCommandHandler
 {

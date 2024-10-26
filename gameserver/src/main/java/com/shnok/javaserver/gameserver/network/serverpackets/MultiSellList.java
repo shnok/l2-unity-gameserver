@@ -1,10 +1,10 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import static net.sf.l2j.gameserver.data.xml.MultisellData.PAGE_SIZE;
+import static com.shnok.javaserver.gameserver.data.xml.MultisellData.PAGE_SIZE;
 
-import net.sf.l2j.gameserver.model.multisell.Entry;
-import net.sf.l2j.gameserver.model.multisell.Ingredient;
-import net.sf.l2j.gameserver.model.multisell.ListContainer;
+import com.shnok.javaserver.gameserver.model.multisell.Entry;
+import com.shnok.javaserver.gameserver.model.multisell.Ingredient;
+import com.shnok.javaserver.gameserver.model.multisell.ListContainer;
 
 public class MultiSellList extends L2GameServerPacket
 {

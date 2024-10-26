@@ -4,16 +4,16 @@ import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.commons.logging.CLogger;
+import com.shnok.javaserver.commons.logging.CLogger;
 
-import net.sf.l2j.gameserver.enums.skills.AbnormalEffect;
-import net.sf.l2j.gameserver.enums.skills.SkillType;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.skills.AbstractEffect;
-import net.sf.l2j.gameserver.skills.ChanceCondition;
-import net.sf.l2j.gameserver.skills.L2Skill;
-import net.sf.l2j.gameserver.skills.basefuncs.FuncTemplate;
-import net.sf.l2j.gameserver.skills.conditions.Condition;
+import com.shnok.javaserver.gameserver.enums.skills.AbnormalEffect;
+import com.shnok.javaserver.gameserver.enums.skills.SkillType;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.skills.AbstractEffect;
+import com.shnok.javaserver.gameserver.skills.ChanceCondition;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.skills.basefuncs.FuncTemplate;
+import com.shnok.javaserver.gameserver.skills.conditions.Condition;
 
 public class EffectTemplate
 {
@@ -67,7 +67,7 @@ public class EffectTemplate
 		
 		try
 		{
-			_func = Class.forName("net.sf.l2j.gameserver.skills.effects.Effect" + funcName);
+			_func = Class.forName("com.shnok.javaserver.gameserver.skills.effects.Effect" + funcName);
 		}
 		catch (ClassNotFoundException e)
 		{

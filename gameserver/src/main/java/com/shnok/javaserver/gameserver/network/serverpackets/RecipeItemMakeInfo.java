@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.data.xml.RecipeData;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.records.Recipe;
+import com.shnok.javaserver.gameserver.data.xml.RecipeData;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.records.Recipe;
 
 public class RecipeItemMakeInfo extends L2GameServerPacket
 {

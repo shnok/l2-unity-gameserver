@@ -1,13 +1,13 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.individual.Monster.RaidBoss.RaidBossAlone.RaidBossType1.RaidBossType1Aggressive;
 
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.NpcStringId;
-import net.sf.l2j.gameserver.network.serverpackets.SpecialCamera;
-import net.sf.l2j.gameserver.skills.L2Skill;
-import net.sf.l2j.gameserver.taskmanager.GameTimeTaskManager;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.NpcStringId;
+import com.shnok.javaserver.gameserver.network.serverpackets.SpecialCamera;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.taskmanager.GameTimeTaskManager;
 
 public class DrChaosGiganticGolem extends RaidBossType1Aggressive
 {

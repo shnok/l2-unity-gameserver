@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.model.itemcontainer;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.items.ItemLocation;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.items.ItemLocation;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
 
 public final class ClanWarehouse extends ItemContainer
 {

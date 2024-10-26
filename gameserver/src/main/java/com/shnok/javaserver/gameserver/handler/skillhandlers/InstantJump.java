@@ -1,14 +1,14 @@
 package com.shnok.javaserver.gameserver.handler.skillhandlers;
 
-import net.sf.l2j.commons.math.MathUtil;
+import com.shnok.javaserver.commons.math.MathUtil;
 
-import net.sf.l2j.gameserver.enums.skills.SkillType;
-import net.sf.l2j.gameserver.handler.ISkillHandler;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.network.serverpackets.ValidateLocation;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.enums.skills.SkillType;
+import com.shnok.javaserver.gameserver.handler.ISkillHandler;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.network.serverpackets.ValidateLocation;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class InstantJump implements ISkillHandler
 {

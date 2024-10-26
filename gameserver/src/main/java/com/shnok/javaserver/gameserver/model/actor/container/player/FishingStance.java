@@ -2,25 +2,25 @@ package com.shnok.javaserver.gameserver.model.actor.container.player;
 
 import java.util.concurrent.Future;
 
-import net.sf.l2j.commons.pool.ThreadPool;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.data.manager.FishingChampionshipManager;
-import net.sf.l2j.gameserver.data.xml.FishData;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.records.Fish;
-import net.sf.l2j.gameserver.model.spawn.Spawn;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ExFishingEnd;
-import net.sf.l2j.gameserver.network.serverpackets.ExFishingHpRegen;
-import net.sf.l2j.gameserver.network.serverpackets.ExFishingStart;
-import net.sf.l2j.gameserver.network.serverpackets.ExFishingStartCombat;
-import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.skills.AbstractEffect;
+import com.shnok.javaserver.gameserver.data.manager.FishingChampionshipManager;
+import com.shnok.javaserver.gameserver.data.xml.FishData;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.records.Fish;
+import com.shnok.javaserver.gameserver.model.spawn.Spawn;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExFishingEnd;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExFishingHpRegen;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExFishingStart;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExFishingStartCombat;
+import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.skills.AbstractEffect;
 
 /**
  * This class handles all fishing aspects and variables.<br>

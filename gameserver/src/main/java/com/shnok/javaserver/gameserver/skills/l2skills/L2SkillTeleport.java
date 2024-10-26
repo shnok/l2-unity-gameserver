@@ -1,16 +1,16 @@
 package com.shnok.javaserver.gameserver.skills.l2skills;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.data.xml.RestartPointData;
-import net.sf.l2j.gameserver.enums.RestartType;
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.enums.items.ShotType;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.data.xml.RestartPointData;
+import com.shnok.javaserver.gameserver.enums.RestartType;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.enums.items.ShotType;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class L2SkillTeleport extends L2Skill
 {

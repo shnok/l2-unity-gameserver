@@ -1,11 +1,11 @@
 package com.shnok.javaserver.gameserver.skills.funcs;
 
-import net.sf.l2j.gameserver.enums.skills.Stats;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Summon;
-import net.sf.l2j.gameserver.skills.Formulas;
-import net.sf.l2j.gameserver.skills.L2Skill;
-import net.sf.l2j.gameserver.skills.basefuncs.Func;
+import com.shnok.javaserver.gameserver.enums.skills.Stats;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Summon;
+import com.shnok.javaserver.gameserver.skills.Formulas;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.skills.basefuncs.Func;
 
 /**
  * @see Func

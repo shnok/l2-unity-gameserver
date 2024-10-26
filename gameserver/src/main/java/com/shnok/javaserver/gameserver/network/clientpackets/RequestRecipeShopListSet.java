@@ -1,17 +1,17 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.commons.util.ArraysUtil;
+import com.shnok.javaserver.commons.util.ArraysUtil;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.xml.RecipeData;
-import net.sf.l2j.gameserver.enums.actors.OperateType;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.craft.ManufactureList;
-import net.sf.l2j.gameserver.model.records.ManufactureItem;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.RecipeShopManageList;
-import net.sf.l2j.gameserver.network.serverpackets.RecipeShopMsg;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.xml.RecipeData;
+import com.shnok.javaserver.gameserver.enums.actors.OperateType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.craft.ManufactureList;
+import com.shnok.javaserver.gameserver.model.records.ManufactureItem;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.RecipeShopManageList;
+import com.shnok.javaserver.gameserver.network.serverpackets.RecipeShopMsg;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public final class RequestRecipeShopListSet extends L2GameClientPacket
 {

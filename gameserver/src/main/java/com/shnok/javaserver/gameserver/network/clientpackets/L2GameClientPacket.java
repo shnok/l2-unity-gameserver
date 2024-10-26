@@ -2,13 +2,13 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 
 import java.nio.BufferUnderflowException;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.mmocore.ReceivablePacket;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.mmocore.ReceivablePacket;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.GameClient;
-import net.sf.l2j.gameserver.network.serverpackets.L2GameServerPacket;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.GameClient;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 /**
  * Packets received by the gameserver from clients.

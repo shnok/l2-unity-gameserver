@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.xml.RecipeData;
-import net.sf.l2j.gameserver.enums.actors.OperateType;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.records.Recipe;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.RecipeBookItemList;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.data.xml.RecipeData;
+import com.shnok.javaserver.gameserver.enums.actors.OperateType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.records.Recipe;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.RecipeBookItemList;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public final class RequestRecipeBookDestroy extends L2GameClientPacket
 {

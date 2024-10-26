@@ -2,8 +2,8 @@ package com.shnok.javaserver.gameserver.model.manor;
 
 import java.util.List;
 
-import net.sf.l2j.commons.geometry.Polygon;
-import net.sf.l2j.commons.geometry.Triangle;
+import com.shnok.javaserver.commons.geometry.Polygon;
+import com.shnok.javaserver.commons.geometry.Triangle;
 
 /**
  * This class represents the manor area in a world.<br>

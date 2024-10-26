@@ -4,18 +4,18 @@ import java.awt.Color;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import net.sf.l2j.commons.data.Pagination;
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.data.Pagination;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.gameserver.data.manager.SpawnManager;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.spawn.MultiSpawn;
-import net.sf.l2j.gameserver.model.spawn.NpcMaker;
-import net.sf.l2j.gameserver.model.spawn.Territory;
-import net.sf.l2j.gameserver.network.serverpackets.ExServerPrimitive;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.data.manager.SpawnManager;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.spawn.MultiSpawn;
+import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
+import com.shnok.javaserver.gameserver.model.spawn.Territory;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.scripting.Quest;
 
 public class AdminAlternativeSpawn implements IAdminCommandHandler
 {

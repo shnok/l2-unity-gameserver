@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.model.location;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
 public class ObserverLocation extends Location
 {

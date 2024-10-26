@@ -1,10 +1,10 @@
 package com.shnok.javaserver.gameserver.handler;
 
-import net.sf.l2j.gameserver.enums.skills.SkillTargetType;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.enums.skills.SkillTargetType;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public interface ITargetHandler
 {

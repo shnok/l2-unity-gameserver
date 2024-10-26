@@ -3,14 +3,14 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.l2j.gameserver.enums.items.CrystalType;
-import net.sf.l2j.gameserver.enums.items.ItemLocation;
-import net.sf.l2j.gameserver.enums.items.WeaponType;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.LifeStone;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.item.kind.Weapon;
-import net.sf.l2j.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.enums.items.CrystalType;
+import com.shnok.javaserver.gameserver.enums.items.ItemLocation;
+import com.shnok.javaserver.gameserver.enums.items.WeaponType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.LifeStone;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
 
 public abstract class AbstractRefinePacket extends L2GameClientPacket
 {

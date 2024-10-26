@@ -1,14 +1,14 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.manager.CastleManager;
-import net.sf.l2j.gameserver.data.manager.ClanHallManager;
-import net.sf.l2j.gameserver.enums.PrivilegeType;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.model.residence.castle.Castle;
-import net.sf.l2j.gameserver.model.residence.clanhall.SiegableHall;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SiegeInfo;
+import com.shnok.javaserver.gameserver.data.manager.CastleManager;
+import com.shnok.javaserver.gameserver.data.manager.ClanHallManager;
+import com.shnok.javaserver.gameserver.enums.PrivilegeType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.SiegableHall;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.SiegeInfo;
 
 public final class RequestJoinSiege extends L2GameClientPacket
 {

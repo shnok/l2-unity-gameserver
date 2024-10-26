@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.manager.SevenSignsManager;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.SSQStatus;
+import com.shnok.javaserver.gameserver.data.manager.SevenSignsManager;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.SSQStatus;
 
 public final class RequestSSQStatus extends L2GameClientPacket
 {

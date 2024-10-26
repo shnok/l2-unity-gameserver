@@ -10,25 +10,25 @@ import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.locks.ReentrantLock;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.mmocore.MMOClient;
-import net.sf.l2j.commons.mmocore.MMOConnection;
-import net.sf.l2j.commons.mmocore.ReceivablePacket;
-import net.sf.l2j.commons.pool.ConnectionPool;
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.mmocore.MMOClient;
+import com.shnok.javaserver.commons.mmocore.MMOConnection;
+import com.shnok.javaserver.commons.mmocore.ReceivablePacket;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.LoginServerThread;
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.data.sql.PlayerInfoTable;
-import net.sf.l2j.gameserver.enums.FloodProtector;
-import net.sf.l2j.gameserver.model.CharSelectSlot;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.L2GameServerPacket;
-import net.sf.l2j.gameserver.network.serverpackets.ServerClose;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.LoginServerThread;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.data.sql.PlayerInfoTable;
+import com.shnok.javaserver.gameserver.enums.FloodProtector;
+import com.shnok.javaserver.gameserver.model.CharSelectSlot;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
+import com.shnok.javaserver.gameserver.network.serverpackets.ServerClose;
 
 /**
  * Represents a client connected on Game Server.<br>

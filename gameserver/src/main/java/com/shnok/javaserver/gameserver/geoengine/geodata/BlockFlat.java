@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.geoengine.geodata;
 
 import java.nio.ByteBuffer;
 
-import net.sf.l2j.gameserver.enums.GeoType;
+import com.shnok.javaserver.gameserver.enums.GeoType;
 
 public class BlockFlat extends ABlock
 {

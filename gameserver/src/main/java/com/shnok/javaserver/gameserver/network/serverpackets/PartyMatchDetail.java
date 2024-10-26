@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.group.PartyMatchRoom;
+import com.shnok.javaserver.gameserver.model.group.PartyMatchRoom;
 
 public class PartyMatchDetail extends L2GameServerPacket
 {

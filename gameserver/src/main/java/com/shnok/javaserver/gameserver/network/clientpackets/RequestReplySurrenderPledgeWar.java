@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public final class RequestReplySurrenderPledgeWar extends L2GameClientPacket
 {

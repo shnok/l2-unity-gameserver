@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.skills.effects;
 
-import net.sf.l2j.gameserver.enums.skills.EffectFlag;
-import net.sf.l2j.gameserver.enums.skills.EffectType;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.EtcStatusUpdate;
-import net.sf.l2j.gameserver.skills.AbstractEffect;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.enums.skills.EffectFlag;
+import com.shnok.javaserver.gameserver.enums.skills.EffectType;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.EtcStatusUpdate;
+import com.shnok.javaserver.gameserver.skills.AbstractEffect;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class EffectCharmOfCourage extends AbstractEffect
 {

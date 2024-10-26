@@ -3,23 +3,23 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.communitybbs.CommunityBoard;
-import net.sf.l2j.gameserver.data.manager.HeroManager;
-import net.sf.l2j.gameserver.data.xml.AdminData;
-import net.sf.l2j.gameserver.enums.FloodProtector;
-import net.sf.l2j.gameserver.handler.AdminCommandHandler;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.OlympiadManagerNpc;
-import net.sf.l2j.gameserver.model.olympiad.OlympiadManager;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.scripting.QuestState;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.communitybbs.CommunityBoard;
+import com.shnok.javaserver.gameserver.data.manager.HeroManager;
+import com.shnok.javaserver.gameserver.data.xml.AdminData;
+import com.shnok.javaserver.gameserver.enums.FloodProtector;
+import com.shnok.javaserver.gameserver.handler.AdminCommandHandler;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.OlympiadManagerNpc;
+import com.shnok.javaserver.gameserver.model.olympiad.OlympiadManager;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.scripting.QuestState;
 
 public final class RequestBypassToServer extends L2GameClientPacket
 {

@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.group;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.network.NpcStringId;
-import net.sf.l2j.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.network.NpcStringId;
+import com.shnok.javaserver.gameserver.scripting.Quest;
 
 /**
  * Handles teleporting NPCs, such as Toma, Merchant of Mammon, Blacksmith of Mammon and Rooney.<br>

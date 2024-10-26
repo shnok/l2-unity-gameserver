@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.model.actor.instance;
 
-import net.sf.l2j.commons.util.ArraysUtil;
+import com.shnok.javaserver.commons.util.ArraysUtil;
 
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 
 public final class Chest extends Monster
 {

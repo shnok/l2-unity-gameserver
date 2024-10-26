@@ -3,32 +3,32 @@ package com.shnok.javaserver.gameserver.handler.admincommandhandlers;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-import net.sf.l2j.commons.data.Pagination;
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.data.Pagination;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.enums.AiEventType;
-import net.sf.l2j.gameserver.enums.skills.AbnormalEffect;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.Summon;
-import net.sf.l2j.gameserver.model.actor.instance.Chest;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.Earthquake;
-import net.sf.l2j.gameserver.network.serverpackets.ExRedSky;
-import net.sf.l2j.gameserver.network.serverpackets.L2GameServerPacket;
-import net.sf.l2j.gameserver.network.serverpackets.MagicSkillUse;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
-import net.sf.l2j.gameserver.network.serverpackets.SSQInfo;
-import net.sf.l2j.gameserver.network.serverpackets.SocialAction;
-import net.sf.l2j.gameserver.network.serverpackets.SunRise;
-import net.sf.l2j.gameserver.network.serverpackets.SunSet;
-import net.sf.l2j.gameserver.skills.AbstractEffect;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.data.SkillTable;
+import com.shnok.javaserver.gameserver.enums.AiEventType;
+import com.shnok.javaserver.gameserver.enums.skills.AbnormalEffect;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.Summon;
+import com.shnok.javaserver.gameserver.model.actor.instance.Chest;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.Earthquake;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExRedSky;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
+import com.shnok.javaserver.gameserver.network.serverpackets.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.SSQInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
+import com.shnok.javaserver.gameserver.network.serverpackets.SunRise;
+import com.shnok.javaserver.gameserver.network.serverpackets.SunSet;
+import com.shnok.javaserver.gameserver.skills.AbstractEffect;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class AdminEffects implements IAdminCommandHandler
 {

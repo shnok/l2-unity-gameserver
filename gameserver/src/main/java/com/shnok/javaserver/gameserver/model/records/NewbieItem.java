@@ -1,6 +1,6 @@
-package net.sf.l2j.gameserver.model.records;
+package com.shnok.javaserver.gameserver.model.records;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
 public record NewbieItem(int id, int count, boolean isEquipped)
 {

@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.communitybbs.CommunityBoard;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.communitybbs.CommunityBoard;
 
 public final class RequestShowBoard extends L2GameClientPacket
 {

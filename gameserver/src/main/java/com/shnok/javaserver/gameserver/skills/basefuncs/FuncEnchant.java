@@ -1,11 +1,11 @@
 package com.shnok.javaserver.gameserver.skills.basefuncs;
 
-import net.sf.l2j.gameserver.enums.items.WeaponType;
-import net.sf.l2j.gameserver.enums.skills.Stats;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.skills.L2Skill;
-import net.sf.l2j.gameserver.skills.conditions.Condition;
+import com.shnok.javaserver.gameserver.enums.items.WeaponType;
+import com.shnok.javaserver.gameserver.enums.skills.Stats;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.skills.conditions.Condition;
 
 /**
  * @see Func

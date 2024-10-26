@@ -4,20 +4,20 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.List;
 
-import net.sf.l2j.commons.pool.ConnectionPool;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.OlympiadType;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.zone.type.OlympiadStadiumZone;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ExOlympiadUserInfo;
-import net.sf.l2j.gameserver.network.serverpackets.L2GameServerPacket;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.OlympiadType;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.zone.type.OlympiadStadiumZone;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExOlympiadUserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public abstract class OlympiadGameNormal extends AbstractOlympiadGame
 {

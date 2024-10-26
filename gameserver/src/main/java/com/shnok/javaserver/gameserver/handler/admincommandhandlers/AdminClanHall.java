@@ -3,19 +3,19 @@ package com.shnok.javaserver.gameserver.handler.admincommandhandlers;
 import java.text.SimpleDateFormat;
 import java.util.StringTokenizer;
 
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.gameserver.data.manager.ClanHallManager;
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.enums.SpawnType;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.model.residence.clanhall.Auction;
-import net.sf.l2j.gameserver.model.residence.clanhall.ClanHall;
-import net.sf.l2j.gameserver.model.residence.clanhall.SiegableHall;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.data.manager.ClanHallManager;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.enums.SpawnType;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.Auction;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHall;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.SiegableHall;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
 
 public class AdminClanHall implements IAdminCommandHandler
 {

@@ -2,21 +2,21 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 
 import java.nio.BufferUnderflowException;
 
-import net.sf.l2j.commons.math.MathUtil;
+import com.shnok.javaserver.commons.math.MathUtil;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.TeleportMode;
-import net.sf.l2j.gameserver.enums.boats.BoatDock;
-import net.sf.l2j.gameserver.model.actor.Boat;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.container.player.BoatInfo;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.location.Point2D;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.MoveToLocation;
-import net.sf.l2j.gameserver.network.serverpackets.MoveToLocationInVehicle;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.TeleportMode;
+import com.shnok.javaserver.gameserver.enums.boats.BoatDock;
+import com.shnok.javaserver.gameserver.model.actor.Boat;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.container.player.BoatInfo;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.location.Point2D;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.MoveToLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.MoveToLocationInVehicle;
 
 public class MoveBackwardToLocation extends L2GameClientPacket
 {

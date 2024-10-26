@@ -3,9 +3,9 @@ package com.shnok.javaserver.gameserver.model.actor.container.player;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.Cubic;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.Cubic;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**
  * An ordered, concurrent queue container holding {@link Cubic}s of a {@link Player}.

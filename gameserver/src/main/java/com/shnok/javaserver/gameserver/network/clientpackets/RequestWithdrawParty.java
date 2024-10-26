@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.manager.PartyMatchRoomManager;
-import net.sf.l2j.gameserver.enums.MessageType;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.group.Party;
-import net.sf.l2j.gameserver.model.group.PartyMatchRoom;
-import net.sf.l2j.gameserver.network.serverpackets.ExPartyRoomMember;
-import net.sf.l2j.gameserver.network.serverpackets.PartyMatchDetail;
+import com.shnok.javaserver.gameserver.data.manager.PartyMatchRoomManager;
+import com.shnok.javaserver.gameserver.enums.MessageType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.model.group.PartyMatchRoom;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExPartyRoomMember;
+import com.shnok.javaserver.gameserver.network.serverpackets.PartyMatchDetail;
 
 public final class RequestWithdrawParty extends L2GameClientPacket
 {

@@ -7,14 +7,14 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import net.sf.l2j.commons.util.PriorityQueueSet;
+import com.shnok.javaserver.commons.util.PriorityQueueSet;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.geoengine.GeoEngine;
-import net.sf.l2j.gameserver.geoengine.geodata.ABlock;
-import net.sf.l2j.gameserver.geoengine.geodata.GeoStructure;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.geoengine.GeoEngine;
+import com.shnok.javaserver.gameserver.geoengine.geodata.ABlock;
+import com.shnok.javaserver.gameserver.geoengine.geodata.GeoStructure;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
 
 public class PathFinder
 {

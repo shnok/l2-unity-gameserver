@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.network.serverpackets.PledgeCrest;
+import com.shnok.javaserver.gameserver.network.serverpackets.PledgeCrest;
 
 public final class RequestPledgeCrest extends L2GameClientPacket
 {

@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.FloodProtector;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.item.kind.Item;
-import net.sf.l2j.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.FloodProtector;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
 
 public final class RequestDropItem extends L2GameClientPacket
 {

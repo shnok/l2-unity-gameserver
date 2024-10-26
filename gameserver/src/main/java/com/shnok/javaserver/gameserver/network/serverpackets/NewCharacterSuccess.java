@@ -3,9 +3,9 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.gameserver.data.xml.PlayerData;
-import net.sf.l2j.gameserver.enums.actors.ClassId;
-import net.sf.l2j.gameserver.model.actor.template.PlayerTemplate;
+import com.shnok.javaserver.gameserver.data.xml.PlayerData;
+import com.shnok.javaserver.gameserver.enums.actors.ClassId;
+import com.shnok.javaserver.gameserver.model.actor.template.PlayerTemplate;
 
 public class NewCharacterSuccess extends L2GameServerPacket
 {

@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.List;
 
-import net.sf.l2j.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
 
 public class MonRaceInfo extends L2GameServerPacket
 {

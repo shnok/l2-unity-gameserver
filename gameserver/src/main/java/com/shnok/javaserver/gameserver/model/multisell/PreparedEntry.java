@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.model.multisell;
 
 import java.util.ArrayList;
 
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 
 /**
  * A dynamic layer of {@link Entry}, which holds the tax amount and can retain previous {@link ItemInstance} enchantment.

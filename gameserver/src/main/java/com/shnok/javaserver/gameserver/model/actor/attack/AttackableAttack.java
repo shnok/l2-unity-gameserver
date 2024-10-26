@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.model.actor.attack;
 
-import net.sf.l2j.gameserver.enums.EventHandler;
-import net.sf.l2j.gameserver.model.actor.Attackable;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.enums.EventHandler;
+import com.shnok.javaserver.gameserver.model.actor.Attackable;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.scripting.Quest;
 
 /**
  * This class groups all attack data related to a {@link Creature}.

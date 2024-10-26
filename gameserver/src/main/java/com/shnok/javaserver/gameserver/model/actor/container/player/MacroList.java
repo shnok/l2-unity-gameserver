@@ -8,15 +8,15 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import net.sf.l2j.commons.lang.StringUtil;
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
 
-import net.sf.l2j.gameserver.enums.ShortcutType;
-import net.sf.l2j.gameserver.model.Macro;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.records.MacroCmd;
-import net.sf.l2j.gameserver.network.serverpackets.SendMacroList;
+import com.shnok.javaserver.gameserver.enums.ShortcutType;
+import com.shnok.javaserver.gameserver.model.Macro;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.records.MacroCmd;
+import com.shnok.javaserver.gameserver.network.serverpackets.SendMacroList;
 
 /**
  * An ordered container holding {@link Macro}s of a {@link Player}.

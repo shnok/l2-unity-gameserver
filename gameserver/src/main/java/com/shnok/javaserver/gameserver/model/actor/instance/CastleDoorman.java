@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.model.actor.instance;
 
-import net.sf.l2j.gameserver.enums.PrivilegeType;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.model.residence.clanhall.SiegableHall;
+import com.shnok.javaserver.gameserver.enums.PrivilegeType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.SiegableHall;
 
 /**
  * An instance type extending {@link Doorman}, used by castle doorman.<br>

@@ -3,10 +3,10 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.l2j.gameserver.data.manager.CastleManorManager;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.manor.CropProcure;
+import com.shnok.javaserver.gameserver.data.manager.CastleManorManager;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.manor.CropProcure;
 
 public class SellListProcure extends L2GameServerPacket
 {

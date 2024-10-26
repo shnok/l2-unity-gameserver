@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.individual.Monster.WizardBase.Wizard.WizardDDMagic2;
 
-import net.sf.l2j.gameserver.enums.actors.NpcSkillType;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.enums.actors.NpcSkillType;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
 
 public class WizardHereticDDMagic2CurseAggressive extends WizardHereticDDMagic2Curse
 {

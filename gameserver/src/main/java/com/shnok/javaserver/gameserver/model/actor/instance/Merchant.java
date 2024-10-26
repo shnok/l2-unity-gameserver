@@ -3,19 +3,19 @@ package com.shnok.javaserver.gameserver.model.actor.instance;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.cache.HtmCache;
-import net.sf.l2j.gameserver.data.manager.BuyListManager;
-import net.sf.l2j.gameserver.data.xml.MultisellData;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.model.buylist.NpcBuyList;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.network.serverpackets.BuyList;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.SellList;
-import net.sf.l2j.gameserver.network.serverpackets.ShopPreviewList;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.cache.HtmCache;
+import com.shnok.javaserver.gameserver.data.manager.BuyListManager;
+import com.shnok.javaserver.gameserver.data.xml.MultisellData;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.buylist.NpcBuyList;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.network.serverpackets.BuyList;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.SellList;
+import com.shnok.javaserver.gameserver.network.serverpackets.ShopPreviewList;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**
  * An instance type extending {@link Folk}, used for merchant (regular and multisell). It got buy/sell methods.<br>

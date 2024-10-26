@@ -2,17 +2,17 @@ package com.shnok.javaserver.gameserver.model.actor.template;
 
 import java.util.List;
 
-import net.sf.l2j.commons.data.StatSet;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.data.StatSet;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.data.xml.ItemData;
-import net.sf.l2j.gameserver.enums.actors.ClassId;
-import net.sf.l2j.gameserver.enums.actors.ClassRace;
-import net.sf.l2j.gameserver.enums.actors.Sex;
-import net.sf.l2j.gameserver.model.holder.skillnode.GeneralSkillNode;
-import net.sf.l2j.gameserver.model.item.kind.Weapon;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.records.NewbieItem;
+import com.shnok.javaserver.gameserver.data.xml.ItemData;
+import com.shnok.javaserver.gameserver.enums.actors.ClassId;
+import com.shnok.javaserver.gameserver.enums.actors.ClassRace;
+import com.shnok.javaserver.gameserver.enums.actors.Sex;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.GeneralSkillNode;
+import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.records.NewbieItem;
 
 /**
  * A datatype extending {@link CreatureTemplate}, used to retain Player template informations such as classId, specific collision values for female, hp/mp/cp tables, etc.<br>

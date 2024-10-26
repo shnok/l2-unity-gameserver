@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.Arrays;
 
-import net.sf.l2j.Config;
+import com.shnok.javaserver.Config;
 
 public final class VersionCheck extends L2GameServerPacket
 {

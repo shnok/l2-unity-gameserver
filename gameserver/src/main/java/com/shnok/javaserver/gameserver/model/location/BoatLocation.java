@@ -2,11 +2,11 @@ package com.shnok.javaserver.gameserver.model.location;
 
 import java.util.stream.Stream;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.BoatSay;
+import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.BoatSay;
 
 /**
  * A datatype extending {@link Location} used for boats. It notably holds move speed and rotation speed.

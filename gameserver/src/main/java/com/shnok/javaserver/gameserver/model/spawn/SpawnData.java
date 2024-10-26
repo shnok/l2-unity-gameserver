@@ -3,8 +3,8 @@ package com.shnok.javaserver.gameserver.model.spawn;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
 
 /**
  * A class used to save {@link Npc}.<br>

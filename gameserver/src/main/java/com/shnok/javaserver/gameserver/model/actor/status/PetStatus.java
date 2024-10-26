@@ -1,19 +1,19 @@
 package com.shnok.javaserver.gameserver.model.actor.status;
 
-import net.sf.l2j.gameserver.data.manager.ZoneManager;
-import net.sf.l2j.gameserver.data.xml.PlayerLevelData;
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.enums.actors.WeightPenalty;
-import net.sf.l2j.gameserver.enums.skills.Stats;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.instance.Pet;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.records.PetDataEntry;
-import net.sf.l2j.gameserver.model.zone.type.SwampZone;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SocialAction;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.data.manager.ZoneManager;
+import com.shnok.javaserver.gameserver.data.xml.PlayerLevelData;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.enums.actors.WeightPenalty;
+import com.shnok.javaserver.gameserver.enums.skills.Stats;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.instance.Pet;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.records.PetDataEntry;
+import com.shnok.javaserver.gameserver.model.zone.type.SwampZone;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class PetStatus extends SummonStatus<Pet>
 {

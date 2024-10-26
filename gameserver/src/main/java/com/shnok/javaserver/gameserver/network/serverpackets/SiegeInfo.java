@@ -2,11 +2,11 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.Calendar;
 
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.model.residence.castle.Castle;
-import net.sf.l2j.gameserver.model.residence.clanhall.SiegableHall;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.SiegableHall;
 
 public class SiegeInfo extends L2GameServerPacket
 {

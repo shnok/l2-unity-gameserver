@@ -4,15 +4,15 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.StringTokenizer;
 
-import net.sf.l2j.commons.lang.StringUtil;
-import net.sf.l2j.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
 
-import net.sf.l2j.gameserver.LoginServerThread;
-import net.sf.l2j.gameserver.enums.PunishmentType;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.LoginServerThread;
+import com.shnok.javaserver.gameserver.enums.PunishmentType;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
 
 public class AdminPunish implements IAdminCommandHandler
 {

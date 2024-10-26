@@ -2,18 +2,18 @@ package com.shnok.javaserver.gameserver.handler.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.gameserver.data.manager.ZoneManager;
-import net.sf.l2j.gameserver.data.xml.RestartPointData;
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.restart.RestartPoint;
-import net.sf.l2j.gameserver.model.zone.type.subtype.ZoneType;
-import net.sf.l2j.gameserver.network.serverpackets.ExServerPrimitive;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.data.manager.ZoneManager;
+import com.shnok.javaserver.gameserver.data.xml.RestartPointData;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.restart.RestartPoint;
+import com.shnok.javaserver.gameserver.model.zone.type.subtype.ZoneType;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
 
 public class AdminZone implements IAdminCommandHandler
 {

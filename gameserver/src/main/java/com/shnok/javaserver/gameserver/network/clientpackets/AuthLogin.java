@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.LoginServerThread;
+import com.shnok.javaserver.gameserver.LoginServerThread;
 
 public final class AuthLogin extends L2GameClientPacket
 {

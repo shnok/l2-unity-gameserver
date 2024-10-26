@@ -1,21 +1,21 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.data.xml.SkillTreeData;
-import net.sf.l2j.gameserver.data.xml.SpellbookData;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.Fisherman;
-import net.sf.l2j.gameserver.model.actor.instance.Folk;
-import net.sf.l2j.gameserver.model.actor.instance.VillageMaster;
-import net.sf.l2j.gameserver.model.holder.skillnode.ClanSkillNode;
-import net.sf.l2j.gameserver.model.holder.skillnode.FishingSkillNode;
-import net.sf.l2j.gameserver.model.holder.skillnode.GeneralSkillNode;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ExStorageMaxCount;
-import net.sf.l2j.gameserver.network.serverpackets.SkillList;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.SkillTable;
+import com.shnok.javaserver.gameserver.data.xml.SkillTreeData;
+import com.shnok.javaserver.gameserver.data.xml.SpellbookData;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.Fisherman;
+import com.shnok.javaserver.gameserver.model.actor.instance.Folk;
+import com.shnok.javaserver.gameserver.model.actor.instance.VillageMaster;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.ClanSkillNode;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.FishingSkillNode;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.GeneralSkillNode;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExStorageMaxCount;
+import com.shnok.javaserver.gameserver.network.serverpackets.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class RequestAcquireSkill extends L2GameClientPacket
 {

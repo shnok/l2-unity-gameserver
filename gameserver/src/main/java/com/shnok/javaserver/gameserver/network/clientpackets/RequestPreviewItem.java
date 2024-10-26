@@ -3,23 +3,23 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 import java.util.EnumMap;
 import java.util.Map;
 
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.manager.BuyListManager;
-import net.sf.l2j.gameserver.enums.Paperdoll;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.Merchant;
-import net.sf.l2j.gameserver.model.buylist.NpcBuyList;
-import net.sf.l2j.gameserver.model.buylist.Product;
-import net.sf.l2j.gameserver.model.item.kind.Item;
-import net.sf.l2j.gameserver.model.itemcontainer.Inventory;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.ShopPreviewInfo;
-import net.sf.l2j.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.manager.BuyListManager;
+import com.shnok.javaserver.gameserver.enums.Paperdoll;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.Merchant;
+import com.shnok.javaserver.gameserver.model.buylist.NpcBuyList;
+import com.shnok.javaserver.gameserver.model.buylist.Product;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.gameserver.model.itemcontainer.Inventory;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.ShopPreviewInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
 
 public final class RequestPreviewItem extends L2GameClientPacket
 {

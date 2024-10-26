@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.model.actor.container.monster;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.Monster;
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
-import net.sf.l2j.gameserver.model.manor.Seed;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.Monster;
+import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
+import com.shnok.javaserver.gameserver.model.manor.Seed;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**
  * A container holding all related informations of a {@link Monster} seed state.<br>

@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.enums.SayType;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Summon;
+import com.shnok.javaserver.gameserver.enums.SayType;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Summon;
 
 public final class NpcSay extends L2GameServerPacket
 {

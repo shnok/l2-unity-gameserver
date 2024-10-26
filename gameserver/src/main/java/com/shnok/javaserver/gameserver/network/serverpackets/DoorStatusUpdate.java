@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.actor.instance.Door;
-import net.sf.l2j.gameserver.model.residence.castle.Castle;
+import com.shnok.javaserver.gameserver.model.actor.instance.Door;
+import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
 
 public class DoorStatusUpdate extends L2GameServerPacket
 {

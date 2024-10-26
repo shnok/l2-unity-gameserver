@@ -7,20 +7,20 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-import net.sf.l2j.commons.random.Rnd;
-import net.sf.l2j.commons.util.ArraysUtil;
+import com.shnok.javaserver.commons.random.Rnd;
+import com.shnok.javaserver.commons.util.ArraysUtil;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.QuestStatus;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.group.Party;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.network.NpcStringId;
-import net.sf.l2j.gameserver.scripting.Quest;
-import net.sf.l2j.gameserver.scripting.QuestState;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.QuestStatus;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.network.NpcStringId;
+import com.shnok.javaserver.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.scripting.QuestState;
 
 public class Q501_ProofOfClanAlliance extends Quest
 {

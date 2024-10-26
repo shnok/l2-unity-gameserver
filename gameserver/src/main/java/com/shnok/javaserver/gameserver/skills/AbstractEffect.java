@@ -6,24 +6,24 @@ import java.util.List;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.gameserver.enums.skills.AbnormalEffect;
-import net.sf.l2j.gameserver.enums.skills.EffectFlag;
-import net.sf.l2j.gameserver.enums.skills.EffectState;
-import net.sf.l2j.gameserver.enums.skills.EffectType;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.Summon;
-import net.sf.l2j.gameserver.model.actor.instance.Servitor;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.AbnormalStatusUpdate;
-import net.sf.l2j.gameserver.network.serverpackets.ExOlympiadSpelledInfo;
-import net.sf.l2j.gameserver.network.serverpackets.PartySpelled;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.skills.basefuncs.Func;
-import net.sf.l2j.gameserver.skills.basefuncs.FuncTemplate;
-import net.sf.l2j.gameserver.skills.effects.EffectTemplate;
+import com.shnok.javaserver.gameserver.enums.skills.AbnormalEffect;
+import com.shnok.javaserver.gameserver.enums.skills.EffectFlag;
+import com.shnok.javaserver.gameserver.enums.skills.EffectState;
+import com.shnok.javaserver.gameserver.enums.skills.EffectType;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.Summon;
+import com.shnok.javaserver.gameserver.model.actor.instance.Servitor;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.AbnormalStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExOlympiadSpelledInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.PartySpelled;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.skills.basefuncs.Func;
+import com.shnok.javaserver.gameserver.skills.basefuncs.FuncTemplate;
+import com.shnok.javaserver.gameserver.skills.effects.EffectTemplate;
 
 public abstract class AbstractEffect
 {

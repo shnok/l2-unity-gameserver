@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.location.Location;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.location.Location;
 
 public class ExFishingStart extends L2GameServerPacket
 {

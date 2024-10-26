@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.enums.skills.AbnormalEffect;
-import net.sf.l2j.gameserver.model.actor.Summon;
-import net.sf.l2j.gameserver.model.actor.instance.Pet;
-import net.sf.l2j.gameserver.model.actor.instance.Servitor;
+import com.shnok.javaserver.gameserver.enums.skills.AbnormalEffect;
+import com.shnok.javaserver.gameserver.model.actor.Summon;
+import com.shnok.javaserver.gameserver.model.actor.instance.Pet;
+import com.shnok.javaserver.gameserver.model.actor.instance.Servitor;
 
 public class PetInfo extends L2GameServerPacket
 {

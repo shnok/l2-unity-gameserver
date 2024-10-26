@@ -1,33 +1,33 @@
 package com.shnok.javaserver.gameserver.skills;
 
-import net.sf.l2j.commons.lang.StringUtil;
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.xml.HealSpsData;
-import net.sf.l2j.gameserver.data.xml.PlayerLevelData;
-import net.sf.l2j.gameserver.enums.actors.NpcRace;
-import net.sf.l2j.gameserver.enums.items.WeaponType;
-import net.sf.l2j.gameserver.enums.skills.ElementType;
-import net.sf.l2j.gameserver.enums.skills.ShieldDefense;
-import net.sf.l2j.gameserver.enums.skills.SkillType;
-import net.sf.l2j.gameserver.enums.skills.Stats;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.Summon;
-import net.sf.l2j.gameserver.model.actor.instance.Cubic;
-import net.sf.l2j.gameserver.model.actor.instance.Door;
-import net.sf.l2j.gameserver.model.item.kind.Armor;
-import net.sf.l2j.gameserver.model.item.kind.Item;
-import net.sf.l2j.gameserver.model.item.kind.Weapon;
-import net.sf.l2j.gameserver.model.manor.Seed;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.skills.effects.EffectTemplate;
-import net.sf.l2j.gameserver.taskmanager.GameTimeTaskManager;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.xml.HealSpsData;
+import com.shnok.javaserver.gameserver.data.xml.PlayerLevelData;
+import com.shnok.javaserver.gameserver.enums.actors.NpcRace;
+import com.shnok.javaserver.gameserver.enums.items.WeaponType;
+import com.shnok.javaserver.gameserver.enums.skills.ElementType;
+import com.shnok.javaserver.gameserver.enums.skills.ShieldDefense;
+import com.shnok.javaserver.gameserver.enums.skills.SkillType;
+import com.shnok.javaserver.gameserver.enums.skills.Stats;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.Summon;
+import com.shnok.javaserver.gameserver.model.actor.instance.Cubic;
+import com.shnok.javaserver.gameserver.model.actor.instance.Door;
+import com.shnok.javaserver.gameserver.model.item.kind.Armor;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
+import com.shnok.javaserver.gameserver.model.manor.Seed;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.skills.effects.EffectTemplate;
+import com.shnok.javaserver.gameserver.taskmanager.GameTimeTaskManager;
 
 public final class Formulas
 {

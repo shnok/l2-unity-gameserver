@@ -3,11 +3,11 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.instance.Pet;
-import net.sf.l2j.gameserver.model.actor.instance.Servitor;
-import net.sf.l2j.gameserver.model.records.EffectHolder;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.instance.Pet;
+import com.shnok.javaserver.gameserver.model.actor.instance.Servitor;
+import com.shnok.javaserver.gameserver.model.records.EffectHolder;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class PartySpelled extends L2GameServerPacket
 {

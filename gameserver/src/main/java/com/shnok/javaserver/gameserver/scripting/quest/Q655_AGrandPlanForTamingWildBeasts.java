@@ -2,16 +2,16 @@ package com.shnok.javaserver.gameserver.scripting.quest;
 
 import java.text.SimpleDateFormat;
 
-import net.sf.l2j.gameserver.data.cache.HtmCache;
-import net.sf.l2j.gameserver.data.manager.ClanHallManager;
-import net.sf.l2j.gameserver.enums.QuestStatus;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.model.residence.clanhall.ClanHallSiege;
-import net.sf.l2j.gameserver.model.residence.clanhall.SiegableHall;
-import net.sf.l2j.gameserver.scripting.Quest;
-import net.sf.l2j.gameserver.scripting.QuestState;
+import com.shnok.javaserver.gameserver.data.cache.HtmCache;
+import com.shnok.javaserver.gameserver.data.manager.ClanHallManager;
+import com.shnok.javaserver.gameserver.enums.QuestStatus;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHallSiege;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.SiegableHall;
+import com.shnok.javaserver.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.scripting.QuestState;
 
 public class Q655_AGrandPlanForTamingWildBeasts extends Quest
 {

@@ -6,24 +6,24 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 
-import net.sf.l2j.commons.data.StatSet;
-import net.sf.l2j.commons.util.ArraysUtil;
+import com.shnok.javaserver.commons.data.StatSet;
+import com.shnok.javaserver.commons.util.ArraysUtil;
 
-import net.sf.l2j.gameserver.data.manager.CastleManager;
-import net.sf.l2j.gameserver.data.manager.ClanHallManager;
-import net.sf.l2j.gameserver.enums.EventHandler;
-import net.sf.l2j.gameserver.enums.actors.ClassId;
-import net.sf.l2j.gameserver.enums.actors.NpcRace;
-import net.sf.l2j.gameserver.enums.actors.NpcSkillType;
-import net.sf.l2j.gameserver.model.item.DropCategory;
-import net.sf.l2j.gameserver.model.memo.NpcMemo;
-import net.sf.l2j.gameserver.model.records.PrivateData;
-import net.sf.l2j.gameserver.model.residence.Residence;
-import net.sf.l2j.gameserver.model.residence.castle.Castle;
-import net.sf.l2j.gameserver.model.residence.clanhall.ClanHall;
-import net.sf.l2j.gameserver.model.residence.clanhall.SiegableHall;
-import net.sf.l2j.gameserver.scripting.Quest;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.data.manager.CastleManager;
+import com.shnok.javaserver.gameserver.data.manager.ClanHallManager;
+import com.shnok.javaserver.gameserver.enums.EventHandler;
+import com.shnok.javaserver.gameserver.enums.actors.ClassId;
+import com.shnok.javaserver.gameserver.enums.actors.NpcRace;
+import com.shnok.javaserver.gameserver.enums.actors.NpcSkillType;
+import com.shnok.javaserver.gameserver.model.item.DropCategory;
+import com.shnok.javaserver.gameserver.model.memo.NpcMemo;
+import com.shnok.javaserver.gameserver.model.records.PrivateData;
+import com.shnok.javaserver.gameserver.model.residence.Residence;
+import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHall;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.SiegableHall;
+import com.shnok.javaserver.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class NpcTemplate extends CreatureTemplate
 {

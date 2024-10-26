@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.communitybbs.CommunityBoard;
+import com.shnok.javaserver.gameserver.communitybbs.CommunityBoard;
 
 public class RequestBBSwrite extends L2GameClientPacket
 {

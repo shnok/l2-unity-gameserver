@@ -2,19 +2,19 @@ package com.shnok.javaserver.gameserver.model.actor.instance;
 
 import java.util.StringTokenizer;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.manager.CastleManorManager;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.BuyListSeed;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowCropInfo;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowManorDefaultInfo;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowProcureCropDetail;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowSeedInfo;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowSellCropList;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.manager.CastleManorManager;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.BuyListSeed;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowCropInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowManorDefaultInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowProcureCropDetail;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowSeedInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowSellCropList;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class ManorManagerNpc extends Merchant
 {

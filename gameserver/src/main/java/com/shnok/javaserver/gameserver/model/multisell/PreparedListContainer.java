@@ -3,11 +3,11 @@ package com.shnok.javaserver.gameserver.model.multisell;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.item.kind.Armor;
-import net.sf.l2j.gameserver.model.item.kind.Weapon;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.kind.Armor;
+import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
 
 /**
  * A dynamic layer of {@link ListContainer}, which holds the current {@link Npc} objectId for security reasons.<br>

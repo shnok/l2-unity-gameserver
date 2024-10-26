@@ -1,11 +1,11 @@
 package com.shnok.javaserver.gameserver.model.actor.status;
 
-import net.sf.l2j.gameserver.data.manager.ZoneManager;
-import net.sf.l2j.gameserver.data.xml.PlayerLevelData;
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.enums.skills.Stats;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.zone.type.SwampZone;
+import com.shnok.javaserver.gameserver.data.manager.ZoneManager;
+import com.shnok.javaserver.gameserver.data.xml.PlayerLevelData;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.enums.skills.Stats;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.zone.type.SwampZone;
 
 public class PlayableStatus<T extends Playable> extends CreatureStatus<T>
 {

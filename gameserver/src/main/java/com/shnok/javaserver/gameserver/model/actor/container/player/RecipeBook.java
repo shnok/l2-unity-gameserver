@@ -7,15 +7,15 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
 
-import net.sf.l2j.gameserver.data.xml.RecipeData;
-import net.sf.l2j.gameserver.enums.ShortcutType;
-import net.sf.l2j.gameserver.model.Shortcut;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.records.ManufactureItem;
-import net.sf.l2j.gameserver.model.records.Recipe;
+import com.shnok.javaserver.gameserver.data.xml.RecipeData;
+import com.shnok.javaserver.gameserver.enums.ShortcutType;
+import com.shnok.javaserver.gameserver.model.Shortcut;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.records.ManufactureItem;
+import com.shnok.javaserver.gameserver.model.records.Recipe;
 
 public class RecipeBook
 {

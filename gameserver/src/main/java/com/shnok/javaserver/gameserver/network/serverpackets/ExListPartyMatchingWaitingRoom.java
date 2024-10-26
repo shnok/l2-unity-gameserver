@@ -2,8 +2,8 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.List;
 
-import net.sf.l2j.gameserver.data.manager.PartyMatchRoomManager;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.data.manager.PartyMatchRoomManager;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public class ExListPartyMatchingWaitingRoom extends L2GameServerPacket
 {

@@ -1,10 +1,10 @@
 package com.shnok.javaserver.gameserver.model.actor.instance;
 
-import net.sf.l2j.gameserver.geoengine.geodata.IGeoObject;
-import net.sf.l2j.gameserver.idfactory.IdFactory;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.ExColosseumFenceInfo;
+import com.shnok.javaserver.gameserver.geoengine.geodata.IGeoObject;
+import com.shnok.javaserver.gameserver.idfactory.IdFactory;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExColosseumFenceInfo;
 
 public class Fence extends WorldObject implements IGeoObject
 {

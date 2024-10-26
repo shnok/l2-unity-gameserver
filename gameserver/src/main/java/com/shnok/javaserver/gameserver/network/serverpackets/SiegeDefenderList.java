@@ -2,9 +2,9 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.List;
 
-import net.sf.l2j.gameserver.enums.SiegeSide;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.model.residence.castle.Castle;
+import com.shnok.javaserver.gameserver.enums.SiegeSide;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
 
 public class SiegeDefenderList extends L2GameServerPacket
 {

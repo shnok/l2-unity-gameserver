@@ -3,10 +3,10 @@ package com.shnok.javaserver.gameserver.scripting.task;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.l2j.gameserver.data.manager.RaidPointManager;
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.scripting.ScheduledQuest;
+import com.shnok.javaserver.gameserver.data.manager.RaidPointManager;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.scripting.ScheduledQuest;
 
 /**
  * Each month players hunt Raid Bosses and get raid points. At the end of the month top 100 players from the list get clan reputation points.<br>

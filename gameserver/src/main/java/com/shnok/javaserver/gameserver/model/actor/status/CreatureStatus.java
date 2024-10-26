@@ -4,20 +4,20 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Future;
 
-import net.sf.l2j.commons.pool.ThreadPool;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.StatusType;
-import net.sf.l2j.gameserver.enums.skills.EffectType;
-import net.sf.l2j.gameserver.enums.skills.ElementType;
-import net.sf.l2j.gameserver.enums.skills.Stats;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.StatusUpdate;
-import net.sf.l2j.gameserver.skills.Calculator;
-import net.sf.l2j.gameserver.skills.Formulas;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.StatusType;
+import com.shnok.javaserver.gameserver.enums.skills.EffectType;
+import com.shnok.javaserver.gameserver.enums.skills.ElementType;
+import com.shnok.javaserver.gameserver.enums.skills.Stats;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.StatusUpdate;
+import com.shnok.javaserver.gameserver.skills.Calculator;
+import com.shnok.javaserver.gameserver.skills.Formulas;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**
  * This class groups all data related to HP/MP tracking of a {@link Creature}, aswell as {@link Stats} calculation.<br>

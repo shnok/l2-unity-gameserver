@@ -2,17 +2,17 @@ package com.shnok.javaserver.gameserver.network;
 
 import java.nio.ByteBuffer;
 
-import net.sf.l2j.commons.lang.HexUtil;
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.mmocore.IClientFactory;
-import net.sf.l2j.commons.mmocore.IMMOExecutor;
-import net.sf.l2j.commons.mmocore.IPacketHandler;
-import net.sf.l2j.commons.mmocore.MMOConnection;
-import net.sf.l2j.commons.mmocore.ReceivablePacket;
+import com.shnok.javaserver.commons.lang.HexUtil;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.mmocore.IClientFactory;
+import com.shnok.javaserver.commons.mmocore.IMMOExecutor;
+import com.shnok.javaserver.commons.mmocore.IPacketHandler;
+import com.shnok.javaserver.commons.mmocore.MMOConnection;
+import com.shnok.javaserver.commons.mmocore.ReceivablePacket;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.network.GameClient.GameClientState;
-import net.sf.l2j.gameserver.network.clientpackets.*;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.network.GameClient.GameClientState;
+import com.shnok.javaserver.gameserver.network.clientpackets.*;
 
 /**
  * The Stateful approach prevents the server from handling inconsistent packets.<BR>

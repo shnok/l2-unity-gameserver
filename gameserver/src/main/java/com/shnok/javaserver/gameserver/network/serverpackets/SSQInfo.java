@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.data.manager.SevenSignsManager;
-import net.sf.l2j.gameserver.enums.CabalType;
+import com.shnok.javaserver.gameserver.data.manager.SevenSignsManager;
+import com.shnok.javaserver.gameserver.enums.CabalType;
 
 public class SSQInfo extends L2GameServerPacket
 {

@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.model.entity;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.location.Location;
 
 /**
  * This class hold important player informations, which will be restored on duel end.

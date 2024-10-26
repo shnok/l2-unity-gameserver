@@ -3,11 +3,11 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.gameserver.enums.skills.AcquireSkillType;
-import net.sf.l2j.gameserver.model.holder.skillnode.ClanSkillNode;
-import net.sf.l2j.gameserver.model.holder.skillnode.FishingSkillNode;
-import net.sf.l2j.gameserver.model.holder.skillnode.GeneralSkillNode;
-import net.sf.l2j.gameserver.model.holder.skillnode.SkillNode;
+import com.shnok.javaserver.gameserver.enums.skills.AcquireSkillType;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.ClanSkillNode;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.FishingSkillNode;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.GeneralSkillNode;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.SkillNode;
 
 public final class AcquireSkillList extends L2GameServerPacket
 {

@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.model.actor.status;
 
-import net.sf.l2j.gameserver.enums.duels.DuelState;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.enums.duels.DuelState;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public class NpcStatus<T extends Npc> extends CreatureStatus<T>
 {

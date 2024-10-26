@@ -3,10 +3,10 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.gameserver.data.manager.RelationManager;
-import net.sf.l2j.gameserver.data.sql.PlayerInfoTable;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.data.manager.RelationManager;
+import com.shnok.javaserver.gameserver.data.sql.PlayerInfoTable;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public class FriendList extends L2GameServerPacket
 {

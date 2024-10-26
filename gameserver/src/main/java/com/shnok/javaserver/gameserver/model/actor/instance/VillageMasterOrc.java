@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.model.actor.instance;
 
-import net.sf.l2j.gameserver.enums.actors.ClassId;
-import net.sf.l2j.gameserver.enums.actors.ClassRace;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.enums.actors.ClassId;
+import com.shnok.javaserver.gameserver.enums.actors.ClassRace;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 
 public final class VillageMasterOrc extends VillageMaster
 {

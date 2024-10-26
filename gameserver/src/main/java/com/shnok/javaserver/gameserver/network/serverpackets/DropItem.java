@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 
 public class DropItem extends L2GameServerPacket
 {

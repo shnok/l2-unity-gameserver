@@ -5,15 +5,15 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 
-import net.sf.l2j.commons.data.StatSet;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.data.StatSet;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.data.xml.DoorData;
-import net.sf.l2j.gameserver.enums.SpawnType;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.Door;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.residence.clanhall.ClanHall;
+import com.shnok.javaserver.gameserver.data.xml.DoorData;
+import com.shnok.javaserver.gameserver.enums.SpawnType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.Door;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHall;
 
 public abstract class Residence
 {

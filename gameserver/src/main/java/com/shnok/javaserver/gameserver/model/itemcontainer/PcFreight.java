@@ -4,10 +4,10 @@ import java.util.Collections;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.items.ItemLocation;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.items.ItemLocation;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 
 public class PcFreight extends ItemContainer
 {

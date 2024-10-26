@@ -2,10 +2,10 @@ package com.shnok.javaserver.gameserver.skills;
 
 import java.util.Set;
 
-import net.sf.l2j.commons.data.StatSet;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.data.StatSet;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.enums.skills.TriggerType;
+import com.shnok.javaserver.gameserver.enums.skills.TriggerType;
 
 public final class ChanceCondition
 {

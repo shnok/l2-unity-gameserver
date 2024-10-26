@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.taskmanager.GameTimeTaskManager;
+import com.shnok.javaserver.gameserver.taskmanager.GameTimeTaskManager;
 
 public class ClientSetTime extends L2GameServerPacket
 {

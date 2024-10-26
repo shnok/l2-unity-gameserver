@@ -1,14 +1,14 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.manager.FestivalOfDarknessManager;
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.GameClient;
-import net.sf.l2j.gameserver.network.GameClient.GameClientState;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo;
-import net.sf.l2j.gameserver.network.serverpackets.RestartResponse;
-import net.sf.l2j.gameserver.taskmanager.AttackStanceTaskManager;
+import com.shnok.javaserver.gameserver.data.manager.FestivalOfDarknessManager;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.GameClient;
+import com.shnok.javaserver.gameserver.network.GameClient.GameClientState;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.CharSelectInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.RestartResponse;
+import com.shnok.javaserver.gameserver.taskmanager.AttackStanceTaskManager;
 
 public final class RequestRestart extends L2GameClientPacket
 {

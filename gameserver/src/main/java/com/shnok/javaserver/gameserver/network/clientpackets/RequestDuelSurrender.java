@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.manager.DuelManager;
+import com.shnok.javaserver.gameserver.data.manager.DuelManager;
 
 public final class RequestDuelSurrender extends L2GameClientPacket
 {

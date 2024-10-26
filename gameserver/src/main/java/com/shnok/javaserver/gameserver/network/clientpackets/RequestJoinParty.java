@@ -1,13 +1,13 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.manager.RelationManager;
-import net.sf.l2j.gameserver.enums.LootRule;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.group.Party;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.AskJoinParty;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.data.manager.RelationManager;
+import com.shnok.javaserver.gameserver.enums.LootRule;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.AskJoinParty;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public final class RequestJoinParty extends L2GameClientPacket
 {

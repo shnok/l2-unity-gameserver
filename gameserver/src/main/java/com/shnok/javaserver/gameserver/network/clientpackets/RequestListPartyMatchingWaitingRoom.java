@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.ExListPartyMatchingWaitingRoom;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExListPartyMatchingWaitingRoom;
 
 public class RequestListPartyMatchingWaitingRoom extends L2GameClientPacket
 {

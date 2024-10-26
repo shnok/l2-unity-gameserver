@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.model.actor.instance;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowQuestInfo;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowQuestInfo;
 
 public class Adventurer extends Folk
 {

@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.model.actor.container.player;
 
-import net.sf.l2j.gameserver.data.xml.PlayerLevelData;
-import net.sf.l2j.gameserver.enums.actors.ClassId;
+import com.shnok.javaserver.gameserver.data.xml.PlayerLevelData;
+import com.shnok.javaserver.gameserver.enums.actors.ClassId;
 
 /**
  * Used to store information about a Player SubClass.

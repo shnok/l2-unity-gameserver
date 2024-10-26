@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.geoengine.pathfinding;
 
-import net.sf.l2j.gameserver.geoengine.GeoEngine;
-import net.sf.l2j.gameserver.geoengine.geodata.GeoStructure;
-import net.sf.l2j.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.geoengine.GeoEngine;
+import com.shnok.javaserver.gameserver.geoengine.geodata.GeoStructure;
+import com.shnok.javaserver.gameserver.model.location.Location;
 
 public class Node extends Location implements Comparable<Node>
 {

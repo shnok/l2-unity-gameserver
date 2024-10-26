@@ -3,7 +3,7 @@ package com.shnok.javaserver.gameserver.model.craft;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import net.sf.l2j.gameserver.model.records.ManufactureItem;
+import com.shnok.javaserver.gameserver.model.records.ManufactureItem;
 
 /**
  * A datacontainer used by private workshop system. It retains a List of {@link ManufactureItem}s, the store name and the shop state.

@@ -2,12 +2,12 @@ package com.shnok.javaserver.gameserver.model.actor.template;
 
 import java.awt.Color;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.enums.DoorType;
-import net.sf.l2j.gameserver.enums.OpenType;
-import net.sf.l2j.gameserver.model.location.Point2D;
-import net.sf.l2j.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.enums.DoorType;
+import com.shnok.javaserver.gameserver.enums.OpenType;
+import com.shnok.javaserver.gameserver.model.location.Point2D;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
 
 public class DoorTemplate extends CreatureTemplate
 {

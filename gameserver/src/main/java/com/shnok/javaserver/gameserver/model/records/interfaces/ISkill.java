@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.model.records.interfaces;
 
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.data.SkillTable;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public interface ISkill
 {

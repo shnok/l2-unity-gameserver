@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.handler;
 
-import net.sf.l2j.commons.logging.CLogger;
+import com.shnok.javaserver.commons.logging.CLogger;
 
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
 
 public interface IAdminCommandHandler
 {

@@ -5,20 +5,20 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-import net.sf.l2j.commons.geometry.AShape;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.geometry.AShape;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.MakerSpawnTime;
-import net.sf.l2j.gameserver.geoengine.GeoEngine;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.model.memo.SpawnMemo;
-import net.sf.l2j.gameserver.model.records.PrivateData;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.MakerSpawnTime;
+import com.shnok.javaserver.gameserver.geoengine.GeoEngine;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.model.memo.SpawnMemo;
+import com.shnok.javaserver.gameserver.model.records.PrivateData;
 
 /**
  * This class manages the spawn and respawn of {@link Npc}s defined by {@link NpcMaker} in a territory based system.<br>

@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.enums.AiEventType;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.enums.AiEventType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public final class RequestTargetCancel extends L2GameClientPacket
 {

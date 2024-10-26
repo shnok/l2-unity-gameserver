@@ -2,9 +2,9 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.Collection;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.data.manager.HeroManager;
+import com.shnok.javaserver.gameserver.data.manager.HeroManager;
 
 public class ExHeroList extends L2GameServerPacket
 {

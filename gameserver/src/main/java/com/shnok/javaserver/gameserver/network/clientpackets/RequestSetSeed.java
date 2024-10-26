@@ -3,13 +3,13 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.manager.CastleManorManager;
-import net.sf.l2j.gameserver.enums.PrivilegeType;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.manor.Seed;
-import net.sf.l2j.gameserver.model.manor.SeedProduction;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.manager.CastleManorManager;
+import com.shnok.javaserver.gameserver.enums.PrivilegeType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.manor.Seed;
+import com.shnok.javaserver.gameserver.model.manor.SeedProduction;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
 
 public class RequestSetSeed extends L2GameClientPacket
 {

@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
 /**
  * A datatype used to retain a 3D (x/y/z) point. It got the capability to be set and cleaned.

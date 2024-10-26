@@ -1,11 +1,11 @@
 package com.shnok.javaserver.gameserver.model.actor.status;
 
-import net.sf.l2j.gameserver.data.manager.SevenSignsManager;
-import net.sf.l2j.gameserver.enums.SealType;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.instance.Door;
-import net.sf.l2j.gameserver.network.serverpackets.DoorStatusUpdate;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.data.manager.SevenSignsManager;
+import com.shnok.javaserver.gameserver.enums.SealType;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.instance.Door;
+import com.shnok.javaserver.gameserver.network.serverpackets.DoorStatusUpdate;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class DoorStatus extends CreatureStatus<Door>
 {

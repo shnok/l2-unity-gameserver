@@ -1,4 +1,4 @@
-package net.sf.l2j.gameserver.skills.extractable;
+package com.shnok.javaserver.gameserver.skills.extractable;
 
 import java.util.List;
 

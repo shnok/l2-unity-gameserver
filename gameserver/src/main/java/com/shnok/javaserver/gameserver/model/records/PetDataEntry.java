@@ -1,6 +1,6 @@
-package net.sf.l2j.gameserver.model.records;
+package com.shnok.javaserver.gameserver.model.records;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
 public record PetDataEntry(long maxExp, int maxMeal, int expType, int mealInBattle, int mealInNormal, double pAtk, double pDef, double mAtk, double mDef, double maxHp, double maxMp, float hpRegen, float mpRegen, int ssCount, int spsCount, int mountMealInBattle, int mountMealInNormal, double mountAtkSpd, double mountPatk, double mountMatk, int mountBaseSpeed, int mountWaterSpeed, int mountFlySpeed)
 {

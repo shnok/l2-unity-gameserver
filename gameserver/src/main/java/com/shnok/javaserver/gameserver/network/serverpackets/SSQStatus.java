@@ -2,14 +2,14 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.Map.Entry;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.data.manager.FestivalOfDarknessManager;
-import net.sf.l2j.gameserver.data.manager.SevenSignsManager;
-import net.sf.l2j.gameserver.enums.CabalType;
-import net.sf.l2j.gameserver.enums.FestivalType;
-import net.sf.l2j.gameserver.enums.SealType;
-import net.sf.l2j.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.data.manager.FestivalOfDarknessManager;
+import com.shnok.javaserver.gameserver.data.manager.SevenSignsManager;
+import com.shnok.javaserver.gameserver.enums.CabalType;
+import com.shnok.javaserver.gameserver.enums.FestivalType;
+import com.shnok.javaserver.gameserver.enums.SealType;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
 
 public class SSQStatus extends L2GameServerPacket
 {

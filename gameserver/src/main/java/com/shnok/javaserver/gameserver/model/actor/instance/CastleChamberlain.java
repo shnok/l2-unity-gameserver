@@ -3,28 +3,28 @@ package com.shnok.javaserver.gameserver.model.actor.instance;
 import java.util.Calendar;
 import java.util.StringTokenizer;
 
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.manager.CastleManorManager;
-import net.sf.l2j.gameserver.data.manager.SevenSignsManager;
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.enums.CabalType;
-import net.sf.l2j.gameserver.enums.PrivilegeType;
-import net.sf.l2j.gameserver.enums.SealType;
-import net.sf.l2j.gameserver.enums.actors.NpcTalkCond;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowCropInfo;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowCropSetting;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowManorDefaultInfo;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowSeedInfo;
-import net.sf.l2j.gameserver.network.serverpackets.ExShowSeedSetting;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.SiegeInfo;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.manager.CastleManorManager;
+import com.shnok.javaserver.gameserver.data.manager.SevenSignsManager;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.enums.CabalType;
+import com.shnok.javaserver.gameserver.enums.PrivilegeType;
+import com.shnok.javaserver.gameserver.enums.SealType;
+import com.shnok.javaserver.gameserver.enums.actors.NpcTalkCond;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowCropInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowCropSetting;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowManorDefaultInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowSeedInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExShowSeedSetting;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.SiegeInfo;
 
 /**
  * An instance type extending {@link Merchant}, used for castle chamberlains.<br>

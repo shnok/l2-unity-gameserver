@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
-import net.sf.l2j.commons.logging.CLogger;
+import com.shnok.javaserver.commons.logging.CLogger;
 
 public abstract class AbstractHandler<K, H>
 {

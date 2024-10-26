@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.data.xml.RestartPointData;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.group.PartyMatchRoom;
-import net.sf.l2j.gameserver.model.restart.RestartPoint;
+import com.shnok.javaserver.gameserver.data.xml.RestartPointData;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.group.PartyMatchRoom;
+import com.shnok.javaserver.gameserver.model.restart.RestartPoint;
 
 public class ExManagePartyRoomMember extends L2GameServerPacket
 {

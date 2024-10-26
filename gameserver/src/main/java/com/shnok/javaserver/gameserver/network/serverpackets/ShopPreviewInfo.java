@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.Map;
 
-import net.sf.l2j.gameserver.enums.Paperdoll;
+import com.shnok.javaserver.gameserver.enums.Paperdoll;
 
 public class ShopPreviewInfo extends L2GameServerPacket
 {

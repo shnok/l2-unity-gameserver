@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.records.Sequence;
+import com.shnok.javaserver.gameserver.model.records.Sequence;
 
 public class SpecialCamera extends L2GameServerPacket
 {

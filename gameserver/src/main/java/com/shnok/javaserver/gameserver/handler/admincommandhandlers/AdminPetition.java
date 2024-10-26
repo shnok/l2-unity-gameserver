@@ -3,19 +3,19 @@ package com.shnok.javaserver.gameserver.handler.admincommandhandlers;
 import java.text.SimpleDateFormat;
 import java.util.StringTokenizer;
 
-import net.sf.l2j.commons.data.Pagination;
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.data.Pagination;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.gameserver.data.manager.PetitionManager;
-import net.sf.l2j.gameserver.enums.petitions.PetitionState;
-import net.sf.l2j.gameserver.enums.petitions.PetitionType;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.Petition;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.data.manager.PetitionManager;
+import com.shnok.javaserver.gameserver.enums.petitions.PetitionState;
+import com.shnok.javaserver.gameserver.enums.petitions.PetitionType;
+import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
+import com.shnok.javaserver.gameserver.model.Petition;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class AdminPetition implements IAdminCommandHandler
 {

@@ -1,10 +1,10 @@
 package com.shnok.javaserver.gameserver.handler.usercommandhandlers;
 
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.handler.IUserCommandHandler;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.handler.IUserCommandHandler;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
 
 public class Escape implements IUserCommandHandler
 {

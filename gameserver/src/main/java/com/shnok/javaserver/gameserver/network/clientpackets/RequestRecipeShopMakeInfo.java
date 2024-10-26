@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.enums.actors.OperateType;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.RecipeShopItemInfo;
+import com.shnok.javaserver.gameserver.enums.actors.OperateType;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.RecipeShopItemInfo;
 
 public final class RequestRecipeShopMakeInfo extends L2GameClientPacket
 {

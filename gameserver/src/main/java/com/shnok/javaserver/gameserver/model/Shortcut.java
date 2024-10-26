@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.model;
 
-import net.sf.l2j.gameserver.enums.ShortcutType;
+import com.shnok.javaserver.gameserver.enums.ShortcutType;
 
 public class Shortcut
 {

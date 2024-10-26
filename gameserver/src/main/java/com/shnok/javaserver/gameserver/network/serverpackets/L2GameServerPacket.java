@@ -1,10 +1,10 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.mmocore.SendablePacket;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.mmocore.SendablePacket;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.network.GameClient;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.network.GameClient;
 
 public abstract class L2GameServerPacket extends SendablePacket<GameClient>
 {

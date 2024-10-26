@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.model.actor.instance;
 
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 
 /**
  * This class is here to avoid hardcoded IDs.<br>

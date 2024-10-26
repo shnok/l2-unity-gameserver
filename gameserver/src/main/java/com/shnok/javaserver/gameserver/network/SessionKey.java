@@ -1,4 +1,4 @@
-package net.sf.l2j.gameserver.network;
+package com.shnok.javaserver.gameserver.network;
 
 public record SessionKey(int playOkId1, int playOkId2, int loginOkId1, int loginOkId2)
 {

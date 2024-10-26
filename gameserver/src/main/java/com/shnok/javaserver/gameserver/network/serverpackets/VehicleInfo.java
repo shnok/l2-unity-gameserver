@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.actor.Boat;
+import com.shnok.javaserver.gameserver.model.actor.Boat;
 
 public class VehicleInfo extends L2GameServerPacket
 {

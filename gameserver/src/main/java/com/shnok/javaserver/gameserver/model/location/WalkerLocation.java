@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.model.location;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.network.NpcStringId;
+import com.shnok.javaserver.gameserver.network.NpcStringId;
 
 /**
  * A datatype extending {@link Location}, used as a unique node of a pre-programmed route for walking NPCs.<br>

@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.model;
 
 import java.util.concurrent.ScheduledFuture;
 
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
 /**
  * A datatype used to retain informations for announcements. It notably holds a {@link ScheduledFuture}.

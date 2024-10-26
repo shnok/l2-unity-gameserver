@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.model.location;
 
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.residence.castle.Castle;
-import net.sf.l2j.gameserver.model.spawn.Spawn;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
+import com.shnok.javaserver.gameserver.model.spawn.Spawn;
 
 /**
  * A datatype extending {@link SpawnLocation}, which handles a single HolyThing spawn point and its parameters.

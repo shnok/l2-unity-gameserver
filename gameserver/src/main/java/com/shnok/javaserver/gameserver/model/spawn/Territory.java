@@ -2,16 +2,16 @@ package com.shnok.javaserver.gameserver.model.spawn;
 
 import java.util.List;
 
-import net.sf.l2j.commons.geometry.Polygon;
-import net.sf.l2j.commons.geometry.Triangle;
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.geometry.Polygon;
+import com.shnok.javaserver.commons.geometry.Triangle;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.geoengine.GeoEngine;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.geoengine.GeoEngine;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
 
 /**
  * Defines an area inside the world where to spawn {@link Npc}s via {@link NpcMaker}.

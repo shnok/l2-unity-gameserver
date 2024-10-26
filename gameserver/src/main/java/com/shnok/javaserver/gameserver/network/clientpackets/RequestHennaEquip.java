@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.xml.HennaData;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.records.Henna;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.HennaInfo;
-import net.sf.l2j.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.data.xml.HennaData;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.records.Henna;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.HennaInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
 
 public final class RequestHennaEquip extends L2GameClientPacket
 {

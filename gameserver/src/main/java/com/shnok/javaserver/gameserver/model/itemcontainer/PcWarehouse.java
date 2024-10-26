@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.model.itemcontainer;
 
-import net.sf.l2j.gameserver.enums.items.ItemLocation;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.enums.items.ItemLocation;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public class PcWarehouse extends ItemContainer
 {

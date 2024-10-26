@@ -2,9 +2,9 @@ package com.shnok.javaserver.gameserver.model.restart;
 
 import java.util.EnumMap;
 
-import net.sf.l2j.gameserver.enums.actors.ClassRace;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.zone.form.ZoneNPoly;
+import com.shnok.javaserver.gameserver.enums.actors.ClassRace;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.zone.form.ZoneNPoly;
 
 /**
  * A zone used as restart point when dead or scrolling out.<br>

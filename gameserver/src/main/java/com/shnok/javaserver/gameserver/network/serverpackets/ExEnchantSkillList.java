@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.List;
 
-import net.sf.l2j.gameserver.model.holder.skillnode.EnchantSkillNode;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.EnchantSkillNode;
 
 public class ExEnchantSkillList extends L2GameServerPacket
 {

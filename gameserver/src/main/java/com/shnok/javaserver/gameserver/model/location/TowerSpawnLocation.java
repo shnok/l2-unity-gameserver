@@ -1,13 +1,13 @@
 package com.shnok.javaserver.gameserver.model.location;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.enums.actors.TowerType;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.instance.FlameTower;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.model.residence.castle.Castle;
-import net.sf.l2j.gameserver.model.spawn.Spawn;
+import com.shnok.javaserver.gameserver.enums.actors.TowerType;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.instance.FlameTower;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
+import com.shnok.javaserver.gameserver.model.spawn.Spawn;
 
 /**
  * A datatype extending {@link SpawnLocation}, which handles a single Control Tower spawn point and its parameters (such as guards npcId List), npcId to spawn and upgrade level.

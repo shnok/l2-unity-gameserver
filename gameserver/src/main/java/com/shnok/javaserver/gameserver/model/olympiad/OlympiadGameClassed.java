@@ -2,11 +2,11 @@ package com.shnok.javaserver.gameserver.model.olympiad;
 
 import java.util.List;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.OlympiadType;
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.OlympiadType;
+import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
 
 public class OlympiadGameClassed extends OlympiadGameNormal
 {

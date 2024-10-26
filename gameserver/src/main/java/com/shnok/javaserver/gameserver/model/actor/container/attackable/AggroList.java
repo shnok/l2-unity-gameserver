@@ -3,13 +3,13 @@ package com.shnok.javaserver.gameserver.model.actor.container.attackable;
 import java.util.Comparator;
 import java.util.concurrent.ConcurrentHashMap;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.IntentionType;
-import net.sf.l2j.gameserver.model.actor.Attackable;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.container.npc.AggroInfo;
-import net.sf.l2j.gameserver.model.actor.instance.SiegeGuard;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.IntentionType;
+import com.shnok.javaserver.gameserver.model.actor.Attackable;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.container.npc.AggroInfo;
+import com.shnok.javaserver.gameserver.model.actor.instance.SiegeGuard;
 
 public class AggroList extends ConcurrentHashMap<Creature, AggroInfo>
 {

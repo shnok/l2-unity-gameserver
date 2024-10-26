@@ -2,8 +2,8 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.Collection;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.records.Recipe;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.records.Recipe;
 
 public class RecipeBookItemList extends L2GameServerPacket
 {

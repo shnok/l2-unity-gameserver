@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.model;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.data.xml.AdminData;
+import com.shnok.javaserver.gameserver.data.xml.AdminData;
 
 /**
  * A datatype used to retain access level informations, such as isGM() and multiple allowed actions.

@@ -2,13 +2,13 @@ package com.shnok.javaserver.gameserver.model.location;
 
 import java.util.Calendar;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.data.manager.SevenSignsManager;
-import net.sf.l2j.gameserver.enums.SealType;
-import net.sf.l2j.gameserver.enums.TeleportType;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.itemcontainer.PcInventory;
+import com.shnok.javaserver.gameserver.data.manager.SevenSignsManager;
+import com.shnok.javaserver.gameserver.enums.SealType;
+import com.shnok.javaserver.gameserver.enums.TeleportType;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.itemcontainer.PcInventory;
 
 /**
  * A datatype extending {@link Location}, used to retain a single Gatekeeper teleport location.

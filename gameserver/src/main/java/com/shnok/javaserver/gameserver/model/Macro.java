@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.model;
 
 import java.util.Arrays;
 
-import net.sf.l2j.gameserver.model.records.MacroCmd;
+import com.shnok.javaserver.gameserver.model.records.MacroCmd;
 
 /**
  * Macros are used to automate some processes, to perform a series of actions or to use several skills at once.

@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.location.ObserverLocation;
+import com.shnok.javaserver.gameserver.model.location.ObserverLocation;
 
 public class ObserverStart extends L2GameServerPacket
 {

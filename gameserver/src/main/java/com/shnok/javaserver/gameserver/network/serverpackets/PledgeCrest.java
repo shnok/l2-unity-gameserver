@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.data.cache.CrestCache;
-import net.sf.l2j.gameserver.enums.CrestType;
+import com.shnok.javaserver.gameserver.data.cache.CrestCache;
+import com.shnok.javaserver.gameserver.enums.CrestType;
 
 public class PledgeCrest extends L2GameServerPacket
 {

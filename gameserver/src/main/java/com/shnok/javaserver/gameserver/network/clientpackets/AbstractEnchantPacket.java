@@ -3,13 +3,13 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.items.CrystalType;
-import net.sf.l2j.gameserver.enums.items.ItemLocation;
-import net.sf.l2j.gameserver.enums.items.WeaponType;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.item.kind.Item;
-import net.sf.l2j.gameserver.model.item.kind.Weapon;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.items.CrystalType;
+import com.shnok.javaserver.gameserver.enums.items.ItemLocation;
+import com.shnok.javaserver.gameserver.enums.items.WeaponType;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
 
 public abstract class AbstractEnchantPacket extends L2GameClientPacket
 {

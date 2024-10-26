@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import net.sf.l2j.gameserver.data.manager.CastleManorManager;
-import net.sf.l2j.gameserver.model.manor.CropProcure;
-import net.sf.l2j.gameserver.model.manor.Seed;
+import com.shnok.javaserver.gameserver.data.manager.CastleManorManager;
+import com.shnok.javaserver.gameserver.model.manor.CropProcure;
+import com.shnok.javaserver.gameserver.model.manor.Seed;
 
 public class ExShowCropSetting extends L2GameServerPacket
 {

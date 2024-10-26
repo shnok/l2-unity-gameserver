@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.data.manager.SevenSignsManager;
+import com.shnok.javaserver.gameserver.data.manager.SevenSignsManager;
 
 public class ShowMiniMap extends L2GameServerPacket
 {

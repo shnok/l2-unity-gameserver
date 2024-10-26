@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class PledgeSkillListAdd extends L2GameServerPacket
 {

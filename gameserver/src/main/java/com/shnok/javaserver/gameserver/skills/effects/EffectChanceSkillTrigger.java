@@ -1,11 +1,11 @@
 package com.shnok.javaserver.gameserver.skills.effects;
 
-import net.sf.l2j.gameserver.enums.skills.EffectType;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.skills.AbstractEffect;
-import net.sf.l2j.gameserver.skills.ChanceCondition;
-import net.sf.l2j.gameserver.skills.IChanceSkillTrigger;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.enums.skills.EffectType;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.skills.AbstractEffect;
+import com.shnok.javaserver.gameserver.skills.ChanceCondition;
+import com.shnok.javaserver.gameserver.skills.IChanceSkillTrigger;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class EffectChanceSkillTrigger extends AbstractEffect implements IChanceSkillTrigger
 {

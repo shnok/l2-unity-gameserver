@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.scripting.task;
 
-import net.sf.l2j.gameserver.Shutdown;
-import net.sf.l2j.gameserver.scripting.ScheduledQuest;
+import com.shnok.javaserver.gameserver.Shutdown;
+import com.shnok.javaserver.gameserver.scripting.ScheduledQuest;
 
 public final class ServerShutdown extends ScheduledQuest
 {

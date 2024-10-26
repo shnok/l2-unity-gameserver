@@ -1,10 +1,10 @@
 package com.shnok.javaserver.gameserver.model.itemcontainer;
 
-import net.sf.l2j.gameserver.enums.items.EtcItemType;
-import net.sf.l2j.gameserver.enums.items.ItemLocation;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.Pet;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.enums.items.EtcItemType;
+import com.shnok.javaserver.gameserver.enums.items.ItemLocation;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.Pet;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 
 public class PetInventory extends Inventory
 {

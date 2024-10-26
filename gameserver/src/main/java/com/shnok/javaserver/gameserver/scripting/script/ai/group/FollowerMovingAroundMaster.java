@@ -3,11 +3,11 @@ package com.shnok.javaserver.gameserver.scripting.script.ai.group;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.l2j.gameserver.enums.EventHandler;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.enums.EventHandler;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.scripting.Quest;
 
 /**
  * This script is used by the 18 followers moving around their master.

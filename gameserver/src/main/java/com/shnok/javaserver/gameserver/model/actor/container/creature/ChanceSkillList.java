@@ -5,19 +5,19 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.enums.skills.SkillTargetType;
-import net.sf.l2j.gameserver.enums.skills.SkillType;
-import net.sf.l2j.gameserver.enums.skills.TriggerType;
-import net.sf.l2j.gameserver.handler.ISkillHandler;
-import net.sf.l2j.gameserver.handler.SkillHandler;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.network.serverpackets.MagicSkillLaunched;
-import net.sf.l2j.gameserver.network.serverpackets.MagicSkillUse;
-import net.sf.l2j.gameserver.skills.ChanceCondition;
-import net.sf.l2j.gameserver.skills.IChanceSkillTrigger;
-import net.sf.l2j.gameserver.skills.L2Skill;
-import net.sf.l2j.gameserver.skills.effects.EffectChanceSkillTrigger;
+import com.shnok.javaserver.gameserver.data.SkillTable;
+import com.shnok.javaserver.gameserver.enums.skills.SkillTargetType;
+import com.shnok.javaserver.gameserver.enums.skills.SkillType;
+import com.shnok.javaserver.gameserver.enums.skills.TriggerType;
+import com.shnok.javaserver.gameserver.handler.ISkillHandler;
+import com.shnok.javaserver.gameserver.handler.SkillHandler;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.network.serverpackets.MagicSkillLaunched;
+import com.shnok.javaserver.gameserver.network.serverpackets.MagicSkillUse;
+import com.shnok.javaserver.gameserver.skills.ChanceCondition;
+import com.shnok.javaserver.gameserver.skills.IChanceSkillTrigger;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.skills.effects.EffectChanceSkillTrigger;
 
 public class ChanceSkillList extends ConcurrentHashMap<IChanceSkillTrigger, ChanceCondition>
 {

@@ -3,18 +3,18 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.FloodProtector;
-import net.sf.l2j.gameserver.model.Augmentation;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.Folk;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.itemcontainer.PcInventory;
-import net.sf.l2j.gameserver.model.multisell.Entry;
-import net.sf.l2j.gameserver.model.multisell.Ingredient;
-import net.sf.l2j.gameserver.model.multisell.PreparedListContainer;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.FloodProtector;
+import com.shnok.javaserver.gameserver.model.Augmentation;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.Folk;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.itemcontainer.PcInventory;
+import com.shnok.javaserver.gameserver.model.multisell.Entry;
+import com.shnok.javaserver.gameserver.model.multisell.Ingredient;
+import com.shnok.javaserver.gameserver.model.multisell.PreparedListContainer;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class MultiSellChoose extends L2GameClientPacket
 {

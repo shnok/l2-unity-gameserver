@@ -3,9 +3,9 @@ package com.shnok.javaserver.gameserver.model.residence;
 import java.util.Calendar;
 import java.util.List;
 
-import net.sf.l2j.gameserver.enums.SiegeSide;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.enums.SiegeSide;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
 
 public interface Siegable
 {

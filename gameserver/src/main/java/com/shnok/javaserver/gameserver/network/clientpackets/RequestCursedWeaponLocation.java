@@ -3,12 +3,12 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.gameserver.data.manager.CursedWeaponManager;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.entity.CursedWeapon;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.records.CursedWeaponInfo;
-import net.sf.l2j.gameserver.network.serverpackets.ExCursedWeaponLocation;
+import com.shnok.javaserver.gameserver.data.manager.CursedWeaponManager;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.entity.CursedWeapon;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.records.CursedWeaponInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExCursedWeaponLocation;
 
 public final class RequestCursedWeaponLocation extends L2GameClientPacket
 {

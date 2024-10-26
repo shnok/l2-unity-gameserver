@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.model.actor.container.player;
 
-import net.sf.l2j.gameserver.enums.actors.Sex;
+import com.shnok.javaserver.gameserver.enums.actors.Sex;
 
 public final class Appearance
 {

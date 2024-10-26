@@ -2,13 +2,13 @@ package com.shnok.javaserver.gameserver.skills.basefuncs;
 
 import java.lang.reflect.Constructor;
 
-import net.sf.l2j.commons.logging.CLogger;
+import com.shnok.javaserver.commons.logging.CLogger;
 
-import net.sf.l2j.gameserver.enums.skills.Stats;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.skills.L2Skill;
-import net.sf.l2j.gameserver.skills.conditions.Condition;
+import com.shnok.javaserver.gameserver.enums.skills.Stats;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.skills.conditions.Condition;
 
 public final class FuncTemplate
 {
@@ -29,7 +29,7 @@ public final class FuncTemplate
 		
 		try
 		{
-			final Class<?> functionClass = Class.forName("net.sf.l2j.gameserver.skills.basefuncs.Func" + function);
+			final Class<?> functionClass = Class.forName("com.shnok.javaserver.gameserver.skills.basefuncs.Func" + function);
 			_constructor = functionClass.getConstructor(Object.class, Stats.class, Double.TYPE, Condition.class);
 		}
 		catch (ClassNotFoundException | NoSuchMethodException e)

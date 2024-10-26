@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.manager.FishingChampionshipManager;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.manager.FishingChampionshipManager;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public final class RequestExFishRanking extends L2GameClientPacket
 {

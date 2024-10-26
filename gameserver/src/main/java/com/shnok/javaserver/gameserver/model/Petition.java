@@ -5,20 +5,20 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.gameserver.data.sql.PlayerInfoTable;
-import net.sf.l2j.gameserver.enums.SayType;
-import net.sf.l2j.gameserver.enums.petitions.PetitionRate;
-import net.sf.l2j.gameserver.enums.petitions.PetitionState;
-import net.sf.l2j.gameserver.enums.petitions.PetitionType;
-import net.sf.l2j.gameserver.idfactory.IdFactory;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.CreatureSay;
-import net.sf.l2j.gameserver.network.serverpackets.L2GameServerPacket;
-import net.sf.l2j.gameserver.network.serverpackets.PetitionVote;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.data.sql.PlayerInfoTable;
+import com.shnok.javaserver.gameserver.enums.SayType;
+import com.shnok.javaserver.gameserver.enums.petitions.PetitionRate;
+import com.shnok.javaserver.gameserver.enums.petitions.PetitionState;
+import com.shnok.javaserver.gameserver.enums.petitions.PetitionType;
+import com.shnok.javaserver.gameserver.idfactory.IdFactory;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.CreatureSay;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
+import com.shnok.javaserver.gameserver.network.serverpackets.PetitionVote;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * A Petition is a report, generally made by a {@link Player} to a Game Master. The categories of report are multiple.

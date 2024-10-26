@@ -12,30 +12,30 @@ import java.util.Collections;
 import java.util.List;
 import java.util.ListIterator;
 
-import net.sf.l2j.commons.config.ExProperties;
-import net.sf.l2j.commons.logging.CLogger;
+import com.shnok.javaserver.commons.config.ExProperties;
+import com.shnok.javaserver.commons.logging.CLogger;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.GeoType;
-import net.sf.l2j.gameserver.enums.MoveDirectionType;
-import net.sf.l2j.gameserver.geoengine.geodata.ABlock;
-import net.sf.l2j.gameserver.geoengine.geodata.BlockComplex;
-import net.sf.l2j.gameserver.geoengine.geodata.BlockComplexDynamic;
-import net.sf.l2j.gameserver.geoengine.geodata.BlockFlat;
-import net.sf.l2j.gameserver.geoengine.geodata.BlockMultilayer;
-import net.sf.l2j.gameserver.geoengine.geodata.BlockMultilayerDynamic;
-import net.sf.l2j.gameserver.geoengine.geodata.BlockNull;
-import net.sf.l2j.gameserver.geoengine.geodata.GeoStructure;
-import net.sf.l2j.gameserver.geoengine.geodata.IBlockDynamic;
-import net.sf.l2j.gameserver.geoengine.geodata.IGeoObject;
-import net.sf.l2j.gameserver.geoengine.pathfinding.PathFinder;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.actor.instance.Door;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.GeoType;
+import com.shnok.javaserver.gameserver.enums.MoveDirectionType;
+import com.shnok.javaserver.gameserver.geoengine.geodata.ABlock;
+import com.shnok.javaserver.gameserver.geoengine.geodata.BlockComplex;
+import com.shnok.javaserver.gameserver.geoengine.geodata.BlockComplexDynamic;
+import com.shnok.javaserver.gameserver.geoengine.geodata.BlockFlat;
+import com.shnok.javaserver.gameserver.geoengine.geodata.BlockMultilayer;
+import com.shnok.javaserver.gameserver.geoengine.geodata.BlockMultilayerDynamic;
+import com.shnok.javaserver.gameserver.geoengine.geodata.BlockNull;
+import com.shnok.javaserver.gameserver.geoengine.geodata.GeoStructure;
+import com.shnok.javaserver.gameserver.geoengine.geodata.IBlockDynamic;
+import com.shnok.javaserver.gameserver.geoengine.geodata.IGeoObject;
+import com.shnok.javaserver.gameserver.geoengine.pathfinding.PathFinder;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.actor.instance.Door;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
 
 public class GeoEngine
 {

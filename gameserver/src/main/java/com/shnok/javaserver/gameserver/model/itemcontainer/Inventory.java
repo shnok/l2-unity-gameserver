@@ -13,28 +13,28 @@ import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 import java.util.stream.Stream;
 
-import net.sf.l2j.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.manager.HeroManager;
-import net.sf.l2j.gameserver.enums.Paperdoll;
-import net.sf.l2j.gameserver.enums.items.ArmorType;
-import net.sf.l2j.gameserver.enums.items.EtcItemType;
-import net.sf.l2j.gameserver.enums.items.ItemLocation;
-import net.sf.l2j.gameserver.enums.items.ItemState;
-import net.sf.l2j.gameserver.enums.items.ItemType;
-import net.sf.l2j.gameserver.enums.items.WeaponType;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInfo;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.item.kind.Item;
-import net.sf.l2j.gameserver.model.itemcontainer.listeners.ChangeRecorderListener;
-import net.sf.l2j.gameserver.model.itemcontainer.listeners.OnEquipListener;
-import net.sf.l2j.gameserver.model.itemcontainer.listeners.StatsListener;
-import net.sf.l2j.gameserver.taskmanager.InventoryUpdateTaskManager;
-import net.sf.l2j.gameserver.taskmanager.ItemInstanceTaskManager;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.manager.HeroManager;
+import com.shnok.javaserver.gameserver.enums.Paperdoll;
+import com.shnok.javaserver.gameserver.enums.items.ArmorType;
+import com.shnok.javaserver.gameserver.enums.items.EtcItemType;
+import com.shnok.javaserver.gameserver.enums.items.ItemLocation;
+import com.shnok.javaserver.gameserver.enums.items.ItemState;
+import com.shnok.javaserver.gameserver.enums.items.ItemType;
+import com.shnok.javaserver.gameserver.enums.items.WeaponType;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInfo;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.gameserver.model.itemcontainer.listeners.ChangeRecorderListener;
+import com.shnok.javaserver.gameserver.model.itemcontainer.listeners.OnEquipListener;
+import com.shnok.javaserver.gameserver.model.itemcontainer.listeners.StatsListener;
+import com.shnok.javaserver.gameserver.taskmanager.InventoryUpdateTaskManager;
+import com.shnok.javaserver.gameserver.taskmanager.ItemInstanceTaskManager;
 
 /**
  * This class manages a {@link Playable}'s inventory.<br>

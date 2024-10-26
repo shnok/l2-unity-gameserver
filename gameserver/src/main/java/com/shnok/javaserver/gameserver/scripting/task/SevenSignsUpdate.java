@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.scripting.task;
 
-import net.sf.l2j.gameserver.data.manager.FestivalOfDarknessManager;
-import net.sf.l2j.gameserver.data.manager.SevenSignsManager;
-import net.sf.l2j.gameserver.scripting.ScheduledQuest;
+import com.shnok.javaserver.gameserver.data.manager.FestivalOfDarknessManager;
+import com.shnok.javaserver.gameserver.data.manager.SevenSignsManager;
+import com.shnok.javaserver.gameserver.scripting.ScheduledQuest;
 
 public final class SevenSignsUpdate extends ScheduledQuest
 {

@@ -1,10 +1,10 @@
 package com.shnok.javaserver.gameserver.model.actor.instance;
 
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.ShowTownMap;
-import net.sf.l2j.gameserver.network.serverpackets.StaticObjectInfo;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.ShowTownMap;
+import com.shnok.javaserver.gameserver.network.serverpackets.StaticObjectInfo;
 
 /**
  * A static object with low amount of interactions and no AI - such as throne, village town maps, etc.

@@ -1,8 +1,8 @@
-package net.sf.l2j.gameserver.model.records;
+package com.shnok.javaserver.gameserver.model.records;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.enums.items.AbsorbCrystalType;
+import com.shnok.javaserver.gameserver.enums.items.AbsorbCrystalType;
 
 /**
  * This class stores Soul Crystal leveling infos related to NPCs.

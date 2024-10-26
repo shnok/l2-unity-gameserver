@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
-import net.sf.l2j.gameserver.model.records.EffectHolder;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.model.records.EffectHolder;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class AbnormalStatusUpdate extends L2GameServerPacket
 {

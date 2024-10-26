@@ -4,22 +4,22 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-import net.sf.l2j.commons.math.MathUtil;
-import net.sf.l2j.commons.pool.ThreadPool;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.math.MathUtil;
+import com.shnok.javaserver.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.enums.IntentionType;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.ai.type.AttackableAI;
-import net.sf.l2j.gameserver.model.actor.attack.AttackableAttack;
-import net.sf.l2j.gameserver.model.actor.container.attackable.AggroList;
-import net.sf.l2j.gameserver.model.actor.status.AttackableStatus;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.location.Point2D;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.enums.IntentionType;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.ai.type.AttackableAI;
+import com.shnok.javaserver.gameserver.model.actor.attack.AttackableAttack;
+import com.shnok.javaserver.gameserver.model.actor.container.attackable.AggroList;
+import com.shnok.javaserver.gameserver.model.actor.status.AttackableStatus;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.location.Point2D;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**
  * This class manages all {@link Npc}s which can hold an {@link AggroList}.

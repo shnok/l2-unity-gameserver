@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.actor.Boat;
-import net.sf.l2j.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.actor.Boat;
+import com.shnok.javaserver.gameserver.model.location.Location;
 
 public class VehicleDeparture extends L2GameServerPacket
 {

@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-import net.sf.l2j.commons.geometry.basic.Line2D;
+import com.shnok.javaserver.commons.geometry.basic.Line2D;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.location.Location;
 
 /**
  * A packet used to draw points and lines on client.<br>

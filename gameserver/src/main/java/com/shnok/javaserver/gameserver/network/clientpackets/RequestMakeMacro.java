@@ -2,10 +2,10 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 
 import java.util.Collection;
 
-import net.sf.l2j.gameserver.model.Macro;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.records.MacroCmd;
-import net.sf.l2j.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.model.Macro;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.records.MacroCmd;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
 
 public final class RequestMakeMacro extends L2GameClientPacket
 {

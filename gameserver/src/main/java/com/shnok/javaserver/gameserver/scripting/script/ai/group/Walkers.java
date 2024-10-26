@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.group;
 
-import net.sf.l2j.commons.util.ArraysUtil;
+import com.shnok.javaserver.commons.util.ArraysUtil;
 
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.scripting.Quest;
 
 public class Walkers extends Quest
 {

@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.handler;
 
-import net.sf.l2j.gameserver.enums.SayType;
+import com.shnok.javaserver.gameserver.enums.SayType;
 
 public class ChatHandler extends AbstractHandler<SayType, IChatHandler>
 {

@@ -2,9 +2,9 @@ package com.shnok.javaserver.gameserver.model.location;
 
 import java.util.Objects;
 
-import net.sf.l2j.commons.math.MathUtil;
+import com.shnok.javaserver.commons.math.MathUtil;
 
-import net.sf.l2j.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.WorldObject;
 
 /**
  * A datatype extending {@link Location}, wildly used as character position, since it also stores heading of the character.

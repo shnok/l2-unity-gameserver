@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.handler;
 
-import net.sf.l2j.gameserver.model.item.kind.EtcItem;
+import com.shnok.javaserver.gameserver.model.item.kind.EtcItem;
 
 public class ItemHandler extends AbstractHandler<Integer, IItemHandler>
 {

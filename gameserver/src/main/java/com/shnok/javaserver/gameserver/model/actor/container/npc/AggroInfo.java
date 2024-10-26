@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.model.actor.container.npc;
 
-import net.sf.l2j.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
 
 /**
  * This class contains all aggro informations (damage and hate) against a {@link Creature}.<br>

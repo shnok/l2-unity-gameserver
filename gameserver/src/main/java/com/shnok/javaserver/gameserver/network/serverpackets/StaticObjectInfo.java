@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.actor.instance.StaticObject;
+import com.shnok.javaserver.gameserver.model.actor.instance.StaticObject;
 
 public class StaticObjectInfo extends L2GameServerPacket
 {

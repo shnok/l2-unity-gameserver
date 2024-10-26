@@ -1,16 +1,16 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.sql.ClanTable;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.pledge.Clan;
-import net.sf.l2j.gameserver.network.serverpackets.GMHennaInfo;
-import net.sf.l2j.gameserver.network.serverpackets.GMViewCharacterInfo;
-import net.sf.l2j.gameserver.network.serverpackets.GMViewItemList;
-import net.sf.l2j.gameserver.network.serverpackets.GMViewPledgeInfo;
-import net.sf.l2j.gameserver.network.serverpackets.GMViewQuestList;
-import net.sf.l2j.gameserver.network.serverpackets.GMViewSkillInfo;
-import net.sf.l2j.gameserver.network.serverpackets.GMViewWarehouseWithdrawList;
+import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.network.serverpackets.GMHennaInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.GMViewCharacterInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.GMViewItemList;
+import com.shnok.javaserver.gameserver.network.serverpackets.GMViewPledgeInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.GMViewQuestList;
+import com.shnok.javaserver.gameserver.network.serverpackets.GMViewSkillInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.GMViewWarehouseWithdrawList;
 
 public final class RequestGMCommand extends L2GameClientPacket
 {

@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.gameserverpackets;
 
-import net.sf.l2j.gameserver.network.SessionKey;
+import com.shnok.javaserver.gameserver.network.SessionKey;
 
 public class PlayerAuthRequest extends GameServerBasePacket
 {

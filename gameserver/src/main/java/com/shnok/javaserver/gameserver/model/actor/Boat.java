@@ -4,25 +4,25 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Future;
 
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.gameserver.data.xml.RestartPointData;
-import net.sf.l2j.gameserver.enums.RestartType;
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.enums.actors.OperateType;
-import net.sf.l2j.gameserver.enums.boats.BoatDock;
-import net.sf.l2j.gameserver.enums.boats.BoatState;
-import net.sf.l2j.gameserver.model.actor.ai.type.BoatAI;
-import net.sf.l2j.gameserver.model.actor.move.BoatMove;
-import net.sf.l2j.gameserver.model.actor.status.BoatStatus;
-import net.sf.l2j.gameserver.model.actor.template.CreatureTemplate;
-import net.sf.l2j.gameserver.model.boat.BoatEngine;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.item.kind.Weapon;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.network.serverpackets.VehicleInfo;
+import com.shnok.javaserver.gameserver.data.xml.RestartPointData;
+import com.shnok.javaserver.gameserver.enums.RestartType;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.enums.actors.OperateType;
+import com.shnok.javaserver.gameserver.enums.boats.BoatDock;
+import com.shnok.javaserver.gameserver.enums.boats.BoatState;
+import com.shnok.javaserver.gameserver.model.actor.ai.type.BoatAI;
+import com.shnok.javaserver.gameserver.model.actor.move.BoatMove;
+import com.shnok.javaserver.gameserver.model.actor.status.BoatStatus;
+import com.shnok.javaserver.gameserver.model.actor.template.CreatureTemplate;
+import com.shnok.javaserver.gameserver.model.boat.BoatEngine;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.VehicleInfo;
 
 public class Boat extends Creature
 {

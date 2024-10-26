@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public class PartySmallWindowDelete extends L2GameServerPacket
 {

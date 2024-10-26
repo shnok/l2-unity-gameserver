@@ -3,10 +3,10 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 import java.util.List;
 import java.util.Set;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.trade.TradeItem;
-import net.sf.l2j.gameserver.model.trade.TradeList;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.trade.TradeItem;
+import com.shnok.javaserver.gameserver.model.trade.TradeList;
 
 public class TradeItemUpdate extends L2GameServerPacket
 {

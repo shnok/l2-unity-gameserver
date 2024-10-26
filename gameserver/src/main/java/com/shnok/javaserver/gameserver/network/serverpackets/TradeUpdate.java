@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.trade.TradeItem;
+import com.shnok.javaserver.gameserver.model.trade.TradeItem;
 
 public class TradeUpdate extends L2GameServerPacket
 {

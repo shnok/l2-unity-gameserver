@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.skills.basefuncs;
 
-import net.sf.l2j.gameserver.enums.skills.Stats;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.skills.Calculator;
-import net.sf.l2j.gameserver.skills.L2Skill;
-import net.sf.l2j.gameserver.skills.conditions.Condition;
-import net.sf.l2j.gameserver.skills.funcs.FuncMDefMod;
-import net.sf.l2j.gameserver.skills.funcs.FuncPAtkMod;
+import com.shnok.javaserver.gameserver.enums.skills.Stats;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.skills.Calculator;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.skills.conditions.Condition;
+import com.shnok.javaserver.gameserver.skills.funcs.FuncMDefMod;
+import com.shnok.javaserver.gameserver.skills.funcs.FuncPAtkMod;
 
 /**
  * A super class for all functions. {@link Func} is container used to calculate a {@link Stats}'s value. It contains the {@link Stats}, order and the value itself.<br>

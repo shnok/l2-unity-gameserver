@@ -4,7 +4,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.Arrays;
 
-import net.sf.l2j.gameserver.enums.GeoType;
+import com.shnok.javaserver.gameserver.enums.GeoType;
 
 public class BlockMultilayer extends ABlock
 {

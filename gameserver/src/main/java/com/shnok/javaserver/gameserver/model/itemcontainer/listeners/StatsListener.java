@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.model.itemcontainer.listeners;
 
-import net.sf.l2j.gameserver.enums.Paperdoll;
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.enums.Paperdoll;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 
 public class StatsListener implements OnEquipListener
 {

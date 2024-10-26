@@ -1,19 +1,19 @@
 package com.shnok.javaserver.gameserver.scripting.script.ai.boss.sirra;
 
-import net.sf.l2j.gameserver.data.manager.SpawnManager;
-import net.sf.l2j.gameserver.data.manager.ZoneManager;
-import net.sf.l2j.gameserver.data.xml.DoorData;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.group.Party;
-import net.sf.l2j.gameserver.model.memo.GlobalMemo;
-import net.sf.l2j.gameserver.model.spawn.NpcMaker;
-import net.sf.l2j.gameserver.model.zone.type.BossZone;
-import net.sf.l2j.gameserver.network.NpcStringId;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.scripting.script.ai.individual.DefaultNpc;
+import com.shnok.javaserver.gameserver.data.manager.SpawnManager;
+import com.shnok.javaserver.gameserver.data.manager.ZoneManager;
+import com.shnok.javaserver.gameserver.data.xml.DoorData;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.model.memo.GlobalMemo;
+import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
+import com.shnok.javaserver.gameserver.model.zone.type.BossZone;
+import com.shnok.javaserver.gameserver.network.NpcStringId;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.scripting.script.ai.individual.DefaultNpc;
 
 public class FreyaDeacon extends DefaultNpc
 {
@@ -101,7 +101,7 @@ public class FreyaDeacon extends DefaultNpc
 							if (partyMember.getInventory().getItemCount(8057) < 10)
 							{
 								final NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
-								html.setFile("./data/html/script/" + getDescr() + "/" + getName() + "/" + szName + "_03.htm");
+								html.setFile("data/html/script/" + getDescr() + "/" + getName() + "/" + szName + "_03.htm");
 								html.replace("%name%", partyMember.getName());
 								partyMember.sendPacket(html);
 								partyMember.sendPacket(ActionFailed.STATIC_PACKET);

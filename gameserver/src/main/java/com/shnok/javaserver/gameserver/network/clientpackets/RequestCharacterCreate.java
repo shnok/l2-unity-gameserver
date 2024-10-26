@@ -1,26 +1,26 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.commons.lang.StringUtil;
+import com.shnok.javaserver.commons.lang.StringUtil;
 
-import net.sf.l2j.gameserver.data.sql.PlayerInfoTable;
-import net.sf.l2j.gameserver.data.xml.NpcData;
-import net.sf.l2j.gameserver.data.xml.PlayerData;
-import net.sf.l2j.gameserver.data.xml.ScriptData;
-import net.sf.l2j.gameserver.enums.QuestStatus;
-import net.sf.l2j.gameserver.enums.ShortcutType;
-import net.sf.l2j.gameserver.enums.actors.Sex;
-import net.sf.l2j.gameserver.idfactory.IdFactory;
-import net.sf.l2j.gameserver.model.Shortcut;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.PlayerTemplate;
-import net.sf.l2j.gameserver.model.holder.skillnode.GeneralSkillNode;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.records.NewbieItem;
-import net.sf.l2j.gameserver.network.serverpackets.CharCreateFail;
-import net.sf.l2j.gameserver.network.serverpackets.CharCreateOk;
-import net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo;
-import net.sf.l2j.gameserver.scripting.Quest;
+import com.shnok.javaserver.gameserver.data.sql.PlayerInfoTable;
+import com.shnok.javaserver.gameserver.data.xml.NpcData;
+import com.shnok.javaserver.gameserver.data.xml.PlayerData;
+import com.shnok.javaserver.gameserver.data.xml.ScriptData;
+import com.shnok.javaserver.gameserver.enums.QuestStatus;
+import com.shnok.javaserver.gameserver.enums.ShortcutType;
+import com.shnok.javaserver.gameserver.enums.actors.Sex;
+import com.shnok.javaserver.gameserver.idfactory.IdFactory;
+import com.shnok.javaserver.gameserver.model.Shortcut;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.PlayerTemplate;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.GeneralSkillNode;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.records.NewbieItem;
+import com.shnok.javaserver.gameserver.network.serverpackets.CharCreateFail;
+import com.shnok.javaserver.gameserver.network.serverpackets.CharCreateOk;
+import com.shnok.javaserver.gameserver.network.serverpackets.CharSelectInfo;
+import com.shnok.javaserver.gameserver.scripting.Quest;
 
 public final class RequestCharacterCreate extends L2GameClientPacket
 {

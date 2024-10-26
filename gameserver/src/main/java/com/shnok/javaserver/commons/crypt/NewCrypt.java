@@ -1,4 +1,4 @@
-package net.sf.l2j.loginserver.crypt;
+package com.shnok.javaserver.commons.crypt;
 
 import java.io.IOException;
 

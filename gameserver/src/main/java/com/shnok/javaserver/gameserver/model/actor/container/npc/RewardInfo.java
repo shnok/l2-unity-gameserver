@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.model.actor.container.npc;
 
-import net.sf.l2j.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
 
 /**
  * This class is used to retain damage infos made on a Attackable. It is used for reward purposes.

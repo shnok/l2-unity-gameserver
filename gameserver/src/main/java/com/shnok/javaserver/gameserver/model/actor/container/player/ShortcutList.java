@@ -7,19 +7,19 @@ import java.util.List;
 import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.function.Predicate;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
 
-import net.sf.l2j.gameserver.enums.ShortcutType;
-import net.sf.l2j.gameserver.enums.items.EtcItemType;
-import net.sf.l2j.gameserver.model.Macro;
-import net.sf.l2j.gameserver.model.Shortcut;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.network.serverpackets.ExAutoSoulShot;
-import net.sf.l2j.gameserver.network.serverpackets.ShortCutDelete;
-import net.sf.l2j.gameserver.network.serverpackets.ShortCutRegister;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.gameserver.enums.ShortcutType;
+import com.shnok.javaserver.gameserver.enums.items.EtcItemType;
+import com.shnok.javaserver.gameserver.model.Macro;
+import com.shnok.javaserver.gameserver.model.Shortcut;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExAutoSoulShot;
+import com.shnok.javaserver.gameserver.network.serverpackets.ShortCutDelete;
+import com.shnok.javaserver.gameserver.network.serverpackets.ShortCutRegister;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class ShortcutList extends ConcurrentSkipListMap<Integer, Shortcut>
 {

@@ -2,10 +2,10 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.Collection;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.model.buylist.NpcBuyList;
-import net.sf.l2j.gameserver.model.buylist.Product;
-import net.sf.l2j.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.model.buylist.NpcBuyList;
+import com.shnok.javaserver.gameserver.model.buylist.Product;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
 
 public class ShopPreviewList extends L2GameServerPacket
 {

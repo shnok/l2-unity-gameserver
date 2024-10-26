@@ -3,13 +3,13 @@ package com.shnok.javaserver.gameserver.model.olympiad;
 import java.util.Collection;
 import java.util.List;
 
-import net.sf.l2j.commons.logging.CLogger;
+import com.shnok.javaserver.commons.logging.CLogger;
 
-import net.sf.l2j.gameserver.data.manager.ZoneManager;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.zone.type.OlympiadStadiumZone;
-import net.sf.l2j.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.data.manager.ZoneManager;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.zone.type.OlympiadStadiumZone;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
 
 public class OlympiadGameManager implements Runnable
 {

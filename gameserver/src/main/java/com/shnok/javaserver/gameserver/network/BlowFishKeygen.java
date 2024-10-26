@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.random.Rnd;
 
 public class BlowFishKeygen
 {

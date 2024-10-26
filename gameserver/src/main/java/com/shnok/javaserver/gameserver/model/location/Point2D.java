@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.model.location;
 
 import java.util.Objects;
 
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.random.Rnd;
 
 /**
  * A datatype used to retain a 2D (x/y) point. It got the capability to be set and cleaned.

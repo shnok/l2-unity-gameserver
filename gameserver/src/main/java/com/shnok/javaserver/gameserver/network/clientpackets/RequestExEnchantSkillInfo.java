@@ -1,13 +1,13 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.SkillTable;
-import net.sf.l2j.gameserver.data.xml.SkillTreeData;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.instance.Folk;
-import net.sf.l2j.gameserver.model.holder.skillnode.EnchantSkillNode;
-import net.sf.l2j.gameserver.network.serverpackets.ExEnchantSkillInfo;
-import net.sf.l2j.gameserver.skills.L2Skill;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.SkillTable;
+import com.shnok.javaserver.gameserver.data.xml.SkillTreeData;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.instance.Folk;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.EnchantSkillNode;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExEnchantSkillInfo;
+import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public final class RequestExEnchantSkillInfo extends L2GameClientPacket
 {

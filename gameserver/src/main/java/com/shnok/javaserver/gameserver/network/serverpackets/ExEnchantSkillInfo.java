@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.ArrayList;
 
-import net.sf.l2j.gameserver.model.records.SkillRequirement;
+import com.shnok.javaserver.gameserver.model.records.SkillRequirement;
 
 public class ExEnchantSkillInfo extends L2GameServerPacket
 {

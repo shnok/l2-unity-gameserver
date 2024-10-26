@@ -5,27 +5,27 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-import net.sf.l2j.gameserver.data.manager.HeroManager;
-import net.sf.l2j.gameserver.data.xml.ItemData;
-import net.sf.l2j.gameserver.enums.Paperdoll;
-import net.sf.l2j.gameserver.enums.ShortcutType;
-import net.sf.l2j.gameserver.enums.StatusType;
-import net.sf.l2j.gameserver.enums.items.EtcItemType;
-import net.sf.l2j.gameserver.enums.items.ItemLocation;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.item.kind.Item;
-import net.sf.l2j.gameserver.model.itemcontainer.listeners.ArmorSetListener;
-import net.sf.l2j.gameserver.model.itemcontainer.listeners.BowRodListener;
-import net.sf.l2j.gameserver.model.itemcontainer.listeners.ItemPassiveSkillsListener;
-import net.sf.l2j.gameserver.model.itemcontainer.listeners.OnEquipListener;
-import net.sf.l2j.gameserver.model.trade.BuyProcessItem;
-import net.sf.l2j.gameserver.model.trade.SellProcessItem;
-import net.sf.l2j.gameserver.model.trade.TradeItem;
-import net.sf.l2j.gameserver.model.trade.TradeList;
-import net.sf.l2j.gameserver.network.serverpackets.StatusUpdate;
-import net.sf.l2j.gameserver.taskmanager.ShadowItemTaskManager;
+import com.shnok.javaserver.gameserver.data.manager.HeroManager;
+import com.shnok.javaserver.gameserver.data.xml.ItemData;
+import com.shnok.javaserver.gameserver.enums.Paperdoll;
+import com.shnok.javaserver.gameserver.enums.ShortcutType;
+import com.shnok.javaserver.gameserver.enums.StatusType;
+import com.shnok.javaserver.gameserver.enums.items.EtcItemType;
+import com.shnok.javaserver.gameserver.enums.items.ItemLocation;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.gameserver.model.itemcontainer.listeners.ArmorSetListener;
+import com.shnok.javaserver.gameserver.model.itemcontainer.listeners.BowRodListener;
+import com.shnok.javaserver.gameserver.model.itemcontainer.listeners.ItemPassiveSkillsListener;
+import com.shnok.javaserver.gameserver.model.itemcontainer.listeners.OnEquipListener;
+import com.shnok.javaserver.gameserver.model.trade.BuyProcessItem;
+import com.shnok.javaserver.gameserver.model.trade.SellProcessItem;
+import com.shnok.javaserver.gameserver.model.trade.TradeItem;
+import com.shnok.javaserver.gameserver.model.trade.TradeList;
+import com.shnok.javaserver.gameserver.network.serverpackets.StatusUpdate;
+import com.shnok.javaserver.gameserver.taskmanager.ShadowItemTaskManager;
 
 public class PcInventory extends Inventory
 {
@@ -159,7 +159,7 @@ public class PcInventory extends Inventory
 	/**
 	 * @param itemId
 	 * @return
-	 * @see net.sf.l2j.gameserver.model.itemcontainer.PcInventory#getAllItemsByItemId(int, boolean)
+	 * @see com.shnok.javaserver.gameserver.model.itemcontainer.PcInventory#getAllItemsByItemId(int, boolean)
 	 */
 	public ItemInstance[] getAllItemsByItemId(int itemId)
 	{
@@ -190,7 +190,7 @@ public class PcInventory extends Inventory
 	 * @param itemId
 	 * @param enchantment
 	 * @return
-	 * @see net.sf.l2j.gameserver.model.itemcontainer.PcInventory#getAllItemsByItemId(int, int, boolean)
+	 * @see com.shnok.javaserver.gameserver.model.itemcontainer.PcInventory#getAllItemsByItemId(int, int, boolean)
 	 */
 	public ItemInstance[] getAllItemsByItemId(int itemId, int enchantment)
 	{

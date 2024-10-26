@@ -1,10 +1,10 @@
 package com.shnok.javaserver.gameserver.model.manor;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.data.xml.ItemData;
-import net.sf.l2j.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.data.xml.ItemData;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
 
 public final class Seed
 {

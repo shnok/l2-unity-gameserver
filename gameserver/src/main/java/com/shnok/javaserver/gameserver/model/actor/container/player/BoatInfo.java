@@ -1,12 +1,12 @@
 package com.shnok.javaserver.gameserver.model.actor.container.player;
 
-import net.sf.l2j.gameserver.model.actor.Boat;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.boat.BoatEngine;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.network.serverpackets.GetOnVehicle;
-import net.sf.l2j.gameserver.network.serverpackets.StopMoveInVehicle;
+import com.shnok.javaserver.gameserver.model.actor.Boat;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.boat.BoatEngine;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.GetOnVehicle;
+import com.shnok.javaserver.gameserver.network.serverpackets.StopMoveInVehicle;
 
 public class BoatInfo
 {

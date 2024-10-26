@@ -5,22 +5,22 @@ import java.lang.reflect.Constructor;
 import java.util.Collections;
 import java.util.List;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.random.Rnd;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.random.Rnd;
 
-import net.sf.l2j.gameserver.data.xml.NpcData;
-import net.sf.l2j.gameserver.enums.EventHandler;
-import net.sf.l2j.gameserver.idfactory.IdFactory;
-import net.sf.l2j.gameserver.model.World;
-import net.sf.l2j.gameserver.model.WorldObject;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.model.location.Location;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.model.memo.SpawnMemo;
-import net.sf.l2j.gameserver.model.records.PrivateData;
+import com.shnok.javaserver.gameserver.data.xml.NpcData;
+import com.shnok.javaserver.gameserver.enums.EventHandler;
+import com.shnok.javaserver.gameserver.idfactory.IdFactory;
+import com.shnok.javaserver.gameserver.model.World;
+import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.model.memo.SpawnMemo;
+import com.shnok.javaserver.gameserver.model.records.PrivateData;
 
 /**
  * This class is a mother-class for all spawns.
@@ -29,7 +29,7 @@ public abstract class ASpawn
 {
 	protected static final CLogger LOGGER = new CLogger(ASpawn.class.getName());
 	
-	private static final String INSTANCE_PACKAGE = "net.sf.l2j.gameserver.model.actor.instance.";
+	private static final String INSTANCE_PACKAGE = "com.shnok.javaserver.gameserver.model.actor.instance.";
 	
 	protected final NpcTemplate _template;
 	protected final Constructor<?> _constructor;

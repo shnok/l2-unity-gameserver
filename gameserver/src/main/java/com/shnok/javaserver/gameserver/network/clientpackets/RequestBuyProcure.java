@@ -3,8 +3,8 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
+import com.shnok.javaserver.Config;
+import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
 
 public class RequestBuyProcure extends L2GameClientPacket
 {

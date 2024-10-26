@@ -2,23 +2,23 @@ package com.shnok.javaserver.gameserver.model.actor.instance;
 
 import java.util.List;
 
-import net.sf.l2j.gameserver.data.xml.SkillTreeData;
-import net.sf.l2j.gameserver.enums.skills.AcquireSkillType;
-import net.sf.l2j.gameserver.model.actor.Npc;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
-import net.sf.l2j.gameserver.model.holder.skillnode.EnchantSkillNode;
-import net.sf.l2j.gameserver.model.holder.skillnode.GeneralSkillNode;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.AcquireSkillDone;
-import net.sf.l2j.gameserver.network.serverpackets.AcquireSkillList;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.ExEnchantSkillList;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.skills.AbstractEffect;
-import net.sf.l2j.gameserver.skills.effects.EffectBuff;
-import net.sf.l2j.gameserver.skills.effects.EffectDebuff;
+import com.shnok.javaserver.gameserver.data.xml.SkillTreeData;
+import com.shnok.javaserver.gameserver.enums.skills.AcquireSkillType;
+import com.shnok.javaserver.gameserver.model.actor.Npc;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.EnchantSkillNode;
+import com.shnok.javaserver.gameserver.model.holder.skillnode.GeneralSkillNode;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.AcquireSkillDone;
+import com.shnok.javaserver.gameserver.network.serverpackets.AcquireSkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExEnchantSkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.skills.AbstractEffect;
+import com.shnok.javaserver.gameserver.skills.effects.EffectBuff;
+import com.shnok.javaserver.gameserver.skills.effects.EffectDebuff;
 
 public class Folk extends Npc
 {

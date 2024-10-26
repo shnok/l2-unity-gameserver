@@ -2,9 +2,9 @@ package com.shnok.javaserver.gameserver.model.actor.template;
 
 import java.util.Map;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.model.records.PetDataEntry;
+import com.shnok.javaserver.gameserver.model.records.PetDataEntry;
 
 public final class PetTemplate extends NpcTemplate
 {

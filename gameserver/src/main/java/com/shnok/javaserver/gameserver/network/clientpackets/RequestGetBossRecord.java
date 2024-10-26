@@ -2,9 +2,9 @@ package com.shnok.javaserver.gameserver.network.clientpackets;
 
 import java.util.Map;
 
-import net.sf.l2j.gameserver.data.manager.RaidPointManager;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.serverpackets.ExGetBossRecord;
+import com.shnok.javaserver.gameserver.data.manager.RaidPointManager;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExGetBossRecord;
 
 public class RequestGetBossRecord extends L2GameClientPacket
 {

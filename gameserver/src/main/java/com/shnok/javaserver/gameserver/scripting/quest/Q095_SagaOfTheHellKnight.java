@@ -1,8 +1,8 @@
 package com.shnok.javaserver.gameserver.scripting.quest;
 
-import net.sf.l2j.gameserver.enums.actors.ClassId;
-import net.sf.l2j.gameserver.model.location.SpawnLocation;
-import net.sf.l2j.gameserver.network.NpcStringId;
+import com.shnok.javaserver.gameserver.enums.actors.ClassId;
+import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
+import com.shnok.javaserver.gameserver.network.NpcStringId;
 
 public class Q095_SagaOfTheHellKnight extends ThirdClassQuest
 {

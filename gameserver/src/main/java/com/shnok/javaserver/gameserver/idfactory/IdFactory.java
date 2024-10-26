@@ -9,10 +9,10 @@ import java.util.BitSet;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import net.sf.l2j.commons.logging.CLogger;
-import net.sf.l2j.commons.math.PrimeFinder;
-import net.sf.l2j.commons.pool.ConnectionPool;
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.logging.CLogger;
+import com.shnok.javaserver.commons.math.PrimeFinder;
+import com.shnok.javaserver.commons.pool.ConnectionPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
 /**
  * This class ensure data integrity and correct allocation of unique object ids towards objects.

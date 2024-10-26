@@ -2,10 +2,10 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 
 import java.util.Collection;
 
-import net.sf.l2j.gameserver.model.actor.Playable;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.item.instance.ItemInfo;
-import net.sf.l2j.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.gameserver.model.actor.Playable;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInfo;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
 
 public class AbstractInventoryUpdate extends L2GameServerPacket
 {

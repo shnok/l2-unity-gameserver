@@ -1,13 +1,13 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.xml.BoatData;
-import net.sf.l2j.gameserver.enums.boats.BoatDock;
-import net.sf.l2j.gameserver.model.actor.Boat;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.model.actor.container.player.BoatInfo;
-import net.sf.l2j.gameserver.model.location.Point2D;
-import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2j.gameserver.network.serverpackets.MoveToLocationInVehicle;
+import com.shnok.javaserver.gameserver.data.xml.BoatData;
+import com.shnok.javaserver.gameserver.enums.boats.BoatDock;
+import com.shnok.javaserver.gameserver.model.actor.Boat;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.model.actor.container.player.BoatInfo;
+import com.shnok.javaserver.gameserver.model.location.Point2D;
+import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.MoveToLocationInVehicle;
 
 public final class RequestMoveToLocationInVehicle extends L2GameClientPacket
 {

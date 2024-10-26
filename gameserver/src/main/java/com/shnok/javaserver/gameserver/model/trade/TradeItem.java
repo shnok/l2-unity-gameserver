@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.model.trade;
 
-import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
-import net.sf.l2j.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.model.item.kind.Item;
 
 public class TradeItem extends ItemRequest
 {

@@ -1,10 +1,10 @@
-package net.sf.l2j.gameserver.model.records;
+package com.shnok.javaserver.gameserver.model.records;
 
 import java.util.List;
 
-import net.sf.l2j.commons.data.StatSet;
+import com.shnok.javaserver.commons.data.StatSet;
 
-import net.sf.l2j.gameserver.model.holder.IntIntHolder;
+import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
 
 public record Recipe(List<IntIntHolder> materials, IntIntHolder product, int id, int level, int recipeId, String alias, int successRate, int mpCost, boolean isDwarven)
 {

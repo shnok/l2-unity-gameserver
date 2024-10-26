@@ -3,7 +3,7 @@ package com.shnok.javaserver.gameserver.network.serverpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.gameserver.model.records.SkillRequirement;
+import com.shnok.javaserver.gameserver.model.records.SkillRequirement;
 
 public class AcquireSkillInfo extends L2GameServerPacket
 {

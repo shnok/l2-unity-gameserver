@@ -1,9 +1,9 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
-import net.sf.l2j.gameserver.data.manager.PetitionManager;
-import net.sf.l2j.gameserver.enums.petitions.PetitionRate;
-import net.sf.l2j.gameserver.model.Petition;
-import net.sf.l2j.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.data.manager.PetitionManager;
+import com.shnok.javaserver.gameserver.enums.petitions.PetitionRate;
+import com.shnok.javaserver.gameserver.model.Petition;
+import com.shnok.javaserver.gameserver.model.actor.Player;
 
 public final class PetitionVote extends L2GameClientPacket
 {

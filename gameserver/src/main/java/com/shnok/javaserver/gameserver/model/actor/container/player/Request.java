@@ -2,12 +2,12 @@ package com.shnok.javaserver.gameserver.model.actor.container.player;
 
 import java.util.concurrent.ScheduledFuture;
 
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.clientpackets.L2GameClientPacket;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * A request between two {@link Player}s. It is associated to a 15 seconds timer, where both partner and packet references are destroyed.<br>

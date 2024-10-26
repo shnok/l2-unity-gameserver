@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.model.group.Party;
+import com.shnok.javaserver.gameserver.model.group.Party;
 
 public class ExMPCCPartyInfoUpdate extends L2GameServerPacket
 {

@@ -3,10 +3,10 @@ package com.shnok.javaserver.gameserver.skills;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.sf.l2j.gameserver.enums.skills.Stats;
-import net.sf.l2j.gameserver.model.actor.Creature;
-import net.sf.l2j.gameserver.skills.basefuncs.Func;
-import net.sf.l2j.gameserver.skills.basefuncs.FuncSet;
+import com.shnok.javaserver.gameserver.enums.skills.Stats;
+import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.skills.basefuncs.Func;
+import com.shnok.javaserver.gameserver.skills.basefuncs.FuncSet;
 
 /**
  * A {@link Calculator} is created to manage and dynamically calculate the effect of a property. It is a table of {@link Func}s in which each {@link Func} represents a mathematic function.<br>

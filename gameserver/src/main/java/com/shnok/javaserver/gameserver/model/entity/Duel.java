@@ -4,23 +4,23 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Future;
 
-import net.sf.l2j.commons.pool.ThreadPool;
+import com.shnok.javaserver.commons.pool.ThreadPool;
 
-import net.sf.l2j.gameserver.data.manager.DuelManager;
-import net.sf.l2j.gameserver.enums.TeamType;
-import net.sf.l2j.gameserver.enums.ZoneId;
-import net.sf.l2j.gameserver.enums.duels.DuelResult;
-import net.sf.l2j.gameserver.enums.duels.DuelState;
-import net.sf.l2j.gameserver.model.actor.Player;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.ExDuelEnd;
-import net.sf.l2j.gameserver.network.serverpackets.ExDuelReady;
-import net.sf.l2j.gameserver.network.serverpackets.ExDuelStart;
-import net.sf.l2j.gameserver.network.serverpackets.ExDuelUpdateUserInfo;
-import net.sf.l2j.gameserver.network.serverpackets.L2GameServerPacket;
-import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
-import net.sf.l2j.gameserver.network.serverpackets.SocialAction;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.shnok.javaserver.gameserver.data.manager.DuelManager;
+import com.shnok.javaserver.gameserver.enums.TeamType;
+import com.shnok.javaserver.gameserver.enums.ZoneId;
+import com.shnok.javaserver.gameserver.enums.duels.DuelResult;
+import com.shnok.javaserver.gameserver.enums.duels.DuelState;
+import com.shnok.javaserver.gameserver.model.actor.Player;
+import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExDuelEnd;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExDuelReady;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExDuelStart;
+import com.shnok.javaserver.gameserver.network.serverpackets.ExDuelUpdateUserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
+import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
+import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class Duel
 {

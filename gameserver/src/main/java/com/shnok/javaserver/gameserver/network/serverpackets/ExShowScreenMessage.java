@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.network.serverpackets;
 
-import net.sf.l2j.gameserver.network.NpcStringId;
+import com.shnok.javaserver.gameserver.network.NpcStringId;
 
 public class ExShowScreenMessage extends L2GameServerPacket
 {
