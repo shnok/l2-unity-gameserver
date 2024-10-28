@@ -13,12 +13,12 @@ import com.shnok.javaserver.gameserver.enums.duels.DuelResult;
 import com.shnok.javaserver.gameserver.enums.duels.DuelState;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExDuelEnd;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExDuelReady;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExDuelStart;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExDuelUpdateUserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExDuelEnd;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExDuelReady;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExDuelStart;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExDuelUpdateUserInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
 import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 

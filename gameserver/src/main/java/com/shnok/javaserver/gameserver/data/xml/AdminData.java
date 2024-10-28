@@ -16,7 +16,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.records.AdminCommand;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 import org.w3c.dom.Document;

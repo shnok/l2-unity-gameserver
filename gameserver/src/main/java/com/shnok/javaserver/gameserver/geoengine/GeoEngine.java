@@ -35,7 +35,7 @@ import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Playable;
 import com.shnok.javaserver.gameserver.model.actor.instance.Door;
 import com.shnok.javaserver.gameserver.model.location.Location;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 
 public class GeoEngine
 {

@@ -12,10 +12,7 @@ import java.security.KeyFactory;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.RSAKeyGenParameterSpec;
 import java.security.spec.RSAPublicKeySpec;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 import com.shnok.javaserver.commons.crypt.NewCrypt;
@@ -44,8 +41,8 @@ import com.shnok.javaserver.gameserver.network.loginserverpackets.InitLS;
 import com.shnok.javaserver.gameserver.network.loginserverpackets.KickPlayer;
 import com.shnok.javaserver.gameserver.network.loginserverpackets.LoginServerFail;
 import com.shnok.javaserver.gameserver.network.loginserverpackets.PlayerAuthResponse;
-import com.shnok.javaserver.gameserver.network.serverpackets.AuthLoginFail;
-import com.shnok.javaserver.gameserver.network.serverpackets.CharSelectInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.auth.AuthLoginFail;
+import com.shnok.javaserver.gameserver.network.serverpackets.auth.CharSelectInfo;
 
 public class LoginServerThread extends Thread
 {
@@ -130,10 +127,16 @@ public class LoginServerThread extends Thread
 					
 					if (receivedBytes != length - 2)
 						break;
-					
+
+					if(Config.DEVELOPER) {
+						LOGGER.info("<--- [LOGIN] Encrypted packet {} : {}", incoming.length, Arrays.toString(incoming));
+					}
 					// Decrypt if we have a key.
 					final byte[] decrypt = _blowfish.decrypt(incoming);
-					
+
+					if(Config.DEVELOPER) {
+						LOGGER.info("<--- [LOGIN] Clear packet {} : {}", decrypt.length, Arrays.toString(decrypt));
+					}
 					// Verify the checksum.
 					if (!NewCrypt.verifyChecksum(decrypt))
 						break;
@@ -169,7 +172,8 @@ public class LoginServerThread extends Thread
 							
 							// now, only accept paket with the new encryption
 							_blowfish = new NewCrypt(_blowfishKey);
-							
+
+							LOGGER.info("Sending auth request with params ID: {} Hostname: {} Port: {} MaxPlayers: {}", _requestId, Config.HOSTNAME, Config.GAMESERVER_PORT, _maxPlayers);
 							sendPacket(new AuthRequest(_requestId, Config.ACCEPT_ALTERNATE_ID, _hexId, Config.HOSTNAME, Config.GAMESERVER_PORT, Config.RESERVE_HOST_ON_LOGIN, _maxPlayers));
 							break;
 						
@@ -338,9 +342,18 @@ public class LoginServerThread extends Thread
 	{
 		byte[] data = sl.getContent();
 		NewCrypt.appendChecksum(data);
-		
+
+
+		if(Config.DEVELOPER) {
+			LOGGER.info("---> [LOGIN] Clear packet {} : {}", data.length, Arrays.toString(data));
+		}
+
 		data = _blowfish.crypt(data);
-		
+
+		if(Config.DEVELOPER) {
+			LOGGER.info("---> [LOGIN] Encrypted packet {} : {}", data.length, Arrays.toString(data));
+		}
+
 		int len = data.length + 2;
 		synchronized (_out) // avoids tow threads writing in the mean time
 		{

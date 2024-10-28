@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.enums.boats;
 
 import com.shnok.javaserver.gameserver.model.actor.Boat;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
 
 public enum BoatSound
 {

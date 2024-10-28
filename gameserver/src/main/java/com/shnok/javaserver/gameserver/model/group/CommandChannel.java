@@ -10,10 +10,10 @@ import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.network.NpcStringId;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.CreatureSay;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExCloseMPCC;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExMPCCPartyInfoUpdate;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExOpenMPCC;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowScreenMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExCloseMPCC;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExMPCCPartyInfoUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExOpenMPCC;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowScreenMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 /**

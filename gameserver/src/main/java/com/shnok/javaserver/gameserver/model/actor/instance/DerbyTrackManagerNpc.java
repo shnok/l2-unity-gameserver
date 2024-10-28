@@ -15,7 +15,7 @@ import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.DeleteObject;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class DerbyTrackManagerNpc extends Folk

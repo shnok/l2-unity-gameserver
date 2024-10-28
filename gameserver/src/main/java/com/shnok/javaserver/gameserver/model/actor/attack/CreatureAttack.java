@@ -24,7 +24,7 @@ import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.Attack;
-import com.shnok.javaserver.gameserver.network.serverpackets.SetupGauge;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SetupGauge;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.Formulas;
 

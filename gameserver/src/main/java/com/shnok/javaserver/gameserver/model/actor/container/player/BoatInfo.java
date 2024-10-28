@@ -5,8 +5,8 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.boat.BoatEngine;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
-import com.shnok.javaserver.gameserver.network.serverpackets.GetOnVehicle;
-import com.shnok.javaserver.gameserver.network.serverpackets.StopMoveInVehicle;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.GetOnVehicle;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.StopMoveInVehicle;
 
 public class BoatInfo
 {

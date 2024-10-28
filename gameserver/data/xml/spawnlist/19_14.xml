@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Orc Area
+ * Immortal Plateau, Nothern Region (south)
+-->
+<list>
+	<!--  -->
+	<territory name="lyonn01_npc1914_g01" minZ="-2876" maxZ="-1576">
+		<node x="-18718" y="-115142"/>
+		<node x="-21003" y="-119598"/>
+		<node x="-19598" y="-123266"/>
+		<node x="-16641" y="-126523"/>
+		<node x="-12967" y="-127857"/>
+		<node x="-13690" y="-121840"/>
+		<node x="-15756" y="-119886"/>
+		<node x="-14827" y="-117935"/>
+		<node x="-11218" y="-116416"/>
+		<node x="-12323" y="-113554"/>
+	</territory>
+	<npcmaker name="lyonn_npc1914_g01m1" territory="lyonn01_npc1914_g01" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31036" total="2" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn01_npc1914_g02" minZ="-2796" maxZ="-1496">
+		<node x="-20156" y="-113256"/>
+		<node x="-13424" y="-110607"/>
+		<node x="-12934" y="-103695"/>
+		<node x="-15495" y="-105854"/>
+		<node x="-19117" y="-105385"/>
+		<node x="-23593" y="-102962"/>
+		<node x="-23593" y="-102962"/>
+		<node x="-24461" y="-103768"/>
+		<node x="-20810" y="-108621"/>
+	</territory>
+	<npcmaker name="lyonn_npc1914_g02m1" territory="lyonn01_npc1914_g02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31036" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn01_npc1914_g03" minZ="-2532" maxZ="-1632">
+		<node x="-24712" y="-117359"/>
+		<node x="-24144" y="-115024"/>
+		<node x="-25719" y="-111067"/>
+		<node x="-27511" y="-112039"/>
+		<node x="-29400" y="-123099"/>
+		<node x="-25700" y="-123147"/>
+		<node x="-22866" y="-119537"/>
+	</territory>
+	<npcmaker name="lyonn_npc1914_g03m1" territory="lyonn01_npc1914_g03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31036" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn01_npc1914_g04" minZ="-3208" maxZ="-2008">
+		<node x="-24475" y="-127207"/>
+		<node x="-20582" y="-126104"/>
+		<node x="-20092" y="-124824"/>
+		<node x="-21824" y="-119700"/>
+		<node x="-25383" y="-123638"/>
+		<node x="-29505" y="-123418"/>
+		<node x="-29553" y="-125546"/>
+	</territory>
+	<npcmaker name="lyonn_npc1914_g04m1" territory="lyonn01_npc1914_g04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31036" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn01_npc1914_g05" minZ="-3400" maxZ="-2300">
+		<node x="-6457" y="-130711"/>
+		<node x="-347" y="-130550"/>
+		<node x="-325" y="-116825"/>
+		<node x="-4309" y="-116721"/>
+		<node x="-5222" y="-119204"/>
+		<node x="-4557" y="-120636"/>
+		<node x="-5667" y="-123298"/>
+		<node x="-6629" y="-125708"/>
+	</territory>
+	<npcmaker name="lyonn_npc1914_g05m1" territory="lyonn01_npc1914_g05" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31036" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn01_npc1914_g06" minZ="-3068" maxZ="-1868">
+		<node x="-2119" y="-112424"/>
+		<node x="-392" y="-113734"/>
+		<node x="-275" y="-98706"/>
+		<node x="-4250" y="-98803"/>
+		<node x="-5703" y="-101851"/>
+		<node x="-4423" y="-105266"/>
+		<node x="-4118" y="-113309"/>
+	</territory>
+	<npcmaker name="lyonn_npc1914_g06m1" territory="lyonn01_npc1914_g06" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31036" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_01" minZ="-1392" maxZ="-992">
+		<node x="-31428" y="-127472"/>
+		<node x="-29104" y="-128572"/>
+		<node x="-27104" y="-128344"/>
+		<node x="-31364" y="-125524"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_01m1" territory="lyonn08_1914_01" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20312" total="1" respawn="21sec"/>
+		<npc id="20365" total="2" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_02" minZ="-1180" maxZ="-480">
+		<node x="-26512" y="-130916"/>
+		<node x="-21344" y="-130920"/>
+		<node x="-21520" y="-130424"/>
+		<node x="-24656" y="-128684"/>
+		<node x="-27008" y="-128400"/>
+		<node x="-27796" y="-128556"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_02m1" territory="lyonn08_1914_02" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20312" total="3" respawn="21sec"/>
+		<npc id="20365" total="3" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_03" minZ="-2592" maxZ="-1842">
+		<node x="-29420" y="-125668"/>
+		<node x="-27504" y="-126336"/>
+		<node x="-25932" y="-123680"/>
+		<node x="-29356" y="-122896"/>
+		<node x="-31624" y="-124464"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_03m1" territory="lyonn08_1914_03" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20312" total="5" respawn="21sec"/>
+		<npc id="20365" total="5" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_04" minZ="-2248" maxZ="-1448">
+		<node x="-29212" y="-122716"/>
+		<node x="-25836" y="-123004"/>
+		<node x="-23084" y="-120028"/>
+		<node x="-23232" y="-119048"/>
+		<node x="-24896" y="-117084"/>
+		<node x="-28208" y="-116392"/>
+		<node x="-29352" y="-119996"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_04m1" territory="lyonn08_1914_04" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="20365" total="6" respawn="21sec"/>
+		<npc id="20363" total="6" respawn="21sec"/>
+		<npc id="20426" total="6" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_05" minZ="-2532" maxZ="-1682">
+		<node x="-28152" y="-116252"/>
+		<node x="-24752" y="-116856"/>
+		<node x="-24384" y="-112600"/>
+		<node x="-26772" y="-110272"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_05m1" territory="lyonn08_1914_05" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20365" total="4" respawn="21sec"/>
+		<npc id="20363" total="4" respawn="21sec"/>
+		<npc id="20426" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_06" minZ="-2232" maxZ="-1282">
+		<node x="-25500" y="-111024"/>
+		<node x="-24464" y="-111120"/>
+		<node x="-24492" y="-108280"/>
+		<node x="-25940" y="-107624"/>
+		<node x="-26220" y="-109900"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_06m1" territory="lyonn08_1914_06" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20365" total="2" respawn="21sec"/>
+		<npc id="20363" total="3" respawn="21sec"/>
+		<npc id="20426" total="2" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_07" minZ="-3216" maxZ="-2966">
+		<node x="-29712" y="-103956"/>
+		<node x="-28700" y="-104024"/>
+		<node x="-27196" y="-101524"/>
+		<node x="-27948" y="-100984"/>
+		<node x="-28900" y="-101036"/>
+		<node x="-29928" y="-102116"/>
+		<node x="-30180" y="-102992"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_07m1" territory="lyonn08_1914_07" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20365" total="3" respawn="21sec"/>
+		<npc id="20363" total="3" respawn="21sec"/>
+		<npc id="20426" total="3" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_08" minZ="-3048" maxZ="-2348">
+		<node x="-32664" y="-102604"/>
+		<node x="-31104" y="-103592"/>
+		<node x="-30176" y="-101164"/>
+		<node x="-31392" y="-100808"/>
+		<node x="-32636" y="-101460"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_08m1" territory="lyonn08_1914_08" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20312" total="2" respawn="21sec"/>
+		<npc id="20365" total="2" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_09" minZ="-2796" maxZ="-2196">
+		<node x="-27724" y="-100308"/>
+		<node x="-26264" y="-101608"/>
+		<node x="-23440" y="-98604"/>
+		<node x="-27644" y="-98624"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_09m1" territory="lyonn08_1914_09" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20365" total="3" respawn="21sec"/>
+		<npc id="20363" total="3" respawn="21sec"/>
+		<npc id="20426" total="3" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_10" minZ="-2900" maxZ="-2500">
+		<node x="-29760" y="-100572"/>
+		<node x="-27776" y="-100316"/>
+		<node x="-27756" y="-98632"/>
+		<node x="-29204" y="-98616"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_10m1" territory="lyonn08_1914_10" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20365" total="2" respawn="21sec"/>
+		<npc id="20363" total="2" respawn="21sec"/>
+		<npc id="20426" total="2" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_11" minZ="-3064" maxZ="-2064">
+		<node x="-27084" y="-127172"/>
+		<node x="-22316" y="-127464"/>
+		<node x="-20188" y="-124508"/>
+		<node x="-21536" y="-120900"/>
+		<node x="-23536" y="-121256"/>
+		<node x="-25572" y="-123824"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_11m1" territory="lyonn08_1914_11" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="20365" total="6" respawn="21sec"/>
+		<npc id="20363" total="6" respawn="21sec"/>
+		<npc id="20426" total="6" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_12" minZ="-2412" maxZ="-1762">
+		<node x="-20188" y="-130892"/>
+		<node x="-15620" y="-130892"/>
+		<node x="-18668" y="-128052"/>
+		<node x="-20308" y="-127648"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_12m1" territory="lyonn08_1914_12" maximumNpcs="38">
+		<ai type="default_maker"/>
+		<npc id="20426" total="3" respawn="21sec"/>
+		<npc id="20316" total="4" respawn="21sec"/>
+		<npc id="20143" total="3" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_13" minZ="-3052" maxZ="-2502">
+		<node x="-14692" y="-130916"/>
+		<node x="-10292" y="-130892"/>
+		<node x="-10464" y="-129804"/>
+		<node x="-17500" y="-127804"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_13m1" territory="lyonn08_1914_13" maximumNpcs="60">
+		<ai type="default_maker"/>
+		<npc id="20316" total="4" respawn="21sec"/>
+		<npc id="20143" total="4" respawn="21sec"/>
+		<npc id="20320" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_14" minZ="-2232" maxZ="-1632">
+		<node x="-18640" y="-102200"/>
+		<node x="-16708" y="-101868"/>
+		<node x="-16580" y="-100684"/>
+		<node x="-18308" y="-99944"/>
+		<node x="-19620" y="-99944"/>
+		<node x="-19252" y="-101548"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_14m1" territory="lyonn08_1914_14" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20363" total="4" respawn="21sec"/>
+		<npc id="20426" total="4" respawn="21sec"/>
+		<npc id="20313" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_15" minZ="-3076" maxZ="-2676">
+		<node x="-22556" y="-118584"/>
+		<node x="-21560" y="-118612"/>
+		<node x="-20328" y="-117280"/>
+		<node x="-19784" y="-114864"/>
+		<node x="-20428" y="-114016"/>
+		<node x="-22116" y="-114004"/>
+		<node x="-23496" y="-115352"/>
+		<node x="-23820" y="-117020"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_15m1" territory="lyonn08_1914_15" maximumNpcs="40">
+		<ai type="default_maker"/>
+		<npc id="20363" total="4" respawn="21sec"/>
+		<npc id="20426" total="4" respawn="21sec"/>
+		<npc id="20316" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_16" minZ="-2340" maxZ="-1040">
+		<node x="-21376" y="-108112"/>
+		<node x="-18580" y="-105412"/>
+		<node x="-21480" y="-102904"/>
+		<node x="-24000" y="-103524"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_16m1" territory="lyonn08_1914_16" maximumNpcs="32">
+		<ai type="default_maker"/>
+		<npc id="20313" total="4" respawn="21sec"/>
+		<npc id="20143" total="4" respawn="21sec"/>
+		<npc id="20320" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_17" minZ="-1704" maxZ="-404">
+		<node x="-19564" y="-104300"/>
+		<node x="-15932" y="-105040"/>
+		<node x="-13876" y="-103252"/>
+		<node x="-15856" y="-102564"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_17m1" territory="lyonn08_1914_17" maximumNpcs="23">
+		<ai type="default_maker"/>
+		<npc id="20320" total="3" respawn="21sec"/>
+		<npc id="20333" total="2" respawn="21sec"/>
+		<npc id="20428" total="3" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_19" minZ="-2552" maxZ="-1852">
+		<node x="-15088" y="-117452"/>
+		<node x="-12724" y="-117536"/>
+		<node x="-10944" y="-116928"/>
+		<node x="-10812" y="-115636"/>
+		<node x="-13088" y="-113756"/>
+		<node x="-14780" y="-115340"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_19m1" territory="lyonn08_1914_19" maximumNpcs="26">
+		<ai type="default_maker"/>
+		<npc id="20320" total="3" respawn="21sec"/>
+		<npc id="20333" total="4" respawn="21sec"/>
+		<npc id="20428" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_20" minZ="-2652" maxZ="-1952">
+		<node x="-19896" y="-118192"/>
+		<node x="-15896" y="-119276"/>
+		<node x="-15200" y="-117424"/>
+		<node x="-14936" y="-115340"/>
+		<node x="-19392" y="-115764"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_20m1" territory="lyonn08_1914_20" maximumNpcs="32">
+		<ai type="default_maker"/>
+		<npc id="20320" total="4" respawn="21sec"/>
+		<npc id="20333" total="4" respawn="21sec"/>
+		<npc id="20428" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_21" minZ="-2552" maxZ="-1952">
+		<node x="-19460" y="-123984"/>
+		<node x="-13832" y="-123220"/>
+		<node x="-15808" y="-119432"/>
+		<node x="-20592" y="-118752"/>
+		<node x="-20776" y="-120536"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_21m1" territory="lyonn08_1914_21" maximumNpcs="48">
+		<ai type="default_maker"/>
+		<npc id="20320" total="6" respawn="21sec"/>
+		<npc id="20333" total="6" respawn="21sec"/>
+		<npc id="20428" total="6" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_22" minZ="-2492" maxZ="-1492">
+		<node x="-17044" y="-126540"/>
+		<node x="-13328" y="-127964"/>
+		<node x="-12732" y="-126488"/>
+		<node x="-14080" y="-123448"/>
+		<node x="-18552" y="-124076"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_22m1" territory="lyonn08_1914_22" maximumNpcs="75">
+		<ai type="default_maker"/>
+		<npc id="20316" total="5" respawn="21sec"/>
+		<npc id="20143" total="5" respawn="21sec"/>
+		<npc id="20320" total="5" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_30" minZ="-2252" maxZ="-1752">
+		<node x="-24440" y="-121172"/>
+		<node x="-23420" y="-120048"/>
+		<node x="-24592" y="-118656"/>
+		<node x="-26444" y="-118628"/>
+		<node x="-26280" y="-120676"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_30m1" territory="lyonn08_1914_30" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20363" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_31" minZ="-3036" maxZ="-2236">
+		<node x="-23980" y="-125872"/>
+		<node x="-22244" y="-125880"/>
+		<node x="-21332" y="-124492"/>
+		<node x="-21928" y="-122688"/>
+		<node x="-24208" y="-124208"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_31m1" territory="lyonn08_1914_31" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20363" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_32" minZ="-3080" maxZ="-2680">
+		<node x="-21876" y="-117392"/>
+		<node x="-21084" y="-117284"/>
+		<node x="-20656" y="-116660"/>
+		<node x="-20500" y="-115928"/>
+		<node x="-20620" y="-115300"/>
+		<node x="-21484" y="-114868"/>
+		<node x="-22816" y="-115608"/>
+		<node x="-22996" y="-116640"/>
+		<node x="-22608" y="-117092"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_32m1" territory="lyonn08_1914_32" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20363" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_33" minZ="-2100" maxZ="-1300">
+		<node x="-21240" y="-106496"/>
+		<node x="-20200" y="-105428"/>
+		<node x="-20808" y="-104204"/>
+		<node x="-22132" y="-103864"/>
+		<node x="-22412" y="-105196"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_33m1" territory="lyonn08_1914_33" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20333" total="3" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_34" minZ="-2436" maxZ="-1836">
+		<node x="-16164" y="-111300"/>
+		<node x="-14532" y="-111032"/>
+		<node x="-14100" y="-109488"/>
+		<node x="-16052" y="-109064"/>
+		<node x="-16980" y="-110004"/>
+		<node x="-16996" y="-110868"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_34m1" territory="lyonn08_1914_34" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20333" total="3" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_35" minZ="-2352" maxZ="-1852">
+		<node x="-19200" y="-109516"/>
+		<node x="-17364" y="-108516"/>
+		<node x="-18556" y="-106612"/>
+		<node x="-20896" y="-108308"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_35m1" territory="lyonn08_1914_35" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20333" total="3" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_1914_36" minZ="-2412" maxZ="-1912">
+		<node x="-17660" y="-122644"/>
+		<node x="-15884" y="-122448"/>
+		<node x="-16568" y="-119984"/>
+		<node x="-18584" y="-119224"/>
+		<node x="-19144" y="-120424"/>
+		<node x="-19108" y="-121664"/>
+	</territory>
+	<npcmaker name="lyonn08_1914_36m1" territory="lyonn08_1914_36" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20363" total="4" respawn="21sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn08_mb1914_01" minZ="-2180" maxZ="-1580">
+		<node x="-18956" y="-101456"/>
+		<node x="-18396" y="-102168"/>
+		<node x="-16700" y="-101804"/>
+		<node x="-17236" y="-100672"/>
+		<node x="-18976" y="-100268"/>
+	</territory>
+	<npcmaker name="lyonn08_mb1914_01" territory="lyonn08_mb1914_01" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25426" total="1" respawn="36hour" respawnRand="24hour" dbName="betrayer_of_urutu_freki" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn09_1914_23" minZ="-3020" maxZ="-2020">
+		<node x="-4284" y="-104428"/>
+		<node x="-268" y="-104080"/>
+		<node x="-216" y="-98600"/>
+		<node x="-4096" y="-98680"/>
+		<node x="-4996" y="-101508"/>
+	</territory>
+	<npcmaker name="lyonn09_1914_23m1" territory="lyonn09_1914_23" maximumNpcs="18">
+		<ai type="event_maker">
+				<set name="EventName" val="extra_mob"/>
+		</ai>
+		<npc id="21119" total="6" respawn="15sec"/>
+		<npc id="21120" total="6" respawn="15sec"/>
+		<npc id="21121" total="6" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn09_1914_24" minZ="-2820" maxZ="-2320">
+		<node x="-4104" y="-111884"/>
+		<node x="-292" y="-112836"/>
+		<node x="-344" y="-104192"/>
+		<node x="-4112" y="-104484"/>
+		<node x="-4744" y="-109744"/>
+	</territory>
+	<npcmaker name="lyonn09_1914_24m1" territory="lyonn09_1914_24" maximumNpcs="21">
+		<ai type="event_maker">
+				<set name="EventName" val="extra_mob"/>
+		</ai>
+		<npc id="21119" total="7" respawn="15sec"/>
+		<npc id="21120" total="7" respawn="15sec"/>
+		<npc id="21121" total="7" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn09_1914_25" minZ="-3628" maxZ="-3228">
+		<node x="-4652" y="-114732"/>
+		<node x="-264" y="-115416"/>
+		<node x="-328" y="-114576"/>
+		<node x="-2512" y="-113624"/>
+	</territory>
+	<npcmaker name="lyonn09_1914_25m1" territory="lyonn09_1914_25" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21257" total="2" respawn="15sec"/>
+		<npc id="21117" total="2" respawn="15sec"/>
+		<npc id="21118" total="2" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn09_1914_26" minZ="-2976" maxZ="-2276">
+		<node x="-2868" y="-118668"/>
+		<node x="-324" y="-118600"/>
+		<node x="-296" y="-117164"/>
+		<node x="-4216" y="-117052"/>
+	</territory>
+	<npcmaker name="lyonn09_1914_26m1" territory="lyonn09_1914_26" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21257" total="2" respawn="15sec"/>
+		<npc id="21117" total="2" respawn="15sec"/>
+		<npc id="21118" total="2" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn09_1914_27" minZ="-3052" maxZ="-2152">
+		<node x="-4644" y="-123488"/>
+		<node x="-388" y="-124068"/>
+		<node x="-440" y="-119488"/>
+		<node x="-3824" y="-119084"/>
+	</territory>
+	<npcmaker name="lyonn09_1914_27m1" territory="lyonn09_1914_27" maximumNpcs="74">
+		<ai type="event_maker">
+				<set name="EventName" val="extra_mob"/>
+		</ai>
+		<npc id="20479" total="4" respawn="15sec"/>
+		<npc id="20476" total="5" respawn="15sec"/>
+		<npc id="20478" total="5" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn09_1914_28" minZ="-3372" maxZ="-2472">
+		<node x="-3432" y="-129244"/>
+		<node x="-416" y="-127604"/>
+		<node x="-396" y="-124124"/>
+		<node x="-4656" y="-123496"/>
+		<node x="-5608" y="-124820"/>
+		<node x="-5400" y="-127416"/>
+	</territory>
+	<npcmaker name="lyonn09_1914_28m1" territory="lyonn09_1914_28" maximumNpcs="107">
+		<ai type="event_maker">
+				<set name="EventName" val="extra_mob"/>
+		</ai>
+		<npc id="20364" total="5" respawn="15sec"/>
+		<npc id="20474" total="6" respawn="15sec"/>
+		<npc id="20479" total="6" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="lyonn09_1914_29" minZ="-3216" maxZ="-2616">
+		<node x="-7220" y="-130924"/>
+		<node x="-4208" y="-130884"/>
+		<node x="-3544" y="-129424"/>
+		<node x="-5396" y="-127676"/>
+	</territory>
+	<npcmaker name="lyonn09_1914_29m1" territory="lyonn09_1914_29" maximumNpcs="7">
+		<ai type="event_maker">
+				<set name="EventName" val="extra_mob"/>
+		</ai>
+		<npc id="20333" total="3" respawn="15sec"/>
+		<npc id="20428" total="2" respawn="15sec"/>
+		<npc id="20364" total="2" respawn="15sec"/>
+	</npcmaker>
+</list>

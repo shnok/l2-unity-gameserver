@@ -4,7 +4,7 @@ import com.shnok.javaserver.gameserver.enums.ZoneId;
 import com.shnok.javaserver.gameserver.handler.IUserCommandHandler;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
 
 public class Escape implements IUserCommandHandler
 {

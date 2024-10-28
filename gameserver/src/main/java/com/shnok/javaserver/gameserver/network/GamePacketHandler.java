@@ -13,6 +13,9 @@ import com.shnok.javaserver.commons.mmocore.ReceivablePacket;
 import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.network.GameClient.GameClientState;
 import com.shnok.javaserver.gameserver.network.clientpackets.*;
+import com.shnok.javaserver.gameserver.network.clientpackets.auth.*;
+import com.shnok.javaserver.gameserver.network.clientpackets.item.*;
+import com.shnok.javaserver.gameserver.network.clientpackets.unused.*;
 
 /**
  * The Stateful approach prevents the server from handling inconsistent packets.<BR>
@@ -145,6 +148,10 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 					// case 0x10:
 					// // RequestEquipItem ... not used any more, instead "useItem"
 					// break;
+					 case 0x10:
+					 // Now using change inventory order instead
+						 msg = new RequestInventoryUpdateOrder();
+					 break;
 					case 0x11:
 						msg = new RequestUnEquipItem();
 						break;

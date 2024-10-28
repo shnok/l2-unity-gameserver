@@ -1,0 +1,3373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Seven Signs
+ * Dimensional Rift
+-->
+<list>
+	<!--  -->
+	<territory name="ssqteleport1_1612_31" minZ="-6786" maxZ="-6586">
+		<node x="-112364" y="-182829"/>
+		<node x="-111569" y="-182829"/>
+		<node x="-111569" y="-182040"/>
+		<node x="-112364" y="-182040"/>
+	</territory>
+	<npcmaker name="dimension_gap_00" territory="ssqteleport1_1612_31" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r00_invader_teleport"/>
+				<set name="hunting_level_index" val="30"/>
+				<set name="room_index" val="00"/>
+		</ai>
+		<npc id="21659" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21660" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21661" pos="-111736;-182208;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21661" pos="-112196;-182208;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21661" pos="-112206;-182672;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21661" pos="-111732;-182672;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31865" pos="-111971;-182437;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111967"/>
+				<set name="PosY0" val="-182222"/>
+				<set name="PosX1" val="-111082"/>
+				<set name="PosY1" val="-182225"/>
+				<set name="PosX2" val="-110277"/>
+				<set name="PosY2" val="-180349"/>
+				<set name="PosX3" val="-109393"/>
+				<set name="PosY3" val="-180354"/>
+				<set name="PosX4" val="-113283"/>
+				<set name="PosY4" val="-181321"/>
+				<set name="PosX5" val="-111575"/>
+				<set name="PosY5" val="-180738"/>
+				<set name="PosX6" val="-109778"/>
+				<set name="PosY6" val="-182240"/>
+				<set name="PosX7" val="-111567"/>
+				<set name="PosY7" val="-181706"/>
+				<set name="PosX8" val="-109894"/>
+				<set name="PosY8" val="-181691"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="30level"/>
+				<set name="RoomIndex" val="0"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="1"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_32" minZ="-6786" maxZ="-6586">
+		<node x="-111471" y="-182833"/>
+		<node x="-110684" y="-182833"/>
+		<node x="-110692" y="-182035"/>
+		<node x="-111480" y="-182035"/>
+	</territory>
+	<npcmaker name="dimension_gap_01" territory="ssqteleport1_1612_32" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r01_invader_teleport"/>
+				<set name="hunting_level_index" val="30"/>
+				<set name="room_index" val="01"/>
+		</ai>
+		<npc id="21662" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21663" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21664" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31866" pos="-111098;-182451;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111967"/>
+				<set name="PosY0" val="-182222"/>
+				<set name="PosX1" val="-111082"/>
+				<set name="PosY1" val="-182225"/>
+				<set name="PosX2" val="-110277"/>
+				<set name="PosY2" val="-180349"/>
+				<set name="PosX3" val="-109393"/>
+				<set name="PosY3" val="-180354"/>
+				<set name="PosX4" val="-113283"/>
+				<set name="PosY4" val="-181321"/>
+				<set name="PosX5" val="-111575"/>
+				<set name="PosY5" val="-180738"/>
+				<set name="PosX6" val="-109778"/>
+				<set name="PosY6" val="-182240"/>
+				<set name="PosX7" val="-111567"/>
+				<set name="PosY7" val="-181706"/>
+				<set name="PosX8" val="-109894"/>
+				<set name="PosY8" val="-181691"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="30level"/>
+				<set name="RoomIndex" val="1"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="1"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_33" minZ="-6786" maxZ="-6586">
+		<node x="-110685" y="-180957"/>
+		<node x="-109899" y="-180952"/>
+		<node x="-109896" y="-180164"/>
+		<node x="-110685" y="-180164"/>
+	</territory>
+	<npcmaker name="dimension_gap_02" territory="ssqteleport1_1612_33" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r02_invader_teleport"/>
+				<set name="hunting_level_index" val="30"/>
+				<set name="room_index" val="02"/>
+		</ai>
+		<npc id="21665" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21666" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21667" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31867" pos="-110274;-180570;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111967"/>
+				<set name="PosY0" val="-182222"/>
+				<set name="PosX1" val="-111082"/>
+				<set name="PosY1" val="-182225"/>
+				<set name="PosX2" val="-110277"/>
+				<set name="PosY2" val="-180349"/>
+				<set name="PosX3" val="-109393"/>
+				<set name="PosY3" val="-180354"/>
+				<set name="PosX4" val="-113283"/>
+				<set name="PosY4" val="-181321"/>
+				<set name="PosX5" val="-111575"/>
+				<set name="PosY5" val="-180738"/>
+				<set name="PosX6" val="-109778"/>
+				<set name="PosY6" val="-182240"/>
+				<set name="PosX7" val="-111567"/>
+				<set name="PosY7" val="-181706"/>
+				<set name="PosX8" val="-109894"/>
+				<set name="PosY8" val="-181691"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="30level"/>
+				<set name="RoomIndex" val="2"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="1"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_34" minZ="-6786" maxZ="-6586">
+		<node x="-109800" y="-180947"/>
+		<node x="-109015" y="-180947"/>
+		<node x="-109015" y="-180165"/>
+		<node x="-109795" y="-180165"/>
+	</territory>
+	<npcmaker name="dimension_gap_03" territory="ssqteleport1_1612_34" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r03_invader_teleport"/>
+				<set name="hunting_level_index" val="30"/>
+				<set name="room_index" val="03"/>
+		</ai>
+		<npc id="21668" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21669" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21670" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31868" pos="-109391;-180543;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111967"/>
+				<set name="PosY0" val="-182222"/>
+				<set name="PosX1" val="-111082"/>
+				<set name="PosY1" val="-182225"/>
+				<set name="PosX2" val="-110277"/>
+				<set name="PosY2" val="-180349"/>
+				<set name="PosX3" val="-109393"/>
+				<set name="PosY3" val="-180354"/>
+				<set name="PosX4" val="-113283"/>
+				<set name="PosY4" val="-181321"/>
+				<set name="PosX5" val="-111575"/>
+				<set name="PosY5" val="-180738"/>
+				<set name="PosX6" val="-109778"/>
+				<set name="PosY6" val="-182240"/>
+				<set name="PosX7" val="-111567"/>
+				<set name="PosY7" val="-181706"/>
+				<set name="PosX8" val="-109894"/>
+				<set name="PosY8" val="-181691"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="30level"/>
+				<set name="RoomIndex" val="3"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="1"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_35" minZ="-6786" maxZ="-6586">
+		<node x="-114047" y="-181963"/>
+		<node x="-112480" y="-181966"/>
+		<node x="-112480" y="-181083"/>
+		<node x="-114047" y="-181072"/>
+	</territory>
+	<npcmaker name="dimension_gap_04" territory="ssqteleport1_1612_35" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r04_invader_teleport"/>
+				<set name="hunting_level_index" val="30"/>
+				<set name="room_index" val="04"/>
+		</ai>
+		<npc id="21671" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18287" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21672" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21673" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31869" pos="-113276;-181523;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111967"/>
+				<set name="PosY0" val="-182222"/>
+				<set name="PosX1" val="-111082"/>
+				<set name="PosY1" val="-182225"/>
+				<set name="PosX2" val="-110277"/>
+				<set name="PosY2" val="-180349"/>
+				<set name="PosX3" val="-109393"/>
+				<set name="PosY3" val="-180354"/>
+				<set name="PosX4" val="-113283"/>
+				<set name="PosY4" val="-181321"/>
+				<set name="PosX5" val="-111575"/>
+				<set name="PosY5" val="-180738"/>
+				<set name="PosX6" val="-109778"/>
+				<set name="PosY6" val="-182240"/>
+				<set name="PosX7" val="-111567"/>
+				<set name="PosY7" val="-181706"/>
+				<set name="PosX8" val="-109894"/>
+				<set name="PosY8" val="-181691"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="30level"/>
+				<set name="RoomIndex" val="4"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="1"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_36" minZ="-6786" maxZ="-6586">
+		<node x="-112355" y="-181013"/>
+		<node x="-110814" y="-181007"/>
+		<node x="-110822" y="-180124"/>
+		<node x="-112363" y="-180130"/>
+	</territory>
+	<npcmaker name="dimension_gap_05" territory="ssqteleport1_1612_36" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r05_invader_teleport"/>
+				<set name="hunting_level_index" val="30"/>
+				<set name="room_index" val="05"/>
+		</ai>
+		<npc id="21674" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21675" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21676" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31870" pos="-111564;-180548;-6753;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111967"/>
+				<set name="PosY0" val="-182222"/>
+				<set name="PosX1" val="-111082"/>
+				<set name="PosY1" val="-182225"/>
+				<set name="PosX2" val="-110277"/>
+				<set name="PosY2" val="-180349"/>
+				<set name="PosX3" val="-109393"/>
+				<set name="PosY3" val="-180354"/>
+				<set name="PosX4" val="-113283"/>
+				<set name="PosY4" val="-181321"/>
+				<set name="PosX5" val="-111575"/>
+				<set name="PosY5" val="-180738"/>
+				<set name="PosX6" val="-109778"/>
+				<set name="PosY6" val="-182240"/>
+				<set name="PosX7" val="-111567"/>
+				<set name="PosY7" val="-181706"/>
+				<set name="PosX8" val="-109894"/>
+				<set name="PosY8" val="-181691"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="30level"/>
+				<set name="RoomIndex" val="5"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="1"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_37" minZ="-6786" maxZ="-6586">
+		<node x="-110564" y="-182885"/>
+		<node x="-109023" y="-182879"/>
+		<node x="-109015" y="-181988"/>
+		<node x="-110556" y="-181994"/>
+	</territory>
+	<npcmaker name="dimension_gap_06" territory="ssqteleport1_1612_37" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r06_invader_teleport"/>
+				<set name="hunting_level_index" val="30"/>
+				<set name="room_index" val="06"/>
+		</ai>
+		<npc id="21677" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21678" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18288" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31871" pos="-109782;-182443;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111967"/>
+				<set name="PosY0" val="-182222"/>
+				<set name="PosX1" val="-111082"/>
+				<set name="PosY1" val="-182225"/>
+				<set name="PosX2" val="-110277"/>
+				<set name="PosY2" val="-180349"/>
+				<set name="PosX3" val="-109393"/>
+				<set name="PosY3" val="-180354"/>
+				<set name="PosX4" val="-113283"/>
+				<set name="PosY4" val="-181321"/>
+				<set name="PosX5" val="-111575"/>
+				<set name="PosY5" val="-180738"/>
+				<set name="PosX6" val="-109778"/>
+				<set name="PosY6" val="-182240"/>
+				<set name="PosX7" val="-111567"/>
+				<set name="PosY7" val="-181706"/>
+				<set name="PosX8" val="-109894"/>
+				<set name="PosY8" val="-181691"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="30level"/>
+				<set name="RoomIndex" val="6"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="1"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_38" minZ="-6786" maxZ="-6586">
+		<node x="-112356" y="-181964"/>
+		<node x="-110807" y="-181949"/>
+		<node x="-110798" y="-181058"/>
+		<node x="-112348" y="-181073"/>
+	</territory>
+	<npcmaker name="dimension_gap_07" territory="ssqteleport1_1612_38" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r07_invader_teleport"/>
+				<set name="hunting_level_index" val="30"/>
+				<set name="room_index" val="07"/>
+		</ai>
+		<npc id="21679" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21680" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21681" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31872" pos="-111571;-181523;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111967"/>
+				<set name="PosY0" val="-182222"/>
+				<set name="PosX1" val="-111082"/>
+				<set name="PosY1" val="-182225"/>
+				<set name="PosX2" val="-110277"/>
+				<set name="PosY2" val="-180349"/>
+				<set name="PosX3" val="-109393"/>
+				<set name="PosY3" val="-180354"/>
+				<set name="PosX4" val="-113283"/>
+				<set name="PosY4" val="-181321"/>
+				<set name="PosX5" val="-111575"/>
+				<set name="PosY5" val="-180738"/>
+				<set name="PosX6" val="-109778"/>
+				<set name="PosY6" val="-182240"/>
+				<set name="PosX7" val="-111567"/>
+				<set name="PosY7" val="-181706"/>
+				<set name="PosX8" val="-109894"/>
+				<set name="PosY8" val="-181691"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="30level"/>
+				<set name="RoomIndex" val="7"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="1"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_41" minZ="-6786" maxZ="-6586">
+		<node x="-112360" y="-180009"/>
+		<node x="-111577" y="-180009"/>
+		<node x="-111573" y="-179224"/>
+		<node x="-112356" y="-179224"/>
+	</territory>
+	<npcmaker name="dimension_gap_10" territory="ssqteleport1_1612_41" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r10_invader_teleport"/>
+				<set name="hunting_level_index" val="40"/>
+				<set name="room_index" val="10"/>
+		</ai>
+		<npc id="21682" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21683" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21684" pos="-111735;-179394;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21684" pos="-112195;-179394;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21684" pos="-112205;-179858;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21684" pos="-111731;-179858;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31874" pos="-111974;-179611;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111970"/>
+				<set name="PosY0" val="-179396"/>
+				<set name="PosX1" val="-111086"/>
+				<set name="PosY1" val="-179399"/>
+				<set name="PosX2" val="-110280"/>
+				<set name="PosY2" val="-177523"/>
+				<set name="PosX3" val="-109396"/>
+				<set name="PosY3" val="-177528"/>
+				<set name="PosX4" val="-113287"/>
+				<set name="PosY4" val="-178495"/>
+				<set name="PosX5" val="-111578"/>
+				<set name="PosY5" val="-177912"/>
+				<set name="PosX6" val="-109781"/>
+				<set name="PosY6" val="-179414"/>
+				<set name="PosX7" val="-111570"/>
+				<set name="PosY7" val="-178879"/>
+				<set name="PosX8" val="-109897"/>
+				<set name="PosY8" val="-178865"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="40level"/>
+				<set name="RoomIndex" val="0"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="2"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_42" minZ="-6786" maxZ="-6586">
+		<node x="-111478" y="-180009"/>
+		<node x="-110691" y="-180009"/>
+		<node x="-110691" y="-179223"/>
+		<node x="-111478" y="-179223"/>
+	</territory>
+	<npcmaker name="dimension_gap_11" territory="ssqteleport1_1612_42" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r11_invader_teleport"/>
+				<set name="hunting_level_index" val="40"/>
+				<set name="room_index" val="11"/>
+		</ai>
+		<npc id="21685" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21686" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21687" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31875" pos="-111102;-179625;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111970"/>
+				<set name="PosY0" val="-179396"/>
+				<set name="PosX1" val="-111086"/>
+				<set name="PosY1" val="-179399"/>
+				<set name="PosX2" val="-110280"/>
+				<set name="PosY2" val="-177523"/>
+				<set name="PosX3" val="-109396"/>
+				<set name="PosY3" val="-177528"/>
+				<set name="PosX4" val="-113287"/>
+				<set name="PosY4" val="-178495"/>
+				<set name="PosX5" val="-111578"/>
+				<set name="PosY5" val="-177912"/>
+				<set name="PosX6" val="-109781"/>
+				<set name="PosY6" val="-179414"/>
+				<set name="PosX7" val="-111570"/>
+				<set name="PosY7" val="-178879"/>
+				<set name="PosX8" val="-109897"/>
+				<set name="PosY8" val="-178865"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="40level"/>
+				<set name="RoomIndex" val="1"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="2"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_43" minZ="-6786" maxZ="-6586">
+		<node x="-110691" y="-178128"/>
+		<node x="-109902" y="-178128"/>
+		<node x="-109902" y="-177344"/>
+		<node x="-110691" y="-177344"/>
+	</territory>
+	<npcmaker name="dimension_gap_12" territory="ssqteleport1_1612_43" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r12_invader_teleport"/>
+				<set name="hunting_level_index" val="40"/>
+				<set name="room_index" val="12"/>
+		</ai>
+		<npc id="21688" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21689" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21690" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31876" pos="-110277;-177744;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111970"/>
+				<set name="PosY0" val="-179396"/>
+				<set name="PosX1" val="-111086"/>
+				<set name="PosY1" val="-179399"/>
+				<set name="PosX2" val="-110280"/>
+				<set name="PosY2" val="-177523"/>
+				<set name="PosX3" val="-109396"/>
+				<set name="PosY3" val="-177528"/>
+				<set name="PosX4" val="-113287"/>
+				<set name="PosY4" val="-178495"/>
+				<set name="PosX5" val="-111578"/>
+				<set name="PosY5" val="-177912"/>
+				<set name="PosX6" val="-109781"/>
+				<set name="PosY6" val="-179414"/>
+				<set name="PosX7" val="-111570"/>
+				<set name="PosY7" val="-178879"/>
+				<set name="PosX8" val="-109897"/>
+				<set name="PosY8" val="-178865"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="40level"/>
+				<set name="RoomIndex" val="2"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="2"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_44" minZ="-6786" maxZ="-6586">
+		<node x="-109800" y="-178128"/>
+		<node x="-109019" y="-178128"/>
+		<node x="-109016" y="-177343"/>
+		<node x="-109796" y="-177343"/>
+	</territory>
+	<npcmaker name="dimension_gap_13" territory="ssqteleport1_1612_44" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r13_invader_teleport"/>
+				<set name="hunting_level_index" val="40"/>
+				<set name="room_index" val="13"/>
+		</ai>
+		<npc id="21691" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21692" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21693" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31877" pos="-109395;-177716;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111970"/>
+				<set name="PosY0" val="-179396"/>
+				<set name="PosX1" val="-111086"/>
+				<set name="PosY1" val="-179399"/>
+				<set name="PosX2" val="-110280"/>
+				<set name="PosY2" val="-177523"/>
+				<set name="PosX3" val="-109396"/>
+				<set name="PosY3" val="-177528"/>
+				<set name="PosX4" val="-113287"/>
+				<set name="PosY4" val="-178495"/>
+				<set name="PosX5" val="-111578"/>
+				<set name="PosY5" val="-177912"/>
+				<set name="PosX6" val="-109781"/>
+				<set name="PosY6" val="-179414"/>
+				<set name="PosX7" val="-111570"/>
+				<set name="PosY7" val="-178879"/>
+				<set name="PosX8" val="-109897"/>
+				<set name="PosY8" val="-178865"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="40level"/>
+				<set name="RoomIndex" val="3"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="2"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_45" minZ="-6786" maxZ="-6586">
+		<node x="-114035" y="-179126"/>
+		<node x="-112479" y="-179125"/>
+		<node x="-112479" y="-178248"/>
+		<node x="-114035" y="-178250"/>
+	</territory>
+	<npcmaker name="dimension_gap_14" territory="ssqteleport1_1612_45" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r14_invader_teleport"/>
+				<set name="hunting_level_index" val="40"/>
+				<set name="room_index" val="14"/>
+		</ai>
+		<npc id="21694" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18289" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21695" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21696" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31878" pos="-113280;-178697;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111970"/>
+				<set name="PosY0" val="-179396"/>
+				<set name="PosX1" val="-111086"/>
+				<set name="PosY1" val="-179399"/>
+				<set name="PosX2" val="-110280"/>
+				<set name="PosY2" val="-177523"/>
+				<set name="PosX3" val="-109396"/>
+				<set name="PosY3" val="-177528"/>
+				<set name="PosX4" val="-113287"/>
+				<set name="PosY4" val="-178495"/>
+				<set name="PosX5" val="-111578"/>
+				<set name="PosY5" val="-177912"/>
+				<set name="PosX6" val="-109781"/>
+				<set name="PosY6" val="-179414"/>
+				<set name="PosX7" val="-111570"/>
+				<set name="PosY7" val="-178879"/>
+				<set name="PosX8" val="-109897"/>
+				<set name="PosY8" val="-178865"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="40level"/>
+				<set name="RoomIndex" val="4"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="2"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_46" minZ="-6786" maxZ="-6586">
+		<node x="-112357" y="-178179"/>
+		<node x="-110809" y="-178181"/>
+		<node x="-110805" y="-177285"/>
+		<node x="-112357" y="-177284"/>
+	</territory>
+	<npcmaker name="dimension_gap_15" territory="ssqteleport1_1612_46" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r15_invader_teleport"/>
+				<set name="hunting_level_index" val="40"/>
+				<set name="room_index" val="15"/>
+		</ai>
+		<npc id="21697" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21698" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21699" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31879" pos="-111567;-177721;-6753;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111970"/>
+				<set name="PosY0" val="-179396"/>
+				<set name="PosX1" val="-111086"/>
+				<set name="PosY1" val="-179399"/>
+				<set name="PosX2" val="-110280"/>
+				<set name="PosY2" val="-177523"/>
+				<set name="PosX3" val="-109396"/>
+				<set name="PosY3" val="-177528"/>
+				<set name="PosX4" val="-113287"/>
+				<set name="PosY4" val="-178495"/>
+				<set name="PosX5" val="-111578"/>
+				<set name="PosY5" val="-177912"/>
+				<set name="PosX6" val="-109781"/>
+				<set name="PosY6" val="-179414"/>
+				<set name="PosX7" val="-111570"/>
+				<set name="PosY7" val="-178879"/>
+				<set name="PosX8" val="-109897"/>
+				<set name="PosY8" val="-178865"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="40level"/>
+				<set name="RoomIndex" val="5"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="2"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_47" minZ="-6786" maxZ="-6586">
+		<node x="-110566" y="-180061"/>
+		<node x="-109020" y="-180050"/>
+		<node x="-109015" y="-179163"/>
+		<node x="-110561" y="-179174"/>
+	</territory>
+	<npcmaker name="dimension_gap_16" territory="ssqteleport1_1612_47" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r16_invader_teleport"/>
+				<set name="hunting_level_index" val="40"/>
+				<set name="room_index" val="16"/>
+		</ai>
+		<npc id="21700" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21701" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18290" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31880" pos="-109785;-179617;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111970"/>
+				<set name="PosY0" val="-179396"/>
+				<set name="PosX1" val="-111086"/>
+				<set name="PosY1" val="-179399"/>
+				<set name="PosX2" val="-110280"/>
+				<set name="PosY2" val="-177523"/>
+				<set name="PosX3" val="-109396"/>
+				<set name="PosY3" val="-177528"/>
+				<set name="PosX4" val="-113287"/>
+				<set name="PosY4" val="-178495"/>
+				<set name="PosX5" val="-111578"/>
+				<set name="PosY5" val="-177912"/>
+				<set name="PosX6" val="-109781"/>
+				<set name="PosY6" val="-179414"/>
+				<set name="PosX7" val="-111570"/>
+				<set name="PosY7" val="-178879"/>
+				<set name="PosX8" val="-109897"/>
+				<set name="PosY8" val="-178865"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="40level"/>
+				<set name="RoomIndex" val="6"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="2"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_48" minZ="-6786" maxZ="-6586">
+		<node x="-112362" y="-179136"/>
+		<node x="-110802" y="-179130"/>
+		<node x="-110802" y="-178240"/>
+		<node x="-112362" y="-178246"/>
+	</territory>
+	<npcmaker name="dimension_gap_17" territory="ssqteleport1_1612_48" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r17_invader_teleport"/>
+				<set name="hunting_level_index" val="40"/>
+				<set name="room_index" val="17"/>
+		</ai>
+		<npc id="21702" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21703" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21704" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31881" pos="-111574;-178697;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111970"/>
+				<set name="PosY0" val="-179396"/>
+				<set name="PosX1" val="-111086"/>
+				<set name="PosY1" val="-179399"/>
+				<set name="PosX2" val="-110280"/>
+				<set name="PosY2" val="-177523"/>
+				<set name="PosX3" val="-109396"/>
+				<set name="PosY3" val="-177528"/>
+				<set name="PosX4" val="-113287"/>
+				<set name="PosY4" val="-178495"/>
+				<set name="PosX5" val="-111578"/>
+				<set name="PosY5" val="-177912"/>
+				<set name="PosX6" val="-109781"/>
+				<set name="PosY6" val="-179414"/>
+				<set name="PosX7" val="-111570"/>
+				<set name="PosY7" val="-178879"/>
+				<set name="PosX8" val="-109897"/>
+				<set name="PosY8" val="-178865"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="40level"/>
+				<set name="RoomIndex" val="7"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="2"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_51" minZ="-6786" maxZ="-6586">
+		<node x="-114257" y="-176213"/>
+		<node x="-113473" y="-176213"/>
+		<node x="-113473" y="-175424"/>
+		<node x="-114257" y="-175424"/>
+	</territory>
+	<npcmaker name="dimension_gap_20" territory="ssqteleport1_1612_51" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r20_invader_teleport"/>
+				<set name="hunting_level_index" val="50"/>
+				<set name="room_index" val="20"/>
+		</ai>
+		<npc id="21705" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21706" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21707" pos="-113621;-175597;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21707" pos="-114081;-175597;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21707" pos="-114092;-176061;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21707" pos="-113617;-176061;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31883" pos="-113797;-175816;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-114045"/>
+				<set name="PosY0" val="-175816"/>
+				<set name="PosX1" val="-113861"/>
+				<set name="PosY1" val="-174938"/>
+				<set name="PosX2" val="-115945"/>
+				<set name="PosY2" val="-174147"/>
+				<set name="PosX3" val="-115969"/>
+				<set name="PosY3" val="-173229"/>
+				<set name="PosX4" val="-115011"/>
+				<set name="PosY4" val="-177070"/>
+				<set name="PosX5" val="-115945"/>
+				<set name="PosY5" val="-175401"/>
+				<set name="PosX6" val="-114045"/>
+				<set name="PosY6" val="-173604"/>
+				<set name="PosX7" val="-114955"/>
+				<set name="PosY7" val="-175377"/>
+				<set name="PosX8" val="-114971"/>
+				<set name="PosY8" val="-173724"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="50level"/>
+				<set name="RoomIndex" val="0"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="3"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_52" minZ="-6786" maxZ="-6586">
+		<node x="-114270" y="-175336"/>
+		<node x="-113471" y="-175329"/>
+		<node x="-113471" y="-174534"/>
+		<node x="-114256" y="-174534"/>
+	</territory>
+	<npcmaker name="dimension_gap_21" territory="ssqteleport1_1612_52" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r21_invader_teleport"/>
+				<set name="hunting_level_index" val="50"/>
+				<set name="room_index" val="21"/>
+		</ai>
+		<npc id="21708" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21709" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21710" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31884" pos="-114077;-174938;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-114045"/>
+				<set name="PosY0" val="-175816"/>
+				<set name="PosX1" val="-113861"/>
+				<set name="PosY1" val="-174938"/>
+				<set name="PosX2" val="-115945"/>
+				<set name="PosY2" val="-174147"/>
+				<set name="PosX3" val="-115969"/>
+				<set name="PosY3" val="-173229"/>
+				<set name="PosX4" val="-115011"/>
+				<set name="PosY4" val="-177070"/>
+				<set name="PosX5" val="-115945"/>
+				<set name="PosY5" val="-175401"/>
+				<set name="PosX6" val="-114045"/>
+				<set name="PosY6" val="-173604"/>
+				<set name="PosX7" val="-114955"/>
+				<set name="PosY7" val="-175377"/>
+				<set name="PosX8" val="-114971"/>
+				<set name="PosY8" val="-173724"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="50level"/>
+				<set name="RoomIndex" val="1"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="3"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_53" minZ="-6786" maxZ="-6586">
+		<node x="-116140" y="-174540"/>
+		<node x="-115357" y="-174540"/>
+		<node x="-115352" y="-173751"/>
+		<node x="-116135" y="-173751"/>
+	</territory>
+	<npcmaker name="dimension_gap_22" territory="ssqteleport1_1612_53" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r22_invader_teleport"/>
+				<set name="hunting_level_index" val="50"/>
+				<set name="room_index" val="22"/>
+		</ai>
+		<npc id="21711" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21712" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21713" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31885" pos="-115705;-174147;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-114045"/>
+				<set name="PosY0" val="-175816"/>
+				<set name="PosX1" val="-113861"/>
+				<set name="PosY1" val="-174938"/>
+				<set name="PosX2" val="-115945"/>
+				<set name="PosY2" val="-174147"/>
+				<set name="PosX3" val="-115969"/>
+				<set name="PosY3" val="-173229"/>
+				<set name="PosX4" val="-115011"/>
+				<set name="PosY4" val="-177070"/>
+				<set name="PosX5" val="-115945"/>
+				<set name="PosY5" val="-175401"/>
+				<set name="PosX6" val="-114045"/>
+				<set name="PosY6" val="-173604"/>
+				<set name="PosX7" val="-114955"/>
+				<set name="PosY7" val="-175377"/>
+				<set name="PosX8" val="-114971"/>
+				<set name="PosY8" val="-173724"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="50level"/>
+				<set name="RoomIndex" val="2"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="3"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_54" minZ="-6786" maxZ="-6586">
+		<node x="-116139" y="-173641"/>
+		<node x="-115351" y="-173646"/>
+		<node x="-115346" y="-172867"/>
+		<node x="-116129" y="-172862"/>
+	</territory>
+	<npcmaker name="dimension_gap_23" territory="ssqteleport1_1612_54" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r23_invader_teleport"/>
+				<set name="hunting_level_index" val="50"/>
+				<set name="room_index" val="23"/>
+		</ai>
+		<npc id="21714" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21715" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21716" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31886" pos="-115681;-173229;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-114045"/>
+				<set name="PosY0" val="-175816"/>
+				<set name="PosX1" val="-113861"/>
+				<set name="PosY1" val="-174938"/>
+				<set name="PosX2" val="-115945"/>
+				<set name="PosY2" val="-174147"/>
+				<set name="PosX3" val="-115969"/>
+				<set name="PosY3" val="-173229"/>
+				<set name="PosX4" val="-115011"/>
+				<set name="PosY4" val="-177070"/>
+				<set name="PosX5" val="-115945"/>
+				<set name="PosY5" val="-175401"/>
+				<set name="PosX6" val="-114045"/>
+				<set name="PosY6" val="-173604"/>
+				<set name="PosX7" val="-114955"/>
+				<set name="PosY7" val="-175377"/>
+				<set name="PosX8" val="-114971"/>
+				<set name="PosY8" val="-173724"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="50level"/>
+				<set name="RoomIndex" val="3"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="3"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_55" minZ="-6786" maxZ="-6586">
+		<node x="-115232" y="-177888"/>
+		<node x="-114365" y="-177895"/>
+		<node x="-114357" y="-176343"/>
+		<node x="-115224" y="-176336"/>
+	</territory>
+	<npcmaker name="dimension_gap_24" territory="ssqteleport1_1612_55" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r24_invader_teleport"/>
+				<set name="hunting_level_index" val="50"/>
+				<set name="room_index" val="24"/>
+		</ai>
+		<npc id="21717" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18291" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21718" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21719" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31887" pos="-114751;-177066;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-114045"/>
+				<set name="PosY0" val="-175816"/>
+				<set name="PosX1" val="-113861"/>
+				<set name="PosY1" val="-174938"/>
+				<set name="PosX2" val="-115945"/>
+				<set name="PosY2" val="-174147"/>
+				<set name="PosX3" val="-115969"/>
+				<set name="PosY3" val="-173229"/>
+				<set name="PosX4" val="-115011"/>
+				<set name="PosY4" val="-177070"/>
+				<set name="PosX5" val="-115945"/>
+				<set name="PosY5" val="-175401"/>
+				<set name="PosX6" val="-114045"/>
+				<set name="PosY6" val="-173604"/>
+				<set name="PosX7" val="-114955"/>
+				<set name="PosY7" val="-175377"/>
+				<set name="PosX8" val="-114971"/>
+				<set name="PosY8" val="-173724"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="50level"/>
+				<set name="RoomIndex" val="4"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="3"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_56" minZ="-6786" maxZ="-6586">
+		<node x="-116199" y="-176214"/>
+		<node x="-115304" y="-176214"/>
+		<node x="-115295" y="-174655"/>
+		<node x="-116189" y="-174655"/>
+	</territory>
+	<npcmaker name="dimension_gap_25" territory="ssqteleport1_1612_56" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r25_invader_teleport"/>
+				<set name="hunting_level_index" val="50"/>
+				<set name="room_index" val="25"/>
+		</ai>
+		<npc id="21720" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21721" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21722" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31888" pos="-115690;-175409;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-114045"/>
+				<set name="PosY0" val="-175816"/>
+				<set name="PosX1" val="-113861"/>
+				<set name="PosY1" val="-174938"/>
+				<set name="PosX2" val="-115945"/>
+				<set name="PosY2" val="-174147"/>
+				<set name="PosX3" val="-115969"/>
+				<set name="PosY3" val="-173229"/>
+				<set name="PosX4" val="-115011"/>
+				<set name="PosY4" val="-177070"/>
+				<set name="PosX5" val="-115945"/>
+				<set name="PosY5" val="-175401"/>
+				<set name="PosX6" val="-114045"/>
+				<set name="PosY6" val="-173604"/>
+				<set name="PosX7" val="-114955"/>
+				<set name="PosY7" val="-175377"/>
+				<set name="PosX8" val="-114971"/>
+				<set name="PosY8" val="-173724"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="50level"/>
+				<set name="RoomIndex" val="5"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="3"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_57" minZ="-6786" maxZ="-6586">
+		<node x="-114301" y="-174410"/>
+		<node x="-113431" y="-174416"/>
+		<node x="-113429" y="-172872"/>
+		<node x="-114298" y="-172865"/>
+	</territory>
+	<npcmaker name="dimension_gap_26" territory="ssqteleport1_1612_57" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r26_invader_teleport"/>
+				<set name="hunting_level_index" val="50"/>
+				<set name="room_index" val="26"/>
+		</ai>
+		<npc id="21723" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21724" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18292" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31889" pos="-113805;-173604;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-114045"/>
+				<set name="PosY0" val="-175816"/>
+				<set name="PosX1" val="-113861"/>
+				<set name="PosY1" val="-174938"/>
+				<set name="PosX2" val="-115945"/>
+				<set name="PosY2" val="-174147"/>
+				<set name="PosX3" val="-115969"/>
+				<set name="PosY3" val="-173229"/>
+				<set name="PosX4" val="-115011"/>
+				<set name="PosY4" val="-177070"/>
+				<set name="PosX5" val="-115945"/>
+				<set name="PosY5" val="-175401"/>
+				<set name="PosX6" val="-114045"/>
+				<set name="PosY6" val="-173604"/>
+				<set name="PosX7" val="-114955"/>
+				<set name="PosY7" val="-175377"/>
+				<set name="PosX8" val="-114971"/>
+				<set name="PosY8" val="-173724"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="50level"/>
+				<set name="RoomIndex" val="6"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="3"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_58" minZ="-6786" maxZ="-6586">
+		<node x="-115245" y="-176211"/>
+		<node x="-114336" y="-176211"/>
+		<node x="-114334" y="-174659"/>
+		<node x="-115242" y="-174659"/>
+	</territory>
+	<npcmaker name="dimension_gap_27" territory="ssqteleport1_1612_58" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r27_invader_teleport"/>
+				<set name="hunting_level_index" val="50"/>
+				<set name="room_index" val="27"/>
+		</ai>
+		<npc id="21725" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21726" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21727" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31890" pos="-114724;-175385;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-114045"/>
+				<set name="PosY0" val="-175816"/>
+				<set name="PosX1" val="-113861"/>
+				<set name="PosY1" val="-174938"/>
+				<set name="PosX2" val="-115945"/>
+				<set name="PosY2" val="-174147"/>
+				<set name="PosX3" val="-115969"/>
+				<set name="PosY3" val="-173229"/>
+				<set name="PosX4" val="-115011"/>
+				<set name="PosY4" val="-177070"/>
+				<set name="PosX5" val="-115945"/>
+				<set name="PosY5" val="-175401"/>
+				<set name="PosX6" val="-114045"/>
+				<set name="PosY6" val="-173604"/>
+				<set name="PosX7" val="-114955"/>
+				<set name="PosY7" val="-175377"/>
+				<set name="PosX8" val="-114971"/>
+				<set name="PosY8" val="-173724"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="50level"/>
+				<set name="RoomIndex" val="7"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="3"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_61" minZ="-6786" maxZ="-6586">
+		<node x="-118017" y="-178148"/>
+		<node x="-117229" y="-178148"/>
+		<node x="-117224" y="-177360"/>
+		<node x="-118012" y="-177360"/>
+	</territory>
+	<npcmaker name="dimension_gap_30" territory="ssqteleport1_1612_61" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r30_invader_teleport"/>
+				<set name="hunting_level_index" val="60"/>
+				<set name="room_index" val="30"/>
+		</ai>
+		<npc id="21728" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21729" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21730" pos="-117387;-177521;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21730" pos="-117847;-177521;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21730" pos="-117858;-177985;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21730" pos="-117383;-177985;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31892" pos="-117634;-177784;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117618"/>
+				<set name="PosY0" val="-177514"/>
+				<set name="PosX1" val="-118475"/>
+				<set name="PosY1" val="-177531"/>
+				<set name="PosX2" val="-119254"/>
+				<set name="PosY2" val="-179440"/>
+				<set name="PosX3" val="-120160"/>
+				<set name="PosY3" val="-179457"/>
+				<set name="PosX4" val="-116310"/>
+				<set name="PosY4" val="-178469"/>
+				<set name="PosX5" val="-117982"/>
+				<set name="PosY5" val="-179447"/>
+				<set name="PosX6" val="-119762"/>
+				<set name="PosY6" val="-177523"/>
+				<set name="PosX7" val="-117976"/>
+				<set name="PosY7" val="-178496"/>
+				<set name="PosX8" val="-119671"/>
+				<set name="PosY8" val="-178471"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="60level"/>
+				<set name="RoomIndex" val="0"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="4"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_62" minZ="-6786" maxZ="-6586">
+		<node x="-118897" y="-178146"/>
+		<node x="-118119" y="-178146"/>
+		<node x="-118114" y="-177362"/>
+		<node x="-118892" y="-177362"/>
+	</territory>
+	<npcmaker name="dimension_gap_31" territory="ssqteleport1_1612_62" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r31_invader_teleport"/>
+				<set name="hunting_level_index" val="60"/>
+				<set name="room_index" val="31"/>
+		</ai>
+		<npc id="21731" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21732" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21733" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31893" pos="-118465;-177758;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117618"/>
+				<set name="PosY0" val="-177514"/>
+				<set name="PosX1" val="-118475"/>
+				<set name="PosY1" val="-177531"/>
+				<set name="PosX2" val="-119254"/>
+				<set name="PosY2" val="-179440"/>
+				<set name="PosX3" val="-120160"/>
+				<set name="PosY3" val="-179457"/>
+				<set name="PosX4" val="-116310"/>
+				<set name="PosY4" val="-178469"/>
+				<set name="PosX5" val="-117982"/>
+				<set name="PosY5" val="-179447"/>
+				<set name="PosX6" val="-119762"/>
+				<set name="PosY6" val="-177523"/>
+				<set name="PosX7" val="-117976"/>
+				<set name="PosY7" val="-178496"/>
+				<set name="PosX8" val="-119671"/>
+				<set name="PosY8" val="-178471"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="60level"/>
+				<set name="RoomIndex" val="1"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="4"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_63" minZ="-6786" maxZ="-6586">
+		<node x="-119691" y="-180019"/>
+		<node x="-118904" y="-180023"/>
+		<node x="-118904" y="-179245"/>
+		<node x="-119691" y="-179241"/>
+	</territory>
+	<npcmaker name="dimension_gap_32" territory="ssqteleport1_1612_63" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r32_invader_teleport"/>
+				<set name="hunting_level_index" val="60"/>
+				<set name="room_index" val="32"/>
+		</ai>
+		<npc id="21734" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21735" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21736" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31894" pos="-119262;-179660;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117618"/>
+				<set name="PosY0" val="-177514"/>
+				<set name="PosX1" val="-118475"/>
+				<set name="PosY1" val="-177531"/>
+				<set name="PosX2" val="-119254"/>
+				<set name="PosY2" val="-179440"/>
+				<set name="PosX3" val="-120160"/>
+				<set name="PosY3" val="-179457"/>
+				<set name="PosX4" val="-116310"/>
+				<set name="PosY4" val="-178469"/>
+				<set name="PosX5" val="-117982"/>
+				<set name="PosY5" val="-179447"/>
+				<set name="PosX6" val="-119762"/>
+				<set name="PosY6" val="-177523"/>
+				<set name="PosX7" val="-117976"/>
+				<set name="PosY7" val="-178496"/>
+				<set name="PosX8" val="-119671"/>
+				<set name="PosY8" val="-178471"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="60level"/>
+				<set name="RoomIndex" val="2"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="4"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_64" minZ="-6786" maxZ="-6586">
+		<node x="-120573" y="-180029"/>
+		<node x="-119786" y="-180025"/>
+		<node x="-119786" y="-179239"/>
+		<node x="-120573" y="-179243"/>
+	</territory>
+	<npcmaker name="dimension_gap_33" territory="ssqteleport1_1612_64" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r33_invader_teleport"/>
+				<set name="hunting_level_index" val="60"/>
+				<set name="room_index" val="33"/>
+		</ai>
+		<npc id="21737" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21738" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21739" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31895" pos="-120151;-179668;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117618"/>
+				<set name="PosY0" val="-177514"/>
+				<set name="PosX1" val="-118475"/>
+				<set name="PosY1" val="-177531"/>
+				<set name="PosX2" val="-119254"/>
+				<set name="PosY2" val="-179440"/>
+				<set name="PosX3" val="-120160"/>
+				<set name="PosY3" val="-179457"/>
+				<set name="PosX4" val="-116310"/>
+				<set name="PosY4" val="-178469"/>
+				<set name="PosX5" val="-117982"/>
+				<set name="PosY5" val="-179447"/>
+				<set name="PosX6" val="-119762"/>
+				<set name="PosY6" val="-177523"/>
+				<set name="PosX7" val="-117976"/>
+				<set name="PosY7" val="-178496"/>
+				<set name="PosX8" val="-119671"/>
+				<set name="PosY8" val="-178471"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="60level"/>
+				<set name="RoomIndex" val="3"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="4"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_65" minZ="-6786" maxZ="-6586">
+		<node x="-117107" y="-179126"/>
+		<node x="-115553" y="-179122"/>
+		<node x="-115548" y="-178250"/>
+		<node x="-117103" y="-178255"/>
+	</territory>
+	<npcmaker name="dimension_gap_34" territory="ssqteleport1_1612_65" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r34_invader_teleport"/>
+				<set name="hunting_level_index" val="60"/>
+				<set name="room_index" val="34"/>
+		</ai>
+		<npc id="21740" total="3" respawn="82sec"/>
+		<npc id="18293" total="3" respawn="82sec"/>
+		<npc id="21741" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21742" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31896" pos="-116326;-178729;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117618"/>
+				<set name="PosY0" val="-177514"/>
+				<set name="PosX1" val="-118475"/>
+				<set name="PosY1" val="-177531"/>
+				<set name="PosX2" val="-119254"/>
+				<set name="PosY2" val="-179440"/>
+				<set name="PosX3" val="-120160"/>
+				<set name="PosY3" val="-179457"/>
+				<set name="PosX4" val="-116310"/>
+				<set name="PosY4" val="-178469"/>
+				<set name="PosX5" val="-117982"/>
+				<set name="PosY5" val="-179447"/>
+				<set name="PosX6" val="-119762"/>
+				<set name="PosY6" val="-177523"/>
+				<set name="PosX7" val="-117976"/>
+				<set name="PosY7" val="-178496"/>
+				<set name="PosX8" val="-119671"/>
+				<set name="PosY8" val="-178471"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="60level"/>
+				<set name="RoomIndex" val="4"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="4"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_66" minZ="-6786" maxZ="-6586">
+		<node x="-118779" y="-180077"/>
+		<node x="-117228" y="-180073"/>
+		<node x="-117228" y="-179184"/>
+		<node x="-118779" y="-179188"/>
+	</territory>
+	<npcmaker name="dimension_gap_35" territory="ssqteleport1_1612_66" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r35_invader_teleport"/>
+				<set name="hunting_level_index" val="60"/>
+				<set name="room_index" val="35"/>
+		</ai>
+		<npc id="21743" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21744" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21745" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31897" pos="-117973;-179667;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117618"/>
+				<set name="PosY0" val="-177514"/>
+				<set name="PosX1" val="-118475"/>
+				<set name="PosY1" val="-177531"/>
+				<set name="PosX2" val="-119254"/>
+				<set name="PosY2" val="-179440"/>
+				<set name="PosX3" val="-120160"/>
+				<set name="PosY3" val="-179457"/>
+				<set name="PosX4" val="-116310"/>
+				<set name="PosY4" val="-178469"/>
+				<set name="PosX5" val="-117982"/>
+				<set name="PosY5" val="-179447"/>
+				<set name="PosX6" val="-119762"/>
+				<set name="PosY6" val="-177523"/>
+				<set name="PosX7" val="-117976"/>
+				<set name="PosY7" val="-178496"/>
+				<set name="PosX8" val="-119671"/>
+				<set name="PosY8" val="-178471"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="60level"/>
+				<set name="RoomIndex" val="5"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="4"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_67" minZ="-6786" maxZ="-6586">
+		<node x="-120566" y="-178186"/>
+		<node x="-119017" y="-178186"/>
+		<node x="-119022" y="-177315"/>
+		<node x="-120571" y="-177315"/>
+	</territory>
+	<npcmaker name="dimension_gap_36" territory="ssqteleport1_1612_67" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r36_invader_teleport"/>
+				<set name="hunting_level_index" val="60"/>
+				<set name="room_index" val="36"/>
+		</ai>
+		<npc id="21746" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21747" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18294" total="4" respawn="100sec"/>
+		<npc id="31898" pos="-119753;-177759;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117618"/>
+				<set name="PosY0" val="-177514"/>
+				<set name="PosX1" val="-118475"/>
+				<set name="PosY1" val="-177531"/>
+				<set name="PosX2" val="-119254"/>
+				<set name="PosY2" val="-179440"/>
+				<set name="PosX3" val="-120160"/>
+				<set name="PosY3" val="-179457"/>
+				<set name="PosX4" val="-116310"/>
+				<set name="PosY4" val="-178469"/>
+				<set name="PosX5" val="-117982"/>
+				<set name="PosY5" val="-179447"/>
+				<set name="PosX6" val="-119762"/>
+				<set name="PosY6" val="-177523"/>
+				<set name="PosX7" val="-117976"/>
+				<set name="PosY7" val="-178496"/>
+				<set name="PosX8" val="-119671"/>
+				<set name="PosY8" val="-178471"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="60level"/>
+				<set name="RoomIndex" val="6"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="4"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_68" minZ="-6786" maxZ="-6586">
+		<node x="-118783" y="-179123"/>
+		<node x="-117234" y="-179123"/>
+		<node x="-117229" y="-178241"/>
+		<node x="-118778" y="-178241"/>
+	</territory>
+	<npcmaker name="dimension_gap_37" territory="ssqteleport1_1612_68" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r37_invader_teleport"/>
+				<set name="hunting_level_index" val="60"/>
+				<set name="room_index" val="37"/>
+		</ai>
+		<npc id="21748" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21749" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21750" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31899" pos="-117976;-178724;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117618"/>
+				<set name="PosY0" val="-177514"/>
+				<set name="PosX1" val="-118475"/>
+				<set name="PosY1" val="-177531"/>
+				<set name="PosX2" val="-119254"/>
+				<set name="PosY2" val="-179440"/>
+				<set name="PosX3" val="-120160"/>
+				<set name="PosY3" val="-179457"/>
+				<set name="PosX4" val="-116310"/>
+				<set name="PosY4" val="-178469"/>
+				<set name="PosX5" val="-117982"/>
+				<set name="PosY5" val="-179447"/>
+				<set name="PosX6" val="-119762"/>
+				<set name="PosY6" val="-177523"/>
+				<set name="PosX7" val="-117976"/>
+				<set name="PosY7" val="-178496"/>
+				<set name="PosX8" val="-119671"/>
+				<set name="PosY8" val="-178471"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="60level"/>
+				<set name="RoomIndex" val="7"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="4"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_71" minZ="-6786" maxZ="-6586">
+		<node x="-118016" y="-180965"/>
+		<node x="-117227" y="-180969"/>
+		<node x="-117227" y="-180186"/>
+		<node x="-118016" y="-180182"/>
+	</territory>
+	<npcmaker name="dimension_gap_40" territory="ssqteleport1_1612_71" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r40_invader_teleport"/>
+				<set name="hunting_level_index" val="70"/>
+				<set name="room_index" val="40"/>
+		</ai>
+		<npc id="21751" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21752" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21753" pos="-117378;-180352;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21753" pos="-117838;-180352;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21753" pos="-117849;-180816;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21753" pos="-117374;-180816;-6768;0" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31901" pos="-117676;-180613;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117660"/>
+				<set name="PosY0" val="-180342"/>
+				<set name="PosX1" val="-118516"/>
+				<set name="PosY1" val="-180359"/>
+				<set name="PosX2" val="-119296"/>
+				<set name="PosY2" val="-182269"/>
+				<set name="PosX3" val="-120201"/>
+				<set name="PosY3" val="-182285"/>
+				<set name="PosX4" val="-116351"/>
+				<set name="PosY4" val="-181298"/>
+				<set name="PosX5" val="-118023"/>
+				<set name="PosY5" val="-182276"/>
+				<set name="PosX6" val="-119803"/>
+				<set name="PosY6" val="-180352"/>
+				<set name="PosX7" val="-118018"/>
+				<set name="PosY7" val="-181325"/>
+				<set name="PosX8" val="-119713"/>
+				<set name="PosY8" val="-181300"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="70level"/>
+				<set name="RoomIndex" val="0"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="5"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_72" minZ="-6786" maxZ="-6586">
+		<node x="-118901" y="-180972"/>
+		<node x="-118117" y="-180972"/>
+		<node x="-118108" y="-180180"/>
+		<node x="-118901" y="-180180"/>
+	</territory>
+	<npcmaker name="dimension_gap_41" territory="ssqteleport1_1612_72" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r41_invader_teleport"/>
+				<set name="hunting_level_index" val="70"/>
+				<set name="room_index" val="41"/>
+		</ai>
+		<npc id="21754" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21755" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21756" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31902" pos="-118506;-180587;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117660"/>
+				<set name="PosY0" val="-180342"/>
+				<set name="PosX1" val="-118516"/>
+				<set name="PosY1" val="-180359"/>
+				<set name="PosX2" val="-119296"/>
+				<set name="PosY2" val="-182269"/>
+				<set name="PosX3" val="-120201"/>
+				<set name="PosY3" val="-182285"/>
+				<set name="PosX4" val="-116351"/>
+				<set name="PosY4" val="-181298"/>
+				<set name="PosX5" val="-118023"/>
+				<set name="PosY5" val="-182276"/>
+				<set name="PosX6" val="-119803"/>
+				<set name="PosY6" val="-180352"/>
+				<set name="PosX7" val="-118018"/>
+				<set name="PosY7" val="-181325"/>
+				<set name="PosX8" val="-119713"/>
+				<set name="PosY8" val="-181300"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="70level"/>
+				<set name="RoomIndex" val="1"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="5"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_73" minZ="-6786" maxZ="-6586">
+		<node x="-119686" y="-182850"/>
+		<node x="-118907" y="-182850"/>
+		<node x="-118907" y="-182069"/>
+		<node x="-119686" y="-182069"/>
+	</territory>
+	<npcmaker name="dimension_gap_42" territory="ssqteleport1_1612_73" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r42_invader_teleport"/>
+				<set name="hunting_level_index" val="70"/>
+				<set name="room_index" val="42"/>
+		</ai>
+		<npc id="21757" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21758" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21759" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31903" pos="-119304;-182488;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117660"/>
+				<set name="PosY0" val="-180342"/>
+				<set name="PosX1" val="-118516"/>
+				<set name="PosY1" val="-180359"/>
+				<set name="PosX2" val="-119296"/>
+				<set name="PosY2" val="-182269"/>
+				<set name="PosX3" val="-120201"/>
+				<set name="PosY3" val="-182285"/>
+				<set name="PosX4" val="-116351"/>
+				<set name="PosY4" val="-181298"/>
+				<set name="PosX5" val="-118023"/>
+				<set name="PosY5" val="-182276"/>
+				<set name="PosX6" val="-119803"/>
+				<set name="PosY6" val="-180352"/>
+				<set name="PosX7" val="-118018"/>
+				<set name="PosY7" val="-181325"/>
+				<set name="PosX8" val="-119713"/>
+				<set name="PosY8" val="-181300"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="70level"/>
+				<set name="RoomIndex" val="2"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="5"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_74" minZ="-6786" maxZ="-6586">
+		<node x="-120571" y="-182844"/>
+		<node x="-119783" y="-182848"/>
+		<node x="-119788" y="-182067"/>
+		<node x="-120576" y="-182062"/>
+	</territory>
+	<npcmaker name="dimension_gap_43" territory="ssqteleport1_1612_74" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r43_invader_teleport"/>
+				<set name="hunting_level_index" val="70"/>
+				<set name="room_index" val="43"/>
+		</ai>
+		<npc id="21760" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21761" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21762" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31904" pos="-120193;-182497;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117660"/>
+				<set name="PosY0" val="-180342"/>
+				<set name="PosX1" val="-118516"/>
+				<set name="PosY1" val="-180359"/>
+				<set name="PosX2" val="-119296"/>
+				<set name="PosY2" val="-182269"/>
+				<set name="PosX3" val="-120201"/>
+				<set name="PosY3" val="-182285"/>
+				<set name="PosX4" val="-116351"/>
+				<set name="PosY4" val="-181298"/>
+				<set name="PosX5" val="-118023"/>
+				<set name="PosY5" val="-182276"/>
+				<set name="PosX6" val="-119803"/>
+				<set name="PosY6" val="-180352"/>
+				<set name="PosX7" val="-118018"/>
+				<set name="PosY7" val="-181325"/>
+				<set name="PosX8" val="-119713"/>
+				<set name="PosY8" val="-181300"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="70level"/>
+				<set name="RoomIndex" val="3"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="5"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_75" minZ="-6786" maxZ="-6586">
+		<node x="-117116" y="-181946"/>
+		<node x="-115552" y="-181946"/>
+		<node x="-115542" y="-181059"/>
+		<node x="-117106" y="-181059"/>
+	</territory>
+	<npcmaker name="dimension_gap_44" territory="ssqteleport1_1612_75" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r44_invader_teleport"/>
+				<set name="hunting_level_index" val="70"/>
+				<set name="room_index" val="44"/>
+		</ai>
+		<npc id="21763" total="3" respawn="82sec"/>
+		<npc id="18295" total="3" respawn="82sec"/>
+		<npc id="21764" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21765" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31905" pos="-116367;-181558;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117660"/>
+				<set name="PosY0" val="-180342"/>
+				<set name="PosX1" val="-118516"/>
+				<set name="PosY1" val="-180359"/>
+				<set name="PosX2" val="-119296"/>
+				<set name="PosY2" val="-182269"/>
+				<set name="PosX3" val="-120201"/>
+				<set name="PosY3" val="-182285"/>
+				<set name="PosX4" val="-116351"/>
+				<set name="PosY4" val="-181298"/>
+				<set name="PosX5" val="-118023"/>
+				<set name="PosY5" val="-182276"/>
+				<set name="PosX6" val="-119803"/>
+				<set name="PosY6" val="-180352"/>
+				<set name="PosX7" val="-118018"/>
+				<set name="PosY7" val="-181325"/>
+				<set name="PosX8" val="-119713"/>
+				<set name="PosY8" val="-181300"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="70level"/>
+				<set name="RoomIndex" val="4"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="5"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_76" minZ="-6786" maxZ="-6586">
+		<node x="-118780" y="-182914"/>
+		<node x="-117231" y="-182909"/>
+		<node x="-117226" y="-182013"/>
+		<node x="-118775" y="-182018"/>
+	</territory>
+	<npcmaker name="dimension_gap_45" territory="ssqteleport1_1612_76" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r45_invader_teleport"/>
+				<set name="hunting_level_index" val="70"/>
+				<set name="room_index" val="45"/>
+		</ai>
+		<npc id="21766" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21767" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21768" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31906" pos="-118015;-182496;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117660"/>
+				<set name="PosY0" val="-180342"/>
+				<set name="PosX1" val="-118516"/>
+				<set name="PosY1" val="-180359"/>
+				<set name="PosX2" val="-119296"/>
+				<set name="PosY2" val="-182269"/>
+				<set name="PosX3" val="-120201"/>
+				<set name="PosY3" val="-182285"/>
+				<set name="PosX4" val="-116351"/>
+				<set name="PosY4" val="-181298"/>
+				<set name="PosX5" val="-118023"/>
+				<set name="PosY5" val="-182276"/>
+				<set name="PosX6" val="-119803"/>
+				<set name="PosY6" val="-180352"/>
+				<set name="PosX7" val="-118018"/>
+				<set name="PosY7" val="-181325"/>
+				<set name="PosX8" val="-119713"/>
+				<set name="PosY8" val="-181300"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="70level"/>
+				<set name="RoomIndex" val="5"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="5"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_77" minZ="-6786" maxZ="-6586">
+		<node x="-120565" y="-181031"/>
+		<node x="-119021" y="-181031"/>
+		<node x="-119026" y="-180134"/>
+		<node x="-120570" y="-180134"/>
+	</territory>
+	<npcmaker name="dimension_gap_46" territory="ssqteleport1_1612_77" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r46_invader_teleport"/>
+				<set name="hunting_level_index" val="70"/>
+				<set name="room_index" val="46"/>
+		</ai>
+		<npc id="21769" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21770" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18296" total="4" respawn="100sec"/>
+		<npc id="31907" pos="-119795;-180588;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117660"/>
+				<set name="PosY0" val="-180342"/>
+				<set name="PosX1" val="-118516"/>
+				<set name="PosY1" val="-180359"/>
+				<set name="PosX2" val="-119296"/>
+				<set name="PosY2" val="-182269"/>
+				<set name="PosX3" val="-120201"/>
+				<set name="PosY3" val="-182285"/>
+				<set name="PosX4" val="-116351"/>
+				<set name="PosY4" val="-181298"/>
+				<set name="PosX5" val="-118023"/>
+				<set name="PosY5" val="-182276"/>
+				<set name="PosX6" val="-119803"/>
+				<set name="PosY6" val="-180352"/>
+				<set name="PosX7" val="-118018"/>
+				<set name="PosY7" val="-181325"/>
+				<set name="PosX8" val="-119713"/>
+				<set name="PosY8" val="-181300"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="70level"/>
+				<set name="RoomIndex" val="6"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="5"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_78" minZ="-6786" maxZ="-6586">
+		<node x="-118782" y="-181947"/>
+		<node x="-117223" y="-181947"/>
+		<node x="-117223" y="-181060"/>
+		<node x="-118782" y="-181060"/>
+	</territory>
+	<npcmaker name="dimension_gap_47" territory="ssqteleport1_1612_78" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r47_invader_teleport"/>
+				<set name="hunting_level_index" val="70"/>
+				<set name="room_index" val="47"/>
+		</ai>
+		<npc id="21771" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21772" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21773" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31908" pos="-118017;-181553;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117660"/>
+				<set name="PosY0" val="-180342"/>
+				<set name="PosX1" val="-118516"/>
+				<set name="PosY1" val="-180359"/>
+				<set name="PosX2" val="-119296"/>
+				<set name="PosY2" val="-182269"/>
+				<set name="PosX3" val="-120201"/>
+				<set name="PosY3" val="-182285"/>
+				<set name="PosX4" val="-116351"/>
+				<set name="PosY4" val="-181298"/>
+				<set name="PosX5" val="-118023"/>
+				<set name="PosY5" val="-182276"/>
+				<set name="PosX6" val="-119803"/>
+				<set name="PosY6" val="-180352"/>
+				<set name="PosX7" val="-118018"/>
+				<set name="PosY7" val="-181325"/>
+				<set name="PosX8" val="-119713"/>
+				<set name="PosY8" val="-181300"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="70level"/>
+				<set name="RoomIndex" val="7"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="5"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_81" minZ="-6786" maxZ="-6586">
+		<node x="-116118" y="-184769"/>
+		<node x="-115334" y="-184769"/>
+		<node x="-115328" y="-183986"/>
+		<node x="-116112" y="-183986"/>
+	</territory>
+	<npcmaker name="ssqteleport1_1612_81m1" territory="ssqteleport1_1612_81" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r50_invader_teleport"/>
+				<set name="hunting_level_index" val="80"/>
+				<set name="room_index" val="50"/>
+		</ai>
+		<npc id="21774" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21775" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21776" pos="-115481;-184147;-6755;40960" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21776" pos="-115951;-184153;-6755;57344" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21776" pos="-115956;-184612;-6755;8192" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21776" pos="-115489;-184614;-6755;24576" total="1" respawn="80sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31910" pos="-115717;-184381;-6752;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-115932"/>
+				<set name="PosY0" val="-184391"/>
+				<set name="PosX1" val="-115958"/>
+				<set name="PosY1" val="-185264"/>
+				<set name="PosX2" val="-114051"/>
+				<set name="PosY2" val="-186047"/>
+				<set name="PosX3" val="-114062"/>
+				<set name="PosY3" val="-186920"/>
+				<set name="PosX4" val="-114979"/>
+				<set name="PosY4" val="-183034"/>
+				<set name="PosX5" val="-114054"/>
+				<set name="PosY5" val="-184729"/>
+				<set name="PosX6" val="-115921"/>
+				<set name="PosY6" val="-186487"/>
+				<set name="PosX7" val="-115003"/>
+				<set name="PosY7" val="-184725"/>
+				<set name="PosX8" val="-115012"/>
+				<set name="PosY8" val="-186389"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="80level"/>
+				<set name="RoomIndex" val="0"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="6"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_82" minZ="-6786" maxZ="-6586">
+		<node x="-116121" y="-185652"/>
+		<node x="-115337" y="-185658"/>
+		<node x="-115332" y="-184875"/>
+		<node x="-116115" y="-184869"/>
+	</territory>
+	<npcmaker name="ssqteleport1_1612_82m1" territory="ssqteleport1_1612_82" maximumNpcs="9">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r51_invader_teleport"/>
+				<set name="hunting_level_index" val="80"/>
+				<set name="room_index" val="51"/>
+		</ai>
+		<npc id="21777" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21778" total="2" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21779" total="3" respawn="90sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31911" pos="-115716;-185264;-6752;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-115932"/>
+				<set name="PosY0" val="-184391"/>
+				<set name="PosX1" val="-115958"/>
+				<set name="PosY1" val="-185264"/>
+				<set name="PosX2" val="-114051"/>
+				<set name="PosY2" val="-186047"/>
+				<set name="PosX3" val="-114062"/>
+				<set name="PosY3" val="-186920"/>
+				<set name="PosX4" val="-114979"/>
+				<set name="PosY4" val="-183034"/>
+				<set name="PosX5" val="-114054"/>
+				<set name="PosY5" val="-184729"/>
+				<set name="PosX6" val="-115921"/>
+				<set name="PosY6" val="-186487"/>
+				<set name="PosX7" val="-115003"/>
+				<set name="PosY7" val="-184725"/>
+				<set name="PosX8" val="-115012"/>
+				<set name="PosY8" val="-186389"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="80level"/>
+				<set name="RoomIndex" val="1"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="6"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_83" minZ="-6786" maxZ="-6586">
+		<node x="-114239" y="-186443"/>
+		<node x="-113455" y="-186443"/>
+		<node x="-113449" y="-185654"/>
+		<node x="-114239" y="-185654"/>
+	</territory>
+	<npcmaker name="ssqteleport1_1612_83m1" territory="ssqteleport1_1612_83" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r52_invader_teleport"/>
+				<set name="hunting_level_index" val="80"/>
+				<set name="room_index" val="52"/>
+		</ai>
+		<npc id="21780" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21781" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21782" total="2" respawn="86sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31912" pos="-113839;-186055;-6752;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-115932"/>
+				<set name="PosY0" val="-184391"/>
+				<set name="PosX1" val="-115958"/>
+				<set name="PosY1" val="-185264"/>
+				<set name="PosX2" val="-114051"/>
+				<set name="PosY2" val="-186047"/>
+				<set name="PosX3" val="-114062"/>
+				<set name="PosY3" val="-186920"/>
+				<set name="PosX4" val="-114979"/>
+				<set name="PosY4" val="-183034"/>
+				<set name="PosX5" val="-114054"/>
+				<set name="PosY5" val="-184729"/>
+				<set name="PosX6" val="-115921"/>
+				<set name="PosY6" val="-186487"/>
+				<set name="PosX7" val="-115003"/>
+				<set name="PosY7" val="-184725"/>
+				<set name="PosX8" val="-115012"/>
+				<set name="PosY8" val="-186389"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="80level"/>
+				<set name="RoomIndex" val="2"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="6"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_84" minZ="-6786" maxZ="-6586">
+		<node x="-114239" y="-187326"/>
+		<node x="-113455" y="-187326"/>
+		<node x="-113449" y="-186543"/>
+		<node x="-114233" y="-186537"/>
+	</territory>
+	<npcmaker name="ssqteleport1_1612_84m1" territory="ssqteleport1_1612_84" maximumNpcs="7">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r53_invader_teleport"/>
+				<set name="hunting_level_index" val="80"/>
+				<set name="room_index" val="53"/>
+		</ai>
+		<npc id="21783" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21784" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21785" total="2" respawn="101sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31913" pos="-113838;-186937;-6752;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-115932"/>
+				<set name="PosY0" val="-184391"/>
+				<set name="PosX1" val="-115958"/>
+				<set name="PosY1" val="-185264"/>
+				<set name="PosX2" val="-114051"/>
+				<set name="PosY2" val="-186047"/>
+				<set name="PosX3" val="-114062"/>
+				<set name="PosY3" val="-186920"/>
+				<set name="PosX4" val="-114979"/>
+				<set name="PosY4" val="-183034"/>
+				<set name="PosX5" val="-114054"/>
+				<set name="PosY5" val="-184729"/>
+				<set name="PosX6" val="-115921"/>
+				<set name="PosY6" val="-186487"/>
+				<set name="PosX7" val="-115003"/>
+				<set name="PosY7" val="-184725"/>
+				<set name="PosX8" val="-115012"/>
+				<set name="PosY8" val="-186389"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="80level"/>
+				<set name="RoomIndex" val="3"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="6"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_85" minZ="-6786" maxZ="-6586">
+		<node x="-115253" y="-183858"/>
+		<node x="-114352" y="-183858"/>
+		<node x="-114349" y="-182312"/>
+		<node x="-115250" y="-182312"/>
+	</territory>
+	<npcmaker name="ssqteleport1_1612_85m1" territory="ssqteleport1_1612_85" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r54_invader_teleport"/>
+				<set name="hunting_level_index" val="80"/>
+				<set name="room_index" val="54"/>
+		</ai>
+		<npc id="21786" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18297" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21787" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21788" total="3" respawn="82sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31914" pos="-114796;-183090;-6752;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-115932"/>
+				<set name="PosY0" val="-184391"/>
+				<set name="PosX1" val="-115958"/>
+				<set name="PosY1" val="-185264"/>
+				<set name="PosX2" val="-114051"/>
+				<set name="PosY2" val="-186047"/>
+				<set name="PosX3" val="-114062"/>
+				<set name="PosY3" val="-186920"/>
+				<set name="PosX4" val="-114979"/>
+				<set name="PosY4" val="-183034"/>
+				<set name="PosX5" val="-114054"/>
+				<set name="PosY5" val="-184729"/>
+				<set name="PosX6" val="-115921"/>
+				<set name="PosY6" val="-186487"/>
+				<set name="PosX7" val="-115003"/>
+				<set name="PosY7" val="-184725"/>
+				<set name="PosX8" val="-115012"/>
+				<set name="PosY8" val="-186389"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="80level"/>
+				<set name="RoomIndex" val="4"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="6"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_86" minZ="-6786" maxZ="-6586">
+		<node x="-114265" y="-185530"/>
+		<node x="-113405" y="-185530"/>
+		<node x="-113412" y="-183994"/>
+		<node x="-114272" y="-183994"/>
+	</territory>
+	<npcmaker name="ssqteleport1_1612_86m1" territory="ssqteleport1_1612_86" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r55_invader_teleport"/>
+				<set name="hunting_level_index" val="80"/>
+				<set name="room_index" val="55"/>
+		</ai>
+		<npc id="21789" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21790" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21791" total="4" respawn="52sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31915" pos="-113833;-184759;-6752;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-115932"/>
+				<set name="PosY0" val="-184391"/>
+				<set name="PosX1" val="-115958"/>
+				<set name="PosY1" val="-185264"/>
+				<set name="PosX2" val="-114051"/>
+				<set name="PosY2" val="-186047"/>
+				<set name="PosX3" val="-114062"/>
+				<set name="PosY3" val="-186920"/>
+				<set name="PosX4" val="-114979"/>
+				<set name="PosY4" val="-183034"/>
+				<set name="PosX5" val="-114054"/>
+				<set name="PosY5" val="-184729"/>
+				<set name="PosX6" val="-115921"/>
+				<set name="PosY6" val="-186487"/>
+				<set name="PosX7" val="-115003"/>
+				<set name="PosY7" val="-184725"/>
+				<set name="PosX8" val="-115012"/>
+				<set name="PosY8" val="-186389"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="80level"/>
+				<set name="RoomIndex" val="5"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="6"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_87" minZ="-6786" maxZ="-6586">
+		<node x="-116171" y="-187324"/>
+		<node x="-115287" y="-187324"/>
+		<node x="-115290" y="-185781"/>
+		<node x="-116174" y="-185781"/>
+	</territory>
+	<npcmaker name="ssqteleport1_1612_87m1" territory="ssqteleport1_1612_87" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r56_invader_teleport"/>
+				<set name="hunting_level_index" val="80"/>
+				<set name="room_index" val="56"/>
+		</ai>
+		<npc id="21792" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21793" total="4" respawn="100sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18298" total="4" respawn="100sec"/>
+		<npc id="31916" pos="-115721;-186554;-6752;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-115932"/>
+				<set name="PosY0" val="-184391"/>
+				<set name="PosX1" val="-115958"/>
+				<set name="PosY1" val="-185264"/>
+				<set name="PosX2" val="-114051"/>
+				<set name="PosY2" val="-186047"/>
+				<set name="PosX3" val="-114062"/>
+				<set name="PosY3" val="-186920"/>
+				<set name="PosX4" val="-114979"/>
+				<set name="PosY4" val="-183034"/>
+				<set name="PosX5" val="-114054"/>
+				<set name="PosY5" val="-184729"/>
+				<set name="PosX6" val="-115921"/>
+				<set name="PosY6" val="-186487"/>
+				<set name="PosX7" val="-115003"/>
+				<set name="PosY7" val="-184725"/>
+				<set name="PosX8" val="-115012"/>
+				<set name="PosY8" val="-186389"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="80level"/>
+				<set name="RoomIndex" val="6"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="6"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_1612_88" minZ="-6786" maxZ="-6586">
+		<node x="-115245" y="-185540"/>
+		<node x="-114345" y="-185540"/>
+		<node x="-114342" y="-183983"/>
+		<node x="-115243" y="-183983"/>
+	</territory>
+	<npcmaker name="ssqteleport1_1612_88m1" territory="ssqteleport1_1612_88" maximumNpcs="13">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r57_invader_teleport"/>
+				<set name="hunting_level_index" val="80"/>
+				<set name="room_index" val="57"/>
+		</ai>
+		<npc id="21794" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21795" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="21796" total="4" respawn="137sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31917" pos="-114792;-184764;-6752;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-115932"/>
+				<set name="PosY0" val="-184391"/>
+				<set name="PosX1" val="-115958"/>
+				<set name="PosY1" val="-185264"/>
+				<set name="PosX2" val="-114051"/>
+				<set name="PosY2" val="-186047"/>
+				<set name="PosX3" val="-114062"/>
+				<set name="PosY3" val="-186920"/>
+				<set name="PosX4" val="-114979"/>
+				<set name="PosY4" val="-183034"/>
+				<set name="PosX5" val="-114054"/>
+				<set name="PosY5" val="-184729"/>
+				<set name="PosX6" val="-115921"/>
+				<set name="PosY6" val="-186487"/>
+				<set name="PosX7" val="-115003"/>
+				<set name="PosY7" val="-184725"/>
+				<set name="PosX8" val="-115012"/>
+				<set name="PosY8" val="-186389"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="80level"/>
+				<set name="RoomIndex" val="7"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="6"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_mb1612_39" minZ="-6786" maxZ="-6586">
+		<node x="-110687" y="-181946"/>
+		<node x="-109121" y="-181940"/>
+		<node x="-109121" y="-181066"/>
+		<node x="-110687" y="-181072"/>
+	</territory>
+	<npcmaker name="dimension_gap_08" territory="ssqteleport1_mb1612_39" maximumNpcs="2">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r08_invader_teleport"/>
+				<set name="hunting_level_index" val="30"/>
+				<set name="room_index" val="08"/>
+		</ai>
+		<npc id="25333" total="1" respawn="0sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31873" pos="-109884;-181517;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111967"/>
+				<set name="PosY0" val="-182222"/>
+				<set name="PosX1" val="-111082"/>
+				<set name="PosY1" val="-182225"/>
+				<set name="PosX2" val="-110277"/>
+				<set name="PosY2" val="-180349"/>
+				<set name="PosX3" val="-109393"/>
+				<set name="PosY3" val="-180354"/>
+				<set name="PosX4" val="-113283"/>
+				<set name="PosY4" val="-181321"/>
+				<set name="PosX5" val="-111575"/>
+				<set name="PosY5" val="-180738"/>
+				<set name="PosX6" val="-109778"/>
+				<set name="PosY6" val="-182240"/>
+				<set name="PosX7" val="-111567"/>
+				<set name="PosY7" val="-181706"/>
+				<set name="PosX8" val="-109894"/>
+				<set name="PosY8" val="-181691"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="30level"/>
+				<set name="RoomIndex" val="8"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="1"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_mb1612_49" minZ="-6786" maxZ="-6586">
+		<node x="-110674" y="-179131"/>
+		<node x="-109123" y="-179134"/>
+		<node x="-109127" y="-178253"/>
+		<node x="-110679" y="-178250"/>
+	</territory>
+	<npcmaker name="dimension_gap_18" territory="ssqteleport1_mb1612_49" maximumNpcs="2">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r18_invader_teleport"/>
+				<set name="hunting_level_index" val="40"/>
+				<set name="room_index" val="18"/>
+		</ai>
+		<npc id="25334" total="1" respawn="0sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31882" pos="-109888;-178691;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111970"/>
+				<set name="PosY0" val="-179396"/>
+				<set name="PosX1" val="-111086"/>
+				<set name="PosY1" val="-179399"/>
+				<set name="PosX2" val="-110280"/>
+				<set name="PosY2" val="-177523"/>
+				<set name="PosX3" val="-109396"/>
+				<set name="PosY3" val="-177528"/>
+				<set name="PosX4" val="-113287"/>
+				<set name="PosY4" val="-178495"/>
+				<set name="PosX5" val="-111578"/>
+				<set name="PosY5" val="-177912"/>
+				<set name="PosX6" val="-109781"/>
+				<set name="PosY6" val="-179414"/>
+				<set name="PosX7" val="-111570"/>
+				<set name="PosY7" val="-178879"/>
+				<set name="PosX8" val="-109897"/>
+				<set name="PosY8" val="-178865"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="40level"/>
+				<set name="RoomIndex" val="8"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="2"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_mb1612_59" minZ="-6786" maxZ="-6586">
+		<node x="-115249" y="-174537"/>
+		<node x="-114349" y="-174544"/>
+		<node x="-114353" y="-172987"/>
+		<node x="-115247" y="-172981"/>
+	</territory>
+	<npcmaker name="dimension_gap_28" territory="ssqteleport1_mb1612_59" maximumNpcs="2">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r28_invader_teleport"/>
+				<set name="hunting_level_index" val="50"/>
+				<set name="room_index" val="28"/>
+		</ai>
+		<npc id="25335" total="1" respawn="0sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31891" pos="-114723;-173724;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-114045"/>
+				<set name="PosY0" val="-175816"/>
+				<set name="PosX1" val="-113861"/>
+				<set name="PosY1" val="-174938"/>
+				<set name="PosX2" val="-115945"/>
+				<set name="PosY2" val="-174147"/>
+				<set name="PosX3" val="-115969"/>
+				<set name="PosY3" val="-173229"/>
+				<set name="PosX4" val="-115011"/>
+				<set name="PosY4" val="-177070"/>
+				<set name="PosX5" val="-115945"/>
+				<set name="PosY5" val="-175401"/>
+				<set name="PosX6" val="-114045"/>
+				<set name="PosY6" val="-173604"/>
+				<set name="PosX7" val="-114955"/>
+				<set name="PosY7" val="-175377"/>
+				<set name="PosX8" val="-114971"/>
+				<set name="PosY8" val="-173724"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="50level"/>
+				<set name="RoomIndex" val="8"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="3"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_mb1612_69" minZ="-6786" maxZ="-6586">
+		<node x="-120458" y="-179128"/>
+		<node x="-118904" y="-179128"/>
+		<node x="-118914" y="-178239"/>
+		<node x="-120469" y="-178239"/>
+	</territory>
+	<npcmaker name="dimension_gap_38" territory="ssqteleport1_mb1612_69" maximumNpcs="2">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r38_invader_teleport"/>
+				<set name="hunting_level_index" val="60"/>
+				<set name="room_index" val="38"/>
+		</ai>
+		<npc id="25336" total="1" respawn="0sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31900" pos="-119679;-178707;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117618"/>
+				<set name="PosY0" val="-177514"/>
+				<set name="PosX1" val="-118475"/>
+				<set name="PosY1" val="-177531"/>
+				<set name="PosX2" val="-119254"/>
+				<set name="PosY2" val="-179440"/>
+				<set name="PosX3" val="-120160"/>
+				<set name="PosY3" val="-179457"/>
+				<set name="PosX4" val="-116310"/>
+				<set name="PosY4" val="-178469"/>
+				<set name="PosX5" val="-117982"/>
+				<set name="PosY5" val="-179447"/>
+				<set name="PosX6" val="-119762"/>
+				<set name="PosY6" val="-177523"/>
+				<set name="PosX7" val="-117976"/>
+				<set name="PosY7" val="-178496"/>
+				<set name="PosX8" val="-119671"/>
+				<set name="PosY8" val="-178471"/>
+				<set name="escape_x" val="-114784"/>
+				<set name="escape_y" val="-180804"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="60level"/>
+				<set name="RoomIndex" val="8"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="4"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_mb1612_79" minZ="-6786" maxZ="-6586">
+		<node x="-120458" y="-181940"/>
+		<node x="-118899" y="-181940"/>
+		<node x="-118899" y="-181063"/>
+		<node x="-120448" y="-181058"/>
+	</territory>
+	<npcmaker name="dimension_gap_48" territory="ssqteleport1_mb1612_79" maximumNpcs="2">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r48_invader_teleport"/>
+				<set name="hunting_level_index" val="70"/>
+				<set name="room_index" val="48"/>
+		</ai>
+		<npc id="25337" total="1" respawn="0sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31909" pos="-119720;-181536;-6755;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117660"/>
+				<set name="PosY0" val="-180342"/>
+				<set name="PosX1" val="-118516"/>
+				<set name="PosY1" val="-180359"/>
+				<set name="PosX2" val="-119296"/>
+				<set name="PosY2" val="-182269"/>
+				<set name="PosX3" val="-120201"/>
+				<set name="PosY3" val="-182285"/>
+				<set name="PosX4" val="-116351"/>
+				<set name="PosY4" val="-181298"/>
+				<set name="PosX5" val="-118023"/>
+				<set name="PosY5" val="-182276"/>
+				<set name="PosX6" val="-119803"/>
+				<set name="PosY6" val="-180352"/>
+				<set name="PosX7" val="-118018"/>
+				<set name="PosY7" val="-181325"/>
+				<set name="PosX8" val="-119713"/>
+				<set name="PosY8" val="-181300"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="70level"/>
+				<set name="RoomIndex" val="8"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="5"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_mb1612_89" minZ="-6786" maxZ="-6586">
+		<node x="-115228" y="-187212"/>
+		<node x="-114357" y="-187212"/>
+		<node x="-114360" y="-185664"/>
+		<node x="-115232" y="-185664"/>
+	</territory>
+	<npcmaker name="ssqteleport1_mb1612_89m1" territory="ssqteleport1_mb1612_89" maximumNpcs="2">
+		<ai type="manage_teleport_dungeon">
+				<set name="manager_npc_name" val="r58_invader_teleport"/>
+				<set name="hunting_level_index" val="80"/>
+				<set name="room_index" val="58"/>
+		</ai>
+		<npc id="25338" pos="-114480;-186368;-6832;32768" total="1" respawn="0sec">
+			<ai>
+				<set name="CreviceOfDiminsion" val="1"/>
+			</ai>
+		</npc>
+		<npc id="31918" pos="-114792;-186438;-6752;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-115932"/>
+				<set name="PosY0" val="-184391"/>
+				<set name="PosX1" val="-115958"/>
+				<set name="PosY1" val="-185264"/>
+				<set name="PosX2" val="-114051"/>
+				<set name="PosY2" val="-186047"/>
+				<set name="PosX3" val="-114062"/>
+				<set name="PosY3" val="-186920"/>
+				<set name="PosX4" val="-114979"/>
+				<set name="PosY4" val="-183034"/>
+				<set name="PosX5" val="-114054"/>
+				<set name="PosY5" val="-184729"/>
+				<set name="PosX6" val="-115921"/>
+				<set name="PosY6" val="-186487"/>
+				<set name="PosX7" val="-115003"/>
+				<set name="PosY7" val="-184725"/>
+				<set name="PosX8" val="-115012"/>
+				<set name="PosY8" val="-186389"/>
+				<set name="escape_x" val="-114749"/>
+				<set name="escape_y" val="-179293"/>
+				<set name="escape_z" val="-6755"/>
+				<set name="LevelName" val="80level"/>
+				<set name="RoomIndex" val="8"/>
+				<set name="CreviceOfDiminsion" val="1"/>
+				<set name="LevelNumber" val="6"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssqteleport1_npc1622_01" minZ="-6792" maxZ="-6492">
+		<node x="-115397" y="-182163"/>
+		<node x="-114168" y="-182138"/>
+		<node x="-114168" y="-178046"/>
+		<node x="-115422" y="-178071"/>
+	</territory>
+	<npcmaker name="ssqteleport1_01" territory="ssqteleport1_npc1622_01" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="31488" pos="-114224;-181504;-6753;32768" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111967"/>
+				<set name="PosY0" val="-182222"/>
+				<set name="PosX1" val="-111082"/>
+				<set name="PosY1" val="-182225"/>
+				<set name="PosX2" val="-110277"/>
+				<set name="PosY2" val="-180349"/>
+				<set name="PosX3" val="-109393"/>
+				<set name="PosY3" val="-180354"/>
+				<set name="PosX4" val="-113283"/>
+				<set name="PosY4" val="-181321"/>
+				<set name="PosX5" val="-111575"/>
+				<set name="PosY5" val="-180738"/>
+				<set name="PosX6" val="-109778"/>
+				<set name="PosY6" val="-182240"/>
+				<set name="PosX7" val="-111567"/>
+				<set name="PosY7" val="-181706"/>
+				<set name="PosX8" val="-109894"/>
+				<set name="PosY8" val="-181691"/>
+				<set name="LevelName" val="30level"/>
+			</ai>
+		</npc>
+		<npc id="31489" pos="-114216;-178698;-6753;32768" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-111970"/>
+				<set name="PosY0" val="-179396"/>
+				<set name="PosX1" val="-111086"/>
+				<set name="PosY1" val="-179399"/>
+				<set name="PosX2" val="-110280"/>
+				<set name="PosY2" val="-177523"/>
+				<set name="PosX3" val="-109396"/>
+				<set name="PosY3" val="-177528"/>
+				<set name="PosX4" val="-113287"/>
+				<set name="PosY4" val="-178495"/>
+				<set name="PosX5" val="-111578"/>
+				<set name="PosY5" val="-177912"/>
+				<set name="PosX6" val="-109781"/>
+				<set name="PosY6" val="-179414"/>
+				<set name="PosX7" val="-111570"/>
+				<set name="PosY7" val="-178879"/>
+				<set name="PosX8" val="-109897"/>
+				<set name="PosY8" val="-178865"/>
+				<set name="LevelName" val="40level"/>
+			</ai>
+		</npc>
+		<npc id="31490" pos="-114798;-178084;-6753;49152" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-114045"/>
+				<set name="PosY0" val="-175816"/>
+				<set name="PosX1" val="-113861"/>
+				<set name="PosY1" val="-174938"/>
+				<set name="PosX2" val="-115945"/>
+				<set name="PosY2" val="-174147"/>
+				<set name="PosX3" val="-115969"/>
+				<set name="PosY3" val="-173229"/>
+				<set name="PosX4" val="-115011"/>
+				<set name="PosY4" val="-177070"/>
+				<set name="PosX5" val="-115945"/>
+				<set name="PosY5" val="-175401"/>
+				<set name="PosX6" val="-114045"/>
+				<set name="PosY6" val="-173604"/>
+				<set name="PosX7" val="-114955"/>
+				<set name="PosY7" val="-175377"/>
+				<set name="PosX8" val="-114971"/>
+				<set name="PosY8" val="-173724"/>
+				<set name="LevelName" val="50level"/>
+			</ai>
+		</npc>
+		<npc id="31491" pos="-115362;-178692;-6753;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117618"/>
+				<set name="PosY0" val="-177514"/>
+				<set name="PosX1" val="-118475"/>
+				<set name="PosY1" val="-177531"/>
+				<set name="PosX2" val="-119254"/>
+				<set name="PosY2" val="-179440"/>
+				<set name="PosX3" val="-120160"/>
+				<set name="PosY3" val="-179457"/>
+				<set name="PosX4" val="-116310"/>
+				<set name="PosY4" val="-178469"/>
+				<set name="PosX5" val="-117982"/>
+				<set name="PosY5" val="-179447"/>
+				<set name="PosX6" val="-119762"/>
+				<set name="PosY6" val="-177523"/>
+				<set name="PosX7" val="-117976"/>
+				<set name="PosY7" val="-178496"/>
+				<set name="PosX8" val="-119671"/>
+				<set name="PosY8" val="-178471"/>
+				<set name="LevelName" val="60level"/>
+			</ai>
+		</npc>
+		<npc id="31492" pos="-115364;-181517;-6753;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-117660"/>
+				<set name="PosY0" val="-180342"/>
+				<set name="PosX1" val="-118516"/>
+				<set name="PosY1" val="-180359"/>
+				<set name="PosX2" val="-119296"/>
+				<set name="PosY2" val="-182269"/>
+				<set name="PosX3" val="-120201"/>
+				<set name="PosY3" val="-182285"/>
+				<set name="PosX4" val="-116351"/>
+				<set name="PosY4" val="-181298"/>
+				<set name="PosX5" val="-118023"/>
+				<set name="PosY5" val="-182276"/>
+				<set name="PosX6" val="-119803"/>
+				<set name="PosY6" val="-180352"/>
+				<set name="PosX7" val="-118018"/>
+				<set name="PosY7" val="-181325"/>
+				<set name="PosX8" val="-119713"/>
+				<set name="PosY8" val="-181300"/>
+				<set name="LevelName" val="70level"/>
+			</ai>
+		</npc>
+		<npc id="31493" pos="-114793;-182125;-6753;16384" total="1" respawn="1min">
+			<ai>
+				<set name="PosX0" val="-115932"/>
+				<set name="PosY0" val="-184391"/>
+				<set name="PosX1" val="-115958"/>
+				<set name="PosY1" val="-185264"/>
+				<set name="PosX2" val="-114051"/>
+				<set name="PosY2" val="-186047"/>
+				<set name="PosX3" val="-114062"/>
+				<set name="PosY3" val="-186920"/>
+				<set name="PosX4" val="-114979"/>
+				<set name="PosY4" val="-183034"/>
+				<set name="PosX5" val="-114054"/>
+				<set name="PosY5" val="-184729"/>
+				<set name="PosX6" val="-115921"/>
+				<set name="PosY6" val="-186487"/>
+				<set name="PosX7" val="-115003"/>
+				<set name="PosY7" val="-184725"/>
+				<set name="PosX8" val="-115012"/>
+				<set name="PosY8" val="-186389"/>
+				<set name="LevelName" val="80level"/>
+			</ai>
+		</npc>
+	</npcmaker>
+</list>

@@ -5,7 +5,7 @@ import com.shnok.javaserver.gameserver.model.actor.Playable;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ChooseInventoryItem;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ChooseInventoryItem;
 
 public class EnchantScrolls implements IItemHandler
 {

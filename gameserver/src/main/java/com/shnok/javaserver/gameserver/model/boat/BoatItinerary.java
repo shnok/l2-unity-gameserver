@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.model.boat;
 
 import com.shnok.javaserver.gameserver.enums.boats.BoatDock;
 import com.shnok.javaserver.gameserver.model.location.BoatLocation;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 
 public class BoatItinerary
 {

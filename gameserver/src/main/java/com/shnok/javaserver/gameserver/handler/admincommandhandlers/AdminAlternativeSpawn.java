@@ -13,8 +13,8 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.spawn.MultiSpawn;
 import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
 import com.shnok.javaserver.gameserver.model.spawn.Territory;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.scripting.Quest;
 
 public class AdminAlternativeSpawn implements IAdminCommandHandler

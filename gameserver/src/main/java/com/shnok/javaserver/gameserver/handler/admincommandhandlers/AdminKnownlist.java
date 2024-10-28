@@ -7,7 +7,7 @@ import com.shnok.javaserver.commons.data.Pagination;
 import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 public class AdminKnownlist implements IAdminCommandHandler
 {

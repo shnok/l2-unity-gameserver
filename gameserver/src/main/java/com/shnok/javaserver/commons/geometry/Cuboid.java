@@ -5,7 +5,7 @@ import java.awt.Color;
 import com.shnok.javaserver.commons.random.Rnd;
 
 import com.shnok.javaserver.gameserver.model.location.Location;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 
 public class Cuboid extends Rectangle
 {

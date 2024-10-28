@@ -1,0 +1,2509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Oren Area
+ * Town of Oren
+ * Oren Castle
+ * Skyshadow Meadow
+-->
+<list>
+	<!--  -->
+	<territory name="22_19_net_cafe_event_1_01" minZ="-1656" maxZ="-1456">
+		<node x="79724" y="55452"/>
+		<node x="79924" y="55452"/>
+		<node x="79924" y="55652"/>
+		<node x="79724" y="55652"/>
+	</territory>
+	<npcmaker name="22_19_net_cafe_event_1_01" territory="22_19_net_cafe_event_1_01" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="79806;55570;-1560;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="22_19_net_cafe_event_1_02" minZ="-1628" maxZ="-1428">
+		<node x="83228" y="55724"/>
+		<node x="83428" y="55724"/>
+		<node x="83428" y="55924"/>
+		<node x="83228" y="55924"/>
+	</territory>
+	<npcmaker name="22_19_net_cafe_event_1_02" territory="22_19_net_cafe_event_1_02" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="83328;55824;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="22_19_net_cafe_event_1_03" minZ="-1620" maxZ="-1420">
+		<node x="80876" y="54404"/>
+		<node x="81076" y="54404"/>
+		<node x="81076" y="54604"/>
+		<node x="80876" y="54604"/>
+	</territory>
+	<npcmaker name="22_19_net_cafe_event_1_03" territory="22_19_net_cafe_event_1_03" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="80986;54504;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_003" minZ="-1644" maxZ="-1444">
+		<node x="79948" y="56460"/>
+		<node x="80148" y="56460"/>
+		<node x="80148" y="56660"/>
+		<node x="79948" y="56660"/>
+	</territory>
+	<npcmaker name="oren_npc2219_00301" territory="oren17_npc2219_003" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30760" pos="80036;56568;-1557;57344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_004" minZ="-1576" maxZ="-1376">
+		<node x="81900" y="53948"/>
+		<node x="82100" y="53948"/>
+		<node x="82100" y="54148"/>
+		<node x="81900" y="54148"/>
+	</territory>
+	<npcmaker name="oren_npc2219_00401" territory="oren17_npc2219_004" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30830" pos="81992;54048;-1494;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_005" minZ="-1552" maxZ="-1352">
+		<node x="83077" y="53616"/>
+		<node x="83277" y="53616"/>
+		<node x="83277" y="53816"/>
+		<node x="83077" y="53816"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_00501" territory="oren17_npc2219_005" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30657" pos="83183;53715;-1452;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_006" minZ="-1656" maxZ="-1456">
+		<node x="83521" y="55865"/>
+		<node x="83721" y="55865"/>
+		<node x="83721" y="56065"/>
+		<node x="83521" y="56065"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_00601" territory="oren17_npc2219_006" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30641" pos="83629;55957;-1523;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_007" minZ="-1647" maxZ="-1447">
+		<node x="79506" y="56620"/>
+		<node x="79706" y="56620"/>
+		<node x="79706" y="56820"/>
+		<node x="79506" y="56820"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_00701" territory="oren17_npc2219_007" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30623" pos="79610;56717;-1510;24576" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_008" minZ="-1696" maxZ="-1496">
+		<node x="79354" y="54826"/>
+		<node x="79554" y="54826"/>
+		<node x="79554" y="55026"/>
+		<node x="79354" y="55026"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_00801" territory="oren17_npc2219_008" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30180" pos="79451;54973;-1541;0" total="1" respawn="1min"/>
+		<npc id="30181" pos="79451;54877;-1542;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_009" minZ="-1648" maxZ="-1448">
+		<node x="81310" y="54584"/>
+		<node x="81793" y="54586"/>
+		<node x="81816" y="55201"/>
+		<node x="81239" y="55036"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_00901" territory="oren17_npc2219_009" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30676" pos="81655;54736;-1509;16384" total="1" respawn="1min"/>
+		<npc id="30182" pos="81315;54986;-1508;57343" total="1" respawn="1min"/>
+		<npc id="30183" pos="81777;55123;-1508;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_010" minZ="-1646" maxZ="-1446">
+		<node x="83586" y="55429"/>
+		<node x="83779" y="55360"/>
+		<node x="83786" y="55629"/>
+		<node x="83583" y="55733"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_01001" territory="oren17_npc2219_010" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30677" pos="83741;55410;-1508;24576" total="1" respawn="1min"/>
+		<npc id="30678" pos="83684;55631;-1509;45056" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_011" minZ="-1603" maxZ="-1403">
+		<node x="82889" y="53081"/>
+		<node x="83089" y="53081"/>
+		<node x="83089" y="53281"/>
+		<node x="82889" y="53281"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_01101" territory="oren17_npc2219_011" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30177" pos="82992;53171;-1492;31000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_012" minZ="-1638" maxZ="-1438">
+		<node x="79048" y="56201"/>
+		<node x="79780" y="56356"/>
+		<node x="79715" y="57146"/>
+		<node x="79085" y="57051"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_01201" territory="oren17_npc2219_012" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="30187" pos="79183;56947;-1510;57344" total="1" respawn="1min"/>
+		<npc id="30185" pos="79706;56914;-1510;32768" total="1" respawn="1min"/>
+		<npc id="30186" pos="79448;57053;-1510;49152" total="1" respawn="1min"/>
+		<npc id="30679" pos="79213;56423;-1510;16384" total="1" respawn="1min"/>
+		<npc id="30184" pos="79077;56694;-1510;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_013" minZ="-1530" maxZ="-1330">
+		<node x="83551" y="52823"/>
+		<node x="83751" y="52823"/>
+		<node x="83751" y="53023"/>
+		<node x="83551" y="53023"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_01301" territory="oren17_npc2219_013" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30191" pos="83634;52927;-1443;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_014" minZ="-1529" maxZ="-1329">
+		<node x="83387" y="53151"/>
+		<node x="83817" y="53159"/>
+		<node x="83826" y="53446"/>
+		<node x="83377" y="53472"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_01401" territory="oren17_npc2219_014" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30188" pos="83469;53215;-1454;0" total="1" respawn="1min"/>
+		<npc id="30189" pos="83469;53398;-1454;0" total="1" respawn="1min"/>
+		<npc id="30680" pos="83785;53215;-1454;32768" total="1" respawn="1min"/>
+		<npc id="30190" pos="83785;53398;-1454;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_015" minZ="-1628" maxZ="-1428">
+		<node x="82824" y="54823"/>
+		<node x="83578" y="54823"/>
+		<node x="83573" y="55076"/>
+		<node x="82816" y="55076"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_01501" territory="oren17_npc2219_015" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30195" pos="83201;55005;-1508;49152" total="1" respawn="1min"/>
+		<npc id="30192" pos="83477;54912;-1509;32768" total="1" respawn="1min"/>
+		<npc id="30194" pos="82930;54911;-1509;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_016" minZ="-1665" maxZ="-1465">
+		<node x="80885" y="52963"/>
+		<node x="81145" y="52963"/>
+		<node x="81161" y="53163"/>
+		<node x="80876" y="53163"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_01601" territory="oren17_npc2219_016" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30197" pos="81102;53053;-1555;49152" total="1" respawn="1min"/>
+		<npc id="30196" pos="80913;53053;-1555;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_017" minZ="-1649" maxZ="-1449">
+		<node x="79583" y="54157"/>
+		<node x="79781" y="54121"/>
+		<node x="79758" y="54434"/>
+		<node x="79572" y="54424"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_01701" territory="oren17_npc2219_017" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30199" pos="79671;54184;-1555;32768" total="1" respawn="1min"/>
+		<npc id="30198" pos="79671;54384;-1555;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_018" minZ="-1606" maxZ="-1406">
+		<node x="81386" y="56129"/>
+		<node x="81697" y="56129"/>
+		<node x="81675" y="56329"/>
+		<node x="81396" y="56329"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_01801" territory="oren17_npc2219_018" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30201" pos="81420;56240;-1522;16384" total="1" respawn="1min"/>
+		<npc id="30200" pos="81631;56240;-1522;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_019" minZ="-3408" maxZ="-3208">
+		<node x="92612" y="55440"/>
+		<node x="92812" y="55440"/>
+		<node x="92812" y="55640"/>
+		<node x="92612" y="55640"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_01901" territory="oren17_npc2219_019" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31002" pos="92743;55523;-3370;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_020" minZ="-1572" maxZ="-1472">
+		<node x="82572" y="55191"/>
+		<node x="82772" y="55191"/>
+		<node x="82772" y="55391"/>
+		<node x="82572" y="55391"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_02001" territory="oren17_npc2219_020" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35229" pos="82682;55280;-1523;27280" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_021" minZ="-1584" maxZ="-1504">
+		<node x="79903" y="54913"/>
+		<node x="80103" y="54913"/>
+		<node x="80103" y="55113"/>
+		<node x="79903" y="55113"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_02101" territory="oren17_npc2219_021" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31052" pos="80071;55068;-1545;40064" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_022" minZ="-1596" maxZ="-1496">
+		<node x="79048" y="53418"/>
+		<node x="80262" y="53417"/>
+		<node x="80262" y="53840"/>
+		<node x="79049" y="53842"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_02201" territory="oren17_npc2219_022" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30178" pos="79111;53657;-1548;0" total="1" respawn="1min"/>
+		<npc id="30179" pos="79112;53602;-1548;0" total="1" respawn="1min"/>
+		<npc id="35229" pos="80091;53464;-1558;57784" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_023" minZ="-1583" maxZ="-1383">
+		<node x="79660" y="54940"/>
+		<node x="79860" y="54940"/>
+		<node x="79860" y="55140"/>
+		<node x="79660" y="55140"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_02301" territory="oren17_npc2219_023" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30929" pos="79769;55048;-1544;48500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_024" minZ="-1532" maxZ="-1332">
+		<node x="83052" y="53916"/>
+		<node x="83252" y="53916"/>
+		<node x="83252" y="54116"/>
+		<node x="83052" y="54116"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_02401" territory="oren17_npc2219_024" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31083" pos="83106;54015;-1488;32500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_025" minZ="-1568" maxZ="-1368">
+		<node x="82716" y="54620"/>
+		<node x="82916" y="54620"/>
+		<node x="82916" y="54820"/>
+		<node x="82716" y="54820"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_02501" territory="oren17_npc2219_025" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31090" pos="82819;54657;-1520;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_026" minZ="-1598" maxZ="-1398">
+		<node x="80028" y="56844"/>
+		<node x="80228" y="56844"/>
+		<node x="80228" y="57044"/>
+		<node x="80028" y="57044"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_02601" territory="oren17_npc2219_026" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31092" pos="80129;56947;-1552;32500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_027" minZ="-1592" maxZ="-1392">
+		<node x="83644" y="55980"/>
+		<node x="83844" y="55980"/>
+		<node x="83844" y="56180"/>
+		<node x="83644" y="56180"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_02701" territory="oren17_npc2219_027" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30683" pos="83676;56144;-1520;48000" total="1" respawn="1min"/>
+		<npc id="30682" pos="83712;56000;-1523;32000" total="1" respawn="1min"/>
+		<npc id="30681" pos="83760;56096;-1523;32500" total="1" respawn="1min"/>
+		<npc id="31430" pos="83759;56143;-1523;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_028" minZ="-1497" maxZ="-1297">
+		<node x="83468" y="53756"/>
+		<node x="83668" y="53756"/>
+		<node x="83668" y="53956"/>
+		<node x="83468" y="53956"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_02801" territory="oren17_npc2219_028" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31422" pos="83568;53856;-1455;48500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_029" minZ="-1547" maxZ="-1347">
+		<node x="83502" y="55278"/>
+		<node x="83700" y="55291"/>
+		<node x="83700" y="55770"/>
+		<node x="83501" y="55776"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_02901" territory="oren17_npc2219_029" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31437" pos="83616;55392;-1510;16000" total="1" respawn="1min"/>
+		<npc id="31444" pos="83568;55696;-1510;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_030" minZ="-1592" maxZ="-1392">
+		<node x="79676" y="54652"/>
+		<node x="79876" y="54652"/>
+		<node x="79876" y="54852"/>
+		<node x="79676" y="54852"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_03001" territory="oren17_npc2219_030" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31574" pos="79774;54746;-1545;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_031" minZ="-1576" maxZ="-1376">
+		<node x="82640" y="53012"/>
+		<node x="82840" y="53012"/>
+		<node x="82840" y="53212"/>
+		<node x="82640" y="53212"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_03101" territory="oren17_npc2219_031" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31688" pos="82688;53056;-1494;16500" total="1" respawn="1min"/>
+		<npc id="31690" pos="82752;53056;-1494;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_032" minZ="-1636" maxZ="-1436">
+		<node x="80748" y="53084"/>
+		<node x="80948" y="53084"/>
+		<node x="80948" y="53284"/>
+		<node x="80748" y="53284"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_03201" territory="oren17_npc2219_032" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31814" pos="80848;53168;-1558;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_033" minZ="-1528" maxZ="-1328">
+		<node x="81884" y="54156"/>
+		<node x="82084" y="54156"/>
+		<node x="82084" y="54356"/>
+		<node x="81884" y="54356"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_03301" territory="oren17_npc2219_033" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31815" pos="81984;54256;-1494;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_034" minZ="-1572" maxZ="-1372">
+		<node x="81596" y="56028"/>
+		<node x="81796" y="56028"/>
+		<node x="81796" y="56228"/>
+		<node x="81596" y="56228"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_03401" territory="oren17_npc2219_034" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31816" pos="81692;56128;-1523;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_035" minZ="-1616" maxZ="-1416">
+		<node x="81052" y="54748"/>
+		<node x="81252" y="54748"/>
+		<node x="81252" y="54948"/>
+		<node x="81052" y="54948"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_03501" territory="oren17_npc2219_035" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31817" pos="81136;54832;-1523;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_036" minZ="-1656" maxZ="-1456">
+		<node x="79692" y="53932"/>
+		<node x="79892" y="53932"/>
+		<node x="79892" y="54132"/>
+		<node x="79692" y="54132"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_03601" territory="oren17_npc2219_036" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31818" pos="79776;54032;-1558;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_2c01" minZ="-1600" maxZ="-1400">
+		<node x="81036" y="54476"/>
+		<node x="81236" y="54476"/>
+		<node x="81236" y="54676"/>
+		<node x="81036" y="54676"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_2c01" territory="oren17_npc2219_2c01" event="test_2nd_class" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31756" pos="81136;54576;-1517;32000" total="1" respawn="1min"/>
+		<npc id="31757" pos="81126;54519;-1517;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_bk01" minZ="-1656" maxZ="-1456">
+		<node x="79724" y="55452"/>
+		<node x="79924" y="55452"/>
+		<node x="79924" y="55652"/>
+		<node x="79724" y="55652"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_bk01" territory="oren17_npc2219_bk01" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="79806;55570;-1560;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_bk02" minZ="-1628" maxZ="-1428">
+		<node x="83228" y="55724"/>
+		<node x="83428" y="55724"/>
+		<node x="83428" y="55924"/>
+		<node x="83228" y="55924"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_bk02" territory="oren17_npc2219_bk02" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="83328;55824;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_bk03" minZ="-1620" maxZ="-1420">
+		<node x="80876" y="54404"/>
+		<node x="81076" y="54404"/>
+		<node x="81076" y="54604"/>
+		<node x="80876" y="54604"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_bk03" territory="oren17_npc2219_bk03" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="80986;54504;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_eg01" minZ="-1536" maxZ="-1336">
+		<node x="82892" y="53068"/>
+		<node x="83092" y="53068"/>
+		<node x="83092" y="53268"/>
+		<node x="82892" y="53268"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_eg01" territory="oren17_npc2219_eg01" event="event_gate" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31221" pos="82983;53118;-1488;31000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_fi01" minZ="-1524" maxZ="-1324">
+		<node x="83068" y="53388"/>
+		<node x="83268" y="53388"/>
+		<node x="83268" y="53588"/>
+		<node x="83068" y="53588"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_fi01" territory="oren17_npc2219_fi01" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="83185;53480;-1448;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_fi02" minZ="-1616" maxZ="-1416">
+		<node x="80140" y="54956"/>
+		<node x="80340" y="54956"/>
+		<node x="80340" y="55156"/>
+		<node x="80140" y="55156"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_fi02" territory="oren17_npc2219_fi02" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="80225;55052;-1552;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_fi03" minZ="-1588" maxZ="-1388">
+		<node x="83244" y="55356"/>
+		<node x="83444" y="55356"/>
+		<node x="83444" y="55556"/>
+		<node x="83244" y="55556"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_fi03" territory="oren17_npc2219_fi03" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="83362;55473;-1520;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_ht01" minZ="-1656" maxZ="-1456">
+		<node x="79724" y="55452"/>
+		<node x="79924" y="55452"/>
+		<node x="79924" y="55652"/>
+		<node x="79724" y="55652"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_ht01" territory="oren17_npc2219_ht01" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="79806;55570;-1560;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_ht02" minZ="-1628" maxZ="-1428">
+		<node x="83228" y="55724"/>
+		<node x="83428" y="55724"/>
+		<node x="83428" y="55924"/>
+		<node x="83228" y="55924"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_ht02" territory="oren17_npc2219_ht02" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="83328;55824;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_ht03" minZ="-1620" maxZ="-1420">
+		<node x="80876" y="54404"/>
+		<node x="81076" y="54404"/>
+		<node x="81076" y="54604"/>
+		<node x="80876" y="54604"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_ht03" territory="oren17_npc2219_ht03" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="80986;54504;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_lc01" minZ="-1656" maxZ="-1456">
+		<node x="79724" y="55452"/>
+		<node x="79924" y="55452"/>
+		<node x="79924" y="55652"/>
+		<node x="79724" y="55652"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_lc01" territory="oren17_npc2219_lc01" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="79806;55570;-1560;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_lc02" minZ="-1628" maxZ="-1428">
+		<node x="83228" y="55724"/>
+		<node x="83428" y="55724"/>
+		<node x="83428" y="55924"/>
+		<node x="83228" y="55924"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_lc02" territory="oren17_npc2219_lc02" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="83328;55824;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_lc03" minZ="-1620" maxZ="-1420">
+		<node x="80876" y="54404"/>
+		<node x="81076" y="54404"/>
+		<node x="81076" y="54604"/>
+		<node x="80876" y="54604"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_lc03" territory="oren17_npc2219_lc03" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="80986;54504;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_md01" minZ="-1656" maxZ="-1456">
+		<node x="79724" y="55452"/>
+		<node x="79924" y="55452"/>
+		<node x="79924" y="55652"/>
+		<node x="79724" y="55652"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_md01" territory="oren17_npc2219_md01" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="79806;55570;-1560;0" total="1" respawn="1min"/>
+		<npc id="31229" pos="79798;55629;-1560;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_md02" minZ="-1628" maxZ="-1428">
+		<node x="83228" y="55724"/>
+		<node x="83428" y="55724"/>
+		<node x="83428" y="55924"/>
+		<node x="83228" y="55924"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_md02" territory="oren17_npc2219_md02" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="83328;55824;-1525;32768" total="1" respawn="1min"/>
+		<npc id="31229" pos="83328;55769;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_md03" minZ="-1620" maxZ="-1420">
+		<node x="80876" y="54404"/>
+		<node x="81076" y="54404"/>
+		<node x="81076" y="54604"/>
+		<node x="80876" y="54604"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_md03" territory="oren17_npc2219_md03" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="80986;54504;-1525;32768" total="1" respawn="1min"/>
+		<npc id="31229" pos="80986;54452;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_pg1" minZ="-5528" maxZ="-1528">
+		<node x="74125" y="46810"/>
+		<node x="84124" y="47329"/>
+		<node x="84185" y="60541"/>
+		<node x="73956" y="60335"/>
+	</territory>
+	<territory name="oren17_npc2219_pg1b" minZ="-5492" maxZ="1508">
+		<node x="78455" y="51276"/>
+		<node x="84124" y="51268"/>
+		<node x="84149" y="57362"/>
+		<node x="78416" y="57387"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_pg1m1" territory="oren17_npc2219_pg1" ban="oren17_npc2219_pg1b" maximumNpcs="142">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="45" respawn="20sec"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+		<npc id="13035" total="1" respawn="10min" respawnRand="2min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_pg2" minZ="-1816" maxZ="-1616">
+		<node x="81244" y="57228"/>
+		<node x="81444" y="57228"/>
+		<node x="81444" y="57428"/>
+		<node x="81244" y="57428"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_pg2m1" territory="oren17_npc2219_pg2" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="81344;57328;-1744;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_pg3" minZ="-2212" maxZ="-2012">
+		<node x="80856" y="50508"/>
+		<node x="81056" y="50508"/>
+		<node x="81056" y="50708"/>
+		<node x="80856" y="50708"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_pg3m1" territory="oren17_npc2219_pg3" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="80896;50608;-2118;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_pg4" minZ="-2208" maxZ="-2008">
+		<node x="77084" y="54100"/>
+		<node x="77284" y="54100"/>
+		<node x="77284" y="54300"/>
+		<node x="77084" y="54300"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_pg4m1" territory="oren17_npc2219_pg4" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="77184;54144;-2120;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_sp1" minZ="-1539" maxZ="-1339">
+		<node x="82668" y="53468"/>
+		<node x="82868" y="53468"/>
+		<node x="82868" y="53668"/>
+		<node x="82668" y="53668"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_sp1m1" territory="oren17_npc2219_sp1" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31188" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_sp2" minZ="-1564" maxZ="-1364">
+		<node x="80860" y="54876"/>
+		<node x="81060" y="54876"/>
+		<node x="81060" y="55076"/>
+		<node x="80860" y="55076"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_sp2m1" territory="oren17_npc2219_sp2" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31185" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_sp3" minZ="-1571" maxZ="-1371">
+		<node x="82172" y="55564"/>
+		<node x="82372" y="55564"/>
+		<node x="82372" y="55764"/>
+		<node x="82172" y="55764"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_sp3m1" territory="oren17_npc2219_sp3" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31189" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_sp4" minZ="-1537" maxZ="-1337">
+		<node x="81484" y="53404"/>
+		<node x="81684" y="53404"/>
+		<node x="81684" y="53604"/>
+		<node x="81484" y="53604"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_sp4m1" territory="oren17_npc2219_sp4" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31193" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_sp5" minZ="-1609" maxZ="-1409">
+		<node x="79948" y="54204"/>
+		<node x="80148" y="54204"/>
+		<node x="80148" y="54404"/>
+		<node x="79948" y="54404"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_sp5m1" territory="oren17_npc2219_sp5" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31192" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_sp6" minZ="-1565" maxZ="-1365">
+		<node x="81436" y="55916"/>
+		<node x="81636" y="55916"/>
+		<node x="81636" y="56116"/>
+		<node x="81436" y="56116"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_sp6m1" territory="oren17_npc2219_sp6" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31196" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_sp7" minZ="-1602" maxZ="-1402">
+		<node x="80876" y="53388"/>
+		<node x="81076" y="53388"/>
+		<node x="81076" y="53588"/>
+		<node x="80876" y="53588"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_sp7m1" territory="oren17_npc2219_sp7" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31200" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tb01" minZ="-1656" maxZ="-1456">
+		<node x="79732" y="55469"/>
+		<node x="79932" y="55469"/>
+		<node x="79932" y="55669"/>
+		<node x="79732" y="55669"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tb01m1" territory="oren17_npc2219_tb01" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="79806;55570;-1560;0" total="1" respawn="1min"/>
+		<npc id="13036" pos="79771;55649;-1557;19663" total="1" respawn="15sec"/>
+		<npc id="13036" pos="79771;55489;-1558;46552" total="1" respawn="15sec"/>
+		<npc id="13036" pos="79813;55653;-1557;15039" total="1" respawn="15sec"/>
+		<npc id="13036" pos="79852;55640;-1557;10633" total="1" respawn="15sec"/>
+		<npc id="13036" pos="79880;55603;-1557;2879" total="1" respawn="15sec"/>
+		<npc id="13036" pos="79878;55534;-1558;61784" total="1" respawn="15sec"/>
+		<npc id="13036" pos="79850;55501;-1558;54808" total="1" respawn="15sec"/>
+		<npc id="13036" pos="79813;55486;-1558;51408" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tb02" minZ="-1628" maxZ="-1428">
+		<node x="83228" y="55724"/>
+		<node x="83428" y="55724"/>
+		<node x="83428" y="55924"/>
+		<node x="83228" y="55924"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tb02m1" territory="oren17_npc2219_tb02" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="83328;55824;-1525;32768" total="1" respawn="1min"/>
+		<npc id="13036" pos="83360;55743;-1522;52727" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83357;55903;-1523;14080" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83319;55738;-1522;48103" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83280;55750;-1522;43697" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83250;55785;-1522;35943" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83251;55855;-1523;29312" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83278;55888;-1523;22336" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83314;55904;-1523;18936" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tb03" minZ="-1620" maxZ="-1420">
+		<node x="80876" y="54404"/>
+		<node x="81076" y="54404"/>
+		<node x="81076" y="54604"/>
+		<node x="80876" y="54604"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tb03m1" territory="oren17_npc2219_tb03" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="80986;54504;-1525;32768" total="1" respawn="1min"/>
+		<npc id="13036" pos="81020;54424;-1522;52863" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81015;54584;-1523;14216" total="1" respawn="15sec"/>
+		<npc id="13036" pos="80979;54418;-1522;48239" total="1" respawn="15sec"/>
+		<npc id="13036" pos="80939;54430;-1522;43833" total="1" respawn="15sec"/>
+		<npc id="13036" pos="80910;54465;-1522;36079" total="1" respawn="15sec"/>
+		<npc id="13036" pos="80909;54535;-1523;29448" total="1" respawn="15sec"/>
+		<npc id="13036" pos="80936;54568;-1523;22472" total="1" respawn="15sec"/>
+		<npc id="13036" pos="80972;54585;-1523;19072" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tk01" minZ="-1533" maxZ="-1333">
+		<node x="82892" y="53132"/>
+		<node x="83092" y="53132"/>
+		<node x="83092" y="53332"/>
+		<node x="82892" y="53332"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tk01" territory="oren17_npc2219_tk01" event="18age" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30990" pos="83001;53224;-1488;31000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tw01" minZ="-1539" maxZ="-1339">
+		<node x="82668" y="53468"/>
+		<node x="82868" y="53468"/>
+		<node x="82868" y="53668"/>
+		<node x="82668" y="53668"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tw01m1" territory="oren17_npc2219_tw01" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31188" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tw02" minZ="-1564" maxZ="-1364">
+		<node x="80860" y="54876"/>
+		<node x="81060" y="54876"/>
+		<node x="81060" y="55076"/>
+		<node x="80860" y="55076"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tw02m1" territory="oren17_npc2219_tw02" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31185" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tw03" minZ="-1571" maxZ="-1371">
+		<node x="82172" y="55564"/>
+		<node x="82372" y="55564"/>
+		<node x="82372" y="55764"/>
+		<node x="82172" y="55764"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tw03m1" territory="oren17_npc2219_tw03" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31189" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tw04" minZ="-1537" maxZ="-1337">
+		<node x="81484" y="53404"/>
+		<node x="81684" y="53404"/>
+		<node x="81684" y="53604"/>
+		<node x="81484" y="53604"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tw04m1" territory="oren17_npc2219_tw04" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31193" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tw05" minZ="-1609" maxZ="-1409">
+		<node x="79948" y="54204"/>
+		<node x="80148" y="54204"/>
+		<node x="80148" y="54404"/>
+		<node x="79948" y="54404"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tw05m1" territory="oren17_npc2219_tw05" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31192" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tw06" minZ="-1565" maxZ="-1365">
+		<node x="81436" y="55916"/>
+		<node x="81636" y="55916"/>
+		<node x="81636" y="56116"/>
+		<node x="81436" y="56116"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tw06m1" territory="oren17_npc2219_tw06" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31196" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_tw07" minZ="-1602" maxZ="-1402">
+		<node x="80876" y="53388"/>
+		<node x="81076" y="53388"/>
+		<node x="81076" y="53588"/>
+		<node x="80876" y="53588"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_tw07m1" territory="oren17_npc2219_tw07" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31200" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_xm01" minZ="-1656" maxZ="-1456">
+		<node x="79724" y="55452"/>
+		<node x="79924" y="55452"/>
+		<node x="79924" y="55652"/>
+		<node x="79724" y="55652"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_xm01" territory="oren17_npc2219_xm01" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="79806;55570;-1560;0" total="1" respawn="1min"/>
+		<npc id="13006" pos="79798;55629;-1560;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_xm02" minZ="-1628" maxZ="-1428">
+		<node x="83228" y="55724"/>
+		<node x="83428" y="55724"/>
+		<node x="83428" y="55924"/>
+		<node x="83228" y="55924"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_xm02" territory="oren17_npc2219_xm02" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="83328;55824;-1525;32768" total="1" respawn="1min"/>
+		<npc id="13006" pos="83328;55769;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren17_npc2219_xm03" minZ="-1620" maxZ="-1420">
+		<node x="80876" y="54404"/>
+		<node x="81076" y="54404"/>
+		<node x="81076" y="54604"/>
+		<node x="80876" y="54604"/>
+	</territory>
+	<npcmaker name="oren17_npc2219_xm03" territory="oren17_npc2219_xm03" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="80986;54504;-1525;32768" total="1" respawn="1min"/>
+		<npc id="13006" pos="80986;54452;-1525;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren20_npc2219_001" minZ="-2365" maxZ="-2165">
+		<node x="82956" y="37324"/>
+		<node x="83156" y="37324"/>
+		<node x="83156" y="37524"/>
+		<node x="82956" y="37524"/>
+	</territory>
+	<npcmaker name="oren_npc2219_00101" territory="oren20_npc2219_001" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35228" pos="83056;37425;-2280;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren20_npc2219_101" minZ="-2484" maxZ="-2284">
+		<node x="82460" y="37488"/>
+		<node x="82660" y="37488"/>
+		<node x="82660" y="37688"/>
+		<node x="82460" y="37688"/>
+	</territory>
+	<npcmaker name="oren_npc2219_10101" territory="oren20_npc2219_101" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35224" pos="82560;37568;-2449;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren20_npc2219_102" minZ="-2587" maxZ="-2387">
+		<node x="81900" y="37116"/>
+		<node x="82100" y="37116"/>
+		<node x="82100" y="37316"/>
+		<node x="81900" y="37316"/>
+	</territory>
+	<npcmaker name="oren_npc2219_10201" territory="oren20_npc2219_102" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35225" pos="81983;37214;-2458;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren20_npc2219_103" minZ="-1861" maxZ="-1661">
+		<node x="83756" y="37244"/>
+		<node x="83956" y="37244"/>
+		<node x="83956" y="37444"/>
+		<node x="83756" y="37444"/>
+	</territory>
+	<npcmaker name="oren_npc2219_10301" territory="oren20_npc2219_103" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35227" pos="83856;37352;-1826;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren20_npc2219_104" minZ="-2340" maxZ="-2140">
+		<node x="82956" y="36860"/>
+		<node x="83156" y="36860"/>
+		<node x="83156" y="37060"/>
+		<node x="82956" y="37060"/>
+	</territory>
+	<npcmaker name="oren20_npc2219_104m1" territory="oren20_npc2219_104" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35651" pos="83056;36960;-2289;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren20_npc2219_pg1" minZ="-4116" maxZ="-2116">
+		<node x="78419" y="33115"/>
+		<node x="84441" y="33137"/>
+		<node x="86023" y="36003"/>
+		<node x="85693" y="39095"/>
+		<node x="81905" y="41194"/>
+		<node x="76723" y="39369"/>
+		<node x="76531" y="35153"/>
+	</territory>
+	<territory name="oren20_npc2219_pg1b" minZ="-3200" maxZ="-200">
+		<node x="85651" y="35518"/>
+		<node x="85530" y="38176"/>
+		<node x="82847" y="39666"/>
+		<node x="79765" y="39375"/>
+		<node x="78191" y="37876"/>
+		<node x="78120" y="36381"/>
+		<node x="79546" y="34829"/>
+		<node x="83178" y="34746"/>
+	</territory>
+	<npcmaker name="oren20_npc2219_pg1m1" territory="oren20_npc2219_pg1" ban="oren20_npc2219_pg1b" maximumNpcs="73">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="22" respawn="20sec"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+		<npc id="13035" total="1" respawn="10min" respawnRand="2min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren20_npc2219_pg2" minZ="-2636" maxZ="-2436">
+		<node x="77916" y="36748"/>
+		<node x="78116" y="36748"/>
+		<node x="78116" y="36948"/>
+		<node x="77916" y="36948"/>
+	</territory>
+	<npcmaker name="oren20_npc2219_pg2m1" territory="oren20_npc2219_pg2" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="78016;36848;-2544;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_15s" minZ="-3792" maxZ="-3392">
+		<node x="84652" y="59960"/>
+		<node x="88696" y="60652"/>
+		<node x="88640" y="63920"/>
+		<node x="83844" y="64008"/>
+	</territory>
+	<npcmaker name="oren22_2219_15sm1" territory="oren22_2219_15s" maximumNpcs="40">
+		<ai type="default_maker"/>
+		<npc id="20947" total="8" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20946" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p14" minZ="-3812" maxZ="-2812">
+		<node x="77664" y="62308"/>
+		<node x="80196" y="61216"/>
+		<node x="83092" y="65240"/>
+		<node x="75916" y="65356"/>
+	</territory>
+	<npcmaker name="oren22_2219_p14m1" territory="oren22_2219_p14" maximumNpcs="65">
+		<ai type="default_maker"/>
+		<npc id="20947" total="13" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20946" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p15" minZ="-3784" maxZ="-3084">
+		<node x="83384" y="58832"/>
+		<node x="89204" y="60176"/>
+		<node x="89292" y="65308"/>
+		<node x="83104" y="65372"/>
+		<node x="80092" y="61168"/>
+	</territory>
+	<npcmaker name="oren22_2219_p15m1" territory="oren22_2219_p15" maximumNpcs="55">
+		<ai type="default_maker"/>
+		<npc id="20947" total="11" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20946" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p16" minZ="-3760" maxZ="-3160">
+		<node x="89180" y="60160"/>
+		<node x="94236" y="62732"/>
+		<node x="93676" y="65364"/>
+		<node x="89260" y="65332"/>
+	</territory>
+	<npcmaker name="oren22_2219_p16m1" territory="oren22_2219_p16" maximumNpcs="65">
+		<ai type="default_maker"/>
+		<npc id="20947" total="8" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20946" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+		<npc id="20953" total="5" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20952" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p17" minZ="-3800" maxZ="-3400">
+		<node x="85536" y="52948"/>
+		<node x="89156" y="52864"/>
+		<node x="92944" y="57268"/>
+		<node x="91000" y="60608"/>
+		<node x="84740" y="59096"/>
+	</territory>
+	<npcmaker name="oren22_2219_p17m1" territory="oren22_2219_p17" maximumNpcs="55">
+		<ai type="default_maker"/>
+		<npc id="20947" total="5" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20946" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+		<npc id="20953" total="6" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20952" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p17s" minZ="-3792" maxZ="-3592">
+		<node x="86632" y="54428"/>
+		<node x="89176" y="54084"/>
+		<node x="89620" y="58464"/>
+		<node x="86548" y="57736"/>
+	</territory>
+	<npcmaker name="oren22_2219_p17sm1" territory="oren22_2219_p17s" maximumNpcs="40">
+		<ai type="default_maker"/>
+		<npc id="20947" total="3" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20945" weight="1" respawn="1200sec"/>
+				<private id="20946" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+		<npc id="20953" total="5" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20952" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p18" minZ="-3864" maxZ="-3364">
+		<node x="90600" y="51188"/>
+		<node x="94572" y="51236"/>
+		<node x="96140" y="53384"/>
+		<node x="92900" y="57176"/>
+		<node x="89264" y="52868"/>
+	</territory>
+	<npcmaker name="oren22_2219_p18m1" territory="oren22_2219_p18" maximumNpcs="40">
+		<ai type="default_maker"/>
+		<npc id="20950" total="2" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20948" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+		<npc id="20953" total="6" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20952" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p18s" minZ="-3816" maxZ="-3416">
+		<node x="91360" y="51936"/>
+		<node x="94432" y="52460"/>
+		<node x="93268" y="55000"/>
+		<node x="90936" y="53652"/>
+	</territory>
+	<npcmaker name="oren22_2219_p18sm1" territory="oren22_2219_p18s" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="20950" total="2" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20948" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+		<npc id="20953" total="3" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20952" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p19" minZ="-3808" maxZ="-3308">
+		<node x="93176" y="46784"/>
+		<node x="95188" y="47828"/>
+		<node x="94552" y="51296"/>
+		<node x="90552" y="51232"/>
+		<node x="90552" y="49332"/>
+	</territory>
+	<npcmaker name="oren22_2219_p19m1" territory="oren22_2219_p19" maximumNpcs="40">
+		<ai type="default_maker"/>
+		<npc id="20950" total="5" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20948" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+		<npc id="20953" total="3" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20952" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p20" minZ="-3828" maxZ="-3228">
+		<node x="93684" y="44148"/>
+		<node x="95876" y="44704"/>
+		<node x="95144" y="47740"/>
+		<node x="93192" y="46744"/>
+	</territory>
+	<npcmaker name="oren22_2219_p20m1" territory="oren22_2219_p20" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20950" total="2" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20948" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+		<npc id="20953" total="1" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20952" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p21" minZ="-3768" maxZ="-3368">
+		<node x="90500" y="43528"/>
+		<node x="94068" y="42104"/>
+		<node x="93200" y="46748"/>
+		<node x="91464" y="48424"/>
+		<node x="89752" y="46772"/>
+	</territory>
+	<npcmaker name="oren22_2219_p21m1" territory="oren22_2219_p21" maximumNpcs="40">
+		<ai type="default_maker"/>
+		<npc id="20950" total="3" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20948" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+		<npc id="20953" total="5" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20952" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren22_2219_p22" minZ="-3664" maxZ="-3264">
+		<node x="92676" y="40392"/>
+		<node x="93996" y="42096"/>
+		<node x="89772" y="43780"/>
+		<node x="89212" y="42816"/>
+		<node x="90136" y="40752"/>
+	</territory>
+	<npcmaker name="oren22_2219_p22m1" territory="oren22_2219_p22" maximumNpcs="35">
+		<ai type="default_maker"/>
+		<npc id="20950" total="2" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20948" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+				<private id="20949" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+		<npc id="20953" total="5" respawn="33sec" respawnRand="15sec">
+			<privates>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20951" weight="1" respawn="1200sec"/>
+				<private id="20952" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_01" minZ="-3664" maxZ="-3064">
+		<node x="69452" y="36716"/>
+		<node x="70752" y="36332"/>
+		<node x="73856" y="39204"/>
+		<node x="70760" y="40964"/>
+	</territory>
+	<npcmaker name="oren28_2219_01m1" territory="oren28_2219_01" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20587" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_02" minZ="-3868" maxZ="-3268">
+		<node x="65716" y="36564"/>
+		<node x="69412" y="36644"/>
+		<node x="70716" y="40920"/>
+		<node x="65700" y="41880"/>
+	</territory>
+	<npcmaker name="oren28_2219_02m1" territory="oren28_2219_02" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20587" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_02s" minZ="-3832" maxZ="-3432">
+		<node x="66728" y="37900"/>
+		<node x="69348" y="37364"/>
+		<node x="70180" y="40600"/>
+		<node x="67944" y="40612"/>
+	</territory>
+	<npcmaker name="oren28_2219_02sm1" territory="oren28_2219_02s" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20587" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_03" minZ="-3964" maxZ="-3064">
+		<node x="65704" y="41848"/>
+		<node x="68660" y="41284"/>
+		<node x="67840" y="45804"/>
+		<node x="65712" y="45876"/>
+	</territory>
+	<npcmaker name="oren28_2219_03m1" territory="oren28_2219_03" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20587" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_04" minZ="-3996" maxZ="-3296">
+		<node x="65596" y="45772"/>
+		<node x="67508" y="45740"/>
+		<node x="69616" y="48732"/>
+		<node x="69100" y="50864"/>
+		<node x="65704" y="54152"/>
+	</territory>
+	<npcmaker name="oren28_2219_04m1" territory="oren28_2219_04" maximumNpcs="17">
+		<ai type="default_maker"/>
+		<npc id="20587" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="3" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_04s" minZ="-3936" maxZ="-3536">
+		<node x="66292" y="48160"/>
+		<node x="68816" y="48232"/>
+		<node x="68856" y="50288"/>
+		<node x="66308" y="51520"/>
+	</territory>
+	<npcmaker name="oren28_2219_04sm1" territory="oren28_2219_04s" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20587" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_05" minZ="-3764" maxZ="-3264">
+		<node x="65760" y="54168"/>
+		<node x="69128" y="50884"/>
+		<node x="72104" y="53112"/>
+		<node x="71412" y="56440"/>
+		<node x="65748" y="56868"/>
+	</territory>
+	<npcmaker name="oren28_2219_05m1" territory="oren28_2219_05" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="20587" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="3" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="3" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_05s" minZ="-3728" maxZ="-3428">
+		<node x="67740" y="52892"/>
+		<node x="70276" y="52088"/>
+		<node x="70508" y="55632"/>
+		<node x="68900" y="56336"/>
+	</territory>
+	<npcmaker name="oren28_2219_05sm1" territory="oren28_2219_05s" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20587" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_06" minZ="-3760" maxZ="-3260">
+		<node x="69624" y="48708"/>
+		<node x="74092" y="48860"/>
+		<node x="72052" y="53092"/>
+		<node x="69112" y="50864"/>
+	</territory>
+	<npcmaker name="oren28_2219_06m1" territory="oren28_2219_06" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="20587" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_07" minZ="-3720" maxZ="-3020">
+		<node x="71496" y="48744"/>
+		<node x="73892" y="45372"/>
+		<node x="75268" y="46100"/>
+		<node x="73908" y="48836"/>
+	</territory>
+	<npcmaker name="oren28_2219_07m1" territory="oren28_2219_07" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20587" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_08" minZ="-3268" maxZ="-2668">
+		<node x="75376" y="42856"/>
+		<node x="76448" y="44300"/>
+		<node x="75268" y="46072"/>
+		<node x="73932" y="45356"/>
+		<node x="74488" y="43468"/>
+	</territory>
+	<npcmaker name="oren28_2219_08m1" territory="oren28_2219_08" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20587" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_09" minZ="-3220" maxZ="-2620">
+		<node x="74760" y="40128"/>
+		<node x="75376" y="40744"/>
+		<node x="75368" y="42848"/>
+		<node x="74476" y="43464"/>
+		<node x="73492" y="42404"/>
+		<node x="73588" y="41156"/>
+	</territory>
+	<npcmaker name="oren28_2219_09m1" territory="oren28_2219_09" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20587" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_10" minZ="-3844" maxZ="-2844">
+		<node x="67164" y="56844"/>
+		<node x="71872" y="56452"/>
+		<node x="73020" y="57660"/>
+		<node x="71368" y="60184"/>
+	</territory>
+	<npcmaker name="oren28_2219_10m1" territory="oren28_2219_10" maximumNpcs="17">
+		<ai type="default_maker"/>
+		<npc id="20587" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20588" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="3" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_11" minZ="-3768" maxZ="-3168">
+		<node x="69048" y="58284"/>
+		<node x="71364" y="60128"/>
+		<node x="72388" y="62488"/>
+		<node x="68776" y="65288"/>
+	</territory>
+	<npcmaker name="oren28_2219_11m1" territory="oren28_2219_11" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20587" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20585" total="3" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="3" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_12" minZ="-3764" maxZ="-3264">
+		<node x="72380" y="62548"/>
+		<node x="75444" y="63548"/>
+		<node x="74568" y="65284"/>
+		<node x="68816" y="65268"/>
+	</territory>
+	<npcmaker name="oren28_2219_12m1" territory="oren28_2219_12" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20585" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20587" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_13" minZ="-3188" maxZ="-2688">
+		<node x="76536" y="58652"/>
+		<node x="77064" y="59460"/>
+		<node x="75100" y="62072"/>
+		<node x="74236" y="62288"/>
+		<node x="72740" y="61092"/>
+		<node x="72744" y="59672"/>
+		<node x="74284" y="57804"/>
+		<node x="75388" y="58080"/>
+	</territory>
+	<npcmaker name="oren28_2219_13m1" territory="oren28_2219_13" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="20585" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20586" total="3" respawn="40sec" respawnRand="10sec"/>
+		<npc id="20587" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p01" minZ="-3664" maxZ="-3064">
+		<node x="69452" y="36716"/>
+		<node x="70752" y="36332"/>
+		<node x="73856" y="39204"/>
+		<node x="70760" y="40964"/>
+	</territory>
+	<npcmaker name="oren28_2219_p01m1" territory="oren28_2219_p01" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20767" total="3" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p02" minZ="-3868" maxZ="-3268">
+		<node x="65716" y="36564"/>
+		<node x="69412" y="36644"/>
+		<node x="70716" y="40920"/>
+		<node x="65700" y="41880"/>
+	</territory>
+	<npcmaker name="oren28_2219_p02m1" territory="oren28_2219_p02" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="20767" total="4" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p03" minZ="-3964" maxZ="-3064">
+		<node x="65704" y="41848"/>
+		<node x="68660" y="41284"/>
+		<node x="67840" y="45804"/>
+		<node x="65712" y="45876"/>
+	</territory>
+	<npcmaker name="oren28_2219_p03m1" territory="oren28_2219_p03" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20767" total="3" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p04" minZ="-3996" maxZ="-3296">
+		<node x="65596" y="45772"/>
+		<node x="67508" y="45740"/>
+		<node x="69616" y="48732"/>
+		<node x="69100" y="50864"/>
+		<node x="65704" y="54152"/>
+	</territory>
+	<npcmaker name="oren28_2219_p04m1" territory="oren28_2219_p04" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="20767" total="4" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p05" minZ="-3764" maxZ="-3264">
+		<node x="65760" y="54168"/>
+		<node x="69128" y="50884"/>
+		<node x="72104" y="53112"/>
+		<node x="71412" y="56440"/>
+		<node x="65748" y="56868"/>
+	</territory>
+	<npcmaker name="oren28_2219_p05m1" territory="oren28_2219_p05" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20767" total="3" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p06" minZ="-3760" maxZ="-3260">
+		<node x="69624" y="48708"/>
+		<node x="74092" y="48860"/>
+		<node x="72052" y="53092"/>
+		<node x="69112" y="50864"/>
+	</territory>
+	<npcmaker name="oren28_2219_p06m1" territory="oren28_2219_p06" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="20767" total="4" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p07" minZ="-3720" maxZ="-3020">
+		<node x="71496" y="48744"/>
+		<node x="73892" y="45372"/>
+		<node x="75268" y="46100"/>
+		<node x="73908" y="48836"/>
+	</territory>
+	<npcmaker name="oren28_2219_p07m1" territory="oren28_2219_p07" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20767" total="3" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p08" minZ="-3268" maxZ="-2668">
+		<node x="75376" y="42856"/>
+		<node x="76448" y="44300"/>
+		<node x="75268" y="46072"/>
+		<node x="73932" y="45356"/>
+		<node x="74488" y="43468"/>
+	</territory>
+	<npcmaker name="oren28_2219_p08m1" territory="oren28_2219_p08" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20767" total="3" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p09" minZ="-3220" maxZ="-2620">
+		<node x="74760" y="40128"/>
+		<node x="75376" y="40744"/>
+		<node x="75368" y="42848"/>
+		<node x="74476" y="43464"/>
+		<node x="73492" y="42404"/>
+		<node x="73588" y="41156"/>
+	</territory>
+	<npcmaker name="oren28_2219_p09m1" territory="oren28_2219_p09" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20767" total="3" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p10" minZ="-3844" maxZ="-2844">
+		<node x="67164" y="56844"/>
+		<node x="71872" y="56452"/>
+		<node x="73020" y="57660"/>
+		<node x="71368" y="60184"/>
+	</territory>
+	<npcmaker name="oren28_2219_p10m1" territory="oren28_2219_p10" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20767" total="3" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p11" minZ="-3768" maxZ="-3168">
+		<node x="69048" y="58284"/>
+		<node x="71364" y="60128"/>
+		<node x="72388" y="62488"/>
+		<node x="68776" y="65288"/>
+	</territory>
+	<npcmaker name="oren28_2219_p11m1" territory="oren28_2219_p11" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20767" total="3" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p12" minZ="-3764" maxZ="-3264">
+		<node x="72380" y="62548"/>
+		<node x="75444" y="63548"/>
+		<node x="74568" y="65284"/>
+		<node x="68816" y="65268"/>
+	</territory>
+	<npcmaker name="oren28_2219_p12m1" territory="oren28_2219_p12" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="20767" total="4" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_2219_p13" minZ="-3188" maxZ="-2688">
+		<node x="76536" y="58652"/>
+		<node x="77064" y="59460"/>
+		<node x="75100" y="62072"/>
+		<node x="74236" y="62288"/>
+		<node x="72740" y="61092"/>
+		<node x="72744" y="59672"/>
+		<node x="74284" y="57804"/>
+		<node x="75388" y="58080"/>
+	</territory>
+	<npcmaker name="oren28_2219_p13m1" territory="oren28_2219_p13" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="20767" total="4" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="20768" weight="1" respawn="1200sec"/>
+				<private id="20769" weight="1" respawn="1200sec"/>
+				<private id="20770" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_mb2219_01" minZ="-3844" maxZ="-3244">
+		<node x="66384" y="64036"/>
+		<node x="67800" y="63212"/>
+		<node x="68244" y="64340"/>
+		<node x="67464" y="64848"/>
+		<node x="66500" y="64744"/>
+	</territory>
+	<npcmaker name="oren28_mb2219_01" territory="oren28_mb2219_01" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25437" total="1" respawn="36hour" respawnRand="24hour" dbName="timak_orc_gosmos" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_mb2219_02" minZ="-3948" maxZ="-3348">
+		<node x="66280" y="46420"/>
+		<node x="66756" y="46216"/>
+		<node x="67088" y="46772"/>
+		<node x="66792" y="47256"/>
+		<node x="66184" y="47032"/>
+	</territory>
+	<npcmaker name="oren28_mb2219_02" territory="oren28_mb2219_02" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25230" total="1" respawn="36hour" respawnRand="24hour" dbName="timak_seer_ragoth" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_npc2219_002" minZ="-1592" maxZ="-1192">
+		<node x="71364" y="43833"/>
+		<node x="71742" y="43831"/>
+		<node x="71725" y="44269"/>
+		<node x="71358" y="44254"/>
+	</territory>
+	<npcmaker name="oren_npc2219_00201" territory="oren28_npc2219_002" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30750" pos="71569;44058;-1436;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_tb2218_01" minZ="-3664" maxZ="-3064">
+		<node x="69452" y="36716"/>
+		<node x="70752" y="36332"/>
+		<node x="73856" y="39204"/>
+		<node x="70760" y="40964"/>
+	</territory>
+	<npcmaker name="oren28_tb01_m1" territory="oren28_tb2218_01" maximumNpcs="8">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="18273" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="21808" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="21809" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren28_tb2218_02" minZ="-3868" maxZ="-3268">
+		<node x="65716" y="36564"/>
+		<node x="69412" y="36644"/>
+		<node x="70716" y="40920"/>
+		<node x="65700" y="41880"/>
+	</territory>
+	<npcmaker name="oren28_tb02_m1" territory="oren28_tb2218_02" maximumNpcs="12">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="18273" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="21808" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="21809" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_mass_teleporter" minZ="-1634" maxZ="14844">
+		<node x="82802" y="38078"/>
+		<node x="82802" y="39032"/>
+		<node x="82449" y="39032"/>
+		<node x="82448" y="38079"/>
+	</territory>
+	<npcmaker name="oren_mass_teleporter" territory="oren_mass_teleporter" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35221" pos="82611;38772;-1578;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege01" minZ="-2585" maxZ="13793">
+		<node x="78946" y="36793"/>
+		<node x="78943" y="37134"/>
+		<node x="78725" y="37128"/>
+		<node x="78725" y="36793"/>
+	</territory>
+	<npcmaker name="oren_siege01" territory="oren_siege01" spawnTime="siege_warfare_start(4)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35211" pos="78891;36844;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_001" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78891;36872;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_002" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78891;36900;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_003" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78891;36928;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_004" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78891;36956;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_005" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78891;36984;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_006" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78891;37012;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_007" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78891;37040;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_008" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78891;37068;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_009" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="78871;36844;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_010" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="78871;36872;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_011" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="78871;36900;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_012" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="78871;36928;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_013" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="78871;36956;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_014" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="78871;36984;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_015" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="78871;37012;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_016" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="78871;37040;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_017" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="78871;37068;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_018" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="78851;36844;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_019" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="78851;36872;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_020" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="78851;36900;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_021" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="78851;36928;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_022" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35205" pos="78851;36956;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_023" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="78851;36984;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_024" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="78851;37012;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_025" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="78851;37040;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_026" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="78851;37068;-2553;31992" total="1" respawn="3hour" dbName="oren_siege_027" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege02" minZ="-2616" maxZ="13762">
+		<node x="80090" y="36315"/>
+		<node x="80081" y="36782"/>
+		<node x="79204" y="36769"/>
+		<node x="79204" y="36287"/>
+	</territory>
+	<npcmaker name="oren_siege02" territory="oren_siege02" spawnTime="siege_warfare_start(4)" maximumNpcs="50">
+		<ai type="default_maker"/>
+		<npc id="35210" pos="79269;36701;-2543;15696" total="1" respawn="3hour" dbName="oren_siege_028" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="79300;36702;-2542;15696" total="1" respawn="3hour" dbName="oren_siege_029" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35205" pos="79330;36702;-2542;15696" total="1" respawn="3hour" dbName="oren_siege_030" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="79360;36702;-2541;15696" total="1" respawn="3hour" dbName="oren_siege_031" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="79391;36701;-2542;15696" total="1" respawn="3hour" dbName="oren_siege_032" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="79420;36703;-2541;15696" total="1" respawn="3hour" dbName="oren_siege_033" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35205" pos="79450;36703;-2541;15696" total="1" respawn="3hour" dbName="oren_siege_034" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="79480;36703;-2540;15696" total="1" respawn="3hour" dbName="oren_siege_035" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="79511;36702;-2541;15696" total="1" respawn="3hour" dbName="oren_siege_036" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="79287;36676;-2561;15696" total="1" respawn="3hour" dbName="oren_siege_037" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="79317;36676;-2561;15696" total="1" respawn="3hour" dbName="oren_siege_038" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="79348;36676;-2560;15696" total="1" respawn="3hour" dbName="oren_siege_039" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="79378;36675;-2561;15696" total="1" respawn="3hour" dbName="oren_siege_040" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="79408;36677;-2560;15696" total="1" respawn="3hour" dbName="oren_siege_041" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="79438;36677;-2560;15696" total="1" respawn="3hour" dbName="oren_siege_042" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="79467;36678;-2559;15696" total="1" respawn="3hour" dbName="oren_siege_043" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="79499;36677;-2560;15696" total="1" respawn="3hour" dbName="oren_siege_044" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79271;36655;-2565;15696" total="1" respawn="3hour" dbName="oren_siege_045" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79301;36656;-2565;15696" total="1" respawn="3hour" dbName="oren_siege_046" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79331;36656;-2564;15696" total="1" respawn="3hour" dbName="oren_siege_047" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79362;36657;-2564;15696" total="1" respawn="3hour" dbName="oren_siege_048" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79392;36655;-2564;15696" total="1" respawn="3hour" dbName="oren_siege_049" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79422;36657;-2563;15696" total="1" respawn="3hour" dbName="oren_siege_050" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79452;36657;-2563;15696" total="1" respawn="3hour" dbName="oren_siege_051" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79481;36658;-2562;15696" total="1" respawn="3hour" dbName="oren_siege_052" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79513;36657;-2563;15696" total="1" respawn="3hour" dbName="oren_siege_053" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79289;36509;-2566;15696" total="1" respawn="3hour" dbName="oren_siege_054" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79319;36509;-2565;15696" total="1" respawn="3hour" dbName="oren_siege_055" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79350;36509;-2565;15696" total="1" respawn="3hour" dbName="oren_siege_056" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79380;36510;-2564;15696" total="1" respawn="3hour" dbName="oren_siege_057" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79410;36509;-2564;15696" total="1" respawn="3hour" dbName="oren_siege_058" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79440;36511;-2564;15696" total="1" respawn="3hour" dbName="oren_siege_059" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79470;36512;-2563;15696" total="1" respawn="3hour" dbName="oren_siege_060" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79500;36512;-2563;15696" total="1" respawn="3hour" dbName="oren_siege_061" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="79620;36408;-2557;32284" total="1" respawn="3hour" dbName="oren_siege_062" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="79621;36438;-2558;32284" total="1" respawn="3hour" dbName="oren_siege_063" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="79502;36646;-2541;15696" total="1" respawn="1min" dbName="oren_siege_064" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="79438;36645;-2541;15696" total="1" respawn="1min" dbName="oren_siege_065" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="79349;36645;-2541;15696" total="1" respawn="1min" dbName="oren_siege_066" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="79289;36648;-2541;15696" total="1" respawn="1min" dbName="oren_siege_067" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege03" minZ="-2440" maxZ="13938">
+		<node x="79719" y="36652"/>
+		<node x="79722" y="37576"/>
+		<node x="79300" y="37599"/>
+		<node x="79299" y="36647"/>
+	</territory>
+	<npcmaker name="oren_siege03m1" territory="oren_siege03" spawnTime="siege_warfare_start(4)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35211" pos="79642;36894;-2292;32284" total="1" respawn="3hour" dbName="oren_siege_068" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79643;36924;-2293;32284" total="1" respawn="3hour" dbName="oren_siege_069" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="79640;36954;-2292;32284" total="1" respawn="3hour" dbName="oren_siege_070" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79639;36984;-2292;32284" total="1" respawn="3hour" dbName="oren_siege_071" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79638;37013;-2291;32284" total="1" respawn="3hour" dbName="oren_siege_072" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79576;36664;-2290;32284" total="1" respawn="3hour" dbName="oren_siege_073" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79577;36694;-2291;32284" total="1" respawn="3hour" dbName="oren_siege_074" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="79574;36723;-2290;32284" total="1" respawn="3hour" dbName="oren_siege_075" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79573;36753;-2290;32284" total="1" respawn="3hour" dbName="oren_siege_076" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79572;36783;-2289;32284" total="1" respawn="3hour" dbName="oren_siege_077" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79438;37197;-2291;48048" total="1" respawn="3hour" dbName="oren_siege_078" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79408;37200;-2292;48048" total="1" respawn="3hour" dbName="oren_siege_079" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="79379;37198;-2291;48048" total="1" respawn="3hour" dbName="oren_siege_080" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79349;37199;-2291;48048" total="1" respawn="3hour" dbName="oren_siege_081" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79319;37200;-2290;48048" total="1" respawn="3hour" dbName="oren_siege_082" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="79644;37464;-2394;16328" total="1" respawn="3hour" dbName="oren_siege_083" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35205" pos="79678;37465;-2394;16328" total="1" respawn="3hour" dbName="oren_siege_084" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="79719;37469;-2393;16328" total="1" respawn="3hour" dbName="oren_siege_085" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="79644;37443;-2383;16328" total="1" respawn="3hour" dbName="oren_siege_086" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="79678;37444;-2384;16328" total="1" respawn="3hour" dbName="oren_siege_087" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="79719;37448;-2383;16328" total="1" respawn="3hour" dbName="oren_siege_088" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="79644;37425;-2369;16328" total="1" respawn="3hour" dbName="oren_siege_089" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="79678;37426;-2370;16328" total="1" respawn="3hour" dbName="oren_siege_090" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="79719;37430;-2369;16328" total="1" respawn="3hour" dbName="oren_siege_091" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="79685;37097;-2292;39060" total="1" respawn="3hour" dbName="oren_siege_092" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="oren_siege03m2" territory="oren_siege03" spawnTime="pc_siege_warfare_start(4)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35211" pos="79642;36894;-2292;32284" total="1" respawn="3hour" dbName="oren_siege_400" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="79640;36954;-2292;32284" total="1" respawn="3hour" dbName="oren_siege_401" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79638;37013;-2291;32284" total="1" respawn="3hour" dbName="oren_siege_402" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79576;36664;-2290;32284" total="1" respawn="3hour" dbName="oren_siege_403" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79577;36694;-2291;32284" total="1" respawn="3hour" dbName="oren_siege_404" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="79574;36723;-2290;32284" total="1" respawn="3hour" dbName="oren_siege_405" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79573;36753;-2290;32284" total="1" respawn="3hour" dbName="oren_siege_406" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79438;37197;-2291;48048" total="1" respawn="3hour" dbName="oren_siege_407" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="79379;37198;-2291;48048" total="1" respawn="3hour" dbName="oren_siege_408" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="79319;37200;-2290;48048" total="1" respawn="3hour" dbName="oren_siege_409" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege04" minZ="-2387" maxZ="13991">
+		<node x="82323" y="36810"/>
+		<node x="83670" y="37752"/>
+		<node x="81327" y="37554"/>
+		<node x="81298" y="36823"/>
+	</territory>
+	<npcmaker name="oren_siege04" territory="oren_siege04" spawnTime="siege_warfare_start(4)" maximumNpcs="70">
+		<ai type="default_maker"/>
+		<npc id="35208" pos="81663;37047;-2287;22704" total="1" respawn="3hour" dbName="oren_siege_093" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="81688;37064;-2288;22704" total="1" respawn="3hour" dbName="oren_siege_094" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="81714;37088;-2287;22704" total="1" respawn="3hour" dbName="oren_siege_095" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="81737;37107;-2287;22704" total="1" respawn="3hour" dbName="oren_siege_096" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="81755;37122;-2286;22704" total="1" respawn="3hour" dbName="oren_siege_097" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="81781;37144;-2288;22704" total="1" respawn="3hour" dbName="oren_siege_098" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="81806;37161;-2288;22704" total="1" respawn="3hour" dbName="oren_siege_099" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="81827;37181;-2288;22704" total="1" respawn="3hour" dbName="oren_siege_100" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="81838;37205;-2289;33460" total="1" respawn="3hour" dbName="oren_siege_101" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="81819;37230;-2288;41952" total="1" respawn="3hour" dbName="oren_siege_102" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="81795;37248;-2288;41952" total="1" respawn="3hour" dbName="oren_siege_103" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="81775;37261;-2287;41952" total="1" respawn="3hour" dbName="oren_siege_104" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="81748;37280;-2289;41952" total="1" respawn="3hour" dbName="oren_siege_105" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="81724;37299;-2290;41952" total="1" respawn="3hour" dbName="oren_siege_106" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="81694;37318;-2289;41952" total="1" respawn="3hour" dbName="oren_siege_107" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="81669;37335;-2289;41952" total="1" respawn="3hour" dbName="oren_siege_108" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="81650;37348;-2288;41952" total="1" respawn="3hour" dbName="oren_siege_109" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="81683;37032;-2289;22704" total="1" respawn="3hour" dbName="oren_siege_110" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81707;37050;-2290;22704" total="1" respawn="3hour" dbName="oren_siege_111" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="81733;37074;-2289;22704" total="1" respawn="3hour" dbName="oren_siege_112" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81757;37093;-2289;22704" total="1" respawn="3hour" dbName="oren_siege_113" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="81775;37108;-2288;22704" total="1" respawn="3hour" dbName="oren_siege_114" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81801;37129;-2290;22704" total="1" respawn="3hour" dbName="oren_siege_115" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="81825;37147;-2290;22704" total="1" respawn="3hour" dbName="oren_siege_116" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81846;37166;-2290;22704" total="1" respawn="3hour" dbName="oren_siege_117" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="81857;37191;-2291;33460" total="1" respawn="3hour" dbName="oren_siege_118" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81856;37219;-2288;33460" total="1" respawn="3hour" dbName="oren_siege_119" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="81837;37244;-2287;41952" total="1" respawn="3hour" dbName="oren_siege_120" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81813;37262;-2287;41952" total="1" respawn="3hour" dbName="oren_siege_121" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="81793;37275;-2286;41952" total="1" respawn="3hour" dbName="oren_siege_122" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81766;37294;-2288;41952" total="1" respawn="3hour" dbName="oren_siege_123" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="81742;37313;-2289;41952" total="1" respawn="3hour" dbName="oren_siege_124" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81712;37332;-2288;41952" total="1" respawn="3hour" dbName="oren_siege_125" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="81687;37349;-2288;41952" total="1" respawn="3hour" dbName="oren_siege_126" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81668;37362;-2287;41952" total="1" respawn="3hour" dbName="oren_siege_127" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81788;37004;-2287;22704" total="1" respawn="3hour" dbName="oren_siege_128" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81811;37023;-2287;22704" total="1" respawn="3hour" dbName="oren_siege_129" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81829;37038;-2286;22704" total="1" respawn="3hour" dbName="oren_siege_130" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81855;37060;-2288;22704" total="1" respawn="3hour" dbName="oren_siege_131" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81880;37077;-2289;22704" total="1" respawn="3hour" dbName="oren_siege_132" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81846;37305;-2283;41952" total="1" respawn="3hour" dbName="oren_siege_133" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81826;37318;-2282;41952" total="1" respawn="3hour" dbName="oren_siege_134" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81799;37338;-2284;41952" total="1" respawn="3hour" dbName="oren_siege_135" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81775;37356;-2285;41952" total="1" respawn="3hour" dbName="oren_siege_136" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81745;37375;-2284;41952" total="1" respawn="3hour" dbName="oren_siege_137" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="81922;37336;-2285;32004" total="1" respawn="3hour" dbName="oren_siege_138" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="81922;37370;-2286;32004" total="1" respawn="3hour" dbName="oren_siege_139" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="81925;37091;-2286;32004" total="1" respawn="3hour" dbName="oren_siege_140" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="81924;37114;-2286;32004" total="1" respawn="3hour" dbName="oren_siege_141" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81650;37039;-2284;41952" total="1" respawn="3hour" dbName="oren_siege_142" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="81704;37030;-2287;22704" total="1" respawn="1min" dbName="oren_siege_143" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="81795;37111;-2287;22704" total="1" respawn="1min" dbName="oren_siege_144" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="81786;37296;-2287;22704" total="1" respawn="1min" dbName="oren_siege_145" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="81683;37368;-2287;22704" total="1" respawn="1min" dbName="oren_siege_146" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege05" minZ="-2416" maxZ="13962">
+		<node x="84069" y="36412"/>
+		<node x="84077" y="37940"/>
+		<node x="83471" y="37953"/>
+		<node x="83472" y="36412"/>
+	</territory>
+	<npcmaker name="oren_siege05" territory="oren_siege05" spawnTime="siege_warfare_start(4)" maximumNpcs="60">
+		<ai type="default_maker"/>
+		<npc id="35190" pos="83808;37131;-2349;32728" total="1" respawn="5min"/>
+		<npc id="35107" pos="83811;37243;-2348;32728" total="1" respawn="3min"/>
+		<npc id="35198" pos="83794;37345;-2354;32728" total="1" respawn="2min" dbName="oren_siege_147" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83795;37382;-2354;32728" total="1" respawn="2min" dbName="oren_siege_148" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83795;37415;-2354;32728" total="1" respawn="2min" dbName="oren_siege_149" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83796;37453;-2354;32728" total="1" respawn="2min" dbName="oren_siege_150" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83796;37490;-2353;32728" total="1" respawn="2min" dbName="oren_siege_151" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83797;37528;-2353;32728" total="1" respawn="2min" dbName="oren_siege_152" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83797;37560;-2353;32728" total="1" respawn="2min" dbName="oren_siege_153" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83798;37598;-2353;32728" total="1" respawn="2min" dbName="oren_siege_154" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83760;37345;-2355;32728" total="1" respawn="2min" dbName="oren_siege_155" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83761;37383;-2355;32728" total="1" respawn="2min" dbName="oren_siege_156" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83761;37416;-2355;32728" total="1" respawn="2min" dbName="oren_siege_157" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83762;37453;-2355;32728" total="1" respawn="2min" dbName="oren_siege_158" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83762;37491;-2354;32728" total="1" respawn="2min" dbName="oren_siege_159" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83763;37528;-2354;32728" total="1" respawn="2min" dbName="oren_siege_160" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83763;37561;-2354;32728" total="1" respawn="2min" dbName="oren_siege_161" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83764;37598;-2354;32728" total="1" respawn="2min" dbName="oren_siege_162" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83722;37347;-2356;32728" total="1" respawn="2min" dbName="oren_siege_163" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83723;37385;-2356;32728" total="1" respawn="2min" dbName="oren_siege_164" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35192" pos="83723;37417;-2356;32728" total="1" respawn="2min" dbName="oren_siege_165" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83724;37455;-2356;32728" total="1" respawn="2min" dbName="oren_siege_166" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83724;37492;-2355;32728" total="1" respawn="2min" dbName="oren_siege_167" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35192" pos="83725;37530;-2355;32728" total="1" respawn="2min" dbName="oren_siege_168" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83725;37562;-2355;32728" total="1" respawn="2min" dbName="oren_siege_169" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83726;37600;-2355;32728" total="1" respawn="2min" dbName="oren_siege_170" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83788;36785;-2350;32728" total="1" respawn="2min" dbName="oren_siege_171" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83788;36823;-2350;32728" total="1" respawn="2min" dbName="oren_siege_172" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83788;36855;-2350;32728" total="1" respawn="2min" dbName="oren_siege_173" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83789;36893;-2350;32728" total="1" respawn="2min" dbName="oren_siege_174" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83790;36930;-2349;32728" total="1" respawn="2min" dbName="oren_siege_175" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83790;36968;-2349;32728" total="1" respawn="2min" dbName="oren_siege_176" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83791;37001;-2349;32728" total="1" respawn="2min" dbName="oren_siege_177" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="83791;37038;-2349;32728" total="1" respawn="2min" dbName="oren_siege_178" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83753;36786;-2351;32728" total="1" respawn="2min" dbName="oren_siege_179" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83754;36824;-2351;32728" total="1" respawn="2min" dbName="oren_siege_180" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83754;36856;-2351;32728" total="1" respawn="2min" dbName="oren_siege_181" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83755;36894;-2351;32728" total="1" respawn="2min" dbName="oren_siege_182" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83756;36931;-2350;32728" total="1" respawn="2min" dbName="oren_siege_183" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83756;36969;-2350;32728" total="1" respawn="2min" dbName="oren_siege_184" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83756;37001;-2350;32728" total="1" respawn="2min" dbName="oren_siege_185" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35195" pos="83757;37039;-2350;32728" total="1" respawn="2min" dbName="oren_siege_186" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83716;36787;-2352;32728" total="1" respawn="2min" dbName="oren_siege_187" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83717;36825;-2352;32728" total="1" respawn="2min" dbName="oren_siege_188" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35192" pos="83717;36858;-2352;32728" total="1" respawn="2min" dbName="oren_siege_189" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83718;36895;-2352;32728" total="1" respawn="2min" dbName="oren_siege_190" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83718;36933;-2351;32728" total="1" respawn="2min" dbName="oren_siege_191" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35192" pos="83719;36970;-2351;32728" total="1" respawn="2min" dbName="oren_siege_192" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83719;37003;-2351;32728" total="1" respawn="2min" dbName="oren_siege_193" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="83720;37040;-2351;32728" total="1" respawn="2min" dbName="oren_siege_194" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="83953;36865;-2349;32728" total="1" respawn="2min" dbName="oren_siege_195" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="83953;36949;-2348;32728" total="1" respawn="2min" dbName="oren_siege_196" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="83954;37028;-2348;32728" total="1" respawn="2min" dbName="oren_siege_197" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="83954;37103;-2348;32728" total="1" respawn="2min" dbName="oren_siege_198" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="83954;37280;-2345;32728" total="1" respawn="2min" dbName="oren_siege_199" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="83954;37363;-2345;32728" total="1" respawn="2min" dbName="oren_siege_200" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="83955;37443;-2345;32728" total="1" respawn="2min" dbName="oren_siege_201" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="83955;37517;-2345;32728" total="1" respawn="2min" dbName="oren_siege_202" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege06" minZ="-2186" maxZ="14192">
+		<node x="83902" y="37432"/>
+		<node x="83913" y="37772"/>
+		<node x="82778" y="37772"/>
+		<node x="82779" y="37436"/>
+	</territory>
+	<npcmaker name="oren_siege06" territory="oren_siege06" spawnTime="siege_warfare_start(4)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35210" pos="82828;37705;-2127;32472" total="1" respawn="3hour" dbName="oren_siege_203" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35205" pos="82828;37679;-2127;32472" total="1" respawn="3hour" dbName="oren_siege_204" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="82828;37651;-2126;32472" total="1" respawn="3hour" dbName="oren_siege_205" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="82850;37705;-2131;32472" total="1" respawn="3hour" dbName="oren_siege_206" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="82850;37678;-2131;32472" total="1" respawn="3hour" dbName="oren_siege_207" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="82850;37651;-2130;32472" total="1" respawn="3hour" dbName="oren_siege_208" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="82875;37704;-2129;32472" total="1" respawn="3hour" dbName="oren_siege_209" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="82875;37677;-2129;32472" total="1" respawn="3hour" dbName="oren_siege_210" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="82874;37650;-2128;32472" total="1" respawn="3hour" dbName="oren_siege_211" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="82952;37764;-2129;32472" total="1" respawn="3hour" dbName="oren_siege_212" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="82952;37738;-2129;32472" total="1" respawn="3hour" dbName="oren_siege_213" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="82952;37710;-2128;32472" total="1" respawn="3hour" dbName="oren_siege_214" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83525;37509;-2132;49076" total="1" respawn="3hour" dbName="oren_siege_215" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83562;37510;-2132;49076" total="1" respawn="3hour" dbName="oren_siege_216" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="83599;37510;-2131;49076" total="1" respawn="3hour" dbName="oren_siege_217" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83635;37511;-2131;49076" total="1" respawn="3hour" dbName="oren_siege_218" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83671;37511;-2131;49076" total="1" respawn="3hour" dbName="oren_siege_219" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="83709;37512;-2131;49076" total="1" respawn="3hour" dbName="oren_siege_220" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83740;37512;-2130;49076" total="1" respawn="3hour" dbName="oren_siege_221" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83777;37513;-2130;49076" total="1" respawn="3hour" dbName="oren_siege_222" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="83812;37514;-2130;49076" total="1" respawn="3hour" dbName="oren_siege_223" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83849;37514;-2130;49076" total="1" respawn="3hour" dbName="oren_siege_224" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83886;37514;-2130;49076" total="1" respawn="3hour" dbName="oren_siege_225" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege07" minZ="-2186" maxZ="14192">
+		<node x="83898" y="36595"/>
+		<node x="83898" y="36935"/>
+		<node x="82692" y="36935"/>
+		<node x="82693" y="36599"/>
+	</territory>
+	<npcmaker name="oren_siege07" territory="oren_siege07" spawnTime="siege_warfare_start(4)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35210" pos="82762;36730;-2127;32472" total="1" respawn="3hour" dbName="oren_siege_226" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35205" pos="82762;36704;-2127;32472" total="1" respawn="3hour" dbName="oren_siege_227" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35210" pos="82765;36661;-2126;32472" total="1" respawn="3hour" dbName="oren_siege_228" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="82784;36730;-2131;32472" total="1" respawn="3hour" dbName="oren_siege_229" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="82784;36703;-2131;32472" total="1" respawn="3hour" dbName="oren_siege_230" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35209" pos="82784;36676;-2130;32472" total="1" respawn="3hour" dbName="oren_siege_231" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="82809;36729;-2129;32472" total="1" respawn="3hour" dbName="oren_siege_232" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="82809;36702;-2129;32472" total="1" respawn="3hour" dbName="oren_siege_233" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35208" pos="82808;36675;-2128;32472" total="1" respawn="3hour" dbName="oren_siege_234" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="83050;36768;-2129;32472" total="1" respawn="3hour" dbName="oren_siege_235" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="83050;36742;-2129;32472" total="1" respawn="3hour" dbName="oren_siege_236" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="83050;36714;-2128;32472" total="1" respawn="3hour" dbName="oren_siege_237" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83880;36876;-2132;16000" total="1" respawn="3hour" dbName="oren_siege_238" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83844;36877;-2132;16000" total="1" respawn="3hour" dbName="oren_siege_239" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="83807;36878;-2131;16000" total="1" respawn="3hour" dbName="oren_siege_240" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83771;36878;-2131;16000" total="1" respawn="3hour" dbName="oren_siege_241" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83735;36878;-2131;16000" total="1" respawn="3hour" dbName="oren_siege_242" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="83697;36879;-2131;16000" total="1" respawn="3hour" dbName="oren_siege_243" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83666;36879;-2130;16000" total="1" respawn="3hour" dbName="oren_siege_244" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83629;36880;-2130;16000" total="1" respawn="3hour" dbName="oren_siege_245" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="83594;36880;-2130;16000" total="1" respawn="3hour" dbName="oren_siege_246" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83557;36881;-2130;16000" total="1" respawn="3hour" dbName="oren_siege_247" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="83520;36882;-2130;16000" total="1" respawn="3hour" dbName="oren_siege_248" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege08" minZ="-2200" maxZ="-200">
+		<node x="79169" y="37632"/>
+		<node x="79177" y="36277"/>
+		<node x="78588" y="36270"/>
+		<node x="78650" y="37714"/>
+	</territory>
+	<npcmaker name="oren_siege08m1" territory="oren_siege08" spawnTime="siege_warfare_start(4)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35211" pos="78822;37198;-2168;49152" total="1" respawn="3hour" dbName="oren_siege_249" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78759;37185;-2168;49152" total="1" respawn="3hour" dbName="oren_siege_250" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78697;37187;-2168;40960" total="1" respawn="3hour" dbName="oren_siege_251" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78657;37233;-2168;32768" total="1" respawn="3hour" dbName="oren_siege_252" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78656;37278;-2168;32768" total="1" respawn="3hour" dbName="oren_siege_253" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78657;37310;-2168;32768" total="1" respawn="3hour" dbName="oren_siege_254" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78659;37348;-2168;16384" total="1" respawn="3hour" dbName="oren_siege_255" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78820;36711;-2168;49152" total="1" respawn="3hour" dbName="oren_siege_256" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78755;36710;-2168;16384" total="1" respawn="3hour" dbName="oren_siege_257" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78689;36718;-2168;16384" total="1" respawn="3hour" dbName="oren_siege_258" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78660;36672;-2168;24576" total="1" respawn="3hour" dbName="oren_siege_259" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78656;36620;-2168;32768" total="1" respawn="3hour" dbName="oren_siege_260" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78653;36580;-2168;32768" total="1" respawn="3hour" dbName="oren_siege_261" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78655;36537;-2168;32768" total="1" respawn="3hour" dbName="oren_siege_262" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="78783;37187;-2168;16384" total="1" respawn="3hour" dbName="oren_siege_263" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="78734;37184;-2168;24576" total="1" respawn="3hour" dbName="oren_siege_264" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="78785;36711;-2168;40960" total="1" respawn="3hour" dbName="oren_siege_265" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="78728;36709;-2168;49152" total="1" respawn="3hour" dbName="oren_siege_266" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="78728;37265;-2168;24576" total="1" respawn="3hour" dbName="oren_siege_267" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="78741;36649;-2168;40960" total="1" respawn="3hour" dbName="oren_siege_268" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="oren_siege08m2" territory="oren_siege08" spawnTime="pc_siege_warfare_start(4)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35211" pos="78822;37198;-2168;49152" total="1" respawn="3hour" dbName="oren_siege_413" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78759;37185;-2168;49152" total="1" respawn="3hour" dbName="oren_siege_414" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78697;37187;-2168;40960" total="1" respawn="3hour" dbName="oren_siege_415" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78657;37233;-2168;32768" total="1" respawn="3hour" dbName="oren_siege_416" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78820;36711;-2168;49152" total="1" respawn="3hour" dbName="oren_siege_417" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78755;36710;-2168;16384" total="1" respawn="3hour" dbName="oren_siege_418" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78689;36718;-2168;16384" total="1" respawn="3hour" dbName="oren_siege_419" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="78660;36672;-2168;24576" total="1" respawn="3hour" dbName="oren_siege_420" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="78783;37187;-2168;16384" total="1" respawn="3hour" dbName="oren_siege_421" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="78734;37184;-2168;24576" total="1" respawn="3hour" dbName="oren_siege_422" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="78785;36711;-2168;40960" total="1" respawn="3hour" dbName="oren_siege_423" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="78728;36709;-2168;49152" total="1" respawn="3hour" dbName="oren_siege_424" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="78728;37265;-2168;24576" total="1" respawn="3hour" dbName="oren_siege_425" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="78741;36649;-2168;40960" total="1" respawn="3hour" dbName="oren_siege_426" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege09" minZ="-2506" maxZ="13872">
+		<node x="80730" y="36681"/>
+		<node x="80730" y="37663"/>
+		<node x="80323" y="37656"/>
+		<node x="80330" y="36679"/>
+	</territory>
+	<npcmaker name="oren_siege09" territory="oren_siege09" spawnTime="siege_warfare_start(4)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35198" pos="80578;37128;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_269" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="80578;37256;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_270" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="80578;37319;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_271" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="80578;37064;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_272" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="80578;36933;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_273" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="80578;36805;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_274" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="80578;37447;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_275" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35198" pos="80578;37576;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_276" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35193" pos="80578;37000;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_277" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35193" pos="80578;37383;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_278" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35193" pos="80578;37640;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_279" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35193" pos="80578;36741;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_280" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="80578;37192;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_281" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="80578;37511;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_282" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35194" pos="80578;36869;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_283" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;36744;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_284" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;36808;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_285" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;37640;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_286" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;37576;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_287" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35192" pos="80428;37192;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_288" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;36872;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_289" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;36936;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_290" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;37000;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_291" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;37064;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_292" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35192" pos="80428;37128;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_293" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35192" pos="80428;37255;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_294" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;37319;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_295" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;37383;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_296" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;37447;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_297" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35197" pos="80428;37511;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_298" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege10" minZ="-2057" maxZ="14321">
+		<node x="81400" y="36714"/>
+		<node x="81398" y="37676"/>
+		<node x="81066" y="37666"/>
+		<node x="81066" y="36709"/>
+	</territory>
+	<npcmaker name="oren_siege10" territory="oren_siege10" spawnTime="siege_warfare_start(4)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35211" pos="81331;37424;-1985;49152" total="1" respawn="3hour" dbName="oren_siege_299"/>
+		<npc id="35211" pos="81209;37423;-1985;49152" total="1" respawn="3hour" dbName="oren_siege_300"/>
+		<npc id="35211" pos="81148;37478;-1985;40960" total="1" respawn="3hour" dbName="oren_siege_301"/>
+		<npc id="35211" pos="81129;37503;-1985;32768" total="1" respawn="3hour" dbName="oren_siege_302"/>
+		<npc id="35211" pos="81128;37542;-1985;32768" total="1" respawn="3hour" dbName="oren_siege_303"/>
+		<npc id="35211" pos="81128;37578;-1985;32768" total="1" respawn="3hour" dbName="oren_siege_304"/>
+		<npc id="35211" pos="81288;37424;-1985;49152" total="1" respawn="3hour" dbName="oren_siege_305"/>
+		<npc id="35206" pos="81173;37452;-1985;40960" total="1" respawn="3hour" dbName="oren_siege_306"/>
+		<npc id="35206" pos="81249;37424;-1984;49152" total="1" respawn="3hour" dbName="oren_siege_307"/>
+		<npc id="35207" pos="81194;37526;-1986;40960" total="1" respawn="3hour" dbName="oren_siege_308"/>
+		<npc id="35211" pos="81337;36971;-1987;16384" total="1" respawn="3hour" dbName="oren_siege_309"/>
+		<npc id="35211" pos="81297;36971;-1985;16384" total="1" respawn="3hour" dbName="oren_siege_310"/>
+		<npc id="35211" pos="81212;36971;-1986;16384" total="1" respawn="3hour" dbName="oren_siege_311"/>
+		<npc id="35211" pos="81147;36913;-1985;24576" total="1" respawn="3hour" dbName="oren_siege_312"/>
+		<npc id="35211" pos="81127;36886;-1984;32768" total="1" respawn="3hour" dbName="oren_siege_313"/>
+		<npc id="35211" pos="81128;36846;-1985;32768" total="1" respawn="3hour" dbName="oren_siege_314"/>
+		<npc id="35211" pos="81127;36807;-1985;32768" total="1" respawn="3hour" dbName="oren_siege_315"/>
+		<npc id="35206" pos="81253;36971;-1983;16384" total="1" respawn="3hour" dbName="oren_siege_316"/>
+		<npc id="35206" pos="81183;36949;-1986;24576" total="1" respawn="3hour" dbName="oren_siege_317"/>
+		<npc id="35207" pos="81201;36869;-1983;24576" total="1" respawn="3hour" dbName="oren_siege_318"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege11" minZ="-2587" maxZ="13991">
+		<node x="82312" y="36782"/>
+		<node x="83659" y="37724"/>
+		<node x="81316" y="37526"/>
+		<node x="81287" y="36795"/>
+	</territory>
+	<npcmaker name="oren_siege11" territory="oren_siege11" spawnTime="siege_warfare_start(4)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35211" pos="81458;37084;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_319" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81458;37115;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_320" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81458;37146;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_321" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81458;37178;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_322" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81458;37209;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_323" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81458;37241;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_324" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81458;37272;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_325" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="81458;37304;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_326" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="81438;37084;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_327" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="81438;37115;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_328" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81438;37146;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_329" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81438;37178;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_330" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81438;37209;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_331" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81438;37241;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_332" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81438;37272;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_333" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="81438;37304;-2294;32768" total="1" respawn="3hour" dbName="oren_siege_334" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege12" minZ="-2716" maxZ="13991">
+		<node x="80923" y="38654"/>
+		<node x="80923" y="38781"/>
+		<node x="80308" y="38782"/>
+		<node x="80308" y="38655"/>
+	</territory>
+	<npcmaker name="oren_siege12" territory="oren_siege12" spawnTime="siege_warfare_start(4)" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="35211" pos="80345;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_335" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80396;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_336" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80446;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_337" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80496;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_338" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="80546;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_339" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80596;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_340" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80646;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_341" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80696;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_342" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80746;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_343" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="80796;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_344" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80846;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_345" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80896;38756;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_346" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren_siege13" minZ="-2716" maxZ="13991">
+		<node x="80924" y="35329"/>
+		<node x="80924" y="35456"/>
+		<node x="80310" y="35456"/>
+		<node x="80310" y="35329"/>
+	</territory>
+	<npcmaker name="oren_siege13" territory="oren_siege13" spawnTime="siege_warfare_start(4)" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="35211" pos="80345;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_347" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80396;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_348" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80446;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_349" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80496;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_350" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35207" pos="80546;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_351" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80596;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_352" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80646;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_353" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80696;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_354" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80746;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_355" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35206" pos="80796;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_356" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80846;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_357" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35211" pos="80896;35354;-2170;16384" total="1" respawn="3hour" dbName="oren_siege_358" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+</list>

@@ -7,7 +7,7 @@ import com.shnok.javaserver.commons.logging.CLogger;
 
 import com.shnok.javaserver.gameserver.data.cache.HtmCache;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.ShowBoard;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ShowBoard;
 
 public abstract class BaseBBSManager
 {

@@ -7,7 +7,7 @@ import com.shnok.javaserver.gameserver.model.actor.Npc;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.zone.type.subtype.ZoneType;
 import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo.NpcInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.ServerObjectInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ServerObjectInfo;
 
 /**
  * A zone extending {@link ZoneType}, used for the water behavior. {@link Player}s can drown if they stay too long below water line.

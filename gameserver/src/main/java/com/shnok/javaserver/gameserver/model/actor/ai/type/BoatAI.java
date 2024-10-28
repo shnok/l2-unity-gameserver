@@ -3,7 +3,7 @@ package com.shnok.javaserver.gameserver.model.actor.ai.type;
 import com.shnok.javaserver.gameserver.model.actor.Boat;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.VehicleDeparture;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.VehicleDeparture;
 
 public class BoatAI extends CreatureAI<Boat>
 {

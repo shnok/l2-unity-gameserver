@@ -2,8 +2,8 @@ package com.shnok.javaserver.gameserver.scripting.script.ai.individual;
 
 import com.shnok.javaserver.gameserver.model.actor.Npc;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
-import com.shnok.javaserver.gameserver.network.serverpackets.SpecialCamera;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SpecialCamera;
 
 public class TriolCamera extends DefaultNpc
 {

@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<castle id="1" alias="gludio_castle" parentId="5" name="Gludio Castle" circletId="6838">
+		<artifacts>
+			<artifact id="35063" pos="-18113;107972;-2480;16384"/>
+		</artifacts>
+		<controlTowers>
+			<controlTower alias="gludio_life1_ctrltower" type="LIFE_CONTROL">
+				<position x="-18325" y="112811" z="-2377"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="gludio_life2_ctrltower" type="LIFE_CONTROL">
+				<position x="-18048" y="107098" z="-2378"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="gludio_life3_ctrltower" type="LIFE_CONTROL">
+				<position x="-18113" y="108597" z="-2343"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="gludio_damage1_ctrltower" type="TRAP_CONTROL">
+				<position x="-18154" y="107591" z="-2560"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="gludio_damage_1;gludio_slow_1"/>
+			</controlTower>
+			<controlTower alias="gludio_damage2_ctrltower" type="TRAP_CONTROL">
+				<position x="-19329" y="108154" z="-2384"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="gludio_damage_2;gludio_slow_2"/>
+			</controlTower>
+		</controlTowers>
+		<gates val="gludio_castle_outter_001;gludio_castle_outter_002;gludio_castle_inner_001;gludio_castle_inner_002;gludio_castle_station;gludio_castle_small_001;gludio_castle_small_002;gludio_castle_wall_001;gludio_castle_wall_002"/>
+		<npcs val="30001;30002;30003;30004;30005;30006;30008;30009;30010;30014;30017;30019;30022;30026;30027;30028;30029;30030;30031;30032;30033;30034;30035;30036;30037;30039;30040;30041;30042;30043;30044;30045;30046;30047;30048;30049;30050;30051;30054;30055;30207;30208;30209;30210;30253;30254;30255;30256;30283;30288;30289;30290;30293;30294;30297;30298;30311;30312;30313;30314;30315;30316;30317;30320;30321;30322;30325;30326;30327;30328;30329;30330;30331;30332;30333;30334;30335;30336;30337;30338;30342;30344;30345;30368;30369;30373;30374;30375;30376;30377;30378;30379;30380;30381;30382;30383;30384;30385;30386;30387;30391;30405;30406;30407;30409;30410;30411;30412;30413;30416;30417;30422;30424;30425;30427;30428;30429;30434;30435;30497;30498;30499;30500;30501;30502;30503;30504;30505;30506;30507;30591;30593;30597;30598;30611;30612;30617;30618;30619;30634;30635;30638;30648;30653;30658;30659;30660;30666;30667;30674;30729;30730;30731;30733;30827;31046;31047;31078;31079;31085;31086;31356;31357;31413;31416;31417;31425;31426;31432;31433;31439;31440;31562;31567;31568;31569;35080;35081;35085;35092;35093;35094;35095;35096;35097;35098;35099;35100;35101;35102;35103;35104;35385;35648"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="-16554" y="109382" z="-1799"/>
+			<spawn type="OWNER" x="-16869" y="109375" z="-1799"/>
+			<spawn type="OWNER" x="-16659" y="109261" z="-1799"/>
+			<spawn type="OWNER" x="-16618" y="109485" z="-1799"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-81447" y="152760" z="-3170"/>
+			<spawn type="OTHER" x="-81447" y="152880" z="-3170"/>
+			<spawn type="OTHER" x="-81447" y="152640" z="-3170"/>
+			<spawn type="OTHER" x="-82186" y="152760" z="-3170"/>
+			<spawn type="OTHER" x="-82186" y="152880" z="-3170"/>
+			<spawn type="OTHER" x="-82186" y="152640" z="-3170"/>
+			<spawn type="OTHER" x="-81780" y="152760" z="-3170"/>
+			<spawn type="OTHER" x="-81780" y="152880" z="-3170"/>
+			<spawn type="OTHER" x="-81780" y="152640" z="-3170"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="-81616" y="157104" z="-3150"/>
+			<spawn type="CHAOTIC" x="-80688" y="157216" z="-3150"/>
+			<spawn type="CHAOTIC" x="-79568" y="156960" z="-3150"/>
+			<spawn type="CHAOTIC" x="-78800" y="157744" z="-3150"/>
+			<spawn type="CHAOTIC" x="-80448" y="157968" z="-3130"/>
+			<spawn type="CHAOTIC" x="-81712" y="159536" z="-3230"/>
+			<spawn type="CHAOTIC" x="-79744" y="160592" z="-3330"/>
+			<spawn type="CHAOTIC" x="-79584" y="159408" z="-3180"/>
+			<spawn type="CHAOTIC" x="-74016" y="150656" z="-2800"/>
+			<spawn type="CHAOTIC" x="-72720" y="149632" z="-2780"/>
+			<spawn type="CHAOTIC" x="-75904" y="162000" z="-3300"/>
+			<spawn type="CHAOTIC" x="-75488" y="161472" z="-3250"/>
+			<spawn type="CHAOTIC" x="-74688" y="160736" z="-3200"/>
+			<spawn type="CHAOTIC" x="-74352" y="161488" z="-3250"/>
+			<spawn type="CHAOTIC" x="-76656" y="160768" z="-3280"/>
+			<spawn type="CHAOTIC" x="-77472" y="160960" z="-3470"/>
+			<spawn type="CHAOTIC" x="-77776" y="158752" z="-3270"/>
+			<spawn type="CHAOTIC" x="-80448" y="161488" z="-3420"/>
+			<spawn type="CHAOTIC" x="-75440" y="162672" z="-3350"/>
+			<spawn type="CHAOTIC" x="-81760" y="161248" z="-3200"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="-15881" y="110651" z="-2770"/>
+			<spawn type="BANISH" x="-15679" y="110168" z="-2770"/>
+			<spawn type="BANISH" x="-15553" y="110780" z="-2770"/>
+			<spawn type="BANISH" x="-15281" y="110142" z="-2770"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="40" tributeRate="25"/>
+		<tickets>
+			<ticket itemId="6038" type="SWORD" stationary="true" npcId="35030" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6039" type="POLE" stationary="true" npcId="35031" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6040" type="BOW" stationary="true" npcId="35032" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6041" type="CLERIC" stationary="true" npcId="35033" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6042" type="WIZARD" stationary="true" npcId="35034" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6043" type="SWORD" stationary="false" npcId="35035" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6044" type="POLE" stationary="false" npcId="35036" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6045" type="BOW" stationary="false" npcId="35037" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6046" type="CLERIC" stationary="false" npcId="35038" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6047" type="WIZARD" stationary="false" npcId="35039" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6115" type="SWORD" stationary="true" npcId="35020" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6116" type="POLE" stationary="true" npcId="35021" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6117" type="BOW" stationary="true" npcId="35022" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6118" type="CLERIC" stationary="true" npcId="35023" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6119" type="WIZARD" stationary="true" npcId="35024" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6120" type="SWORD" stationary="false" npcId="35025" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6121" type="POLE" stationary="false" npcId="35026" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6122" type="BOW" stationary="false" npcId="35027" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6123" type="CLERIC" stationary="false" npcId="35028" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6124" type="WIZARD" stationary="false" npcId="35029" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6175" type="SWORD" stationary="true" npcId="35040" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6176" type="POLE" stationary="true" npcId="35041" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6177" type="BOW" stationary="true" npcId="35042" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6178" type="CLERIC" stationary="true" npcId="35043" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6179" type="WIZARD" stationary="true" npcId="35044" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6180" type="SWORD" stationary="false" npcId="35045" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6181" type="POLE" stationary="false" npcId="35046" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6182" type="BOW" stationary="false" npcId="35047" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6183" type="CLERIC" stationary="false" npcId="35048" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6184" type="WIZARD" stationary="false" npcId="35049" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6235" type="SWORD" stationary="true" npcId="35050" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6236" type="POLE" stationary="true" npcId="35051" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6237" type="BOW" stationary="true" npcId="35052" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6238" type="CLERIC" stationary="true" npcId="35053" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6239" type="WIZARD" stationary="true" npcId="35054" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6240" type="SWORD" stationary="false" npcId="35055" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6241" type="POLE" stationary="false" npcId="35056" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6242" type="BOW" stationary="false" npcId="35057" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6243" type="CLERIC" stationary="false" npcId="35058" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6244" type="WIZARD" stationary="false" npcId="35059" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6295" type="SWORD" stationary="false" npcId="35060" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="6296" type="WIZARD" stationary="false" npcId="35061" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="3960" type="SWORD" stationary="true" npcId="35010" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3961" type="POLE" stationary="true" npcId="35011" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3962" type="BOW" stationary="true" npcId="35012" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3963" type="CLERIC" stationary="true" npcId="35013" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3964" type="WIZARD" stationary="true" npcId="35014" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3965" type="SWORD" stationary="false" npcId="35015" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3966" type="POLE" stationary="false" npcId="35016" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3967" type="BOW" stationary="false" npcId="35017" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3968" type="CLERIC" stationary="false" npcId="35018" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3969" type="WIZARD" stationary="false" npcId="35019" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3970" type="TELEPORTER" stationary="true" npcId="35092" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="3971" type="TELEPORTER" stationary="true" npcId="35093" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="3972" type="TELEPORTER" stationary="true" npcId="35094" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+		</tickets>
+		<zones>
+			<zone type="RESIDENCE" minZ="-4452" maxZ="3547">
+				<node x="-20060" y="106912"/>
+				<node x="-15820" y="106912"/>
+				<node x="-15816" y="113449"/>
+				<node x="-20061" y="113413"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-4448" maxZ="3551">
+				<node x="-22615" y="104510"/>
+				<node x="-13290" y="104564"/>
+				<node x="-13313" y="116950"/>
+				<node x="-22638" y="116896"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-4388" maxZ="3611">
+				<node x="-22052" y="114025"/>
+				<node x="-14221" y="114007"/>
+				<node x="-14197" y="116558"/>
+				<node x="-22032" y="116566"/>
+				<node x="-22030" y="104809"/>
+				<node x="-20270" y="104817"/>
+				<node x="-20266" y="113735"/>
+				<node x="-22031" y="113732"/>
+				<node x="-15554" y="104834"/>
+				<node x="-13917" y="104839"/>
+				<node x="-13914" y="113757"/>
+				<node x="-15554" y="113757"/>
+			</zone>
+		</zones>
+	</castle>
+	<castle id="2" alias="dion_castle" parentId="5" name="Dion Castle" circletId="6835">
+		<artifacts>
+			<artifact id="35105" pos="22073;161778;-2672;49152"/>
+		</artifacts>
+		<controlTowers>
+			<controlTower alias="dion_life1_ctrltower" type="LIFE_CONTROL">
+				<position x="22285" y="156939" z="-2571"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="dion_life2_ctrltower" type="LIFE_CONTROL">
+				<position x="22008" y="162652" z="-2572"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="dion_life3_ctrltower" type="LIFE_CONTROL">
+				<position x="22073" y="161153" z="-2537"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="dion_damage1_ctrltower" type="TRAP_CONTROL">
+				<position x="22114" y="162159" z="-2754"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="dion_damage_1;dion_slow_1"/>
+			</controlTower>
+			<controlTower alias="dion_damage2_ctrltower" type="TRAP_CONTROL">
+				<position x="23289" y="161596" z="-2578"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="dion_damage_2;dion_slow_2"/>
+			</controlTower>
+		</controlTowers>
+		<gates val="dion_castle_outter_001;dion_castle_outter_002;dion_castle_inner_001;dion_castle_inner_002;dion_castle_wall_001;dion_castle_wall_002;dion_castle_station;dion_castle_small_001;dion_castle_small_002"/>
+		<npcs val="30057;30058;30059;30060;30061;30062;30063;30064;30065;30066;30067;30068;30069;30070;30071;30072;30073;30074;30075;30076;30078;30291;30458;30459;30460;30461;30462;30463;30464;30465;30466;30469;30483;30484;30485;30486;30487;30508;30509;30510;30594;30595;30596;30608;30609;30616;30620;30621;30622;30625;30626;30627;30629;30631;30632;30633;30636;30637;30642;30644;30654;30673;30728;30735;30736;30737;30751;30828;31043;31048;31080;31087;31418;31427;31434;31441;31570;31571;35122;35123;35127;35134;35135;35136;35137;35138;35139;35140;35141;35142;35143;35144;35145;35146;35649"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="20514" y="160368" z="-1993"/>
+			<spawn type="OWNER" x="20829" y="160375" z="-1993"/>
+			<spawn type="OWNER" x="20619" y="160489" z="-1993"/>
+			<spawn type="OWNER" x="20578" y="160265" z="-1993"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-81447" y="152760" z="-3170"/>
+			<spawn type="OTHER" x="-81447" y="152880" z="-3170"/>
+			<spawn type="OTHER" x="-81447" y="152640" z="-3170"/>
+			<spawn type="OTHER" x="-82186" y="152760" z="-3170"/>
+			<spawn type="OTHER" x="-82186" y="152880" z="-3170"/>
+			<spawn type="OTHER" x="-82186" y="152640" z="-3170"/>
+			<spawn type="OTHER" x="-81780" y="152760" z="-3170"/>
+			<spawn type="OTHER" x="-81780" y="152880" z="-3170"/>
+			<spawn type="OTHER" x="-81780" y="152640" z="-3170"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="-81616" y="157104" z="-3150"/>
+			<spawn type="CHAOTIC" x="-80688" y="157216" z="-3150"/>
+			<spawn type="CHAOTIC" x="-79568" y="156960" z="-3150"/>
+			<spawn type="CHAOTIC" x="-78800" y="157744" z="-3150"/>
+			<spawn type="CHAOTIC" x="-80448" y="157968" z="-3130"/>
+			<spawn type="CHAOTIC" x="-81712" y="159536" z="-3230"/>
+			<spawn type="CHAOTIC" x="-79744" y="160592" z="-3330"/>
+			<spawn type="CHAOTIC" x="-79584" y="159408" z="-3180"/>
+			<spawn type="CHAOTIC" x="-74016" y="150656" z="-2800"/>
+			<spawn type="CHAOTIC" x="-72720" y="149632" z="-2780"/>
+			<spawn type="CHAOTIC" x="-75904" y="162000" z="-3300"/>
+			<spawn type="CHAOTIC" x="-75488" y="161472" z="-3250"/>
+			<spawn type="CHAOTIC" x="-74688" y="160736" z="-3200"/>
+			<spawn type="CHAOTIC" x="-74352" y="161488" z="-3250"/>
+			<spawn type="CHAOTIC" x="-76656" y="160768" z="-3280"/>
+			<spawn type="CHAOTIC" x="-77472" y="160960" z="-3470"/>
+			<spawn type="CHAOTIC" x="-77776" y="158752" z="-3270"/>
+			<spawn type="CHAOTIC" x="-80448" y="161488" z="-3420"/>
+			<spawn type="CHAOTIC" x="-75440" y="162672" z="-3350"/>
+			<spawn type="CHAOTIC" x="-81760" y="161248" z="-3200"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="19852" y="159170" z="-2770"/>
+			<spawn type="BANISH" x="19650" y="159653" z="-2770"/>
+			<spawn type="BANISH" x="19524" y="159041" z="-2770"/>
+			<spawn type="BANISH" x="19252" y="159679" z="-2770"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="40" tributeRate="25"/>
+		<tickets>
+			<ticket itemId="6051" type="SWORD" stationary="true" npcId="35030" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6052" type="POLE" stationary="true" npcId="35031" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6053" type="BOW" stationary="true" npcId="35032" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6054" type="CLERIC" stationary="true" npcId="35033" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6055" type="WIZARD" stationary="true" npcId="35034" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6056" type="SWORD" stationary="false" npcId="35035" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6057" type="POLE" stationary="false" npcId="35036" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6058" type="BOW" stationary="false" npcId="35037" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6059" type="CLERIC" stationary="false" npcId="35038" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6060" type="WIZARD" stationary="false" npcId="35039" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6125" type="SWORD" stationary="true" npcId="35020" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6126" type="POLE" stationary="true" npcId="35021" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6127" type="BOW" stationary="true" npcId="35022" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6128" type="CLERIC" stationary="true" npcId="35023" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6129" type="WIZARD" stationary="true" npcId="35024" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6130" type="SWORD" stationary="false" npcId="35025" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6131" type="POLE" stationary="false" npcId="35026" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6132" type="BOW" stationary="false" npcId="35027" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6133" type="CLERIC" stationary="false" npcId="35028" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6134" type="WIZARD" stationary="false" npcId="35029" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6185" type="SWORD" stationary="true" npcId="35040" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6186" type="POLE" stationary="true" npcId="35041" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6187" type="BOW" stationary="true" npcId="35042" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6188" type="CLERIC" stationary="true" npcId="35043" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6189" type="WIZARD" stationary="true" npcId="35044" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6190" type="SWORD" stationary="false" npcId="35045" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6191" type="POLE" stationary="false" npcId="35046" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6192" type="BOW" stationary="false" npcId="35047" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6193" type="CLERIC" stationary="false" npcId="35048" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6194" type="WIZARD" stationary="false" npcId="35049" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6245" type="SWORD" stationary="true" npcId="35050" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6246" type="POLE" stationary="true" npcId="35051" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6247" type="BOW" stationary="true" npcId="35052" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6248" type="CLERIC" stationary="true" npcId="35053" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6249" type="WIZARD" stationary="true" npcId="35054" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6250" type="SWORD" stationary="false" npcId="35055" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6251" type="POLE" stationary="false" npcId="35056" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6252" type="BOW" stationary="false" npcId="35057" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6253" type="CLERIC" stationary="false" npcId="35058" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6254" type="WIZARD" stationary="false" npcId="35059" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6297" type="SWORD" stationary="false" npcId="35060" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="6298" type="WIZARD" stationary="false" npcId="35061" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="3973" type="SWORD" stationary="true" npcId="35010" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3974" type="POLE" stationary="true" npcId="35011" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3975" type="BOW" stationary="true" npcId="35012" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3976" type="CLERIC" stationary="true" npcId="35013" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3977" type="WIZARD" stationary="true" npcId="35014" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3978" type="SWORD" stationary="false" npcId="35015" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3979" type="POLE" stationary="false" npcId="35016" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3980" type="BOW" stationary="false" npcId="35017" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3981" type="CLERIC" stationary="false" npcId="35018" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3982" type="WIZARD" stationary="false" npcId="35019" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3983" type="TELEPORTER" stationary="true" npcId="35134" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="3984" type="TELEPORTER" stationary="true" npcId="35135" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="3985" type="TELEPORTER" stationary="true" npcId="35136" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+		</tickets>
+		<zones>
+			<zone type="RESIDENCE" minZ="-4646" maxZ="4000">
+				<node x="24020" y="162838"/>
+				<node x="19780" y="162838"/>
+				<node x="19776" y="156301"/>
+				<node x="24021" y="156337"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-4642" maxZ="4000">
+				<node x="26575" y="165240"/>
+				<node x="17250" y="165186"/>
+				<node x="17273" y="152800"/>
+				<node x="26598" y="152854"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-4582" maxZ="4000">
+				<node x="26012" y="155725"/>
+				<node x="18181" y="155743"/>
+				<node x="18157" y="153192"/>
+				<node x="25992" y="153184"/>
+				<node x="25990" y="164941"/>
+				<node x="24230" y="164933"/>
+				<node x="24226" y="156015"/>
+				<node x="25991" y="156018"/>
+				<node x="19514" y="164916"/>
+				<node x="17877" y="164911"/>
+				<node x="17874" y="155993"/>
+				<node x="19514" y="155993"/>
+			</zone>
+		</zones>
+	</castle>
+	<castle id="3" alias="giran_castle" parentId="5" name="Giran Castle" circletId="6839">
+		<artifacts>
+			<artifact id="35147" pos="117950;145096;-2544;32768"/>
+		</artifacts>
+		<controlTowers>
+			<controlTower alias="giran_life1_ctrltower" type="LIFE_CONTROL">
+				<position x="113115" y="144829" z="-2446"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="giran_life2_ctrltower" type="LIFE_CONTROL">
+				<position x="118828" y="145106" z="-2447"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="giran_life3_ctrltower" type="LIFE_CONTROL">
+				<position x="117329" y="145041" z="-2412"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="giran_damage1_ctrltower" type="TRAP_CONTROL">
+				<position x="118331" y="145055" z="-2627"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="giran_damage_1;giran_slow_1"/>
+			</controlTower>
+			<controlTower alias="giran_damage2_ctrltower" type="TRAP_CONTROL">
+				<position x="117768" y="143880" z="-2451"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="giran_damage_2;giran_slow_2"/>
+			</controlTower>
+		</controlTowers>
+		<gates val="giran_castle_outter_001;giran_castle_outter_002;giran_castle_inner_001;giran_castle_inner_002;giran_castle_wall_001;giran_castle_wall_002;giran_castle_station;giran_castle_small_001;giran_castle_small_002"/>
+		<npcs val="30080;30081;30082;30083;30084;30085;30086;30087;30088;30090;30091;30092;30093;30094;30095;30097;30098;30103;30104;30105;30106;30107;30108;30109;30110;30111;30112;30113;30114;30115;30116;30117;30118;30119;30120;30121;30122;30123;30124;30125;30126;30128;30300;30452;30471;30472;30473;30474;30475;30476;30477;30478;30511;30512;30513;30514;30515;30557;30614;30615;30624;30630;30640;30645;30752;30753;30754;30756;30758;30761;30762;30763;30829;30832;30833;30835;30836;30878;30879;31049;31081;31088;31419;31420;31428;31435;31442;31572;31573;35164;35165;35169;35176;35177;35178;35179;35180;35181;35182;35183;35184;35185;35186;35187;35188;35650"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="116540" y="146655" z="-1866"/>
+			<spawn type="OWNER" x="116547" y="146340" z="-1866"/>
+			<spawn type="OWNER" x="116661" y="146550" z="-1866"/>
+			<spawn type="OWNER" x="116437" y="146591" z="-1866"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="116127" y="76015" z="-2729"/>
+			<spawn type="OTHER" x="115683" y="77610" z="-2650"/>
+			<spawn type="OTHER" x="117304" y="76318" z="-2670"/>
+			<spawn type="OTHER" x="119862" y="76603" z="-2220"/>
+			<spawn type="OTHER" x="117671" y="78998" z="-2210"/>
+			<spawn type="OTHER" x="117189" y="78952" z="-2210"/>
+			<spawn type="OTHER" x="115861" y="75200" z="-2550"/>
+			<spawn type="OTHER" x="118275" y="74859" z="-2557"/>
+			<spawn type="OTHER" x="118229" y="74677" z="-2450"/>
+			<spawn type="OTHER" x="115685" y="75072" z="-2550"/>
+			<spawn type="OTHER" x="116704" y="75695" z="-2680"/>
+			<spawn type="OTHER" x="116737" y="76738" z="-2650"/>
+			<spawn type="OTHER" x="115193" y="77594" z="-2670"/>
+			<spawn type="OTHER" x="116158" y="77443" z="-2660"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="122098" y="70373" z="-2864"/>
+			<spawn type="CHAOTIC" x="118674" y="71218" z="-2743"/>
+			<spawn type="CHAOTIC" x="118040" y="67175" z="-2905"/>
+			<spawn type="CHAOTIC" x="119300" y="70660" z="-2850"/>
+			<spawn type="CHAOTIC" x="118851" y="70566" z="-2800"/>
+			<spawn type="CHAOTIC" x="112655" y="70976" z="-3122"/>
+			<spawn type="CHAOTIC" x="119712" y="66376" z="-2960"/>
+			<spawn type="CHAOTIC" x="107511" y="82890" z="-2515"/>
+			<spawn type="CHAOTIC" x="105702" y="82773" z="-2803"/>
+			<spawn type="CHAOTIC" x="104257" y="82194" z="-2581"/>
+			<spawn type="CHAOTIC" x="104474" y="81109" z="-2651"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="115275" y="147273" z="-2770"/>
+			<spawn type="BANISH" x="115758" y="147475" z="-2770"/>
+			<spawn type="BANISH" x="115146" y="147601" z="-2770"/>
+			<spawn type="BANISH" x="115784" y="147873" z="-2770"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="75" tributeRate="50"/>
+		<tickets>
+			<ticket itemId="6064" type="SWORD" stationary="true" npcId="35030" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6065" type="POLE" stationary="true" npcId="35031" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6066" type="BOW" stationary="true" npcId="35032" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6067" type="CLERIC" stationary="true" npcId="35033" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6068" type="WIZARD" stationary="true" npcId="35034" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6069" type="SWORD" stationary="false" npcId="35035" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6070" type="POLE" stationary="false" npcId="35036" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6071" type="BOW" stationary="false" npcId="35037" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6072" type="CLERIC" stationary="false" npcId="35038" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6073" type="WIZARD" stationary="false" npcId="35039" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6135" type="SWORD" stationary="true" npcId="35020" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6136" type="POLE" stationary="true" npcId="35021" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6137" type="BOW" stationary="true" npcId="35022" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6138" type="CLERIC" stationary="true" npcId="35023" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6139" type="WIZARD" stationary="true" npcId="35024" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6140" type="SWORD" stationary="false" npcId="35025" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6141" type="POLE" stationary="false" npcId="35026" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6142" type="BOW" stationary="false" npcId="35027" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6143" type="CLERIC" stationary="false" npcId="35028" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6144" type="WIZARD" stationary="false" npcId="35029" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6195" type="SWORD" stationary="true" npcId="35040" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6196" type="POLE" stationary="true" npcId="35041" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6197" type="BOW" stationary="true" npcId="35042" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6198" type="CLERIC" stationary="true" npcId="35043" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6199" type="WIZARD" stationary="true" npcId="35044" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6200" type="SWORD" stationary="false" npcId="35045" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6201" type="POLE" stationary="false" npcId="35046" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6202" type="BOW" stationary="false" npcId="35047" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6203" type="CLERIC" stationary="false" npcId="35048" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6204" type="WIZARD" stationary="false" npcId="35049" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6255" type="SWORD" stationary="true" npcId="35050" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6256" type="POLE" stationary="true" npcId="35051" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6257" type="BOW" stationary="true" npcId="35052" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6258" type="CLERIC" stationary="true" npcId="35053" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6259" type="WIZARD" stationary="true" npcId="35054" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6260" type="SWORD" stationary="false" npcId="35055" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6261" type="POLE" stationary="false" npcId="35056" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6262" type="BOW" stationary="false" npcId="35057" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6263" type="CLERIC" stationary="false" npcId="35058" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6264" type="WIZARD" stationary="false" npcId="35059" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6299" type="SWORD" stationary="false" npcId="35060" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="6300" type="WIZARD" stationary="false" npcId="35061" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="3986" type="SWORD" stationary="true" npcId="35010" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3987" type="POLE" stationary="true" npcId="35011" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3988" type="BOW" stationary="true" npcId="35012" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3989" type="CLERIC" stationary="true" npcId="35013" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3990" type="WIZARD" stationary="true" npcId="35014" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3991" type="SWORD" stationary="false" npcId="35015" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3992" type="POLE" stationary="false" npcId="35016" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3993" type="BOW" stationary="false" npcId="35017" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3994" type="CLERIC" stationary="false" npcId="35018" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3995" type="WIZARD" stationary="false" npcId="35019" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="3996" type="TELEPORTER" stationary="true" npcId="35176" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="3997" type="TELEPORTER" stationary="true" npcId="35177" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="3998" type="TELEPORTER" stationary="true" npcId="35178" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+		</tickets>
+		<zones>
+			<zone type="RESIDENCE" minZ="-4519" maxZ="19931">
+				<node x="119010" y="143149"/>
+				<node x="119010" y="147389"/>
+				<node x="112473" y="147393"/>
+				<node x="112509" y="143148"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-4515" maxZ="19935">
+				<node x="121412" y="140594"/>
+				<node x="121358" y="149919"/>
+				<node x="108972" y="149896"/>
+				<node x="109026" y="140571"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-4455" maxZ="19995">
+				<node x="111897" y="141157"/>
+				<node x="111915" y="148988"/>
+				<node x="109364" y="149012"/>
+				<node x="109356" y="141177"/>
+				<node x="121113" y="141179"/>
+				<node x="121105" y="142939"/>
+				<node x="112187" y="142943"/>
+				<node x="112190" y="141178"/>
+				<node x="121088" y="147655"/>
+				<node x="121083" y="149292"/>
+				<node x="112165" y="149295"/>
+				<node x="112165" y="147655"/>
+			</zone>
+		</zones>
+	</castle>
+	<castle id="4" alias="oren_castle" parentId="5" name="Oren Castle" circletId="6837">
+		<artifacts>
+			<artifact id="35189" pos="84026;37191;-2272;32768"/>
+		</artifacts>
+		<controlTowers>
+			<controlTower alias="oren_life1_ctrltower" type="LIFE_CONTROL">
+				<position x="79193" y="36977" z="-2167"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="oren_life2_ctrltower" type="LIFE_CONTROL">
+				<position x="84906" y="37254" z="-2168"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="oren_life3_ctrltower" type="LIFE_CONTROL">
+				<position x="83407" y="37189" z="-2133"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="oren_damage1_ctrltower" type="TRAP_CONTROL">
+				<position x="84407" y="37150" z="-2354"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="oren_damage_1;oren_slow_1"/>
+			</controlTower>
+			<controlTower alias="oren_damage2_ctrltower" type="TRAP_CONTROL">
+				<position x="83844" y="35975" z="-2178"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="oren_damage_2;oren_slow_2"/>
+			</controlTower>
+		</controlTowers>
+		<gates val="oren_castle_outter_001;oren_castle_outter_002;oren_castle_inner_001;oren_castle_inner_002;oren_castle_wall_001;oren_castle_wall_002;oren_castle_station;oren_castle_small_001;oren_castle_small_002"/>
+		<npcs val="30129;30130;30131;30132;30133;30134;30135;30136;30137;30138;30139;30140;30141;30143;30144;30145;30146;30147;30148;30149;30150;30151;30152;30153;30154;30155;30156;30157;30158;30162;30163;30164;30165;30166;30169;30170;30171;30174;30175;30176;30177;30178;30179;30180;30181;30182;30183;30184;30185;30186;30187;30188;30189;30190;30191;30192;30194;30195;30196;30197;30198;30199;30200;30201;30216;30217;30218;30219;30220;30221;30222;30223;30224;30284;30285;30305;30307;30346;30347;30348;30349;30350;30351;30352;30353;30354;30355;30356;30357;30358;30359;30360;30361;30362;30363;30370;30371;30400;30401;30402;30403;30404;30414;30415;30418;30419;30420;30421;30423;30426;30430;30431;30432;30433;30599;30600;30623;30639;30641;30652;30657;30661;30662;30663;30664;30665;30668;30676;30677;30678;30679;30680;30681;30682;30683;30715;30716;30717;30718;30719;30720;30721;30722;30723;30724;30725;30726;30727;30733;30738;30748;30749;30750;30757;30759;30760;30830;30880;30881;30882;30883;30884;30885;30886;30887;30888;30889;31052;31083;31090;31358;31359;31360;31361;31414;31415;31422;31430;31437;31444;31563;31564;31574;31675;31677;31852;31853;35206;35207;35211;35218;35219;35220;35221;35222;35223;35224;35225;35226;35227;35228;35229;35230;35231;35232;35651"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="82616" y="38750" z="-1593"/>
+			<spawn type="OWNER" x="82623" y="38435" z="-1593"/>
+			<spawn type="OWNER" x="82737" y="38645" z="-1593"/>
+			<spawn type="OWNER" x="82513" y="38686" z="-1593"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="116127" y="76015" z="-2729"/>
+			<spawn type="OTHER" x="115683" y="77610" z="-2650"/>
+			<spawn type="OTHER" x="117304" y="76318" z="-2670"/>
+			<spawn type="OTHER" x="119862" y="76603" z="-2220"/>
+			<spawn type="OTHER" x="117671" y="78998" z="-2210"/>
+			<spawn type="OTHER" x="117189" y="78952" z="-2210"/>
+			<spawn type="OTHER" x="115861" y="75200" z="-2550"/>
+			<spawn type="OTHER" x="118275" y="74859" z="-2557"/>
+			<spawn type="OTHER" x="118229" y="74677" z="-2450"/>
+			<spawn type="OTHER" x="115685" y="75072" z="-2550"/>
+			<spawn type="OTHER" x="116704" y="75695" z="-2680"/>
+			<spawn type="OTHER" x="116737" y="76738" z="-2650"/>
+			<spawn type="OTHER" x="115193" y="77594" z="-2670"/>
+			<spawn type="OTHER" x="116158" y="77443" z="-2660"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="122098" y="70373" z="-2864"/>
+			<spawn type="CHAOTIC" x="118674" y="71218" z="-2743"/>
+			<spawn type="CHAOTIC" x="118040" y="67175" z="-2905"/>
+			<spawn type="CHAOTIC" x="119300" y="70660" z="-2850"/>
+			<spawn type="CHAOTIC" x="118851" y="70566" z="-2800"/>
+			<spawn type="CHAOTIC" x="112655" y="70976" z="-3122"/>
+			<spawn type="CHAOTIC" x="119712" y="66376" z="-2960"/>
+			<spawn type="CHAOTIC" x="107511" y="82890" z="-2515"/>
+			<spawn type="CHAOTIC" x="105702" y="82773" z="-2803"/>
+			<spawn type="CHAOTIC" x="104257" y="82194" z="-2581"/>
+			<spawn type="CHAOTIC" x="104474" y="81109" z="-2651"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="81353" y="39421" z="-2770"/>
+			<spawn type="BANISH" x="81836" y="39623" z="-2770"/>
+			<spawn type="BANISH" x="81224" y="39749" z="-2770"/>
+			<spawn type="BANISH" x="81862" y="40021" z="-2770"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="40" tributeRate="25"/>
+		<tickets>
+			<ticket itemId="6077" type="SWORD" stationary="true" npcId="35030" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6078" type="POLE" stationary="true" npcId="35031" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6079" type="BOW" stationary="true" npcId="35032" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6080" type="CLERIC" stationary="true" npcId="35033" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6081" type="WIZARD" stationary="true" npcId="35034" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6082" type="SWORD" stationary="false" npcId="35035" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6083" type="POLE" stationary="false" npcId="35036" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6084" type="BOW" stationary="false" npcId="35037" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6085" type="CLERIC" stationary="false" npcId="35038" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6086" type="WIZARD" stationary="false" npcId="35039" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6145" type="SWORD" stationary="true" npcId="35020" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6146" type="POLE" stationary="true" npcId="35021" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6147" type="BOW" stationary="true" npcId="35022" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6148" type="CLERIC" stationary="true" npcId="35023" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6149" type="WIZARD" stationary="true" npcId="35024" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6150" type="SWORD" stationary="false" npcId="35025" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6151" type="POLE" stationary="false" npcId="35026" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6152" type="BOW" stationary="false" npcId="35027" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6153" type="CLERIC" stationary="false" npcId="35028" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6154" type="WIZARD" stationary="false" npcId="35029" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6205" type="SWORD" stationary="true" npcId="35040" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6206" type="POLE" stationary="true" npcId="35041" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6207" type="BOW" stationary="true" npcId="35042" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6208" type="CLERIC" stationary="true" npcId="35043" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6209" type="WIZARD" stationary="true" npcId="35044" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6210" type="SWORD" stationary="false" npcId="35045" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6211" type="POLE" stationary="false" npcId="35046" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6212" type="BOW" stationary="false" npcId="35047" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6213" type="CLERIC" stationary="false" npcId="35048" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6214" type="WIZARD" stationary="false" npcId="35049" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6265" type="SWORD" stationary="true" npcId="35050" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6266" type="POLE" stationary="true" npcId="35051" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6267" type="BOW" stationary="true" npcId="35052" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6268" type="CLERIC" stationary="true" npcId="35053" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6269" type="WIZARD" stationary="true" npcId="35054" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6270" type="SWORD" stationary="false" npcId="35055" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6271" type="POLE" stationary="false" npcId="35056" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6272" type="BOW" stationary="false" npcId="35057" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6273" type="CLERIC" stationary="false" npcId="35058" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6274" type="WIZARD" stationary="false" npcId="35059" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6301" type="SWORD" stationary="false" npcId="35060" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="6302" type="WIZARD" stationary="false" npcId="35061" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="3999" type="SWORD" stationary="true" npcId="35010" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4000" type="POLE" stationary="true" npcId="35011" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4001" type="BOW" stationary="true" npcId="35012" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4002" type="CLERIC" stationary="true" npcId="35013" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4003" type="WIZARD" stationary="true" npcId="35014" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4004" type="SWORD" stationary="false" npcId="35015" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4005" type="POLE" stationary="false" npcId="35016" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4006" type="BOW" stationary="false" npcId="35017" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4007" type="CLERIC" stationary="false" npcId="35018" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4008" type="WIZARD" stationary="false" npcId="35019" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4009" type="TELEPORTER" stationary="true" npcId="35218" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="4010" type="TELEPORTER" stationary="true" npcId="35219" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="4011" type="TELEPORTER" stationary="true" npcId="35220" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+		</tickets>
+		<zones>
+			<zone type="RESIDENCE" minZ="-4246" maxZ="19931">
+				<node x="85086" y="35244"/>
+				<node x="85086" y="39484"/>
+				<node x="78549" y="39488"/>
+				<node x="78585" y="35243"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-4242" maxZ="19935">
+				<node x="87488" y="32689"/>
+				<node x="87434" y="42014"/>
+				<node x="75048" y="41991"/>
+				<node x="75102" y="32666"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-4182" maxZ="19995">
+				<node x="77973" y="33252"/>
+				<node x="77991" y="41083"/>
+				<node x="75440" y="41107"/>
+				<node x="75432" y="33272"/>
+				<node x="87189" y="33274"/>
+				<node x="87181" y="35034"/>
+				<node x="78263" y="35038"/>
+				<node x="78266" y="33273"/>
+				<node x="87164" y="39750"/>
+				<node x="87159" y="41387"/>
+				<node x="78241" y="41390"/>
+				<node x="78241" y="39750"/>
+			</zone>
+		</zones>
+	</castle>
+	<castle id="5" alias="aden_castle" parentId="0" name="Aden Castle" circletId="6840">
+		<artifacts>
+			<artifact id="35233" pos="147463;1529;-368;16384"/>
+		</artifacts>
+		<controlTowers>
+			<controlTower alias="aden_damage1_ctrltower" type="TRAP_CONTROL">
+				<position x="149976" y="1583" z="-450"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="aden_damage_1;aden_slow_1;aden_damage_2;aden_slow_2;aden_damage_3;aden_slow_3;aden_damage_4;aden_slow_4"/>
+			</controlTower>
+			<controlTower alias="aden_damage2_ctrltower" type="TRAP_CONTROL">
+				<position x="144955" y="1603" z="-450"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="aden_damage_5;aden_slow_5;aden_damage_6;aden_slow_6;aden_damage_7;aden_slow_7;aden_damage_8;aden_slow_8"/>
+			</controlTower>
+			<controlTower alias="aden_life1_ctrltower" type="LIFE_CONTROL">
+				<position x="148774" y="2351" z="-389"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="aden_life2_ctrltower" type="LIFE_CONTROL">
+				<position x="147456" y="5724" z="158"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="aden_life3_ctrltower" type="LIFE_CONTROL">
+				<position x="146137" y="2352" z="-389"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+		</controlTowers>
+		<gates val="aden_castle_outter_001;aden_castle_outter_002;aden_castle_left_001;aden_castle_left_002;aden_castle_right_001;aden_castle_right_002;aden_castle_inner_001;aden_castle_inner_002;aden_castle_terrace;aden_castle_left_003;aden_castle_left_004;aden_castle_right_003;aden_castle_right_004;aden_castle_wall_in;aden_castle_wall_left;aden_castle_wall_right;aden_castle_side_door1;1;aden_castle_side_door2;1;aden_castle_side_door3;1;aden_castle_side_door4;1"/>
+		<npcs val="13001;30230;30231;30232;30233;30301;30610;30655;30684;30685;30686;30687;30688;30689;30690;30691;30692;30693;30694;30695;30696;30697;30698;30699;30700;30701;30702;30703;30704;30705;30706;30707;30708;30709;30710;30711;30712;30713;30714;30744;30745;30746;30755;30764;30766;30831;30837;30838;30839;30840;30841;30842;30843;30844;30845;30846;30847;30848;30849;30850;30851;30852;30853;30854;30855;30856;30857;30858;30859;30860;30861;30862;30863;30864;30865;30866;30867;30868;30869;30870;30871;30872;30873;30874;30875;30876;30877;31051;31053;31084;31091;31168;31169;31423;31431;31438;31445;31520;31576;31577;31603;31604;31613;31614;31666;31667;31668;31669;31670;31676;31678;31739;31854;31855;31856;31857;31858;32025;35233;35234;35235;35236;35237;35238;35239;35240;35241;35242;35243;35244;35245;35246;35247;35248;35249;35250;35251;35252;35253;35254;35255;35256;35257;35258;35259;35260;35261;35262;35263;35264;35265;35266;35267;35268;35269;35270;35271;35272;35273;35274;35275;35276;35277;35278;35652"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="147700" y="4608" z="-2784"/>
+			<spawn type="OWNER" x="147705" y="4865" z="-2784"/>
+			<spawn type="OWNER" x="147200" y="4865" z="-2784"/>
+			<spawn type="OWNER" x="147200" y="4350" z="-2784"/>
+			<spawn type="OWNER" x="147705" y="4350" z="-2784"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="116127" y="76015" z="-2729"/>
+			<spawn type="OTHER" x="115683" y="77610" z="-2650"/>
+			<spawn type="OTHER" x="117304" y="76318" z="-2670"/>
+			<spawn type="OTHER" x="119862" y="76603" z="-2220"/>
+			<spawn type="OTHER" x="117671" y="78998" z="-2210"/>
+			<spawn type="OTHER" x="117189" y="78952" z="-2210"/>
+			<spawn type="OTHER" x="115861" y="75200" z="-2550"/>
+			<spawn type="OTHER" x="118275" y="74859" z="-2557"/>
+			<spawn type="OTHER" x="118229" y="74677" z="-2450"/>
+			<spawn type="OTHER" x="115685" y="75072" z="-2550"/>
+			<spawn type="OTHER" x="116704" y="75695" z="-2680"/>
+			<spawn type="OTHER" x="116737" y="76738" z="-2650"/>
+			<spawn type="OTHER" x="115193" y="77594" z="-2670"/>
+			<spawn type="OTHER" x="116158" y="77443" z="-2660"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="122098" y="70373" z="-2864"/>
+			<spawn type="CHAOTIC" x="118674" y="71218" z="-2743"/>
+			<spawn type="CHAOTIC" x="118040" y="67175" z="-2905"/>
+			<spawn type="CHAOTIC" x="119300" y="70660" z="-2850"/>
+			<spawn type="CHAOTIC" x="118851" y="70566" z="-2800"/>
+			<spawn type="CHAOTIC" x="112655" y="70976" z="-3122"/>
+			<spawn type="CHAOTIC" x="119712" y="66376" z="-2960"/>
+			<spawn type="CHAOTIC" x="107511" y="82890" z="-2515"/>
+			<spawn type="CHAOTIC" x="105702" y="82773" z="-2803"/>
+			<spawn type="CHAOTIC" x="104257" y="82194" z="-2581"/>
+			<spawn type="CHAOTIC" x="104474" y="81109" z="-2651"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="151765" y="4175" z="-592"/>
+			<spawn type="BANISH" x="151555" y="2660" z="-592"/>
+			<spawn type="BANISH" x="151065" y="1813" z="-592"/>
+			<spawn type="BANISH" x="150952" y="2615" z="-592"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="40" tributeRate="0"/>
+		<tickets>
+			<ticket itemId="6090" type="SWORD" stationary="true" npcId="35030" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6091" type="POLE" stationary="true" npcId="35031" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6092" type="BOW" stationary="true" npcId="35032" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6093" type="CLERIC" stationary="true" npcId="35033" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6094" type="WIZARD" stationary="true" npcId="35034" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6095" type="SWORD" stationary="false" npcId="35035" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6096" type="POLE" stationary="false" npcId="35036" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6097" type="BOW" stationary="false" npcId="35037" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6098" type="CLERIC" stationary="false" npcId="35038" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6099" type="WIZARD" stationary="false" npcId="35039" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6155" type="SWORD" stationary="true" npcId="35020" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6156" type="POLE" stationary="true" npcId="35021" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="6157" type="BOW" stationary="true" npcId="35022" maxAmount="20" ssq="DAWN"/>
+			<ticket itemId="6158" type="CLERIC" stationary="true" npcId="35023" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="6159" type="WIZARD" stationary="true" npcId="35024" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="6160" type="SWORD" stationary="false" npcId="35025" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6161" type="POLE" stationary="false" npcId="35026" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="6162" type="BOW" stationary="false" npcId="35027" maxAmount="20" ssq="DAWN"/>
+			<ticket itemId="6163" type="CLERIC" stationary="false" npcId="35028" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="6164" type="WIZARD" stationary="false" npcId="35029" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="6215" type="SWORD" stationary="true" npcId="35040" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="6216" type="POLE" stationary="true" npcId="35041" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="6217" type="BOW" stationary="true" npcId="35042" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6218" type="CLERIC" stationary="true" npcId="35043" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6219" type="WIZARD" stationary="true" npcId="35044" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6220" type="SWORD" stationary="false" npcId="35045" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="6221" type="POLE" stationary="false" npcId="35046" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="6222" type="BOW" stationary="false" npcId="35047" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6223" type="CLERIC" stationary="false" npcId="35048" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6224" type="WIZARD" stationary="false" npcId="35049" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6275" type="SWORD" stationary="true" npcId="35050" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6276" type="POLE" stationary="true" npcId="35051" maxAmount="6" ssq="DUSK"/>
+			<ticket itemId="6277" type="BOW" stationary="true" npcId="35052" maxAmount="20" ssq="DUSK"/>
+			<ticket itemId="6278" type="CLERIC" stationary="true" npcId="35053" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="6279" type="WIZARD" stationary="true" npcId="35054" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="6280" type="SWORD" stationary="false" npcId="35055" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6281" type="POLE" stationary="false" npcId="35056" maxAmount="6" ssq="DUSK"/>
+			<ticket itemId="6282" type="BOW" stationary="false" npcId="35057" maxAmount="20" ssq="DUSK"/>
+			<ticket itemId="6283" type="CLERIC" stationary="false" npcId="35058" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="6284" type="WIZARD" stationary="false" npcId="35059" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="6303" type="SWORD" stationary="false" npcId="35060" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6304" type="WIZARD" stationary="false" npcId="35061" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="4012" type="SWORD" stationary="true" npcId="35010" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4013" type="POLE" stationary="true" npcId="35011" maxAmount="6" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4014" type="BOW" stationary="true" npcId="35012" maxAmount="20" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4015" type="CLERIC" stationary="true" npcId="35013" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4016" type="WIZARD" stationary="true" npcId="35014" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4017" type="SWORD" stationary="false" npcId="35015" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4018" type="POLE" stationary="false" npcId="35016" maxAmount="6" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4019" type="BOW" stationary="false" npcId="35017" maxAmount="20" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4020" type="CLERIC" stationary="false" npcId="35018" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4021" type="WIZARD" stationary="false" npcId="35019" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="4022" type="TELEPORTER" stationary="true" npcId="35261" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="4023" type="TELEPORTER" stationary="true" npcId="35262" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="4024" type="TELEPORTER" stationary="true" npcId="35263" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="4025" type="TELEPORTER" stationary="true" npcId="35264" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="4026" type="TELEPORTER" stationary="true" npcId="35265" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+		</tickets>
+		<zones>
+			<zone type="RESIDENCE" minZ="-4000" maxZ="8800">
+				<node x="144758" y="461"/>
+				<node x="150162" y="475"/>
+				<node x="150169" y="8508"/>
+				<node x="144757" y="8510"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-3184" maxZ="6816">
+				<node x="142431" y="362"/>
+				<node x="152319" y="344"/>
+				<node x="152282" y="15197"/>
+				<node x="142393" y="15215"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-1158" maxZ="42">
+				<node x="144365" y="9902"/>
+				<node x="150572" y="9919"/>
+				<node x="150816" y="4925"/>
+				<node x="151831" y="4916"/>
+				<node x="151833" y="7955"/>
+				<node x="150754" y="9839"/>
+				<node x="150281" y="10385"/>
+				<node x="151282" y="12184"/>
+				<node x="151280" y="13248"/>
+				<node x="143668" y="13224"/>
+				<node x="143698" y="12185"/>
+				<node x="144657" y="10353"/>
+				<node x="144156" y="9821"/>
+				<node x="143148" y="7939"/>
+				<node x="143155" y="4824"/>
+				<node x="144053" y="4830"/>
+			</zone>
+		</zones>
+	</castle>
+	<castle id="6" alias="innadrile_castle" parentId="5" name="Innadril Castle" circletId="6834">
+		<artifacts>
+			<artifact id="35279" pos="116024;250557;-768;-16384"/>
+		</artifacts>
+		<controlTowers>
+			<controlTower alias="innadrile_life1_ctrltower" type="LIFE_CONTROL">
+				<position x="116236" y="245718" z="-667"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="innadrile_life2_ctrltower" type="LIFE_CONTROL">
+				<position x="115959" y="251431" z="-667"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="innadrile_life3_ctrltower" type="LIFE_CONTROL">
+				<position x="116024" y="249932" z="-633"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="innadrile_damage1_ctrltower" type="TRAP_CONTROL">
+				<position x="116065" y="250938" z="-850"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="innadrile_damage_1;innadrile_slow_1"/>
+			</controlTower>
+			<controlTower alias="innadrile_damage2_ctrltower" type="TRAP_CONTROL">
+				<position x="117240" y="250375" z="-674"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="innadrile_damage_2;innadrile_slow_2"/>
+			</controlTower>
+		</controlTowers>
+		<gates val="innadrile_castle_outter_001;innadrile_castle_outter_002;innadrile_castle_inner_001;innadrile_castle_inner_002;innadrile_castle_wall_001;innadrile_castle_wall_002;innadrile_castle_station;innadrile_castle_small_001;innadrile_castle_small_002"/>
+		<npcs val="30890;30891;30892;30893;30894;30895;30896;30897;30898;30899;30900;30901;30902;30903;30904;30905;30906;30907;30908;30909;30910;30911;30912;30913;30914;30915;30916;30917;30918;30919;30920;30921;30922;30923;30924;30925;30926;30927;30969;30970;30971;30973;30990;31042;31050;31067;31082;31089;31421;31429;31436;31443;31575;35296;35297;35301;35308;35309;35310;35311;35312;35313;35314;35315;35316;35317;35318;35319;35320;35653"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="114465" y="249147" z="-89"/>
+			<spawn type="OWNER" x="114780" y="249154" z="-89"/>
+			<spawn type="OWNER" x="114570" y="249268" z="-89"/>
+			<spawn type="OWNER" x="114529" y="249044" z="-89"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="116127" y="76015" z="-2729"/>
+			<spawn type="OTHER" x="115683" y="77610" z="-2650"/>
+			<spawn type="OTHER" x="117304" y="76318" z="-2670"/>
+			<spawn type="OTHER" x="119862" y="76603" z="-2220"/>
+			<spawn type="OTHER" x="117671" y="78998" z="-2210"/>
+			<spawn type="OTHER" x="117189" y="78952" z="-2210"/>
+			<spawn type="OTHER" x="115861" y="75200" z="-2550"/>
+			<spawn type="OTHER" x="118275" y="74859" z="-2557"/>
+			<spawn type="OTHER" x="118229" y="74677" z="-2450"/>
+			<spawn type="OTHER" x="115685" y="75072" z="-2550"/>
+			<spawn type="OTHER" x="116704" y="75695" z="-2680"/>
+			<spawn type="OTHER" x="116737" y="76738" z="-2650"/>
+			<spawn type="OTHER" x="115193" y="77594" z="-2670"/>
+			<spawn type="OTHER" x="116158" y="77443" z="-2660"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="122098" y="70373" z="-2864"/>
+			<spawn type="CHAOTIC" x="118674" y="71218" z="-2743"/>
+			<spawn type="CHAOTIC" x="118040" y="67175" z="-2905"/>
+			<spawn type="CHAOTIC" x="119300" y="70660" z="-2850"/>
+			<spawn type="CHAOTIC" x="118851" y="70566" z="-2800"/>
+			<spawn type="CHAOTIC" x="112655" y="70976" z="-3122"/>
+			<spawn type="CHAOTIC" x="119712" y="66376" z="-2960"/>
+			<spawn type="CHAOTIC" x="107511" y="82890" z="-2515"/>
+			<spawn type="CHAOTIC" x="105702" y="82773" z="-2803"/>
+			<spawn type="CHAOTIC" x="104257" y="82194" z="-2581"/>
+			<spawn type="CHAOTIC" x="104474" y="81109" z="-2651"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="118730" y="243416" z="-1060"/>
+			<spawn type="BANISH" x="118932" y="242933" z="-1060"/>
+			<spawn type="BANISH" x="119058" y="243545" z="-1060"/>
+			<spawn type="BANISH" x="119330" y="242907" z="-1060"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="0" tributeRate="25"/>
+		<tickets>
+			<ticket itemId="6105" type="SWORD" stationary="true" npcId="35030" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6106" type="POLE" stationary="true" npcId="35031" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6107" type="BOW" stationary="true" npcId="35032" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6108" type="CLERIC" stationary="true" npcId="35033" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6109" type="WIZARD" stationary="true" npcId="35034" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6110" type="SWORD" stationary="false" npcId="35035" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6111" type="POLE" stationary="false" npcId="35036" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6112" type="BOW" stationary="false" npcId="35037" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6113" type="CLERIC" stationary="false" npcId="35038" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6114" type="WIZARD" stationary="false" npcId="35039" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6165" type="SWORD" stationary="true" npcId="35020" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6166" type="POLE" stationary="true" npcId="35021" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6167" type="BOW" stationary="true" npcId="35022" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6168" type="CLERIC" stationary="true" npcId="35023" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6169" type="WIZARD" stationary="true" npcId="35024" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6170" type="SWORD" stationary="false" npcId="35025" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6171" type="POLE" stationary="false" npcId="35026" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6172" type="BOW" stationary="false" npcId="35027" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6173" type="CLERIC" stationary="false" npcId="35028" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6174" type="WIZARD" stationary="false" npcId="35029" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6225" type="SWORD" stationary="true" npcId="35040" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6226" type="POLE" stationary="true" npcId="35041" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6227" type="BOW" stationary="true" npcId="35042" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6228" type="CLERIC" stationary="true" npcId="35043" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6229" type="WIZARD" stationary="true" npcId="35044" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6230" type="SWORD" stationary="false" npcId="35045" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6231" type="POLE" stationary="false" npcId="35046" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6232" type="BOW" stationary="false" npcId="35047" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6233" type="CLERIC" stationary="false" npcId="35048" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6234" type="WIZARD" stationary="false" npcId="35049" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6285" type="SWORD" stationary="true" npcId="35050" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6286" type="POLE" stationary="true" npcId="35051" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6287" type="BOW" stationary="true" npcId="35052" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6288" type="CLERIC" stationary="true" npcId="35053" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6289" type="WIZARD" stationary="true" npcId="35054" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6290" type="SWORD" stationary="false" npcId="35055" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6291" type="POLE" stationary="false" npcId="35056" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6292" type="BOW" stationary="false" npcId="35057" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6293" type="CLERIC" stationary="false" npcId="35058" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6294" type="WIZARD" stationary="false" npcId="35059" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6305" type="SWORD" stationary="false" npcId="35060" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="6306" type="WIZARD" stationary="false" npcId="35061" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="5205" type="SWORD" stationary="true" npcId="35010" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="5206" type="POLE" stationary="true" npcId="35011" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="5207" type="BOW" stationary="true" npcId="35012" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="5208" type="CLERIC" stationary="true" npcId="35013" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="5209" type="WIZARD" stationary="true" npcId="35014" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="5210" type="SWORD" stationary="false" npcId="35015" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="5211" type="POLE" stationary="false" npcId="35016" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="5212" type="BOW" stationary="false" npcId="35017" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="5213" type="CLERIC" stationary="false" npcId="35018" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="5214" type="WIZARD" stationary="false" npcId="35019" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="5215" type="TELEPORTER" stationary="true" npcId="35308" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="5218" type="TELEPORTER" stationary="true" npcId="35309" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="5219" type="TELEPORTER" stationary="true" npcId="35310" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+		</tickets>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2742" maxZ="4000">
+				<node x="117971" y="251617"/>
+				<node x="113731" y="251617"/>
+				<node x="113727" y="245080"/>
+				<node x="117972" y="245116"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-2738" maxZ="4000">
+				<node x="120526" y="254019"/>
+				<node x="111201" y="253965"/>
+				<node x="111224" y="241579"/>
+				<node x="120549" y="241633"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-2678" maxZ="4000">
+				<node x="119963" y="244504"/>
+				<node x="112132" y="244522"/>
+				<node x="112108" y="241971"/>
+				<node x="119943" y="241963"/>
+				<node x="119941" y="253720"/>
+				<node x="118181" y="253712"/>
+				<node x="118177" y="244794"/>
+				<node x="119942" y="244797"/>
+				<node x="113465" y="253695"/>
+				<node x="111828" y="253690"/>
+				<node x="111825" y="244772"/>
+				<node x="113465" y="244772"/>
+			</zone>
+		</zones>
+	</castle>
+	<castle id="7" alias="godad_castle" parentId="8" name="Goddard Castle" circletId="6836">
+		<artifacts>
+			<artifact id="35322" pos="146601;-50441;-1496;32768"/>
+			<artifact id="35323" pos="148353;-50457;-1496;0"/>
+		</artifacts>
+		<controlTowers>
+			<controlTower alias="godad_life1_ctrltower" type="LIFE_CONTROL">
+				<position x="144672" y="-48832" z="-1742"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="godad_life2_ctrltower" type="LIFE_CONTROL">
+				<position x="150240" y="-48832" z="-1742"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="godad_life3_ctrltower" type="LIFE_CONTROL">
+				<position x="147456" y="-49200" z="-1619"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="godad_damage1_ctrltower" type="TRAP_CONTROL">
+				<position x="148144" y="-46992" z="-1609"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="godad_damage_1;godad_slow_1"/>
+			</controlTower>
+			<controlTower alias="godad_damage2_ctrltower" type="TRAP_CONTROL">
+				<position x="146784" y="-46992" z="-1609"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="godad_damage_2;godad_slow_2"/>
+			</controlTower>
+		</controlTowers>
+		<gates val="godad_castle_outter_001;godad_castle_outter_002;godad_castle_ctr_001;godad_castle_ctr_002;godad_castle_station_001;godad_castle_station_002;godad_castle_side_door_001;godad_castle_side_door_002;godad_castle_side_door_003;godad_castle_side_door_004;godad_castle_inner_001;1;godad_castle_inner_002;1;godad_castle_inner_003;1;godad_castle_wall_001;godad_castle_wall_002"/>
+		<npcs val="31256;31257;31258;31259;31260;31261;31262;31263;31264;31265;31267;31268;31269;31270;31271;31272;31273;31274;31275;31276;31277;31278;31279;31280;31281;31282;31283;31284;31285;31286;31287;31288;31289;31290;31291;31292;31293;31294;31295;31296;31297;31298;31299;31579;31583;31584;31587;31588;31589;31597;31600;31608;31680;31682;31692;31693;31697;31700;31701;31702;31703;31704;31740;31741;32007;35340;35351;35352;35353;35354;35355;35356;35357;35358;35359;35360;35361;35362;35363;35364;35365;35366;35367;35654"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="147408" y="-46448" z="-963"/>
+			<spawn type="OWNER" x="147520" y="-46432" z="-963"/>
+			<spawn type="OWNER" x="147408" y="-46896" z="-963"/>
+			<spawn type="OWNER" x="147536" y="-46896" z="-963"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="38096" y="-46976" z="899"/>
+			<spawn type="OTHER" x="38608" y="-47168" z="899"/>
+			<spawn type="OTHER" x="38752" y="-47792" z="899"/>
+			<spawn type="OTHER" x="38848" y="-48640" z="899"/>
+			<spawn type="OTHER" x="38272" y="-49008" z="899"/>
+			<spawn type="OTHER" x="38112" y="-49792" z="899"/>
+			<spawn type="OTHER" x="43408" y="-51120" z="-800"/>
+			<spawn type="OTHER" x="43536" y="-50416" z="-800"/>
+			<spawn type="OTHER" x="44368" y="-50592" z="-800"/>
+			<spawn type="OTHER" x="44000" y="-49952" z="-800"/>
+			<spawn type="OTHER" x="45072" y="-49936" z="-800"/>
+			<spawn type="OTHER" x="45824" y="-49056" z="-800"/>
+			<spawn type="OTHER" x="45632" y="-47968" z="-800"/>
+			<spawn type="OTHER" x="44864" y="-47824" z="-800"/>
+			<spawn type="OTHER" x="43744" y="-47920" z="-800"/>
+			<spawn type="OTHER" x="43792" y="-48928" z="-800"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="42640" y="-54496" z="-2310"/>
+			<spawn type="CHAOTIC" x="38304" y="-55440" z="-1136"/>
+			<spawn type="CHAOTIC" x="40192" y="-57600" z="-2343"/>
+			<spawn type="CHAOTIC" x="38400" y="-56832" z="-992"/>
+			<spawn type="CHAOTIC" x="35632" y="-54800" z="-1744"/>
+			<spawn type="CHAOTIC" x="36407" y="-54245" z="-1224"/>
+			<spawn type="CHAOTIC" x="43936" y="-56480" z="-3627"/>
+			<spawn type="CHAOTIC" x="39440" y="-60080" z="-2870"/>
+			<spawn type="CHAOTIC" x="41376" y="-55376" z="-1488"/>
+			<spawn type="CHAOTIC" x="41920" y="-57760" z="-2392"/>
+			<spawn type="CHAOTIC" x="41409" y="-58699" z="-2848"/>
+			<spawn type="CHAOTIC" x="40784" y="-59888" z="-2600"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="154848" y="-52608" z="-2962"/>
+			<spawn type="BANISH" x="156400" y="-53808" z="-2873"/>
+			<spawn type="BANISH" x="138439" y="-45153" z="-2064"/>
+			<spawn type="BANISH" x="140871" y="-55380" z="-3224"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="40" tributeRate="25"/>
+		<tickets>
+			<ticket itemId="6792" type="SWORD" stationary="true" npcId="35030" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6793" type="POLE" stationary="true" npcId="35031" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6794" type="BOW" stationary="true" npcId="35032" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6795" type="CLERIC" stationary="true" npcId="35033" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6796" type="WIZARD" stationary="true" npcId="35034" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6797" type="SWORD" stationary="false" npcId="35035" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6798" type="POLE" stationary="false" npcId="35036" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6799" type="BOW" stationary="false" npcId="35037" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6800" type="CLERIC" stationary="false" npcId="35038" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6801" type="WIZARD" stationary="false" npcId="35039" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6802" type="SWORD" stationary="true" npcId="35020" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6803" type="POLE" stationary="true" npcId="35021" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6804" type="BOW" stationary="true" npcId="35022" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6805" type="CLERIC" stationary="true" npcId="35023" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6806" type="WIZARD" stationary="true" npcId="35024" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6807" type="SWORD" stationary="false" npcId="35025" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="6808" type="POLE" stationary="false" npcId="35026" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6809" type="BOW" stationary="false" npcId="35027" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="6810" type="CLERIC" stationary="false" npcId="35028" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6811" type="WIZARD" stationary="false" npcId="35029" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="6812" type="SWORD" stationary="true" npcId="35040" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6813" type="POLE" stationary="true" npcId="35041" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6814" type="BOW" stationary="true" npcId="35042" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6815" type="CLERIC" stationary="true" npcId="35043" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6816" type="WIZARD" stationary="true" npcId="35044" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6817" type="SWORD" stationary="false" npcId="35045" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6818" type="POLE" stationary="false" npcId="35046" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6819" type="BOW" stationary="false" npcId="35047" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6820" type="CLERIC" stationary="false" npcId="35048" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6821" type="WIZARD" stationary="false" npcId="35049" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="6822" type="SWORD" stationary="true" npcId="35050" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6823" type="POLE" stationary="true" npcId="35051" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6824" type="BOW" stationary="true" npcId="35052" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6825" type="CLERIC" stationary="true" npcId="35053" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6826" type="WIZARD" stationary="true" npcId="35054" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6827" type="SWORD" stationary="false" npcId="35055" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="6828" type="POLE" stationary="false" npcId="35056" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="6829" type="BOW" stationary="false" npcId="35057" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="6830" type="CLERIC" stationary="false" npcId="35058" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6831" type="WIZARD" stationary="false" npcId="35059" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="6832" type="SWORD" stationary="false" npcId="35060" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="6833" type="WIZARD" stationary="false" npcId="35061" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="6779" type="SWORD" stationary="true" npcId="35010" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6780" type="POLE" stationary="true" npcId="35011" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6781" type="BOW" stationary="true" npcId="35012" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6782" type="CLERIC" stationary="true" npcId="35013" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6783" type="WIZARD" stationary="true" npcId="35014" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6784" type="SWORD" stationary="false" npcId="35015" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6785" type="POLE" stationary="false" npcId="35016" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6786" type="BOW" stationary="false" npcId="35017" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6787" type="CLERIC" stationary="false" npcId="35018" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6788" type="WIZARD" stationary="false" npcId="35019" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="6789" type="TELEPORTER" stationary="true" npcId="35352" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="6790" type="TELEPORTER" stationary="true" npcId="35353" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="6791" type="TELEPORTER" stationary="true" npcId="35354" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+		</tickets>
+		<zones>
+			<zone type="RESIDENCE" minZ="0" maxZ="4830">
+				<node x="144023" y="-52189"/>
+				<node x="150893" y="-52189"/>
+				<node x="150743" y="-48031"/>
+				<node x="150075" y="-46567"/>
+				<node x="149381" y="-45932"/>
+				<node x="149767" y="-45321"/>
+				<node x="149628" y="-45254"/>
+				<node x="149204" y="-45845"/>
+				<node x="147805" y="-45106"/>
+				<node x="147108" y="-45106"/>
+				<node x="145714" y="-45845"/>
+				<node x="145288" y="-45254"/>
+				<node x="145143" y="-45321"/>
+				<node x="145557" y="-45932"/>
+				<node x="144721" y="-46567"/>
+				<node x="144212" y="-48031"/>
+				<node x="144023" y="-52189"/>
+				<node x="150893" y="-52189"/>
+				<node x="150893" y="-53200"/>
+				<node x="144023" y="-53200"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-3397" maxZ="5100">
+				<node x="143023" y="-53210"/>
+				<node x="151893" y="-53210"/>
+				<node x="151949" y="-39107"/>
+				<node x="145899" y="-39107"/>
+				<node x="141457" y="-44407"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-2625" maxZ="1875">
+				<node x="144715" y="-43884"/>
+				<node x="150045" y="-43884"/>
+				<node x="150037" y="-43064"/>
+				<node x="148924" y="-42723"/>
+				<node x="148512" y="-41841"/>
+				<node x="148496" y="-40907"/>
+				<node x="147063" y="-40920"/>
+				<node x="145883" y="-42805"/>
+				<node x="144692" y="-42822"/>
+			</zone>
+		</zones>
+	</castle>
+	<castle id="8" alias="rune_castle" parentId="0" name="Rune Castle" circletId="8182">
+		<artifacts>
+			<artifact id="35469" pos="9132;-49152;1088;0"/>
+		</artifacts>
+		<controlTowers>
+			<controlTower alias="rune_damage1_ctrltower" type="TRAP_CONTROL">
+				<position x="16517" y="-47999" z="-640"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="rune_damage_1;rune_slow_1"/>
+			</controlTower>
+			<controlTower alias="rune_damage2_ctrltower" type="TRAP_CONTROL">
+				<position x="16517" y="-50292" z="-40"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="rune_damage_2;rune_slow_2"/>
+			</controlTower>
+			<controlTower alias="rune_life1_ctrltower" type="LIFE_CONTROL">
+				<position x="18257" y="-49135" z="-570"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="rune_life2_ctrltower" type="LIFE_CONTROL">
+				<position x="13468" y="-52396" z="908"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="rune_life3_ctrltower" type="LIFE_CONTROL">
+				<position x="8352" y="-49058" z="1252"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+		</controlTowers>
+		<gates val="rune_castle_outter_001;rune_castle_outter_002;rune_castle_inner_001;rune_castle_inner_002;rune_castle_inner_003;1;rune_castle_side_door_001;rune_castle_wall_001;rune_castle_wall_002;rune_castle_wall_003"/>
+		<npcs val="31300;31301;31302;31303;31304;31305;31306;31307;31308;31309;31311;31312;31313;31314;31315;31316;31317;31318;31319;31320;31321;31322;31323;31324;31325;31326;31327;31328;31329;31330;31331;31332;31333;31334;31335;31336;31337;31338;31339;31340;31341;31342;31343;31344;31345;31346;31347;31348;31349;31350;31351;31387;31388;31389;31578;31592;31594;31679;31681;31694;31695;31696;31698;31699;31742;31743;31744;32024;35502;35503;35504;35505;35506;35507;35508;35509;35510;35511;35512;35513;35655"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="10891" y="-49058" z="3890"/>
+			<spawn type="OWNER" x="11224" y="-49116" z="3890"/>
+			<spawn type="OWNER" x="10974" y="-49244" z="3890"/>
+			<spawn type="OWNER" x="10658" y="-49211" z="3890"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="148560" y="-55904" z="-2779"/>
+			<spawn type="OTHER" x="150704" y="-55744" z="-2979"/>
+			<spawn type="OTHER" x="150400" y="-56752" z="-2979"/>
+			<spawn type="OTHER" x="149872" y="-57424" z="-2979"/>
+			<spawn type="OTHER" x="149088" y="-56256" z="-2779"/>
+			<spawn type="OTHER" x="147664" y="-56464" z="-2779"/>
+			<spawn type="OTHER" x="147680" y="-56928" z="-2779"/>
+			<spawn type="OTHER" x="146832" y="-55904" z="-2779"/>
+			<spawn type="OTHER" x="146368" y="-56256" z="-2779"/>
+			<spawn type="OTHER" x="149120" y="-58064" z="-2979"/>
+			<spawn type="OTHER" x="148288" y="-58304" z="-2979"/>
+			<spawn type="OTHER" x="147680" y="-58208" z="-2979"/>
+			<spawn type="OTHER" x="147232" y="-58480" z="-2979"/>
+			<spawn type="OTHER" x="146272" y="-58176" z="-2979"/>
+			<spawn type="OTHER" x="145696" y="-57696" z="-2979"/>
+			<spawn type="OTHER" x="145264" y="-57680" z="-2979"/>
+			<spawn type="OTHER" x="145392" y="-56960" z="-2979"/>
+			<spawn type="OTHER" x="144752" y="-56752" z="-2979"/>
+			<spawn type="OTHER" x="144960" y="-56224" z="-2979"/>
+			<spawn type="OTHER" x="144944" y="-55392" z="-2979"/>
+			<spawn type="OTHER" x="144496" y="-55088" z="-2979"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="142656" y="-55008" z="-3024"/>
+			<spawn type="CHAOTIC" x="142832" y="-55680" z="-3462"/>
+			<spawn type="CHAOTIC" x="143152" y="-56368" z="-3456"/>
+			<spawn type="CHAOTIC" x="145344" y="-59472" z="-3344"/>
+			<spawn type="CHAOTIC" x="145872" y="-59744" z="-3328"/>
+			<spawn type="CHAOTIC" x="150304" y="-59800" z="-3504"/>
+			<spawn type="CHAOTIC" x="145248" y="-60064" z="-3440"/>
+			<spawn type="CHAOTIC" x="144368" y="-59616" z="-3512"/>
+			<spawn type="CHAOTIC" x="149680" y="-59600" z="-3440"/>
+			<spawn type="CHAOTIC" x="149360" y="-60576" z="-3520"/>
+			<spawn type="CHAOTIC" x="152114" y="-57296" z="-3451"/>
+			<spawn type="CHAOTIC" x="150492" y="-59719" z="-3611"/>
+			<spawn type="CHAOTIC" x="148791" y="-60361" z="-3537"/>
+			<spawn type="CHAOTIC" x="146499" y="-60242" z="-3455"/>
+			<spawn type="CHAOTIC" x="143052" y="-56418" z="-3490"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="27384" y="-50899" z="-1344"/>
+			<spawn type="BANISH" x="28024" y="-52804" z="-1840"/>
+			<spawn type="BANISH" x="28331" y="-48740" z="-1344"/>
+			<spawn type="BANISH" x="29203" y="-50908" z="-2056"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="40" tributeRate="0"/>
+		<tickets>
+			<ticket itemId="7988" type="SWORD" stationary="true" npcId="35030" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7989" type="POLE" stationary="true" npcId="35031" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7990" type="BOW" stationary="true" npcId="35032" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7991" type="CLERIC" stationary="true" npcId="35033" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7992" type="WIZARD" stationary="true" npcId="35034" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7993" type="SWORD" stationary="false" npcId="35035" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7994" type="POLE" stationary="false" npcId="35036" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7995" type="BOW" stationary="false" npcId="35037" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7996" type="CLERIC" stationary="false" npcId="35038" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7997" type="WIZARD" stationary="false" npcId="35039" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7998" type="SWORD" stationary="true" npcId="35020" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="7999" type="POLE" stationary="true" npcId="35021" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="8000" type="BOW" stationary="true" npcId="35022" maxAmount="20" ssq="DAWN"/>
+			<ticket itemId="8001" type="CLERIC" stationary="true" npcId="35023" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="8002" type="WIZARD" stationary="true" npcId="35024" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="8003" type="SWORD" stationary="false" npcId="35025" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="8004" type="POLE" stationary="false" npcId="35026" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="8005" type="BOW" stationary="false" npcId="35027" maxAmount="20" ssq="DAWN"/>
+			<ticket itemId="8006" type="CLERIC" stationary="false" npcId="35028" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="8007" type="WIZARD" stationary="false" npcId="35029" maxAmount="4" ssq="DAWN"/>
+			<ticket itemId="8008" type="SWORD" stationary="true" npcId="35040" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="8009" type="POLE" stationary="true" npcId="35041" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="8010" type="BOW" stationary="true" npcId="35042" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="8011" type="CLERIC" stationary="true" npcId="35043" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="8012" type="WIZARD" stationary="true" npcId="35044" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="8013" type="SWORD" stationary="false" npcId="35045" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="8014" type="POLE" stationary="false" npcId="35046" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="8015" type="BOW" stationary="false" npcId="35047" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="8016" type="CLERIC" stationary="false" npcId="35048" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="8017" type="WIZARD" stationary="false" npcId="35049" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="8018" type="SWORD" stationary="true" npcId="35050" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="8019" type="POLE" stationary="true" npcId="35051" maxAmount="6" ssq="DUSK"/>
+			<ticket itemId="8020" type="BOW" stationary="true" npcId="35052" maxAmount="20" ssq="DUSK"/>
+			<ticket itemId="8021" type="CLERIC" stationary="true" npcId="35053" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="8022" type="WIZARD" stationary="true" npcId="35054" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="8023" type="SWORD" stationary="false" npcId="35055" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="8024" type="POLE" stationary="false" npcId="35056" maxAmount="6" ssq="DUSK"/>
+			<ticket itemId="8025" type="BOW" stationary="false" npcId="35057" maxAmount="20" ssq="DUSK"/>
+			<ticket itemId="8026" type="CLERIC" stationary="false" npcId="35058" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="8027" type="WIZARD" stationary="false" npcId="35059" maxAmount="4" ssq="DUSK"/>
+			<ticket itemId="8028" type="SWORD" stationary="false" npcId="35060" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="8029" type="WIZARD" stationary="false" npcId="35061" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="7973" type="SWORD" stationary="true" npcId="35010" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7974" type="POLE" stationary="true" npcId="35011" maxAmount="6" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7975" type="BOW" stationary="true" npcId="35012" maxAmount="20" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7976" type="CLERIC" stationary="true" npcId="35013" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7977" type="WIZARD" stationary="true" npcId="35014" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7978" type="SWORD" stationary="false" npcId="35015" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7979" type="POLE" stationary="false" npcId="35016" maxAmount="6" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7980" type="BOW" stationary="false" npcId="35017" maxAmount="20" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7981" type="CLERIC" stationary="false" npcId="35018" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7982" type="WIZARD" stationary="false" npcId="35019" maxAmount="4" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7983" type="TELEPORTER" stationary="true" npcId="35497" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="7984" type="TELEPORTER" stationary="true" npcId="35498" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="7985" type="TELEPORTER" stationary="true" npcId="35499" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="7986" type="TELEPORTER" stationary="true" npcId="35500" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="7987" type="TELEPORTER" stationary="true" npcId="35501" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+		</tickets>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3200" maxZ="10020">
+				<node x="6005" y="-56306"/>
+				<node x="15112" y="-52711"/>
+				<node x="16831" y="-52270"/>
+				<node x="17745" y="-51547"/>
+				<node x="18326" y="-50543"/>
+				<node x="18666" y="-49413"/>
+				<node x="18680" y="-48882"/>
+				<node x="18334" y="-47737"/>
+				<node x="17756" y="-46741"/>
+				<node x="16808" y="-46019"/>
+				<node x="15114" y="-45624"/>
+				<node x="6005" y="-41610"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-4350" maxZ="10030">
+				<node x="6015" y="-56316"/>
+				<node x="17343" y="-53750"/>
+				<node x="19486" y="-52556"/>
+				<node x="23783" y="-52570"/>
+				<node x="27027" y="-49433"/>
+				<node x="27020" y="-48831"/>
+				<node x="23887" y="-45218"/>
+				<node x="19385" y="-45203"/>
+				<node x="17413" y="-44022"/>
+				<node x="6015" y="-41600"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-1780" maxZ="-680">
+				<node x="26755" y="-49171"/>
+				<node x="22310" y="-49171"/>
+				<node x="22309" y="-50415"/>
+				<node x="21392" y="-50412"/>
+				<node x="21391" y="-49164"/>
+				<node x="19543" y="-49168"/>
+				<node x="19546" y="-49074"/>
+				<node x="21387" y="-49070"/>
+				<node x="21388" y="-47783"/>
+				<node x="22316" y="-47784"/>
+				<node x="22316" y="-49082"/>
+				<node x="26755" y="-49082"/>
+			</zone>
+		</zones>
+	</castle>
+	<castle id="9" alias="schuttgart_castle" parentId="8" name="Schuttgart Castle" circletId="8183">
+		<artifacts>
+			<artifact id="35514" pos="78442;-154520;224;0"/>
+			<artifact id="35515" pos="76674;-154520;224;32768"/>
+		</artifacts>
+		<controlTowers>
+			<controlTower alias="schutt_life1_ctrltower" type="LIFE_CONTROL">
+				<position x="80334" y="-152896" z="5"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="schutt_life2_ctrltower" type="LIFE_CONTROL">
+				<position x="74764" y="-152896" z="5"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="schutt_life3_ctrltower" type="LIFE_CONTROL">
+				<position x="77547" y="-153246" z="100"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+			</controlTower>
+			<controlTower alias="schutt_damage1_ctrltower" type="TRAP_CONTROL">
+				<position x="79206" y="-152517" z="115"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="schutt_damage_1;schutt_slow_1"/>
+			</controlTower>
+			<controlTower alias="schutt_damage2_ctrltower" type="TRAP_CONTROL">
+				<position x="75905" y="-152502" z="115"/>
+				<stats hp="10000" pDef="837" mDef="674"/>
+				<zones val="schutt_damage_2;schutt_slow_2"/>
+			</controlTower>
+		</controlTowers>
+		<gates val="schutt_castle_outter_001;schutt_castle_outter_002;schutt_castle_ctr_001;schutt_castle_ctr_002;schutt_castle_station_001;schutt_castle_station_002;schutt_castle_side_door_001;schutt_castle_side_door_002;schutt_castle_side_door_003;schutt_castle_side_door_004;schutt_castle_inner_001;1;schutt_castle_inner_002;1;schutt_castle_inner_003;1;schutt_castle_wall_001;schutt_castle_wall_002"/>
+		<npcs val="30516;30517;30518;30519;30526;30527;30541;30542;30543;30544;30545;30546;30547;30548;30558;30559;30560;30561;30564;30577;30578;30579;30580;30581;30582;30583;30584;31424;31565;31566;31945;31946;31947;31948;31949;31950;31951;31952;31953;31954;31956;31957;31958;31959;31960;31961;31962;31963;31964;31965;31966;31967;31968;31969;31970;31971;31972;31973;31974;31975;31976;31977;31978;31979;31980;31981;31982;31983;31984;31985;31986;31987;31988;31989;31990;31996;31997;31998;32070;32071;32072;32073;35547;35548;35549;35550;35551;35552;35553;35554;35555;35556;35557;35558;35559;35644;35645;35656"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="77619" y="-150591" z="770"/>
+			<spawn type="OWNER" x="77487" y="-150735" z="770"/>
+			<spawn type="OWNER" x="77575" y="-150992" z="770"/>
+			<spawn type="OWNER" x="77646" y="-150441" z="770"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="38096" y="-46976" z="899"/>
+			<spawn type="OTHER" x="38608" y="-47168" z="899"/>
+			<spawn type="OTHER" x="38752" y="-47792" z="899"/>
+			<spawn type="OTHER" x="38848" y="-48640" z="899"/>
+			<spawn type="OTHER" x="38272" y="-49008" z="899"/>
+			<spawn type="OTHER" x="38112" y="-49792" z="899"/>
+			<spawn type="OTHER" x="43408" y="-51120" z="-800"/>
+			<spawn type="OTHER" x="43536" y="-50416" z="-800"/>
+			<spawn type="OTHER" x="44368" y="-50592" z="-800"/>
+			<spawn type="OTHER" x="44000" y="-49952" z="-800"/>
+			<spawn type="OTHER" x="45072" y="-49936" z="-800"/>
+			<spawn type="OTHER" x="45824" y="-49056" z="-800"/>
+			<spawn type="OTHER" x="45632" y="-47968" z="-800"/>
+			<spawn type="OTHER" x="44864" y="-47824" z="-800"/>
+			<spawn type="OTHER" x="43744" y="-47920" z="-800"/>
+			<spawn type="OTHER" x="43792" y="-48928" z="-800"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="42640" y="-54496" z="-2310"/>
+			<spawn type="CHAOTIC" x="38304" y="-55440" z="-1136"/>
+			<spawn type="CHAOTIC" x="40192" y="-57600" z="-2343"/>
+			<spawn type="CHAOTIC" x="38400" y="-56832" z="-992"/>
+			<spawn type="CHAOTIC" x="35632" y="-54800" z="-1744"/>
+			<spawn type="CHAOTIC" x="36407" y="-54245" z="-1224"/>
+			<spawn type="CHAOTIC" x="43936" y="-56480" z="-3627"/>
+			<spawn type="CHAOTIC" x="39440" y="-60080" z="-2870"/>
+			<spawn type="CHAOTIC" x="41376" y="-55376" z="-1488"/>
+			<spawn type="CHAOTIC" x="41920" y="-57760" z="-2392"/>
+			<spawn type="CHAOTIC" x="41409" y="-58699" z="-2848"/>
+			<spawn type="CHAOTIC" x="40784" y="-59888" z="-2600"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="81614" y="-150548" z="-768"/>
+			<spawn type="BANISH" x="76698" y="-146662" z="-920"/>
+			<spawn type="BANISH" x="73717" y="-151339" z="-624"/>
+			<spawn type="BANISH" x="75951" y="-145789" z="-1168"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="40" tributeRate="25"/>
+		<tickets>
+			<ticket itemId="7931" type="SWORD" stationary="true" npcId="35030" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7932" type="POLE" stationary="true" npcId="35031" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7933" type="BOW" stationary="true" npcId="35032" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7934" type="CLERIC" stationary="true" npcId="35033" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7935" type="WIZARD" stationary="true" npcId="35034" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7936" type="SWORD" stationary="false" npcId="35035" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7937" type="POLE" stationary="false" npcId="35036" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7938" type="BOW" stationary="false" npcId="35037" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7939" type="CLERIC" stationary="false" npcId="35038" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7940" type="WIZARD" stationary="false" npcId="35039" maxAmount="1" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7941" type="SWORD" stationary="true" npcId="35020" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="7942" type="POLE" stationary="true" npcId="35021" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="7943" type="BOW" stationary="true" npcId="35022" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="7944" type="CLERIC" stationary="true" npcId="35023" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="7945" type="WIZARD" stationary="true" npcId="35024" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="7946" type="SWORD" stationary="false" npcId="35025" maxAmount="5" ssq="DAWN"/>
+			<ticket itemId="7947" type="POLE" stationary="false" npcId="35026" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="7948" type="BOW" stationary="false" npcId="35027" maxAmount="10" ssq="DAWN"/>
+			<ticket itemId="7949" type="CLERIC" stationary="false" npcId="35028" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="7950" type="WIZARD" stationary="false" npcId="35029" maxAmount="2" ssq="DAWN"/>
+			<ticket itemId="7951" type="SWORD" stationary="true" npcId="35040" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="7952" type="POLE" stationary="true" npcId="35041" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="7953" type="BOW" stationary="true" npcId="35042" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="7954" type="CLERIC" stationary="true" npcId="35043" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="7955" type="WIZARD" stationary="true" npcId="35044" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="7956" type="SWORD" stationary="false" npcId="35045" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="7957" type="POLE" stationary="false" npcId="35046" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="7958" type="BOW" stationary="false" npcId="35047" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="7959" type="CLERIC" stationary="false" npcId="35048" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="7960" type="WIZARD" stationary="false" npcId="35049" maxAmount="1" ssq="DUSK"/>
+			<ticket itemId="7961" type="SWORD" stationary="true" npcId="35050" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="7962" type="POLE" stationary="true" npcId="35051" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="7963" type="BOW" stationary="true" npcId="35052" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="7964" type="CLERIC" stationary="true" npcId="35053" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="7965" type="WIZARD" stationary="true" npcId="35054" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="7966" type="SWORD" stationary="false" npcId="35055" maxAmount="5" ssq="DUSK"/>
+			<ticket itemId="7967" type="POLE" stationary="false" npcId="35056" maxAmount="3" ssq="DUSK"/>
+			<ticket itemId="7968" type="BOW" stationary="false" npcId="35057" maxAmount="10" ssq="DUSK"/>
+			<ticket itemId="7969" type="CLERIC" stationary="false" npcId="35058" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="7970" type="WIZARD" stationary="false" npcId="35059" maxAmount="2" ssq="DUSK"/>
+			<ticket itemId="7971" type="SWORD" stationary="false" npcId="35060" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="7972" type="WIZARD" stationary="false" npcId="35061" maxAmount="1" ssq="DAWN"/>
+			<ticket itemId="7918" type="SWORD" stationary="true" npcId="35010" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7919" type="POLE" stationary="true" npcId="35011" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7920" type="BOW" stationary="true" npcId="35012" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7921" type="CLERIC" stationary="true" npcId="35013" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7922" type="WIZARD" stationary="true" npcId="35014" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7923" type="SWORD" stationary="false" npcId="35015" maxAmount="5" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7924" type="POLE" stationary="false" npcId="35016" maxAmount="3" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7925" type="BOW" stationary="false" npcId="35017" maxAmount="10" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7926" type="CLERIC" stationary="false" npcId="35018" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7927" type="WIZARD" stationary="false" npcId="35019" maxAmount="2" ssq="NORMAL;DAWN"/>
+			<ticket itemId="7928" type="TELEPORTER" stationary="true" npcId="35544" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="7929" type="TELEPORTER" stationary="true" npcId="35545" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+			<ticket itemId="7930" type="TELEPORTER" stationary="true" npcId="35546" maxAmount="1" ssq="NORMAL;DAWN;DUSK"/>
+		</tickets>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3670" maxZ="8830">
+				<node x="71720" y="-159619"/>
+				<node x="82963" y="-159619"/>
+				<node x="82963" y="-152546"/>
+				<node x="80415" y="-151159"/>
+				<node x="79532" y="-149880"/>
+				<node x="79832" y="-149415"/>
+				<node x="79695" y="-149348"/>
+				<node x="79395" y="-149803"/>
+				<node x="77934" y="-149175"/>
+				<node x="77204" y="-149173"/>
+				<node x="75705" y="-149781"/>
+				<node x="75384" y="-149328"/>
+				<node x="75274" y="-149418"/>
+				<node x="75572" y="-149843"/>
+				<node x="74695" y="-151156"/>
+				<node x="71720" y="-152526"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-3997" maxZ="8503">
+				<node x="71420" y="-159445"/>
+				<node x="83119" y="-159442"/>
+				<node x="83122" y="-150000"/>
+				<node x="77897" y="-143861"/>
+				<node x="71420" y="-148782"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-3800" maxZ="1700">
+				<node x="74554" y="-148009"/>
+				<node x="80640" y="-148009"/>
+				<node x="80631" y="-147713"/>
+				<node x="78857" y="-147120"/>
+				<node x="78119" y="-146316"/>
+				<node x="76767" y="-146316"/>
+				<node x="76314" y="-147099"/>
+				<node x="74533" y="-147618"/>
+			</zone>
+		</zones>
+	</castle>
+</list>

@@ -17,10 +17,10 @@ import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHallFunction
 import com.shnok.javaserver.gameserver.model.residence.clanhall.SiegableHall;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
-import com.shnok.javaserver.gameserver.network.serverpackets.ClanHallDecoration;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.WarehouseDepositList;
-import com.shnok.javaserver.gameserver.network.serverpackets.WarehouseWithdrawList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ClanHallDecoration;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.WarehouseDepositList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.WarehouseWithdrawList;
 
 public class ClanHallManagerNpc extends Merchant
 {

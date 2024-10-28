@@ -207,7 +207,7 @@ public abstract class ItemContainer
 		
 		// If item hasn't be found in inventory, set ownership and location.
 		item.setOwnerId(getOwnerId());
-		item.setLocation(getBaseLocation());
+		item.setLocation(getBaseLocation(), findNextAvailableSlot());
 		
 		// Add item in inventory.
 		addBasicItem(item);
@@ -239,7 +239,7 @@ public abstract class ItemContainer
 			{
 				item = ItemInstance.create(itemId, template.isStackable() ? count : 1);
 				item.setOwnerId(getOwnerId());
-				item.setLocation(getBaseLocation());
+				item.setLocation(getBaseLocation(), findNextAvailableSlot());
 				
 				// Add item in inventory
 				addBasicItem(item);
@@ -546,5 +546,34 @@ public abstract class ItemContainer
 	public boolean validateWeight(int weight)
 	{
 		return true;
+	}
+
+	//l2-unity
+	public int getContainerSize() {
+		return 255;
+	}
+
+	// l2-unity
+	// find the next empty slot in item container
+	public int findNextAvailableSlot() {
+		boolean[] slots = new boolean[getContainerSize()];
+
+		// Mark occupied slots
+		for (ItemInstance item : _items) {
+			if(item.isEquipped()) {
+				continue;
+			}
+
+			slots[item.getLocationSlot()] = true;
+		}
+
+		// Find the first available slot
+		for (int i = 0; i < getContainerSize(); i++) {
+			if (!slots[i]) {
+				return i;
+			}
+		}
+
+		return -1; // No available slot found
 	}
 }

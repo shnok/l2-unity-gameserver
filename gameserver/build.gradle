@@ -23,8 +23,8 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:1.7.25'
     implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.11.0'
 //    implementation 'org.aeonbits.owner:owner-java8:1.0.12'
-//    compileOnly 'org.projectlombok:lombok:1.18.30'
-//    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
 
     implementation 'org.mariadb.jdbc:mariadb-java-client:3.1.4'

@@ -6,7 +6,7 @@ import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 public interface IAdminCommandHandler
 {

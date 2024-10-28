@@ -7,7 +7,7 @@ import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHall;
 import com.shnok.javaserver.gameserver.model.zone.type.subtype.ResidenceZoneType;
-import com.shnok.javaserver.gameserver.network.serverpackets.ClanHallDecoration;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ClanHallDecoration;
 
 /**
  * A zone extending {@link ResidenceZoneType} used by {@link ClanHall}s.

@@ -5,7 +5,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.instance.ClanHallManagerNpc;
 import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHall;
 import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHallFunction;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class ClanHallManagerNpcAI extends NpcAI<ClanHallManagerNpc>

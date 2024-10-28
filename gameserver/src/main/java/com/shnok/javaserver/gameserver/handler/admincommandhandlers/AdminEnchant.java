@@ -12,7 +12,7 @@ import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.model.item.kind.Armor;
 import com.shnok.javaserver.gameserver.model.item.kind.Item;
 import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
-import com.shnok.javaserver.gameserver.network.serverpackets.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class AdminEnchant implements IAdminCommandHandler

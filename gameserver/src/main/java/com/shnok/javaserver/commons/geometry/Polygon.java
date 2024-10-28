@@ -5,7 +5,7 @@ import java.util.List;
 import com.shnok.javaserver.commons.random.Rnd;
 
 import com.shnok.javaserver.gameserver.model.location.Location;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 
 /**
  * A polygon consisting of various {@link Triangle}s.<br>

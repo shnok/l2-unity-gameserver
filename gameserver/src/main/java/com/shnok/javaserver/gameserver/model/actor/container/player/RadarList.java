@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.model.location.RadarMarker;
-import com.shnok.javaserver.gameserver.network.serverpackets.RadarControl;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.RadarControl;
 
 public final class RadarList extends ArrayList<RadarMarker>
 {

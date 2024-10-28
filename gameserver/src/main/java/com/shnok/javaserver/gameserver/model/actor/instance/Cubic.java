@@ -22,7 +22,7 @@ import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.group.Party;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.Formulas;
 import com.shnok.javaserver.gameserver.skills.L2Skill;

@@ -1,0 +1,2520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Dion Area
+ * Town of Dion
+ * Dion Castle
+ * Floran Agricultural Area
+ * Dion Hills
+-->
+<list>
+	<!--  -->
+	<territory name="20_22_net_cafe_event_1_01" minZ="-3160" maxZ="-2960">
+		<node x="18076" y="145064"/>
+		<node x="18276" y="145064"/>
+		<node x="18276" y="145264"/>
+		<node x="18076" y="145264"/>
+	</territory>
+	<npcmaker name="20_22_net_cafe_event_1_01" territory="20_22_net_cafe_event_1_01" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="18178;145149;-3054;7400" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="20_22_net_cafe_event_1_02" minZ="-3208" maxZ="-3008">
+		<node x="19100" y="144284"/>
+		<node x="19300" y="144284"/>
+		<node x="19300" y="144484"/>
+		<node x="19100" y="144484"/>
+	</territory>
+	<npcmaker name="20_22_net_cafe_event_1_02" territory="20_22_net_cafe_event_1_02" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="19208;144380;-3097;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="20_22_net_cafe_event_1_03" minZ="-3192" maxZ="-2992">
+		<node x="19404" y="145692"/>
+		<node x="19604" y="145692"/>
+		<node x="19604" y="145892"/>
+		<node x="19404" y="145892"/>
+	</territory>
+	<npcmaker name="20_22_net_cafe_event_1_03" territory="20_22_net_cafe_event_1_03" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="19508;145775;-3086;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_001" minZ="-3152" maxZ="-2952">
+		<node x="19620" y="143212"/>
+		<node x="19820" y="143212"/>
+		<node x="19820" y="143412"/>
+		<node x="19620" y="143412"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_00101" territory="dion09_npc2022_001" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30595" pos="19712;143307;-3025;47152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_002" minZ="-3175" maxZ="-2975">
+		<node x="20908" y="144380"/>
+		<node x="21108" y="144380"/>
+		<node x="21108" y="144580"/>
+		<node x="20908" y="144580"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_00201" territory="dion09_npc2022_002" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30594" pos="21017;144481;-3065;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_003" minZ="-2752" maxZ="-2552">
+		<node x="16188" y="142134"/>
+		<node x="16463" y="142068"/>
+		<node x="16497" y="142488"/>
+		<node x="16226" y="142491"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_00301" territory="dion09_npc2022_003" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30067" pos="16269;142461;-2688;48400" total="1" respawn="1min"/>
+		<npc id="30068" pos="16456;142447;-2688;48400" total="1" respawn="1min"/>
+		<npc id="30461" pos="16427;142131;-2688;15600" total="1" respawn="1min"/>
+		<npc id="30069" pos="16236;142153;-2688;15600" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_004" minZ="-2737" maxZ="-2537">
+		<node x="15708" y="142252"/>
+		<node x="15908" y="142252"/>
+		<node x="15908" y="142452"/>
+		<node x="15708" y="142452"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_00401" territory="dion09_npc2022_004" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30070" pos="15795;142347;-2680;64700" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_006" minZ="-3168" maxZ="-2968">
+		<node x="19743" y="144413"/>
+		<node x="19943" y="144413"/>
+		<node x="19943" y="144613"/>
+		<node x="19743" y="144613"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_00601" territory="dion09_npc2022_006" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30644" pos="19831;144514;-3098;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_007" minZ="-3214" maxZ="-3014">
+		<node x="17125" y="146454"/>
+		<node x="17325" y="146454"/>
+		<node x="17325" y="146654"/>
+		<node x="17125" y="146654"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_00701" territory="dion09_npc2022_007" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30654" pos="17220;146554;-3084;12288" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_008" minZ="-2800" maxZ="-2600">
+		<node x="16576" y="142270"/>
+		<node x="16776" y="142270"/>
+		<node x="16776" y="142470"/>
+		<node x="16576" y="142470"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_00801" territory="dion09_npc2022_008" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30629" pos="16680;142368;-2688;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_009" minZ="-3194" maxZ="-2994">
+		<node x="20893" y="143745"/>
+		<node x="21093" y="143745"/>
+		<node x="21093" y="143945"/>
+		<node x="20893" y="143945"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_00901" territory="dion09_npc2022_009" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30625" pos="20983;143844;-3073;4096" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_010" minZ="-3258" maxZ="-3058">
+		<node x="20509" y="145884"/>
+		<node x="20709" y="145884"/>
+		<node x="20709" y="146084"/>
+		<node x="20509" y="146084"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_01001" territory="dion09_npc2022_010" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30620" pos="20609;145993;-3123;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_011" minZ="-3173" maxZ="-2973">
+		<node x="18948" y="145868"/>
+		<node x="19148" y="145868"/>
+		<node x="19148" y="146068"/>
+		<node x="18948" y="146068"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_01101" territory="dion09_npc2022_011" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30608" pos="19041;145964;-3068;8192" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_012" minZ="-3224" maxZ="-3024">
+		<node x="19900" y="146109"/>
+		<node x="20100" y="146109"/>
+		<node x="20100" y="146309"/>
+		<node x="19900" y="146309"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_01201" territory="dion09_npc2022_012" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35407" pos="19996;146216;-3111;57344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_013" minZ="-3226" maxZ="-3026">
+		<node x="20140" y="145836"/>
+		<node x="20340" y="145836"/>
+		<node x="20340" y="146036"/>
+		<node x="20140" y="146036"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_01301" territory="dion09_npc2022_013" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35406" pos="20237;145941;-3124;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_014" minZ="-3121" maxZ="-2921">
+		<node x="17532" y="144828"/>
+		<node x="17732" y="144828"/>
+		<node x="17732" y="145028"/>
+		<node x="17532" y="145028"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_01401" territory="dion09_npc2022_014" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35403" pos="17621;144920;-3037;12288" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_015" minZ="-3192" maxZ="-2992">
+		<node x="17564" y="145196"/>
+		<node x="17764" y="145196"/>
+		<node x="17764" y="145396"/>
+		<node x="17564" y="145396"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_01501" territory="dion09_npc2022_015" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35402" pos="17677;145282;-3047;22500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_016" minZ="-3087" maxZ="-2887">
+		<node x="18540" y="143244"/>
+		<node x="18740" y="143244"/>
+		<node x="18740" y="143444"/>
+		<node x="18540" y="143444"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_01601" territory="dion09_npc2022_016" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35405" pos="18634;143342;-3010;64500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_017" minZ="-3161" maxZ="-2961">
+		<node x="18844" y="143292"/>
+		<node x="19044" y="143292"/>
+		<node x="19044" y="143492"/>
+		<node x="18844" y="143492"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_01701" territory="dion09_npc2022_017" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35404" pos="18928;143391;-3025;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_018" minZ="-3185" maxZ="-2985">
+		<node x="19148" y="144573"/>
+		<node x="19348" y="144573"/>
+		<node x="19348" y="144773"/>
+		<node x="19148" y="144773"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_01801" territory="dion09_npc2022_018" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30735" pos="19264;144672;-3098;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_019" minZ="-3164" maxZ="-2964">
+		<node x="16844" y="146204"/>
+		<node x="17044" y="146204"/>
+		<node x="17044" y="146404"/>
+		<node x="16844" y="146404"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_01901" territory="dion09_npc2022_019" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30736" pos="16955;146303;-3106;28672" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_020" minZ="-3152" maxZ="-2952">
+		<node x="18972" y="145659"/>
+		<node x="19172" y="145659"/>
+		<node x="19172" y="145859"/>
+		<node x="18972" y="145859"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_02001" territory="dion09_npc2022_020" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30737" pos="19079;145762;-3080;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_021" minZ="-3126" maxZ="-2926">
+		<node x="19196" y="142764"/>
+		<node x="19396" y="142764"/>
+		<node x="19396" y="142964"/>
+		<node x="19196" y="142964"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_02101" territory="dion09_npc2022_021" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30828" pos="19276;142864;-3032;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_023" minZ="-3143" maxZ="-3043">
+		<node x="16990" y="145956"/>
+		<node x="17165" y="146096"/>
+		<node x="17118" y="146184"/>
+		<node x="16933" y="146044"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_02301" territory="dion09_npc2022_023" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30956" pos="17025;146070;-3074;35523" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_024" minZ="-3152" maxZ="-3022">
+		<node x="18333" y="144952"/>
+		<node x="18533" y="144952"/>
+		<node x="18533" y="145152"/>
+		<node x="18333" y="145152"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_02401" territory="dion09_npc2022_024" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30957" pos="18378;145052;-3074;64312" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_025" minZ="-3193" maxZ="-3063">
+		<node x="20033" y="145457"/>
+		<node x="20233" y="145457"/>
+		<node x="20233" y="145657"/>
+		<node x="20033" y="145657"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_02501" territory="dion09_npc2022_025" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30959" pos="20175;145480;-3114;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_026" minZ="-3130" maxZ="-3010">
+		<node x="18781" y="145693"/>
+		<node x="19557" y="145693"/>
+		<node x="19562" y="146269"/>
+		<node x="18787" y="146269"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_02601" territory="dion09_npc2022_026" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="31048" pos="19505;146220;-3071;42568" total="1" respawn="1min"/>
+		<npc id="30961" pos="19490;145930;-3072;0" total="1" respawn="1min"/>
+		<npc id="31043" pos="19034;146249;-3072;55264" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_027" minZ="-3111" maxZ="-3031">
+		<node x="20843" y="144796"/>
+		<node x="21043" y="144796"/>
+		<node x="21043" y="144996"/>
+		<node x="20843" y="144996"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_02701" territory="dion09_npc2022_027" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30960" pos="21025;144931;-3070;40960" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_028" minZ="-3151" maxZ="-3051">
+		<node x="19215" y="145007"/>
+		<node x="19415" y="145007"/>
+		<node x="19415" y="145207"/>
+		<node x="19215" y="145207"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_02801" territory="dion09_npc2022_028" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35145" pos="19342;145105;-3106;30304" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_029" minZ="-3095" maxZ="-2995">
+		<node x="17801" y="144035"/>
+		<node x="18001" y="144035"/>
+		<node x="18001" y="144235"/>
+		<node x="17801" y="144235"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_02901" territory="dion09_npc2022_029" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35145" pos="17882;144184;-3051;54112" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_030" minZ="-2744" maxZ="-2544">
+		<node x="16252" y="142780"/>
+		<node x="16452" y="142780"/>
+		<node x="16452" y="142980"/>
+		<node x="16252" y="142980"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_03001" territory="dion09_npc2022_030" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31080" pos="16354;142870;-2696;15000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_031" minZ="-3109" maxZ="-2909">
+		<node x="18380" y="144524"/>
+		<node x="18580" y="144524"/>
+		<node x="18580" y="144724"/>
+		<node x="18380" y="144724"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_03101" territory="dion09_npc2022_031" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31087" pos="18482;144626;-3056;7000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_032" minZ="-3075" maxZ="-2875">
+		<node x="16284" y="144812"/>
+		<node x="16484" y="144812"/>
+		<node x="16484" y="145012"/>
+		<node x="16284" y="145012"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_03201" territory="dion09_npc2022_032" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31092" pos="16393;144916;-3016;30000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_033" minZ="-3104" maxZ="-2904">
+		<node x="19840" y="143076"/>
+		<node x="20040" y="143060"/>
+		<node x="20084" y="143332"/>
+		<node x="19896" y="143368"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_03301" territory="dion09_npc2022_033" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="30508" pos="19932;143232;-3040;63000" total="1" respawn="1min"/>
+		<npc id="30510" pos="19924;143196;-3040;63000" total="1" respawn="1min"/>
+		<npc id="30509" pos="20040;143308;-3047;63000" total="1" respawn="1min"/>
+		<npc id="30642" pos="20000;143108;-3045;63000" total="1" respawn="1min"/>
+		<npc id="31427" pos="19920;143136;-3041;4000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_034" minZ="-3063" maxZ="-2863">
+		<node x="19485" y="143047"/>
+		<node x="19640" y="143014"/>
+		<node x="19732" y="143396"/>
+		<node x="19532" y="143396"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_03401" territory="dion09_npc2022_034" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31434" pos="19600;143344;-3026;56000" total="1" respawn="1min"/>
+		<npc id="31441" pos="19536;143072;-3026;13000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_035" minZ="-2733" maxZ="-2533">
+		<node x="16572" y="142236"/>
+		<node x="16772" y="142236"/>
+		<node x="16772" y="142436"/>
+		<node x="16572" y="142436"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_03501" territory="dion09_npc2022_035" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31418" pos="16694;142336;-2691;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_036" minZ="-3104" maxZ="-2904">
+		<node x="19436" y="145884"/>
+		<node x="19636" y="145884"/>
+		<node x="19636" y="146084"/>
+		<node x="19436" y="146084"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_03601" territory="dion09_npc2022_036" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31570" pos="19539;145987;-3068;32500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_037" minZ="-3045" maxZ="-2845">
+		<node x="16188" y="144188"/>
+		<node x="16388" y="144188"/>
+		<node x="16388" y="144388"/>
+		<node x="16188" y="144388"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_03701" territory="dion09_npc2022_037" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31688" pos="16304;144288;-2992;55000" total="1" respawn="1min"/>
+		<npc id="31690" pos="16256;144256;-2992;55000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_038" minZ="-2768" maxZ="-2568">
+		<node x="15756" y="142764"/>
+		<node x="15956" y="142764"/>
+		<node x="15956" y="142964"/>
+		<node x="15756" y="142964"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_03801" territory="dion09_npc2022_038" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31797" pos="15856;142816;-2704;15000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_039" minZ="-3172" maxZ="-2972">
+		<node x="17292" y="146828"/>
+		<node x="17492" y="146828"/>
+		<node x="17492" y="147028"/>
+		<node x="17292" y="147028"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_03901" territory="dion09_npc2022_039" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31798" pos="17388;146912;-3104;3000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_040" minZ="-3156" maxZ="-2956">
+		<node x="20956" y="145356"/>
+		<node x="21156" y="145356"/>
+		<node x="21156" y="145556"/>
+		<node x="20956" y="145556"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_04001" territory="dion09_npc2022_040" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31799" pos="21088;145424;-3088;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_041" minZ="-3092" maxZ="-2892">
+		<node x="19180" y="142924"/>
+		<node x="19380" y="142924"/>
+		<node x="19380" y="143124"/>
+		<node x="19180" y="143124"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_04101" territory="dion09_npc2022_041" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31800" pos="19248;143040;-3040;31000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_042" minZ="-3190" maxZ="-2990">
+		<node x="18748" y="145836"/>
+		<node x="18948" y="145836"/>
+		<node x="18948" y="146036"/>
+		<node x="18748" y="146036"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_04201" territory="dion09_npc2022_042" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30767" pos="18853;145939;-3075;49152" total="1" respawn="1min">
+			<ai>
+				<set name="fnAgitMap" val="dion"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_043" minZ="-3209" maxZ="-3009">
+		<node x="20719" y="144407"/>
+		<node x="21105" y="144469"/>
+		<node x="21056" y="144961"/>
+		<node x="20743" y="145037"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_0101" territory="dion09_npc2022_043" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30057" pos="20777;144971;-3068;53248" total="1" respawn="1min"/>
+		<npc id="30058" pos="20750;144432;-3068;8192" total="1" respawn="1min"/>
+		<npc id="30469" pos="21040;144608;-3069;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_044" minZ="-3210" maxZ="-3010">
+		<node x="19433" y="144302"/>
+		<node x="19755" y="144279"/>
+		<node x="19735" y="144794"/>
+		<node x="19430" y="144833"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_0201" territory="dion09_npc2022_044" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="30064" pos="19708;144780;-3088;40960" total="1" respawn="1min"/>
+		<npc id="30066" pos="19516;144772;-3088;49152" total="1" respawn="1min"/>
+		<npc id="30459" pos="19696;144336;-3088;24576" total="1" respawn="1min"/>
+		<npc id="30065" pos="19725;144567;-3088;32768" total="1" respawn="1min"/>
+		<npc id="30460" pos="19472;144334;-3088;8192" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_045" minZ="-3198" maxZ="-2998">
+		<node x="19164" y="146140"/>
+		<node x="19364" y="146140"/>
+		<node x="19364" y="146340"/>
+		<node x="19164" y="146340"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_0301" territory="dion09_npc2022_045" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30062" pos="19313;146229;-3069;49152" total="1" respawn="1min"/>
+		<npc id="30063" pos="19223;146228;-3069;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_046" minZ="-3192" maxZ="-2992">
+		<node x="17868" y="144412"/>
+		<node x="18068" y="144412"/>
+		<node x="18068" y="144612"/>
+		<node x="17868" y="144612"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_0401" territory="dion09_npc2022_046" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30060" pos="17999;144484;-3046;6000" total="1" respawn="1min"/>
+		<npc id="30061" pos="17948;144560;-3046;6000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_047" minZ="-3221" maxZ="-3021">
+		<node x="17148" y="146636"/>
+		<node x="17419" y="146561"/>
+		<node x="17353" y="147071"/>
+		<node x="17089" y="146861"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_0501" territory="dion09_npc2022_047" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30463" pos="17384;146605;-3085;28672" total="1" respawn="1min"/>
+		<npc id="30464" pos="17280;146944;-3085;45056" total="1" respawn="1min"/>
+		<npc id="30462" pos="17168;146720;-3085;2500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_048" minZ="-2835" maxZ="-2635">
+		<node x="15532" y="142780"/>
+		<node x="15732" y="142780"/>
+		<node x="15732" y="142980"/>
+		<node x="15532" y="142980"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_0701" territory="dion09_npc2022_048" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30059" pos="15631;142885;-2704;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_049" minZ="-3217" maxZ="-3017">
+		<node x="17249" y="147383"/>
+		<node x="17619" y="147351"/>
+		<node x="17544" y="147682"/>
+		<node x="17243" y="147636"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_0801" territory="dion09_npc2022_049" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30072" pos="17503;147575;-3124;20480" total="1" respawn="1min"/>
+		<npc id="30071" pos="17282;147500;-3119;20480" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_050" minZ="-3276" maxZ="-3076">
+		<node x="21403" y="145660"/>
+		<node x="21590" y="145688"/>
+		<node x="21608" y="146008"/>
+		<node x="21413" y="146018"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_0901" territory="dion09_npc2022_050" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30466" pos="21491;145968;-3155;0" total="1" respawn="1min"/>
+		<npc id="30465" pos="21495;145728;-3145;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_051" minZ="-3165" maxZ="-2965">
+		<node x="18684" y="142335"/>
+		<node x="19082" y="142263"/>
+		<node x="19130" y="142518"/>
+		<node x="18758" y="142590"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_1001" territory="dion09_npc2022_051" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30075" pos="18813;142439;-3046;47500" total="1" respawn="1min"/>
+		<npc id="30076" pos="19044;142392;-3057;47500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_052" minZ="-3162" maxZ="-2962">
+		<node x="16828" y="143932"/>
+		<node x="17028" y="143932"/>
+		<node x="17028" y="144132"/>
+		<node x="16828" y="144132"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_1101" territory="dion09_npc2022_052" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30074" pos="16937;144041;-3014;36864" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_053" minZ="-3226" maxZ="-3026">
+		<node x="15644" y="144524"/>
+		<node x="15844" y="144524"/>
+		<node x="15844" y="144724"/>
+		<node x="15644" y="144724"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_1201" territory="dion09_npc2022_053" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30073" pos="15757;144638;-3079;36864" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_054" minZ="-3178" maxZ="-2978">
+		<node x="19612" y="143036"/>
+		<node x="19812" y="143036"/>
+		<node x="19812" y="143236"/>
+		<node x="19612" y="143236"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_1301" territory="dion09_npc2022_054" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30458" pos="19737;143122;-3028;29500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_2c01" minZ="-2740" maxZ="-2540">
+		<node x="15484" y="142700"/>
+		<node x="15684" y="142700"/>
+		<node x="15684" y="142900"/>
+		<node x="15484" y="142900"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_2c01" territory="dion09_npc2022_2c01" event="test_2nd_class" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31756" pos="15584;142784;-2699;16500" total="1" respawn="1min"/>
+		<npc id="31757" pos="15631;142778;-2699;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_bk01" minZ="-3160" maxZ="-2960">
+		<node x="18076" y="145064"/>
+		<node x="18276" y="145064"/>
+		<node x="18276" y="145264"/>
+		<node x="18076" y="145264"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_bk01" territory="dion09_npc2022_bk01" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="18178;145149;-3054;7400" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_bk02" minZ="-3208" maxZ="-3008">
+		<node x="19100" y="144284"/>
+		<node x="19300" y="144284"/>
+		<node x="19300" y="144484"/>
+		<node x="19100" y="144484"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_bk02" territory="dion09_npc2022_bk02" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="19208;144380;-3097;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_bk03" minZ="-3192" maxZ="-2992">
+		<node x="19404" y="145692"/>
+		<node x="19604" y="145692"/>
+		<node x="19604" y="145892"/>
+		<node x="19404" y="145892"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_bk03" territory="dion09_npc2022_bk03" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="19508;145775;-3086;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_eg01" minZ="-2776" maxZ="-2576">
+		<node x="15516" y="142812"/>
+		<node x="15716" y="142812"/>
+		<node x="15716" y="143012"/>
+		<node x="15516" y="143012"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_eg01" territory="dion09_npc2022_eg01" event="event_gate" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31219" pos="15578;142885;-2696;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_fi01" minZ="-3140" maxZ="-2940">
+		<node x="19272" y="145692"/>
+		<node x="19472" y="145692"/>
+		<node x="19472" y="145892"/>
+		<node x="19272" y="145892"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_fi01" territory="dion09_npc2022_fi01" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="19421;145801;-3080;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_fi02" minZ="-2776" maxZ="-2576">
+		<node x="15704" y="142831"/>
+		<node x="15718" y="142927"/>
+		<node x="15809" y="142911"/>
+		<node x="15805" y="142818"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_fi02" territory="dion09_npc2022_fi02" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="15810;142826;-2696;15500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_ht01" minZ="-3160" maxZ="-2960">
+		<node x="18076" y="145064"/>
+		<node x="18276" y="145064"/>
+		<node x="18276" y="145264"/>
+		<node x="18076" y="145264"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_ht01" territory="dion09_npc2022_ht01" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="18178;145149;-3054;7400" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_ht02" minZ="-3208" maxZ="-3008">
+		<node x="19100" y="144284"/>
+		<node x="19300" y="144284"/>
+		<node x="19300" y="144484"/>
+		<node x="19100" y="144484"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_ht02" territory="dion09_npc2022_ht02" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="19208;144380;-3097;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_ht03" minZ="-3192" maxZ="-2992">
+		<node x="19404" y="145692"/>
+		<node x="19604" y="145692"/>
+		<node x="19604" y="145892"/>
+		<node x="19404" y="145892"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_ht03" territory="dion09_npc2022_ht03" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="19508;145775;-3086;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_lc01" minZ="-3160" maxZ="-2960">
+		<node x="18076" y="145064"/>
+		<node x="18276" y="145064"/>
+		<node x="18276" y="145264"/>
+		<node x="18076" y="145264"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_lc01" territory="dion09_npc2022_lc01" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="18178;145149;-3054;7400" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_lc02" minZ="-3208" maxZ="-3008">
+		<node x="19100" y="144284"/>
+		<node x="19300" y="144284"/>
+		<node x="19300" y="144484"/>
+		<node x="19100" y="144484"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_lc02" territory="dion09_npc2022_lc02" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="19208;144380;-3097;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_lc03" minZ="-3192" maxZ="-2992">
+		<node x="19404" y="145692"/>
+		<node x="19604" y="145692"/>
+		<node x="19604" y="145892"/>
+		<node x="19404" y="145892"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_lc03" territory="dion09_npc2022_lc03" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="19508;145775;-3086;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_md01" minZ="-3160" maxZ="-2960">
+		<node x="18076" y="145064"/>
+		<node x="18276" y="145064"/>
+		<node x="18276" y="145264"/>
+		<node x="18076" y="145264"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_md01" territory="dion09_npc2022_md01" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="18178;145149;-3054;7400" total="1" respawn="1min"/>
+		<npc id="31229" pos="18154;145192;-3054;7400" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_md02" minZ="-3208" maxZ="-3008">
+		<node x="19100" y="144284"/>
+		<node x="19300" y="144284"/>
+		<node x="19300" y="144484"/>
+		<node x="19100" y="144484"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_md02" territory="dion09_npc2022_md02" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="19208;144380;-3097;32768" total="1" respawn="1min"/>
+		<npc id="31229" pos="19214;144327;-3097;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_md03" minZ="-3192" maxZ="-2992">
+		<node x="19404" y="145692"/>
+		<node x="19604" y="145692"/>
+		<node x="19604" y="145892"/>
+		<node x="19404" y="145892"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_md03" territory="dion09_npc2022_md03" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="19508;145775;-3086;48000" total="1" respawn="1min"/>
+		<npc id="31229" pos="19459;145775;-3086;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_sp1" minZ="-2770" maxZ="-2570">
+		<node x="15612" y="143020"/>
+		<node x="15812" y="143020"/>
+		<node x="15812" y="143220"/>
+		<node x="15612" y="143220"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_sp1m1" territory="dion09_npc2022_sp1" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31186" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_sp2" minZ="-3084" maxZ="-2884">
+		<node x="18988" y="142828"/>
+		<node x="19188" y="142828"/>
+		<node x="19188" y="143028"/>
+		<node x="18988" y="143028"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_sp2m1" territory="dion09_npc2022_sp2" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31183" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_sp3" minZ="-3184" maxZ="-2984">
+		<node x="17388" y="147084"/>
+		<node x="17588" y="147084"/>
+		<node x="17588" y="147284"/>
+		<node x="17388" y="147284"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_sp3m1" territory="dion09_npc2022_sp3" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31187" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_sp4" minZ="-3052" maxZ="-2852">
+		<node x="16572" y="144188"/>
+		<node x="16772" y="144188"/>
+		<node x="16772" y="144388"/>
+		<node x="16572" y="144388"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_sp4m1" territory="dion09_npc2022_sp4" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31191" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_sp5" minZ="-3164" maxZ="-2964">
+		<node x="17804" y="145804"/>
+		<node x="18004" y="145804"/>
+		<node x="18004" y="146004"/>
+		<node x="17804" y="146004"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_sp5m1" territory="dion09_npc2022_sp5" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31190" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_sp6" minZ="-3180" maxZ="-2980">
+		<node x="18876" y="145420"/>
+		<node x="19076" y="145420"/>
+		<node x="19076" y="145620"/>
+		<node x="18876" y="145620"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_sp6m1" territory="dion09_npc2022_sp6" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31194" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_sp7" minZ="-3180" maxZ="-2980">
+		<node x="18780" y="144588"/>
+		<node x="18980" y="144588"/>
+		<node x="18980" y="144788"/>
+		<node x="18780" y="144788"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_sp7m1" territory="dion09_npc2022_sp7" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31198" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tb01" minZ="-3160" maxZ="-2960">
+		<node x="18079" y="145059"/>
+		<node x="18279" y="145059"/>
+		<node x="18279" y="145259"/>
+		<node x="18079" y="145259"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tb01m1" territory="dion09_npc2022_tb01" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="18178;145149;-3054;7400" total="1" respawn="1min"/>
+		<npc id="13036" pos="18102;145191;-3051;27175" total="1" respawn="15sec"/>
+		<npc id="13036" pos="18207;145070;-3052;54064" total="1" respawn="15sec"/>
+		<npc id="13036" pos="18131;145221;-3051;22551" total="1" respawn="15sec"/>
+		<npc id="13036" pos="18169;145237;-3051;18145" total="1" respawn="15sec"/>
+		<npc id="13036" pos="18214;145229;-3051;10391" total="1" respawn="15sec"/>
+		<npc id="13036" pos="18258;145175;-3052;3760" total="1" respawn="15sec"/>
+		<npc id="13036" pos="18259;145132;-3052;62320" total="1" respawn="15sec"/>
+		<npc id="13036" pos="18240;145096;-3052;58920" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tb02" minZ="-3208" maxZ="-3008">
+		<node x="19054" y="144272"/>
+		<node x="19254" y="144272"/>
+		<node x="19254" y="144472"/>
+		<node x="19054" y="144472"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tb02m1" territory="dion09_npc2022_tb02" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="19185;144377;-3097;32768" total="1" respawn="1min"/>
+		<npc id="13036" pos="19220;144294;-3094;52823" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19215;144454;-3095;14176" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19179;144289;-3094;48199" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19139;144300;-3094;43793" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19110;144336;-3094;36039" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19109;144405;-3095;29408" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19136;144439;-3095;22432" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19173;144455;-3095;19032" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tb03" minZ="-3192" maxZ="-2992">
+		<node x="19407" y="145613"/>
+		<node x="19607" y="145613"/>
+		<node x="19607" y="145813"/>
+		<node x="19407" y="145813"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tb03m1" territory="dion09_npc2022_tb03" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="19508;145753;-3086;47999" total="1" respawn="1min"/>
+		<npc id="13036" pos="19589;145767;-3083;1639" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19431;145793;-3084;28528" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19586;145726;-3083;62551" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19567;145689;-3083;58145" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19527;145667;-3083;50391" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19458;145680;-3084;43760" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19431;145713;-3084;36784" total="1" respawn="15sec"/>
+		<npc id="13036" pos="19422;145752;-3084;33384" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tk01" minZ="-2745" maxZ="-2545">
+		<node x="15628" y="142796"/>
+		<node x="15828" y="142796"/>
+		<node x="15828" y="142996"/>
+		<node x="15628" y="142996"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tk01" territory="dion09_npc2022_tk01" event="18age" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30990" pos="15693;142886;-2696;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tw01" minZ="-2770" maxZ="-2570">
+		<node x="15612" y="143020"/>
+		<node x="15812" y="143020"/>
+		<node x="15812" y="143220"/>
+		<node x="15612" y="143220"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tw01m1" territory="dion09_npc2022_tw01" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31186" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tw02" minZ="-3084" maxZ="-2884">
+		<node x="18988" y="142828"/>
+		<node x="19188" y="142828"/>
+		<node x="19188" y="143028"/>
+		<node x="18988" y="143028"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tw02m1" territory="dion09_npc2022_tw02" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31183" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tw03" minZ="-3184" maxZ="-2984">
+		<node x="17388" y="147084"/>
+		<node x="17588" y="147084"/>
+		<node x="17588" y="147284"/>
+		<node x="17388" y="147284"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tw03m1" territory="dion09_npc2022_tw03" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31187" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tw04" minZ="-3052" maxZ="-2852">
+		<node x="16572" y="144188"/>
+		<node x="16772" y="144188"/>
+		<node x="16772" y="144388"/>
+		<node x="16572" y="144388"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tw04m1" territory="dion09_npc2022_tw04" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31191" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tw05" minZ="-3164" maxZ="-2964">
+		<node x="17804" y="145804"/>
+		<node x="18004" y="145804"/>
+		<node x="18004" y="146004"/>
+		<node x="17804" y="146004"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tw05m1" territory="dion09_npc2022_tw05" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31190" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tw06" minZ="-3180" maxZ="-2980">
+		<node x="18876" y="145420"/>
+		<node x="19076" y="145420"/>
+		<node x="19076" y="145620"/>
+		<node x="18876" y="145620"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tw06m1" territory="dion09_npc2022_tw06" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31194" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_tw07" minZ="-3180" maxZ="-2980">
+		<node x="18780" y="144588"/>
+		<node x="18980" y="144588"/>
+		<node x="18980" y="144788"/>
+		<node x="18780" y="144788"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_tw07m1" territory="dion09_npc2022_tw07" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31198" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_xm01" minZ="-3160" maxZ="-2960">
+		<node x="18076" y="145064"/>
+		<node x="18276" y="145064"/>
+		<node x="18276" y="145264"/>
+		<node x="18076" y="145264"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_xm01" territory="dion09_npc2022_xm01" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="18178;145149;-3054;7400" total="1" respawn="1min"/>
+		<npc id="13006" pos="18154;145192;-3054;7400" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_xm02" minZ="-3208" maxZ="-3008">
+		<node x="19100" y="144284"/>
+		<node x="19300" y="144284"/>
+		<node x="19300" y="144484"/>
+		<node x="19100" y="144484"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_xm02" territory="dion09_npc2022_xm02" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="19208;144380;-3097;32768" total="1" respawn="1min"/>
+		<npc id="13006" pos="19214;144327;-3097;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion09_npc2022_xm03" minZ="-3192" maxZ="-2992">
+		<node x="19404" y="145692"/>
+		<node x="19604" y="145692"/>
+		<node x="19604" y="145892"/>
+		<node x="19404" y="145892"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_xm03" territory="dion09_npc2022_xm03" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="19508;145775;-3086;48000" total="1" respawn="1min"/>
+		<npc id="13006" pos="19459;145775;-3086;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion11_npc2022_14" minZ="-2995" maxZ="-2795">
+		<node x="21516" y="160124"/>
+		<node x="21716" y="160124"/>
+		<node x="21716" y="160324"/>
+		<node x="21516" y="160324"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_1401" territory="dion11_npc2022_14" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35140" pos="21595;160208;-2877;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion11_npc2022_15" minZ="-2996" maxZ="-2796">
+		<node x="22012" y="159644"/>
+		<node x="22212" y="159644"/>
+		<node x="22212" y="159844"/>
+		<node x="22012" y="159844"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_1501" territory="dion11_npc2022_15" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35141" pos="22110;159744;-2856;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion11_npc2022_16" minZ="-2265" maxZ="-2065">
+		<node x="21804" y="161516"/>
+		<node x="22004" y="161516"/>
+		<node x="22004" y="161716"/>
+		<node x="21804" y="161716"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_1601" territory="dion11_npc2022_16" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35143" pos="21912;161608;-2226;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion11_npc2022_17" minZ="-2747" maxZ="-2547">
+		<node x="21756" y="160780"/>
+		<node x="21956" y="160780"/>
+		<node x="21956" y="160980"/>
+		<node x="21756" y="160980"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_02201" territory="dion11_npc2022_17" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35144" pos="21836;160806;-2679;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion11_npc2022_18" minZ="-2740" maxZ="-2540">
+		<node x="22204" y="160716"/>
+		<node x="22404" y="160716"/>
+		<node x="22404" y="160916"/>
+		<node x="22204" y="160916"/>
+	</territory>
+	<npcmaker name="dion11_npc2022_18m1" territory="dion11_npc2022_18" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35649" pos="22304;160808;-2689;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_01" minZ="-3358" maxZ="-2558">
+		<node x="11433" y="134370"/>
+		<node x="13606" y="136693"/>
+		<node x="11324" y="137929"/>
+		<node x="9326" y="136305"/>
+	</territory>
+	<npcmaker name="dion15_2022_01" territory="dion15_2022_01" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20292" total="4" respawn="24sec"/>
+		<npc id="20291" total="3" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_02" minZ="-3388" maxZ="-2588">
+		<node x="13682" y="136736"/>
+		<node x="15340" y="139187"/>
+		<node x="13616" y="139897"/>
+		<node x="11384" y="138012"/>
+	</territory>
+	<npcmaker name="dion15_2022_02" territory="dion15_2022_02" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20292" total="5" respawn="24sec"/>
+		<npc id="20291" total="2" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_03" minZ="-3533" maxZ="-2733">
+		<node x="13475" y="134128"/>
+		<node x="16244" y="135212"/>
+		<node x="14275" y="136432"/>
+		<node x="11565" y="134356"/>
+	</territory>
+	<npcmaker name="dion15_2022_03" territory="dion15_2022_03" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20292" total="2" respawn="24sec"/>
+		<npc id="20291" total="2" respawn="24sec"/>
+		<npc id="20224" total="1" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_04" minZ="-3592" maxZ="-2792">
+		<node x="16474" y="135234"/>
+		<node x="18828" y="136392"/>
+		<node x="17333" y="139303"/>
+		<node x="15032" y="136062"/>
+	</territory>
+	<npcmaker name="dion15_2022_04" territory="dion15_2022_04" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20292" total="3" respawn="24sec"/>
+		<npc id="20291" total="2" respawn="24sec"/>
+		<npc id="20224" total="2" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_05" minZ="-3715" maxZ="-2915">
+		<node x="18835" y="136795"/>
+		<node x="21989" y="137845"/>
+		<node x="22021" y="139966"/>
+		<node x="19414" y="140687"/>
+		<node x="17408" y="139360"/>
+	</territory>
+	<npcmaker name="dion15_2022_05" territory="dion15_2022_05" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20224" total="2" respawn="24sec"/>
+		<npc id="20265" total="4" respawn="24sec"/>
+		<npc id="20062" total="4" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_06" minZ="-3715" maxZ="-2715">
+		<node x="22085" y="137808"/>
+		<node x="24152" y="135445"/>
+		<node x="26151" y="136730"/>
+		<node x="22161" y="139904"/>
+	</territory>
+	<npcmaker name="dion15_2022_06" territory="dion15_2022_06" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20265" total="4" respawn="24sec"/>
+		<npc id="20062" total="4" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_07" minZ="-3289" maxZ="-2489">
+		<node x="25435" y="135929"/>
+		<node x="29046" y="134625"/>
+		<node x="30512" y="136326"/>
+		<node x="26279" y="136646"/>
+	</territory>
+	<npcmaker name="dion15_2022_07" territory="dion15_2022_07" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20062" total="3" respawn="24sec"/>
+		<npc id="20205" total="4" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_08" minZ="-3237" maxZ="-2537">
+		<node x="29087" y="134594"/>
+		<node x="31029" y="133256"/>
+		<node x="32066" y="133765"/>
+		<node x="30590" y="136240"/>
+	</territory>
+	<npcmaker name="dion15_2022_08" territory="dion15_2022_08" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20062" total="2" respawn="24sec"/>
+		<npc id="20205" total="3" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_09" minZ="-3280" maxZ="-2680">
+		<node x="30475" y="137105"/>
+		<node x="32576" y="134728"/>
+		<node x="32484" y="139815"/>
+		<node x="31555" y="139893"/>
+	</territory>
+	<npcmaker name="dion15_2022_09" territory="dion15_2022_09" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20062" total="3" respawn="24sec"/>
+		<npc id="20205" total="4" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_10" minZ="-3335" maxZ="-2835">
+		<node x="31537" y="139996"/>
+		<node x="32502" y="139884"/>
+		<node x="32520" y="143531"/>
+		<node x="30580" y="143553"/>
+	</territory>
+	<npcmaker name="dion15_2022_10" territory="dion15_2022_10" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20205" total="2" respawn="24sec"/>
+		<npc id="20266" total="5" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_11" minZ="-3335" maxZ="-2535">
+		<node x="28269" y="141141"/>
+		<node x="31458" y="139969"/>
+		<node x="30500" y="143533"/>
+		<node x="27985" y="144857"/>
+	</territory>
+	<npcmaker name="dion15_2022_11" territory="dion15_2022_11" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20062" total="4" respawn="24sec"/>
+		<npc id="20205" total="4" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_12" minZ="-3335" maxZ="-2635">
+		<node x="27233" y="137465"/>
+		<node x="30407" y="137097"/>
+		<node x="31479" y="139940"/>
+		<node x="28216" y="141043"/>
+	</territory>
+	<npcmaker name="dion15_2022_12" territory="dion15_2022_12" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20062" total="4" respawn="24sec"/>
+		<npc id="20205" total="4" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_13" minZ="-3520" maxZ="-2520">
+		<node x="23686" y="139933"/>
+		<node x="27090" y="137383"/>
+		<node x="28161" y="141106"/>
+		<node x="24884" y="142077"/>
+	</territory>
+	<npcmaker name="dion15_2022_13" territory="dion15_2022_13" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20291" total="5" respawn="24sec"/>
+		<npc id="20265" total="5" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_14" minZ="-3520" maxZ="-2520">
+		<node x="24887" y="142179"/>
+		<node x="28159" y="141174"/>
+		<node x="27872" y="144883"/>
+		<node x="24318" y="145875"/>
+	</territory>
+	<npcmaker name="dion15_2022_14" territory="dion15_2022_14" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20224" total="2" respawn="24sec"/>
+		<npc id="20062" total="6" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_15" minZ="-3466" maxZ="-2666">
+		<node x="22160" y="143428"/>
+		<node x="24808" y="142152"/>
+		<node x="24266" y="145855"/>
+		<node x="22707" y="145732"/>
+	</territory>
+	<npcmaker name="dion15_2022_15" territory="dion15_2022_15" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20203" total="4" respawn="24sec"/>
+		<npc id="20291" total="3" respawn="24sec"/>
+		<npc id="20224" total="1" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_16" minZ="-3531" maxZ="-2731">
+		<node x="21684" y="141553"/>
+		<node x="23675" y="139994"/>
+		<node x="24787" y="142103"/>
+		<node x="22162" y="143372"/>
+	</territory>
+	<npcmaker name="dion15_2022_16" territory="dion15_2022_16" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20203" total="4" respawn="24sec"/>
+		<npc id="20147" total="3" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_17" minZ="-3531" maxZ="-2731">
+		<node x="18320" y="148268"/>
+		<node x="19491" y="146777"/>
+		<node x="21960" y="147275"/>
+		<node x="19135" y="149598"/>
+	</territory>
+	<npcmaker name="dion15_2022_17" territory="dion15_2022_17" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20203" total="1" respawn="24sec"/>
+		<npc id="20147" total="2" respawn="24sec"/>
+		<npc id="20224" total="2" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_18" minZ="-3450" maxZ="-2450">
+		<node x="20490" y="149104"/>
+		<node x="22566" y="146716"/>
+		<node x="27676" y="146173"/>
+		<node x="25976" y="149544"/>
+	</territory>
+	<npcmaker name="dion15_2022_18" territory="dion15_2022_18" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20224" total="4" respawn="24sec"/>
+		<npc id="20265" total="5" respawn="24sec"/>
+		<npc id="20062" total="6" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_19" minZ="-3334" maxZ="-2534">
+		<node x="26574" y="155654"/>
+		<node x="20812" y="149386"/>
+		<node x="26556" y="149717"/>
+		<node x="27751" y="151791"/>
+	</territory>
+	<npcmaker name="dion15_2022_19" territory="dion15_2022_19" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20062" total="8" respawn="24sec"/>
+		<npc id="20205" total="7" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_2022_20" minZ="-3246" maxZ="-2446">
+		<node x="30750" y="157297"/>
+		<node x="27076" y="154608"/>
+		<node x="27873" y="151778"/>
+		<node x="31918" y="152428"/>
+	</territory>
+	<npcmaker name="dion15_2022_20" territory="dion15_2022_20" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20205" total="6" respawn="24sec"/>
+		<npc id="20266" total="9" respawn="24sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_tb2022_09" minZ="-3280" maxZ="-2680">
+		<node x="30475" y="137105"/>
+		<node x="32576" y="134728"/>
+		<node x="32484" y="139815"/>
+		<node x="31555" y="139893"/>
+	</territory>
+	<npcmaker name="dion15_tb09_m1" territory="dion15_tb2022_09" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18266" total="1" respawn="90sec"/>
+		<npc id="21802" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_tb2022_10" minZ="-3335" maxZ="-2835">
+		<node x="31537" y="139996"/>
+		<node x="32502" y="139884"/>
+		<node x="32520" y="143531"/>
+		<node x="30580" y="143553"/>
+	</territory>
+	<npcmaker name="dion15_tb10_m1" territory="dion15_tb2022_10" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18266" total="1" respawn="90sec"/>
+		<npc id="21802" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_tb2022_11" minZ="-3335" maxZ="-2535">
+		<node x="28269" y="141141"/>
+		<node x="31458" y="139969"/>
+		<node x="30500" y="143533"/>
+		<node x="27985" y="144857"/>
+	</territory>
+	<npcmaker name="dion15_tb11_m1" territory="dion15_tb2022_11" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18266" total="1" respawn="90sec"/>
+		<npc id="21802" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_tb2022_12" minZ="-3335" maxZ="-2635">
+		<node x="27233" y="137465"/>
+		<node x="30407" y="137097"/>
+		<node x="31479" y="139940"/>
+		<node x="28216" y="141043"/>
+	</territory>
+	<npcmaker name="dion15_tb12_m1" territory="dion15_tb2022_12" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18266" total="1" respawn="90sec"/>
+		<npc id="21802" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_tb2022_13" minZ="-3520" maxZ="-2520">
+		<node x="23686" y="139933"/>
+		<node x="27090" y="137383"/>
+		<node x="28161" y="141106"/>
+		<node x="24884" y="142077"/>
+	</territory>
+	<npcmaker name="dion15_tb13_m1" territory="dion15_tb2022_13" maximumNpcs="2">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18265" total="1" respawn="90sec"/>
+		<npc id="21801" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_tb2022_14" minZ="-3520" maxZ="-2520">
+		<node x="24887" y="142179"/>
+		<node x="28159" y="141174"/>
+		<node x="27872" y="144883"/>
+		<node x="24318" y="145875"/>
+	</territory>
+	<npcmaker name="dion15_tb14_m1" territory="dion15_tb2022_14" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18265" total="1" respawn="90sec"/>
+		<npc id="21801" total="1" respawn="90sec"/>
+	</npcmaker>
+	<npcmaker name="dion15_tb14_m2" territory="dion15_tb2022_14" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18265" total="1" respawn="90sec"/>
+		<npc id="21801" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_tb2022_15" minZ="-3466" maxZ="-2666">
+		<node x="22160" y="143428"/>
+		<node x="24808" y="142152"/>
+		<node x="24266" y="145855"/>
+		<node x="22707" y="145732"/>
+	</territory>
+	<npcmaker name="dion15_tb15_m1" territory="dion15_tb2022_15" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18265" total="1" respawn="90sec"/>
+		<npc id="21801" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_tb2022_16" minZ="-3531" maxZ="-2731">
+		<node x="21684" y="141553"/>
+		<node x="23675" y="139994"/>
+		<node x="24787" y="142103"/>
+		<node x="22162" y="143372"/>
+	</territory>
+	<npcmaker name="dion15_tb16_m1" territory="dion15_tb2022_16" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18265" total="1" respawn="90sec"/>
+		<npc id="21801" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_tb2022_17" minZ="-3531" maxZ="-2731">
+		<node x="18320" y="148268"/>
+		<node x="19491" y="146777"/>
+		<node x="21960" y="147275"/>
+		<node x="19135" y="149598"/>
+	</territory>
+	<npcmaker name="dion15_tb17_m1" territory="dion15_tb2022_17" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18265" total="1" respawn="90sec"/>
+		<npc id="21801" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion15_tb2022_18" minZ="-3450" maxZ="-2450">
+		<node x="20490" y="149104"/>
+		<node x="22566" y="146716"/>
+		<node x="27676" y="146173"/>
+		<node x="25976" y="149544"/>
+	</territory>
+	<npcmaker name="dion15_tb18_m1" territory="dion15_tb2022_18" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18266" total="1" respawn="90sec"/>
+		<npc id="21802" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_2022_01" minZ="-3454" maxZ="-2254">
+		<node x="16628" y="148700"/>
+		<node x="11917" y="149195"/>
+		<node x="11036" y="145234"/>
+		<node x="13279" y="144929"/>
+	</territory>
+	<npcmaker name="dion16_2022_01" territory="dion16_2022_01" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21102" total="2" respawn="30sec"/>
+		<npc id="21103" total="2" respawn="30sec"/>
+		<npc id="21104" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_2022_05" minZ="-3601" maxZ="-2701">
+		<node x="17541" y="150840"/>
+		<node x="18098" y="153880"/>
+		<node x="12911" y="153484"/>
+		<node x="13924" y="150542"/>
+	</territory>
+	<npcmaker name="dion16_2022_05" territory="dion16_2022_05" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21103" total="4" respawn="30sec"/>
+		<npc id="21104" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_2022_08" minZ="-3766" maxZ="-2666">
+		<node x="7448" y="156371"/>
+		<node x="9109" y="160944"/>
+		<node x="5419" y="161502"/>
+		<node x="3906" y="156495"/>
+	</territory>
+	<npcmaker name="dion16_2022_08" territory="dion16_2022_08" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="21103" total="3" respawn="30sec"/>
+		<npc id="21104" total="3" respawn="30sec"/>
+		<npc id="21105" total="3" respawn="30sec"/>
+		<npc id="21106" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_2022_09" minZ="-3732" maxZ="-2632">
+		<node x="13163" y="159551"/>
+		<node x="13108" y="162755"/>
+		<node x="9373" y="161171"/>
+		<node x="8465" y="158834"/>
+	</territory>
+	<npcmaker name="dion16_2022_09" territory="dion16_2022_09" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="21102" total="4" respawn="30sec"/>
+		<npc id="21104" total="3" respawn="30sec"/>
+		<npc id="21105" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_2022_10" minZ="-3732" maxZ="-2632">
+		<node x="16791" y="157256"/>
+		<node x="16186" y="160651"/>
+		<node x="13473" y="162095"/>
+		<node x="13216" y="157313"/>
+	</territory>
+	<npcmaker name="dion16_2022_10" territory="dion16_2022_10" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="21102" total="2" respawn="30sec"/>
+		<npc id="21103" total="2" respawn="30sec"/>
+		<npc id="21104" total="4" respawn="30sec"/>
+		<npc id="21105" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_2022_11" minZ="-3732" maxZ="-2632">
+		<node x="18086" y="154007"/>
+		<node x="16954" y="157055"/>
+		<node x="13242" y="157209"/>
+		<node x="12861" y="153593"/>
+	</territory>
+	<npcmaker name="dion16_2022_11" territory="dion16_2022_11" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="21102" total="2" respawn="30sec"/>
+		<npc id="21103" total="3" respawn="30sec"/>
+		<npc id="21104" total="4" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_2022_12" minZ="-3261" maxZ="-2061">
+		<node x="12751" y="153619"/>
+		<node x="13189" y="159415"/>
+		<node x="8434" y="158683"/>
+		<node x="7582" y="156346"/>
+		<node x="10132" y="153421"/>
+	</territory>
+	<npcmaker name="dion16_2022_12" territory="dion16_2022_12" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="21103" total="3" respawn="30sec"/>
+		<npc id="21104" total="7" respawn="30sec"/>
+		<npc id="21105" total="4" respawn="30sec"/>
+		<npc id="21106" total="4" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_2022_13" minZ="-3843" maxZ="-3143">
+		<node x="8538" y="161948"/>
+		<node x="12050" y="163548"/>
+		<node x="6846" y="163534"/>
+		<node x="5983" y="162252"/>
+	</territory>
+	<npcmaker name="dion16_2022_13" territory="dion16_2022_13" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21103" total="4" respawn="30sec"/>
+		<npc id="21105" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_2022_14" minZ="-3843" maxZ="-3143">
+		<node x="16283" y="161819"/>
+		<node x="16677" y="163564"/>
+		<node x="13739" y="163539"/>
+		<node x="14065" y="162784"/>
+	</territory>
+	<npcmaker name="dion16_2022_14" territory="dion16_2022_14" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21103" total="2" respawn="30sec"/>
+		<npc id="21104" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_npc2023_09" minZ="-2446" maxZ="-2246">
+		<node x="9970" y="156966"/>
+		<node x="10319" y="156969"/>
+		<node x="10313" y="157335"/>
+		<node x="9979" y="157321"/>
+	</territory>
+	<npcmaker name="dion09_npc2022_00501" territory="dion16_npc2023_09" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="30627" pos="10133;157155;-2383;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_tb2022_05" minZ="-3601" maxZ="-2701">
+		<node x="17541" y="150840"/>
+		<node x="18098" y="153880"/>
+		<node x="12911" y="153484"/>
+		<node x="13924" y="150542"/>
+	</territory>
+	<npcmaker name="dion16_tb05_m1" territory="dion16_tb2022_05" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18268" total="1" respawn="90sec"/>
+		<npc id="21804" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_tb2022_08" minZ="-3766" maxZ="-2666">
+		<node x="7448" y="156371"/>
+		<node x="9109" y="160944"/>
+		<node x="5419" y="161502"/>
+		<node x="3906" y="156495"/>
+	</territory>
+	<npcmaker name="dion16_tb08_m1" territory="dion16_tb2022_08" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18268" total="1" respawn="90sec"/>
+		<npc id="21804" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_tb2022_09" minZ="-3732" maxZ="-2632">
+		<node x="13163" y="159551"/>
+		<node x="13108" y="162755"/>
+		<node x="9373" y="161171"/>
+		<node x="8465" y="158834"/>
+	</territory>
+	<npcmaker name="dion16_tb09_m1" territory="dion16_tb2022_09" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18268" total="1" respawn="90sec"/>
+		<npc id="21804" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_tb2022_10" minZ="-3732" maxZ="-2632">
+		<node x="16791" y="157256"/>
+		<node x="16186" y="160651"/>
+		<node x="13473" y="162095"/>
+		<node x="13216" y="157313"/>
+	</territory>
+	<npcmaker name="dion16_tb10_m1" territory="dion16_tb2022_10" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18268" total="1" respawn="90sec"/>
+		<npc id="21804" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_tb2022_11" minZ="-3732" maxZ="-2632">
+		<node x="18086" y="154007"/>
+		<node x="16954" y="157055"/>
+		<node x="13242" y="157209"/>
+		<node x="12861" y="153593"/>
+	</territory>
+	<npcmaker name="dion16_tb11_m1" territory="dion16_tb2022_11" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18268" total="1" respawn="90sec"/>
+		<npc id="21804" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion16_tb2022_12" minZ="-3261" maxZ="-2061">
+		<node x="12751" y="153619"/>
+		<node x="13189" y="159415"/>
+		<node x="8434" y="158683"/>
+		<node x="7582" y="156346"/>
+		<node x="10132" y="153421"/>
+	</territory>
+	<npcmaker name="dion16_tb12_m1" territory="dion16_tb2022_12" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18268" total="1" respawn="90sec"/>
+		<npc id="21804" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_2022_pg01" minZ="-3498" maxZ="-2798">
+		<node x="18819" y="147572"/>
+		<node x="23580" y="146609"/>
+		<node x="26261" y="149468"/>
+		<node x="26279" y="153994"/>
+		<node x="20650" y="153573"/>
+		<node x="18152" y="150525"/>
+	</territory>
+	<npcmaker name="dion_2022_pg01m1" territory="dion_2022_pg01" maximumNpcs="142">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="45" respawn="20sec"/>
+		<npc id="13035" total="1" respawn="10min" respawnRand="3min"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_2022_pg02" minZ="-3202" maxZ="-2702">
+		<node x="22199" y="154769"/>
+		<node x="25367" y="154394"/>
+		<node x="26959" y="159153"/>
+		<node x="25802" y="161771"/>
+		<node x="24556" y="163029"/>
+		<node x="24544" y="157246"/>
+		<node x="23125" y="155889"/>
+		<node x="22713" y="155949"/>
+	</territory>
+	<npcmaker name="dion_2022_pg02m1" territory="dion_2022_pg02" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="22764;155842;-2992;39744" total="1" respawn="1min"/>
+	</npcmaker>
+	<npcmaker name="dion_2022_pg02m2" territory="dion_2022_pg02" maximumNpcs="97">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="30" respawn="20sec"/>
+		<npc id="13035" total="1" respawn="10min" respawnRand="3min"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_2022_pg03" minZ="-3195" maxZ="-2995">
+		<node x="17052" y="147468"/>
+		<node x="17252" y="147468"/>
+		<node x="17252" y="147668"/>
+		<node x="17052" y="147668"/>
+	</territory>
+	<npcmaker name="dion_2022_pg03m1" territory="dion_2022_pg03" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="17152;147568;-3152;6144" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_2022_pg04" minZ="-3227" maxZ="-3027">
+		<node x="21468" y="146028"/>
+		<node x="21668" y="146028"/>
+		<node x="21668" y="146228"/>
+		<node x="21468" y="146228"/>
+	</territory>
+	<npcmaker name="dion_2022_pg04m1" territory="dion_2022_pg04" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="21568;146128;-3184;61920" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_2022_pg05" minZ="-3145" maxZ="-2945">
+		<node x="18476" y="142204"/>
+		<node x="18676" y="142204"/>
+		<node x="18676" y="142404"/>
+		<node x="18476" y="142404"/>
+	</territory>
+	<npcmaker name="dion_2022_pg05m1" territory="dion_2022_pg05" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="18576;142304;-3088;62728" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_2022_pg06" minZ="-3012" maxZ="-2812">
+		<node x="16108" y="143900"/>
+		<node x="16308" y="143900"/>
+		<node x="16308" y="144100"/>
+		<node x="16108" y="144100"/>
+	</territory>
+	<npcmaker name="dion_2022_pg06m1" territory="dion_2022_pg06" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="16208;144000;-2976;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_chamberlain_etc" minZ="-4691" maxZ="33270">
+		<node x="29382" y="164000"/>
+		<node x="19011" y="164000"/>
+		<node x="19012" y="152927"/>
+		<node x="29382" y="152927"/>
+	</territory>
+	<npcmaker name="dion_chamberlain_etc" territory="dion_chamberlain_etc" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="35142" pos="22172;160923;-2666;49152" total="1" respawn="1min"/>
+		<npc id="35146" pos="19132;153027;-3120;49152" total="1" respawn="1min"/>
+		<npc id="35138" pos="22412;156489;-2944;49152" total="1" respawn="3hour"/>
+		<npc id="35138" pos="22466;156837;-2944;0" total="1" respawn="3hour"/>
+		<npc id="35139" pos="22239;159048;-2654;49152" total="1" respawn="3hour"/>
+		<npc id="35139" pos="22305;159403;-2694;0" total="1" respawn="3hour"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_mass_teleporter" minZ="-2034" maxZ="31228">
+		<node x="21186" y="160554"/>
+		<node x="20232" y="160554"/>
+		<node x="20232" y="160201"/>
+		<node x="21185" y="160200"/>
+	</territory>
+	<npcmaker name="dion_mass_teleporter" territory="dion_mass_teleporter" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35137" pos="20492;160363;-1978;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege01" minZ="-2985" maxZ="30177">
+		<node x="22471" y="156698"/>
+		<node x="22130" y="156695"/>
+		<node x="22136" y="156477"/>
+		<node x="22471" y="156477"/>
+	</territory>
+	<npcmaker name="dion_siege01" territory="dion_siege01" spawnTime="siege_warfare_start(2)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35127" pos="22420;156643;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_001" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22392;156643;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_002" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22364;156643;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_003" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22336;156643;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_004" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22308;156643;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_005" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22280;156643;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_006" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22252;156643;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_007" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22224;156643;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_008" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22196;156643;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_009" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22420;156623;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_010" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22392;156623;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_011" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22364;156623;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_012" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22336;156623;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_013" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22308;156623;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_014" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22280;156623;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_015" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22252;156623;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_016" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22224;156623;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_017" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22196;156623;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_018" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22420;156603;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_019" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22392;156603;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_020" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22364;156603;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_021" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22336;156603;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_022" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35121" pos="22308;156603;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_023" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22280;156603;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_024" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22252;156603;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_025" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22224;156603;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_026" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22196;156603;-2953;48376" total="1" respawn="3hour" dbName="dion_siege_027" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege02" minZ="-3016" maxZ="30146">
+		<node x="22949" y="157842"/>
+		<node x="22482" y="157833"/>
+		<node x="22495" y="156956"/>
+		<node x="22977" y="156956"/>
+	</territory>
+	<npcmaker name="dion_siege02" territory="dion_siege02" spawnTime="siege_warfare_start(2)" maximumNpcs="50">
+		<ai type="default_maker"/>
+		<npc id="35126" pos="22563;157021;-2943;32080" total="1" respawn="3hour" dbName="dion_siege_028" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22562;157052;-2942;32080" total="1" respawn="3hour" dbName="dion_siege_029" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35121" pos="22562;157082;-2942;32080" total="1" respawn="3hour" dbName="dion_siege_030" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22562;157112;-2941;32080" total="1" respawn="3hour" dbName="dion_siege_031" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22563;157143;-2942;32080" total="1" respawn="3hour" dbName="dion_siege_032" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22561;157172;-2941;32080" total="1" respawn="3hour" dbName="dion_siege_033" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35121" pos="22561;157202;-2941;32080" total="1" respawn="3hour" dbName="dion_siege_034" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22561;157232;-2940;32080" total="1" respawn="3hour" dbName="dion_siege_035" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22562;157263;-2941;32080" total="1" respawn="3hour" dbName="dion_siege_036" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22588;157039;-2961;32080" total="1" respawn="3hour" dbName="dion_siege_037" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22588;157069;-2961;32080" total="1" respawn="3hour" dbName="dion_siege_038" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22588;157100;-2960;32080" total="1" respawn="3hour" dbName="dion_siege_039" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22589;157130;-2961;32080" total="1" respawn="3hour" dbName="dion_siege_040" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22587;157160;-2960;32080" total="1" respawn="3hour" dbName="dion_siege_041" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22587;157190;-2960;32080" total="1" respawn="3hour" dbName="dion_siege_042" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22586;157219;-2959;32080" total="1" respawn="3hour" dbName="dion_siege_043" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22587;157251;-2960;32080" total="1" respawn="3hour" dbName="dion_siege_044" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22609;157023;-2965;32080" total="1" respawn="3hour" dbName="dion_siege_045" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22608;157053;-2965;32080" total="1" respawn="3hour" dbName="dion_siege_046" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22608;157083;-2964;32080" total="1" respawn="3hour" dbName="dion_siege_047" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22607;157114;-2964;32080" total="1" respawn="3hour" dbName="dion_siege_048" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22609;157144;-2964;32080" total="1" respawn="3hour" dbName="dion_siege_049" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22607;157174;-2963;32080" total="1" respawn="3hour" dbName="dion_siege_050" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22607;157204;-2963;32080" total="1" respawn="3hour" dbName="dion_siege_051" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22606;157233;-2962;32080" total="1" respawn="3hour" dbName="dion_siege_052" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22607;157265;-2963;32080" total="1" respawn="3hour" dbName="dion_siege_053" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22755;157041;-2966;32080" total="1" respawn="3hour" dbName="dion_siege_054" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22755;157071;-2965;32080" total="1" respawn="3hour" dbName="dion_siege_055" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22755;157102;-2965;32080" total="1" respawn="3hour" dbName="dion_siege_056" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22754;157132;-2964;32080" total="1" respawn="3hour" dbName="dion_siege_057" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22755;157162;-2964;32080" total="1" respawn="3hour" dbName="dion_siege_058" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22753;157192;-2964;32080" total="1" respawn="3hour" dbName="dion_siege_059" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22752;157222;-2963;32080" total="1" respawn="3hour" dbName="dion_siege_060" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22752;157252;-2963;32080" total="1" respawn="3hour" dbName="dion_siege_061" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22856;157372;-2957;48668" total="1" respawn="3hour" dbName="dion_siege_062" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22826;157373;-2958;48668" total="1" respawn="3hour" dbName="dion_siege_063" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22618;157254;-2941;32080" total="1" respawn="1min" dbName="dion_siege_064" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22619;157190;-2941;32080" total="1" respawn="1min" dbName="dion_siege_065" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22619;157101;-2941;32080" total="1" respawn="1min" dbName="dion_siege_066" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22616;157041;-2941;32080" total="1" respawn="1min" dbName="dion_siege_067" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege03" minZ="-2840" maxZ="30322">
+		<node x="22612" y="157471"/>
+		<node x="21688" y="157474"/>
+		<node x="21665" y="157052"/>
+		<node x="22617" y="157051"/>
+	</territory>
+	<npcmaker name="dion_siege03m1" territory="dion_siege03" spawnTime="siege_warfare_start(2)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35127" pos="22370;157394;-2692;48668" total="1" respawn="3hour" dbName="dion_siege_068" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22340;157395;-2693;48668" total="1" respawn="3hour" dbName="dion_siege_069" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22310;157392;-2692;48668" total="1" respawn="3hour" dbName="dion_siege_070" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22280;157391;-2692;48668" total="1" respawn="3hour" dbName="dion_siege_071" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22251;157390;-2691;48668" total="1" respawn="3hour" dbName="dion_siege_072" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22600;157328;-2690;48668" total="1" respawn="3hour" dbName="dion_siege_073" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22570;157329;-2691;48668" total="1" respawn="3hour" dbName="dion_siege_074" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22541;157326;-2690;48668" total="1" respawn="3hour" dbName="dion_siege_075" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22511;157325;-2690;48668" total="1" respawn="3hour" dbName="dion_siege_076" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22481;157324;-2689;48668" total="1" respawn="3hour" dbName="dion_siege_077" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22067;157190;-2691;64432" total="1" respawn="3hour" dbName="dion_siege_078" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22064;157160;-2692;64432" total="1" respawn="3hour" dbName="dion_siege_079" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22066;157131;-2691;64432" total="1" respawn="3hour" dbName="dion_siege_080" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22065;157101;-2691;64432" total="1" respawn="3hour" dbName="dion_siege_081" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22064;157071;-2690;64432" total="1" respawn="3hour" dbName="dion_siege_082" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="21800;157396;-2794;32712" total="1" respawn="3hour" dbName="dion_siege_083" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35121" pos="21799;157430;-2794;32712" total="1" respawn="3hour" dbName="dion_siege_084" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="21795;157471;-2793;32712" total="1" respawn="3hour" dbName="dion_siege_085" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="21821;157396;-2783;32712" total="1" respawn="3hour" dbName="dion_siege_086" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="21820;157430;-2784;32712" total="1" respawn="3hour" dbName="dion_siege_087" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="21816;157471;-2783;32712" total="1" respawn="3hour" dbName="dion_siege_088" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="21839;157396;-2769;32712" total="1" respawn="3hour" dbName="dion_siege_089" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="21838;157430;-2770;32712" total="1" respawn="3hour" dbName="dion_siege_090" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="21834;157471;-2769;32712" total="1" respawn="3hour" dbName="dion_siege_091" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22167;157437;-2692;55444" total="1" respawn="3hour" dbName="dion_siege_092" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="dion_siege03m2" territory="dion_siege03" spawnTime="pc_siege_warfare_start(2)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35127" pos="22370;157394;-2692;48668" total="1" respawn="3hour" dbName="dion_siege_400" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22310;157392;-2692;48668" total="1" respawn="3hour" dbName="dion_siege_401" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22251;157390;-2691;48668" total="1" respawn="3hour" dbName="dion_siege_402" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22600;157328;-2690;48668" total="1" respawn="3hour" dbName="dion_siege_403" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22570;157329;-2691;48668" total="1" respawn="3hour" dbName="dion_siege_404" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22541;157326;-2690;48668" total="1" respawn="3hour" dbName="dion_siege_405" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22511;157325;-2690;48668" total="1" respawn="3hour" dbName="dion_siege_406" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22067;157190;-2691;64432" total="1" respawn="3hour" dbName="dion_siege_407" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22066;157131;-2691;64432" total="1" respawn="3hour" dbName="dion_siege_408" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22064;157071;-2690;64432" total="1" respawn="3hour" dbName="dion_siege_409" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege04" minZ="-2787" maxZ="30375">
+		<node x="22454" y="160075"/>
+		<node x="21512" y="161422"/>
+		<node x="21710" y="159079"/>
+		<node x="22441" y="159050"/>
+	</territory>
+	<npcmaker name="dion_siege04" territory="dion_siege04" spawnTime="siege_warfare_start(2)" maximumNpcs="70">
+		<ai type="default_maker"/>
+		<npc id="35124" pos="22217;159415;-2687;39088" total="1" respawn="3hour" dbName="dion_siege_093" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22200;159440;-2688;39088" total="1" respawn="3hour" dbName="dion_siege_094" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22176;159466;-2687;39088" total="1" respawn="3hour" dbName="dion_siege_095" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22157;159489;-2687;39088" total="1" respawn="3hour" dbName="dion_siege_096" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22142;159507;-2686;39088" total="1" respawn="3hour" dbName="dion_siege_097" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22120;159533;-2688;39088" total="1" respawn="3hour" dbName="dion_siege_098" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22103;159558;-2688;39088" total="1" respawn="3hour" dbName="dion_siege_099" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22083;159579;-2688;39088" total="1" respawn="3hour" dbName="dion_siege_100" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22059;159590;-2689;49844" total="1" respawn="3hour" dbName="dion_siege_101" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22034;159571;-2688;58336" total="1" respawn="3hour" dbName="dion_siege_102" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22016;159547;-2688;58336" total="1" respawn="3hour" dbName="dion_siege_103" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22003;159527;-2687;58336" total="1" respawn="3hour" dbName="dion_siege_104" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="21984;159500;-2689;58336" total="1" respawn="3hour" dbName="dion_siege_105" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="21965;159476;-2690;58336" total="1" respawn="3hour" dbName="dion_siege_106" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="21946;159446;-2689;58336" total="1" respawn="3hour" dbName="dion_siege_107" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="21929;159421;-2689;58336" total="1" respawn="3hour" dbName="dion_siege_108" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="21916;159402;-2688;58336" total="1" respawn="3hour" dbName="dion_siege_109" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22232;159435;-2689;39088" total="1" respawn="3hour" dbName="dion_siege_110" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22214;159459;-2690;39088" total="1" respawn="3hour" dbName="dion_siege_111" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22190;159485;-2689;39088" total="1" respawn="3hour" dbName="dion_siege_112" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22171;159509;-2689;39088" total="1" respawn="3hour" dbName="dion_siege_113" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22156;159527;-2688;39088" total="1" respawn="3hour" dbName="dion_siege_114" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22135;159553;-2690;39088" total="1" respawn="3hour" dbName="dion_siege_115" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22117;159577;-2690;39088" total="1" respawn="3hour" dbName="dion_siege_116" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22098;159598;-2690;39088" total="1" respawn="3hour" dbName="dion_siege_117" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22073;159609;-2691;49844" total="1" respawn="3hour" dbName="dion_siege_118" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22045;159608;-2688;49844" total="1" respawn="3hour" dbName="dion_siege_119" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22020;159589;-2687;58336" total="1" respawn="3hour" dbName="dion_siege_120" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22002;159565;-2687;58336" total="1" respawn="3hour" dbName="dion_siege_121" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="21989;159545;-2686;58336" total="1" respawn="3hour" dbName="dion_siege_122" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21970;159518;-2688;58336" total="1" respawn="3hour" dbName="dion_siege_123" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="21951;159494;-2689;58336" total="1" respawn="3hour" dbName="dion_siege_124" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21932;159464;-2688;58336" total="1" respawn="3hour" dbName="dion_siege_125" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="21915;159439;-2688;58336" total="1" respawn="3hour" dbName="dion_siege_126" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21902;159420;-2687;58336" total="1" respawn="3hour" dbName="dion_siege_127" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22260;159540;-2687;39088" total="1" respawn="3hour" dbName="dion_siege_128" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22241;159563;-2687;39088" total="1" respawn="3hour" dbName="dion_siege_129" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22226;159581;-2686;39088" total="1" respawn="3hour" dbName="dion_siege_130" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22204;159607;-2688;39088" total="1" respawn="3hour" dbName="dion_siege_131" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22187;159632;-2689;39088" total="1" respawn="3hour" dbName="dion_siege_132" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21959;159598;-2683;58336" total="1" respawn="3hour" dbName="dion_siege_133" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21946;159578;-2682;58336" total="1" respawn="3hour" dbName="dion_siege_134" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21926;159551;-2684;58336" total="1" respawn="3hour" dbName="dion_siege_135" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21908;159527;-2685;58336" total="1" respawn="3hour" dbName="dion_siege_136" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21889;159497;-2684;58336" total="1" respawn="3hour" dbName="dion_siege_137" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="21928;159674;-2685;48388" total="1" respawn="3hour" dbName="dion_siege_138" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="21894;159674;-2686;48388" total="1" respawn="3hour" dbName="dion_siege_139" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22173;159677;-2686;48388" total="1" respawn="3hour" dbName="dion_siege_140" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22150;159676;-2686;48388" total="1" respawn="3hour" dbName="dion_siege_141" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22225;159402;-2684;58336" total="1" respawn="3hour" dbName="dion_siege_142" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22234;159456;-2687;39088" total="1" respawn="1min" dbName="dion_siege_143" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22153;159547;-2687;39088" total="1" respawn="1min" dbName="dion_siege_144" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21968;159538;-2687;39088" total="1" respawn="1min" dbName="dion_siege_145" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21896;159435;-2687;39088" total="1" respawn="1min" dbName="dion_siege_146" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege05" minZ="-2816" maxZ="30346">
+		<node x="22852" y="161821"/>
+		<node x="21324" y="161829"/>
+		<node x="21311" y="161223"/>
+		<node x="22852" y="161224"/>
+	</territory>
+	<npcmaker name="dion_siege05" territory="dion_siege05" spawnTime="siege_warfare_start(2)" maximumNpcs="60">
+		<ai type="default_maker"/>
+		<npc id="35106" pos="22133;161560;-2749;49112" total="1" respawn="5min"/>
+		<npc id="35107" pos="22021;161563;-2748;49112" total="1" respawn="3min"/>
+		<npc id="35114" pos="21919;161546;-2754;49112" total="1" respawn="2min" dbName="dion_siege_147" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="21882;161547;-2754;49112" total="1" respawn="2min" dbName="dion_siege_148" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="21849;161547;-2754;49112" total="1" respawn="2min" dbName="dion_siege_149" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="21811;161548;-2754;49112" total="1" respawn="2min" dbName="dion_siege_150" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="21774;161548;-2753;49112" total="1" respawn="2min" dbName="dion_siege_151" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="21736;161549;-2753;49112" total="1" respawn="2min" dbName="dion_siege_152" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="21704;161549;-2753;49112" total="1" respawn="2min" dbName="dion_siege_153" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="21666;161550;-2753;49112" total="1" respawn="2min" dbName="dion_siege_154" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="21919;161512;-2755;49112" total="1" respawn="2min" dbName="dion_siege_155" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="21881;161513;-2755;49112" total="1" respawn="2min" dbName="dion_siege_156" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="21848;161513;-2755;49112" total="1" respawn="2min" dbName="dion_siege_157" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="21811;161514;-2755;49112" total="1" respawn="2min" dbName="dion_siege_158" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="21773;161514;-2754;49112" total="1" respawn="2min" dbName="dion_siege_159" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="21736;161515;-2754;49112" total="1" respawn="2min" dbName="dion_siege_160" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="21703;161515;-2754;49112" total="1" respawn="2min" dbName="dion_siege_161" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="21666;161516;-2754;49112" total="1" respawn="2min" dbName="dion_siege_162" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21917;161474;-2756;49112" total="1" respawn="2min" dbName="dion_siege_163" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21879;161475;-2756;49112" total="1" respawn="2min" dbName="dion_siege_164" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35108" pos="21847;161475;-2756;49112" total="1" respawn="2min" dbName="dion_siege_165" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21809;161476;-2756;49112" total="1" respawn="2min" dbName="dion_siege_166" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21772;161476;-2755;49112" total="1" respawn="2min" dbName="dion_siege_167" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35108" pos="21734;161477;-2755;49112" total="1" respawn="2min" dbName="dion_siege_168" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21702;161477;-2755;49112" total="1" respawn="2min" dbName="dion_siege_169" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21664;161478;-2755;49112" total="1" respawn="2min" dbName="dion_siege_170" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22479;161540;-2750;49112" total="1" respawn="2min" dbName="dion_siege_171" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22441;161540;-2750;49112" total="1" respawn="2min" dbName="dion_siege_172" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22409;161540;-2750;49112" total="1" respawn="2min" dbName="dion_siege_173" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22371;161541;-2750;49112" total="1" respawn="2min" dbName="dion_siege_174" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22334;161542;-2749;49112" total="1" respawn="2min" dbName="dion_siege_175" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22296;161542;-2749;49112" total="1" respawn="2min" dbName="dion_siege_176" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22263;161543;-2749;49112" total="1" respawn="2min" dbName="dion_siege_177" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22226;161543;-2749;49112" total="1" respawn="2min" dbName="dion_siege_178" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="22478;161505;-2751;49112" total="1" respawn="2min" dbName="dion_siege_179" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="22440;161506;-2751;49112" total="1" respawn="2min" dbName="dion_siege_180" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="22408;161506;-2751;49112" total="1" respawn="2min" dbName="dion_siege_181" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="22370;161507;-2751;49112" total="1" respawn="2min" dbName="dion_siege_182" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="22333;161508;-2750;49112" total="1" respawn="2min" dbName="dion_siege_183" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="22295;161508;-2750;49112" total="1" respawn="2min" dbName="dion_siege_184" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="22263;161508;-2750;49112" total="1" respawn="2min" dbName="dion_siege_185" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35111" pos="22225;161509;-2750;49112" total="1" respawn="2min" dbName="dion_siege_186" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22477;161468;-2752;49112" total="1" respawn="2min" dbName="dion_siege_187" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22439;161469;-2752;49112" total="1" respawn="2min" dbName="dion_siege_188" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35108" pos="22406;161469;-2752;49112" total="1" respawn="2min" dbName="dion_siege_189" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22369;161470;-2752;49112" total="1" respawn="2min" dbName="dion_siege_190" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22331;161470;-2751;49112" total="1" respawn="2min" dbName="dion_siege_191" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35108" pos="22294;161471;-2751;49112" total="1" respawn="2min" dbName="dion_siege_192" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22261;161471;-2751;49112" total="1" respawn="2min" dbName="dion_siege_193" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22224;161472;-2751;49112" total="1" respawn="2min" dbName="dion_siege_194" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="22399;161705;-2749;49112" total="1" respawn="2min" dbName="dion_siege_195" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="22315;161705;-2748;49112" total="1" respawn="2min" dbName="dion_siege_196" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="22236;161706;-2748;49112" total="1" respawn="2min" dbName="dion_siege_197" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="22161;161706;-2748;49112" total="1" respawn="2min" dbName="dion_siege_198" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="21984;161706;-2745;49112" total="1" respawn="2min" dbName="dion_siege_199" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="21901;161706;-2745;49112" total="1" respawn="2min" dbName="dion_siege_200" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="21821;161707;-2745;49112" total="1" respawn="2min" dbName="dion_siege_201" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="21747;161707;-2745;49112" total="1" respawn="2min" dbName="dion_siege_202" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege06" minZ="-2586" maxZ="30576">
+		<node x="21832" y="161654"/>
+		<node x="21492" y="161665"/>
+		<node x="21492" y="160530"/>
+		<node x="21828" y="160531"/>
+	</territory>
+	<npcmaker name="dion_siege06" territory="dion_siege06" spawnTime="siege_warfare_start(2)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35126" pos="21559;160580;-2527;48856" total="1" respawn="3hour" dbName="dion_siege_203" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35121" pos="21585;160580;-2527;48856" total="1" respawn="3hour" dbName="dion_siege_204" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="21613;160580;-2526;48856" total="1" respawn="3hour" dbName="dion_siege_205" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="21559;160602;-2531;48856" total="1" respawn="3hour" dbName="dion_siege_206" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="21586;160602;-2531;48856" total="1" respawn="3hour" dbName="dion_siege_207" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="21613;160602;-2530;48856" total="1" respawn="3hour" dbName="dion_siege_208" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="21560;160627;-2529;48856" total="1" respawn="3hour" dbName="dion_siege_209" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="21587;160627;-2529;48856" total="1" respawn="3hour" dbName="dion_siege_210" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="21614;160626;-2528;48856" total="1" respawn="3hour" dbName="dion_siege_211" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="21500;160704;-2529;48856" total="1" respawn="3hour" dbName="dion_siege_212" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="21526;160704;-2529;48856" total="1" respawn="3hour" dbName="dion_siege_213" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="21554;160704;-2528;48856" total="1" respawn="3hour" dbName="dion_siege_214" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21755;161277;-2532;65460" total="1" respawn="3hour" dbName="dion_siege_215" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21754;161314;-2532;65460" total="1" respawn="3hour" dbName="dion_siege_216" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="21754;161351;-2531;65460" total="1" respawn="3hour" dbName="dion_siege_217" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21753;161387;-2531;65460" total="1" respawn="3hour" dbName="dion_siege_218" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21753;161423;-2531;65460" total="1" respawn="3hour" dbName="dion_siege_219" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="21752;161461;-2531;65460" total="1" respawn="3hour" dbName="dion_siege_220" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21752;161492;-2530;65460" total="1" respawn="3hour" dbName="dion_siege_221" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21751;161529;-2530;65460" total="1" respawn="3hour" dbName="dion_siege_222" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="21750;161564;-2530;65460" total="1" respawn="3hour" dbName="dion_siege_223" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21750;161601;-2530;65460" total="1" respawn="3hour" dbName="dion_siege_224" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21750;161638;-2530;65460" total="1" respawn="3hour" dbName="dion_siege_225" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege07" minZ="-2586" maxZ="30576">
+		<node x="22669" y="161650"/>
+		<node x="22329" y="161650"/>
+		<node x="22329" y="160444"/>
+		<node x="22665" y="160445"/>
+	</territory>
+	<npcmaker name="dion_siege07" territory="dion_siege07" spawnTime="siege_warfare_start(2)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35126" pos="22534;160514;-2527;48856" total="1" respawn="3hour" dbName="dion_siege_226" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35121" pos="22560;160514;-2527;48856" total="1" respawn="3hour" dbName="dion_siege_227" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35126" pos="22603;160517;-2526;48856" total="1" respawn="3hour" dbName="dion_siege_228" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22534;160536;-2531;48856" total="1" respawn="3hour" dbName="dion_siege_229" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22561;160536;-2531;48856" total="1" respawn="3hour" dbName="dion_siege_230" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35125" pos="22588;160536;-2530;48856" total="1" respawn="3hour" dbName="dion_siege_231" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22535;160561;-2529;48856" total="1" respawn="3hour" dbName="dion_siege_232" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22562;160561;-2529;48856" total="1" respawn="3hour" dbName="dion_siege_233" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35124" pos="22589;160560;-2528;48856" total="1" respawn="3hour" dbName="dion_siege_234" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22496;160802;-2529;48856" total="1" respawn="3hour" dbName="dion_siege_235" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22522;160802;-2529;48856" total="1" respawn="3hour" dbName="dion_siege_236" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22550;160802;-2528;48856" total="1" respawn="3hour" dbName="dion_siege_237" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22388;161632;-2532;32384" total="1" respawn="3hour" dbName="dion_siege_238" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22387;161596;-2532;32384" total="1" respawn="3hour" dbName="dion_siege_239" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22386;161559;-2531;32384" total="1" respawn="3hour" dbName="dion_siege_240" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22386;161523;-2531;32384" total="1" respawn="3hour" dbName="dion_siege_241" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22386;161487;-2531;32384" total="1" respawn="3hour" dbName="dion_siege_242" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22385;161449;-2531;32384" total="1" respawn="3hour" dbName="dion_siege_243" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22385;161418;-2530;32384" total="1" respawn="3hour" dbName="dion_siege_244" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22384;161381;-2530;32384" total="1" respawn="3hour" dbName="dion_siege_245" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22384;161346;-2530;32384" total="1" respawn="3hour" dbName="dion_siege_246" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22383;161309;-2530;32384" total="1" respawn="3hour" dbName="dion_siege_247" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22382;161272;-2530;32384" total="1" respawn="3hour" dbName="dion_siege_248" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege08" minZ="-3199" maxZ="-2399">
+		<node x="21866" y="156338"/>
+		<node x="22772" y="156351"/>
+		<node x="22788" y="156646"/>
+		<node x="21861" y="156649"/>
+	</territory>
+	<npcmaker name="dion_siege08m1" territory="dion_siege08" spawnTime="siege_warfare_start(2)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35127" pos="22084;156570;-2576;0" total="1" respawn="3hour" dbName="dion_siege_249" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22084;156502;-2576;0" total="1" respawn="3hour" dbName="dion_siege_250" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22066;156434;-2576;57344" total="1" respawn="3hour" dbName="dion_siege_251" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22034;156410;-2576;49152" total="1" respawn="3hour" dbName="dion_siege_252" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21997;156410;-2576;49152" total="1" respawn="3hour" dbName="dion_siege_253" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21960;156410;-2576;49152" total="1" respawn="3hour" dbName="dion_siege_254" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21922;156410;-2576;49152" total="1" respawn="3hour" dbName="dion_siege_255" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22540;156570;-2576;32768" total="1" respawn="3hour" dbName="dion_siege_256" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22540;156498;-2576;32768" total="1" respawn="3hour" dbName="dion_siege_257" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22560;156432;-2576;40960" total="1" respawn="3hour" dbName="dion_siege_258" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22592;156405;-2576;49152" total="1" respawn="3hour" dbName="dion_siege_259" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22629;156405;-2576;49152" total="1" respawn="3hour" dbName="dion_siege_260" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22665;156405;-2576;49152" total="1" respawn="3hour" dbName="dion_siege_261" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22700;156405;-2576;49152" total="1" respawn="3hour" dbName="dion_siege_262" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22084;156536;-2576;0" total="1" respawn="3hour" dbName="dion_siege_263" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22084;156470;-2576;0" total="1" respawn="3hour" dbName="dion_siege_264" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22540;156533;-2576;32768" total="1" respawn="3hour" dbName="dion_siege_265" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22540;156464;-2576;32768" total="1" respawn="3hour" dbName="dion_siege_266" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22020;156475;-2576;57344" total="1" respawn="3hour" dbName="dion_siege_267" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22599;156480;-2576;40960" total="1" respawn="3hour" dbName="dion_siege_268" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="dion_siege08m2" territory="dion_siege08" spawnTime="pc_siege_warfare_start(2)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35127" pos="22064;156579;-2567;0" total="1" respawn="3hour" dbName="dion_siege_413" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22064;156467;-2567;0" total="1" respawn="3hour" dbName="dion_siege_414" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22017;156408;-2567;57344" total="1" respawn="3hour" dbName="dion_siege_415" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21950;156394;-2567;49152" total="1" respawn="3hour" dbName="dion_siege_416" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22549;156540;-2567;32768" total="1" respawn="3hour" dbName="dion_siege_417" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22548;156460;-2567;32768" total="1" respawn="3hour" dbName="dion_siege_418" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22594;156403;-2567;40960" total="1" respawn="3hour" dbName="dion_siege_419" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22666;156391;-2567;49152" total="1" respawn="3hour" dbName="dion_siege_420" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22549;156499;-2566;32768" total="1" respawn="3hour" dbName="dion_siege_421" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22560;156428;-2566;40960" total="1" respawn="3hour" dbName="dion_siege_422" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22054;156431;-2566;57344" total="1" respawn="3hour" dbName="dion_siege_423" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22064;156515;-2567;0" total="1" respawn="3hour" dbName="dion_siege_424" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22648;156430;-2567;40960" total="1" respawn="3hour" dbName="dion_siege_425" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="21958;156438;-2567;57344" total="1" respawn="3hour" dbName="dion_siege_426" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege09" minZ="-2906" maxZ="30256">
+		<node x="22583" y="158482"/>
+		<node x="21601" y="158482"/>
+		<node x="21608" y="158075"/>
+		<node x="22585" y="158082"/>
+	</territory>
+	<npcmaker name="dion_siege09" territory="dion_siege09" spawnTime="siege_warfare_start(2)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35114" pos="22136;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_269" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22008;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_270" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="21945;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_271" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22200;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_272" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22331;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_273" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="22459;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_274" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="21817;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_275" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35114" pos="21688;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_276" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35109" pos="22264;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_277" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35109" pos="21881;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_278" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35109" pos="21624;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_279" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35109" pos="22523;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_280" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="22072;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_281" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="21753;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_282" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35110" pos="22395;158330;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_283" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22520;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_284" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22456;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_285" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21624;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_286" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21688;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_287" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35108" pos="22072;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_288" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22392;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_289" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22328;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_290" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22264;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_291" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="22200;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_292" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35108" pos="22136;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_293" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35108" pos="22009;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_294" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21945;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_295" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21881;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_296" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21817;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_297" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35113" pos="21753;158180;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_298" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege10" minZ="-2457" maxZ="30705">
+		<node x="22550" y="159152"/>
+		<node x="21588" y="159150"/>
+		<node x="21598" y="158818"/>
+		<node x="22555" y="158818"/>
+	</territory>
+	<npcmaker name="dion_siege10" territory="dion_siege10" spawnTime="siege_warfare_start(2)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35127" pos="21840;159083;-2385;0" total="1" respawn="3hour" dbName="dion_siege_299"/>
+		<npc id="35127" pos="21841;158961;-2385;0" total="1" respawn="3hour" dbName="dion_siege_300"/>
+		<npc id="35127" pos="21786;158900;-2385;57344" total="1" respawn="3hour" dbName="dion_siege_301"/>
+		<npc id="35127" pos="21761;158881;-2385;49152" total="1" respawn="3hour" dbName="dion_siege_302"/>
+		<npc id="35127" pos="21722;158880;-2385;49152" total="1" respawn="3hour" dbName="dion_siege_303"/>
+		<npc id="35127" pos="21686;158880;-2385;49152" total="1" respawn="3hour" dbName="dion_siege_304"/>
+		<npc id="35127" pos="21840;159040;-2385;0" total="1" respawn="3hour" dbName="dion_siege_305"/>
+		<npc id="35122" pos="21812;158925;-2385;57344" total="1" respawn="3hour" dbName="dion_siege_306"/>
+		<npc id="35122" pos="21840;159001;-2384;0" total="1" respawn="3hour" dbName="dion_siege_307"/>
+		<npc id="35123" pos="21738;158946;-2386;57344" total="1" respawn="3hour" dbName="dion_siege_308"/>
+		<npc id="35127" pos="22293;159089;-2387;32768" total="1" respawn="3hour" dbName="dion_siege_309"/>
+		<npc id="35127" pos="22293;159049;-2385;32768" total="1" respawn="3hour" dbName="dion_siege_310"/>
+		<npc id="35127" pos="22293;158964;-2386;32768" total="1" respawn="3hour" dbName="dion_siege_311"/>
+		<npc id="35127" pos="22351;158899;-2385;40960" total="1" respawn="3hour" dbName="dion_siege_312"/>
+		<npc id="35127" pos="22378;158879;-2384;49152" total="1" respawn="3hour" dbName="dion_siege_313"/>
+		<npc id="35127" pos="22418;158880;-2385;49152" total="1" respawn="3hour" dbName="dion_siege_314"/>
+		<npc id="35127" pos="22457;158879;-2385;49152" total="1" respawn="3hour" dbName="dion_siege_315"/>
+		<npc id="35122" pos="22293;159005;-2383;32768" total="1" respawn="3hour" dbName="dion_siege_316"/>
+		<npc id="35122" pos="22315;158935;-2386;40960" total="1" respawn="3hour" dbName="dion_siege_317"/>
+		<npc id="35123" pos="22395;158953;-2383;40960" total="1" respawn="3hour" dbName="dion_siege_318"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege11" minZ="-2987" maxZ="30375">
+		<node x="22482" y="160064"/>
+		<node x="21540" y="161411"/>
+		<node x="21738" y="159068"/>
+		<node x="22469" y="159039"/>
+	</territory>
+	<npcmaker name="dion_siege11" territory="dion_siege11" spawnTime="siege_warfare_start(2)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35127" pos="22180;159210;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_319" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22149;159210;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_320" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22118;159210;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_321" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22086;159210;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_322" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22055;159210;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_323" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22023;159210;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_324" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21992;159210;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_325" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="21960;159210;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_326" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="22180;159190;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_327" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="22149;159190;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_328" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22118;159190;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_329" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22086;159190;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_330" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22055;159190;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_331" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="22023;159190;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_332" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21992;159190;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_333" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="21960;159190;-2694;49152" total="1" respawn="3hour" dbName="dion_siege_334" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege12" minZ="-3116" maxZ="30375">
+		<node x="20610" y="158675"/>
+		<node x="20483" y="158675"/>
+		<node x="20482" y="158060"/>
+		<node x="20609" y="158060"/>
+	</territory>
+	<npcmaker name="dion_siege12" territory="dion_siege12" spawnTime="siege_warfare_start(2)" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="35127" pos="20508;158097;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_335" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="20508;158148;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_336" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="20508;158198;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_337" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="20508;158248;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_338" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="20508;158298;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_339" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="20508;158348;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_340" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="20508;158398;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_341" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="20508;158448;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_342" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="20508;158498;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_343" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="20508;158548;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_344" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="20508;158598;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_345" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="20508;158648;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_346" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion_siege13" minZ="-3116" maxZ="30375">
+		<node x="23935" y="158676"/>
+		<node x="23808" y="158676"/>
+		<node x="23808" y="158062"/>
+		<node x="23935" y="158062"/>
+	</territory>
+	<npcmaker name="dion_siege13" territory="dion_siege13" spawnTime="siege_warfare_start(2)" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="35127" pos="23910;158097;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_347" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="23910;158148;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_348" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="23910;158198;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_349" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="23910;158248;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_350" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35123" pos="23910;158298;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_351" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="23910;158348;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_352" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="23910;158398;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_353" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="23910;158448;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_354" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="23910;158498;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_355" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35122" pos="23910;158548;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_356" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="23910;158598;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_357" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35127" pos="23910;158648;-2570;32768" total="1" respawn="3hour" dbName="dion_siege_358" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+</list>

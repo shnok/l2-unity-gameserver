@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="2100" levels="1" name="Escape: 1 second" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="RECALL" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2101" levels="1" name="Feed: General Strider" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="FEED_PET" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="feed" val="200" />
+	</skill>
+	<skill id="2102" levels="1" name="Feed: Clan Hall Strider" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="FEED_PET" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="feed" val="450" />
+	</skill>
+	<skill id="2103" levels="1" name="Mystery Potion" >
+		<set name="magicLvl" val="1" />
+		<set name="isPotion" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="SELF" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="0" stackType="big_head" />
+		</for>
+	</skill>
+	<skill id="2104" levels="1" name="Greater Compressed Package of Soulshots: No-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="1835" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2105" levels="1" name="Greater Compressed Package of Soulshots: D-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="1463" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2106" levels="1" name="Greater Compressed Package of Soulshots: C-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="1464" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2107" levels="1" name="Greater Compressed Package of Soulshots: B-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="1465" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2108" levels="1" name="Greater Compressed Package of Soulshots: A-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="1466" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2109" levels="1" name="Greater Compressed Package of Soulshots: S-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="1467" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2110" levels="1" name="Greater Compressed Package of Spiritshots: No-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="2509" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2111" levels="1" name="Greater Compressed Package of Spiritshots: D-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="2510" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2112" levels="1" name="Greater Compressed Package of Spiritshots: C-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="2511" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2113" levels="1" name="Greater Compressed Package of Spiritshots: B-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="2512" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2114" levels="1" name="Greater Compressed Package of Spiritshots: A-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="2513" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2115" levels="1" name="Greater Compressed Package of Spiritshots: S-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="2514" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2116" levels="1" name="Greater Compressed Package of Blessed Spiritshots: No-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="3947" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2117" levels="1" name="Greater Compressed Package of Blessed Spiritshots: D-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="3948" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2118" levels="1" name="Greater Compressed Package of Blessed Spiritshots: C-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="3949" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2119" levels="1" name="Greater Compressed Package of Blessed Spiritshots: B-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="3950" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2120" levels="1" name="Greater Compressed Package of Blessed Spiritshots: A-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="3951" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2121" levels="1" name="Greater Compressed Package of Blessed Spiritshots: S-grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="create_item_id" val="3952" />
+		<set name="create_item_count" val="1000" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2122" levels="1" name="Facelifting Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="faceId" val="0" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2123" levels="1" name="Facelifting Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="faceId" val="1" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2124" levels="1" name="Facelifting Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="faceId" val="2" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2125" levels="1" name="Dye Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="0" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2126" levels="1" name="Dye Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="1" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2127" levels="1" name="Dye Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="2" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2128" levels="1" name="Dye Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="3" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2129" levels="1" name="Hair Style Change Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="0" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2130" levels="1" name="Hair Style Change Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="1" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2131" levels="1" name="Hair Style Change Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="2" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2132" levels="1" name="Hair Style Change Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="3" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2133" levels="1" name="Hair Style Change Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="4" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2134" levels="1" name="Hair Style Change Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="5" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2135" levels="1" name="Hair Style Change Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="6" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2136" levels="1" name="Rice Cake" >
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="power" val="3" />
+		<set name="skillType" val="HEAL_PERCENT" /> <!-- Needs Core support: Heal HP 3% & heal MP 1% at the same time -->
+		<set name="target" val="SELF" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2137" levels="1" name="Summon Regular Tree" >
+		<set name="target" val="SELF" />
+		<set name="npcId" val="13006" />
+		<set name="magicLvl" val="1" />
+		<set name="despawnDelay" val="1200000" />
+		<set name="skillType" val="SPAWN" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2138" levels="1" name="Summon Special Tree" >
+		<set name="despawnDelay" val="1200000" />
+		<set name="magicLvl" val="1" />
+		<set name="npcId" val="13007" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPAWN" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2139" levels="1" name="Special Tree Recovery Bonus" >
+		<set name="magicLvl" val="-1"/>
+		<set name="target" val="ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<for>
+			<effect name="Buff" time="10" val="0" stackOrder="99" stackType="hp_regen_up">
+				<mul stat="regHp" val="1.4" />
+				<mul stat="regMp" val="1.2" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2140" levels="1" name="Item - Carol Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2141" levels="1" name="Item - Carol Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2142" levels="1" name="Item - Carol Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2143" levels="1" name="Item - Carol Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2144" levels="1" name="Item - Carol Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2145" levels="1" name="Item - Carol Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2146" levels="1" name="Item - Carol Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2147" levels="1" name="Item - Carol Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2148" levels="1" name="Item - Carol Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2149" levels="1" name="Item - Carol Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2150" levels="1" name="Soulshot: D-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SOULSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2151" levels="1" name="Soulshot: C-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SOULSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2152" levels="1" name="Soulshot: B-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SOULSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2153" levels="1" name="Soulshot: A-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SOULSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2154" levels="1" name="Soulshot: S-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SOULSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2155" levels="1" name="Spiritshot: D-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPIRITSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2156" levels="1" name="Spiritshot: C-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPIRITSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2157" levels="1" name="Spiritshot: B-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPIRITSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2158" levels="1" name="Spiritshot: A-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPIRITSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2159" levels="1" name="Spiritshot: S-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPIRITSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2160" levels="1" name="Blessed Spiritshot: D-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPIRITSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2161" levels="1" name="Blessed Spiritshot: C-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPIRITSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2162" levels="1" name="Blessed Spiritshot: B-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPIRITSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2163" levels="1" name="Blessed Spiritshot: A-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPIRITSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2164" levels="1" name="Blessed Spiritshot: S-Grade" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="SPIRITSHOT" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2165" levels="1" name="Energy Stone" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="numCharges" val="1" />
+		<set name="maxCharges" val="2" />
+		<set name="simultaneousCast" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2166" levels="2" name="CP Gauge Potion" >
+		<table name="#power"> 50 200 </table>
+		<set name="magicLvl" val="1"/>
+		<set name="power" val="#power" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="50" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2167" levels="4" name="Scroll of SP" >
+		<table name="#power"> 500 5000 100000 500000 </table>
+		<set name="hitTime" val="200" />
+		<set name="staticHitTime" val="true" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="3000" />
+		<set name="skillType" val="GIVE_SP" />
+		<set name="target" val="SELF" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2168" levels="6" name="Raid Blessing" >
+		<table name="#stackOrder"> 1 2 3 4 5 6 </table>
+		<set name="magicLvl" val="-1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="2000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="CharmOfLuck" time="3600" val="0" stackOrder="#stackOrder" stackType="reduce_drop_penalty" />
+		</for>
+	</skill>
+	<skill id="2169" levels="2" name="Magic Haste Potion" >
+		<table name="#mAtkSpd"> 1.23 1.3 </table>
+		<table name="#stackOrder"> 2 3 </table>
+		<table name="#magicLvl"> 35 48 </table>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="casting_time_down">
+				<mul stat="mAtkSpd" val="#mAtkSpd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2170" levels="1" name="Scroll: Cancel Sleep" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="ONE" />
+		<set name="skillType" val="NEGATE" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="coolTime" val="1000" />
+		<set name="effectRange" val="600" />
+		<set name="negateStats" val="SLEEP" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2171" levels="1" name="Spellbook Paper" >
+		<table name="#extractableItems">
+			5917,1,10;5918,1,10;5919,1,10;5920,1,10;736,1,60
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2172" levels="1" name="Scroll of Giants" >
+		<table name="#extractableItems">
+			5922,1,2.5;5923,1,2.5;5924,1,2.5;5925,1,2.5;5926,1,2.5;5927,1,2.5;5928,1,2.5;5929,1,2.5;5930,1,2.5;5931,1,2.5;5932,1,2.5;5933,1,2.5;5934,1,2.5;5935,1,2.5;5936,1,2.5;5937,1,2.5;5938,1,2.5;5939,1,2.5;5940,1,2.5;5941,1,2.5;5942,1,25;5943,1,25
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2173" levels="1" name="Book of Giants" >
+		<table name="#extractableItems">
+			5945,1,5;5946,1,5;5947,1,5;5948,1,5;5949,1,5;5950,1,5;5951,1,5;5952,1,5;5953,1,5;5954,1,5;5942,1,25;5943,1,25
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2174" levels="3" name="Ingredient Bag" >
+		<table name="#extractableItems">
+			6019,2,30;6013,2,30;6014,1,20;6016,1,20
+			6017,2,10;6020,2,20;6014,1,35;6016,1,35
+			6012,1,20;6018,2,20;6019,2,20;6013,1,40
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2175" levels="1" name="Ingredient Box" >
+		<table name="#extractableItems">
+			6017,2,20;6020,2,20;6016,1,35;6015,2,25
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2176" levels="4" name="Ancient Papyrus" >
+		<table name="#extractableItems">
+			5978,1,2;5983,1,2;5988,1,2;5994,1,2;5995,1,2;5975,1,8;5976,1,8;5977,1,8;5981,1,8;5982,1,8;5973,1,11.4;5974,1,11.2;5980,1,11.2;5985,1,11.2;5972,1,1.8;5979,1,1.6;5984,1,1.6
+			5978,1,4;5983,1,4;5988,1,4;5994,1,4;5995,1,4;5975,1,3.6;5976,1,3.6;5977,1,3.6;5981,1,3.6;5982,1,3.6;5973,1,10.5;5974,1,10.5;5980,1,10.5;5985,1,10.5;5972,1,6.8;5979,1,6.6;5984,1,6.6
+			6001,1,1.6;5971,1,1.6;5970,1,1.6;4408,1,1.6;4409,1,1.6;5986,1,1.6;5987,1,1.6;5993,1,1.6;5999,1,1.6;6000,1,1.6;5991,1,10.25;5992,1,10.25;5997,1,10.25;5998,1,10.25;5989,1,14.34;5990,1,14.33;5996,1,14.33
+			6001,1,3;5971,1,3;5970,1,3;4408,1,3;4409,1,3;5986,1,2;5987,1,2;5993,1,2;5999,1,2;6000,1,2;5991,1,2.5;5992,1,2.5;5997,1,2.6;5998,1,2.6;5989,1,21.6;5990,1,21.6;5996,1,21.6
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2177" levels="1" name="Blessed Scroll of Escape: Clan Hall" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="200" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="RECALL" />
+		<set name="recallType" val="ClanHall" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player clanHall="-1" />
+		</cond>
+	</skill>
+	<skill id="2178" levels="1" name="Blessed Scroll of Escape: Castle" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="200" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="RECALL" />
+		<set name="recallType" val="Castle" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player castle="-1" />
+		</cond>
+	</skill>
+	<skill id="2179" levels="1" name="Blessed Scroll of Resurrection: Pet" >
+		<set name="magicLvl" val="1"/>
+		<set name="power" val="100" />
+		<set name="target" val="CORPSE_PET" />
+		<set name="hitTime" val="15000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="RESURRECT" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="600" />
+		<set name="itemConsumeId" val="6387"/>
+		<set name="itemConsumeCount" val="1"/>
+	</skill>
+	<skill id="2180" levels="1" name="Feed: Castle Strider" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="FEED_PET" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="feed" val="450" />
+	</skill>
+	<skill id="2181" levels="1" name="Item - Fishing Shot" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2182" levels="1" name="Item - Fishing Shot" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2183" levels="1" name="Item - Fishing Shot" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2184" levels="1" name="Item - Fishing Shot" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2185" levels="1" name="Item - Fishing Shot" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2186" levels="1" name="Item - Fishing Shot" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2187" levels="1" name="Item - Special Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2188" levels="1" name="Golden Spice" >
+		<set name="aggroPoints" val="150"/>
+		<set name="magicLvl" val="80"/>
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="6643" />
+		<set name="target" val="ONE" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="BEAST_FEED" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+	</skill>
+	<skill id="2189" levels="1" name="Crystal Spice" >
+		<set name="aggroPoints" val="150"/>
+		<set name="magicLvl" val="80"/>
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="6644" />
+		<set name="target" val="ONE" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="BEAST_FEED" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+	</skill>
+	<skill id="2190" levels="9" name="Item - Green Fish" >
+		<table name="#extractableItems">
+			6908,6,27.6;6913,1,16.56
+			6908,6,28.2;6911,2,21.15
+			6908,6,30.6;6915,1,30.6
+			6908,6,33.4;6913,1,20.04
+			6908,8,29.92;6911,2,28.05
+			6908,6,41.6;6915,1,33.28
+			6908,12,15;6913,1,18;6920,8,24
+			6908,8,39.68;6911,2,37.2
+			6908,12,26.5;6915,1,42.4
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2191" levels="9" name="Item - Jade Fish" >
+		<table name="#extractableItems">
+			6908,12,19;6913,1,22.8;6920,8,30.4
+			6908,8,47.2;6911,2,44.25
+			6908,12,31;6915,1,49.6
+			6908,12,21.6668;6913,1,26;6920,16,17.3334
+			6908,16,27.2;6911,4,25.5
+			6908,12,35.5;6915,2,28.4
+			6908,12,24.3332;6913,2,16.6856;6920,16,19.4667
+			6908,16,30;6911,4,28.125
+			6908,12,38.5;6915,2,30.8
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2192" levels="9" name="Item - Blue Fish" >
+		<table name="#extractableItems">
+			6908,12,26.3332;6913,2,18.0572;6920,16,21.0667
+			6908,16,32;6911,4,30
+			6908,12,41;6915,2,32.8
+			6904,1,1.992;6908,14,14.2288;6909,4,13.28;6913,1,19.92;6920,16,13.2801
+			6904,1,2.0064;6908,10,19.1088;6909,2,16.0512;6911,4,12.5401;6921,4,13.3762
+			6904,1,2.52;6908,16,16.8;6909,4,12.6;6915,4,14
+			6904,1,2.04;6908,14,14.5716;6909,4,13.6;6913,2,10.2;6920,16,13.6001
+			6904,1,2.0688;6908,10,19.7028;6909,2,16.5504;6911,4,12.9301;6921,4,13.7922
+			6904,1,2.61;6908,16,17.4;6909,4,13.05;6915,4,14.5
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2193" levels="9" name="Item - Yellow Fish" >
+		<table name="#extractableItems">
+			6904,1,2.1216;6908,14,15.1544;6909,4,14.144;6913,2,10.608;6920,16,14.1441
+			6904,1,2.1456;6908,20,10.2172;6909,2,17.1648;6911,4,13.4101;6921,4,14.3042
+			6904,1,2.712;6908,16,18.08;6909,4,13.56;6915,4,15.0666
+			6904,1,2.592;6908,14,18.514;6909,4,17.28;6913,2,12.96;6920,16,17.28
+			6904,1,2.6544;6908,20,12.64;6909,4,10.6176;6911,4,16.5901;6921,4,17.6962
+			6904,1,3.408;6908,16,22.72;6909,4,17.04;6915,4,18.9334
+			6904,1,2.784;6908,14,19.8856;6909,4,18.56;6913,2,13.92;6920,16,18.5599
+			6904,1,2.8512;6908,20,13.5772;6909,4,11.4049;6911,4,17.8201;6921,4,19.0082
+			6904,1,3.648;6908,16,24.3198;6909,4,18.2399;6915,4,20.2666
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2194" levels="9" name="Item - Orange Fish" >
+		<table name="#extractableItems">
+			6904,1,2.9856;6908,28,10.6628;6909,4,19.904;6913,2,14.928;6920,16,19.9039
+			6904,1,3.048;6908,20,14.5144;6909,4,12.192;6911,8,9.5252;6921,8,10.16
+			6904,1,3.894;6908,32,12.98;6909,4,19.47;6915,4,21.6334
+			7698,1,5.304;6910,1,21.216;6914,2,13.2601
+			7686,1,6.208;6910,1,24.8321;6912,8,17.2445
+			7697,1,6.336;6910,1,25.344;6916,4,23.4666
+			7698,1,6.528;6910,1,26.112;6914,2,16.3201
+			7686,1,6.72;6910,2,13.44;6912,8,18.6667
+			7697,1,6.864;6910,1,27.456;6916,4,25.4222
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2195" levels="9" name="Item - Violet Fish" >
+		<table name="#extractableItems">
+			7698,1,7;6910,2,18.6666;6914,2,17.5
+			7686,1,7.144;6910,2,14.288;6912,8,19.8445
+			7697,1,7.28;6910,1,29.12;6916,4,26.963
+			7698,1,7.44;6910,2,19.84;6914,2,18.5999
+			7686,1,7.584;6910,2,15.168;6912,8,21.0667
+			7697,1,8.72;6910,2,17.44;6916,4,32.2964
+			7685,1,5.3328;7698,1,5.3328;6907,1,5.3328;6910,2,14.2208;6914,2,13.3321
+			7686,1,6.798;6905,1,6.798;6910,2,13.596;6912,8,18.8833
+			7697,1,6.942;6906,1,6.942;6910,2,13.884;6916,8,12.8555
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2196" levels="9" name="Item - Red Fish" >
+		<table name="#extractableItems">
+			7685,1,6.1296;7698,1,6.1296;6907,1,6.1296;6910,2,16.3456;6914,2,15.3241
+			7686,1,7.806;6905,1,7.806;6910,2,15.612;6912,8,21.6833
+			7697,1,7.956;6906,1,7.956;6910,2,15.912;6916,8,14.7333
+			7685,1,6.4848;7698,1,6.4848;6907,1,6.4848;6910,2,17.2928;6914,2,16.2121
+			7686,1,8.256;6905,1,8.256;6910,2,16.512;6912,8,22.9333
+			7697,1,8.412;6906,1,8.412;6910,2,16.824;6916,8,15.5778
+			7685,1,7.5696;7698,1,7.5696;6907,1,7.5696;6910,4,10.0928;6914,2,18.9236
+			7686,1,9.648;6905,1,9.648;6910,2,19.296;6912,8,21.44
+			7697,1,10.29;6906,1,10.29;6910,2,20.58;6916,8,19.0555
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2197" levels="9" name="Item - White Fish" >
+		<table name="#extractableItems">
+			7685,1,8.3856;7698,1,8.3856;6907,1,8.3856;6910,4,11.1808;6914,4,10.4818
+			7686,1,10.686;6905,1,10.686;6910,2,21.372;6912,8,23.7468
+			7697,1,10.884;6906,1,10.884;6910,2,21.768;6916,8,16.1244
+			7685,1,8.8752;7698,1,8.8752;6907,1,8.8752;6910,4,11.8336;6914,4,11.0938
+			7686,1,11.322;6905,1,11.322;6910,2,22.644;6912,16,12.58
+			7697,1,11.538;6906,1,11.538;6910,2,23.076;6916,8,17.0936
+			7685,1,9.4128;7698,1,9.4128;6907,1,9.4128;6910,4,12.5504;6914,4,11.7658
+			7686,1,12;6905,1,12;6910,2,24;6912,16,13.3334
+			7697,1,12.234;6906,1,12.234;6910,2,24.468;6916,8,18.1248
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2198" levels="9" name="Item - Black Fish" >
+		<table name="#extractableItems">
+			7685,1,9.9888;7698,1,9.9888;6907,1,9.9888;6910,4,13.3184;6914,4,12.4858
+			7686,1,12.738;6905,1,12.738;6910,4,12.738;6912,16,14.1534
+			7697,1,12.996;6906,1,12.996;6910,4,12.996;6916,8,19.2536
+			7685,1,11.0832;7698,1,11.0832;6907,1,11.0832;6910,4,11.822;6914,4,13.8542
+			7686,2,9.428;6905,1,14.1421;6910,4,14.1421;6912,16,15.7134
+			7697,1,14.418;6906,1,14.418;6910,4,14.418;6916,8,21.36
+			7685,1,11.7696;7698,1,11.7696;6907,1,11.7696;6910,4,12.554;6914,4,14.7122
+			7686,2,10.008;6905,1,15.0121;6910,4,15.0121;6912,16,16.6802
+			7697,2,10.208;6906,1,15.3121;6910,4,15.3121;6916,8,22.6844
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2199" levels="3" name="Item - Green Treasure Box" >
+		<table name="#extractableItems">
+			6908,12,30.6;7609,8,48.96
+			6908,12,41.6;7609,16,33.28
+			6908,24,26.5;7609,26,24.2284
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+</list>

@@ -1,0 +1,30 @@
+<html><title>Zone Check</title><body>
+	<table width=270>
+		<tr>
+			<td width=45><button value="Main" action="bypass -h admin_admin" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+			<td width=180 align=center>Zone Check</td>
+			<td width=45><button value="Back" action="bypass -h admin_admin 4" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		</tr>
+	</table><br>
+	<center><table width=225>
+		<tr>
+			<td><button value="Refresh" action="bypass -h admin_zone" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+			<td><button value="Visualize all" action="bypass -h admin_zone show all" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+			<td><button value="Clear" action="bypass -h admin_zone show clear" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+		</tr>
+	</table>
+	<br><img src="l2ui.SquareGray" width=270 height=1><br>
+	<table width=270>
+		<tr><td width=130><font color="LEVEL">Zone ID:</font></td><td align=right width=140>%ZLIST%</td></tr>
+		<tr><td width=130><font color="LEVEL">Geo region:</font></td><td align=right width=140>%GEOREGION%</td></tr>
+		<tr><td width=130><font color="LEVEL">RestartArea:</font></td><td align=right width=140>%RA%</td></tr>
+		<tr><td width=130><font color="LEVEL">Calculated RestartPoint:</font></td><td align=right width=140>%CALCULATED_RP%</td></tr>
+		<tr><td width=130><font color="LEVEL">Current RestartPoint:</font></td><td align=right width=140>%CURRENT_RP%</td></tr>
+		<tr><td width=130><font color="LEVEL">Current Loc:</font></td><td align=right width=140>%CURRENTLOC%</td></tr>
+	</table>
+	<br><img src="l2ui.SquareGray" width=270 height=1><br>
+	You are currently affected by following zones
+	<table width=270>
+		<tr><td><font color="LEVEL">%ZONES%</font></td></tr>
+	</table></center><br>
+</body></html>

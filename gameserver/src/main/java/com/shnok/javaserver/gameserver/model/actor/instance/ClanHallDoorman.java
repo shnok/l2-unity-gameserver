@@ -11,7 +11,7 @@ import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHall;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 /**
  * An instance type extending {@link Doorman}, used by clan hall doorman.<br>

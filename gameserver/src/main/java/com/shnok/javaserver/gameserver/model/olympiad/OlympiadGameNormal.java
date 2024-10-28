@@ -15,7 +15,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.model.zone.type.OlympiadStadiumZone;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExOlympiadUserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExOlympiadUserInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 

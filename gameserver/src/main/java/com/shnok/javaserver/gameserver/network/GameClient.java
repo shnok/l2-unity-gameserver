@@ -5,6 +5,7 @@ import java.nio.ByteBuffer;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.Arrays;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.ScheduledFuture;
@@ -28,7 +29,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ServerClose;
+import com.shnok.javaserver.gameserver.network.serverpackets.auth.ServerClose;
 
 /**
  * Represents a client connected on Game Server.<br>
@@ -185,14 +186,26 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> imple
 	@Override
 	public boolean decrypt(ByteBuffer buf, int size)
 	{
+		if(Config.DEVELOPER) {
+			LOGGER.info("<--- [CLIENT] Encrypted packet {} : {}", size, Arrays.toString(Arrays.copyOfRange(buf.array(), buf.position(),  buf.position() + size)));
+		}
 		_crypt.decrypt(buf.array(), buf.position(), size);
+		if(Config.DEVELOPER) {
+			LOGGER.info("<--- [CLIENT] Clear packet {} : {}", size, Arrays.toString(Arrays.copyOfRange(buf.array(), buf.position(),  buf.position() + size)));
+		}
 		return true;
 	}
 	
 	@Override
 	public boolean encrypt(final ByteBuffer buf, final int size)
 	{
+		if(Config.DEVELOPER) {
+			LOGGER.info("---> [CLIENT] Clear packet {} : {}", size, Arrays.toString(Arrays.copyOfRange(buf.array(), Math.min(buf.position(), buf.array().length - 1), Math.min(buf.array().length - 1, buf.position() + size))));
+		}
 		_crypt.encrypt(buf.array(), buf.position(), size);
+		if(Config.DEVELOPER) {
+			LOGGER.info("---> [CLIENT] Encrypted packet {} : {}", size, Arrays.toString(Arrays.copyOfRange(buf.array(), Math.min(buf.position(), buf.array().length - 1), Math.min(buf.array().length - 1, buf.position() + size))));
+		}
 		buf.position(buf.position() + size);
 		return true;
 	}

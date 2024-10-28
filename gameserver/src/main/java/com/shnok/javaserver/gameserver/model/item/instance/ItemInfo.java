@@ -16,7 +16,8 @@ public class ItemInfo
 	private int _type2;
 	private int _equipped;
 	private int _manaLeft;
-	
+	private int _slot;
+
 	private Item _item;
 	
 	private ItemState _state;
@@ -34,7 +35,7 @@ public class ItemInfo
 		_type2 = item.getCustomType2();
 		_equipped = item.isEquipped() ? 1 : 0;
 		_manaLeft = item.getManaLeft();
-		
+		_slot = item.getLocationSlot();
 		_item = item.getItem();
 		
 		_state = state;
@@ -94,9 +95,14 @@ public class ItemInfo
 	{
 		return _manaLeft;
 	}
-	
+
 	public int getDisplayedManaLeft()
 	{
 		return _manaLeft / 60;
+	}
+
+	public int getSlot()
+	{
+		return _slot;
 	}
 }

@@ -25,8 +25,8 @@ import com.shnok.javaserver.gameserver.model.records.PlayerLevel;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo.NpcInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.SkillCoolTime;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillCoolTime;
 
 public class AdminEditChar implements IAdminCommandHandler
 {

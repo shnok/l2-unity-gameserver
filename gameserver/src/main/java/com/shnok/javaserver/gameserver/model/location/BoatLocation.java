@@ -6,7 +6,7 @@ import com.shnok.javaserver.commons.data.StatSet;
 
 import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.BoatSay;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.BoatSay;
 
 /**
  * A datatype extending {@link Location} used for boats. It notably holds move speed and rotation speed.

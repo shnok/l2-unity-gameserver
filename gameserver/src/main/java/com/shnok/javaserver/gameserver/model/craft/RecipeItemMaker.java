@@ -11,8 +11,8 @@ import com.shnok.javaserver.gameserver.model.records.ManufactureItem;
 import com.shnok.javaserver.gameserver.model.records.Recipe;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
-import com.shnok.javaserver.gameserver.network.serverpackets.RecipeItemMakeInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.RecipeShopItemInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.RecipeItemMakeInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.RecipeShopItemInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 

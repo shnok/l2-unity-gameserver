@@ -6,7 +6,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.group.Party;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.network.NpcStringId;
-import com.shnok.javaserver.gameserver.network.serverpackets.SpecialCamera;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SpecialCamera;
 import com.shnok.javaserver.gameserver.scripting.script.ai.individual.DefaultNpc;
 
 public class DoctorChaosNpc extends DefaultNpc

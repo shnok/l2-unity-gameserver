@@ -9,7 +9,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.NpcStringId;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.CreatureSay;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowScreenMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowScreenMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 

@@ -14,11 +14,11 @@ import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.model.records.Fish;
 import com.shnok.javaserver.gameserver.model.spawn.Spawn;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExFishingEnd;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExFishingHpRegen;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExFishingStart;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExFishingStartCombat;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExFishingEnd;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExFishingHpRegen;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExFishingStart;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExFishingStartCombat;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.AbstractEffect;
 

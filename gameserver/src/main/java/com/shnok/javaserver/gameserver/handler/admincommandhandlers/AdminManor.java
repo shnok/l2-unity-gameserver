@@ -7,7 +7,7 @@ import com.shnok.javaserver.gameserver.data.manager.CastleManorManager;
 import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 public class AdminManor implements IAdminCommandHandler
 {

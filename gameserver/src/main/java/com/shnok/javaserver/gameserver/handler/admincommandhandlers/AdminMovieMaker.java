@@ -11,8 +11,8 @@ import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.records.Sequence;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.SpecialCamera;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SpecialCamera;
 
 public class AdminMovieMaker implements IAdminCommandHandler
 {

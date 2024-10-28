@@ -5,8 +5,8 @@ import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Npc;
 import com.shnok.javaserver.gameserver.model.actor.instance.Folk;
 import com.shnok.javaserver.gameserver.model.actor.instance.SiegeSummon;
-import com.shnok.javaserver.gameserver.network.serverpackets.StartRotation;
-import com.shnok.javaserver.gameserver.network.serverpackets.StopRotation;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.StartRotation;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.StopRotation;
 import com.shnok.javaserver.gameserver.skills.AbstractEffect;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 

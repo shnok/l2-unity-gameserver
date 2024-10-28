@@ -17,7 +17,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.CreatureSay;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.PetitionVote;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PetitionVote;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 /**

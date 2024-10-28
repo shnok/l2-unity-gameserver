@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="5605" levels="1" name="Power of Apella" >
+		<set name="magicLvl" val="74" />
+		<set name="power" val="80"/>
+		<set name="lvlDepend" val="1"/>
+		<set name="target" val="ONE"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="hitTime" val="0"/>
+		<set name="skillType" val="ROOT" />
+		<set name="isDebuff" val="true" />
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1350"/>
+		<for>
+			<effect name="Root" time="2" val="0" stackOrder="1" stackType="root_magically"/>
+		</for>
+	</skill>
+	<skill id="5607" levels="2" name="Power of Apella" >
+		<table name="#magicLvl"> 64 67 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="power" val="80" />
+		<set name="lvlDepend" val="1" />
+		<set name="target" val="ONE" />
+		<set name="reuseDelay" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isDebuff" val="true" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect name="Debuff" time="2" val="0" stackOrder="3" stackType="attack_time_up">
+				<mul stat="pAtkSpd" val="0.77"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5608" levels="2" name="Power of Apella" >
+		<table name="#magicLvl"> 64 67 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="power" val="80" />
+		<set name="lvlDepend" val="1" />
+		<set name="target" val="ONE" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isDebuff" val="true" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect name="Debuff" time="2" val="0" stackOrder="3" stackType="attack_time_up">
+				<mul stat="pAtkSpd" val="0.77"/>
+			</effect>
+		</for>
+	</skill>
+</list>

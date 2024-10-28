@@ -4,8 +4,8 @@ import com.shnok.javaserver.gameserver.data.SkillTable;
 import com.shnok.javaserver.gameserver.model.actor.Npc;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.memo.GlobalMemo;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
-import com.shnok.javaserver.gameserver.network.serverpackets.SpecialCamera;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SpecialCamera;
 import com.shnok.javaserver.gameserver.scripting.script.ai.individual.DefaultNpc;
 
 public class OrganDummy extends DefaultNpc

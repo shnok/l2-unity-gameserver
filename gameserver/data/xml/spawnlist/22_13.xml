@@ -1,0 +1,2368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Shuttgart Area
+ * Town of Schuttgart
+ * Schuttgart Castle
+-->
+<list>
+	<!--  -->
+	<territory name="schuttgart01_qm2213_01" minZ="-2754" maxZ="-2354">
+		<node x="67782" y="-133265"/>
+		<node x="68904" y="-132968"/>
+		<node x="68862" y="-131317"/>
+		<node x="67269" y="-131294"/>
+	</territory>
+	<npcmaker name="schuttgart01_qm2213_01m1" territory="schuttgart01_qm2213_01" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="27322" total="4" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart01_qm2213_02" minZ="-3000" maxZ="-2200">
+		<node x="69760" y="-138545"/>
+		<node x="70933" y="-138286"/>
+		<node x="69785" y="-134853"/>
+		<node x="68657" y="-136537"/>
+	</territory>
+	<npcmaker name="schuttgart01_qm2213_02m1" territory="schuttgart01_qm2213_02" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="27322" total="4" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart01_qm2213_03" minZ="-3044" maxZ="-2444">
+		<node x="94516" y="-138654"/>
+		<node x="94965" y="-138425"/>
+		<node x="93313" y="-136672"/>
+		<node x="91038" y="-135938"/>
+		<node x="91183" y="-136491"/>
+	</territory>
+	<npcmaker name="schuttgart01_qm2213_03m1" territory="schuttgart01_qm2213_03" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="27321" total="10" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_01" minZ="333" maxZ="533">
+		<node x="77168" y="-149401"/>
+		<node x="77360" y="-149405"/>
+		<node x="77327" y="-149191"/>
+		<node x="77206" y="-149191"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_01m1" territory="schuttgart19_2213_01" spawnTime="siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="77283;-149200;368;16520" total="1" respawn="3hour" dbName="schuttgart_castle_001" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77248;-149200;368;16520" total="1" respawn="3hour" dbName="schuttgart_castle_002" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77327;-149237;368;48" total="1" respawn="3hour" dbName="schuttgart_castle_003" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77208;-149239;368;32784" total="1" respawn="3hour" dbName="schuttgart_castle_004" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77331;-149268;368;0" total="1" respawn="3hour" dbName="schuttgart_castle_005" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77201;-149267;368;32864" total="1" respawn="3hour" dbName="schuttgart_castle_006" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77344;-149361;368;48" total="1" respawn="3hour" dbName="schuttgart_castle_007" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77349;-149393;368;0" total="1" respawn="3hour" dbName="schuttgart_castle_008" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="schuttgart19_2213_01m2" territory="schuttgart19_2213_01" spawnTime="pc_siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="77283;-149200;368;16520" total="1" respawn="3hour" dbName="schuttgart_castle_527" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77248;-149200;368;16520" total="1" respawn="3hour" dbName="schuttgart_castle_528" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77327;-149237;368;48" total="1" respawn="3hour" dbName="schuttgart_castle_529" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77208;-149239;368;32784" total="1" respawn="3hour" dbName="schuttgart_castle_530" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77331;-149268;368;0" total="1" respawn="3hour" dbName="schuttgart_castle_531" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77201;-149267;368;32864" total="1" respawn="3hour" dbName="schuttgart_castle_532" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77344;-149361;368;48" total="1" respawn="3hour" dbName="schuttgart_castle_533" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77349;-149393;368;0" total="1" respawn="3hour" dbName="schuttgart_castle_534" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_02" minZ="333" maxZ="533">
+		<node x="77747" y="-149400"/>
+		<node x="77938" y="-149404"/>
+		<node x="77906" y="-149190"/>
+		<node x="77784" y="-149191"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_02m1" territory="schuttgart19_2213_02" spawnTime="siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="77867;-149196;368;16520" total="1" respawn="3hour" dbName="schuttgart_castle_009" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77832;-149196;368;16520" total="1" respawn="3hour" dbName="schuttgart_castle_010" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77908;-149240;368;48" total="1" respawn="3hour" dbName="schuttgart_castle_011" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77784;-149239;368;32784" total="1" respawn="3hour" dbName="schuttgart_castle_012" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77912;-149271;368;0" total="1" respawn="3hour" dbName="schuttgart_castle_013" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77777;-149267;368;32864" total="1" respawn="3hour" dbName="schuttgart_castle_014" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77764;-149357;368;32768" total="1" respawn="3hour" dbName="schuttgart_castle_015" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77758;-149388;368;32768" total="1" respawn="3hour" dbName="schuttgart_castle_016" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="schuttgart19_2213_02m2" territory="schuttgart19_2213_02" spawnTime="pc_siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="77867;-149196;368;16520" total="1" respawn="3hour" dbName="schuttgart_castle_535" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77832;-149196;368;16520" total="1" respawn="3hour" dbName="schuttgart_castle_536" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77908;-149240;368;48" total="1" respawn="3hour" dbName="schuttgart_castle_537" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77784;-149239;368;32784" total="1" respawn="3hour" dbName="schuttgart_castle_538" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77912;-149271;368;0" total="1" respawn="3hour" dbName="schuttgart_castle_539" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77777;-149267;368;32864" total="1" respawn="3hour" dbName="schuttgart_castle_540" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77764;-149357;368;32768" total="1" respawn="3hour" dbName="schuttgart_castle_541" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="77758;-149388;368;32768" total="1" respawn="3hour" dbName="schuttgart_castle_542" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_03" minZ="-393" maxZ="-193">
+		<node x="77389" y="-149569"/>
+		<node x="77727" y="-149569"/>
+		<node x="77722" y="-149385"/>
+		<node x="77389" y="-149384"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_03" territory="schuttgart19_2213_03" spawnTime="siege_warfare_start(9)" maximumNpcs="28">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="77513;-149552;-354;16520" total="1" respawn="3hour" dbName="schuttgart_castle_017" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35531" pos="77555;-149552;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_018" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77476;-149552;-354;16520" total="1" respawn="3hour" dbName="schuttgart_castle_019" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77436;-149551;-354;16520" total="1" respawn="3hour" dbName="schuttgart_castle_020" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77676;-149553;-354;16520" total="1" respawn="3hour" dbName="schuttgart_castle_021" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77639;-149553;-354;16520" total="1" respawn="3hour" dbName="schuttgart_castle_022" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77599;-149553;-354;16520" total="1" respawn="3hour" dbName="schuttgart_castle_023" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77407;-149525;-354;16520" total="1" respawn="3hour" dbName="schuttgart_castle_024" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77707;-149526;-354;16520" total="1" respawn="3hour" dbName="schuttgart_castle_025" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77708;-149486;-354;16520" total="1" respawn="3hour" dbName="schuttgart_castle_026" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77409;-149486;-354;16520" total="1" respawn="3hour" dbName="schuttgart_castle_027" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="77558;-149463;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_028" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77535;-149501;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_029" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77581;-149502;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_030" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77625;-149502;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_031" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77666;-149502;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_032" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77448;-149501;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_033" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77492;-149501;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_034" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77409;-149456;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_035" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77708;-149456;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_036" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="77519;-149463;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_037" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="77480;-149463;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_038" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="77441;-149463;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_039" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="77676;-149463;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_040" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="77637;-149463;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_041" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="77599;-149463;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_042" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="77622;-149527;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_043" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="77496;-149526;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_044" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_04" minZ="-393" maxZ="-193">
+		<node x="77380" y="-149848"/>
+		<node x="77731" y="-149847"/>
+		<node x="77731" y="-149664"/>
+		<node x="77380" y="-149663"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_04" territory="schuttgart19_2213_04" spawnTime="siege_warfare_start(9)" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="35542" pos="77559;-149763;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_045" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77557;-149702;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_046" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77512;-149702;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_047" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77465;-149702;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_048" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77421;-149701;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_049" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77604;-149702;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_050" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77649;-149702;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_051" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77692;-149702;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_052" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77536;-149733;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_053" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77583;-149733;-350;16480" total="1" respawn="3hour" dbName="schuttgart_castle_054" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77513;-149764;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_055" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77467;-149764;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_056" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77420;-149764;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_057" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77604;-149764;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_058" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77649;-149764;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_059" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77693;-149765;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_060" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77672;-149734;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_061" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77443;-149734;-352;16336" total="1" respawn="3hour" dbName="schuttgart_castle_062" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_05" minZ="-393" maxZ="-193">
+		<node x="76975" y="-150047"/>
+		<node x="77140" y="-149998"/>
+		<node x="77141" y="-149732"/>
+		<node x="76975" y="-149775"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_05" territory="schuttgart19_2213_05" spawnTime="siege_warfare_start(9)" maximumNpcs="17">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="77054;-149772;-288;248" total="1" respawn="3hour" dbName="schuttgart_castle_063" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77054;-149808;-288;248" total="1" respawn="3hour" dbName="schuttgart_castle_064" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77054;-149844;-288;248" total="1" respawn="3hour" dbName="schuttgart_castle_065" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77054;-149882;-288;248" total="1" respawn="3hour" dbName="schuttgart_castle_066" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77054;-149923;-288;248" total="1" respawn="3hour" dbName="schuttgart_castle_067" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77054;-149960;-288;248" total="1" respawn="3hour" dbName="schuttgart_castle_068" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77054;-149999;-288;248" total="1" respawn="3hour" dbName="schuttgart_castle_069" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77128;-149750;-331;0" total="1" respawn="3hour" dbName="schuttgart_castle_070" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77128;-149786;-331;0" total="1" respawn="3hour" dbName="schuttgart_castle_071" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77128;-149822;-331;0" total="1" respawn="3hour" dbName="schuttgart_castle_072" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77128;-149860;-331;0" total="1" respawn="3hour" dbName="schuttgart_castle_073" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77128;-149901;-331;0" total="1" respawn="3hour" dbName="schuttgart_castle_074" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77128;-149938;-331;0" total="1" respawn="3hour" dbName="schuttgart_castle_075" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77128;-149977;-331;0" total="1" respawn="3hour" dbName="schuttgart_castle_076" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35531" pos="77094;-149876;-311;0" total="1" respawn="3hour" dbName="schuttgart_castle_077" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77094;-149762;-311;0" total="1" respawn="3hour" dbName="schuttgart_castle_078" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77094;-149935;-311;0" total="1" respawn="3hour" dbName="schuttgart_castle_079" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_06" minZ="-393" maxZ="-193">
+		<node x="77968" y="-149996"/>
+		<node x="78192" y="-150063"/>
+		<node x="78191" y="-149790"/>
+		<node x="77969" y="-149731"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_06" territory="schuttgart19_2213_06" spawnTime="siege_warfare_start(9)" maximumNpcs="17">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="78078;-149782;-277;32768" total="1" respawn="3hour" dbName="schuttgart_castle_080" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78078;-149818;-277;32768" total="1" respawn="3hour" dbName="schuttgart_castle_081" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78078;-149854;-277;32768" total="1" respawn="3hour" dbName="schuttgart_castle_082" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78078;-149892;-277;32768" total="1" respawn="3hour" dbName="schuttgart_castle_083" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78078;-149933;-277;32768" total="1" respawn="3hour" dbName="schuttgart_castle_084" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78078;-149970;-279;32768" total="1" respawn="3hour" dbName="schuttgart_castle_085" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78078;-150009;-272;32768" total="1" respawn="3hour" dbName="schuttgart_castle_086" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77979;-149754;-331;32768" total="1" respawn="3hour" dbName="schuttgart_castle_087" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77979;-149790;-331;32768" total="1" respawn="3hour" dbName="schuttgart_castle_088" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77979;-149826;-331;32768" total="1" respawn="3hour" dbName="schuttgart_castle_089" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77979;-149864;-331;32768" total="1" respawn="3hour" dbName="schuttgart_castle_090" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77979;-149905;-331;32768" total="1" respawn="3hour" dbName="schuttgart_castle_091" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77979;-149942;-331;32768" total="1" respawn="3hour" dbName="schuttgart_castle_092" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77979;-149981;-331;32768" total="1" respawn="3hour" dbName="schuttgart_castle_093" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35531" pos="78030;-149884;-305;32768" total="1" respawn="3hour" dbName="schuttgart_castle_094" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78030;-149770;-305;32768" total="1" respawn="3hour" dbName="schuttgart_castle_095" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="78030;-149943;-305;32768" total="1" respawn="3hour" dbName="schuttgart_castle_096" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_07" minZ="-128" maxZ="72">
+		<node x="76205" y="-150289"/>
+		<node x="76618" y="-150161"/>
+		<node x="76532" y="-149900"/>
+		<node x="76289" y="-149894"/>
+		<node x="76044" y="-150023"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_07" territory="schuttgart19_2213_07" spawnTime="siege_warfare_start(9)" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="76600;-150150;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_097" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76585;-150107;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_098" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76569;-150064;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_099" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76554;-150017;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_100" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76540;-149971;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_101" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76522;-149922;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_102" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="76086;-150018;-12;0" total="1" respawn="3hour" dbName="schuttgart_castle_103" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="76245;-149935;-12;0" total="1" respawn="3hour" dbName="schuttgart_castle_104" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76272;-149922;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_105" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76113;-150004;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_106" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76143;-149987;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_107" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76064;-150028;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_108" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76170;-149974;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_109" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76194;-149961;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_110" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="76188;-150010;0;0" total="1" respawn="3hour" dbName="schuttgart_castle_111" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76221;-149948;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_112" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_08" minZ="-57" maxZ="143">
+		<node x="78500" y="-150166"/>
+		<node x="78724" y="-150319"/>
+		<node x="79141" y="-150065"/>
+		<node x="78629" y="-149795"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_08" territory="schuttgart19_2213_08" spawnTime="siege_warfare_start(9)" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="78993;-150000;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_113" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78966;-149984;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_114" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78915;-149957;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_115" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78532;-150101;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_116" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78887;-149944;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_117" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78837;-149916;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_118" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="79017;-150011;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_119" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="78861;-149928;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_120" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78940;-149970;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_121" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78548;-150057;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_122" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79041;-150024;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_123" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78599;-149927;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_124" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78582;-149973;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_125" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78519;-150143;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_126" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="78875;-150004;0;32768" total="1" respawn="3hour" dbName="schuttgart_castle_127" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78565;-150012;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_128" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_09" minZ="-89" maxZ="111">
+		<node x="76418" y="-149844"/>
+		<node x="76576" y="-149775"/>
+		<node x="76482" y="-149590"/>
+		<node x="76372" y="-149630"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_09m1" territory="schuttgart19_2213_09" spawnTime="siege_warfare_start(9)" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="76474;-149605;-12;14824" total="1" respawn="3hour" dbName="schuttgart_castle_129" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="76430;-149617;-12;19992" total="1" respawn="3hour" dbName="schuttgart_castle_130" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="76512;-149675;-12;5080" total="1" respawn="3hour" dbName="schuttgart_castle_131" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="76402;-149725;-12;35256" total="1" respawn="3hour" dbName="schuttgart_castle_132" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76389;-149640;-12;27560" total="1" respawn="3hour" dbName="schuttgart_castle_133" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76394;-149682;-12;35000" total="1" respawn="3hour" dbName="schuttgart_castle_134" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76413;-149768;-12;35000" total="1" respawn="3hour" dbName="schuttgart_castle_135" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76493;-149633;-12;4912" total="1" respawn="3hour" dbName="schuttgart_castle_136" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76532;-149718;-12;4912" total="1" respawn="3hour" dbName="schuttgart_castle_137" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="schuttgart19_2213_09m2" territory="schuttgart19_2213_09" spawnTime="pc_siege_warfare_start(9)" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="76474;-149605;-12;14824" total="1" respawn="3hour" dbName="schuttgart_castle_543" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="76430;-149617;-12;19992" total="1" respawn="3hour" dbName="schuttgart_castle_544" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="76512;-149675;-12;5080" total="1" respawn="3hour" dbName="schuttgart_castle_545" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="76402;-149725;-12;35256" total="1" respawn="3hour" dbName="schuttgart_castle_546" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76389;-149640;-12;27560" total="1" respawn="3hour" dbName="schuttgart_castle_547" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76394;-149682;-12;35000" total="1" respawn="3hour" dbName="schuttgart_castle_548" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76413;-149768;-12;35000" total="1" respawn="3hour" dbName="schuttgart_castle_549" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76493;-149633;-12;4912" total="1" respawn="3hour" dbName="schuttgart_castle_550" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76532;-149718;-12;4912" total="1" respawn="3hour" dbName="schuttgart_castle_551" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_10" minZ="-89" maxZ="111">
+		<node x="78533" y="-149775"/>
+		<node x="78693" y="-149835"/>
+		<node x="78742" y="-149628"/>
+		<node x="78628" y="-149588"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_10m1" territory="schuttgart19_2213_10" spawnTime="siege_warfare_start(9)" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="78724;-149637;-12;7536" total="1" respawn="3hour" dbName="schuttgart_castle_138" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="78682;-149617;-12;12704" total="1" respawn="3hour" dbName="schuttgart_castle_139" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="78710;-149718;-12;63328" total="1" respawn="3hour" dbName="schuttgart_castle_140" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="78594;-149677;-12;27968" total="1" respawn="3hour" dbName="schuttgart_castle_141" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78634;-149606;-12;20272" total="1" respawn="3hour" dbName="schuttgart_castle_142" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78615;-149639;-12;27712" total="1" respawn="3hour" dbName="schuttgart_castle_143" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78574;-149717;-12;27712" total="1" respawn="3hour" dbName="schuttgart_castle_144" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78718;-149675;-12;63160" total="1" respawn="3hour" dbName="schuttgart_castle_145" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78699;-149763;-12;63160" total="1" respawn="3hour" dbName="schuttgart_castle_146" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="schuttgart19_2213_10m2" territory="schuttgart19_2213_10" spawnTime="pc_siege_warfare_start(9)" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="78724;-149637;-12;7536" total="1" respawn="3hour" dbName="schuttgart_castle_552" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="78682;-149617;-12;12704" total="1" respawn="3hour" dbName="schuttgart_castle_553" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="78710;-149718;-12;63328" total="1" respawn="3hour" dbName="schuttgart_castle_554" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="78594;-149677;-12;27968" total="1" respawn="3hour" dbName="schuttgart_castle_555" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78634;-149606;-12;20272" total="1" respawn="3hour" dbName="schuttgart_castle_556" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78615;-149639;-12;27712" total="1" respawn="3hour" dbName="schuttgart_castle_557" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78574;-149717;-12;27712" total="1" respawn="3hour" dbName="schuttgart_castle_558" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78718;-149675;-12;63160" total="1" respawn="3hour" dbName="schuttgart_castle_559" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78699;-149763;-12;63160" total="1" respawn="3hour" dbName="schuttgart_castle_560" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_11" minZ="-89" maxZ="111">
+		<node x="75791" y="-150181"/>
+		<node x="75926" y="-150081"/>
+		<node x="75392" y="-149364"/>
+		<node x="75296" y="-149433"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_11" territory="schuttgart19_2213_11" spawnTime="siege_warfare_start(9)" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="75613;-149676;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_147" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75639;-149709;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_148" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75664;-149743;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_149" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75714;-149811;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_150" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75738;-149845;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_151" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75764;-149879;-12;248" total="1" respawn="3hour" dbName="schuttgart_castle_152" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="75690;-149776;-12;0" total="1" respawn="3hour" dbName="schuttgart_castle_153" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="75581;-149849;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_154" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75508;-149734;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_155" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75659;-149962;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_156" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75532;-149772;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_157" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75557;-149808;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_158" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75608;-149886;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_159" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75633;-149923;-12;32768" total="1" respawn="3hour" dbName="schuttgart_castle_160" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_12" minZ="-89" maxZ="111">
+		<node x="79192" y="-150073"/>
+		<node x="79326" y="-150167"/>
+		<node x="79814" y="-149429"/>
+		<node x="79719" y="-149361"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_12" territory="schuttgart19_2213_12" spawnTime="siege_warfare_start(9)" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="79594;-149742;-12;53664" total="1" respawn="3hour" dbName="schuttgart_castle_161" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79565;-149782;-12;53664" total="1" respawn="3hour" dbName="schuttgart_castle_162" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79545;-149815;-12;53664" total="1" respawn="3hour" dbName="schuttgart_castle_163" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79499;-149886;-12;53664" total="1" respawn="3hour" dbName="schuttgart_castle_164" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79472;-149927;-12;53664" total="1" respawn="3hour" dbName="schuttgart_castle_165" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79442;-149970;-12;53664" total="1" respawn="3hour" dbName="schuttgart_castle_166" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="79522;-149851;-12;53416" total="1" respawn="3hour" dbName="schuttgart_castle_167" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="79413;-149790;-12;20648" total="1" respawn="3hour" dbName="schuttgart_castle_168" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79497;-149676;-12;20648" total="1" respawn="3hour" dbName="schuttgart_castle_169" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79333;-149904;-12;20648" total="1" respawn="3hour" dbName="schuttgart_castle_170" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79469;-149714;-12;20648" total="1" respawn="3hour" dbName="schuttgart_castle_171" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79442;-149755;-12;20648" total="1" respawn="3hour" dbName="schuttgart_castle_172" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79388;-149829;-12;20648" total="1" respawn="3hour" dbName="schuttgart_castle_173" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79361;-149867;-12;20648" total="1" respawn="3hour" dbName="schuttgart_castle_174" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_13" minZ="-89" maxZ="111">
+		<node x="74888" y="-151293"/>
+		<node x="74973" y="-151132"/>
+		<node x="74764" y="-151059"/>
+		<node x="74709" y="-151167"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_13m1" territory="schuttgart19_2213_13" spawnTime="siege_warfare_start(9)" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="74770;-151078;-12;22512" total="1" respawn="3hour" dbName="schuttgart_castle_175" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="74747;-151117;-12;27680" total="1" respawn="3hour" dbName="schuttgart_castle_176" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="74847;-151098;-12;12768" total="1" respawn="3hour" dbName="schuttgart_castle_177" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="74795;-151212;-12;42944" total="1" respawn="3hour" dbName="schuttgart_castle_178" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74729;-151163;-12;35248" total="1" respawn="3hour" dbName="schuttgart_castle_179" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74760;-151188;-12;42688" total="1" respawn="3hour" dbName="schuttgart_castle_180" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74833;-151238;-12;42688" total="1" respawn="3hour" dbName="schuttgart_castle_181" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74806;-151084;-12;12600" total="1" respawn="3hour" dbName="schuttgart_castle_182" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74890;-151115;-12;12600" total="1" respawn="3hour" dbName="schuttgart_castle_183" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="schuttgart19_2213_13m2" territory="schuttgart19_2213_13" spawnTime="pc_siege_warfare_start(9)" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="74770;-151078;-12;22512" total="1" respawn="3hour" dbName="schuttgart_castle_561" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="74747;-151117;-12;27680" total="1" respawn="3hour" dbName="schuttgart_castle_562" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="74847;-151098;-12;12768" total="1" respawn="3hour" dbName="schuttgart_castle_563" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="74795;-151212;-12;42944" total="1" respawn="3hour" dbName="schuttgart_castle_564" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74729;-151163;-12;35248" total="1" respawn="3hour" dbName="schuttgart_castle_565" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74760;-151188;-12;42688" total="1" respawn="3hour" dbName="schuttgart_castle_566" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74833;-151238;-12;42688" total="1" respawn="3hour" dbName="schuttgart_castle_567" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74806;-151084;-12;12600" total="1" respawn="3hour" dbName="schuttgart_castle_568" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74890;-151115;-12;12600" total="1" respawn="3hour" dbName="schuttgart_castle_569" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_14" minZ="-89" maxZ="111">
+		<node x="80224" y="-151283"/>
+		<node x="80401" y="-151167"/>
+		<node x="80346" y="-151061"/>
+		<node x="80141" y="-151133"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_14m1" territory="schuttgart19_2213_14" spawnTime="siege_warfare_start(9)" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="80382;-151164;-12;65376" total="1" respawn="3hour" dbName="schuttgart_castle_184" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="80366;-151117;-12;5008" total="1" respawn="3hour" dbName="schuttgart_castle_185" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="80319;-151210;-12;55632" total="1" respawn="3hour" dbName="schuttgart_castle_186" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="80256;-151101;-12;20272" total="1" respawn="3hour" dbName="schuttgart_castle_187" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80338;-151076;-12;12576" total="1" respawn="3hour" dbName="schuttgart_castle_188" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80298;-151087;-12;20016" total="1" respawn="3hour" dbName="schuttgart_castle_189" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80214;-151117;-12;20016" total="1" respawn="3hour" dbName="schuttgart_castle_190" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80356;-151186;-12;55464" total="1" respawn="3hour" dbName="schuttgart_castle_191" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80280;-151235;-12;55464" total="1" respawn="3hour" dbName="schuttgart_castle_192" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="schuttgart19_2213_14m2" territory="schuttgart19_2213_14" spawnTime="pc_siege_warfare_start(9)" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="80382;-151164;-12;65376" total="1" respawn="3hour" dbName="schuttgart_castle_570" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="80366;-151117;-12;5008" total="1" respawn="3hour" dbName="schuttgart_castle_571" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="80319;-151210;-12;55632" total="1" respawn="3hour" dbName="schuttgart_castle_572" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="80256;-151101;-12;20272" total="1" respawn="3hour" dbName="schuttgart_castle_573" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80338;-151076;-12;12576" total="1" respawn="3hour" dbName="schuttgart_castle_574" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80298;-151087;-12;20016" total="1" respawn="3hour" dbName="schuttgart_castle_575" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80214;-151117;-12;20016" total="1" respawn="3hour" dbName="schuttgart_castle_576" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80356;-151186;-12;55464" total="1" respawn="3hour" dbName="schuttgart_castle_577" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80280;-151235;-12;55464" total="1" respawn="3hour" dbName="schuttgart_castle_578" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_15" minZ="-89" maxZ="111">
+		<node x="74637" y="-151970"/>
+		<node x="74702" y="-151799"/>
+		<node x="74486" y="-151773"/>
+		<node x="74451" y="-151886"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_15" territory="schuttgart19_2213_15" spawnTime="siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35532" pos="74510;-151786;-12;17320" total="1" respawn="3hour" dbName="schuttgart_castle_193" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="74572;-151793;-12;17320" total="1" respawn="3hour" dbName="schuttgart_castle_194" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74603;-151796;-12;17320" total="1" respawn="3hour" dbName="schuttgart_castle_195" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74541;-151789;-12;17320" total="1" respawn="3hour" dbName="schuttgart_castle_196" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74632;-151799;-12;17320" total="1" respawn="3hour" dbName="schuttgart_castle_197" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74466;-151869;-12;30112" total="1" respawn="3hour" dbName="schuttgart_castle_198" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="74477;-151832;-12;29320" total="1" respawn="3hour" dbName="schuttgart_castle_199" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="74487;-151799;-12;29112" total="1" respawn="3hour" dbName="schuttgart_castle_200" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_16" minZ="-89" maxZ="111">
+		<node x="80470" y="-151970"/>
+		<node x="80657" y="-151885"/>
+		<node x="80628" y="-151773"/>
+		<node x="80417" y="-151798"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_16" territory="schuttgart19_2213_16" spawnTime="siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="80625;-151804;-12;2224" total="1" respawn="3hour" dbName="schuttgart_castle_201" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="80610;-151785;-12;17688" total="1" respawn="3hour" dbName="schuttgart_castle_202" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="80633;-151836;-12;4224" total="1" respawn="3hour" dbName="schuttgart_castle_203" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="80548;-151792;-12;17832" total="1" respawn="3hour" dbName="schuttgart_castle_204" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80518;-151796;-12;17744" total="1" respawn="3hour" dbName="schuttgart_castle_205" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80579;-151789;-12;17576" total="1" respawn="3hour" dbName="schuttgart_castle_206" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80488;-151799;-12;17576" total="1" respawn="3hour" dbName="schuttgart_castle_207" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="80642;-151870;-12;4016" total="1" respawn="3hour" dbName="schuttgart_castle_208" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_17" minZ="-694" maxZ="-494">
+		<node x="75862" y="-152422"/>
+		<node x="75860" y="-152196"/>
+		<node x="75512" y="-152181"/>
+		<node x="75513" y="-152430"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_17" territory="schuttgart19_2213_17" spawnTime="siege_warfare_start(9)" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="35541" pos="75687;-152414;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_209" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75688;-152324;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_210" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75769;-152369;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_211" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75771;-152328;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_212" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75771;-152285;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_213" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75772;-152245;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_214" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75689;-152241;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_215" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75687;-152369;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_216" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75729;-152368;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_217" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75730;-152327;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_218" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75731;-152284;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_219" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75731;-152244;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_220" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75688;-152284;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_221" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="75726;-152412;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_222" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="75767;-152409;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_223" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="75690;-152203;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_224" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="75732;-152205;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_225" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="75772;-152205;-649;32768" total="1" respawn="3hour" dbName="schuttgart_castle_226" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_18" minZ="-694" maxZ="-494">
+		<node x="79510" y="-152428"/>
+		<node x="79509" y="-152183"/>
+		<node x="79251" y="-152184"/>
+		<node x="79250" y="-152426"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_18" territory="schuttgart19_2213_18" spawnTime="siege_warfare_start(9)" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="35541" pos="79331;-152410;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_227" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79332;-152320;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_228" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79414;-152366;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_229" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79416;-152324;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_230" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79416;-152281;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_231" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79417;-152241;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_232" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79334;-152238;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_233" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79331;-152365;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_234" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79373;-152365;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_235" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79375;-152323;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_236" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79376;-152280;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_237" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79376;-152240;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_238" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79333;-152280;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_239" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="79371;-152408;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_240" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="79411;-152405;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_241" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="79334;-152200;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_242" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="79377;-152202;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_243" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35541" pos="79417;-152202;-649;0" total="1" respawn="3hour" dbName="schuttgart_castle_244" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_19" minZ="36" maxZ="236">
+		<node x="75971" y="-151907"/>
+		<node x="76028" y="-151791"/>
+		<node x="75711" y="-151641"/>
+		<node x="75657" y="-151763"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_19" territory="schuttgart19_2213_19" spawnTime="siege_warfare_start(9)" maximumNpcs="17">
+		<ai type="default_maker"/>
+		<npc id="35542" pos="75964;-151810;129;27944" total="1" respawn="3hour" dbName="schuttgart_castle_245" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75906;-151785;129;28704" total="1" respawn="3hour" dbName="schuttgart_castle_246" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35531" pos="75976;-151839;128;28104" total="1" respawn="3hour" dbName="schuttgart_castle_247" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75948;-151847;129;27944" total="1" respawn="3hour" dbName="schuttgart_castle_248" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75997;-151795;129;28104" total="1" respawn="3hour" dbName="schuttgart_castle_249" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75957;-151880;129;28104" total="1" respawn="3hour" dbName="schuttgart_castle_250" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75964;-151778;129;28104" total="1" respawn="3hour" dbName="schuttgart_castle_251" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75931;-151870;129;28104" total="1" respawn="3hour" dbName="schuttgart_castle_252" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75938;-151796;129;27944" total="1" respawn="3hour" dbName="schuttgart_castle_253" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75922;-151834;129;27944" total="1" respawn="3hour" dbName="schuttgart_castle_254" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75936;-151765;129;28104" total="1" respawn="3hour" dbName="schuttgart_castle_255" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75897;-151855;129;28104" total="1" respawn="3hour" dbName="schuttgart_castle_256" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75909;-151753;129;28104" total="1" respawn="3hour" dbName="schuttgart_castle_257" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75868;-151840;129;28104" total="1" respawn="3hour" dbName="schuttgart_castle_258" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75892;-151821;129;28704" total="1" respawn="3hour" dbName="schuttgart_castle_259" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75884;-151741;129;28104" total="1" respawn="3hour" dbName="schuttgart_castle_260" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75844;-151827;129;28104" total="1" respawn="3hour" dbName="schuttgart_castle_261" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_20" minZ="64" maxZ="264">
+		<node x="79138" y="-151909"/>
+		<node x="79346" y="-151813"/>
+		<node x="79288" y="-151696"/>
+		<node x="79083" y="-151794"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_20" territory="schuttgart19_2213_20" spawnTime="siege_warfare_start(9)" maximumNpcs="17">
+		<ai type="default_maker"/>
+		<npc id="35542" pos="79161;-151846;129;4216" total="1" respawn="3hour" dbName="schuttgart_castle_262" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79217;-151818;129;4976" total="1" respawn="3hour" dbName="schuttgart_castle_263" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35531" pos="79131;-151837;128;4376" total="1" respawn="3hour" dbName="schuttgart_castle_264" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79143;-151809;129;4216" total="1" respawn="3hour" dbName="schuttgart_castle_265" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79150;-151881;129;4376" total="1" respawn="3hour" dbName="schuttgart_castle_266" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79112;-151796;129;4376" total="1" respawn="3hour" dbName="schuttgart_castle_267" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79186;-151867;129;4376" total="1" respawn="3hour" dbName="schuttgart_castle_268" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79137;-151782;129;4376" total="1" respawn="3hour" dbName="schuttgart_castle_269" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79188;-151836;129;4216" total="1" respawn="3hour" dbName="schuttgart_castle_270" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79170;-151799;129;4216" total="1" respawn="3hour" dbName="schuttgart_castle_271" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79213;-151854;129;4376" total="1" respawn="3hour" dbName="schuttgart_castle_272" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79170;-151766;129;4376" total="1" respawn="3hour" dbName="schuttgart_castle_273" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79240;-151841;129;4376" total="1" respawn="3hour" dbName="schuttgart_castle_274" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79200;-151753;129;4376" total="1" respawn="3hour" dbName="schuttgart_castle_275" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79199;-151784;129;4976" total="1" respawn="3hour" dbName="schuttgart_castle_276" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79265;-151829;129;4376" total="1" respawn="3hour" dbName="schuttgart_castle_277" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79226;-151744;129;4376" total="1" respawn="3hour" dbName="schuttgart_castle_278" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_21" minZ="80" maxZ="230">
+		<node x="76197" y="-152148"/>
+		<node x="76352" y="-151796"/>
+		<node x="76125" y="-151646"/>
+		<node x="75927" y="-152077"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_21" territory="schuttgart19_2213_21" spawnTime="siege_warfare_start(9)" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="35532" pos="75973;-151985;128;28872" total="1" respawn="3hour" dbName="schuttgart_castle_279" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75986;-151958;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_280" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75961;-152013;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_281" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76007;-151984;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_282" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76007;-152025;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_283" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76013;-152063;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_284" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76051;-152039;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_285" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="75973;-152049;128;0" total="1" respawn="3hour" dbName="schuttgart_castle_286" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="76094;-151736;128;28872" total="1" respawn="3hour" dbName="schuttgart_castle_287" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76107;-151709;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_288" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76082;-151764;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_289" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76117;-151766;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_290" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76149;-151746;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_291" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76185;-151726;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_292" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76193;-151768;128;28496" total="1" respawn="3hour" dbName="schuttgart_castle_293" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="76137;-151721;128;0" total="1" respawn="3hour" dbName="schuttgart_castle_294" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_22" minZ="75" maxZ="225">
+		<node x="78942" y="-152204"/>
+		<node x="79190" y="-152087"/>
+		<node x="78991" y="-151662"/>
+		<node x="78735" y="-151754"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_22" territory="schuttgart19_2213_22" spawnTime="siege_warfare_start(9)" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="35532" pos="79017;-151747;128;5320" total="1" respawn="3hour" dbName="schuttgart_castle_295" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79030;-151774;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_296" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79003;-151720;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_297" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78997;-151774;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_298" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78964;-151748;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_299" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78932;-151728;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_300" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78927;-151773;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_301" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="78968;-151706;128;41984" total="1" respawn="3hour" dbName="schuttgart_castle_302" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35532" pos="79133;-151998;128;5320" total="1" respawn="3hour" dbName="schuttgart_castle_303" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79146;-152025;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_304" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79119;-151972;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_305" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79095;-151997;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_306" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79090;-152035;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_307" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79083;-152075;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_308" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79045;-152055;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_309" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="79117;-152041;128;41984" total="1" respawn="3hour" dbName="schuttgart_castle_310" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_23" minZ="74" maxZ="244">
+		<node x="76865" y="-151214"/>
+		<node x="76796" y="-151054"/>
+		<node x="76495" y="-151242"/>
+		<node x="76608" y="-151367"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_23" territory="schuttgart19_2213_23" spawnTime="siege_warfare_start(9)" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="76576;-151210;128;16832" total="1" respawn="3hour" dbName="schuttgart_castle_311" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76766;-151088;128;16832" total="1" respawn="3hour" dbName="schuttgart_castle_312" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76615;-151182;128;16832" total="1" respawn="3hour" dbName="schuttgart_castle_313" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76652;-151159;128;16832" total="1" respawn="3hour" dbName="schuttgart_castle_314" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76692;-151134;128;16832" total="1" respawn="3hour" dbName="schuttgart_castle_315" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76728;-151111;128;16832" total="1" respawn="3hour" dbName="schuttgart_castle_316" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_24" minZ="73" maxZ="243">
+		<node x="78665" y="-151272"/>
+		<node x="78342" y="-151062"/>
+		<node x="78244" y="-151283"/>
+		<node x="78478" y="-151429"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_24" territory="schuttgart19_2213_24" spawnTime="siege_warfare_start(9)" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="78371;-151101;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_317" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78561;-151223;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_318" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78412;-151125;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_319" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78449;-151148;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_320" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78488;-151174;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_321" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78524;-151197;128;4944" total="1" respawn="3hour" dbName="schuttgart_castle_322" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_25" minZ="81" maxZ="251">
+		<node x="77036" y="-151557"/>
+		<node x="76917" y="-151357"/>
+		<node x="76724" y="-151464"/>
+		<node x="76849" y="-151667"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_25" territory="schuttgart19_2213_25" spawnTime="siege_warfare_start(9)" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="35542" pos="76885;-151441;129;23072" total="1" respawn="3hour" dbName="schuttgart_castle_323" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76910;-151391;129;22016" total="1" respawn="3hour" dbName="schuttgart_castle_324" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76782;-151482;129;23072" total="1" respawn="3hour" dbName="schuttgart_castle_325" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76829;-151507;129;23072" total="1" respawn="3hour" dbName="schuttgart_castle_326" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76902;-151516;129;23072" total="1" respawn="3hour" dbName="schuttgart_castle_327" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76917;-151446;129;23072" total="1" respawn="3hour" dbName="schuttgart_castle_328" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="76834;-151477;129;23072" total="1" respawn="3hour" dbName="schuttgart_castle_329" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="76866;-151511;129;23072" total="1" respawn="3hour" dbName="schuttgart_castle_330" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="76910;-151480;129;23072" total="1" respawn="3hour" dbName="schuttgart_castle_331" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="76876;-151477;129;23072" total="1" respawn="3hour" dbName="schuttgart_castle_332" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_26" minZ="79" maxZ="249">
+		<node x="78373" y="-151472"/>
+		<node x="78208" y="-151371"/>
+		<node x="78096" y="-151554"/>
+		<node x="78266" y="-151660"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_26" territory="schuttgart19_2213_26" spawnTime="siege_warfare_start(9)" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="35542" pos="78290;-151478;129;11184" total="1" respawn="3hour" dbName="schuttgart_castle_333" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="78346;-151480;129;10128" total="1" respawn="3hour" dbName="schuttgart_castle_334" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="78210;-151401;129;11184" total="1" respawn="3hour" dbName="schuttgart_castle_335" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="78206;-151455;129;11184" total="1" respawn="3hour" dbName="schuttgart_castle_336" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="78229;-151525;129;11184" total="1" respawn="3hour" dbName="schuttgart_castle_337" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="78299;-151509;129;11184" total="1" respawn="3hour" dbName="schuttgart_castle_338" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="78236;-151446;129;11184" total="1" respawn="3hour" dbName="schuttgart_castle_339" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="78218;-151490;129;11184" total="1" respawn="3hour" dbName="schuttgart_castle_340" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="78265;-151517;129;11184" total="1" respawn="3hour" dbName="schuttgart_castle_341" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="78254;-151485;129;11184" total="1" respawn="3hour" dbName="schuttgart_castle_342" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_27" minZ="-455" maxZ="-225">
+		<node x="77535" y="-153656"/>
+		<node x="77105" y="-153402"/>
+		<node x="76978" y="-153657"/>
+		<node x="77176" y="-154129"/>
+		<node x="77532" y="-154130"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_27" territory="schuttgart19_2213_27" spawnTime="siege_warfare_start(9)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="77162;-153811;-397;38992" total="1" respawn="3hour" dbName="schuttgart_castle_343" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77179;-154085;-395;23072" total="1" respawn="3hour" dbName="schuttgart_castle_344" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77214;-153938;-396;23072" total="1" respawn="3hour" dbName="schuttgart_castle_345" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77133;-153793;-397;38992" total="1" respawn="3hour" dbName="schuttgart_castle_346" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77101;-153774;-397;38992" total="1" respawn="3hour" dbName="schuttgart_castle_347" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77071;-153756;-397;38992" total="1" respawn="3hour" dbName="schuttgart_castle_348" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77044;-153740;-397;38992" total="1" respawn="3hour" dbName="schuttgart_castle_349" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77015;-153721;-397;38992" total="1" respawn="3hour" dbName="schuttgart_castle_350" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77192;-154029;-395;23072" total="1" respawn="3hour" dbName="schuttgart_castle_351" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77208;-153968;-395;23072" total="1" respawn="3hour" dbName="schuttgart_castle_352" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77223;-153909;-395;23072" total="1" respawn="3hour" dbName="schuttgart_castle_353" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77250;-153942;-395;23072" total="1" respawn="3hour" dbName="schuttgart_castle_354" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77236;-154003;-395;23072" total="1" respawn="3hour" dbName="schuttgart_castle_355" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77223;-154064;-395;23072" total="1" respawn="3hour" dbName="schuttgart_castle_356" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77197;-154001;-396;23072" total="1" respawn="3hour" dbName="schuttgart_castle_357" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77183;-154060;-396;23072" total="1" respawn="3hour" dbName="schuttgart_castle_358" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77215;-154098;-396;23072" total="1" respawn="3hour" dbName="schuttgart_castle_359" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77261;-153906;-396;23072" total="1" respawn="3hour" dbName="schuttgart_castle_360" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77273;-153969;-396;23072" total="1" respawn="3hour" dbName="schuttgart_castle_361" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77254;-154038;-396;23072" total="1" respawn="3hour" dbName="schuttgart_castle_362" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_28" minZ="-472" maxZ="-242">
+		<node x="78137" y="-153654"/>
+		<node x="78014" y="-153400"/>
+		<node x="77580" y="-153656"/>
+		<node x="77575" y="-154132"/>
+		<node x="77928" y="-154124"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_28" territory="schuttgart19_2213_28" spawnTime="siege_warfare_start(9)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="78094;-153720;-397;50432" total="1" respawn="3hour" dbName="schuttgart_castle_363" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78065;-153738;-397;50432" total="1" respawn="3hour" dbName="schuttgart_castle_364" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78034;-153758;-397;50432" total="1" respawn="3hour" dbName="schuttgart_castle_365" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78003;-153776;-397;50432" total="1" respawn="3hour" dbName="schuttgart_castle_366" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77977;-153794;-397;50432" total="1" respawn="3hour" dbName="schuttgart_castle_367" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="77947;-153811;-397;50432" total="1" respawn="3hour" dbName="schuttgart_castle_368" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77869;-153917;-395;65440" total="1" respawn="3hour" dbName="schuttgart_castle_369" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77911;-154063;-396;65440" total="1" respawn="3hour" dbName="schuttgart_castle_370" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77886;-153973;-395;65440" total="1" respawn="3hour" dbName="schuttgart_castle_371" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77902;-154033;-395;65440" total="1" respawn="3hour" dbName="schuttgart_castle_372" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77918;-154092;-395;65440" total="1" respawn="3hour" dbName="schuttgart_castle_373" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77879;-154077;-395;65440" total="1" respawn="3hour" dbName="schuttgart_castle_374" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77860;-154017;-395;65440" total="1" respawn="3hour" dbName="schuttgart_castle_375" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="77842;-153957;-395;65440" total="1" respawn="3hour" dbName="schuttgart_castle_376" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77895;-154000;-396;65440" total="1" respawn="3hour" dbName="schuttgart_castle_377" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77878;-153941;-396;65440" total="1" respawn="3hour" dbName="schuttgart_castle_378" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77831;-153924;-396;65440" total="1" respawn="3hour" dbName="schuttgart_castle_379" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77886;-154114;-396;65440" total="1" respawn="3hour" dbName="schuttgart_castle_380" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77845;-154064;-396;65440" total="1" respawn="3hour" dbName="schuttgart_castle_381" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="77827;-153995;-396;65440" total="1" respawn="3hour" dbName="schuttgart_castle_382" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_29" minZ="81" maxZ="281">
+		<node x="76760" y="-154885"/>
+		<node x="76762" y="-154154"/>
+		<node x="75918" y="-154143"/>
+		<node x="75919" y="-154888"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_29" territory="schuttgart19_2213_29" spawnTime="siege_warfare_start(9)" maximumNpcs="48">
+		<ai type="default_maker"/>
+		<npc id="35535" pos="75967;-154332;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_383" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75947;-154286;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_384" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="75987;-154286;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_385" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="76027;-154286;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_386" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76066;-154286;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_387" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="76105;-154286;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_388" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76147;-154286;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_389" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="76189;-154295;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_390" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="75950;-154366;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_391" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="76062;-154366;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_392" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="76147;-154254;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_393" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76147;-154222;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_394" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="76149;-154190;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_395" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76149;-154158;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_396" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35518" pos="76142;-154332;128;16384" total="1" respawn="2min" dbName="schuttgart_castle_397" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="76168;-154364;128;16384" total="1" respawn="2min" dbName="schuttgart_castle_398" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35517" pos="76112;-154366;128;16408" total="1" respawn="3hour" dbName="schuttgart_castle_399" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76007;-154332;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_400" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76048;-154332;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_401" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76089;-154332;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_402" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76195;-154333;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_403" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76190;-154260;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_404" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="76191;-154222;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_405" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="76005;-154364;128;16384" total="1" respawn="2min" dbName="schuttgart_castle_406" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="76415;-154449;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_407" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="76418;-154575;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_408" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35518" pos="76348;-154483;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_409" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35518" pos="76348;-154548;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_410" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35520" pos="76386;-154496;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_411" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35520" pos="76386;-154536;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_412" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="76349;-154435;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_413" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76386;-154451;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_414" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76386;-154411;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_415" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76386;-154369;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_416" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76386;-154328;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_417" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76386;-154702;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_418" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76386;-154662;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_419" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76386;-154621;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_420" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76386;-154580;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_421" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35519" pos="76415;-154387;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_422" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35519" pos="76418;-154644;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_423" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="76349;-154391;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_424" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="76349;-154345;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_425" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="76349;-154303;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_426" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="76350;-154727;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_427" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="76350;-154683;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_428" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="76350;-154637;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_429" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="76350;-154594;128;32768" total="1" respawn="2min" dbName="schuttgart_castle_430" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_30" minZ="350" maxZ="550">
+		<node x="75889" y="-154561"/>
+		<node x="75889" y="-154145"/>
+		<node x="75792" y="-154146"/>
+		<node x="75786" y="-154561"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_30" territory="schuttgart19_2213_30" spawnTime="siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="75876;-154183;388;0" total="1" respawn="3hour" dbName="schuttgart_castle_431" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75876;-154221;388;0" total="1" respawn="3hour" dbName="schuttgart_castle_432" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75876;-154261;388;0" total="1" respawn="3hour" dbName="schuttgart_castle_433" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75876;-154302;388;0" total="1" respawn="3hour" dbName="schuttgart_castle_434" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75876;-154340;388;0" total="1" respawn="3hour" dbName="schuttgart_castle_435" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75876;-154380;388;0" total="1" respawn="3hour" dbName="schuttgart_castle_436" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75876;-154420;388;0" total="1" respawn="3hour" dbName="schuttgart_castle_437" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="75876;-154460;388;0" total="1" respawn="3hour" dbName="schuttgart_castle_438" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_31" minZ="352" maxZ="552">
+		<node x="77059" y="-155016"/>
+		<node x="77060" y="-154913"/>
+		<node x="75962" y="-154917"/>
+		<node x="75962" y="-155019"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_31" territory="schuttgart19_2213_31" spawnTime="siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="76326;-154925;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_439" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76374;-154925;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_440" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76420;-154925;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_441" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76471;-154925;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_442" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76518;-154925;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_443" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76565;-154925;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_444" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76614;-154925;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_445" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76663;-154925;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_446" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_32" minZ="352" maxZ="552">
+		<node x="77035" y="-154128"/>
+		<node x="77035" y="-154020"/>
+		<node x="76301" y="-154017"/>
+		<node x="76301" y="-154127"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_32" territory="schuttgart19_2213_32" spawnTime="siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="76329;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_447" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76378;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_448" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76424;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_449" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76474;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_450" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76521;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_451" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76569;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_452" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76617;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_453" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="76666;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_454" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_33" minZ="81" maxZ="281">
+		<node x="79197" y="-154885"/>
+		<node x="79201" y="-154144"/>
+		<node x="78356" y="-154143"/>
+		<node x="78356" y="-154889"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_33" territory="schuttgart19_2213_33" spawnTime="siege_warfare_start(9)" maximumNpcs="48">
+		<ai type="default_maker"/>
+		<npc id="35535" pos="79025;-154340;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_455" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="78965;-154303;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_456" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79005;-154303;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_457" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79046;-154303;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_458" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79085;-154303;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_459" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79124;-154303;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_460" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79166;-154303;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_461" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="78915;-154307;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_462" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79048;-154373;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_463" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="79135;-154375;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_464" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="78965;-154269;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_465" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="78966;-154236;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_466" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35542" pos="78967;-154205;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_467" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="78968;-154172;126;16384" total="1" respawn="3hour" dbName="schuttgart_castle_468" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35518" pos="78975;-154340;128;16384" total="1" respawn="2min" dbName="schuttgart_castle_469" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="79095;-154373;128;16384" total="1" respawn="2min" dbName="schuttgart_castle_470" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35516" pos="79002;-154373;128;16408" total="1" respawn="2min" dbName="schuttgart_castle_471" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79065;-154340;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_472" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79106;-154340;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_473" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="79148;-154340;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_474" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="78928;-154340;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_475" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="78916;-154272;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_476" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35535" pos="78917;-154234;128;16384" total="1" respawn="3hour" dbName="schuttgart_castle_477" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="78951;-154370;128;16384" total="1" respawn="2min" dbName="schuttgart_castle_478" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="78706;-154586;128;40" total="1" respawn="2min" dbName="schuttgart_castle_479" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35533" pos="78703;-154460;128;40" total="1" respawn="2min" dbName="schuttgart_castle_480" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35518" pos="78773;-154551;128;40" total="1" respawn="2min" dbName="schuttgart_castle_481" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35518" pos="78773;-154487;128;40" total="1" respawn="2min" dbName="schuttgart_castle_482" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35520" pos="78735;-154539;128;40" total="1" respawn="2min" dbName="schuttgart_castle_483" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35520" pos="78735;-154499;128;40" total="1" respawn="2min" dbName="schuttgart_castle_484" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="78773;-154599;128;40" total="1" respawn="2min" dbName="schuttgart_castle_485" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78735;-154584;128;40" total="1" respawn="2min" dbName="schuttgart_castle_486" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78735;-154624;128;40" total="1" respawn="2min" dbName="schuttgart_castle_487" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78736;-154665;128;40" total="1" respawn="2min" dbName="schuttgart_castle_488" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78736;-154706;128;40" total="1" respawn="2min" dbName="schuttgart_castle_489" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78734;-154332;128;40" total="1" respawn="2min" dbName="schuttgart_castle_490" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78734;-154372;128;40" total="1" respawn="2min" dbName="schuttgart_castle_491" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78735;-154414;128;40" total="1" respawn="2min" dbName="schuttgart_castle_492" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78735;-154455;128;40" total="1" respawn="2min" dbName="schuttgart_castle_493" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35519" pos="78706;-154647;128;40" total="1" respawn="2min" dbName="schuttgart_castle_494" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35519" pos="78702;-154391;128;40" total="1" respawn="2min" dbName="schuttgart_castle_495" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="78773;-154643;128;40" total="1" respawn="2min" dbName="schuttgart_castle_496" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="78773;-154689;128;40" total="1" respawn="2min" dbName="schuttgart_castle_497" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="78773;-154732;128;40" total="1" respawn="2min" dbName="schuttgart_castle_498" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="78771;-154308;128;40" total="1" respawn="2min" dbName="schuttgart_castle_499" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="78771;-154351;128;40" total="1" respawn="2min" dbName="schuttgart_castle_500" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="78771;-154398;128;40" total="1" respawn="2min" dbName="schuttgart_castle_501" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35522" pos="78771;-154440;128;40" total="1" respawn="2min" dbName="schuttgart_castle_502" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_34" minZ="349" maxZ="549">
+		<node x="79326" y="-154897"/>
+		<node x="79326" y="-154144"/>
+		<node x="79223" y="-154147"/>
+		<node x="79222" y="-154897"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_34" territory="schuttgart19_2213_34" spawnTime="siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="79235;-154172;388;32768" total="1" respawn="3hour" dbName="schuttgart_castle_503" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79235;-154211;388;32768" total="1" respawn="3hour" dbName="schuttgart_castle_504" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79235;-154251;388;32768" total="1" respawn="3hour" dbName="schuttgart_castle_505" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79235;-154292;388;32768" total="1" respawn="3hour" dbName="schuttgart_castle_506" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79235;-154330;388;32768" total="1" respawn="3hour" dbName="schuttgart_castle_507" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79235;-154370;388;32768" total="1" respawn="3hour" dbName="schuttgart_castle_508" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79235;-154410;388;32768" total="1" respawn="3hour" dbName="schuttgart_castle_509" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="79235;-154450;388;32768" total="1" respawn="3hour" dbName="schuttgart_castle_510" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_35" minZ="352" maxZ="552">
+		<node x="79218" y="-155015"/>
+		<node x="79219" y="-154913"/>
+		<node x="78121" y="-154916"/>
+		<node x="78121" y="-155019"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_35" territory="schuttgart19_2213_35" spawnTime="siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="78483;-154923;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_511" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78531;-154923;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_512" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78577;-154923;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_513" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78627;-154923;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_514" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78675;-154923;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_515" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78722;-154923;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_516" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78770;-154923;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_517" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78820;-154923;388;16384" total="1" respawn="3hour" dbName="schuttgart_castle_518" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_2213_36" minZ="352" maxZ="552">
+		<node x="78816" y="-154128"/>
+		<node x="78816" y="-154020"/>
+		<node x="78082" y="-154017"/>
+		<node x="78082" y="-154127"/>
+	</territory>
+	<npcmaker name="schuttgart19_2213_36" territory="schuttgart19_2213_36" spawnTime="siege_warfare_start(9)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35543" pos="78419;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_519" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78468;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_520" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78514;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_521" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78564;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_522" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78611;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_523" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78659;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_524" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78707;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_525" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35543" pos="78756;-154119;388;49152" total="1" respawn="3hour" dbName="schuttgart_castle_526" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_01" minZ="-384" maxZ="-184">
+		<node x="77260" y="-149796"/>
+		<node x="77460" y="-149796"/>
+		<node x="77460" y="-149596"/>
+		<node x="77260" y="-149596"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_01m1" territory="schuttgart19_npc2213_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35548" pos="77360;-149696;-351;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_02" minZ="-696" maxZ="-496">
+		<node x="75700" y="-152260"/>
+		<node x="76020" y="-152260"/>
+		<node x="76068" y="-152080"/>
+		<node x="75700" y="-152060"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_02m1" territory="schuttgart19_npc2213_02" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35549" pos="75728;-152160;-656;33000" total="1" respawn="1min"/>
+		<npc id="35549" pos="76000;-152160;-656;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_03" minZ="-692" maxZ="-492">
+		<node x="78976" y="-152260"/>
+		<node x="79492" y="-152260"/>
+		<node x="79492" y="-152060"/>
+		<node x="78968" y="-152060"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_03m1" territory="schuttgart19_npc2213_03" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35550" pos="79392;-152160;-656;0" total="1" respawn="1min"/>
+		<npc id="35550" pos="79104;-152144;-656;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_04" minZ="-960" maxZ="-760">
+		<node x="76956" y="-153060"/>
+		<node x="77156" y="-153060"/>
+		<node x="77156" y="-152860"/>
+		<node x="76956" y="-152860"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_04m1" territory="schuttgart19_npc2213_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35553" pos="77056;-152960;-912;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_05" minZ="-988" maxZ="-788">
+		<node x="77980" y="-153076"/>
+		<node x="78180" y="-153076"/>
+		<node x="78180" y="-152876"/>
+		<node x="77980" y="-152876"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_05m1" territory="schuttgart19_npc2213_05" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35554" pos="78080;-152976;-912;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_06" minZ="-592" maxZ="-292">
+		<node x="77436" y="-153428"/>
+		<node x="77876" y="-153428"/>
+		<node x="77876" y="-153228"/>
+		<node x="77440" y="-153228"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_06m1" territory="schuttgart19_npc2213_06" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35555" pos="77488;-153360;-390;16500" total="1" respawn="1min"/>
+		<npc id="35557" pos="77792;-153360;-514;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_07" minZ="1180" maxZ="1380">
+		<node x="77468" y="-153396"/>
+		<node x="77668" y="-153396"/>
+		<node x="77668" y="-153196"/>
+		<node x="77468" y="-153196"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_07m1" territory="schuttgart19_npc2213_07" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35556" pos="77568;-153296;1229;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_08" minZ="744" maxZ="944">
+		<node x="77372" y="-151272"/>
+		<node x="77744" y="-151264"/>
+		<node x="77744" y="-150320"/>
+		<node x="77376" y="-150324"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_08m1" territory="schuttgart19_npc2213_08" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35547" pos="77568;-150560;771;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_09" minZ="1000" maxZ="1200">
+		<node x="76268" y="-153236"/>
+		<node x="76468" y="-153236"/>
+		<node x="76468" y="-153036"/>
+		<node x="76268" y="-153036"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_09m1" territory="schuttgart19_npc2213_09" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35551" pos="76400;-153052;1043;16500" total="1" respawn="1min"/>
+		<npc id="35551" pos="76352;-153216;1051;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_10" minZ="996" maxZ="1196">
+		<node x="78688" y="-153228"/>
+		<node x="78888" y="-153228"/>
+		<node x="78888" y="-153028"/>
+		<node x="78688" y="-153028"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_10m1" territory="schuttgart19_npc2213_10" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35552" pos="78712;-153056;1043;16500" total="1" respawn="1min"/>
+		<npc id="35552" pos="78764;-153216;1051;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_11" minZ="-400" maxZ="-200">
+		<node x="77772" y="-149476"/>
+		<node x="77972" y="-149476"/>
+		<node x="77972" y="-149276"/>
+		<node x="77772" y="-149276"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_11m1" territory="schuttgart19_npc2213_11" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35548" pos="77872;-149376;-351;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_12" minZ="-1632" maxZ="-1432">
+		<node x="89260" y="-141668"/>
+		<node x="89460" y="-141668"/>
+		<node x="89460" y="-141468"/>
+		<node x="89260" y="-141468"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_12m1" territory="schuttgart19_npc2213_12" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35558" pos="89340;-141591;-1536;3000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_13" minZ="-1412" maxZ="-1212">
+		<node x="85708" y="-142900"/>
+		<node x="85908" y="-142900"/>
+		<node x="85908" y="-142700"/>
+		<node x="85708" y="-142700"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_13m1" territory="schuttgart19_npc2213_13" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30767" pos="85804;-142816;-1344;15000" total="1" respawn="1min">
+			<ai>
+				<set name="fnAgitMap" val="schuttgart"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_14" minZ="-1372" maxZ="-1172">
+		<node x="75612" y="-145012"/>
+		<node x="75812" y="-145012"/>
+		<node x="75812" y="-144812"/>
+		<node x="75612" y="-144812"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_14m1" territory="schuttgart19_npc2213_14" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35559" pos="75712;-144912;-1312;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart19_npc2213_15" minZ="-588" maxZ="-388">
+		<node x="77216" y="-153444"/>
+		<node x="77416" y="-153444"/>
+		<node x="77416" y="-153244"/>
+		<node x="77216" y="-153244"/>
+	</territory>
+	<npcmaker name="schuttgart19_npc2213_15m1" territory="schuttgart19_npc2213_15" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35656" pos="77320;-153372;-514;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_01" minZ="-2352" maxZ="-2152">
+		<node x="82604" y="-139740"/>
+		<node x="82744" y="-139876"/>
+		<node x="82996" y="-139476"/>
+		<node x="82832" y="-139388"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_01m1" territory="schuttgart20_npc2213_01" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="82716;-139748;-2278;25000" total="1" respawn="1min"/>
+		<npc id="31673" pos="82920;-139464;-2278;25000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_02" minZ="-2336" maxZ="-2136">
+		<node x="87068" y="-137428"/>
+		<node x="87588" y="-137428"/>
+		<node x="87596" y="-137228"/>
+		<node x="87068" y="-137228"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_02m1" territory="schuttgart20_npc2213_02" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="87168;-137328;-2278;16500" total="1" respawn="1min"/>
+		<npc id="31673" pos="87540;-137324;-2278;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_03" minZ="-2396" maxZ="-2196">
+		<node x="91716" y="-139388"/>
+		<node x="92020" y="-139816"/>
+		<node x="92192" y="-139684"/>
+		<node x="91904" y="-139280"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_03m1" territory="schuttgart20_npc2213_03" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="91856;-139408;-2312;5000" total="1" respawn="1min"/>
+		<npc id="31673" pos="92080;-139696;-2312;5000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_04" minZ="-1604" maxZ="-1404">
+		<node x="84428" y="-141268"/>
+		<node x="84628" y="-141268"/>
+		<node x="84628" y="-141068"/>
+		<node x="84428" y="-141068"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_04m1" territory="schuttgart20_npc2213_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31993" pos="84512;-141188;-1542;57000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_06" minZ="-1604" maxZ="-1404">
+		<node x="85056" y="-141968"/>
+		<node x="85152" y="-142036"/>
+		<node x="85348" y="-141752"/>
+		<node x="85244" y="-141676"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_06m1" territory="schuttgart20_npc2213_06" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31674" pos="85112;-141932;-1542;26000" total="1" respawn="1min"/>
+		<npc id="31674" pos="85252;-141732;-1542;26000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_07" minZ="-1556" maxZ="-1356">
+		<node x="85564" y="-141236"/>
+		<node x="85764" y="-141236"/>
+		<node x="85764" y="-141036"/>
+		<node x="85564" y="-141036"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_07m1" territory="schuttgart20_npc2213_07" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31949" pos="85664;-141136;-1526;0" total="1" respawn="1min"/>
+		<npc id="31951" pos="85659;-141181;-1528;58498" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_08" minZ="-1584" maxZ="-1384">
+		<node x="85644" y="-141460"/>
+		<node x="85844" y="-141460"/>
+		<node x="85844" y="-141260"/>
+		<node x="85644" y="-141260"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_08m1" territory="schuttgart20_npc2213_08" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31952" pos="85744;-141360;-1526;6000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_09" minZ="-1580" maxZ="-1380">
+		<node x="85692" y="-141172"/>
+		<node x="85892" y="-141172"/>
+		<node x="85892" y="-140972"/>
+		<node x="85692" y="-140972"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_09m1" territory="schuttgart20_npc2213_09" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31950" pos="85792;-141080;-1526;55000" total="1" respawn="1min"/>
+		<npc id="31989" pos="85824;-141056;-1526;55000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_10" minZ="-1592" maxZ="-1392">
+		<node x="86348" y="-140288"/>
+		<node x="86508" y="-140184"/>
+		<node x="86452" y="-140084"/>
+		<node x="86268" y="-140188"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_10m1" territory="schuttgart20_npc2213_10" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31954" pos="86368;-140144;-1542;53000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_11" minZ="-1560" maxZ="-1360">
+		<node x="86220" y="-139748"/>
+		<node x="86420" y="-139748"/>
+		<node x="86420" y="-139548"/>
+		<node x="86220" y="-139548"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_11m1" territory="schuttgart20_npc2213_11" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31946" pos="86304;-139656;-1525;55000" total="1" respawn="1min"/>
+		<npc id="31947" pos="86276;-139672;-1525;55000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_12" minZ="-1572" maxZ="-1372">
+		<node x="86348" y="-139700"/>
+		<node x="86548" y="-139700"/>
+		<node x="86548" y="-139500"/>
+		<node x="86348" y="-139500"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_12m1" territory="schuttgart20_npc2213_12" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31945" pos="86448;-139600;-1525;55000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_13" minZ="-1564" maxZ="-1364">
+		<node x="86012" y="-139876"/>
+		<node x="86212" y="-139876"/>
+		<node x="86212" y="-139676"/>
+		<node x="86012" y="-139676"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_13m1" territory="schuttgart20_npc2213_13" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31948" pos="86124;-139784;-1525;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_15" minZ="-1592" maxZ="-1392">
+		<node x="87148" y="-140804"/>
+		<node x="87528" y="-140804"/>
+		<node x="87544" y="-140624"/>
+		<node x="87144" y="-140628"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_15m1" territory="schuttgart20_npc2213_15" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31674" pos="87244;-140704;-1542;16500" total="1" respawn="1min"/>
+		<npc id="31674" pos="87480;-140704;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_16" minZ="-1584" maxZ="-1384">
+		<node x="86988" y="-140884"/>
+		<node x="87188" y="-140884"/>
+		<node x="87188" y="-140684"/>
+		<node x="86988" y="-140684"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_16m1" territory="schuttgart20_npc2213_16" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31991" pos="87088;-140784;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_17" minZ="-1576" maxZ="-1376">
+		<node x="88508" y="-141316"/>
+		<node x="88708" y="-141316"/>
+		<node x="88708" y="-141116"/>
+		<node x="88508" y="-141116"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_17m1" territory="schuttgart20_npc2213_17" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31956" pos="88616;-141220;-1525;11000" total="1" respawn="1min"/>
+		<npc id="31957" pos="88656;-141240;-1525;11000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_18" minZ="-1576" maxZ="-1376">
+		<node x="88812" y="-141444"/>
+		<node x="89012" y="-141444"/>
+		<node x="89012" y="-141244"/>
+		<node x="88812" y="-141244"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_18m1" territory="schuttgart20_npc2213_18" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31959" pos="88904;-141332;-1525;20000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_19" minZ="-1568" maxZ="-1368">
+		<node x="88444" y="-140868"/>
+		<node x="88644" y="-140868"/>
+		<node x="88644" y="-140668"/>
+		<node x="88444" y="-140668"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_19m1" territory="schuttgart20_npc2213_19" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31958" pos="88544;-140768;-1525;52000" total="1" respawn="1min"/>
+		<npc id="32092" pos="88517;-140809;-1525;61908" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_20" minZ="-1587" maxZ="-1467">
+		<node x="89839" y="-143554"/>
+		<node x="90039" y="-143554"/>
+		<node x="90039" y="-143354"/>
+		<node x="89839" y="-143354"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_20m1" territory="schuttgart20_npc2213_20" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31980" pos="89939;-143454;-1527;9414" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_21" minZ="-1580" maxZ="-1380">
+		<node x="90204" y="-141412"/>
+		<node x="90404" y="-141412"/>
+		<node x="90404" y="-141212"/>
+		<node x="90204" y="-141212"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_21m1" territory="schuttgart20_npc2213_21" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31995" pos="90348;-141336;-1542;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_22" minZ="-1596" maxZ="-1396">
+		<node x="89572" y="-142008"/>
+		<node x="89716" y="-141928"/>
+		<node x="89520" y="-141660"/>
+		<node x="89388" y="-141756"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_22m1" territory="schuttgart20_npc2213_22" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31674" pos="89472;-141744;-1542;6000" total="1" respawn="1min"/>
+		<npc id="31674" pos="89616;-141932;-1542;6000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_23" minZ="-1564" maxZ="-1364">
+		<node x="89880" y="-143316"/>
+		<node x="90080" y="-143316"/>
+		<node x="90080" y="-143116"/>
+		<node x="89880" y="-143116"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_23m1" territory="schuttgart20_npc2213_23" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="31978" pos="90004;-143288;-1525;7000" total="1" respawn="1min"/>
+		<npc id="31977" pos="89950;-143262;-1525;7032" total="1" respawn="1min"/>
+		<npc id="32097" pos="89943;-143213;-1525;62136" total="1" respawn="1min"/>
+		<npc id="31979" pos="89988;-143176;-1519;59000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_25" minZ="-1596" maxZ="-1396">
+		<node x="89756" y="-143860"/>
+		<node x="89956" y="-143860"/>
+		<node x="89956" y="-143660"/>
+		<node x="89756" y="-143660"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_25m1" territory="schuttgart20_npc2213_25" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31092" pos="89856;-143760;-1542;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_26" minZ="-1572" maxZ="-1372">
+		<node x="90236" y="-141908"/>
+		<node x="90436" y="-141908"/>
+		<node x="90436" y="-141708"/>
+		<node x="90236" y="-141708"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_26m1" territory="schuttgart20_npc2213_26" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31975" pos="90312;-141804;-1525;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_27" minZ="-1588" maxZ="-1388">
+		<node x="90460" y="-142052"/>
+		<node x="90660" y="-142052"/>
+		<node x="90660" y="-141852"/>
+		<node x="90460" y="-141852"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_27m1" territory="schuttgart20_npc2213_27" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31974" pos="90568;-141916;-1525;34000" total="1" respawn="1min"/>
+		<npc id="32096" pos="90585;-141988;-1525;34000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_28" minZ="-1612" maxZ="-1412">
+		<node x="90300" y="-142292"/>
+		<node x="90500" y="-142292"/>
+		<node x="90500" y="-142092"/>
+		<node x="90300" y="-142092"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_28m1" territory="schuttgart20_npc2213_28" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31976" pos="90392;-142184;-1525;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_29" minZ="-1372" maxZ="-1172">
+		<node x="88476" y="-143380"/>
+		<node x="88676" y="-143380"/>
+		<node x="88704" y="-143104"/>
+		<node x="88476" y="-143180"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_29m1" territory="schuttgart20_npc2213_29" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35587" pos="88576;-143280;-1343;34000" total="1" respawn="1min"/>
+		<npc id="35586" pos="88672;-143140;-1325;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_2c01" minZ="-1576" maxZ="-1376">
+		<node x="87538" y="-140769"/>
+		<node x="87738" y="-140769"/>
+		<node x="87738" y="-140569"/>
+		<node x="87538" y="-140569"/>
+	</territory>
+	<npcmaker name="schuttgart20_2c01m1" territory="schuttgart20_npc2213_2c01" maximumNpcs="2">
+		<ai type="event_maker">
+				<set name="EventName" val="test_2nd_class"/>
+		</ai>
+		<npc id="31756" pos="87596;-140674;-1542;16500" total="1" respawn="1min"/>
+		<npc id="31757" pos="87644;-140674;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_2c02" minZ="-1379" maxZ="-1179">
+		<node x="87730" y="-142301"/>
+		<node x="87875" y="-142332"/>
+		<node x="87880" y="-142242"/>
+		<node x="87759" y="-142207"/>
+	</territory>
+	<npcmaker name="schuttgart20_2c02m1" territory="schuttgart20_npc2213_2c02" maximumNpcs="2">
+		<ai type="event_maker">
+				<set name="EventName" val="test_2nd_class"/>
+		</ai>
+		<npc id="31756" pos="87824;-142256;-1343;44000" total="1" respawn="1min"/>
+		<npc id="31757" pos="87856;-142272;-1344;44000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_30" minZ="-1452" maxZ="-1252">
+		<node x="87900" y="-142388"/>
+		<node x="88100" y="-142388"/>
+		<node x="88100" y="-142188"/>
+		<node x="87900" y="-142100"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_30m1" territory="schuttgart20_npc2213_30" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35585" pos="88000;-142288;-1342;44000" total="1" respawn="1min"/>
+		<npc id="35584" pos="87936;-142144;-1325;11000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_31" minZ="-1384" maxZ="-1184">
+		<node x="86636" y="-142388"/>
+		<node x="86836" y="-142388"/>
+		<node x="86836" y="-142088"/>
+		<node x="86636" y="-142188"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_31m1" territory="schuttgart20_npc2213_31" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35583" pos="86736;-142288;-1343;55000" total="1" respawn="1min"/>
+		<npc id="35582" pos="86800;-142128;-1325;23000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_32" minZ="-1392" maxZ="-1192">
+		<node x="86044" y="-143364"/>
+		<node x="86244" y="-143364"/>
+		<node x="86244" y="-143164"/>
+		<node x="86032" y="-143076"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_32m1" territory="schuttgart20_npc2213_32" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35581" pos="86144;-143264;-1344;0" total="1" respawn="1min"/>
+		<npc id="35580" pos="86064;-143120;-1325;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_33" minZ="-1408" maxZ="-1208">
+		<node x="86396" y="-142404"/>
+		<node x="86596" y="-142404"/>
+		<node x="86596" y="-142204"/>
+		<node x="86396" y="-142204"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_33m1" territory="schuttgart20_npc2213_33" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31994" pos="86516;-142336;-1343;38000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_34" minZ="-1416" maxZ="-1216">
+		<node x="88108" y="-142436"/>
+		<node x="88308" y="-142436"/>
+		<node x="88308" y="-142236"/>
+		<node x="88108" y="-142236"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_34m1" territory="schuttgart20_npc2213_34" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31992" pos="88208;-142336;-1343;60000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_36" minZ="-1412" maxZ="-1212">
+		<node x="86716" y="-143300"/>
+		<node x="86916" y="-143300"/>
+		<node x="86916" y="-143100"/>
+		<node x="86716" y="-143100"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_36m1" territory="schuttgart20_npc2213_36" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31997" pos="86816;-143200;-1341;28000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_37" minZ="-1340" maxZ="-1140">
+		<node x="86956" y="-143556"/>
+		<node x="87156" y="-143556"/>
+		<node x="87156" y="-143356"/>
+		<node x="86956" y="-143356"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_37m1" territory="schuttgart20_npc2213_37" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="31964" pos="87056;-143472;-1296;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_39" minZ="-1444" maxZ="-1244">
+		<node x="86880" y="-146356"/>
+		<node x="87756" y="-146356"/>
+		<node x="87748" y="-145928"/>
+		<node x="86876" y="-145900"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_39m1" territory="schuttgart20_npc2213_39" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="31968" pos="87426;-146015;-1291;19508" total="1" respawn="1min"/>
+		<npc id="32095" pos="87307;-146016;-1291;12524" total="1" respawn="1min"/>
+		<npc id="31969" pos="87696;-146272;-1296;16500" total="1" respawn="1min"/>
+		<npc id="31970" pos="86992;-146272;-1296;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_41" minZ="-1396" maxZ="-1196">
+		<node x="88304" y="-145080"/>
+		<node x="88760" y="-145080"/>
+		<node x="88760" y="-144880"/>
+		<node x="88288" y="-144880"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_41m1" territory="schuttgart20_npc2213_41" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="31996" pos="88486;-145063;-1288;49152" total="1" respawn="1min"/>
+		<npc id="32098" pos="88560;-145062;-1288;49152" total="1" respawn="1min"/>
+		<npc id="31971" pos="88384;-145028;-1296;49000" total="1" respawn="1min"/>
+		<npc id="31972" pos="88664;-145028;-1296;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_42" minZ="-1400" maxZ="-1200">
+		<node x="85944" y="-145152"/>
+		<node x="86448" y="-145152"/>
+		<node x="86436" y="-144956"/>
+		<node x="85948" y="-144952"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_42m1" territory="schuttgart20_npc2213_42" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="31967" pos="86336;-145024;-1296;49000" total="1" respawn="1min"/>
+		<npc id="31966" pos="86056;-145029;-1296;49000" total="1" respawn="1min"/>
+		<npc id="31965" pos="86238;-145056;-1296;49000" total="1" respawn="1min"/>
+		<npc id="32094" pos="86169;-145056;-1296;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_43" minZ="-1396" maxZ="-1196">
+		<node x="86028" y="-145972"/>
+		<node x="86396" y="-145972"/>
+		<node x="86392" y="-145140"/>
+		<node x="86028" y="-145144"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_43m1" territory="schuttgart20_npc2213_43" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="31691" pos="86128;-145216;-1296;0" total="1" respawn="1min"/>
+		<npc id="31691" pos="86316;-145216;-1296;0" total="1" respawn="1min"/>
+		<npc id="31691" pos="86128;-145344;-1296;0" total="1" respawn="1min"/>
+		<npc id="31691" pos="86316;-145344;-1296;0" total="1" respawn="1min"/>
+		<npc id="31691" pos="86128;-145472;-1296;0" total="1" respawn="1min"/>
+		<npc id="31691" pos="86312;-145472;-1296;0" total="1" respawn="1min"/>
+		<npc id="31691" pos="86124;-145600;-1296;0" total="1" respawn="1min"/>
+		<npc id="31691" pos="86316;-145600;-1296;0" total="1" respawn="1min"/>
+		<npc id="31691" pos="86120;-145728;-1296;0" total="1" respawn="1min"/>
+		<npc id="31691" pos="86312;-145728;-1296;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_44" minZ="-1364" maxZ="-1164">
+		<node x="87516" y="-143556"/>
+		<node x="87716" y="-143556"/>
+		<node x="87716" y="-143356"/>
+		<node x="87516" y="-143356"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_44m1" territory="schuttgart20_npc2213_44" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31688" pos="87600;-143472;-1296;16500" total="1" respawn="1min"/>
+		<npc id="31690" pos="87664;-143472;-1296;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_47" minZ="-1580" maxZ="-1380">
+		<node x="84284" y="-140932"/>
+		<node x="84484" y="-140932"/>
+		<node x="84528" y="-140580"/>
+		<node x="84284" y="-140732"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_47m1" territory="schuttgart20_npc2213_47" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31983" pos="84344;-140876;-1538;27000" total="1" respawn="1min"/>
+		<npc id="31984" pos="84472;-140696;-1539;27000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_48" minZ="-1576" maxZ="-1376">
+		<node x="87228" y="-139396"/>
+		<node x="87552" y="-139396"/>
+		<node x="87540" y="-139196"/>
+		<node x="87228" y="-139196"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_48m1" territory="schuttgart20_npc2213_48" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31985" pos="87248;-139296;-1538;16500" total="1" respawn="1min"/>
+		<npc id="31986" pos="87460;-139292;-1539;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_49" minZ="-1584" maxZ="-1384">
+		<node x="90172" y="-140820"/>
+		<node x="90428" y="-140964"/>
+		<node x="90372" y="-140620"/>
+		<node x="90172" y="-140620"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_49m1" territory="schuttgart20_npc2213_49" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31987" pos="90244;-140700;-1538;7000" total="1" respawn="1min"/>
+		<npc id="31988" pos="90376;-140872;-1539;7000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_50" minZ="-1375" maxZ="-1175">
+		<node x="85734" y="-142441"/>
+		<node x="85956" y="-142106"/>
+		<node x="85886" y="-142052"/>
+		<node x="85662" y="-142392"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_50m1" territory="schuttgart20_npc2213_50" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="31981" pos="85868;-142164;-1342;60000" total="1" respawn="1min"/>
+		<npc id="31982" pos="85728;-142380;-1328;60000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_51" minZ="-1596" maxZ="-1396">
+		<node x="85052" y="-142212"/>
+		<node x="85252" y="-142212"/>
+		<node x="85252" y="-142012"/>
+		<node x="85052" y="-142012"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_51m1" territory="schuttgart20_npc2213_51" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31998" pos="85152;-142112;-1542;26000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_52" minZ="-1564" maxZ="-1364">
+		<node x="85964" y="-141140"/>
+		<node x="86164" y="-141140"/>
+		<node x="86164" y="-140940"/>
+		<node x="85964" y="-140940"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_52m1" territory="schuttgart20_npc2213_52" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31953" pos="86044;-141040;-1526;38000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_54" minZ="-1564" maxZ="-1364">
+		<node x="88124" y="-139684"/>
+		<node x="88324" y="-139684"/>
+		<node x="88324" y="-139484"/>
+		<node x="88124" y="-139484"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_54m1" territory="schuttgart20_npc2213_54" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31963" pos="88192;-139568;-1532;45000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_55" minZ="-1576" maxZ="-1376">
+		<node x="88372" y="-139904"/>
+		<node x="88524" y="-139856"/>
+		<node x="88524" y="-139656"/>
+		<node x="88324" y="-139656"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_55m1" territory="schuttgart20_npc2213_55" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="31960" pos="88460;-139852;-1536;0" total="1" respawn="1min"/>
+		<npc id="31961" pos="88416;-139776;-1536;28000" total="1" respawn="1min"/>
+		<npc id="32093" pos="88419;-139839;-1528;40000" total="1" respawn="1min"/>
+		<npc id="31990" pos="88444;-139680;-1536;57000" total="1" respawn="1min"/>
+		<npc id="31962" pos="88271;-139797;-1534;11851" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_56" minZ="-1580" maxZ="-1380">
+		<node x="84383" y="-144137"/>
+		<node x="84583" y="-144137"/>
+		<node x="84583" y="-143937"/>
+		<node x="84383" y="-143937"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_56m1" territory="schuttgart20_npc2213_56" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="32070" pos="84460;-144052;-1530;0" total="1" respawn="1min"/>
+		<npc id="32072" pos="84460;-144052;-1530;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_57" minZ="-1555" maxZ="-1355">
+		<node x="89956" y="-143304"/>
+		<node x="90156" y="-143304"/>
+		<node x="90156" y="-143104"/>
+		<node x="89956" y="-143104"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_57m1" territory="schuttgart20_npc2213_57" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="32057" pos="90087;-143200;-1525;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_bk01" minZ="-1379" maxZ="-1179">
+		<node x="87730" y="-142301"/>
+		<node x="87875" y="-142332"/>
+		<node x="87880" y="-142242"/>
+		<node x="87759" y="-142207"/>
+	</territory>
+	<npcmaker name="schuttgart20_bk01m1" territory="schuttgart20_npc2213_bk01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="bak_event"/>
+		</ai>
+		<npc id="31255" pos="87792;-142240;-1343;44000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_bk02" minZ="-1576" maxZ="-1376">
+		<node x="87538" y="-140769"/>
+		<node x="87738" y="-140769"/>
+		<node x="87738" y="-140569"/>
+		<node x="87538" y="-140569"/>
+	</territory>
+	<npcmaker name="schuttgart20_bk02m1" territory="schuttgart20_npc2213_bk02" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="bak_event"/>
+		</ai>
+		<npc id="31255" pos="87696;-140672;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_eg01" minZ="-1340" maxZ="-1140">
+		<node x="86956" y="-143556"/>
+		<node x="87156" y="-143556"/>
+		<node x="87156" y="-143356"/>
+		<node x="86956" y="-143356"/>
+	</territory>
+	<npcmaker name="schuttgart20_eg01m1" territory="schuttgart20_npc2213_eg01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_gate"/>
+		</ai>
+		<npc id="32048" pos="87020;-143471;-1288;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_fi01" minZ="-1375" maxZ="-1175">
+		<node x="87692" y="-142340"/>
+		<node x="87892" y="-142340"/>
+		<node x="87892" y="-142140"/>
+		<node x="87692" y="-142140"/>
+	</territory>
+	<npcmaker name="schuttgart20_fi01m1" territory="schuttgart20_npc2213_fi01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="fire_event"/>
+		</ai>
+		<npc id="31227" pos="87792;-142240;-1343;44000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_fi02" minZ="-1576" maxZ="-1376">
+		<node x="87516" y="-140788"/>
+		<node x="87716" y="-140788"/>
+		<node x="87716" y="-140588"/>
+		<node x="87516" y="-140588"/>
+	</territory>
+	<npcmaker name="schuttgart20_fi02m1" territory="schuttgart20_npc2213_fi02" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="fire_event"/>
+		</ai>
+		<npc id="31227" pos="87616;-140688;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_ht01" minZ="-1375" maxZ="-1175">
+		<node x="87692" y="-142340"/>
+		<node x="87892" y="-142340"/>
+		<node x="87892" y="-142140"/>
+		<node x="87692" y="-142140"/>
+	</territory>
+	<npcmaker name="schuttgart20_ht01m1" territory="schuttgart20_npc2213_ht01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="heart_event"/>
+		</ai>
+		<npc id="31860" pos="87792;-142240;-1343;44000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_ht02" minZ="-1576" maxZ="-1376">
+		<node x="87516" y="-140788"/>
+		<node x="87716" y="-140788"/>
+		<node x="87716" y="-140588"/>
+		<node x="87516" y="-140588"/>
+	</territory>
+	<npcmaker name="schuttgart20_ht02m1" territory="schuttgart20_npc2213_ht02" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="heart_event"/>
+		</ai>
+		<npc id="31860" pos="87616;-140688;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_lc01" minZ="-1375" maxZ="-1175">
+		<node x="87692" y="-142340"/>
+		<node x="87892" y="-142340"/>
+		<node x="87892" y="-142140"/>
+		<node x="87692" y="-142140"/>
+	</territory>
+	<npcmaker name="schuttgart20_lc01m1" territory="schuttgart20_npc2213_lc01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="letter_collector"/>
+		</ai>
+		<npc id="31858" pos="87792;-142240;-1343;44000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_lc02" minZ="-1576" maxZ="-1376">
+		<node x="87516" y="-140788"/>
+		<node x="87716" y="-140788"/>
+		<node x="87716" y="-140588"/>
+		<node x="87516" y="-140588"/>
+	</territory>
+	<npcmaker name="schuttgart20_lc02m1" territory="schuttgart20_npc2213_lc02" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="letter_collector"/>
+		</ai>
+		<npc id="31857" pos="87616;-140688;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_md01" minZ="-1375" maxZ="-1175">
+		<node x="87692" y="-142340"/>
+		<node x="87892" y="-142340"/>
+		<node x="87892" y="-142140"/>
+		<node x="87692" y="-142140"/>
+	</territory>
+	<npcmaker name="schuttgart20_md01m1" territory="schuttgart20_npc2213_md01" maximumNpcs="2">
+		<ai type="event_maker">
+				<set name="EventName" val="medal"/>
+		</ai>
+		<npc id="31228" pos="87792;-142240;-1343;44000" total="1" respawn="1min"/>
+		<npc id="31229" pos="87750;-142221;-1344;44000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_md02" minZ="-1576" maxZ="-1376">
+		<node x="87516" y="-140788"/>
+		<node x="87716" y="-140788"/>
+		<node x="87716" y="-140588"/>
+		<node x="87516" y="-140588"/>
+	</territory>
+	<npcmaker name="schuttgart20_md02m1" territory="schuttgart20_npc2213_md02" maximumNpcs="2">
+		<ai type="event_maker">
+				<set name="EventName" val="medal"/>
+		</ai>
+		<npc id="31228" pos="87616;-140688;-1542;16500" total="1" respawn="1min"/>
+		<npc id="31229" pos="87664;-140688;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_nc01" minZ="-1375" maxZ="-1175">
+		<node x="87692" y="-142340"/>
+		<node x="87892" y="-142340"/>
+		<node x="87892" y="-142140"/>
+		<node x="87692" y="-142140"/>
+	</territory>
+	<npcmaker name="schuttgart20_nc01m1" territory="schuttgart20_npc2213_nc01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="net_cafe_event_1"/>
+		</ai>
+		<npc id="31774" pos="87792;-142240;-1343;44000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_nc02" minZ="-1576" maxZ="-1376">
+		<node x="87516" y="-140788"/>
+		<node x="87716" y="-140788"/>
+		<node x="87716" y="-140588"/>
+		<node x="87516" y="-140588"/>
+	</territory>
+	<npcmaker name="schuttgart20_nc02m1" territory="schuttgart20_npc2213_nc02" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="net_cafe_event_1"/>
+		</ai>
+		<npc id="31774" pos="87616;-140688;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_pg1" minZ="-3964" maxZ="-1964">
+		<node x="89813" y="-137017"/>
+		<node x="93165" y="-140855"/>
+		<node x="94824" y="-138311"/>
+		<node x="93704" y="-136670"/>
+		<node x="90548" y="-135729"/>
+	</territory>
+	<territory name="schuttgart20_npc2213_pg2" minZ="-2760" maxZ="-2160">
+		<node x="85537" y="-137132"/>
+		<node x="89645" y="-137332"/>
+		<node x="90126" y="-136431"/>
+		<node x="87320" y="-136170"/>
+	</territory>
+	<territory name="schuttgart20_npc2213_pg3" minZ="-2624" maxZ="-2034">
+		<node x="81155" y="-140109"/>
+		<node x="87073" y="-137218"/>
+		<node x="85583" y="-137148"/>
+		<node x="79572" y="-139285"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_pg1m1" territory="schuttgart20_npc2213_pg1;schuttgart20_npc2213_pg2;schuttgart20_npc2213_pg3" maximumNpcs="112">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="35" respawn="20sec"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+		<npc id="13035" total="1" respawn="10min" respawnRand="2min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_pg4" minZ="-2364" maxZ="-2064">
+		<node x="82572" y="-139780"/>
+		<node x="82772" y="-139780"/>
+		<node x="82772" y="-139580"/>
+		<node x="82572" y="-139580"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_pg4m1" territory="schuttgart20_npc2213_pg4" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="82716;-139704;-2280;26000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_pg5" minZ="-2332" maxZ="-2132">
+		<node x="87116" y="-137364"/>
+		<node x="87316" y="-137364"/>
+		<node x="87316" y="-137164"/>
+		<node x="87116" y="-137164"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_pg5m1" territory="schuttgart20_npc2213_pg5" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="87216;-137284;-2280;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_pg6" minZ="-2376" maxZ="-2176">
+		<node x="91820" y="-139476"/>
+		<node x="92020" y="-139476"/>
+		<node x="92020" y="-139276"/>
+		<node x="91820" y="-139276"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_pg6m1" territory="schuttgart20_npc2213_pg6" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="91888;-139436;-2313;8192" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_so01" minZ="-1375" maxZ="-1175">
+		<node x="87692" y="-142340"/>
+		<node x="87892" y="-142340"/>
+		<node x="87892" y="-142140"/>
+		<node x="87692" y="-142140"/>
+	</territory>
+	<npcmaker name="schuttgart20_so01m1" territory="schuttgart20_npc2213_so01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="worldcup_event"/>
+		</ai>
+		<npc id="32091" pos="87792;-142240;-1343;44000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_so02" minZ="-1576" maxZ="-1376">
+		<node x="87516" y="-140788"/>
+		<node x="87716" y="-140788"/>
+		<node x="87716" y="-140588"/>
+		<node x="87516" y="-140588"/>
+	</territory>
+	<npcmaker name="schuttgart20_so02m1" territory="schuttgart20_npc2213_so02" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="worldcup_event"/>
+		</ai>
+		<npc id="32091" pos="87616;-140688;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_sp1" minZ="-1596" maxZ="-1396">
+		<node x="84664" y="-141368"/>
+		<node x="84904" y="-141592"/>
+		<node x="85256" y="-141180"/>
+		<node x="85004" y="-140944"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_sp1m1" territory="schuttgart20_npc2213_sp1" event="ssq_seal2_dawn" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31999" total="1" respawn="1min"/>
+		<npc id="32003" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_sp2" minZ="-1608" maxZ="-1408">
+		<node x="87132" y="-140288"/>
+		<node x="87552" y="-140300"/>
+		<node x="87572" y="-140024"/>
+		<node x="87128" y="-140032"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_sp2m1" territory="schuttgart20_npc2213_sp2" event="ssq_seal2_dawn" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="32000" total="1" respawn="1min"/>
+		<npc id="32004" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_sp3" minZ="-1588" maxZ="-1388">
+		<node x="89712" y="-141528"/>
+		<node x="89936" y="-141400"/>
+		<node x="89664" y="-140968"/>
+		<node x="89452" y="-141116"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_sp3m1" territory="schuttgart20_npc2213_sp3" event="ssq_seal2_dawn" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="32001" total="1" respawn="1min"/>
+		<npc id="32005" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_sp4" minZ="-1392" maxZ="-1192">
+		<node x="87180" y="-142612"/>
+		<node x="87620" y="-142612"/>
+		<node x="87600" y="-142412"/>
+		<node x="87180" y="-142412"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_sp4m1" territory="schuttgart20_npc2213_sp4" event="ssq_seal2_dawn" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="32002" total="1" respawn="1min"/>
+		<npc id="32006" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_sw01" minZ="-1596" maxZ="-1396">
+		<node x="88268" y="-140196"/>
+		<node x="88468" y="-140196"/>
+		<node x="88468" y="-139996"/>
+		<node x="88268" y="-139996"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_sw01" territory="schuttgart20_npc2213_sw01" event="start_weapon" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31760" pos="88368;-140096;-1542;44000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_tb01" minZ="-1375" maxZ="-1175">
+		<node x="87692" y="-142340"/>
+		<node x="87892" y="-142340"/>
+		<node x="87892" y="-142140"/>
+		<node x="87692" y="-142140"/>
+	</territory>
+	<npcmaker name="schuttgart20_tb01m1" territory="schuttgart20_npc2213_tb01" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="87792;-142240;-1343;44000" total="1" respawn="1min"/>
+		<npc id="13036" pos="87872;-142244;-1339;64039" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87729;-142173;-1341;25392" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87858;-142283;-1339;59415" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87829;-142312;-1339;55009" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87784;-142322;-1339;47255" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87722;-142289;-1341;40624" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87705;-142249;-1341;33648" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87708;-142209;-1341;30248" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_tb02" minZ="-1576" maxZ="-1376">
+		<node x="87450" y="-140745"/>
+		<node x="87650" y="-140745"/>
+		<node x="87650" y="-140545"/>
+		<node x="87450" y="-140545"/>
+	</territory>
+	<npcmaker name="schuttgart20_tb02m1" territory="schuttgart20_npc2213_tb02" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="87557;-140657;-1542;20476" total="1" respawn="1min"/>
+		<npc id="13036" pos="87494;-140712;-1539;40191" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87642;-140651;-1540;1544" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87474;-140675;-1539;35567" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87471;-140634;-1539;31161" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87494;-140594;-1539;23407" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87559;-140569;-1540;16776" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87600;-140582;-1540;9800" total="1" respawn="15sec"/>
+		<npc id="13036" pos="87628;-140611;-1540;6400" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_tk01" minZ="-1340" maxZ="-1140">
+		<node x="86956" y="-143556"/>
+		<node x="87156" y="-143556"/>
+		<node x="87156" y="-143356"/>
+		<node x="86956" y="-143356"/>
+	</territory>
+	<npcmaker name="schuttgart20_tk01m1" territory="schuttgart20_npc2213_tk01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="18age"/>
+		</ai>
+		<npc id="30994" pos="87096;-143472;-1296;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_tw01" minZ="-1596" maxZ="-1396">
+		<node x="84664" y="-141368"/>
+		<node x="84904" y="-141592"/>
+		<node x="85256" y="-141180"/>
+		<node x="85004" y="-140944"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_tw01m1" territory="schuttgart20_npc2213_tw01" event="ssq_seal2_twilight" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31999" total="1" respawn="1min"/>
+		<npc id="32003" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_tw02" minZ="-1608" maxZ="-1408">
+		<node x="87132" y="-140288"/>
+		<node x="87552" y="-140300"/>
+		<node x="87572" y="-140024"/>
+		<node x="87128" y="-140032"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_tw02m1" territory="schuttgart20_npc2213_tw02" event="ssq_seal2_twilight" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="32000" total="1" respawn="1min"/>
+		<npc id="32004" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_tw03" minZ="-1588" maxZ="-1388">
+		<node x="89712" y="-141528"/>
+		<node x="89936" y="-141400"/>
+		<node x="89664" y="-140968"/>
+		<node x="89452" y="-141116"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_tw03m1" territory="schuttgart20_npc2213_tw03" event="ssq_seal2_twilight" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="32001" total="1" respawn="1min"/>
+		<npc id="32005" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_tw04" minZ="-1392" maxZ="-1192">
+		<node x="87180" y="-142612"/>
+		<node x="87620" y="-142612"/>
+		<node x="87600" y="-142412"/>
+		<node x="87180" y="-142412"/>
+	</territory>
+	<npcmaker name="schuttgart20_npc2213_tw04m1" territory="schuttgart20_npc2213_tw04" event="ssq_seal2_twilight" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="32002" total="1" respawn="1min"/>
+		<npc id="32006" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_xm01" minZ="-1375" maxZ="-1175">
+		<node x="87692" y="-142340"/>
+		<node x="87892" y="-142340"/>
+		<node x="87892" y="-142140"/>
+		<node x="87692" y="-142140"/>
+	</territory>
+	<npcmaker name="schuttgart20_xm01m1" territory="schuttgart20_npc2213_xm01" maximumNpcs="2">
+		<ai type="event_maker">
+				<set name="EventName" val="christmas"/>
+		</ai>
+		<npc id="31864" pos="87792;-142240;-1343;44000" total="1" respawn="1min"/>
+		<npc id="13006" pos="87750;-142221;-1344;44000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart20_npc2213_xm02" minZ="-1576" maxZ="-1376">
+		<node x="87516" y="-140788"/>
+		<node x="87716" y="-140788"/>
+		<node x="87716" y="-140588"/>
+		<node x="87516" y="-140588"/>
+	</territory>
+	<npcmaker name="schuttgart20_xm02m1" territory="schuttgart20_npc2213_xm02" maximumNpcs="2">
+		<ai type="event_maker">
+				<set name="EventName" val="christmas"/>
+		</ai>
+		<npc id="31864" pos="87616;-140688;-1542;16500" total="1" respawn="1min"/>
+		<npc id="13006" pos="87664;-140688;-1542;16500" total="1" respawn="1min"/>
+	</npcmaker>
+</list>

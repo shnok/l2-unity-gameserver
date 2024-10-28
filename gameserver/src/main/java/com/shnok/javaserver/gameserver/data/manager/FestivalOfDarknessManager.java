@@ -37,7 +37,7 @@ import com.shnok.javaserver.gameserver.model.spawn.Spawn;
 import com.shnok.javaserver.gameserver.model.zone.type.PeaceZone;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.CreatureSay;
-import com.shnok.javaserver.gameserver.network.serverpackets.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class FestivalOfDarknessManager

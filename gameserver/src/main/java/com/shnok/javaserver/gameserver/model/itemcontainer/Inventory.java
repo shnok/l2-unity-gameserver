@@ -388,7 +388,7 @@ public abstract class Inventory extends ItemContainer
 				_paperdoll[slot.getId()] = null;
 				
 				// Put old item from paperdoll slot to base location.
-				old.setLocation(getBaseLocation());
+				old.setLocation(getBaseLocation(), findNextAvailableSlot());
 				addUpdate(old, ItemState.MODIFIED);
 				
 				// Delete armor mask flag (in case of two-piece armor it does not matter, we need to deactivate mask too).

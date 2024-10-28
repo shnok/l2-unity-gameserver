@@ -30,15 +30,15 @@ import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.network.NpcStringId;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.CreatureSay;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExCloseMPCC;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExOpenMPCC;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowScreenMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExCloseMPCC;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExOpenMPCC;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowScreenMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.PartyMemberPosition;
-import com.shnok.javaserver.gameserver.network.serverpackets.PartySmallWindowAdd;
-import com.shnok.javaserver.gameserver.network.serverpackets.PartySmallWindowAll;
-import com.shnok.javaserver.gameserver.network.serverpackets.PartySmallWindowDelete;
-import com.shnok.javaserver.gameserver.network.serverpackets.PartySmallWindowDeleteAll;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PartyMemberPosition;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PartySmallWindowAdd;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PartySmallWindowAll;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PartySmallWindowDelete;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PartySmallWindowDeleteAll;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class Party extends AbstractGroup

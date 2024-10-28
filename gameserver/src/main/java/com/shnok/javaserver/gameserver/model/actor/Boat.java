@@ -22,7 +22,7 @@ import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.VehicleInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.VehicleInfo;
 
 public class Boat extends Creature
 {

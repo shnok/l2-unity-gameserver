@@ -7,7 +7,7 @@ import com.shnok.javaserver.commons.data.StatSet;
 import com.shnok.javaserver.gameserver.enums.DoorType;
 import com.shnok.javaserver.gameserver.enums.OpenType;
 import com.shnok.javaserver.gameserver.model.location.Point2D;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 
 public class DoorTemplate extends CreatureTemplate
 {

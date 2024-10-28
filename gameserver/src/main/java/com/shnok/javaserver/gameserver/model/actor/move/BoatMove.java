@@ -4,10 +4,10 @@ import com.shnok.javaserver.gameserver.enums.actors.MoveType;
 import com.shnok.javaserver.gameserver.enums.boats.BoatState;
 import com.shnok.javaserver.gameserver.model.actor.Boat;
 import com.shnok.javaserver.gameserver.model.location.BoatLocation;
-import com.shnok.javaserver.gameserver.network.serverpackets.OnVehicleCheckLocation;
-import com.shnok.javaserver.gameserver.network.serverpackets.VehicleDeparture;
-import com.shnok.javaserver.gameserver.network.serverpackets.VehicleInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.VehicleStarted;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.OnVehicleCheckLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.VehicleDeparture;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.VehicleInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.VehicleStarted;
 
 public class BoatMove extends CreatureMove<Boat>
 {

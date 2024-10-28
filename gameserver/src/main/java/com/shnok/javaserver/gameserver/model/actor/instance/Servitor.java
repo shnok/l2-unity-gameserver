@@ -12,7 +12,7 @@ import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameManager;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.SetSummonRemainTime;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SetSummonRemainTime;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 import com.shnok.javaserver.gameserver.skills.l2skills.L2SkillSummon;

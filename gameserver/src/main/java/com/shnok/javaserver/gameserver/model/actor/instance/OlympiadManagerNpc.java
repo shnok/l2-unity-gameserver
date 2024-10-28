@@ -15,8 +15,8 @@ import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameManager;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameTask;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadManager;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExHeroList;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExHeroList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 public class OlympiadManagerNpc extends Folk
 {

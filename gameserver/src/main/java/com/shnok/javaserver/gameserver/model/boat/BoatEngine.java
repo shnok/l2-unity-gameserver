@@ -12,7 +12,7 @@ import com.shnok.javaserver.gameserver.model.actor.Boat;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.location.BoatLocation;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
 import com.shnok.javaserver.gameserver.taskmanager.BoatTaskManager;
 
 public class BoatEngine implements Runnable

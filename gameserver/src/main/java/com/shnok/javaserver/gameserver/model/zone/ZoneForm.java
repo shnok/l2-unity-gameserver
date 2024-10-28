@@ -1,6 +1,6 @@
 package com.shnok.javaserver.gameserver.model.zone;
 
-import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 
 /**
  * Abstract base class for any zone form.

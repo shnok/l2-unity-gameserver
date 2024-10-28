@@ -36,7 +36,7 @@ import com.shnok.javaserver.gameserver.model.itemcontainer.PetInventory;
 import com.shnok.javaserver.gameserver.model.records.PetDataEntry;
 import com.shnok.javaserver.gameserver.model.records.Timestamp;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.PetInventoryUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PetInventoryUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.Formulas;
 import com.shnok.javaserver.gameserver.skills.L2Skill;

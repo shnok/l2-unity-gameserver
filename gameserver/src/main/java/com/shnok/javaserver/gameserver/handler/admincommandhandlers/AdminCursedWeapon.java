@@ -8,7 +8,7 @@ import com.shnok.javaserver.gameserver.data.manager.CursedWeaponManager;
 import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.entity.CursedWeapon;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 public class AdminCursedWeapon implements IAdminCommandHandler
 {

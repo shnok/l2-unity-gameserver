@@ -14,7 +14,7 @@ import com.shnok.javaserver.gameserver.model.multisell.Entry;
 import com.shnok.javaserver.gameserver.model.multisell.Ingredient;
 import com.shnok.javaserver.gameserver.model.multisell.ListContainer;
 import com.shnok.javaserver.gameserver.model.multisell.PreparedListContainer;
-import com.shnok.javaserver.gameserver.network.serverpackets.MultiSellList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.MultiSellList;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;

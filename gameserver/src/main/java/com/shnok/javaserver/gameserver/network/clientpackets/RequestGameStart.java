@@ -5,8 +5,8 @@ import com.shnok.javaserver.gameserver.model.CharSelectSlot;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.GameClient;
 import com.shnok.javaserver.gameserver.network.GameClient.GameClientState;
-import com.shnok.javaserver.gameserver.network.serverpackets.CharSelected;
-import com.shnok.javaserver.gameserver.network.serverpackets.SSQInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.auth.CharSelected;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SSQInfo;
 
 public class RequestGameStart extends L2GameClientPacket
 {

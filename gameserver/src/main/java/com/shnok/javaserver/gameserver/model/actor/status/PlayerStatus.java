@@ -38,9 +38,9 @@ import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHallFunction
 import com.shnok.javaserver.gameserver.model.zone.type.MotherTreeZone;
 import com.shnok.javaserver.gameserver.model.zone.type.SwampZone;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExDuelUpdateUserInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.PartySmallWindowUpdate;
-import com.shnok.javaserver.gameserver.network.serverpackets.PledgeShowMemberListUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExDuelUpdateUserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PartySmallWindowUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PledgeShowMemberListUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
 import com.shnok.javaserver.gameserver.network.serverpackets.StatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;

@@ -21,12 +21,12 @@ import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo.SummonInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.PetDelete;
-import com.shnok.javaserver.gameserver.network.serverpackets.PetInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.PetItemList;
-import com.shnok.javaserver.gameserver.network.serverpackets.PetStatusShow;
-import com.shnok.javaserver.gameserver.network.serverpackets.PetStatusUpdate;
-import com.shnok.javaserver.gameserver.network.serverpackets.RelationChanged;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PetDelete;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PetInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PetItemList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PetStatusShow;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PetStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.RelationChanged;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 

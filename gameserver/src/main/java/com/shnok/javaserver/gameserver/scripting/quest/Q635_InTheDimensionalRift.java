@@ -21,7 +21,7 @@ import com.shnok.javaserver.gameserver.model.group.Party;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.model.spawn.MultiSpawn;
 import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
-import com.shnok.javaserver.gameserver.network.serverpackets.Earthquake;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.Earthquake;
 import com.shnok.javaserver.gameserver.scripting.Quest;
 import com.shnok.javaserver.gameserver.scripting.QuestState;
 import com.shnok.javaserver.gameserver.taskmanager.GameTimeTaskManager;

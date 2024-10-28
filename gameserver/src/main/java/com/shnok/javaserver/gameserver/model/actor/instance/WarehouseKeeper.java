@@ -11,8 +11,8 @@ import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.PackageToList;
-import com.shnok.javaserver.gameserver.network.serverpackets.WarehouseDepositList;
-import com.shnok.javaserver.gameserver.network.serverpackets.WarehouseWithdrawList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.WarehouseDepositList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.WarehouseWithdrawList;
 
 /**
  * An instance type extending {@link Folk}, used by warehouse keepers.<br>

@@ -11,10 +11,10 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.model.buylist.NpcBuyList;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
-import com.shnok.javaserver.gameserver.network.serverpackets.BuyList;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.SellList;
-import com.shnok.javaserver.gameserver.network.serverpackets.ShopPreviewList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.BuyList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SellList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ShopPreviewList;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**

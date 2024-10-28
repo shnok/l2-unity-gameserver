@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<access level="-1" name="Banned" nameColor="FFFFFF" titleColor="FFFF77" isGM="false" allowFixedRes="false" allowTransaction="false" allowAltg="false" giveDamage="false"/>
+	<access level="0" name="User" nameColor="FFFFFF" titleColor="FFFF77" childLevel="0" isGM="false" allowFixedRes="false" allowTransaction="true" allowAltg="false" giveDamage="true"/>
+	<access level="1" name="Chat Moderator" nameColor="FFFFFF" titleColor="FFFF77" childLevel="0" isGM="false" allowFixedRes="false" allowTransaction="true" allowAltg="false" giveDamage="true"/>
+	<access level="2" name="Test GM" nameColor="FFFFFF" titleColor="FFFF77" childLevel="1" isGM="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false"/>
+	<access level="3" name="General GM" nameColor="CC3333" titleColor="CC3333" childLevel="2" isGM="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false"/>
+	<access level="4" name="Support GM" nameColor="FF66CC" titleColor="FF66CC" childLevel="3" isGM="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false"/>
+	<access level="5" name="Event GM" nameColor="003399" titleColor="003399" childLevel="4" isGM="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false"/>
+	<access level="6" name="Head GM" nameColor="339933" titleColor="339933" childLevel="5" isGM="false" allowFixedRes="true" allowTransaction="true" allowAltg="true" giveDamage="true"/>
+	<access level="7" name="Admin" nameColor="CC6600" titleColor="CC6600" childLevel="6" isGM="true" allowFixedRes="true" allowTransaction="true" allowAltg="true" giveDamage="true"/>
+	<access level="8" name="Master" nameColor="00CCFF" titleColor="00CCFF" childLevel="7" isGM="true" allowFixedRes="true" allowTransaction="true" allowAltg="true" giveDamage="true"/>
+</list>

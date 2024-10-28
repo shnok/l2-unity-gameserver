@@ -18,13 +18,13 @@ import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowCropInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowCropSetting;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowManorDefaultInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowSeedInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowSeedSetting;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.SiegeInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowCropInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowCropSetting;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowManorDefaultInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowSeedInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowSeedSetting;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SiegeInfo;
 
 /**
  * An instance type extending {@link Merchant}, used for castle chamberlains.<br>

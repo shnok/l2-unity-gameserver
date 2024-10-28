@@ -8,7 +8,7 @@ import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
 
 public class BlessedSpiritShots implements IItemHandler
 {

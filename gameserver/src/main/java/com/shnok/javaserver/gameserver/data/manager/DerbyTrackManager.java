@@ -24,8 +24,8 @@ import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.model.zone.type.DerbyTrackZone;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.DeleteObject;
-import com.shnok.javaserver.gameserver.network.serverpackets.MonRaceInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.MonRaceInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class DerbyTrackManager

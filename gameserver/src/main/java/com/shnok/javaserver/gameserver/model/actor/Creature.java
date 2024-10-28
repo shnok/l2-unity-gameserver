@@ -51,7 +51,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo.Npc
 import com.shnok.javaserver.gameserver.network.serverpackets.ChangeMoveType;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.Revive;
-import com.shnok.javaserver.gameserver.network.serverpackets.ServerObjectInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ServerObjectInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.StatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.TeleportToLocation;
 import com.shnok.javaserver.gameserver.scripting.Quest;

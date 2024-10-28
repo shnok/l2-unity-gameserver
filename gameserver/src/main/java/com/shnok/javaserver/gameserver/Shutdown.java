@@ -27,7 +27,7 @@ import com.shnok.javaserver.gameserver.model.olympiad.Olympiad;
 import com.shnok.javaserver.gameserver.network.GameClient;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.gameserverpackets.ServerStatus;
-import com.shnok.javaserver.gameserver.network.serverpackets.ServerClose;
+import com.shnok.javaserver.gameserver.network.serverpackets.auth.ServerClose;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.taskmanager.ItemInstanceTaskManager;
 import com.shnok.javaserver.gameserver.taskmanager.ItemsOnGroundTaskManager;

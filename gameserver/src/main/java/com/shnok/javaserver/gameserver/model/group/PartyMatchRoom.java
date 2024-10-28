@@ -13,9 +13,9 @@ import com.shnok.javaserver.gameserver.model.restart.RestartPoint;
 import com.shnok.javaserver.gameserver.network.NpcStringId;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.CreatureSay;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExClosePartyRoom;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExManagePartyRoomMember;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowScreenMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExClosePartyRoom;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExManagePartyRoomMember;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowScreenMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 

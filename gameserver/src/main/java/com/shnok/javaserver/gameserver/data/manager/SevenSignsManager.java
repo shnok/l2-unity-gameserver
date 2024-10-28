@@ -23,8 +23,8 @@ import com.shnok.javaserver.gameserver.enums.SealType;
 import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
-import com.shnok.javaserver.gameserver.network.serverpackets.SSQInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SSQInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class SevenSignsManager

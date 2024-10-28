@@ -16,7 +16,7 @@ import com.shnok.javaserver.gameserver.model.Macro;
 import com.shnok.javaserver.gameserver.model.Shortcut;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExAutoSoulShot;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExAutoSoulShot;
 import com.shnok.javaserver.gameserver.network.serverpackets.ShortCutDelete;
 import com.shnok.javaserver.gameserver.network.serverpackets.ShortCutRegister;
 import com.shnok.javaserver.gameserver.skills.L2Skill;

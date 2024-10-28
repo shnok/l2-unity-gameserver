@@ -4,7 +4,7 @@ import com.shnok.javaserver.gameserver.enums.skills.EffectFlag;
 import com.shnok.javaserver.gameserver.enums.skills.EffectType;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.EtcStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.EtcStatusUpdate;
 import com.shnok.javaserver.gameserver.skills.AbstractEffect;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 

@@ -346,7 +346,7 @@ public final class SelectorThread<T extends MMOClient<?>> extends Thread
 			default:
 				// data size excluding header size :>
 				final int dataPending = (buf.getShort() & 0xFFFF) - HEADER_SIZE;
-				
+
 				// do we got enough bytes for the packet?
 				if (dataPending <= buf.remaining())
 				{
@@ -403,7 +403,7 @@ public final class SelectorThread<T extends MMOClient<?>> extends Thread
 	private final void parseClientPacket(final int pos, final ByteBuffer buf, final int dataSize, final T client)
 	{
 		final boolean ret = client.decrypt(buf, dataSize);
-		
+
 		if (ret && buf.hasRemaining())
 		{
 			// apply limit

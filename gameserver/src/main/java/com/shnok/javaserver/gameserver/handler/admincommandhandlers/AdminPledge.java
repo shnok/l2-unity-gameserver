@@ -8,7 +8,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.model.pledge.ClanMember;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.GMViewPledgeInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.GMViewPledgeInfo;
 
 public class AdminPledge implements IAdminCommandHandler
 {

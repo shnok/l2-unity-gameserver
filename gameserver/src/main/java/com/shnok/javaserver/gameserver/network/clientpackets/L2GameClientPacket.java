@@ -8,6 +8,7 @@ import com.shnok.javaserver.commons.mmocore.ReceivablePacket;
 import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.GameClient;
+import com.shnok.javaserver.gameserver.network.clientpackets.auth.EnterWorld;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 /**

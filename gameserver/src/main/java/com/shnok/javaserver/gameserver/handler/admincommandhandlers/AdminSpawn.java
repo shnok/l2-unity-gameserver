@@ -20,7 +20,7 @@ import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.model.spawn.ASpawn;
 import com.shnok.javaserver.gameserver.model.spawn.Spawn;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class AdminSpawn implements IAdminCommandHandler

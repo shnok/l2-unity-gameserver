@@ -2,9 +2,9 @@ package com.shnok.javaserver.gameserver.model.actor.instance;
 
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.ShowTownMap;
-import com.shnok.javaserver.gameserver.network.serverpackets.StaticObjectInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ShowTownMap;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.StaticObjectInfo;
 
 /**
  * A static object with low amount of interactions and no AI - such as throne, village town maps, etc.

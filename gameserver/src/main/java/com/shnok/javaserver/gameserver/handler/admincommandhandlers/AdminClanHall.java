@@ -15,7 +15,7 @@ import com.shnok.javaserver.gameserver.model.residence.clanhall.Auction;
 import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHall;
 import com.shnok.javaserver.gameserver.model.residence.clanhall.SiegableHall;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 public class AdminClanHall implements IAdminCommandHandler
 {

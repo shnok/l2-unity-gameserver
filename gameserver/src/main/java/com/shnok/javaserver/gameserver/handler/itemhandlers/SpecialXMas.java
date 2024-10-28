@@ -4,7 +4,7 @@ import com.shnok.javaserver.gameserver.handler.IItemHandler;
 import com.shnok.javaserver.gameserver.model.actor.Playable;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
-import com.shnok.javaserver.gameserver.network.serverpackets.ShowXMasSeal;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ShowXMasSeal;
 
 public class SpecialXMas implements IItemHandler
 {

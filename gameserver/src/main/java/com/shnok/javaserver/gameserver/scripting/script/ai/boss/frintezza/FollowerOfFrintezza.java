@@ -11,7 +11,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.model.memo.GlobalMemo;
 import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
-import com.shnok.javaserver.gameserver.network.serverpackets.SpecialCamera;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SpecialCamera;
 import com.shnok.javaserver.gameserver.scripting.script.ai.individual.DefaultNpc;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 import com.shnok.javaserver.gameserver.taskmanager.GameTimeTaskManager;

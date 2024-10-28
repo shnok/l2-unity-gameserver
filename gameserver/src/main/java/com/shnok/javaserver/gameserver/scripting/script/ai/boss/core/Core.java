@@ -8,7 +8,7 @@ import com.shnok.javaserver.gameserver.model.actor.Npc;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.instance.Door;
 import com.shnok.javaserver.gameserver.network.NpcStringId;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
 import com.shnok.javaserver.gameserver.scripting.script.ai.individual.DefaultNpc;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 

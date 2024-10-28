@@ -37,8 +37,8 @@ import com.shnok.javaserver.gameserver.model.zone.type.CastleZone;
 import com.shnok.javaserver.gameserver.model.zone.type.SiegeZone;
 import com.shnok.javaserver.gameserver.network.NpcStringId;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
-import com.shnok.javaserver.gameserver.network.serverpackets.PledgeShowInfoUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PledgeShowInfoUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class Castle extends Residence

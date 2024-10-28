@@ -3,8 +3,8 @@ package com.shnok.javaserver.gameserver.model.actor.instance;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.HennaEquipList;
-import com.shnok.javaserver.gameserver.network.serverpackets.HennaUnequipList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.HennaEquipList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.HennaUnequipList;
 
 public class SymbolMaker extends Folk
 {

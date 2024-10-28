@@ -15,7 +15,7 @@ import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
 import com.shnok.javaserver.gameserver.model.zone.type.BossZone;
 import com.shnok.javaserver.gameserver.network.NpcStringId;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowScreenMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowScreenMessage;
 import com.shnok.javaserver.gameserver.scripting.script.ai.individual.DefaultNpc;
 
 public class FrintezzaTeleporter extends DefaultNpc

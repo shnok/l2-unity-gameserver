@@ -8,8 +8,8 @@ import com.shnok.javaserver.gameserver.model.actor.Summon;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameTask;
 import com.shnok.javaserver.gameserver.model.zone.type.subtype.SpawnZoneType;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExOlympiadMatchEnd;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExOlympiadUserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExOlympiadMatchEnd;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExOlympiadUserInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 /**

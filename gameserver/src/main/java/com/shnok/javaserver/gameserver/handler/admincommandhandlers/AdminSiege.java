@@ -11,8 +11,8 @@ import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
 import com.shnok.javaserver.gameserver.model.location.TowerSpawnLocation;
 import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.SiegeInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SiegeInfo;
 
 public class AdminSiege implements IAdminCommandHandler
 {

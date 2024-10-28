@@ -31,7 +31,7 @@ import com.shnok.javaserver.gameserver.model.pledge.ClanMember;
 import com.shnok.javaserver.gameserver.model.residence.Siegable;
 import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.PlaySound;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
 

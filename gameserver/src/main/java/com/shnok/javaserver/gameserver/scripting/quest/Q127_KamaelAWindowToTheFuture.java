@@ -3,7 +3,7 @@ package com.shnok.javaserver.gameserver.scripting.quest;
 import com.shnok.javaserver.gameserver.enums.QuestStatus;
 import com.shnok.javaserver.gameserver.model.actor.Npc;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExPlayScene;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExPlayScene;
 import com.shnok.javaserver.gameserver.scripting.Quest;
 import com.shnok.javaserver.gameserver.scripting.QuestState;
 

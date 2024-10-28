@@ -12,7 +12,7 @@ import com.shnok.javaserver.gameserver.model.actor.Playable;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.zone.type.subtype.CastleZoneType;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.EtcStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.EtcStatusUpdate;
 
 /**
  * A zone extending {@link CastleZoneType}, which fires a task on the first {@link Creature} entrance, notably used by castle damage traps.<br>

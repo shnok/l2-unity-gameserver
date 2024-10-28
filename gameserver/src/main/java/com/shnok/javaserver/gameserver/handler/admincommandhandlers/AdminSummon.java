@@ -9,7 +9,7 @@ import com.shnok.javaserver.gameserver.model.actor.Summon;
 import com.shnok.javaserver.gameserver.model.actor.instance.Pet;
 import com.shnok.javaserver.gameserver.model.records.PetDataEntry;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.GMViewItemList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.GMViewItemList;
 
 public class AdminSummon implements IAdminCommandHandler
 {

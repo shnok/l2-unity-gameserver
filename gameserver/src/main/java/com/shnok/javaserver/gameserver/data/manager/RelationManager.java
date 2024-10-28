@@ -17,7 +17,7 @@ import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.records.PlayerPair;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.L2FriendStatus;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.L2FriendStatus;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class RelationManager

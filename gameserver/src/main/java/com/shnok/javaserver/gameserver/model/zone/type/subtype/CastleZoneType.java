@@ -6,7 +6,7 @@ import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.WorldRegion;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
-import com.shnok.javaserver.gameserver.network.serverpackets.EventTrigger;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.EventTrigger;
 
 /**
  * A zone type extending {@link ZoneType} used for castle zones.

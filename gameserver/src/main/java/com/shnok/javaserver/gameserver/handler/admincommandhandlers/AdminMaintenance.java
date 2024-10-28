@@ -11,7 +11,7 @@ import com.shnok.javaserver.gameserver.Shutdown;
 import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
 import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.taskmanager.GameTimeTaskManager;
 
 public class AdminMaintenance implements IAdminCommandHandler

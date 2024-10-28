@@ -9,7 +9,7 @@ import com.shnok.javaserver.gameserver.enums.GaugeColor;
 import com.shnok.javaserver.gameserver.enums.skills.Stats;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.SetupGauge;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SetupGauge;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.Formulas;
 

@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="2200" levels="3" name="Item - Jade Treasure Box" >
+		<table name="#extractableItems">
+			6908,24,28.5;7609,26,26.0572
+			6908,24,31.5;7609,26,28.8
+			6908,24,34.5;7609,26,31.5428
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2201" levels="3" name="Item - Blue Treasure Box" >
+		<table name="#extractableItems">
+			6908,24,39.5;7609,26,36.1144
+			6904,1,5.028;6908,28,17.957;6909,8,16.76;7609,30,16.76
+			6904,1,5.22;6908,28,18.6428;6909,8,17.3999;7609,30,17.4
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2202" levels="3" name="Item - Yellow Treasure Box" >
+		<table name="#extractableItems">
+			6904,1,5.424;6908,28,19.3714;6909,8,18.0799;7609,30,18.08
+			6904,1,6.816;6908,28,24.3428;6909,8,22.7199;7609,30,22.72
+			6904,1,7.296;6908,56,13.0286;6909,14,10.8088;7609,30,24.32
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2203" levels="3" name="Item - Orange Treasure Box" >
+		<table name="#extractableItems">
+			6904,1,7.788;6908,56,13.9072;6909,14,11.5376;7609,60,12.98
+			6910,3,50.688
+			6910,3,54.912
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2204" levels="3" name="Item - Violet Treasure Box" >
+		<table name="#extractableItems">
+			6910,3,58.24
+			6910,3,69.76
+			6910,3,74.048
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2205" levels="3" name="Item - Red Treasure Box" >
+		<table name="#extractableItems">
+			6910,3,84.864
+			6910,3,89.728
+			6910,6,54.88
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2206" levels="3" name="Item - White Treasure Box" >
+		<table name="#extractableItems">
+			6910,6,58.048
+			6910,6,61.536
+			6910,6,65.248
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2207" levels="3" name="Item - Black Treasure Box" >
+		<table name="#extractableItems">
+			6910,6,69.312
+			6910,6,76.896
+			6910,6,81.664
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2208" levels="1" name="Item - Blessed Scroll of Enchant Armor" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2209" levels="1" name="Item - Blessed Scroll of Enchant Armor" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2210" levels="1" name="Item - Blessed Scroll of Enchant Armor" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2211" levels="1" name="Item - Blessed Scroll of Enchant Armor" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2212" levels="1" name="Item - Blessed Scroll of Enchant Armor" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2213" levels="21" name="Escape - to X Town" >
+		<table name="#teleCoords"> -84200;244544;-3728 46915;51441;-2976 9723;15576;-4568 -45208;-112502;-240 115158;-178170;-880 -80831;149808;-3040 -12728;122726;-3112 15633;142962;-2696 17860;170191;-3496 83378;147999;-3400 105760;113064;-3176 111388;219331;-3544 82916;53210;-1488 84930;15967;-4288 117052;76884;-2688 146818;25807;-2008 147922;-55316;-2728 43840;-47779;-792 87478;-142297;-1352 149800;-79999;-5568 107946;-52280;-2408 </table>
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="20000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="TELEPORT" />
+		<set name="teleCoords" val="#teleCoords" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2214" levels="10" name="Scroll of Escape to Talking Island" >
+		<table name="#teleCoords"> -84200;244566;-3728 46915;51441;-2976 9723;15576;-4568 -45208;-112502;-240 115158;-178170;-880 0;0;0 0;0;0 0;0;0 0;0;0 83378;147999;-3400 </table>
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="20000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="TELEPORT" />
+		<set name="teleCoords" val="#teleCoords" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2215" levels="4" name="Item - Quest Special Box" >
+		<table name="#extractableItems">
+			57;100000,8;3456,1,10;3454,1,5.5;3455,1,5.5;3448,1,17.6;3449,1,17;3446,1,18;3468,1,18.4
+			57,100000,7.5;3456,1,6;3454,1,7;3455,1,7.4;3448,1,10;3449,1,22;3446,1,19.6;3468,1,20.4
+			57,100000,12;3456,1,10;3470,1,12;3454,1,6;3455,1,6.5;3450,1,10;3452,1,19.5;3447,1,24
+			57,100000,19;3456,1,10;3470,1,5.9;3454,1,4;3455,1,6.5;3450,1,10;3452,1,19.6;3447,1,25
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2216" levels="4" name="Item - Quest Special Fish" >
+		<table name="#extractableItems">
+			57,100,34;1867,1,33;1872,1,33
+			57,100,34;1867,1,33;1872,1,33
+			57,100,34;1867,1,33;1872,1,33
+			57,100,34;1867,1,33;1872,1,33
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2217" levels="5" name="Item - Quest Treasure Box" >
+		<table name="#extractableItems">
+			6697,1,9;6693,1,9;6694,1,9;6696,1,9;7579,1,9;6690,1,9;6688,1,9;6691,1,9;6689,1,9;6695,1,9;57,330000,10
+			6706,1,8.5;6710,1,8.5;6714,1,8.5;6703,1,8.5;6704,1,8.5;6708,1,8.5;6709,1,8.5;6712,1,8.5;6713,1,8.5;6705,1,8.5;57,292000,15
+			6702,1,20;6701,1,20;6707,1,20;6711,1,20;57,93000,20
+			6857,1,8.5;6859,1,8.5;6867,1,8.5;6869,1,8.5;6875,1,8.5;6877,1,8.5;6861,1,8.5;6863,1,8.5;6871,1,8.5;6879,1,8.5;57,340000,15
+			6855,1,20;6853,1,20;6865,1,20;6873,1,20;57,850000,20
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2218" levels="3" name="Item - Quest Sac" >
+		<table name="#extractableItems">
+			1882,3,20;1876,6,16;1879,3,12;1881,1,12;1880,4,10;1874,1,10;1875,3,10;1877,3,10
+			4039,4,20;4043,4,20;4044,4,20;4040,2,15;4042,2,15;4041,1,10
+			1060,1,39;1061,1,11.8;1539,1,32.2;1540,1,3;735,1,7;6035,1,7
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2219" levels="2" name="Item - Quest Sac" >
+		<table name="#extractableItems">
+			1882,20,18;1876,20,16;1879,20,10;1881,20,10;1880,20,5;1874,20,10;1875,20,10;1877,20,11;57,150000,10
+			4039,4,20;4043,4,20;4044,4,20;4040,4,10;4042,4,10;4041,4,10;57,160000,10
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2220" levels="9" name="Item - Easy Green Fish" >
+		<table name="#extractableItems">
+			6908,3,55.2
+			6908,3,56.8
+			6908,3,61.6
+			6908,3,67.2
+			6908,3,75.2
+			6908,3,83.2
+			6908,3,90.4
+			6908,3,99.2
+			6908,6,53.2
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2221" levels="9" name="Item - Easy Jade Fish" >
+		<table name="#extractableItems">
+			6908,6,57.2
+			6908,6,66.8
+			6908,6,66.8
+			6908,6,66.4
+			6908,6,66
+			6908,6,66
+			6908,6,65.6
+			6908,6,65.6
+			6908,6,65.2
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2222" levels="9" name="Item - Easy Blue Fish" >
+		<table name="#extractableItems">
+			6908,6,65.2
+			6908,6,65.2
+			6908,6,79.2
+			6904,1,1.616;6908,6,26.9331;6909,2,16.1598
+			6904,1,1.576;6908,6,26.2665;6909,2,15.7598
+			6904,1,1.68;6908,6,27.9998;6909,2,16.7998
+			6904,1,1.704;6908,6,28.3998;6909,2,17.0398
+			6904,1,1.728;6908,6,28.7998;6909,2,17.2798
+			6904,1,1.744;6908,6,29.0665;6909,2,17.4398
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2223" levels="9" name="Item - Easy Yellow Fish" >
+		<table name="#extractableItems">
+			6904,1,1.768;6908,6,29.4664;6909,2,17.6798
+			6904,1,1.792;6908,6,29.8664;6909,2,17.9198
+			6904,1,1.808;6908,6,30.1331;6909,2,18.0798
+			6904,1,2.16;6908,12,17.9998;6909,2,21.5998
+			6904,1,2.216;6908,8,29.5464;6909,2,22.16
+			6904,1,2.272;6908,8,30.2932;6909,2,22.72
+			6904,1,2.32;6908,8,30.9332;6909,2,23.2
+			6904,1,2.376;6908,8,31.68;6909,2,23.76
+			6904,1,2.432;6908,8,32.4264;6909,2,24.32
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2224" levels="9" name="Item - Easy Orange Fish" >
+		<table name="#extractableItems">
+			6904,1,2.488;6908,8,33.1732;6909,2,24.88
+			6904,1,2.544;6908,16,16.96;6909,2,25.44
+			6904,1,2.6;6908,16,17.3332;6909,2,26
+			6910,1,31.872
+			6910,1,37.248
+			6910,1,38.016
+			6910,1,39.168
+			6910,1,40.32
+			6910,1,41.184
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2225" levels="9" name="Item - Easy Violet Fish" >
+		<table name="#extractableItems">
+			6910,1,42.048
+			6910,1,42.912
+			6910,1,43.68
+			6910,1,44.64
+			6910,1,45.504
+			6910,2,26.16
+			6910,2,26.688
+			6910,2,27.216
+			6910,2,27.792
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2226" levels="9" name="Item - Easy Red Fish" >
+		<table name="#extractableItems">
+			6910,2,30.672
+			6910,2,31.248
+			6910,2,31.824
+			6910,2,32.448
+			6910,2,33.024
+			6910,2,33.648
+			6910,2,37.872
+			6910,2,38.592
+			6910,2,41.184
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2227" levels="9" name="Item - Easy White Fish" >
+		<table name="#extractableItems">
+			6910,2,41.952
+			6910,2,42.768
+			6910,2,43.536
+			6910,2,44.4
+			6910,2,45.312
+			6910,2,46.176
+			6910,2,47.088
+			6910,2,48
+			6910,2,48.96
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2228" levels="9" name="Item - Easy Black Fish" >
+		<table name="#extractableItems">
+			6910,2,49.968
+			6910,2,67.968
+			6910,2,69.312
+			6910,2,73.92
+			6910,2,75.456
+			6910,2,76.928
+			6910,2,78.464
+			6910,2,80.064
+			6910,2,81.664
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2229" levels="8" name="Treasure Chest Key" >
+		<table name="#itemId"> 6665 6666 6667 6668 6669 6670 6671 6672 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 80 </table>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="target" val="UNLOCKABLE" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="8000" />
+		<set name="skillType" val="DELUXE_KEY_UNLOCK" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="itemConsumeId" val="#itemId"/>
+		<set name="itemConsumeCount" val="1"/>
+	</skill>
+	<skill id="2230" levels="1" name="Item - Theme Sound Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2231" levels="1" name="Amulet: Protection of Valakas" >
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="magicLvl" val="75" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="SELF" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="1" stackType="valakas_item">
+				<addMul stat="valakasRes" val="11" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2232" levels="1" name="Amulet: Slay Valakas" >
+		<set name="hitTime" val="1000" />
+		<set name="magicLvl" val="75" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="SELF" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="1" stackType="valakas_item">
+				<add stat="valakasPower" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2233" levels="1" name="Amulet: Flames of Valakas" >
+		<set name="hitTime" val="1000" />
+		<set name="magicLvl" val="75" />
+		<set name="negateId" val="4683,4684" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="10000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="NEGATE" />
+		<set name="target" val="SELF" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2234" levels="1" name="Soul Breaking Arrow" >
+		<set name="target" val="ONE" />
+		<set name="trait" val="SHOCK" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="power" val="2320" />
+		<set name="magicLvl" val="80" />
+		<set name="ignoreResists" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="weaponsAllowed" val="BOW" /> <!-- Bow -->
+		<set name="itemConsumeId" val="8192" /> <!-- Soul Breaking Arrow -->
+		<set name="itemConsumeCount" val="0" />
+		<set name="hitTime" val="2000" />
+		<set name="coolTime" val="1000" />
+		<set name="reuseDelay" val="60000" />
+		<set name="staticHitTime" val="true" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="113" addName="1">
+			<using kind="BOW" />
+		</cond>
+		<cond msgId="113" addName="1">
+			<target npcId="29045" /> <!-- Frintezza -->
+		</cond>
+		<for>
+			<effect name="Stun" time="1" val="0" effectType="STUN" stackOrder="1" stackType="stun" />
+		</for>
+	</skill>
+	<skill id="2235" levels="1" name="Anteroom Door Key" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="UNLOCKABLE" />
+		<set name="skillType" val="UNLOCK_SPECIAL" />
+		<set name="reuseDelay" val="3000" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="power" val="35" />
+		<cond msgId="113" addName="1">
+			<target npcId="19160002,19160003,19160004,19160005,19160006,19160007,19160008,19160009" />
+		</cond>
+	</skill>
+	<skill id="2236" levels="1" name="Chapel Door Key" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="UNLOCKABLE" />
+		<set name="skillType" val="UNLOCK_SPECIAL" />
+		<set name="reuseDelay" val="3000" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="power" val="35" />
+		<cond msgId="113" addName="1">
+			<target npcId="19160010,19160011" />
+		</cond>
+	</skill>
+	<skill id="2237" levels="1" name="Altar Door Key" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="UNLOCKABLE" />
+		<set name="skillType" val="UNLOCK_SPECIAL" />
+		<set name="reuseDelay" val="3000" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="power" val="35" />
+		<cond msgId="113" addName="1">
+			<target npcId="19160012,19160013" />
+		</cond>
+	</skill>
+	<skill id="2238" levels="1" name="Room of Splendor Key" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="UNLOCKABLE" />
+		<set name="skillType" val="UNLOCK_SPECIAL" />
+		<set name="reuseDelay" val="3000" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="power" val="35" />
+		<cond msgId="113" addName="1">
+			<target npcId="268436041" />
+		</cond>
+	</skill>
+	<skill id="2239" levels="1" name="Petrification Scroll" >
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="8379" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="hitTime" val="500" />
+		<set name="target" val="PARTY_MEMBER" />
+		<cond msgId="113" addName="1">
+			<player insidePoly="true">
+				<zone shape="NPoly" minZ="-5064" maxZ="-64">
+					<node x="99294" y="-130555"/>
+					<node x="114151" y="-130344"/>
+					<node x="113630" y="-124346"/>
+					<node x="99617" y="-122509"/>
+				</zone>
+			</player>
+		</cond>
+		<for>
+			<effect name="Petrification" time="5" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="turn_stone" />
+		</for>
+	</skill>
+	<skill id="2240" levels="1" name="Hot Spring Nectar" >
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="reuseDelay" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<target race_id="6" />
+		</cond>
+		<cond msgId="113" addName="1">
+			<player insidePoly="true">
+				<zone shape="NPoly" minZ="-2460" maxZ="-1860">
+					<node x="150253" y="-127587" />
+					<node x="154061" y="-128780" />
+					<node x="157203" y="-125699" />
+					<node x="154870" y="-123511" />
+					<node x="150933" y="-124975" />
+				</zone>
+			</player>
+		</cond>
+	</skill>
+	<skill id="2241" levels="1" name="Hot Spring Mineral Water" >
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="reuseDelay" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<target race_id="6" />
+		</cond>
+		<cond msgId="113" addName="1">
+			<player insidePoly="true">
+				<zone shape="NPoly" minZ="-2460" maxZ="-1860">
+					<node x="150253" y="-127587" />
+					<node x="154061" y="-128780" />
+					<node x="157203" y="-125699" />
+					<node x="154870" y="-123511" />
+					<node x="150933" y="-124975" />
+				</zone>
+			</player>
+		</cond>
+	</skill>
+	<skill id="2242" levels="1" name="Hot Spring Fountain Water" >
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="reuseDelay" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<target race_id="6" />
+		</cond>
+		<cond msgId="113" addName="1">
+			<player insidePoly="true">
+				<zone shape="NPoly" minZ="-2460" maxZ="-1860">
+					<node x="150253" y="-127587" />
+					<node x="154061" y="-128780" />
+					<node x="157203" y="-125699" />
+					<node x="154870" y="-123511" />
+					<node x="150933" y="-124975" />
+				</zone>
+			</player>
+		</cond>
+	</skill>
+	<skill id="2243" levels="1" name="Hot Spring Sulfur" >
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="reuseDelay" val="500" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<target race_id="6" />
+		</cond>
+		<cond msgId="113" addName="1">
+			<player insidePoly="true">
+				<zone shape="NPoly" minZ="-2460" maxZ="-1860">
+					<node x="150253" y="-127587" />
+					<node x="154061" y="-128780" />
+					<node x="157203" y="-125699" />
+					<node x="154870" y="-123511" />
+					<node x="150933" y="-124975" />
+				</zone>
+			</player>
+		</cond>
+	</skill>
+	<skill id="2244" levels="1" name="Herb of Life" >
+		<set name="magicLvl" val="1"/>
+		<set name="power" val="15" />
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2245" levels="1" name="Herb of Mana" >
+		<set name="magicLvl" val="1"/>
+		<set name="power" val="12" />
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="MANAHEAL_PERCENT" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2246" levels="1" name="Herb of Power" >
+		<set name="magicLvl" val="1"/>
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="2.9" stackType="pa_up">
+				<mul stat="pAtk" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2247" levels="1" name="Herb of Magic" >
+		<set name="magicLvl" val="1"/>
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="2.9" stackType="ma_up">
+				<mul stat="mAtk" val="1.75" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2248" levels="1" name="Bless of Fire" >
+		<set name="magicLvl" val="1"/>
+		<set name="element" val="FIRE" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="600" val="0" stackOrder="1" stackType="holy_attack">
+				<add stat="firePower" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2249" levels="1" name="Bless of Water" >
+		<set name="magicLvl" val="1"/>
+		<set name="element" val="WATER" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="600" val="0" stackOrder="1" stackType="holy_attack">
+				<add stat="waterPower" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2250" levels="1" name="Bless of Wind" >
+		<set name="magicLvl" val="1"/>
+		<set name="element" val="WIND" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="600" val="0" stackOrder="1" stackType="holy_attack">
+				<add stat="windPower" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2251" levels="1" name="Bless of Earth" >
+		<set name="magicLvl" val="1"/>
+		<set name="element" val="EARTH" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="600" val="0" stackOrder="1" stackType="holy_attack">
+				<add stat="earthPower" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2252" levels="1" name="Bless of Darkness" >
+		<set name="magicLvl" val="1"/>
+		<set name="element" val="DARK" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="600" val="0" stackOrder="1" stackType="holy_attack">
+				<add stat="darkPower" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2253" levels="1" name="Bless of Sacredness" >
+		<set name="magicLvl" val="1"/>
+		<set name="element" val="HOLY" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="600" val="0" stackOrder="1" stackType="holy_attack">
+				<add stat="holyPower" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2254" levels="3" name="Crystal of Fire" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2255" levels="3" name="Crystal of Water" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2256" levels="3" name="Crystal of Wind" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2257" levels="3" name="Crystal of Earth" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2258" levels="3" name="Crystal of Darkness" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2259" levels="3" name="Crystal of Sacredness" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="10000" />
+		<set name="hitTime" val="1000" />
+		<set name="staticHitTime" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2260" levels="1" name="Key of Riddles" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="itemConsumeId" val="8058" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="create_item_id" val="8059" />
+		<set name="create_item_count" val="1" />
+	</skill>
+	<skill id="2261" levels="9" name="Item - Hard Green Fish" >
+		<table name="#extractableItems">
+			6913,1,11.04;6911,2,18.4;8353,2,27.6
+			6913,1,11.28;6911,2,18.8;8353,2,28.2
+			6913,1,12.24;6911,2,20.4;8353,2,30.6
+			6913,1,13.36;6911,2,22.2666;8353,4,16.7
+			6913,1,14.96;6911,2,24.9332;8353,4,18.7
+			6913,1,16.64;6911,2,27.7332;8353,4,20.8
+			6913,1,18;6911,2,30;8353,4,22.5
+			6913,1,19.84;6911,2,33.0666;8353,4,24.8
+			6913,1,16.96;6911,4,17.6667;8353,4,26.5
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2262" levels="9" name="Item - Hard Jade Fish" >
+		<table name="#extractableItems">
+			6913,1,22.8;6911,2,28.5;8359,4,19
+			6913,1,18.88;6911,2,29.5;8359,4,19.6666
+			6913,1,19.84;6911,2,31;8359,4,20.6666
+			6913,1,20.8;6911,2,32.5;8359,4,21.6666
+			6913,1,21.76;6911,4,17;8359,4,22.6666
+			6913,1,22.72;6911,4,17.75;8359,4,23.6666
+			6913,1,23.36;6911,4,18.25;8359,4,24.3333
+			6913,1,24;6911,4,18.75;8359,4,24.9999
+			6913,1,24.64;6911,4,19.25;8359,4,25.6666
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2263" levels="9" name="Item - Hard Blue Fish" >
+		<table name="#extractableItems">
+			6913,1,25.28;6911,4,19.75;8355,4,17.5556
+			6913,1,25.6;6911,4,20;8355,4,17.7778
+			6913,1,26.24;6911,4,20.5;8355,4,18.2223
+			6913,1,26.56;6911,4,20.75;8355,4,18.4445
+			6913,1,26.752;6911,4,20.9;8355,4,18.5778
+			6913,1,26.88;6911,4,21;8355,4,18.6667
+			6913,1,27.2;6911,4,21.25;8355,4,18.8889
+			6913,1,27.584;6911,4,21.55;8355,4,19.1556
+			6913,1,27.84;6911,4,21.75;8355,4,19.3334
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2264" levels="9" name="Item - Hard Yellow Fish" >
+		<table name="#extractableItems">
+			6913,1,28.288;6911,4,29.4666;8354,2,22.1
+			6913,1,28.608;6911,4,29.7998;8354,2,22.35
+			6913,1,28.928;6911,4,30.1332;8354,2,22.6
+			6913,2,17.28;6911,8,17.9999;8354,2,27
+			6913,2,17.696;6911,8,18.4333;8354,2,27.65
+			6913,2,18.176;6911,8,18.9333;8354,2,28.4
+			6913,2,18.56;6911,8,19.3333;8354,2,29
+			6913,2,19.008;6911,8,19.7999;8354,2,29.7
+			6913,2,19.456;6911,8,20.2666;8354,2,30.4
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2265" levels="9" name="Item - Hard Orange Fish" >
+		<table name="#extractableItems">
+			6913,2,24.88;6911,8,20.7333;8357,2,19.904
+			6913,2,25.4;6911,8,21.1666;8357,2,20.32
+			6913,2,25.96;6911,8,21.6333;8357,2,20.768
+			6914,1,21.216;6912,4,22.1;8357,4,17.68
+			6914,1,18.624;6912,4,19.4;8377,1,4.656;8357,4,15.5201
+			6914,1,19.008;6912,4,19.8;8378,1,4.752;8357,4,15.8401
+			6914,1,26.112;6912,4,27.2;8357,4,21.76
+			6914,1,20.16;6912,4,21;8377,1,5.04;8357,4,16.8001
+			6914,1,20.592;6912,4,21.45;8378,1,5.148;8357,4,17.1601
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2266" levels="9" name="Item - Hard Violet Fish" >
+		<table name="#extractableItems">
+			6914,1,28;6912,8,19.4445;8358,2,29.1666
+			6914,1,21.432;6912,8,14.8833;8377,1,5.358;8358,2,22.325
+			6914,1,21.84;6912,8,15.1667;8378,1,5.46;8358,2,22.75
+			6914,1,29.76;6912,8,20.6667;8358,2,31
+			6914,1,22.752;6912,8,15.8;8377,1,5.688;8358,2,23.7
+			6914,2,13.08;6912,8,18.1667;8378,1,6.54;8358,4,13.625
+			6914,2,17.776;6912,9,16.4592;8358,4,18.5167
+			6914,2,13.596;6912,8,18.8833;8377,1,6.798;8358,4,14.1625
+			6914,2,13.884;6912,8,19.2833;8378,1,6.942;8358,4,14.4625
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2267" levels="9" name="Item - Hard Red Fish" >
+		<table name="#extractableItems">
+			6914,2,20.432;6912,9,18.9184;8352,4,18.2428
+			6914,2,15.612;6912,9,14.4556;8377,1,7.806;8352,4,13.9393
+			6914,2,15.912;6912,9,14.7332;8378,1,7.956;8352,4,14.2072
+			6914,2,16.212;6912,8,22.5166;8373,1,2.0265;8352,4,14.475
+			6914,2,13.2096;6912,8,18.3466;8377,1,6.6048;8374,1,1.6512;8352,4,11.7942
+			6914,2,13.4592;6912,8,18.6933;8378,1,6.7296;8375,1,1.6824;8352,4,12.0171
+			6914,2,18.924;6912,9,17.5224;8373,1,2.3655;8352,4,16.8964
+			6914,2,15.4368;6912,9,14.2932;8377,1,7.7184;8374,1,1.9296;8352,4,13.7828
+			6914,2,16.464;6912,9,15.2444;8378,1,8.232;8375,1,2.058;8352,4,14.6999
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2268" levels="9" name="Item - Hard White Fish" >
+		<table name="#extractableItems">
+			6914,2,20.964;6912,9,19.4112;8373,1,2.6205;8356,4,16.3781
+			6914,2,17.0976;6912,9,15.8312;8377,1,8.5488;8374,1,2.1372;8356,4,13.3575
+			6914,2,17.4144;6912,9,16.1244;8378,1,8.7072;8375,1,2.1768;8356,4,13.605
+			6914,2,22.188;6912,9,20.5444;8373,1,2.7735;8356,4,17.3344
+			6914,2,18.1152;6912,9,16.7732;8377,1,9.0576;8374,1,2.2644;8356,4,14.1525
+			6914,2,18.4608;6912,9,17.0932;8378,1,9.2304;8375,1,2.3076;8356,4,14.4225
+			6914,2,23.532;6912,9,21.7888;8373,1,2.9415;8356,4,18.3844
+			6914,2,19.2;6912,9,17.778;8377,1,9.6;8374,1,2.4;8356,4,15
+			6914,2,19.5744;6912,9,18.1244;8378,1,9.7872;8375,1,2.4468;8356,4,15.2925
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2269" levels="9" name="Item - Hard Black Fish" >
+		<table name="#extractableItems">
+			6914,2,24.972;6912,9,23.1224;8373,1,3.1215;8351,4,17.3416
+			6914,4,10.1904;6912,9,18.8712;8377,1,10.1904;8374,1,2.5476;8351,4,14.1534
+			6914,4,10.3968;6912,9,19.2532;8378,1,10.3968;8375,1,2.5992;8351,4,14.44
+			6914,4,13.854;6912,18,12.8278;8373,1,3.4635;8351,4,19.2417
+			6914,4,11.3136;6912,18,10.4756;8377,1,11.3136;8374,1,2.8284;8351,4,15.7134
+			6914,4,11.5344;6912,18,10.68;8378,1,11.5344;8375,1,2.8836;8351,4,16.0201
+			6914,4,14.712;6912,18,13.6222;8373,1,3.678;8351,4,20.4333
+			6914,4,12.0096;6912,18,11.12;8377,1,12.0096;8374,1,3.0024;8351,4,16.6801
+			6914,4,12.2496;6912,18,11.3422;8378,1,12.2496;8375,1,3.0624;8351,7,9.722
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE_FISH" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2270" levels="7" name="Item - Adventurer Box" >
+		<table name="#extractableItems">
+			853,1,14.1723;884,1,21.3675;916,1,10.6428
+			854,1,14.1242;885,1,21.2585;917,1,10.6022
+			119,1,9.8328;855,1,13.1027;886,1,19.7005
+			856,1,13.7513;887,1,20.6270;918,1,10.3135
+			864,1,12.0250;895,1,18.0375;926,1,9.0334
+			8177,1,22.2222;8178,1,18.5185;8179,1,15.8730
+			8175,1,16.6666
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2271" levels="1" name="Item - Hot Spring Fish" >
+		<table name="#extractableItems">
+			8034,3,85;2134,3,4;2133,7,11
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2272" levels="1" name="Item - Fight Song Crystal" >
+		<set name="magicLvl" val="1"/>
+		<set name="isPotion" val="true" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	<skill id="2273" levels="1" name="Item - Red Devil Support Box" >
+		<table name="#extractableItems">
+			8552,1,25;8187,1,25;8555,5,25;6406,10,15;6407,5,9.991;5577,1,0.002;5578,1,0.002;5579,1,0.002;5580,1,0.001;5581,1,0.001;5582,1,0.001
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2274" levels="9" name="Fisherman's Potion" >
+		<table name="#power"> 2 5 8 11 14 17 20 23 26 </table>
+		<table name="#active_skill_id_lvl"> 1315,4 1315,7 1315,10 1315,13 1315,16 1315,19 1315,22 1315,25 1315,28 </table>
+		<set name="magicLvl" val="1"/>
+		<set name="power" val="#power" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player flying="False" />
+				<player active_skill_id_lvl="#active_skill_id_lvl" />
+			</and>
+		</cond>
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="20" stackType="fishing_mastery_down" />
+		</for>
+	</skill>
+	<skill id="2275" levels="1" name="Fishing Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="NEGATE" />
+		<set name="isPotion" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="negateId" val="2274" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2276" levels="1" name="Dewdrop of Destruction" >
+		<set name="magicLvl" val="80"/>
+		<set name="target" val="ONE"/>
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="itemConsumeId" val="8556"/> <!-- Dewdrop of Destruction -->
+		<set name="itemConsumeCount" val="0"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+		<set name="hitTime" val="2000"/>
+		<set name="coolTime" val="1000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="staticReuse" val="true"/>
+		<cond msgId="113" addName="1">
+		    <and>
+		        <target npcId="29048,29049"/> <!-- Evil Spirit -->
+		    </and>
+		</cond>
+	</skill>
+	<skill id="2277" levels="6" name="Event Gift Box" >
+		<table name="#extractableItems">
+			1539,10,8592,1,50;1539,10,8592,1,50
+			1539,10,8593,1,50;1539,10,8593,1,50
+			1539,20,87.00;952,1,7.0;951,1,2.05;1538,1,2.00;3936,1,1.05;4637,1,0.3;4659,1,0.3;4648,1,0.3
+			1539,20,90.70;948,1,4.0;947,1,1.5;1538,1,2.00;3936,1,1.05;4638,1,0.25;4660,1,0.25;4649,1,0.25
+			1539,20,93.00;730,1,2.0;729,1,0.50;1538,1,3.00;3936,1,1.41;4639,1,0.03;4650,1,0.03;4661,1,0.03
+			1539,20,93.00;730,1,2.0;729,1,0.50;1538,1,3.00;3936,1,1.41;4639,1,0.03;4650,1,0.03;4661,1,0.03
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2278" levels="3" name="Herb of Life" >
+		<table name="#power"> 15 25 100 </table>
+		<set name="magicLvl" val="80"/>
+		<set name="power" val="#power" />
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2279" levels="3" name="Herb of Mana" >
+		<!-- Lvl 2 is Greater Herb of Mana Lvl 3 is Superior Herb of Mana -->
+		<table name="#power"> 12 18 100 </table>
+		<set name="magicLvl" val="80"/>
+		<set name="power" val="#power" />
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="MANAHEAL_PERCENT" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2280" levels="1" name="Herb of Power" >
+		<set name="magicLvl" val="40"/>
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="2.9" stackType="pa_up">
+				<mul stat="pAtk" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2281" levels="1" name="Herb of Magic" >
+		<set name="magicLvl" val="52"/>
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="2.9" stackType="ma_up">
+				<mul stat="mAtk" val="1.75" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2282" levels="1" name="Herb of Atk. Spd." >
+		<set name="magicLvl" val="52"/>
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="1.9" stackType="attack_time_down">
+				<mul stat="pAtkSpd" val="1.33" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2283" levels="1" name="Herb of Casting Spd." >
+		<set name="magicLvl" val="48"/>
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="2.9" stackType="casting_time_down">
+				<mul stat="mAtkSpd" val="1.3" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2284" levels="1" name="Herb of Critical Attack" >
+		<set name="magicLvl" val="52"/>
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="2.9" stackType="critical_prob_up">
+				<basemul stat="rCrit" val="0.3" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2285" levels="1" name="Herb of Speed" >
+		<set name="magicLvl" val="30"/>
+		<set name="hitTime" val="100" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="1.9" stackType="speed_up">
+				<add stat="runSpd" val="33" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2286" levels="6" name="Scroll: Recovery" >
+		<table name="#minLvl"> 0 20 40 52 61 76 </table>
+		<table name="#maxLvl"> 20 40 52 61 76 86 </table>
+		<set name="magicLvl" val="-1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="staticHitTime" val="true" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player level="#minLvl" />
+				<not>
+					<player level="#maxLvl" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<effect name="Recovery" val="0" noicon="1" />
+		</for>
+	</skill>
+	<skill id="2287" levels="6" name="Elixir of Life" >
+		<table name="#power"> 250 650 1100 1500 1900 2300 </table>
+		<table name="#minLvl"> 0 20 40 52 61 76 </table>
+		<table name="#maxLvl"> 20 40 52 61 76 86 </table>
+		<set name="magicLvl" val="-1"/>
+		<set name="power" val="#power" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="HEAL_STATIC" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<set name="sharedReuse" val="2287-1" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player flying="False" />
+				<player level="#minLvl" />
+				<not>
+					<player level="#maxLvl" />
+				</not>
+			</and>
+		</cond>
+	</skill>
+	<skill id="2288" levels="6" name="Elixir of Mental Strength" >
+		<table name="#power"> 60 140 220 290 360 420 </table>
+		<table name="#minLvl"> 0 20 40 52 61 76 </table>
+		<table name="#maxLvl"> 20 40 52 61 76 86 </table>
+		<set name="magicLvl" val="-1"/>
+		<set name="power" val="#power" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="MANAHEAL" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="300000" />
+		<set name="sharedReuse" val="2287-1" />
+		<set name="staticReuse" val="true" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player flying="False" />
+				<player level="#minLvl" />
+				<not>
+					<player level="#maxLvl" />
+				</not>
+			</and>
+		</cond>
+	</skill>
+	<skill id="2289" levels="6" name="Elixir of CP" >
+		<table name="#power"> 150 350 600 800 1000 1200 </table>
+		<table name="#minLvl"> 0 20 40 52 61 76 </table>
+		<table name="#maxLvl"> 20 40 52 61 76 86 </table>
+		<set name="magicLvl" val="-1"/>
+		<set name="power" val="#power" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="300000" />
+		<set name="sharedReuse" val="2289-1" />
+		<set name="staticReuse" val="true" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player flying="False" />
+				<player level="#minLvl" />
+				<not>
+					<player level="#maxLvl" />
+				</not>
+			</and>
+		</cond>
+	</skill>
+	<skill id="2290" levels="1" name="Halloween Box" >
+		<table name="#extractableItems">
+			8661,1,15;8660,1,15;5234,3,30;6406,10,20;6407,5,19.991;5577,1,0.002;5578,1,0.002;5579,1,0.002;5580,1,0.001;5581,1,0.001;5582,1,0.001
+		</table>
+		<set name="magicLvl" val="1"/>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2291" levels="1" name="Facelifting Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="faceId" val="0" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2292" levels="1" name="Facelifting Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="faceId" val="1" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2293" levels="1" name="Facelifting Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="faceId" val="2" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2294" levels="1" name="Dye Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="0" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2295" levels="1" name="Dye Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="1" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2296" levels="1" name="Dye Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="2" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2297" levels="1" name="Dye Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairColorId" val="3" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2298" levels="1" name="Hair Style Change Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="0" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	<skill id="2299" levels="1" name="Hair Style Change Potion" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="CHANGE_APPEARANCE" />
+		<set name="hairStyleId" val="1" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+</list>

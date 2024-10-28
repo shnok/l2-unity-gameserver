@@ -2,9 +2,11 @@ package com.shnok.javaserver.gameserver.network.gameserverpackets;
 
 import java.security.GeneralSecurityException;
 import java.security.interfaces.RSAPublicKey;
+import java.util.Arrays;
 
 import javax.crypto.Cipher;
 
+import com.shnok.javaserver.Config;
 import com.shnok.javaserver.commons.logging.CLogger;
 
 public class BlowFishKey extends GameServerBasePacket
@@ -22,6 +24,11 @@ public class BlowFishKey extends GameServerBasePacket
 			encrypted = rsaCipher.doFinal(blowfishKey);
 			
 			writeD(encrypted.length);
+
+			if(Config.DEVELOPER) {
+				LOGGER.info("Blowfish key [{}]: {}", encrypted.length, Arrays.toString(encrypted));
+			}
+
 			writeB(encrypted);
 		}
 		catch (GeneralSecurityException e)

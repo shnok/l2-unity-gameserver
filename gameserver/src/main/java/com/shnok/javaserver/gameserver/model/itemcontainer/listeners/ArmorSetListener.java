@@ -8,7 +8,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.item.ArmorSet;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.model.item.kind.Item;
-import com.shnok.javaserver.gameserver.network.serverpackets.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class ArmorSetListener implements OnEquipListener

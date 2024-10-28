@@ -7,7 +7,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.Summon;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class BeastSoulShots implements IItemHandler

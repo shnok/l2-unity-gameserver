@@ -9,7 +9,7 @@ import com.shnok.javaserver.gameserver.data.sql.BookmarkTable;
 import com.shnok.javaserver.gameserver.handler.IAdminCommandHandler;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.records.Bookmark;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 public class AdminBookmark implements IAdminCommandHandler
 {

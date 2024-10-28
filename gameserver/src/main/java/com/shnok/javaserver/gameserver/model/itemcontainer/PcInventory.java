@@ -12,6 +12,7 @@ import com.shnok.javaserver.gameserver.enums.ShortcutType;
 import com.shnok.javaserver.gameserver.enums.StatusType;
 import com.shnok.javaserver.gameserver.enums.items.EtcItemType;
 import com.shnok.javaserver.gameserver.enums.items.ItemLocation;
+import com.shnok.javaserver.gameserver.enums.items.ItemState;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
@@ -693,5 +694,37 @@ public class PcInventory extends Inventory
 				listener.onEquip(slot, item, getOwner());
 			}
 		}
+	}
+
+	/**
+	 * Update item slot
+	 */
+	public void moveItemAndRecord(int objectId, int slot) {
+		moveItem(objectId, slot);
+	}
+
+	public synchronized void moveItem(int objectId, int slot) {
+		ItemInstance item = getItemByObjectId(objectId);
+		if(item != null) {
+			moveItem(item, slot);
+		} else {
+			LOGGER.warn("[ITEM][{}] Trying to move an unkown item with id {}.", _owner.getObjectId(), objectId);
+		}
+	}
+
+	public synchronized void moveItem(ItemInstance item, int slot) {
+		if(item.isEquipped()) {
+			LOGGER.warn("[ITEM][{}] Trying to move an equipped item.", _owner.getObjectId());
+			return;
+		}
+
+//		item.setLastChange(ItemInstance.MODIFIED);
+		item.setLocation(item.getLocation(), slot);
+		addUpdate(item, ItemState.MODIFIED);
+	}
+
+	@Override
+	public int getContainerSize() {
+		return getOwner().getStatus().getInventoryLimit();
 	}
 }

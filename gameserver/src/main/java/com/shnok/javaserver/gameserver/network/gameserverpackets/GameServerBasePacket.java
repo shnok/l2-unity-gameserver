@@ -3,6 +3,7 @@ package com.shnok.javaserver.gameserver.network.gameserverpackets;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 
 public abstract class GameServerBasePacket
 {

@@ -16,7 +16,7 @@ import com.shnok.javaserver.gameserver.enums.ShortcutType;
 import com.shnok.javaserver.gameserver.model.Macro;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.records.MacroCmd;
-import com.shnok.javaserver.gameserver.network.serverpackets.SendMacroList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.SendMacroList;
 
 /**
  * An ordered container holding {@link Macro}s of a {@link Player}.

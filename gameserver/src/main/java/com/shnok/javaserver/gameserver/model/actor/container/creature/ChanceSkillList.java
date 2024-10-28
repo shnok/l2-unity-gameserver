@@ -1,7 +1,6 @@
 package com.shnok.javaserver.gameserver.model.actor.container.creature;
 
 import java.util.EnumSet;
-import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -12,8 +11,8 @@ import com.shnok.javaserver.gameserver.enums.skills.TriggerType;
 import com.shnok.javaserver.gameserver.handler.ISkillHandler;
 import com.shnok.javaserver.gameserver.handler.SkillHandler;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
-import com.shnok.javaserver.gameserver.network.serverpackets.MagicSkillLaunched;
-import com.shnok.javaserver.gameserver.network.serverpackets.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillLaunched;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
 import com.shnok.javaserver.gameserver.skills.ChanceCondition;
 import com.shnok.javaserver.gameserver.skills.IChanceSkillTrigger;
 import com.shnok.javaserver.gameserver.skills.L2Skill;

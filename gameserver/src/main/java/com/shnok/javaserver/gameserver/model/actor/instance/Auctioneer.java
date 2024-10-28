@@ -19,7 +19,7 @@ import com.shnok.javaserver.gameserver.model.residence.clanhall.Bidder;
 import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHall;
 import com.shnok.javaserver.gameserver.model.residence.clanhall.Seller;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 public final class Auctioneer extends Folk
 {

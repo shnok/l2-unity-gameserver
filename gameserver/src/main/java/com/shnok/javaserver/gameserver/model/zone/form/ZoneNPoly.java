@@ -3,7 +3,7 @@ package com.shnok.javaserver.gameserver.model.zone.form;
 import java.awt.Color;
 
 import com.shnok.javaserver.gameserver.model.zone.ZoneForm;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExServerPrimitive;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 
 public class ZoneNPoly extends ZoneForm
 {

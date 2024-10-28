@@ -19,7 +19,7 @@ import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.model.residence.Residence;
 import com.shnok.javaserver.gameserver.model.zone.type.ClanHallZone;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.PledgeShowInfoUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.PledgeShowInfoUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 /**

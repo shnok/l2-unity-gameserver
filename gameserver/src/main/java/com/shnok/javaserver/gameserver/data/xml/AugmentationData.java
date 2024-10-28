@@ -15,7 +15,7 @@ import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.enums.skills.Stats;
 import com.shnok.javaserver.gameserver.model.Augmentation;
 import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
-import com.shnok.javaserver.gameserver.network.clientpackets.AbstractRefinePacket;
+import com.shnok.javaserver.gameserver.network.clientpackets.unused.AbstractRefinePacket;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 import org.w3c.dom.Document;

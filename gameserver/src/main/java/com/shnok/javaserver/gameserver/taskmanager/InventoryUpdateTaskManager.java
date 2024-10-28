@@ -18,7 +18,7 @@ public class InventoryUpdateTaskManager implements Runnable
 	protected InventoryUpdateTaskManager()
 	{
 		// Run task every 333ms.
-		ThreadPool.scheduleAtFixedRate(this, 333L, 333L);
+		ThreadPool.scheduleAtFixedRate(this, 150L, 150L);
 	}
 	
 	@Override

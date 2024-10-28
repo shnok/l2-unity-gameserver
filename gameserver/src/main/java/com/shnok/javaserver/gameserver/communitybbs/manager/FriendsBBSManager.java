@@ -10,7 +10,7 @@ import com.shnok.javaserver.gameserver.data.manager.RelationManager;
 import com.shnok.javaserver.gameserver.data.sql.PlayerInfoTable;
 import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.FriendList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.FriendList;
 
 public class FriendsBBSManager extends BaseBBSManager
 {

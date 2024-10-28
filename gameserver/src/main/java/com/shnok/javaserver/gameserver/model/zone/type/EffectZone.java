@@ -12,7 +12,7 @@ import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
 import com.shnok.javaserver.gameserver.model.zone.type.subtype.ZoneType;
-import com.shnok.javaserver.gameserver.network.serverpackets.EtcStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.EtcStatusUpdate;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**

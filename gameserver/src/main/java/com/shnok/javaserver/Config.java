@@ -510,7 +510,7 @@ public final class Config
 	public static int CLIENT_PACKET_QUEUE_MAX_FLOODS_PER_MIN = 2; // default 2
 	public static int CLIENT_PACKET_QUEUE_MAX_OVERFLOWS_PER_MIN = 1; // default 1
 	public static int CLIENT_PACKET_QUEUE_MAX_UNDERFLOWS_PER_MIN = 1; // default 1
-	public static int CLIENT_PACKET_QUEUE_MAX_UNKNOWN_PER_MIN = 5; // default 5
+	public static int CLIENT_PACKET_QUEUE_MAX_UNKNOWN_PER_MIN = 100000; // default 5 //TODO: REVERT
 	
 	// --------------------------------------------------
 	

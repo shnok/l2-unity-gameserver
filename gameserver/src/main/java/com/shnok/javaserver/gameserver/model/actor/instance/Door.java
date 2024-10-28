@@ -30,9 +30,9 @@ import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHall;
 import com.shnok.javaserver.gameserver.model.residence.clanhall.SiegableHall;
 import com.shnok.javaserver.gameserver.model.spawn.NpcMaker;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ConfirmDlg;
-import com.shnok.javaserver.gameserver.network.serverpackets.DoorInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.DoorStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ConfirmDlg;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.DoorInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.DoorStatusUpdate;
 import com.shnok.javaserver.gameserver.scripting.Quest;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 

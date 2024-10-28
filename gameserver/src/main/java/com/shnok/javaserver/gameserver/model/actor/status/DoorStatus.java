@@ -4,7 +4,7 @@ import com.shnok.javaserver.gameserver.data.manager.SevenSignsManager;
 import com.shnok.javaserver.gameserver.enums.SealType;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.instance.Door;
-import com.shnok.javaserver.gameserver.network.serverpackets.DoorStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.DoorStatusUpdate;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class DoorStatus extends CreatureStatus<Door>

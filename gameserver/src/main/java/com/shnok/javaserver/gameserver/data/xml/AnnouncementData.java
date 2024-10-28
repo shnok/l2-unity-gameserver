@@ -15,7 +15,7 @@ import com.shnok.javaserver.gameserver.model.Announcement;
 import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.serverpackets.CreatureSay;
-import com.shnok.javaserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;

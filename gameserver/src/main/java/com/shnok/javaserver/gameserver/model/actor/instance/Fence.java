@@ -4,7 +4,7 @@ import com.shnok.javaserver.gameserver.geoengine.geodata.IGeoObject;
 import com.shnok.javaserver.gameserver.idfactory.IdFactory;
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExColosseumFenceInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExColosseumFenceInfo;
 
 public class Fence extends WorldObject implements IGeoObject
 {

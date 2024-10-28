@@ -8,12 +8,12 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
-import com.shnok.javaserver.gameserver.network.serverpackets.BuyListSeed;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowCropInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowManorDefaultInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowProcureCropDetail;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowSeedInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowSellCropList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.BuyListSeed;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowCropInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowManorDefaultInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowProcureCropDetail;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowSeedInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowSellCropList;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class ManorManagerNpc extends Merchant

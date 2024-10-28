@@ -8,7 +8,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo.NpcInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.ServerObjectInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ServerObjectInfo;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class LifeTower extends Npc

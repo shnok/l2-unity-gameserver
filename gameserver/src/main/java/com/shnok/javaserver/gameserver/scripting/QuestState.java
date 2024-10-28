@@ -12,8 +12,8 @@ import com.shnok.javaserver.commons.pool.ConnectionPool;
 
 import com.shnok.javaserver.gameserver.enums.QuestStatus;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.ExShowQuestMark;
-import com.shnok.javaserver.gameserver.network.serverpackets.QuestList;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowQuestMark;
+import com.shnok.javaserver.gameserver.network.serverpackets.unused.QuestList;
 
 /**
  * A container holding one {@link Player}'s {@link Quest} progress. It extends {@link MemoSet}.<br>
