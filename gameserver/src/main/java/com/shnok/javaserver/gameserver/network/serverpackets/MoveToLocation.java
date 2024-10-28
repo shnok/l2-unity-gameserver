@@ -30,5 +30,7 @@ public final class MoveToLocation extends L2GameServerPacket
 		writeD(_objectId);
 		writeLoc(_destination);
 		writeLoc(_currentPosition);
+		System.out.println(_destination);
+		System.out.println(_currentPosition);
 	}
 }

@@ -3134,6 +3134,10 @@ public class FestivalOfDarknessManager
 	
 	protected FestivalOfDarknessManager()
 	{
+		if(!Config.SEVEN_SIGNS_ENABLED) {
+			return;
+		}
+
 		restoreFestivalData();
 		
 		if (SevenSignsManager.getInstance().isSealValidationPeriod())

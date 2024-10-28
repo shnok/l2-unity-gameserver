@@ -70,6 +70,7 @@ public final class Config
 	// --------------------------------------------------
 	
 	/** Olympiad */
+	public static boolean OLY_ENABLED;
 	public static int OLY_START_TIME;
 	public static int OLY_MIN;
 	public static long OLY_CPERIOD;
@@ -92,6 +93,7 @@ public final class Config
 	public static boolean OLY_ANNOUNCE_GAMES;
 	
 	/** SevenSigns Festival */
+	public static boolean SEVEN_SIGNS_ENABLED;
 	public static boolean SEVEN_SIGNS_BYPASS_PREREQUISITES;
 	public static int FESTIVAL_MIN_PLAYER;
 	public static int MAXIMUM_PLAYER_CONTRIB;
@@ -569,7 +571,8 @@ public final class Config
 	private static final void loadEvents()
 	{
 		final ExProperties events = initProperties(EVENTS_FILE);
-		
+
+		OLY_ENABLED = events.getProperty("OlyEnabled", true);
 		OLY_START_TIME = events.getProperty("OlyStartTime", 18);
 		OLY_MIN = events.getProperty("OlyMin", 0);
 		OLY_CPERIOD = events.getProperty("OlyCPeriod", 21600000L);
@@ -590,7 +593,8 @@ public final class Config
 		OLY_DIVIDER_CLASSED = events.getProperty("OlyDividerClassed", 3);
 		OLY_DIVIDER_NON_CLASSED = events.getProperty("OlyDividerNonClassed", 5);
 		OLY_ANNOUNCE_GAMES = events.getProperty("OlyAnnounceGames", true);
-		
+
+		SEVEN_SIGNS_ENABLED = events.getProperty("SevenSignsEnabled", true);
 		SEVEN_SIGNS_BYPASS_PREREQUISITES = events.getProperty("SevenSignsBypassPrerequisites", false);
 		FESTIVAL_MIN_PLAYER = Math.clamp(events.getProperty("FestivalMinPlayer", 5), 2, 9);
 		MAXIMUM_PLAYER_CONTRIB = events.getProperty("MaxPlayerContrib", 1000000);

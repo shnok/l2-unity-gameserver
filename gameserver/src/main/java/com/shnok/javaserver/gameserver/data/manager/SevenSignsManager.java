@@ -81,6 +81,10 @@ public class SevenSignsManager
 	
 	protected SevenSignsManager()
 	{
+		if(!Config.SEVEN_SIGNS_ENABLED) {
+			return;
+		}
+
 		restoreSevenSignsData();
 		
 		LOGGER.info("Currently on {} period.", _activePeriod.getName());

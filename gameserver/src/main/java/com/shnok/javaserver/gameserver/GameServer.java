@@ -215,11 +215,13 @@ public class GameServer
 		WaterTaskManager.getInstance();
 		InventoryUpdateTaskManager.getInstance();
 		ItemInstanceTaskManager.getInstance();
-		
-		StringUtil.printSection("Seven Signs");
-		SevenSignsManager.getInstance();
-		FestivalOfDarknessManager.getInstance();
-		
+
+		if(Config.SEVEN_SIGNS_ENABLED) {
+			StringUtil.printSection("Seven Signs");
+			SevenSignsManager.getInstance();
+			FestivalOfDarknessManager.getInstance();
+		}
+
 		StringUtil.printSection("Manor Manager");
 		ManorAreaData.getInstance();
 		CastleManorManager.getInstance();
@@ -236,12 +238,14 @@ public class GameServer
 		ObserverGroupData.getInstance();
 		
 		CastleManager.getInstance().spawnEntities();
-		
-		StringUtil.printSection("Olympiads & Heroes");
-		OlympiadGameManager.getInstance();
-		Olympiad.getInstance();
-		HeroManager.getInstance();
-		
+
+		if(Config.OLY_ENABLED) {
+			StringUtil.printSection("Olympiads & Heroes");
+			OlympiadGameManager.getInstance();
+			Olympiad.getInstance();
+			HeroManager.getInstance();
+		}
+
 		StringUtil.printSection("Quests & Scripts");
 		ScriptData.getInstance();
 		

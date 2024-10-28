@@ -64,6 +64,10 @@ public class Olympiad
 	
 	private Olympiad()
 	{
+		if(!Config.OLY_ENABLED) {
+			return;
+		}
+
 		load();
 		setNewOlympiadEnd();
 		init();

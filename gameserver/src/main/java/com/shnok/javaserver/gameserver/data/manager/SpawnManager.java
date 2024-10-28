@@ -356,13 +356,17 @@ public class SpawnManager implements IXmlReader
 		// 2) with "event" + "onStart=true"
 		long total = _makers.stream().filter(NpcMaker::isOnStart).mapToInt(NpcMaker::spawnAll).sum();
 		LOGGER.info("Spawned {} NPCs.", total);
-		
-		// Spawn event NPCs.
-		for (String event : Config.SPAWN_EVENTS)
-			spawnEventNpcs(event, true);
-		
-		// Spawn Seven Signs NPCs.
-		notifySevenSignsChange();
+
+		if(Config.SPAWN_EVENTS.length > 0) {
+			// Spawn event NPCs.
+			for (String event : Config.SPAWN_EVENTS)
+				spawnEventNpcs(event, true);
+
+			if(Config.SEVEN_SIGNS_ENABLED) {
+				// Spawn Seven Signs NPCs.
+				notifySevenSignsChange();
+			}
+		}
 	}
 	
 	/**
