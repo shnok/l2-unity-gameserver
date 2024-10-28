@@ -8,7 +8,7 @@ import com.shnok.javaserver.gameserver.network.GameClient.GameClientState;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.auth.CharSelectInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.RestartResponse;
+import com.shnok.javaserver.gameserver.network.serverpackets.auth.RestartResponse;
 import com.shnok.javaserver.gameserver.taskmanager.AttackStanceTaskManager;
 
 public final class RequestRestart extends L2GameClientPacket

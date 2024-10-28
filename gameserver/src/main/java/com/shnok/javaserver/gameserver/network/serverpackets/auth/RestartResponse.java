@@ -1,4 +1,6 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.auth;
+
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 public class RestartResponse extends L2GameServerPacket
 {
