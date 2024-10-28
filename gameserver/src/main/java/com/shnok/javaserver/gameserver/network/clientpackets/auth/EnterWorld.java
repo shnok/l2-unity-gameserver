@@ -207,7 +207,9 @@ public class EnterWorld extends L2GameClientPacket
 		
 		// Announcements, welcome & Seven signs period messages.
 		player.sendPacket(SystemMessageId.WELCOME_TO_LINEAGE);
-		player.sendPacket(SevenSignsManager.getInstance().getCurrentPeriod().getMessageId());
+		if(Config.SEVEN_SIGNS_ENABLED) {
+			player.sendPacket(SevenSignsManager.getInstance().getCurrentPeriod().getMessageId());
+		}
 		AnnouncementData.getInstance().showAnnouncements(player, false);
 		
 		// If the Player is a Dark Elf, check for Shadow Sense at night.

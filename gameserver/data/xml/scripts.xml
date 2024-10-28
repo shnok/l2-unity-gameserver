@@ -931,10 +931,9 @@
 
 	<!-- Feature -->
 
-	<script path="script.feature.Alliance" />
+	<!--script path="script.feature.Alliance" />
 	<script path="script.feature.BlackJudge" />
 	<script path="script.feature.CabalBuffer" />
-	<script path="script.feature.Clan" />
 	<script path="script.feature.EchoCrystal" />
 	<script path="script.feature.FirstClassChange" />
 	<script path="script.feature.HeroCirclet" />
@@ -945,21 +944,23 @@
 	<script path="script.feature.RaidbossInfo" />
 	<script path="script.feature.SecondClassChange" />
 	<script path="script.feature.ShadowWeapon" />
+	<script path="script.feature.VarkaSilenosSupport" /-->
 	<script path="script.feature.Tutorial" />
-	<script path="script.feature.VarkaSilenosSupport" />
+	<script path="script.feature.Clan" />
+
 
 	<!-- Siegable Halls -->
 
-	<script path="script.siegablehall.BanditStronghold" />
+	<!--script path="script.siegablehall.BanditStronghold" />
 	<script path="script.siegablehall.DevastatedCastle" />
 	<script path="script.siegablehall.FortressOfResistance" />
 	<script path="script.siegablehall.FortressOfTheDead" />
 	<script path="script.siegablehall.RainbowSpringsChateau" />
-	<script path="script.siegablehall.WildBeastReserve" />
+	<script path="script.siegablehall.WildBeastReserve" /-->
 
 	<!-- Teleports -->
 
-	<script path="script.teleport.CastleDefendTeleporter" />
+	<!--script path="script.teleport.CastleDefendTeleporter" />
 	<script path="script.teleport.CharmTeleporter" />
 	<script path="script.teleport.DimensionalVortex" />
 	<script path="script.teleport.ElmoredenCemeteryTeleporter" />
@@ -971,18 +972,18 @@
 	<script path="script.teleport.NoblesseTeleporter" />
 	<script path="script.teleport.OracleTeleporter" />
 	<script path="script.teleport.PaganTeleporter" />
-	<script path="script.teleport.PrimevalSummoner" />
+	<script path="script.teleport.PrimevalSummoner" /-->
 
 	<!-- Tasks -->
 
-	<script path="task.CastleTaxRefresh" schedule="DAILY" start="00:00:00" />
+	<!--script path="task.CastleTaxRefresh" schedule="DAILY" start="00:00:00" />
 	<script path="task.ClanLadderRefresh" schedule="DAILY" start="00:05:00" />
 	<script path="task.ClanLeaderTransfer" schedule="WEEKLY" start="TUE 16:55:00" />
-	<script path="task.RaidPointReset" schedule="MONTHLY_WEEK" start="TUE-1 00:00:00" />
+	<script path="task.RaidPointReset" schedule="MONTHLY_WEEK" start="TUE-1 00:00:00" /-->
 	<script path="task.RecommendationUpdate" schedule="DAILY" start="13:00:00" />
 	<!--	<script path="task.ServerRestart" schedule="WEEKLY" start="TUE 17:00:00"/> -->
 	<!--	<script path="task.ServerShutdown" schedule="WEEKLY" start="TUE 17:00:00"/> -->
-	<script path="task.SevenSignsUpdate" schedule="HOURLY" start="00:00" />
+	<!--script path="task.SevenSignsUpdate" schedule="HOURLY" start="00:00" /-->
 
 	<!--
 WHAT IS SCHEDULED SCRIPT?
