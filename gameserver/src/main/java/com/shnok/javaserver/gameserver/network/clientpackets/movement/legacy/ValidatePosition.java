@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.clientpackets.unused;
+package com.shnok.javaserver.gameserver.network.clientpackets.movement.legacy;
 
 import java.awt.Color;
 
@@ -12,7 +12,7 @@ import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.GetOnVehicle;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.ValidateLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.ValidateLocation;
 
 public class ValidatePosition extends L2GameClientPacket
 {

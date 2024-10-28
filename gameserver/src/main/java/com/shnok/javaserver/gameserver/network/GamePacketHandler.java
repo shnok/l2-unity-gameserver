@@ -15,6 +15,11 @@ import com.shnok.javaserver.gameserver.network.GameClient.GameClientState;
 import com.shnok.javaserver.gameserver.network.clientpackets.*;
 import com.shnok.javaserver.gameserver.network.clientpackets.auth.*;
 import com.shnok.javaserver.gameserver.network.clientpackets.item.*;
+import com.shnok.javaserver.gameserver.network.clientpackets.AttackRequest;
+import com.shnok.javaserver.gameserver.network.clientpackets.movement.PlayerMoveDirection;
+import com.shnok.javaserver.gameserver.network.clientpackets.movement.legacy.MoveBackwardToLocation;
+import com.shnok.javaserver.gameserver.network.clientpackets.movement.RequestChangeMoveType;
+import com.shnok.javaserver.gameserver.network.clientpackets.movement.legacy.ValidatePosition;
 import com.shnok.javaserver.gameserver.network.clientpackets.unused.*;
 
 /**
@@ -133,6 +138,9 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 					// case 0x02:
 					// // Say ... not used any more ??
 					// break;
+					case 0x02:
+						msg = new PlayerMoveDirection();
+						break;
 					case 0x04:
 						msg = new Action();
 						break;

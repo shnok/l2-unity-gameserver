@@ -7,7 +7,7 @@ import com.shnok.javaserver.gameserver.handler.ISkillHandler;
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.ValidateLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.ValidateLocation;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class InstantJump implements ISkillHandler

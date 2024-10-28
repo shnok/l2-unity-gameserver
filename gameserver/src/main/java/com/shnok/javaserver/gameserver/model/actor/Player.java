@@ -204,7 +204,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.TradePressOt
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.TradePressOwnOk;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.TradeStart;
 import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.ValidateLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.ValidateLocation;
 import com.shnok.javaserver.gameserver.scripting.Quest;
 import com.shnok.javaserver.gameserver.scripting.QuestState;
 import com.shnok.javaserver.gameserver.skills.AbstractEffect;

@@ -25,8 +25,8 @@ import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.model.zone.type.WaterZone;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.MoveToLocation;
-import com.shnok.javaserver.gameserver.network.serverpackets.MoveToPawn;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToPawn;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.StopMove;
 
 /**
@@ -432,15 +432,15 @@ public class CreatureMove<T extends Creature>
 	// Monsters: regular movement, NOT for combat
 	public boolean maybeMoveToLocation(Location destination, int offset, boolean pathfinding, boolean isShiftPressed)
 	{
-		if (_actor.isIn3DRadius(destination, offset))
-			return false;
+//		if (_actor.isIn3DRadius(destination, offset)) // Position reached?
+//			return false;
 		
 		if (!_actor.isMovementDisabled() && !isShiftPressed)
 		{
 			_pawn = null;
 			_offset = 0;
 			
-			moveToLocation(destination, pathfinding);
+			moveToLocation(destination, false);
 		}
 		
 		return true;

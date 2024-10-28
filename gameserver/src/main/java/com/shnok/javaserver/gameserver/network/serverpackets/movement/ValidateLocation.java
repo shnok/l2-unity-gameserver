@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.serverpackets.unused;
+package com.shnok.javaserver.gameserver.network.serverpackets.movement;
 
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.location.Location;

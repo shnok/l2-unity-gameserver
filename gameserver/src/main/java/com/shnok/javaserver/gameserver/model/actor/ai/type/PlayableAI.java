@@ -15,7 +15,7 @@ import com.shnok.javaserver.gameserver.model.actor.ai.Intention;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.MoveToPawn;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToPawn;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public abstract class PlayableAI<T extends Playable> extends CreatureAI<T>
@@ -389,7 +389,7 @@ public abstract class PlayableAI<T extends Playable> extends CreatureAI<T>
 		doInteractIntention(target, isCtrlPressed, isShiftPressed);
 	}
 	
-	public synchronized void tryToMoveTo(Location loc, Boat boat)
+	public synchronized void tryToMoveTo(Location dir, Boat boat)
 	{
 		if (_actor.denyAiAction())
 		{
@@ -400,14 +400,14 @@ public abstract class PlayableAI<T extends Playable> extends CreatureAI<T>
 		// These situations are waited out regardless. Any Intention that is added is scheduled as nextIntention.
 		if (_actor.getAttack().isAttackingNow() || _actor.getCast().isCastingNow() || _actor.isSittingNow() || _actor.isStandingNow() || canScheduleAfter(_currentIntention.getType(), IntentionType.MOVE_TO))
 		{
-			getNextIntention().updateAsMoveTo(loc, boat);
+			getNextIntention().updateAsMoveTo(dir, boat);
 			clientActionFailed();
 			return;
 		}
 		
-		doMoveToIntention(loc, boat);
+		doMoveToIntention(dir, boat);
 	}
-	
+
 	public synchronized void tryToPickUp(int itemObjectId, boolean isShiftPressed)
 	{
 		if (_actor.denyAiAction())

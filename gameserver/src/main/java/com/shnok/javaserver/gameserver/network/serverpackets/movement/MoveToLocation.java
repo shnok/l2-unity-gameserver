@@ -1,7 +1,8 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.movement;
 
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 public final class MoveToLocation extends L2GameServerPacket
 {
@@ -30,7 +31,5 @@ public final class MoveToLocation extends L2GameServerPacket
 		writeD(_objectId);
 		writeLoc(_destination);
 		writeLoc(_currentPosition);
-		System.out.println(_destination);
-		System.out.println(_currentPosition);
 	}
 }

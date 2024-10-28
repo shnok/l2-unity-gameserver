@@ -96,15 +96,16 @@ public class NpcAI<T extends Npc> extends CreatureAI<T>
 	@Override
 	protected void thinkSocial()
 	{
-		clearCurrentDesire();
-		
-		if (_actor.denyAiAction())
-			return;
-		
-		_lastSocialBroadcast = System.currentTimeMillis() + _currentIntention.getTimer();
-		
-		_actor.getMove().stop();
-		_actor.broadcastPacket(new SocialAction(_actor, _currentIntention.getItemObjectId()));
+		//l2-unity random social actions are calculated client side
+//		clearCurrentDesire();
+//
+//		if (_actor.denyAiAction())
+//			return;
+//
+//		_lastSocialBroadcast = System.currentTimeMillis() + _currentIntention.getTimer();
+//
+//		_actor.getMove().stop();
+//		_actor.broadcastPacket(new SocialAction(_actor, _currentIntention.getItemObjectId()));
 	}
 	
 	@Override

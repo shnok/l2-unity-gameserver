@@ -7,7 +7,7 @@ import com.shnok.javaserver.gameserver.geoengine.GeoEngine;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.FlyToLocation;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.ValidateLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.ValidateLocation;
 import com.shnok.javaserver.gameserver.skills.AbstractEffect;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 

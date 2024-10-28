@@ -22,7 +22,7 @@ import com.shnok.javaserver.gameserver.model.location.Point2D;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.FlyToLocation;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.ValidateLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.ValidateLocation;
 import com.shnok.javaserver.gameserver.skills.AbstractEffect;
 import com.shnok.javaserver.gameserver.skills.Formulas;
 import com.shnok.javaserver.gameserver.skills.L2Skill;

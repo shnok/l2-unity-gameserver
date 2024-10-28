@@ -1,7 +1,8 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.movement;
 
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 /**
  * This packet is used to move characters to a target.<br>
