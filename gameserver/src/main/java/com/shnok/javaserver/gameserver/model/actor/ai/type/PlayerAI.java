@@ -26,6 +26,8 @@ import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.AutoAttackStart;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToLocation;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.ValidateLocation;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ChairSit;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToPawn;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.StopMove;
@@ -92,8 +94,10 @@ public class PlayerAI extends PlayableAI<Player>
 			_actor.sendPacket(SystemMessageId.DIST_TOO_FAR_CASTING_STOPPED);
 			super.onEvtArrivedBlocked();
 		}
-		else
-			super.onEvtArrivedBlocked();
+		else {
+			System.out.println("SHOULD HANDLE PLAYER BLOCKED!");
+			_actor.broadcastPacket(new ValidateLocation(_actor));
+		}
 	}
 	
 	@Override

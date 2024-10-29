@@ -307,14 +307,15 @@ public class PlayerMove extends CreatureMove<Player>
 			nextY = _destination.getY();
 			nextZ = Math.min(_destination.getZ(), maxZ);
 		}
-//
+
 		// Check if location can be reached (case of dynamic objects, such as opening doors/fences).
-//		if (type == MoveType.GROUND && !GeoEngine.getInstance().canMoveToTarget(curX, curY, curZ, nextX, nextY, nextZ))
-//		{
-//			_blocked = true;
-//			return true;
-//		}
-//
+		if (type == MoveType.GROUND && !GeoEngine.getInstance().canMoveToTarget(curX, curY, curZ, nextX, nextY, nextZ))
+		{
+			System.out.println("Player running through a wall!");
+			_blocked = true;
+			return true;
+		}
+
 		// Calculate the heading. Must be computed BEFORE setting setXYZ, otherwise ends to 0.
 		if (_pawn != null)
 			_actor.getPosition().setHeadingTo(nextX, nextY);
