@@ -6787,6 +6787,7 @@ public final class Player extends Playable
 			return true;
 		
 		final int deltaZ = getZ() - z;
+		System.out.println("Falling!:" + deltaZ);
 		if (deltaZ <= getBaseTemplate().getSafeFallHeight(getAppearance().getSex()))
 			return false;
 		

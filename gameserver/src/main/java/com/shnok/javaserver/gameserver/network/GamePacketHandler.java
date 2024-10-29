@@ -19,7 +19,7 @@ import com.shnok.javaserver.gameserver.network.clientpackets.AttackRequest;
 import com.shnok.javaserver.gameserver.network.clientpackets.movement.PlayerMoveDirection;
 import com.shnok.javaserver.gameserver.network.clientpackets.movement.legacy.MoveBackwardToLocation;
 import com.shnok.javaserver.gameserver.network.clientpackets.movement.RequestChangeMoveType;
-import com.shnok.javaserver.gameserver.network.clientpackets.movement.legacy.ValidatePosition;
+import com.shnok.javaserver.gameserver.network.clientpackets.movement.ValidatePosition;
 import com.shnok.javaserver.gameserver.network.clientpackets.unused.*;
 
 /**

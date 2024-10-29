@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.clientpackets.movement.legacy;
+package com.shnok.javaserver.gameserver.network.clientpackets.movement;
 
 import java.awt.Color;
 
@@ -53,8 +53,8 @@ public class ValidatePosition extends L2GameClientPacket
 		}
 		
 		// Disable validation during fall to avoid "jumping".
-		if (player.isFalling(_z))
-			return;
+//		if (player.isFalling(_z))
+//			return;
 		
 		final float actualSpeed;
 		final double dist;
@@ -75,7 +75,8 @@ public class ValidatePosition extends L2GameClientPacket
 		{
 			actualSpeed = player.getStatus().getMoveSpeed();
 			dist = (player.getMove().getMoveType() == MoveType.GROUND) ? player.getPosition().distance2D(_x, _y) : player.getPosition().distance3D(_x, _y, _z);
-			
+
+			System.out.println("Player position error delta: " + dist);
 			if (dist > actualSpeed && !info.isBoatMovement())
 				sendPacket(new ValidateLocation(player));
 		}
