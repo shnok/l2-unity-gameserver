@@ -17,9 +17,9 @@ public class PlayerMoveDirection extends L2GameClientPacket
     @Override
     protected void readImpl()
     {
-        _moveDirectionX = readF();
-        _moveDirectionZ = 0;
         _moveDirectionY = readF();
+        _moveDirectionZ = 0;
+        _moveDirectionX = readF();
         _heading = readD();
     }
 
