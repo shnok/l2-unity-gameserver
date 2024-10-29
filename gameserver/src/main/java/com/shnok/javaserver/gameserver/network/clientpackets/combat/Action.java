@@ -1,10 +1,11 @@
-package com.shnok.javaserver.gameserver.network.clientpackets;
+package com.shnok.javaserver.gameserver.network.clientpackets.combat;
 
 import com.shnok.javaserver.gameserver.enums.duels.DuelState;
 import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
 
 public final class Action extends L2GameClientPacket

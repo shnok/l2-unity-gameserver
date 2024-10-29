@@ -22,7 +22,7 @@ public abstract class AbstractHandler<K, H>
 	
 	protected AbstractHandler(Class<H> handlerInterface, String className)
 	{
-		final String packagePath = "net/sf/l2j/gameserver/handler/" + className;
+		final String packagePath = "com/shnok/javaserver/gameserver/handler/" + className;
 		
 		try
 		{

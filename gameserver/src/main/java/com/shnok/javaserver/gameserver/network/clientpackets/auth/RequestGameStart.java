@@ -1,10 +1,11 @@
-package com.shnok.javaserver.gameserver.network.clientpackets;
+package com.shnok.javaserver.gameserver.network.clientpackets.auth;
 
 import com.shnok.javaserver.gameserver.enums.FloodProtector;
 import com.shnok.javaserver.gameserver.model.CharSelectSlot;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.GameClient;
 import com.shnok.javaserver.gameserver.network.GameClient.GameClientState;
+import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.auth.CharSelected;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SSQInfo;
 

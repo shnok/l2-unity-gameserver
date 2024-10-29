@@ -1,8 +1,9 @@
-package com.shnok.javaserver.gameserver.network.clientpackets;
+package com.shnok.javaserver.gameserver.network.clientpackets.combat;
 
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExAutoSoulShot;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 

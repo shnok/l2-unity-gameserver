@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.clientpackets.unused;
+package com.shnok.javaserver.gameserver.network.clientpackets;
 
 import java.util.logging.Level;
 import java.util.logging.LogRecord;
@@ -10,7 +10,6 @@ import com.shnok.javaserver.gameserver.handler.ChatHandler;
 import com.shnok.javaserver.gameserver.handler.IChatHandler;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 
 public final class Say2 extends L2GameClientPacket
 {

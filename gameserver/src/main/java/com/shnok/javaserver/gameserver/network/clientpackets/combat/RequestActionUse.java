@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.clientpackets;
+package com.shnok.javaserver.gameserver.network.clientpackets.combat;
 
 import com.shnok.javaserver.commons.random.Rnd;
 import com.shnok.javaserver.commons.util.ArraysUtil;
@@ -12,6 +12,7 @@ import com.shnok.javaserver.gameserver.model.actor.instance.Door;
 import com.shnok.javaserver.gameserver.model.actor.instance.Pet;
 import com.shnok.javaserver.gameserver.model.actor.instance.Servitor;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.NpcSay;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
