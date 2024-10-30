@@ -211,5 +211,7 @@ public class UserInfo extends L2GameServerPacket
 		writeD(_player.getPledgeType());
 		writeD(_player.getAppearance().getTitleColor());
 		writeD(CursedWeaponManager.getInstance().getCurrentStage(_player.getCursedWeaponEquippedId()));
+
+		writeD(_player.getStatus().getPhysicalAttackRange());
 	}
 }

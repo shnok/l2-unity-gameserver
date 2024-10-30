@@ -14,7 +14,7 @@ import com.shnok.javaserver.gameserver.enums.skills.ElementType;
 import com.shnok.javaserver.gameserver.enums.skills.Stats;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.StatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.StatusUpdate;
 import com.shnok.javaserver.gameserver.skills.Calculator;
 import com.shnok.javaserver.gameserver.skills.Formulas;
 import com.shnok.javaserver.gameserver.skills.L2Skill;

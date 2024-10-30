@@ -350,11 +350,11 @@ public class PlayerMove extends CreatureMove<Player>
 	 */
 	public boolean maybeMoveToPawn(WorldObject target, int offset, boolean isShiftPressed)
 	{
-//		if (offset < 0 || _actor == target)
-//			return false;
+		if (offset < 0 || _actor == target)
+			return false;
 //
-//		if (_actor.isIn3DRadius(target, (int) (offset + _actor.getCollisionRadius() + ((target instanceof Creature targetCreature) ? targetCreature.getCollisionRadius() : 0))))
-//			return false;
+		if (_actor.isIn3DRadius(target, (int) (offset + _actor.getCollisionRadius() + ((target instanceof Creature targetCreature) ? targetCreature.getCollisionRadius() : 0))))
+			return false;
 //
 //		if (!_actor.isMovementDisabled() && !isShiftPressed)
 //		{
@@ -365,7 +365,7 @@ public class PlayerMove extends CreatureMove<Player>
 //		}
 //
 //		return true;
-		return false;
+		return isShiftPressed;
 	}
 	
 	@Override

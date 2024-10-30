@@ -1,6 +1,7 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.movement;
 
 import com.shnok.javaserver.gameserver.model.actor.Creature;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 public class ChangeMoveType extends L2GameServerPacket
 {

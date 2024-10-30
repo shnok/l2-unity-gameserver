@@ -25,7 +25,7 @@ import com.shnok.javaserver.gameserver.model.trade.BuyProcessItem;
 import com.shnok.javaserver.gameserver.model.trade.SellProcessItem;
 import com.shnok.javaserver.gameserver.model.trade.TradeItem;
 import com.shnok.javaserver.gameserver.model.trade.TradeList;
-import com.shnok.javaserver.gameserver.network.serverpackets.StatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.StatusUpdate;
 import com.shnok.javaserver.gameserver.taskmanager.ShadowItemTaskManager;
 
 public class PcInventory extends Inventory

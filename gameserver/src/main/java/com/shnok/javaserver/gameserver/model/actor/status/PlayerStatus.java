@@ -42,7 +42,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExDuelUpdate
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.PartySmallWindowUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.PledgeShowMemberListUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
-import com.shnok.javaserver.gameserver.network.serverpackets.StatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.StatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
 import com.shnok.javaserver.gameserver.scripting.QuestState;

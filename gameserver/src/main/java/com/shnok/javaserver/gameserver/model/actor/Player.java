@@ -152,7 +152,7 @@ import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ChairSit;
-import com.shnok.javaserver.gameserver.network.serverpackets.ChangeWaitType;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.ChangeWaitType;
 import com.shnok.javaserver.gameserver.network.serverpackets.auth.CharInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ConfirmDlg;
 import com.shnok.javaserver.gameserver.network.serverpackets.DeleteObject;
@@ -195,7 +195,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillCoolTim
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
 import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.StaticObjectInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.StatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.StatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.TargetSelected;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.TargetUnselected;

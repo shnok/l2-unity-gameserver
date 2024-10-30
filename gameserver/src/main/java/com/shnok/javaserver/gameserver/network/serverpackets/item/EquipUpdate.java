@@ -1,7 +1,8 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.item;
 
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.model.item.kind.Item;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 public class EquipUpdate extends L2GameServerPacket
 {
