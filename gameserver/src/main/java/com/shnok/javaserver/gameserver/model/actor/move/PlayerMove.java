@@ -7,6 +7,7 @@ import java.util.List;
 import com.shnok.javaserver.gameserver.enums.actors.MoveType;
 import com.shnok.javaserver.gameserver.geoengine.GeoEngine;
 import com.shnok.javaserver.gameserver.geoengine.geodata.GeoStructure;
+import com.shnok.javaserver.gameserver.handler.usercommandhandlers.Loc;
 import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
@@ -22,8 +23,8 @@ public class PlayerMove extends CreatureMove<Player>
 	private volatile Instant _instant;
 	
 	private int _moveTimeStamp;
-	
 	private double _zAccurate;
+	private Location _moveDirection;
 	
 	public PlayerMove(Player actor)
 	{
@@ -36,6 +37,7 @@ public class PlayerMove extends CreatureMove<Player>
 		super.cancelMoveTask();
 		
 		_moveTimeStamp = 0;
+		_moveDirection = new Location(0,0,0);
 	}
 	
 	private void moveToPawn(WorldObject pawn, int offset)
@@ -102,6 +104,7 @@ public class PlayerMove extends CreatureMove<Player>
 	@Override
 	protected void moveToLocation(Location moveDirection, boolean pathfinding)
 	{
+		_moveDirection = moveDirection;
 		System.out.println("Run: MoveDirection=" + moveDirection);
 		if (_task != null)
 			updatePosition(true);
@@ -308,8 +311,12 @@ public class PlayerMove extends CreatureMove<Player>
 			nextZ = Math.min(_destination.getZ(), maxZ);
 		}
 
+		System.out.println("Movedirection: " + _moveDirection);
+
 		// Check if location can be reached (case of dynamic objects, such as opening doors/fences).
-		if (type == MoveType.GROUND && !GeoEngine.getInstance().canMoveToTarget(curX, curY, curZ, nextX, nextY, nextZ))
+		if (type == MoveType.GROUND && !GeoEngine.getInstance().canMoveToTarget(
+				curX, curY, curZ,
+				nextX - _moveDirection.getX() / 10, nextY - _moveDirection.getY() / 10, nextZ))
 		{
 			System.out.println("Player running through a wall!");
 			_blocked = true;
