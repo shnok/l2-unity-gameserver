@@ -150,7 +150,7 @@ import com.shnok.javaserver.gameserver.model.zone.type.BossZone;
 import com.shnok.javaserver.gameserver.network.GameClient;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ChairSit;
 import com.shnok.javaserver.gameserver.network.serverpackets.ChangeWaitType;
 import com.shnok.javaserver.gameserver.network.serverpackets.auth.CharInfo;
@@ -168,7 +168,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.item.InventoryUpdat
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.auth.LeaveWorld;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.MyTargetSelected;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.MyTargetSelected;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ObserverEnd;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ObserverStart;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.PartySmallWindowUpdate;
@@ -184,7 +184,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.RecipeShopMa
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.RecipeShopMsg;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.RecipeShopSellList;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.RelationChanged;
-import com.shnok.javaserver.gameserver.network.serverpackets.Revive;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.Revive;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.Ride;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SendTradeDone;
 import com.shnok.javaserver.gameserver.network.serverpackets.auth.ServerClose;
@@ -197,8 +197,8 @@ import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.StaticObjectInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.StatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.TargetSelected;
-import com.shnok.javaserver.gameserver.network.serverpackets.TargetUnselected;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.TargetSelected;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.TargetUnselected;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.TitleUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.TradePressOtherOk;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.TradePressOwnOk;
@@ -2215,8 +2215,15 @@ public final class Player extends Playable
 				player.getAI().tryToFollow(this, isShiftPressed);
 		}
 	}
-	
+
 	@Override
+	public void onTarget(Player player, boolean isShiftPressed)
+	{
+		if (player.getTarget() != this)
+			player.setTarget(this);
+	}
+
+    @Override
 	public void broadcastPacket(L2GameServerPacket packet, boolean selfToo)
 	{
 		if (selfToo)

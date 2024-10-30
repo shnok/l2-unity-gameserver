@@ -14,7 +14,7 @@ import com.shnok.javaserver.gameserver.model.olympiad.Olympiad;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameManager;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameTask;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadManager;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExHeroList;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 

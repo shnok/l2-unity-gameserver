@@ -4,7 +4,8 @@ import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Npc;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.TargetUnselected;
 
 public class EffectPoint extends Npc
 {
@@ -27,6 +28,13 @@ public class EffectPoint extends Npc
 	public void onAction(Player player, boolean isCtrlPressed, boolean isShiftPressed)
 	{
 		player.sendPacket(ActionFailed.STATIC_PACKET);
+	}
+
+	@Override
+	public void onTarget(Player player, boolean isShiftPressed)
+	{
+		player.sendPacket(ActionFailed.STATIC_PACKET);
+		player.sendPacket(new TargetUnselected(player));
 	}
 	
 	@Override

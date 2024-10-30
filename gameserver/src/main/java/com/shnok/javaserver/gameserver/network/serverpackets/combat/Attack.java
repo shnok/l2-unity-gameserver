@@ -1,7 +1,8 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.combat;
 
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.attack.CreatureAttack.HitHolder;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 public class Attack extends L2GameServerPacket
 {

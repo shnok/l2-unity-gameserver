@@ -1,6 +1,7 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.combat;
 
 import com.shnok.javaserver.gameserver.model.WorldObject;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 /**
  * format d

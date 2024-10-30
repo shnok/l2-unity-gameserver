@@ -50,7 +50,7 @@ import com.shnok.javaserver.gameserver.model.zone.type.WaterZone;
 import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo.NpcInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.ChangeMoveType;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.Revive;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.Revive;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ServerObjectInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.StatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.TeleportToLocation;
@@ -1427,6 +1427,13 @@ public abstract class Creature extends WorldObject
 			else
 				player.getAI().tryToInteract(this, isCtrlPressed, isShiftPressed);
 		}
+	}
+
+	@Override
+	public void onTarget(Player player, boolean isShiftPressed)
+	{
+		if (player.getTarget() != this)
+			player.setTarget(this);
 	}
 	
 	/**

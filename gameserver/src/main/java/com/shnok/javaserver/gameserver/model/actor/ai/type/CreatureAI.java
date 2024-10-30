@@ -6,7 +6,7 @@ import com.shnok.javaserver.gameserver.enums.items.WeaponType;
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
-import com.shnok.javaserver.gameserver.network.serverpackets.Die;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.Die;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToLocation;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToPawn;
 import com.shnok.javaserver.gameserver.skills.L2Skill;

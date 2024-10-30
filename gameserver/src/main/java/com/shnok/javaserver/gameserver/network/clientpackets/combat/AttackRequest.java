@@ -5,7 +5,7 @@ import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 
 public final class AttackRequest extends L2GameClientPacket
 {

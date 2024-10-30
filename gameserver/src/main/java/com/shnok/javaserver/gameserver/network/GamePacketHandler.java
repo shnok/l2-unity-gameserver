@@ -142,7 +142,11 @@ public final class GamePacketHandler implements IPacketHandler<GameClient>, ICli
 						msg = new PlayerMoveDirection();
 						break;
 					case 0x04:
-						msg = new Action();
+						msg = new Action(); // request interact/auto-attack (previously inside action)
+						break;
+					case 0x05:
+						// set target only
+						msg = new RequestTarget();
 						break;
 					case 0x09:
 						msg = new Logout();

@@ -133,6 +133,13 @@ public class Pet extends Summon
 		
 		super.onAction(player, isCtrlPressed, isShiftPressed);
 	}
+
+	@Override
+	public void onTarget(Player player, boolean isShiftPressed)
+	{
+		if (player.getTarget() != this)
+			player.setTarget(this);
+	}
 	
 	@Override
 	public ItemInstance getActiveWeaponInstance()

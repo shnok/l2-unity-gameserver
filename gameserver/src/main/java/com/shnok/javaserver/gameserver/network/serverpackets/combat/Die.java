@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.combat;
 
 import com.shnok.javaserver.gameserver.data.manager.CastleManager;
 import com.shnok.javaserver.gameserver.data.manager.ClanHallManager;
@@ -9,6 +9,7 @@ import com.shnok.javaserver.gameserver.model.actor.instance.Monster;
 import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.model.residence.castle.Siege;
 import com.shnok.javaserver.gameserver.model.residence.clanhall.ClanHallSiege;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 public class Die extends L2GameServerPacket
 {

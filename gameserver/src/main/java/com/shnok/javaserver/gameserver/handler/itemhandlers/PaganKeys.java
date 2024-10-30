@@ -9,7 +9,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.instance.Door;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class PaganKeys implements IItemHandler

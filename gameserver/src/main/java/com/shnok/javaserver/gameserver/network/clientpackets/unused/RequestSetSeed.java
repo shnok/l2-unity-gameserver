@@ -10,7 +10,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.manor.Seed;
 import com.shnok.javaserver.gameserver.model.manor.SeedProduction;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 
 public class RequestSetSeed extends L2GameClientPacket
 {

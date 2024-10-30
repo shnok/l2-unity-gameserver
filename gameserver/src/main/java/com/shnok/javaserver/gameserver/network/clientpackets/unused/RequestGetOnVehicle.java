@@ -5,7 +5,7 @@ import com.shnok.javaserver.gameserver.model.actor.Boat;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.container.player.BoatInfo;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.GetOnVehicle;
 
 public final class RequestGetOnVehicle extends L2GameClientPacket

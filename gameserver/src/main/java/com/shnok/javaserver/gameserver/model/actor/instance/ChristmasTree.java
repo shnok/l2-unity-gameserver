@@ -8,7 +8,8 @@ import com.shnok.javaserver.gameserver.data.SkillTable.FrequentSkill;
 import com.shnok.javaserver.gameserver.enums.ZoneId;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.TargetUnselected;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**
@@ -54,5 +55,12 @@ public class ChristmasTree extends Folk
 	public void onAction(Player player, boolean isCtrlPressed, boolean isShiftPressed)
 	{
 		player.sendPacket(ActionFailed.STATIC_PACKET);
+	}
+
+	@Override
+	public void onTarget(Player player, boolean isShiftPressed)
+	{
+		player.sendPacket(ActionFailed.STATIC_PACKET);
+		player.sendPacket(new TargetUnselected(player));
 	}
 }

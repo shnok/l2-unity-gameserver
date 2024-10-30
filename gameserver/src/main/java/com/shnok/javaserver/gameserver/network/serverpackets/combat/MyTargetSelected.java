@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.serverpackets.unused;
+package com.shnok.javaserver.gameserver.network.serverpackets.combat;
 
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 

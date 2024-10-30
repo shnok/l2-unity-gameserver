@@ -18,7 +18,7 @@ import com.shnok.javaserver.gameserver.model.item.kind.Item;
 import com.shnok.javaserver.gameserver.model.itemcontainer.Inventory;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ShopPreviewInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
 

@@ -6,7 +6,7 @@ import com.shnok.javaserver.gameserver.model.actor.container.player.BoatInfo;
 import com.shnok.javaserver.gameserver.model.location.Point2D;
 import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.GetOffVehicle;
 
 public final class RequestGetOffVehicle extends L2GameClientPacket

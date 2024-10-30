@@ -18,7 +18,7 @@ import com.shnok.javaserver.gameserver.model.actor.instance.OlympiadManagerNpc;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadManager;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.scripting.QuestState;
 

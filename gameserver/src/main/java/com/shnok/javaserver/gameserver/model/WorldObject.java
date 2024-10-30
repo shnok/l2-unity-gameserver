@@ -20,7 +20,8 @@ import com.shnok.javaserver.gameserver.model.boat.BoatItinerary;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
 import com.shnok.javaserver.gameserver.model.zone.type.subtype.ZoneType;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.TargetUnselected;
 
 /**
  * Mother class of all interactive objects in the world (PC, NPC, Item...)
@@ -83,6 +84,12 @@ public abstract class WorldObject
 	public void onAction(Player player, boolean isCtrlPressed, boolean isShiftPressed)
 	{
 		player.sendPacket(ActionFailed.STATIC_PACKET);
+	}
+
+	public void onTarget(Player player, boolean isShiftPressed)
+	{
+		player.sendPacket(ActionFailed.STATIC_PACKET);
+		player.sendPacket(new TargetUnselected(player));
 	}
 	
 	public void onSpawn()

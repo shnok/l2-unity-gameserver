@@ -19,7 +19,7 @@ import com.shnok.javaserver.gameserver.model.manor.SeedProduction;
 import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 
 public class RequestBuySeed extends L2GameClientPacket

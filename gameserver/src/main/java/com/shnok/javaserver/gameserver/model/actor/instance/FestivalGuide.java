@@ -18,7 +18,7 @@ import com.shnok.javaserver.gameserver.model.group.Party;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.model.zone.type.PeaceZone;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 

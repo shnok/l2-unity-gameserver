@@ -1,5 +1,6 @@
 package com.shnok.javaserver.gameserver.network.clientpackets.auth;
 
+import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.enums.FloodProtector;
 import com.shnok.javaserver.gameserver.model.CharSelectSlot;
 import com.shnok.javaserver.gameserver.model.actor.Player;
@@ -50,8 +51,9 @@ public class RequestGameStart extends L2GameClientPacket
 					player.setClient(client);
 					client.setPlayer(player);
 					player.setOnlineStatus(true, true);
-					
-					sendPacket(SSQInfo.sendSky());
+
+					if(Config.SEVEN_SIGNS_ENABLED)
+						sendPacket(SSQInfo.sendSky());
 					
 					client.setState(GameClientState.ENTERING);
 					

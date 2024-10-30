@@ -10,7 +10,7 @@ import com.shnok.javaserver.gameserver.model.actor.Playable;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.Summon;
 import com.shnok.javaserver.gameserver.model.actor.instance.Cubic;
-import com.shnok.javaserver.gameserver.network.serverpackets.AutoAttackStop;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.AutoAttackStop;
 
 /**
  * Turns off attack stance of {@link Creature} after ATTACK_STANCE_PERIOD (set to 15sec by default).

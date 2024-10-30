@@ -27,7 +27,7 @@ import com.shnok.javaserver.gameserver.model.CharSelectSlot;
 import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.pledge.Clan;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.auth.ServerClose;
 

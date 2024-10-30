@@ -15,7 +15,7 @@ import com.shnok.javaserver.gameserver.model.location.Point2D;
 import com.shnok.javaserver.gameserver.model.location.SpawnLocation;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToLocation;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.MoveToLocationInVehicle;
 

@@ -12,7 +12,7 @@ import com.shnok.javaserver.gameserver.model.holder.skillnode.GeneralSkillNode;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.AcquireSkillDone;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.AcquireSkillList;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExEnchantSkillList;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;

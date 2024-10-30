@@ -4,7 +4,7 @@ import com.shnok.javaserver.commons.data.StatSet;
 
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class L2SkillDefault extends L2Skill

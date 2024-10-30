@@ -7,7 +7,7 @@ import com.shnok.javaserver.gameserver.data.manager.CastleManorManager;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.BuyListSeed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowCropInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowManorDefaultInfo;

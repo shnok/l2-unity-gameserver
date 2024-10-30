@@ -5,7 +5,7 @@ import com.shnok.javaserver.gameserver.enums.skills.SkillType;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public final class RequestMagicSkillUse extends L2GameClientPacket

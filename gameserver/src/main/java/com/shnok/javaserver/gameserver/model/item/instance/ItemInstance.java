@@ -33,7 +33,7 @@ import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.model.residence.castle.Castle;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.item.DropItem;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.GetItem;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SpawnItem;

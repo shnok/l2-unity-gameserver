@@ -10,7 +10,7 @@ import com.shnok.javaserver.gameserver.model.itemcontainer.Inventory;
 import com.shnok.javaserver.gameserver.model.records.ManufactureItem;
 import com.shnok.javaserver.gameserver.model.records.Recipe;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.RecipeItemMakeInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.RecipeShopItemInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;

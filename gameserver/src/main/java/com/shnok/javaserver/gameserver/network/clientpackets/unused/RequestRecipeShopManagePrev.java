@@ -2,7 +2,7 @@ package com.shnok.javaserver.gameserver.network.clientpackets.unused;
 
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.ActionFailed;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.RecipeShopSellList;
 
 public final class RequestRecipeShopManagePrev extends L2GameClientPacket

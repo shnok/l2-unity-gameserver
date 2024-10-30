@@ -1,4 +1,6 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.combat;
+
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 public final class ActionFailed extends L2GameServerPacket
 {
