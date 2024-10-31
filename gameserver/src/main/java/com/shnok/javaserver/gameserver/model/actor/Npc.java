@@ -65,7 +65,7 @@ import com.shnok.javaserver.gameserver.model.spawn.MultiSpawn;
 import com.shnok.javaserver.gameserver.model.spawn.Spawn;
 import com.shnok.javaserver.gameserver.network.NpcStringId;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo.NpcInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.AbstractNpcInfo.NpcInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowScreenMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowVariationCancelWindow;

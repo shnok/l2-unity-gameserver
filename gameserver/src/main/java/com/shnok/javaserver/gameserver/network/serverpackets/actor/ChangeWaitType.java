@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.serverpackets.movement;
+package com.shnok.javaserver.gameserver.network.serverpackets.actor;
 
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;

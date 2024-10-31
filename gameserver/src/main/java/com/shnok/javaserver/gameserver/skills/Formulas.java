@@ -758,6 +758,7 @@ public final class Formulas
 	 */
 	public static final int calculateTimeBetweenAttacks(Creature attacker)
 	{
+		System.out.println(attacker.getName() + " atkSpd: " + attacker.getStatus().getPAtkSpd());
 		return Math.max(100, 500000 / attacker.getStatus().getPAtkSpd());
 	}
 	

@@ -7,7 +7,7 @@ import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Npc;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.Summon;
-import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
 import com.shnok.javaserver.gameserver.scripting.Quest;
 import com.shnok.javaserver.gameserver.scripting.QuestState;
 

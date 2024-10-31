@@ -12,7 +12,7 @@ import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.model.holder.IntIntHolder;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
 
 /**
  * Custom class allowing you to choose your class.<br>

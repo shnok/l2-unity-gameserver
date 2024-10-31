@@ -1,7 +1,7 @@
 package com.shnok.javaserver.gameserver.network.clientpackets;
 
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
 
 public final class Appearing extends L2GameClientPacket
 {

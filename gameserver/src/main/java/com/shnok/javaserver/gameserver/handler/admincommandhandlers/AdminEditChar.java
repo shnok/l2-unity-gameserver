@@ -23,7 +23,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.group.Party;
 import com.shnok.javaserver.gameserver.model.records.PlayerLevel;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo.NpcInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.AbstractNpcInfo.NpcInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillCoolTime;

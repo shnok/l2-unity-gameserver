@@ -12,7 +12,7 @@ import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public final class RequestExEnchantSkill extends L2GameClientPacket

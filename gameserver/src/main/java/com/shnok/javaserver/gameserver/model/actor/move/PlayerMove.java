@@ -13,6 +13,7 @@ import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.location.Location;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionAllowed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 
 /**
@@ -135,7 +136,10 @@ public class PlayerMove extends CreatureMove<Player>
 
 		registerMoveTask();
 
-		//_actor.broadcastPacket(new MoveToLocation(_actor, destination));
+		_actor.sendPacket(ActionAllowed.STATIC_PACKET);
+
+		//_actor.broadcastPacket(new ActionAllowed(_actor, destination));
+		//TODO broadcast movedirection
 
 //		register
 //

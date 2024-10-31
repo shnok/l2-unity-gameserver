@@ -19,7 +19,7 @@ import com.shnok.javaserver.gameserver.model.itemcontainer.PetInventory;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameManager;
 import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.AbstractNpcInfo.SummonInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.AbstractNpcInfo.SummonInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.*;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;

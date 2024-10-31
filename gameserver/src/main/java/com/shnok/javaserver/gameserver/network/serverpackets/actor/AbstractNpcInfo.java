@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.actor;
 
 import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.data.sql.ClanTable;
@@ -9,6 +9,7 @@ import com.shnok.javaserver.gameserver.model.actor.Summon;
 import com.shnok.javaserver.gameserver.model.actor.instance.Monster;
 import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.model.pledge.Clan;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 public abstract class AbstractNpcInfo extends L2GameServerPacket
 {

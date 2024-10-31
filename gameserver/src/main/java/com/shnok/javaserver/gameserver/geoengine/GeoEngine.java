@@ -529,6 +529,11 @@ public class GeoEngine
 		int tx = target.getX();
 		int ty = target.getY();
 		int tz = target.getZ();
+
+		//l2-unity
+//		if(Math.abs(oy - ty) <= 50) {
+//			oy = ty;
+//		}
 		
 		// Get object's and target's line of sight height (if relevant).
 		// Note: real creature height = collision height * 2

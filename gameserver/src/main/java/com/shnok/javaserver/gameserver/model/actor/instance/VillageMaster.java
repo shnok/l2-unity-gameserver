@@ -31,7 +31,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessa
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.PledgeShowInfoUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.PledgeShowMemberListAll;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
 import com.shnok.javaserver.gameserver.scripting.QuestState;
 
 /**

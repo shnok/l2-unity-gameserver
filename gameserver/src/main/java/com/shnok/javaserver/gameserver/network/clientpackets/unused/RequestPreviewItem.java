@@ -20,7 +20,7 @@ import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ShopPreviewInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
 
 public final class RequestPreviewItem extends L2GameClientPacket
 {

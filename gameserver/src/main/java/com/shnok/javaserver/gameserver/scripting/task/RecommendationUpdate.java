@@ -8,7 +8,7 @@ import com.shnok.javaserver.commons.pool.ConnectionPool;
 
 import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.actor.Player;
-import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
 import com.shnok.javaserver.gameserver.scripting.ScheduledQuest;
 
 public final class RecommendationUpdate extends ScheduledQuest

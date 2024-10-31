@@ -45,7 +45,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.PledgeSkillL
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.PledgeSkillListAdd;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 /**

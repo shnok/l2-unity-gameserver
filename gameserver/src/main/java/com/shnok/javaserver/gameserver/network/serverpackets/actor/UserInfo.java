@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.serverpackets;
+package com.shnok.javaserver.gameserver.network.serverpackets.actor;
 
 import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.data.manager.CursedWeaponManager;
@@ -8,6 +8,7 @@ import com.shnok.javaserver.gameserver.enums.skills.AbnormalEffect;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.Summon;
 import com.shnok.javaserver.gameserver.model.actor.instance.Cubic;
+import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 
 public class UserInfo extends L2GameServerPacket
 {

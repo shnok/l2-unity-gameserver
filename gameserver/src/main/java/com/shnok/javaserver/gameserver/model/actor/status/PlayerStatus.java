@@ -44,7 +44,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.PledgeShowMe
 import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.StatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.UserInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
 import com.shnok.javaserver.gameserver.scripting.QuestState;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
