@@ -128,13 +128,13 @@ public class LoginServerThread extends Thread
 					if (receivedBytes != length - 2)
 						break;
 
-					if(Config.DEVELOPER) {
+					if(Config.DEVELOPER && Config.LOG_PACKETS) {
 						LOGGER.info("<--- [LOGIN] Encrypted packet {} : {}", incoming.length, Arrays.toString(incoming));
 					}
 					// Decrypt if we have a key.
 					final byte[] decrypt = _blowfish.decrypt(incoming);
 
-					if(Config.DEVELOPER) {
+					if(Config.DEVELOPER && Config.LOG_PACKETS) {
 						LOGGER.info("<--- [LOGIN] Clear packet {} : {}", decrypt.length, Arrays.toString(decrypt));
 					}
 					// Verify the checksum.
@@ -344,13 +344,13 @@ public class LoginServerThread extends Thread
 		NewCrypt.appendChecksum(data);
 
 
-		if(Config.DEVELOPER) {
+		if(Config.DEVELOPER && Config.LOG_PACKETS) {
 			LOGGER.info("---> [LOGIN] Clear packet {} : {}", data.length, Arrays.toString(data));
 		}
 
 		data = _blowfish.crypt(data);
 
-		if(Config.DEVELOPER) {
+		if(Config.DEVELOPER && Config.LOG_PACKETS) {
 			LOGGER.info("---> [LOGIN] Encrypted packet {} : {}", data.length, Arrays.toString(data));
 		}
 

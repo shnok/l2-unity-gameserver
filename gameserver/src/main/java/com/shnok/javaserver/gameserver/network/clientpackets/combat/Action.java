@@ -17,6 +17,7 @@ public final class Action extends L2GameClientPacket
 	protected void readImpl()
 	{
 		_objectId = readD();
+		System.out.println("Wants to attack object id: " + _objectId);
 		readD(); // originX
 		readD(); // originY
 		readD(); // originZ

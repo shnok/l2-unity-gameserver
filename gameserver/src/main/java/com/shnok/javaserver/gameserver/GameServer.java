@@ -252,13 +252,13 @@ public class GameServer
 		if (Config.ALLOW_BOAT)
 			BoatData.getInstance().load();
 		
-		StringUtil.printSection("Events");
-		DerbyTrackManager.getInstance();
-		LotteryManager.getInstance();
-		CoupleManager.getInstance();
+//		StringUtil.printSection("Events");
+//		DerbyTrackManager.getInstance();
+//		LotteryManager.getInstance();
+//		CoupleManager.getInstance();
 		
-		if (Config.ALLOW_FISH_CHAMPIONSHIP)
-			FishingChampionshipManager.getInstance();
+//		if (Config.ALLOW_FISH_CHAMPIONSHIP)
+//			FishingChampionshipManager.getInstance();
 		
 		StringUtil.printSection("Spawns");
 		SpawnManager.getInstance().spawn();

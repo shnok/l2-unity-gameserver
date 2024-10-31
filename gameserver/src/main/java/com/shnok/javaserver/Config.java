@@ -459,7 +459,8 @@ public final class Config
 	public static boolean NO_SPAWNS;
 	public static boolean DEVELOPER;
 	public static boolean PACKET_HANDLER_DEBUG;
-	
+	public static boolean LOG_PACKETS;
+
 	/** Logs */
 	public static boolean LOG_CHAT;
 	public static boolean LOG_ITEMS;
@@ -1001,7 +1002,8 @@ public final class Config
 		NO_SPAWNS = server.getProperty("NoSpawns", false);
 		DEVELOPER = server.getProperty("Developer", false);
 		PACKET_HANDLER_DEBUG = server.getProperty("PacketHandlerDebug", false);
-		
+		LOG_PACKETS = server.getProperty("PacketHandlerBytesDebug", false);
+
 		LOG_CHAT = server.getProperty("LogChat", false);
 		LOG_ITEMS = server.getProperty("LogItems", false);
 		GMAUDIT = server.getProperty("GMAudit", false);

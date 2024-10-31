@@ -186,11 +186,11 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> imple
 	@Override
 	public boolean decrypt(ByteBuffer buf, int size)
 	{
-		if(Config.DEVELOPER) {
+		if(Config.DEVELOPER && Config.LOG_PACKETS) {
 			LOGGER.info("<--- [CLIENT] Encrypted packet {} : {}", size, Arrays.toString(Arrays.copyOfRange(buf.array(), buf.position(),  buf.position() + size)));
 		}
 		_crypt.decrypt(buf.array(), buf.position(), size);
-		if(Config.DEVELOPER) {
+		if(Config.DEVELOPER && Config.LOG_PACKETS) {
 			LOGGER.info("<--- [CLIENT] Clear packet {} : {}", size, Arrays.toString(Arrays.copyOfRange(buf.array(), buf.position(),  buf.position() + size)));
 		}
 		return true;
@@ -199,11 +199,11 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> imple
 	@Override
 	public boolean encrypt(final ByteBuffer buf, final int size)
 	{
-		if(Config.DEVELOPER) {
+		if(Config.DEVELOPER && Config.LOG_PACKETS) {
 			LOGGER.info("---> [CLIENT] Clear packet {} : {}", size, Arrays.toString(Arrays.copyOfRange(buf.array(), Math.min(buf.position(), buf.array().length - 1), Math.min(buf.array().length - 1, buf.position() + size))));
 		}
 		_crypt.encrypt(buf.array(), buf.position(), size);
-		if(Config.DEVELOPER) {
+		if(Config.DEVELOPER && Config.LOG_PACKETS) {
 			LOGGER.info("---> [CLIENT] Encrypted packet {} : {}", size, Arrays.toString(Arrays.copyOfRange(buf.array(), Math.min(buf.position(), buf.array().length - 1), Math.min(buf.array().length - 1, buf.position() + size))));
 		}
 		buf.position(buf.position() + size);

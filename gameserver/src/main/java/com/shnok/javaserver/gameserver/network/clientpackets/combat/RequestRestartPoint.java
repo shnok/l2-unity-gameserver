@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.clientpackets.unused;
+package com.shnok.javaserver.gameserver.network.clientpackets.combat;
 
 import com.shnok.javaserver.commons.pool.ThreadPool;
 
