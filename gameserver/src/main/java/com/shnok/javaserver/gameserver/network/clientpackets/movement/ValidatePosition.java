@@ -2,6 +2,7 @@ package com.shnok.javaserver.gameserver.network.clientpackets.movement;
 
 import java.awt.Color;
 
+import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.enums.TeleportMode;
 import com.shnok.javaserver.gameserver.enums.actors.MoveType;
 import com.shnok.javaserver.gameserver.model.World;
@@ -77,7 +78,8 @@ public class ValidatePosition extends L2GameClientPacket
 			dist = (player.getMove().getMoveType() == MoveType.GROUND) ? player.getPosition().distance2D(_x, _y) : player.getPosition().distance3D(_x, _y, _z);
 
 			System.out.println("Player position error delta: " + dist);
-			if (dist > actualSpeed / 2f && !info.isBoatMovement())
+			if (dist > actualSpeed * Config.ALLOWED_PLAYER_POSITION_DESYNC && !info.isBoatMovement())
+//			if (dist > Config.ALLOWED_PLAYER_POSITION_DESYNC && !info.isBoatMovement())
 				sendPacket(new ValidateLocation(player));
 		}
 		

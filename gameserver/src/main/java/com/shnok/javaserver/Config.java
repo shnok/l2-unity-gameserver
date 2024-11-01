@@ -460,6 +460,7 @@ public final class Config
 	public static boolean DEVELOPER;
 	public static boolean PACKET_HANDLER_DEBUG;
 	public static boolean LOG_PACKETS;
+	public static double ALLOWED_PLAYER_POSITION_DESYNC;
 
 	/** Logs */
 	public static boolean LOG_CHAT;
@@ -1003,6 +1004,7 @@ public final class Config
 		DEVELOPER = server.getProperty("Developer", false);
 		PACKET_HANDLER_DEBUG = server.getProperty("PacketHandlerDebug", false);
 		LOG_PACKETS = server.getProperty("PacketHandlerBytesDebug", false);
+		ALLOWED_PLAYER_POSITION_DESYNC = server.getProperty("AllowedPlayerPositionDesync", 1.);
 
 		LOG_CHAT = server.getProperty("LogChat", false);
 		LOG_ITEMS = server.getProperty("LogItems", false);

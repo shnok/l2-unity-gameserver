@@ -106,7 +106,7 @@ public class PlayerMove extends CreatureMove<Player>
 	protected void moveToLocation(Location moveDirection, boolean pathfinding)
 	{
 		_moveDirection = moveDirection;
-		System.out.println("Run: MoveDirection=" + moveDirection);
+//		System.out.println("Run: MoveDirection=" + moveDirection);
 		if (_task != null)
 			updatePosition(true);
 
@@ -276,7 +276,7 @@ public class PlayerMove extends CreatureMove<Player>
 		// We use Z for delta calculation only if different of GROUND MoveType.
 		final double leftDistance = (type == MoveType.GROUND) ? Math.sqrt(dx * dx + dy * dy) : Math.sqrt(dx * dx + dy * dy + dz * dz);
 		float speed = _actor.getStatus().getRealMoveSpeed(type != MoveType.FLY && _moveTimeStamp <= 5);
-		System.out.println("Speed: " + speed + " UnitySpd: " + speed / 52.5f);
+//		System.out.println("Speed: " + speed + " UnitySpd: " + speed / 52.5f);
 		final double passedDistance = speed / (1000d / timePassed);
 //
 //		// Calculate the maximum Z. Only FLY is allowed to bypass Z check.
