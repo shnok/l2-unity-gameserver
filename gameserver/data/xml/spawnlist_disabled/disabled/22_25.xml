@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Heine Area
+ * Garden of Eva
+-->
+<list>
+	<!--  -->
+	<territory name="innadril05_mb2225_01" minZ="-10634" maxZ="-10234">
+		<node x="82061" y="251621"/>
+		<node x="82622" y="251452"/>
+		<node x="82700" y="251730"/>
+		<node x="82409" y="251722"/>
+		<node x="82145" y="251975"/>
+		<node x="82249" y="252297"/>
+		<node x="81938" y="252349"/>
+		<node x="81855" y="251980"/>
+	</territory>
+	<npcmaker name="innadril05_mb2225_01m1" territory="innadril05_mb2225_01" maximumNpcs="8">
+		<ai type="default_use_db_maker"/>
+		<npc id="25493" total="1" respawn="36hour" respawnRand="24hour" dbName="niniel_spirit_eva"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril05_mb2225_02" minZ="-10423" maxZ="-10123">
+		<node x="87672" y="257447"/>
+		<node x="89135" y="257458"/>
+		<node x="89146" y="259003"/>
+		<node x="87669" y="258997"/>
+	</territory>
+	<npcmaker name="innadril05_mb2225_02m1" territory="innadril05_mb2225_02" maximumNpcs="8">
+		<ai type="default_use_db_maker"/>
+		<npc id="25496" total="1" respawn="36hour" respawnRand="24hour" dbName="papurrion_pingolpin"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril05_mb2225_031" minZ="-10426" maxZ="-10126">
+		<node x="75503" y="244552"/>
+		<node x="77833" y="244557"/>
+		<node x="77833" y="246980"/>
+		<node x="75514" y="246980"/>
+	</territory>
+	<npcmaker name="innadril05_mb2225_031m1" territory="innadril05_mb2225_031" maximumNpcs="8">
+		<ai type="default_use_db_maker"/>
+		<npc id="25016" total="1" respawn="36hour" respawnRand="24hour" dbName="guardian_3_of_garden"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril05_mb2225_041" minZ="-10426" maxZ="-10126">
+		<node x="87610" y="244590"/>
+		<node x="89940" y="244595"/>
+		<node x="89940" y="247017"/>
+		<node x="87621" y="247017"/>
+	</territory>
+	<npcmaker name="innadril05_mb2225_041m1" territory="innadril05_mb2225_041" maximumNpcs="8">
+		<ai type="default_use_db_maker"/>
+		<npc id="25032" total="1" respawn="36hour" respawnRand="24hour" dbName="eva_guardian_millenu"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_01" minZ="-4935" maxZ="-4635">
+		<node x="84380" y="240871"/>
+		<node x="85722" y="240974"/>
+		<node x="85953" y="241747"/>
+		<node x="84404" y="241487"/>
+	</territory>
+	<npcmaker name="innadrill05_01w" territory="innadrill05_2225_01" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20849" total="3" respawn="94sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_02" minZ="-7211" maxZ="-6861">
+		<node x="84400" y="240861"/>
+		<node x="86026" y="240886"/>
+		<node x="86005" y="241790"/>
+		<node x="84420" y="242161"/>
+	</territory>
+	<npcmaker name="innadrill05_02w" territory="innadrill05_2225_02" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20849" total="1" respawn="94sec"/>
+		<npc id="20314" total="2" respawn="94sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_03" minZ="-7202" maxZ="-7042">
+		<node x="82602" y="244023"/>
+		<node x="82887" y="244025"/>
+		<node x="82888" y="244915"/>
+		<node x="82602" y="244907"/>
+	</territory>
+	<npcmaker name="innadrill05_03" territory="innadrill05_2225_03" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20793" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_04" minZ="-7532" maxZ="-7182">
+		<node x="83882" y="244643"/>
+		<node x="84885" y="244646"/>
+		<node x="84887" y="244917"/>
+		<node x="83882" y="244922"/>
+	</territory>
+	<npcmaker name="innadrill05_04" territory="innadrill05_2225_04" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20794" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_05" minZ="-7711" maxZ="-7491">
+		<node x="86172" y="244152"/>
+		<node x="86492" y="244139"/>
+		<node x="86489" y="244936"/>
+		<node x="86172" y="244940"/>
+	</territory>
+	<npcmaker name="innadrill05_05" territory="innadrill05_2225_05" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20793" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_06" minZ="-8100" maxZ="-7750">
+		<node x="83878" y="244162"/>
+		<node x="84882" y="244165"/>
+		<node x="84884" y="244437"/>
+		<node x="83878" y="244441"/>
+	</territory>
+	<npcmaker name="innadrill05_06" territory="innadrill05_2225_06" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20794" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_07" minZ="-8875" maxZ="-8625">
+		<node x="84771" y="245748"/>
+		<node x="84989" y="245256"/>
+		<node x="88203" y="247709"/>
+		<node x="87856" y="248019"/>
+	</territory>
+	<npcmaker name="innadrill05_07" territory="innadrill05_2225_07" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20793" pos="87614;247555;-8816;3624" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" pos="85271;245759;-8816;44036" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20793" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_08" minZ="-8875" maxZ="-8625">
+		<node x="88064" y="248239"/>
+		<node x="88394" y="248113"/>
+		<node x="89617" y="251757"/>
+		<node x="89241" y="251848"/>
+	</territory>
+	<npcmaker name="innadrill05_08" territory="innadrill05_2225_08" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20793" pos="89304;251382;-8816;61084" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" pos="88413;248643;-8816;21432" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20793" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_09" minZ="-8875" maxZ="-8625">
+		<node x="89262" y="252153"/>
+		<node x="89663" y="252260"/>
+		<node x="88350" y="255996"/>
+		<node x="88046" y="255776"/>
+	</territory>
+	<npcmaker name="innadrill05_09" territory="innadrill05_2225_09" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20794" pos="88262;255699;-8816;14224" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" pos="89314;252605;-8816;61084" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20795" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_10" minZ="-8875" maxZ="-8625">
+		<node x="87865" y="256022"/>
+		<node x="88152" y="256312"/>
+		<node x="84926" y="258775"/>
+		<node x="84681" y="258405"/>
+	</territory>
+	<npcmaker name="innadrill05_10" territory="innadrill05_2225_10" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20794" pos="84929;258539;-8816;36504" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" pos="87765;256394;-8816;61084" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20795" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_11" minZ="-9366" maxZ="-8966">
+		<node x="83469" y="258300"/>
+		<node x="83484" y="258862"/>
+		<node x="81423" y="258849"/>
+		<node x="81413" y="258314"/>
+	</territory>
+	<npcmaker name="innadrill05_11w" territory="innadrill05_2225_11" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="20849" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_12" minZ="-8875" maxZ="-8625">
+		<node x="80386" y="258093"/>
+		<node x="80132" y="258683"/>
+		<node x="76887" y="256373"/>
+		<node x="77403" y="255970"/>
+	</territory>
+	<npcmaker name="innadrill05_12" territory="innadrill05_2225_12" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20794" pos="77685;256580;-8816;36504" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" pos="79407;257818;-8816;36504" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20795" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_13" minZ="-8875" maxZ="-8625">
+		<node x="77271" y="255884"/>
+		<node x="76696" y="256071"/>
+		<node x="75402" y="252284"/>
+		<node x="76050" y="252020"/>
+	</territory>
+	<npcmaker name="innadrill05_13" territory="innadrill05_2225_13" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20794" pos="75854;252561;-8816;13576" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" pos="76807;255374;-8816;36504" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20795" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_14" minZ="-8875" maxZ="-8625">
+		<node x="76056" y="251940"/>
+		<node x="75390" y="251813"/>
+		<node x="76580" y="248020"/>
+		<node x="77236" y="248289"/>
+	</territory>
+	<npcmaker name="innadrill05_14" territory="innadrill05_2225_14" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20793" pos="76833;248412;-8816;13576" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" pos="75910;251361;-8816;13576" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20793" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_15" minZ="-8875" maxZ="-8625">
+		<node x="77285" y="248174"/>
+		<node x="76874" y="247660"/>
+		<node x="80046" y="245267"/>
+		<node x="80399" y="245947"/>
+	</territory>
+	<npcmaker name="innadrill05_15" territory="innadrill05_2225_15" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20793" pos="78831;246914;-8816;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" pos="77368;247715;-8816;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20793" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20794" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_16" minZ="-9366" maxZ="-9066">
+		<node x="83344" y="245135"/>
+		<node x="83345" y="245675"/>
+		<node x="81710" y="245688"/>
+		<node x="81708" y="245130"/>
+	</territory>
+	<territory name="innadrill05_2225_17" minZ="-9378" maxZ="-9128">
+		<node x="80898" y="246443"/>
+		<node x="80849" y="246180"/>
+		<node x="84441" y="246134"/>
+		<node x="84433" y="246423"/>
+	</territory>
+	<npcmaker name="innadrill05_17" territory="innadrill05_2225_16;innadrill05_2225_17" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20796" pos="82730;246396;-9328;50756" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" pos="84245;246215;-9328;35988" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_18" minZ="-9378" maxZ="-9128">
+		<node x="84560" y="246455"/>
+		<node x="84585" y="246245"/>
+		<node x="87521" y="248341"/>
+		<node x="87244" y="248459"/>
+	</territory>
+	<npcmaker name="innadrill05_18" territory="innadrill05_2225_18" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20796" pos="84800;246504;-9328;35988" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" pos="86891;247954;-9328;35988" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_19" minZ="-9378" maxZ="-9178">
+		<node x="87531" y="248553"/>
+		<node x="87683" y="248460"/>
+		<node x="88805" y="252029"/>
+		<node x="88596" y="252038"/>
+	</territory>
+	<npcmaker name="innadrill05_19" territory="innadrill05_2225_19" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20796" pos="88139;250291;-9328;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" pos="88551;251596;-9328;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_20" minZ="-9378" maxZ="-9178">
+		<node x="88557" y="252138"/>
+		<node x="88783" y="252098"/>
+		<node x="87646" y="255460"/>
+		<node x="87465" y="255415"/>
+	</territory>
+	<npcmaker name="innadrill05_20" territory="innadrill05_2225_20" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20796" pos="88527;252525;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" pos="87697;255057;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_21" minZ="-9378" maxZ="-9178">
+		<node x="87407" y="255537"/>
+		<node x="87641" y="255654"/>
+		<node x="84634" y="257815"/>
+		<node x="84527" y="257622"/>
+	</territory>
+	<npcmaker name="innadrill05_21" territory="innadrill05_2225_21" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20796" pos="87174;255856;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" pos="84908;257498;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_22" minZ="-9378" maxZ="-9178">
+		<node x="84413" y="257556"/>
+		<node x="84543" y="257896"/>
+		<node x="80849" y="257839"/>
+		<node x="81239" y="257537"/>
+	</territory>
+	<npcmaker name="innadrill05_22" territory="innadrill05_2225_22" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20796" pos="83914;257741;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" pos="81425;257716;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_23" minZ="-9378" maxZ="-9178">
+		<node x="80840" y="257419"/>
+		<node x="80754" y="257847"/>
+		<node x="77648" y="255602"/>
+		<node x="77943" y="255366"/>
+	</territory>
+	<npcmaker name="innadrill05_23" territory="innadrill05_2225_23" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20796" pos="79427;256504;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" pos="77925;255745;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_24" minZ="-9378" maxZ="-9178">
+		<node x="77977" y="255184"/>
+		<node x="77673" y="255392"/>
+		<node x="76611" y="252199"/>
+		<node x="77031" y="252230"/>
+	</territory>
+	<npcmaker name="innadrill05_24" territory="innadrill05_2225_24" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20796" pos="77577;254829;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" pos="77025;252737;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_25" minZ="-9378" maxZ="-9178">
+		<node x="76858" y="252081"/>
+		<node x="76510" y="252037"/>
+		<node x="77737" y="248354"/>
+		<node x="77999" y="248526"/>
+	</territory>
+	<npcmaker name="innadrill05_25" territory="innadrill05_2225_25" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20796" pos="76740;251732;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" pos="77636;249320;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_26" minZ="-9378" maxZ="-9178">
+		<node x="78047" y="248457"/>
+		<node x="77889" y="248359"/>
+		<node x="80717" y="246223"/>
+		<node x="80833" y="246479"/>
+	</territory>
+	<npcmaker name="innadrill05_26" territory="innadrill05_2225_26" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20796" pos="78153;248249;-9328;59460" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20796" pos="80197;246759;-9328;35988" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20797" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_27" minZ="-9891" maxZ="-9691">
+		<node x="78804" y="249049"/>
+		<node x="78443" y="248745"/>
+		<node x="81061" y="246862"/>
+		<node x="81177" y="247332"/>
+	</territory>
+	<npcmaker name="innadrill05_27" territory="innadrill05_2225_27" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20798" pos="79980;248153;-9840;42936" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" pos="78789;248640;-9840;15232" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_28" minZ="-9891" maxZ="-9691">
+		<node x="81281" y="247301"/>
+		<node x="81162" y="246883"/>
+		<node x="84384" y="246890"/>
+		<node x="84259" y="247299"/>
+	</territory>
+	<npcmaker name="innadrill05_28" territory="innadrill05_2225_28" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20798" pos="82736;247214;-9840;28916" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" pos="81547;246962;-9840;28916" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_29" minZ="-9891" maxZ="-9691">
+		<node x="84345" y="247390"/>
+		<node x="84484" y="246909"/>
+		<node x="87112" y="248801"/>
+		<node x="86667" y="249086"/>
+	</territory>
+	<npcmaker name="innadrill05_29" territory="innadrill05_2225_29" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20798" pos="85515;248149;-9840;52772" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" pos="84550;247053;-9840;12452" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_30" minZ="-9891" maxZ="-9691">
+		<node x="86710" y="249188"/>
+		<node x="87091" y="248898"/>
+		<node x="88115" y="251936"/>
+		<node x="87652" y="251953"/>
+	</territory>
+	<npcmaker name="innadrill05_30" territory="innadrill05_2225_30" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20798" pos="87790;251528;-9840;46212" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" pos="87123;249676;-9840;52772" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_31" minZ="-9891" maxZ="-9691">
+		<node x="87662" y="252027"/>
+		<node x="88137" y="252040"/>
+		<node x="87144" y="255183"/>
+		<node x="86721" y="254716"/>
+	</territory>
+	<npcmaker name="innadrill05_31" territory="innadrill05_2225_31" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20798" pos="87227;253482;-9840;46212" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" pos="87955;252311;-9840;46212" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_32" minZ="-9891" maxZ="-9691">
+		<node x="86633" y="254906"/>
+		<node x="87016" y="255188"/>
+		<node x="84421" y="257126"/>
+		<node x="84299" y="256666"/>
+	</territory>
+	<npcmaker name="innadrill05_32" territory="innadrill05_2225_32" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20798" pos="84914;256645;-9840;12940" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20798" pos="86430;255345;-9840;12940" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_33" minZ="-9891" maxZ="-9691">
+		<node x="84204" y="256679"/>
+		<node x="84336" y="257167"/>
+		<node x="80946" y="257102"/>
+		<node x="81086" y="256646"/>
+	</territory>
+	<npcmaker name="innadrill05_33" territory="innadrill05_2225_33" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20798" pos="82524;256720;-9840;12940" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" pos="84085;256778;-9840;12940" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_34" minZ="-9891" maxZ="-9691">
+		<node x="81028" y="256474"/>
+		<node x="80871" y="256937"/>
+		<node x="78571" y="255278"/>
+		<node x="79016" y="255033"/>
+	</territory>
+	<npcmaker name="innadrill05_34" territory="innadrill05_2225_34" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20798" pos="79116;255225;-9840;16936" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" pos="80589;256629;-9840;16936" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_35" minZ="-9891" maxZ="-9691">
+		<node x="78792" y="255012"/>
+		<node x="78424" y="255217"/>
+		<node x="77334" y="252065"/>
+		<node x="77840" y="252132"/>
+	</territory>
+	<npcmaker name="innadrill05_35" territory="innadrill05_2225_35" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20798" pos="78231;253507;-9840;29416" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" pos="78378;254843;-9840;48060" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_36" minZ="-9891" maxZ="-9691">
+		<node x="77766" y="252056"/>
+		<node x="77413" y="252018"/>
+		<node x="78401" y="248809"/>
+		<node x="78793" y="249130"/>
+	</territory>
+	<npcmaker name="innadrill05_36" territory="innadrill05_2225_36" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20798" pos="77985;250562;-9840;15232" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" pos="77594;251689;-9840;44904" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20799" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_37" minZ="-10407" maxZ="-10207">
+		<node x="78742" y="251988"/>
+		<node x="78272" y="251997"/>
+		<node x="79150" y="249330"/>
+		<node x="79554" y="249602"/>
+	</territory>
+	<npcmaker name="innadrill05_37" territory="innadrill05_2225_37" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20800" pos="79178;250328;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" pos="78576;251501;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_38" minZ="-10407" maxZ="-10207">
+		<node x="79620" y="249589"/>
+		<node x="79296" y="249351"/>
+		<node x="81344" y="247828"/>
+		<node x="81514" y="248215"/>
+	</territory>
+	<npcmaker name="innadrill05_38" territory="innadrill05_2225_38" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20800" pos="81286;248039;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" pos="79669;249385;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_39" minZ="-10407" maxZ="-10207">
+		<node x="81629" y="248208"/>
+		<node x="81441" y="247736"/>
+		<node x="84097" y="247731"/>
+		<node x="83950" y="248206"/>
+	</territory>
+	<npcmaker name="innadrill05_39" territory="innadrill05_2225_39" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20800" pos="83823;247824;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" pos="82332;248089;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_40" minZ="-10407" maxZ="-10207">
+		<node x="84014" y="248250"/>
+		<node x="84145" y="247839"/>
+		<node x="86303" y="249390"/>
+		<node x="85983" y="249627"/>
+	</territory>
+	<npcmaker name="innadrill05_40" territory="innadrill05_2225_40" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20800" pos="85699;249307;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" pos="84329;248338;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_41" minZ="-10407" maxZ="-10207">
+		<node x="86009" y="249732"/>
+		<node x="86374" y="249445"/>
+		<node x="87255" y="251990"/>
+		<node x="86748" y="251997"/>
+	</territory>
+	<npcmaker name="innadrill05_41" territory="innadrill05_2225_41" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20800" pos="87037;251712;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20800" pos="86336;250472;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_42" minZ="-10407" maxZ="-10207">
+		<node x="86705" y="252082"/>
+		<node x="87121" y="252100"/>
+		<node x="86332" y="254604"/>
+		<node x="85992" y="254327"/>
+	</territory>
+	<npcmaker name="innadrill05_42" territory="innadrill05_2225_42" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20800" pos="86373;254151;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" pos="86681;252426;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_43" minZ="-10407" maxZ="-10207">
+		<node x="85914" y="254374"/>
+		<node x="86270" y="254680"/>
+		<node x="84127" y="256239"/>
+		<node x="83983" y="255795"/>
+	</territory>
+	<npcmaker name="innadrill05_43" territory="innadrill05_2225_43" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20800" pos="84605;255799;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" pos="85425;254873;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_44" minZ="-10407" maxZ="-10207">
+		<node x="83864" y="255776"/>
+		<node x="84031" y="256194"/>
+		<node x="81420" y="256204"/>
+		<node x="81521" y="255799"/>
+	</territory>
+	<npcmaker name="innadrill05_44" territory="innadrill05_2225_44" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20800" pos="82054;256115;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" pos="83174;255876;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_45" minZ="-10407" maxZ="-10207">
+		<node x="81459" y="255733"/>
+		<node x="81314" y="256191"/>
+		<node x="79227" y="254686"/>
+		<node x="79568" y="254386"/>
+	</territory>
+	<npcmaker name="innadrill05_45" territory="innadrill05_2225_45" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20800" pos="79675;254618;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" pos="80633;255284;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="1" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_46" minZ="-10407" maxZ="-10207">
+		<node x="79509" y="254326"/>
+		<node x="79197" y="254565"/>
+		<node x="78372" y="252120"/>
+		<node x="78771" y="252102"/>
+	</territory>
+	<npcmaker name="innadrill05_46" territory="innadrill05_2225_46" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20800" pos="78801;252643;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" pos="79202;254304;-10352;0" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20801" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="2" respawn="94sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_47" minZ="-10945" maxZ="-10745">
+		<node x="80543" y="254602"/>
+		<node x="79870" y="254096"/>
+		<node x="79493" y="253059"/>
+		<node x="80739" y="252483"/>
+		<node x="81302" y="253474"/>
+	</territory>
+	<npcmaker name="innadrill05_47" territory="innadrill05_2225_47" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="20801" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20803" total="3" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20994" total="1" respawn="110sec" respawnRand="30sec">
+			<privates>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_48" minZ="-10945" maxZ="-10745">
+		<node x="81416" y="252103"/>
+		<node x="79462" y="252992"/>
+		<node x="79167" y="251992"/>
+		<node x="79460" y="251186"/>
+	</territory>
+	<npcmaker name="innadrill05_48" territory="innadrill05_2225_48" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="20801" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20803" total="3" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20994" total="1" respawn="110sec" respawnRand="30sec">
+			<privates>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_49" minZ="-10945" maxZ="-10745">
+		<node x="80868" y="251185"/>
+		<node x="79571" y="250665"/>
+		<node x="79895" y="249868"/>
+		<node x="80653" y="249287"/>
+		<node x="81838" y="250320"/>
+	</territory>
+	<npcmaker name="innadrill05_49" territory="innadrill05_2225_49" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20802" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20803" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20994" total="2" respawn="110sec" respawnRand="30sec">
+			<privates>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_50" minZ="-10945" maxZ="-10745">
+		<node x="82011" y="250375"/>
+		<node x="80728" y="249237"/>
+		<node x="81672" y="248607"/>
+		<node x="82559" y="248588"/>
+		<node x="82584" y="250302"/>
+	</territory>
+	<npcmaker name="innadrill05_50" territory="innadrill05_2225_50" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="20801" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20802" total="3" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20803" total="3" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20994" total="1" respawn="110sec" respawnRand="30sec">
+			<privates>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_51" minZ="-10945" maxZ="-10745">
+		<node x="83760" y="250849"/>
+		<node x="83061" y="251201"/>
+		<node x="83085" y="248570"/>
+		<node x="83870" y="248596"/>
+		<node x="84780" y="249239"/>
+	</territory>
+	<npcmaker name="innadrill05_51" territory="innadrill05_2225_51" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20803" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20994" total="2" respawn="110sec" respawnRand="30sec">
+			<privates>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_52" minZ="-10945" maxZ="-10745">
+		<node x="85941" y="250730"/>
+		<node x="84236" y="251458"/>
+		<node x="83857" y="250836"/>
+		<node x="84851" y="249269"/>
+		<node x="85647" y="249915"/>
+	</territory>
+	<npcmaker name="innadrill05_52" territory="innadrill05_2225_52" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20802" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20803" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20994" total="2" respawn="110sec" respawnRand="30sec">
+			<privates>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_53" minZ="-10945" maxZ="-10745">
+		<node x="86311" y="252001"/>
+		<node x="85923" y="253402"/>
+		<node x="83728" y="252226"/>
+		<node x="84326" y="251747"/>
+		<node x="86122" y="251235"/>
+	</territory>
+	<npcmaker name="innadrill05_53" territory="innadrill05_2225_53" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20803" total="2" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20994" total="2" respawn="110sec" respawnRand="30sec">
+			<privates>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_54" minZ="-10945" maxZ="-10745">
+		<node x="85645" y="254136"/>
+		<node x="84953" y="254648"/>
+		<node x="83857" y="253380"/>
+		<node x="84293" y="252601"/>
+		<node x="85894" y="253456"/>
+	</territory>
+	<npcmaker name="innadrill05_54" territory="innadrill05_2225_54" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="20802" total="3" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20803" total="4" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20994" total="1" respawn="110sec" respawnRand="30sec">
+			<privates>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_55" minZ="-10945" maxZ="-10745">
+		<node x="83846" y="255388"/>
+		<node x="83115" y="255407"/>
+		<node x="83009" y="253893"/>
+		<node x="83248" y="253161"/>
+		<node x="84559" y="254963"/>
+	</territory>
+	<npcmaker name="innadrill05_55" territory="innadrill05_2225_55" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="20802" total="4" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20803" total="3" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20994" total="1" respawn="110sec" respawnRand="30sec">
+			<privates>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_2225_56" minZ="-10945" maxZ="-10745">
+		<node x="81657" y="255394"/>
+		<node x="80906" y="254924"/>
+		<node x="81536" y="253867"/>
+		<node x="82958" y="253878"/>
+		<node x="83058" y="255403"/>
+	</territory>
+	<npcmaker name="innadrill05_56" territory="innadrill05_2225_56" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20802" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20803" total="1" respawn="94sec" respawnRand="30sec"/>
+		<npc id="20994" total="2" respawn="110sec" respawnRand="30sec">
+			<privates>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+				<private id="20995" weight="1" respawn="1200sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_11" minZ="-9366" maxZ="-8966">
+		<node x="83469" y="258300"/>
+		<node x="83484" y="258862"/>
+		<node x="81423" y="258849"/>
+		<node x="81413" y="258314"/>
+	</territory>
+	<npcmaker name="innadrill05_tb11_m1" territory="innadrill05_tb2225_11" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_16" minZ="-9366" maxZ="-9066">
+		<node x="83344" y="245135"/>
+		<node x="83345" y="245675"/>
+		<node x="81710" y="245688"/>
+		<node x="81708" y="245130"/>
+	</territory>
+	<npcmaker name="innadrill05_tb16_m1" territory="innadrill05_tb2225_16" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_17" minZ="-9378" maxZ="-9128">
+		<node x="80898" y="246443"/>
+		<node x="80849" y="246180"/>
+		<node x="84441" y="246134"/>
+		<node x="84433" y="246423"/>
+	</territory>
+	<npcmaker name="innadrill05_tb17_m1" territory="innadrill05_tb2225_17" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_19" minZ="-9378" maxZ="-9178">
+		<node x="87531" y="248553"/>
+		<node x="87683" y="248460"/>
+		<node x="88805" y="252029"/>
+		<node x="88596" y="252038"/>
+	</territory>
+	<npcmaker name="innadrill05_tb19_m1" territory="innadrill05_tb2225_19" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_21" minZ="-9378" maxZ="-9178">
+		<node x="87407" y="255537"/>
+		<node x="87641" y="255654"/>
+		<node x="84634" y="257815"/>
+		<node x="84527" y="257622"/>
+	</territory>
+	<npcmaker name="innadrill05_tb21_m1" territory="innadrill05_tb2225_21" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_23" minZ="-9378" maxZ="-9178">
+		<node x="80840" y="257419"/>
+		<node x="80754" y="257847"/>
+		<node x="77648" y="255602"/>
+		<node x="77943" y="255366"/>
+	</territory>
+	<npcmaker name="innadrill05_tb23_m1" territory="innadrill05_tb2225_23" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_25" minZ="-9378" maxZ="-9178">
+		<node x="76858" y="252081"/>
+		<node x="76510" y="252037"/>
+		<node x="77737" y="248354"/>
+		<node x="77999" y="248526"/>
+	</territory>
+	<npcmaker name="innadrill05_tb25_m1" territory="innadrill05_tb2225_25" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_27" minZ="-9891" maxZ="-9691">
+		<node x="78804" y="249049"/>
+		<node x="78443" y="248745"/>
+		<node x="81061" y="246862"/>
+		<node x="81177" y="247332"/>
+	</territory>
+	<npcmaker name="innadrill05_tb27_m1" territory="innadrill05_tb2225_27" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_29" minZ="-9891" maxZ="-9691">
+		<node x="84345" y="247390"/>
+		<node x="84484" y="246909"/>
+		<node x="87112" y="248801"/>
+		<node x="86667" y="249086"/>
+	</territory>
+	<npcmaker name="innadrill05_tb29_m1" territory="innadrill05_tb2225_29" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_31" minZ="-9891" maxZ="-9691">
+		<node x="87662" y="252027"/>
+		<node x="88137" y="252040"/>
+		<node x="87144" y="255183"/>
+		<node x="86721" y="254716"/>
+	</territory>
+	<npcmaker name="innadrill05_tb31_m1" territory="innadrill05_tb2225_31" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_33" minZ="-9891" maxZ="-9691">
+		<node x="84204" y="256679"/>
+		<node x="84336" y="257167"/>
+		<node x="80946" y="257102"/>
+		<node x="81086" y="256646"/>
+	</territory>
+	<npcmaker name="innadrill05_tb33_m1" territory="innadrill05_tb2225_33" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_35" minZ="-9891" maxZ="-9691">
+		<node x="78792" y="255012"/>
+		<node x="78424" y="255217"/>
+		<node x="77334" y="252065"/>
+		<node x="77840" y="252132"/>
+	</territory>
+	<npcmaker name="innadrill05_tb35_m1" territory="innadrill05_tb2225_35" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_37" minZ="-10407" maxZ="-10207">
+		<node x="78742" y="251988"/>
+		<node x="78272" y="251997"/>
+		<node x="79150" y="249330"/>
+		<node x="79554" y="249602"/>
+	</territory>
+	<npcmaker name="innadrill05_tb37_m1" territory="innadrill05_tb2225_37" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_38" minZ="-10407" maxZ="-10207">
+		<node x="79620" y="249589"/>
+		<node x="79296" y="249351"/>
+		<node x="81344" y="247828"/>
+		<node x="81514" y="248215"/>
+	</territory>
+	<npcmaker name="innadrill05_tb38_m1" territory="innadrill05_tb2225_38" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_39" minZ="-10407" maxZ="-10207">
+		<node x="81629" y="248208"/>
+		<node x="81441" y="247736"/>
+		<node x="84097" y="247731"/>
+		<node x="83950" y="248206"/>
+	</territory>
+	<npcmaker name="innadrill05_tb39_m1" territory="innadrill05_tb2225_39" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_40" minZ="-10407" maxZ="-10207">
+		<node x="84014" y="248250"/>
+		<node x="84145" y="247839"/>
+		<node x="86303" y="249390"/>
+		<node x="85983" y="249627"/>
+	</territory>
+	<npcmaker name="innadrill05_tb40_m1" territory="innadrill05_tb2225_40" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_41" minZ="-10407" maxZ="-10207">
+		<node x="86009" y="249732"/>
+		<node x="86374" y="249445"/>
+		<node x="87255" y="251990"/>
+		<node x="86748" y="251997"/>
+	</territory>
+	<npcmaker name="innadrill05_tb41_m1" territory="innadrill05_tb2225_41" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_42" minZ="-10407" maxZ="-10207">
+		<node x="86705" y="252082"/>
+		<node x="87121" y="252100"/>
+		<node x="86332" y="254604"/>
+		<node x="85992" y="254327"/>
+	</territory>
+	<npcmaker name="innadrill05_tb42_m1" territory="innadrill05_tb2225_42" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_43" minZ="-10407" maxZ="-10207">
+		<node x="85914" y="254374"/>
+		<node x="86270" y="254680"/>
+		<node x="84127" y="256239"/>
+		<node x="83983" y="255795"/>
+	</territory>
+	<npcmaker name="innadrill05_tb43_m1" territory="innadrill05_tb2225_43" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_44" minZ="-10407" maxZ="-10207">
+		<node x="83864" y="255776"/>
+		<node x="84031" y="256194"/>
+		<node x="81420" y="256204"/>
+		<node x="81521" y="255799"/>
+	</territory>
+	<npcmaker name="innadrill05_tb44_m1" territory="innadrill05_tb2225_44" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_45" minZ="-10407" maxZ="-10207">
+		<node x="81459" y="255733"/>
+		<node x="81314" y="256191"/>
+		<node x="79227" y="254686"/>
+		<node x="79568" y="254386"/>
+	</territory>
+	<npcmaker name="innadrill05_tb45_m1" territory="innadrill05_tb2225_45" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_46" minZ="-10407" maxZ="-10207">
+		<node x="79509" y="254326"/>
+		<node x="79197" y="254565"/>
+		<node x="78372" y="252120"/>
+		<node x="78771" y="252102"/>
+	</territory>
+	<npcmaker name="innadrill05_tb46_m1" territory="innadrill05_tb2225_46" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21808" total="1" respawn="150sec"/>
+		<npc id="18272" total="1" respawn="150sec"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_47" minZ="-10945" maxZ="-10745">
+		<node x="80543" y="254602"/>
+		<node x="79870" y="254096"/>
+		<node x="79493" y="253059"/>
+		<node x="80739" y="252483"/>
+		<node x="81302" y="253474"/>
+	</territory>
+	<npcmaker name="innadrill05_tb47_m1" territory="innadrill05_tb2225_47" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+		<npc id="21810" total="1" respawn="150sec"/>
+		<npc id="18274" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_48" minZ="-10945" maxZ="-10745">
+		<node x="81416" y="252103"/>
+		<node x="79462" y="252992"/>
+		<node x="79167" y="251992"/>
+		<node x="79460" y="251186"/>
+	</territory>
+	<npcmaker name="innadrill05_tb48_m1" territory="innadrill05_tb2225_48" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+		<npc id="21810" total="1" respawn="150sec"/>
+		<npc id="18274" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_49" minZ="-10945" maxZ="-10745">
+		<node x="80868" y="251185"/>
+		<node x="79571" y="250665"/>
+		<node x="79895" y="249868"/>
+		<node x="80653" y="249287"/>
+		<node x="81838" y="250320"/>
+	</territory>
+	<npcmaker name="innadrill05_tb49_m1" territory="innadrill05_tb2225_49" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+		<npc id="21810" total="1" respawn="150sec"/>
+		<npc id="18274" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_50" minZ="-10945" maxZ="-10745">
+		<node x="82011" y="250375"/>
+		<node x="80728" y="249237"/>
+		<node x="81672" y="248607"/>
+		<node x="82559" y="248588"/>
+		<node x="82584" y="250302"/>
+	</territory>
+	<npcmaker name="innadrill05_tb50_m1" territory="innadrill05_tb2225_50" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+		<npc id="21810" total="1" respawn="150sec"/>
+		<npc id="18274" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_51" minZ="-10945" maxZ="-10745">
+		<node x="83760" y="250849"/>
+		<node x="83061" y="251201"/>
+		<node x="83085" y="248570"/>
+		<node x="83870" y="248596"/>
+		<node x="84780" y="249239"/>
+	</territory>
+	<npcmaker name="innadrill05_tb51_m1" territory="innadrill05_tb2225_51" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+		<npc id="21810" total="1" respawn="150sec"/>
+		<npc id="18274" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_52" minZ="-10945" maxZ="-10745">
+		<node x="85941" y="250730"/>
+		<node x="84236" y="251458"/>
+		<node x="83857" y="250836"/>
+		<node x="84851" y="249269"/>
+		<node x="85647" y="249915"/>
+	</territory>
+	<npcmaker name="innadrill05_tb52_m1" territory="innadrill05_tb2225_52" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+		<npc id="21810" total="1" respawn="150sec"/>
+		<npc id="18274" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_53" minZ="-10945" maxZ="-10745">
+		<node x="86311" y="252001"/>
+		<node x="85923" y="253402"/>
+		<node x="83728" y="252226"/>
+		<node x="84326" y="251747"/>
+		<node x="86122" y="251235"/>
+	</territory>
+	<npcmaker name="innadrill05_tb53_m1" territory="innadrill05_tb2225_53" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+		<npc id="21810" total="1" respawn="150sec"/>
+		<npc id="18274" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_54" minZ="-10945" maxZ="-10745">
+		<node x="85645" y="254136"/>
+		<node x="84953" y="254648"/>
+		<node x="83857" y="253380"/>
+		<node x="84293" y="252601"/>
+		<node x="85894" y="253456"/>
+	</territory>
+	<npcmaker name="innadrill05_tb54_m1" territory="innadrill05_tb2225_54" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+		<npc id="21810" total="1" respawn="150sec"/>
+		<npc id="18274" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_55" minZ="-10945" maxZ="-10745">
+		<node x="83846" y="255388"/>
+		<node x="83115" y="255407"/>
+		<node x="83009" y="253893"/>
+		<node x="83248" y="253161"/>
+		<node x="84559" y="254963"/>
+	</territory>
+	<npcmaker name="innadrill05_tb55_m1" territory="innadrill05_tb2225_55" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+		<npc id="21810" total="1" respawn="150sec"/>
+		<npc id="18274" total="1" respawn="150sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrill05_tb2225_56" minZ="-10945" maxZ="-10745">
+		<node x="81657" y="255394"/>
+		<node x="80906" y="254924"/>
+		<node x="81536" y="253867"/>
+		<node x="82958" y="253878"/>
+		<node x="83058" y="255403"/>
+	</territory>
+	<npcmaker name="innadrill05_tb56_m1" territory="innadrill05_tb2225_56" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="21809" total="1" respawn="150sec"/>
+		<npc id="18273" total="1" respawn="150sec"/>
+		<npc id="21810" total="1" respawn="150sec"/>
+		<npc id="18274" total="1" respawn="150sec"/>
+	</npcmaker>
+</list>

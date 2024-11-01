@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="4400" type="EtcItem" name="White Fabric">
+		<set name="material" val="CLOTH" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4401" type="EtcItem" name="Green Dimensional Stone">
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="10" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4402" type="EtcItem" name="Blue Dimensional Stone">
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="10" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4403" type="EtcItem" name="Red Dimensional Stone">
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="10" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4404" type="EtcItem" name="Green Dimensional Stone - Shard">
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4405" type="EtcItem" name="Blue Dimensional Stone - Shard">
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4406" type="EtcItem" name="Red Dimensional Stone - Shard">
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4407" type="EtcItem" name="Bill of Iason Heine">
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4408" type="EtcItem" name="Musical Score - Theme of Love">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4409" type="EtcItem" name="Musical Score - Theme of Battle">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4410" type="EtcItem" name="Musical Score - Theme of Journey">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4411" type="EtcItem" name="Echo Crystal - Theme of Journey">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="20000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2069-1" />
+	</item>
+	<item id="4412" type="EtcItem" name="Echo Crystal - Theme of Battle">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="24000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2068-1" />
+	</item>
+	<item id="4413" type="EtcItem" name="Echo Crystal - Theme of Love">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="24000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2070-1" />
+	</item>
+	<item id="4414" type="EtcItem" name="Echo Crystal - Theme of Solitude">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="20000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2072-1" />
+	</item>
+	<item id="4415" type="EtcItem" name="Echo Crystal - Theme of the Feast">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2071-1" />
+	</item>
+	<item id="4416" type="EtcItem" name="Echo Crystal - Theme of Celebration">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2073-1" />
+	</item>
+	<item id="4417" type="EtcItem" name="Echo Crystal - Theme of Comedy">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2067-1" />
+	</item>
+	<item id="4418" type="EtcItem" name="Musical Score - Theme of Celebration">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4419" type="EtcItem" name="Musical Score - Theme of Comedy">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4420" type="EtcItem" name="Musical Score - Theme of Solitude">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4421" type="EtcItem" name="Musical Score - Theme of the Feast">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4422" type="EtcItem" name="Dragon Bugle of Wind">
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="PET_COLLAR" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
+	</item>
+	<item id="4423" type="EtcItem" name="Dragon Bugle of Star">
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="PET_COLLAR" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
+	</item>
+	<item id="4424" type="EtcItem" name="Dragon Bugle of Dusk">
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="PET_COLLAR" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
+	</item>
+	<item id="4425" type="EtcItem" name="Penitent's Manacles">
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="PET_COLLAR" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="800" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
+	</item>
+	<item id="4426" type="EtcItem" name="Manacles of Penitent">
+		<set name="material" val="STEEL" />
+		<set name="weight" val="50" />
+		<set name="price" val="22000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="4427" type="EtcItem" name="Alligator Leather Belt">
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="4428" type="EtcItem" name="Blue Alligator Leather Belt">
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="4429" type="EtcItem" name="Bejeweled Leather Belt">
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="4430" type="EtcItem" name="Alligator Leather Purse">
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="4431" type="EtcItem" name="Blue Alligator Leather Purse">
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="4432" type="EtcItem" name="Bejeweled Purse">
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="4433" type="EtcItem" name="Elemental Stone Powder">
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4434" type="EtcItem" name="Elemental Stone Shards">
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4435" type="EtcItem" name="Elemental Stone Lump">
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4436" type="EtcItem" name="Bentley's Request">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4437" type="EtcItem" name="Carson's Request">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4438" type="EtcItem" name="Knuckle Duster Edge">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="price" val="28044" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4439" type="EtcItem" name="Avadon Shield Fragment">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="60" />
+		<set name="price" val="2900" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4440" type="EtcItem" name="Recipe: Knuckle Duster">
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="57400" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4441" type="EtcItem" name="Recipe: Avadon Shield">
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="10900" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="4442" type="EtcItem" name="Lottery Ticket">
+		<set name="etcitem_type" val="LOTTO" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="4443" type="EtcItem" name="Monster Race Ticket - Single">
+		<set name="etcitem_type" val="RACE_TICKET" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="4444" type="EtcItem" name="Monster Race Ticket - Double">
+		<set name="etcitem_type" val="RACE_TICKET" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="4445" type="EtcItem" name="Dye of STR (Str+1 Con-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4446" type="EtcItem" name="Dye of STR (Str+1 Dex-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4447" type="EtcItem" name="Dye of CON (Con+1 Str-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4448" type="EtcItem" name="Dye of CON (Con+1 Dex-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4449" type="EtcItem" name="Dye of DEX (Dex+1 Str-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4450" type="EtcItem" name="Dye of DEX (Dex+1 Con-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4451" type="EtcItem" name="Dye of INT (Int+1 Men-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4452" type="EtcItem" name="Dye of INT (Int+1 Wit-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4453" type="EtcItem" name="Dye of MEN (Men+1 Int-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4454" type="EtcItem" name="Dye of MEN (Men+1 Wit-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4455" type="EtcItem" name="Dye of WIT (Wit+1 Int-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4456" type="EtcItem" name="Dye of WIT (Wit+1 Men-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4457" type="EtcItem" name="Dye of STR (Str+1 Con-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4458" type="EtcItem" name="Dye of STR (Str+1 Dex-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4459" type="EtcItem" name="Dye of CON (Con+1 Str-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4460" type="EtcItem" name="Dye of CON (Con+1 Dex-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4461" type="EtcItem" name="Dye of DEX (Dex+1 Str-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4462" type="EtcItem" name="Dye of DEX (Dex+1 Con-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4463" type="EtcItem" name="Dye of INT (Int+1 Men-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4464" type="EtcItem" name="Dye of INT (Int+1 Wit-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4465" type="EtcItem" name="Dye of MEN (Men+1 Int-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4466" type="EtcItem" name="Dye of MEN (Men+1 Wit-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4467" type="EtcItem" name="Dye of WIT (Wit+1 Int-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4468" type="EtcItem" name="Dye of WIT (Wit+1 Men-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4469" type="EtcItem" name="Dye of STR (Str+1 Con-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4470" type="EtcItem" name="Dye of STR (Str+1 Dex-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4471" type="EtcItem" name="Dye of CON (Con+1 Str-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4472" type="EtcItem" name="Dye of CON (Con+1 Dex-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4473" type="EtcItem" name="Dye of DEX (Dex+1 Str-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4474" type="EtcItem" name="Dye of DEX (Dex+1 Con-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4475" type="EtcItem" name="Dye of INT (Int+1 Men-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4476" type="EtcItem" name="Dye of INT (Int+1 Wit-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4477" type="EtcItem" name="Dye of MEN (Men+1 Int-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4478" type="EtcItem" name="Dye of MEN (Men+1 Wit-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4479" type="EtcItem" name="Dye of WIT (Wit+1 Int-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4480" type="EtcItem" name="Dye of WIT (Wit+1 Men-1)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="42000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4481" type="EtcItem" name="Greater Dye of STR (Str+1 Con-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4482" type="EtcItem" name="Greater Dye of STR (Str+1 Dex-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4483" type="EtcItem" name="Greater Dye of CON(Con+1 Str-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4484" type="EtcItem" name="Greater Dye of CON(Con+1 Dex-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4485" type="EtcItem" name="Greater Dye of DEX (Dex+1 Str-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4486" type="EtcItem" name="Greater Dye of DEX (Dex+1 Con-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4487" type="EtcItem" name="Greater Dye of INT (Int+1 Men-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4488" type="EtcItem" name="Greater Dye of INT (Int+1 Wit-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4489" type="EtcItem" name="Greater Dye of MEN (Men+1 Int-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4490" type="EtcItem" name="Greater Dye of MEN (Men+1 Wit-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4491" type="EtcItem" name="Greater Dye of WIT (Wit+1 Int-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4492" type="EtcItem" name="Greater Dye of WIT (Wit+1 Men-3)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4493" type="EtcItem" name="Greater Dye of STR (Str+1 Con-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="21000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4494" type="EtcItem" name="Greater Dye of STR (Str+1 Dex-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="21000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4495" type="EtcItem" name="Greater Dye of CON (Con+1 Str-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4496" type="EtcItem" name="Greater Dye of CON (Con+1 Dex-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4497" type="EtcItem" name="Greater Dye of DEX (Dex+1 Str-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="21000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4498" type="EtcItem" name="Greater Dye of DEX (Dex+1 Con-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="21000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4499" type="EtcItem" name="Greater Dye of INT (Int+1 Men-2)">
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

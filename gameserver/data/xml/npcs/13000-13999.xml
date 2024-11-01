@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<npc id="13001" name="Heart of Warding" title="" alias="heart_of_warding">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="17.0"/>
+		<set name="height" val="75.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="10.0"/>
+		<set name="hp" val="2444.0"/>
+		<set name="mp" val="1493.0"/>
+		<set name="hpRegen" val="11.85"/>
+		<set name="mpRegen" val="2.78"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="683.28"/>
+		<set name="pDef" val="296.1"/>
+		<set name="mAtk" val="468.0"/>
+		<set name="mDef" val="206.28"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="250.98"/>
+		<set name="walkSpd" val="49.5"/>
+		<set name="runSpd" val="118.8"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13002" name="Life Control Tower" title="" alias="life_control_tower_live">
+		<set name="type" val="LifeTower"/>
+		<set name="level" val="20"/>
+		<set name="radius" val="13.0"/>
+		<set name="height" val="54.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="10.0"/>
+		<set name="hp" val="342.0"/>
+		<set name="mp" val="213.0"/>
+		<set name="hpRegen" val="3.95"/>
+		<set name="mpRegen" val="1.21"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="43.89"/>
+		<set name="pDef" val="89.3"/>
+		<set name="mAtk" val="31.74"/>
+		<set name="mDef" val="66.12"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="250.98"/>
+		<set name="walkSpd" val="49.5"/>
+		<set name="runSpd" val="0.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="false"/>
+		<set name="canBeAttacked" val="true"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13003" name="Life Control Tower" title="" alias="life_control_tower_dead">
+		<set name="type" val="LifeTower"/>
+		<set name="level" val="20"/>
+		<set name="radius" val="7.0"/>
+		<set name="height" val="35.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="10.0"/>
+		<set name="hp" val="342.0"/>
+		<set name="mp" val="213.0"/>
+		<set name="hpRegen" val="3.95"/>
+		<set name="mpRegen" val="1.21"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="43.89"/>
+		<set name="pDef" val="89.3"/>
+		<set name="mAtk" val="31.74"/>
+		<set name="mDef" val="66.12"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="250.98"/>
+		<set name="walkSpd" val="49.5"/>
+		<set name="runSpd" val="0.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13004" name="Flame Control Tower" title="" alias="flame_control_tower_live">
+		<set name="type" val="FlameTower"/>
+		<set name="level" val="20"/>
+		<set name="radius" val="13.0"/>
+		<set name="height" val="54.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="10.0"/>
+		<set name="hp" val="342.0"/>
+		<set name="mp" val="213.0"/>
+		<set name="hpRegen" val="3.95"/>
+		<set name="mpRegen" val="1.21"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="43.89"/>
+		<set name="pDef" val="89.3"/>
+		<set name="mAtk" val="31.74"/>
+		<set name="mDef" val="66.12"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="250.98"/>
+		<set name="walkSpd" val="49.5"/>
+		<set name="runSpd" val="0.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="false"/>
+		<set name="canBeAttacked" val="true"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13005" name="Flame Control Tower" title="" alias="flame_control_tower_dead">
+		<set name="type" val="FlameTower"/>
+		<set name="level" val="20"/>
+		<set name="radius" val="7.0"/>
+		<set name="height" val="35.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="10.0"/>
+		<set name="hp" val="342.0"/>
+		<set name="mp" val="213.0"/>
+		<set name="hpRegen" val="3.95"/>
+		<set name="mpRegen" val="1.21"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="43.89"/>
+		<set name="pDef" val="89.3"/>
+		<set name="mAtk" val="31.74"/>
+		<set name="mDef" val="66.12"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="250.98"/>
+		<set name="walkSpd" val="49.5"/>
+		<set name="runSpd" val="0.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13006" name="Christmas Tree" title="" alias="x_mas_tree_a">
+		<set name="type" val="ChristmasTree"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="0.0"/>
+		<set name="height" val="0.0"/>
+		<set name="hitTimeFactor" val="0.52"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="10.0"/>
+		<set name="hp" val="2444.0"/>
+		<set name="mp" val="1493.0"/>
+		<set name="hpRegen" val="11.85"/>
+		<set name="mpRegen" val="2.78"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="694.2"/>
+		<set name="pDef" val="296.1"/>
+		<set name="mAtk" val="468.0"/>
+		<set name="mDef" val="206.28"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="247.42"/>
+		<set name="walkSpd" val="29.7"/>
+		<set name="runSpd" val="118.8"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13007" name="Special Christmas Tree" title="" alias="x_mas_tree_b">
+		<set name="type" val="ChristmasTree"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="0.0"/>
+		<set name="height" val="0.0"/>
+		<set name="hitTimeFactor" val="0.52"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="10.0"/>
+		<set name="hp" val="2444.0"/>
+		<set name="mp" val="1493.0"/>
+		<set name="hpRegen" val="11.85"/>
+		<set name="mpRegen" val="2.78"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="694.2"/>
+		<set name="pDef" val="296.1"/>
+		<set name="mAtk" val="468.0"/>
+		<set name="mDef" val="206.28"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="247.42"/>
+		<set name="walkSpd" val="29.7"/>
+		<set name="runSpd" val="118.8"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13014" name="" title="" alias="effect_for_valakas">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="0.1"/>
+		<set name="height" val="0.1"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.0"/>
+		<set name="mp" val="1493.0"/>
+		<set name="hpRegen" val="11.85"/>
+		<set name="mpRegen" val="2.78"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="683.28"/>
+		<set name="pDef" val="296.1"/>
+		<set name="mAtk" val="468.0"/>
+		<set name="mDef" val="206.28"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="247.42"/>
+		<set name="walkSpd" val="79.2"/>
+		<set name="runSpd" val="118.8"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="clan" val="fire_clan"/>
+		<set name="clanRange" val="300"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<ai>
+			<set name="MoveAroundSocial" val="0"/>
+			<set name="MoveAroundSocial1" val="0"/>
+		</ai>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13015" name="" title="" alias="triol_camera">
+		<set name="type" val="Folk"/>
+		<set name="level" val="85"/>
+		<set name="radius" val="16.0"/>
+		<set name="height" val="18.5"/>
+		<set name="hitTimeFactor" val="0.5"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="3046.70947"/>
+		<set name="mp" val="1846.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3.0"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="10"/>
+		<set name="pAtk" val="983.0479"/>
+		<set name="pDef" val="361.78814"/>
+		<set name="mAtk" val="671.29428"/>
+		<set name="mDef" val="264.74086"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="10.0"/>
+		<set name="runSpd" val="1.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="1000"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4408" level="1" type="PASSIVE"/>
+			<skill id="4409" level="1" type="PASSIVE"/>
+			<skill id="4410" level="11" type="PASSIVE"/>
+			<skill id="4411" level="11" type="PASSIVE"/>
+			<skill id="4412" level="11" type="PASSIVE"/>
+			<skill id="4413" level="11" type="PASSIVE"/>
+			<skill id="4414" level="2" type="PASSIVE"/>
+			<skill id="4415" level="1" type="PASSIVE"/>
+			<skill id="4416" level="2" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13016" name="King Squash" title="" alias="kg_small_adult_gourd">
+		<set name="type" val="Monster"/>
+		<set name="level" val="1"/>
+		<set name="radius" val="23.0"/>
+		<set name="height" val="25.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="39.74519"/>
+		<set name="mp" val="40.0"/>
+		<set name="hpRegen" val="2.0"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="50"/>
+		<set name="pAtk" val="8.47458"/>
+		<set name="pDef" val="44.44444"/>
+		<set name="mAtk" val="5.78704"/>
+		<set name="mDef" val="32.52252"/>
+		<set name="crit" val="1.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="100.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="false"/>
+		<set name="canBeAttacked" val="true"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="1000"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+	</npc>
+	<npc id="13017" name="Emperor Squash" title="" alias="kg_big_adult_gourd">
+		<set name="type" val="Monster"/>
+		<set name="level" val="1"/>
+		<set name="radius" val="34.0"/>
+		<set name="height" val="40.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="39.74519"/>
+		<set name="mp" val="40.0"/>
+		<set name="hpRegen" val="2.0"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="50"/>
+		<set name="pAtk" val="8.47458"/>
+		<set name="pDef" val="44.44444"/>
+		<set name="mAtk" val="5.78704"/>
+		<set name="mDef" val="32.52252"/>
+		<set name="crit" val="1.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="100.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="false"/>
+		<set name="canBeAttacked" val="true"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="1000"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+	</npc>
+	<npc id="13018" name="" title="" alias="skill_defence_up">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13019" name="" title="" alias="skill_anti_song_dance">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13020" name="" title="" alias="skill_abnormal_resist">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13021" name="" title="" alias="skill_cp_regen">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13022" name="" title="" alias="skill_energy_up">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13023" name="" title="" alias="skill_bow_hit_up">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13024" name="" title="" alias="skill_avoid_up">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13025" name="" title="" alias="skill_fire_dd">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13026" name="" title="" alias="skill_water_dd">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13027" name="" title="" alias="skill_wind_dd">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13028" name="" title="" alias="skill_multi_debuff">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4390" level="1" type="PASSIVE"/>
+			<skill id="4408" level="1" type="PASSIVE"/>
+			<skill id="4409" level="1" type="PASSIVE"/>
+			<skill id="4410" level="11" type="PASSIVE"/>
+			<skill id="4411" level="11" type="PASSIVE"/>
+			<skill id="4412" level="11" type="PASSIVE"/>
+			<skill id="4413" level="11" type="PASSIVE"/>
+			<skill id="4414" level="2" type="PASSIVE"/>
+			<skill id="4415" level="3" type="PASSIVE"/>
+			<skill id="4416" level="19" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13029" name="" title="" alias="skill_unholy_dd">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4297" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13030" name="" title="" alias="skill_anti_summon">
+		<set name="type" val="Folk"/>
+		<set name="level" val="70"/>
+		<set name="radius" val="5.0"/>
+		<set name="height" val="10.0"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="50.0"/>
+		<set name="runSpd" val="20.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+			<skill id="4390" level="1" type="PASSIVE"/>
+			<skill id="4408" level="1" type="PASSIVE"/>
+			<skill id="4409" level="1" type="PASSIVE"/>
+			<skill id="4410" level="11" type="PASSIVE"/>
+			<skill id="4411" level="11" type="PASSIVE"/>
+			<skill id="4412" level="11" type="PASSIVE"/>
+			<skill id="4413" level="11" type="PASSIVE"/>
+			<skill id="4414" level="2" type="PASSIVE"/>
+			<skill id="4415" level="3" type="PASSIVE"/>
+			<skill id="4416" level="19" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13031" name="Huge Cursed Pig" title="" alias="event_big_pig">
+		<set name="type" val="Folk"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="15.0"/>
+		<set name="height" val="18.3"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="680.0"/>
+		<set name="mp" val="2000.0"/>
+		<set name="hpRegen" val="0.0"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="50"/>
+		<set name="pAtk" val="8.47458"/>
+		<set name="pDef" val="60000.0"/>
+		<set name="mAtk" val="5.78704"/>
+		<set name="mDef" val="200000.0"/>
+		<set name="crit" val="1.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="60.0"/>
+		<set name="runSpd" val="160.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="clan" val="pig_clan"/>
+		<set name="clanRange" val="1000"/>
+		<set name="undying" val="false"/>
+		<set name="canBeAttacked" val="true"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="300"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13032" name="Huge Cursed Pig" title="" alias="event_big_pig_leader">
+		<set name="type" val="Folk"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="15.0"/>
+		<set name="height" val="18.3"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="680.0"/>
+		<set name="mp" val="2000.0"/>
+		<set name="hpRegen" val="0.0"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="50"/>
+		<set name="pAtk" val="8.47458"/>
+		<set name="pDef" val="60000.0"/>
+		<set name="mAtk" val="5.78704"/>
+		<set name="mDef" val="200000.0"/>
+		<set name="crit" val="1.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="60.0"/>
+		<set name="runSpd" val="160.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="clan" val="pig_clan"/>
+		<set name="clanRange" val="1000"/>
+		<set name="undying" val="false"/>
+		<set name="canBeAttacked" val="true"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="300"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13033" name="Huge Cursed Pig" title="" alias="event_big_pig_private">
+		<set name="type" val="Folk"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="15.0"/>
+		<set name="height" val="18.3"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="680.0"/>
+		<set name="mp" val="2000.0"/>
+		<set name="hpRegen" val="0.0"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="50"/>
+		<set name="pAtk" val="8.47458"/>
+		<set name="pDef" val="60000.0"/>
+		<set name="mAtk" val="5.78704"/>
+		<set name="mDef" val="200000.0"/>
+		<set name="crit" val="1.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="60.0"/>
+		<set name="runSpd" val="160.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="clan" val="pig_clan"/>
+		<set name="clanRange" val="1000"/>
+		<set name="undying" val="false"/>
+		<set name="canBeAttacked" val="true"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="300"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13034" name="Super Huge Cursed Pig" title="" alias="event_super_big_pig">
+		<set name="type" val="Folk"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="29.0"/>
+		<set name="height" val="38.7"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="3400.0"/>
+		<set name="mp" val="6000.0"/>
+		<set name="hpRegen" val="0.0"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="50"/>
+		<set name="pAtk" val="8.47458"/>
+		<set name="pDef" val="60000.0"/>
+		<set name="mAtk" val="5.78704"/>
+		<set name="mDef" val="200000.0"/>
+		<set name="crit" val="1.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="60.0"/>
+		<set name="runSpd" val="160.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="clan" val="pig_clan"/>
+		<set name="clanRange" val="1000"/>
+		<set name="undying" val="false"/>
+		<set name="canBeAttacked" val="true"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="300"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13035" name="Golden Cursed Pig" title="" alias="event_gold_pig">
+		<set name="type" val="Folk"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="15.0"/>
+		<set name="height" val="18.3"/>
+		<set name="hitTimeFactor" val="0.6"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="680.0"/>
+		<set name="mp" val="2000.0"/>
+		<set name="hpRegen" val="0.0"/>
+		<set name="mpRegen" val="0.9"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="50"/>
+		<set name="pAtk" val="8.47458"/>
+		<set name="pDef" val="60000.0"/>
+		<set name="mAtk" val="5.78704"/>
+		<set name="mDef" val="200000.0"/>
+		<set name="crit" val="1.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="60.0"/>
+		<set name="runSpd" val="160.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="clan" val="pig_clan"/>
+		<set name="clanRange" val="1000"/>
+		<set name="undying" val="false"/>
+		<set name="canBeAttacked" val="true"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="300"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+	<npc id="13036" name="Alchemist's Chest" title="" alias="event_treasure_box">
+		<set name="type" val="Folk"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="8.5"/>
+		<set name="height" val="8.5"/>
+		<set name="hitTimeFactor" val="0.56"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="canSeeThrough" val="true"/>
+		<set name="exp" val="0.0"/>
+		<set name="sp" val="0.0"/>
+		<set name="hp" val="2880.37628"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3.0"/>
+		<set name="baseAttackRange" val="40"/>
+		<set name="baseDamageRange" val="0;0;80;120"/>
+		<set name="baseRandomDamage" val="30"/>
+		<set name="pAtk" val="894.75854"/>
+		<set name="pDef" val="341.375"/>
+		<set name="mAtk" val="611.00409"/>
+		<set name="mDef" val="249.80341"/>
+		<set name="crit" val="4.0"/>
+		<set name="atkSpd" val="253.0"/>
+		<set name="walkSpd" val="80.0"/>
+		<set name="runSpd" val="1.0"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="ssCount" val="0"/>
+		<set name="spsCount" val="0"/>
+		<set name="undying" val="true"/>
+		<set name="canBeAttacked" val="false"/>
+		<set name="corpseTime" val="7"/>
+		<set name="noSleepMode" val="false"/>
+		<set name="aggroRange" val="0"/>
+		<set name="canMove" val="true"/>
+		<set name="seedable" val="false"/>
+		<skills>
+			<skill id="4045" level="1" type="PASSIVE"/>
+		</skills>
+	</npc>
+</list>

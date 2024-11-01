@@ -1,0 +1,34 @@
+<html><title>Movie Maker</title><body>
+	<center>
+		<font color="LEVEL">MOVIE OPTIONS</font><br>
+		<table width=220>
+			<tr>
+				<td><button value="Add sequence" action="bypass -h admin_sequence add" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+				<td><button value="Play" action="bypass -h admin_movie play" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+				<td><button value="Broadcast" action="bypass -h admin_movie broadcast" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+			</tr>
+		</table><br>
+		<img src="l2ui.SquareWhite" width=275 height=1><br>
+		<font color="LEVEL">SEQUENCES OPTIONS</font><br>
+		<table width=270>
+			<tr>
+				<td>Id:</td>
+				<td><edit var="tsId" width=120 height=15></td>
+			</tr>
+		</table><br>
+		<table width=270>
+			<tr>
+				<td><button value="Edit" action="bypass -h admin_sequence add $tsId" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Delete" action="bypass -h admin_sequence delete $tsId" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Play" action="bypass -h admin_sequence play $tsId" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Broadcast" action="bypass -h admin_sequence broadcast $tsId" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			</tr>
+		</table><br>
+		<img src="l2ui.SquareWhite" width=275 height=1><br>
+		<font color="LEVEL">EXISTING SEQUENCES</font><br>
+		<table width=280>
+			<tr><td>Id</td><td>Dis</td><td>Yaw</td><td>Pit</td><td>Tim</td><td>Dur</td><td>Tur</td><td>Ris</td><td>Wid</td></tr>
+			%sequences%
+		</table>
+	</center>
+</body></html>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- Swamp Zones -->
+	<!-- Devil Isle Zones -->
+	<!-- Swamp -->
+	<zone shape="NPoly" minZ="-3964" maxZ="-3364"><!-- devil_slow_8 -->
+		<!-- stat name="initialDelay" val="1000" / -->
+		<stat name="move_bonus" val="-80"/>
+		<node x="55250" y="210873"/>
+		<node x="55762" y="211217"/>
+		<node x="55934" y="212274"/>
+		<node x="55686" y="212533"/>
+		<node x="54639" y="212740"/>
+		<node x="54276" y="212407"/>
+		<node x="54160" y="211696"/>
+		<node x="54332" y="211108"/>
+	</zone>
+	<!-- Sea of Spores (Swamp Zone) -->
+	<zone shape="NPoly" minZ="-4468" maxZ="-4118"><!-- spore_boss_swamp_zone -->
+		<node x="43084" y="15944"/>
+		<node x="45140" y="15816"/>
+		<node x="45748" y="17200"/>
+		<node x="44504" y="18780"/>
+		<node x="43284" y="18952"/>
+		<node x="42476" y="18164"/>
+		<node x="42480" y="16448"/>
+	</zone>
+	<!-- Castle Trap Zones -->
+	<zone id="70001" shape="NPoly" minZ="-496" maxZ="-296"><!-- aden_slow_1 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="5"/>
+		<stat name="eventId" val="2418001"/>
+		<node x="145548" y="6670"/>
+		<node x="145813" y="6669"/>
+		<node x="145813" y="6803"/>
+		<node x="145548" y="6804"/>
+	</zone>
+	<zone id="70002" shape="NPoly" minZ="-496" maxZ="-296"><!-- aden_slow_2 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="5"/>
+		<stat name="eventId" val="2418002"/>
+		<node x="145548" y="6798"/>
+		<node x="145813" y="6797"/>
+		<node x="145813" y="6931"/>
+		<node x="145548" y="6932"/>
+	</zone>
+	<zone id="70003" shape="NPoly" minZ="-496" maxZ="-296"><!-- aden_slow_3 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="5"/>
+		<stat name="eventId" val="2418003"/>
+		<node x="145548" y="6926"/>
+		<node x="145813" y="6925"/>
+		<node x="145813" y="7059"/>
+		<node x="145548" y="7060"/>
+	</zone>
+	<zone id="70004" shape="NPoly" minZ="-528" maxZ="-328"><!-- aden_slow_4 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="5"/>
+		<stat name="eventId" val="2418004"/>
+		<node x="145548" y="7054"/>
+		<node x="145813" y="7053"/>
+		<node x="145813" y="7187"/>
+		<node x="145548" y="7188"/>
+	</zone>
+	<zone id="70005" shape="NPoly" minZ="-528" maxZ="-328"><!-- aden_slow_5 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="5"/>
+		<stat name="eventId" val="2418005"/>
+		<node x="149084" y="6686"/>
+		<node x="149349" y="6685"/>
+		<node x="149349" y="6819"/>
+		<node x="149084" y="6820"/>
+	</zone>
+	<zone id="70006" shape="NPoly" minZ="-528" maxZ="-328"><!-- aden_slow_6 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="5"/>
+		<stat name="eventId" val="2418006"/>
+		<node x="149084" y="6814"/>
+		<node x="149349" y="6813"/>
+		<node x="149349" y="6947"/>
+		<node x="149084" y="6948"/>
+	</zone>
+	<zone id="70007" shape="NPoly" minZ="-528" maxZ="-328"><!-- aden_slow_7 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="5"/>
+		<stat name="eventId" val="2418007"/>
+		<node x="149084" y="6942"/>
+		<node x="149349" y="6941"/>
+		<node x="149349" y="7075"/>
+		<node x="149084" y="7076"/>
+	</zone>
+	<zone id="70008" shape="NPoly" minZ="-560" maxZ="-360"><!-- aden_slow_8 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="5"/>
+		<stat name="eventId" val="2418008"/>
+		<node x="149084" y="7070"/>
+		<node x="149349" y="7069"/>
+		<node x="149349" y="7203"/>
+		<node x="149084" y="7204"/>
+	</zone>
+	<zone id="70009" shape="NPoly" minZ="-2627" maxZ="-2427"><!-- gludio_slow_1 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="1"/>
+		<stat name="eventId" val="1921001"/>
+		<node x="-18255" y="110790"/>
+		<node x="-17971" y="110790"/>
+		<node x="-17972" y="111174"/>
+		<node x="-18256" y="111174"/>
+	</zone>
+	<zone id="70010" shape="NPoly" minZ="-2595" maxZ="-2395"><!-- gludio_slow_2 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="1"/>
+		<stat name="eventId" val="1921002"/>
+		<node x="-19213" y="107137"/>
+		<node x="-18827" y="107137"/>
+		<node x="-18827" y="107404"/>
+		<node x="-19213" y="107404"/>
+	</zone>
+	<zone id="70011" shape="NPoly" minZ="-2821" maxZ="30341"><!-- dion_slow_1 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="2"/>
+		<stat name="eventId" val="2022001"/>
+		<node x="22215" y="158960"/>
+		<node x="21931" y="158960"/>
+		<node x="21932" y="158576"/>
+		<node x="22216" y="158576"/>
+	</zone>
+	<zone id="70012" shape="NPoly" minZ="-2789" maxZ="30373"><!-- dion_slow_2 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="2"/>
+		<stat name="eventId" val="2022002"/>
+		<node x="23173" y="162613"/>
+		<node x="22787" y="162613"/>
+		<node x="22787" y="162346"/>
+		<node x="23173" y="162346"/>
+	</zone>
+	<zone id="70013" shape="NPoly" minZ="-2694" maxZ="13957"><!-- giran_slow_1 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="3"/>
+		<stat name="eventId" val="2322001"/>
+		<node x="115132" y="144954"/>
+		<node x="115132" y="145238"/>
+		<node x="114748" y="145237"/>
+		<node x="114748" y="144953"/>
+	</zone>
+	<zone id="70014" shape="NPoly" minZ="-2662" maxZ="13989"><!-- giran_slow_2 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="3"/>
+		<stat name="eventId" val="2322002"/>
+		<node x="118785" y="143996"/>
+		<node x="118785" y="144382"/>
+		<node x="118518" y="144382"/>
+		<node x="118518" y="143996"/>
+	</zone>
+	<zone id="70015" shape="NPoly" minZ="-2421" maxZ="13957"><!-- oren_slow_1 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="4"/>
+		<stat name="eventId" val="2219001"/>
+		<node x="81208" y="37049"/>
+		<node x="81208" y="37333"/>
+		<node x="80824" y="37332"/>
+		<node x="80824" y="37048"/>
+	</zone>
+	<zone id="70016" shape="NPoly" minZ="-2389" maxZ="13989"><!-- oren_slow_2 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="4"/>
+		<stat name="eventId" val="2219002"/>
+		<node x="84861" y="36091"/>
+		<node x="84861" y="36477"/>
+		<node x="84594" y="36477"/>
+		<node x="84594" y="36091"/>
+	</zone>
+	<zone id="70017" shape="NPoly" minZ="-917" maxZ="30341"><!-- innadrile_slow_1 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="6"/>
+		<stat name="eventId" val="2325001"/>
+		<node x="116166" y="247739"/>
+		<node x="115882" y="247739"/>
+		<node x="115883" y="247355"/>
+		<node x="116167" y="247355"/>
+	</zone>
+	<zone id="70018" shape="NPoly" minZ="-885" maxZ="30373"><!-- innadrile_slow_2 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="6"/>
+		<stat name="eventId" val="2325002"/>
+		<node x="117124" y="251392"/>
+		<node x="116738" y="251392"/>
+		<node x="116738" y="251125"/>
+		<node x="117124" y="251125"/>
+	</zone>
+	<zone id="70019" shape="NPoly" minZ="-1789" maxZ="-1489"><!-- goddard_slow_1 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="7"/>
+		<stat name="eventId" val="2416001"/>
+		<node x="149235" y="-47768"/>
+		<node x="149579" y="-47608"/>
+		<node x="149515" y="-47472"/>
+		<node x="149169" y="-47634"/>
+	</zone>
+	<zone id="70020" shape="NPoly" minZ="-1789" maxZ="-1439"><!-- goddard_slow_2 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="7"/>
+		<stat name="eventId" val="2416002"/>
+		<node x="145352" y="-47607"/>
+		<node x="145696" y="-47768"/>
+		<node x="145760" y="-47633"/>
+		<node x="145415" y="-47471"/>
+	</zone>
+	<zone id="70021" shape="NPoly" minZ="509" maxZ="809"><!-- rune_slow_1 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="8"/>
+		<stat name="eventId" val="2016001"/>
+		<node x="13785" y="-47663"/>
+		<node x="14046" y="-47854"/>
+		<node x="14203" y="-47668"/>
+		<node x="13916" y="-47450"/>
+	</zone>
+	<zone id="70022" shape="NPoly" minZ="518" maxZ="818"><!-- rune_slow_2 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="8"/>
+		<stat name="eventId" val="2016002"/>
+		<node x="13917" y="-50851"/>
+		<node x="14209" y="-50630"/>
+		<node x="14052" y="-50447"/>
+		<node x="13788" y="-50647"/>
+	</zone>
+	<zone id="70023" shape="NPoly" minZ="-93" maxZ="207"><!-- schutt_slow_1 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="9"/>
+		<stat name="eventId" val="2213001"/>
+		<node x="75440" y="-151667"/>
+		<node x="75787" y="-151830"/>
+		<node x="75849" y="-151697"/>
+		<node x="75503" y="-151535"/>
+	</zone>
+	<zone id="70024" shape="NPoly" minZ="-77" maxZ="223"><!-- schutt_slow_2 -->
+		<stat name="move_bonus" val="-80"/>
+		<stat name="castleId" val="9"/>
+		<stat name="eventId" val="2213002"/>
+		<node x="79322" y="-151831"/>
+		<node x="79668" y="-151670"/>
+		<node x="79606" y="-151535"/>
+		<node x="79261" y="-151699"/>
+	</zone>
+</list>

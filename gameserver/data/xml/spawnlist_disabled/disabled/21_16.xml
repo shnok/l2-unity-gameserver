@@ -1,0 +1,2468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Rune Area
+ * Rune Township
+ * Rune Harbor
+ * Forest of the Dead
+ * Cursed Village
+-->
+<list>
+	<!--  -->
+	<territory name="21_16_net_cafe_event_1_01" minZ="-864" maxZ="-664">
+		<node x="44076" y="-48788"/>
+		<node x="44276" y="-48788"/>
+		<node x="44276" y="-48588"/>
+		<node x="44076" y="-48588"/>
+	</territory>
+	<npcmaker name="21_16_net_cafe_event_1_01" territory="21_16_net_cafe_event_1_01" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="44176;-48732;-800;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune01_npc2116_01" minZ="-2127" maxZ="-1927">
+		<node x="34630" y="-54718"/>
+		<node x="34941" y="-54718"/>
+		<node x="34939" y="-54363"/>
+		<node x="34630" y="-54362"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_0101" territory="rune01_npc2116_01" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="31527" pos="34767;-54606;-2048;0" total="1" respawn="1min"/>
+		<npc id="31529" pos="34885;-54472;-2050;26240" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_01" minZ="-836" maxZ="-636">
+		<node x="44252" y="-47708"/>
+		<node x="44832" y="-47736"/>
+		<node x="44784" y="-47176"/>
+		<node x="44300" y="-47308"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_0101" territory="rune02_npc2116_01" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="31300" pos="44692;-47312;-800;0" total="1" respawn="1min"/>
+		<npc id="31301" pos="44700;-47396;-800;0" total="1" respawn="1min"/>
+		<npc id="31302" pos="44704;-47472;-800;0" total="1" respawn="1min"/>
+		<npc id="31303" pos="44620;-47620;-800;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_02" minZ="-824" maxZ="-624">
+		<node x="44812" y="-47528"/>
+		<node x="45512" y="-47492"/>
+		<node x="45496" y="-47292"/>
+		<node x="44852" y="-47292"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_0201" territory="rune02_npc2116_02" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="31304" pos="45472;-47424;-796;49000" total="1" respawn="1min"/>
+		<npc id="31305" pos="45184;-47444;-796;49000" total="1" respawn="1min"/>
+		<npc id="31306" pos="45408;-47424;-796;49000" total="1" respawn="1min"/>
+		<npc id="31307" pos="45120;-47452;-796;49000" total="1" respawn="1min"/>
+		<npc id="31308" pos="44976;-47440;-800;17000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_03" minZ="-848" maxZ="-648">
+		<node x="43324" y="-49620"/>
+		<node x="43524" y="-49620"/>
+		<node x="43524" y="-49420"/>
+		<node x="43324" y="-49420"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_0301" territory="rune02_npc2116_03" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="31309" pos="43456;-49520;-800;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_04" minZ="-868" maxZ="-668">
+		<node x="43304" y="-49072"/>
+		<node x="43692" y="-49052"/>
+		<node x="43620" y="-48400"/>
+		<node x="43272" y="-48404"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_0401" territory="rune02_npc2116_04" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="31311" pos="43556;-48592;-800;0" total="1" respawn="1min"/>
+		<npc id="31312" pos="43348;-48444;-800;16500" total="1" respawn="1min"/>
+		<npc id="31313" pos="43308;-48444;-800;16500" total="1" respawn="1min"/>
+		<npc id="31314" pos="43560;-48912;-800;1000" total="1" respawn="1min"/>
+		<npc id="31315" pos="43556;-48640;-800;0" total="1" respawn="1min"/>
+		<npc id="31594" pos="43556;-48864;-800;1000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_05" minZ="-864" maxZ="-664">
+		<node x="44924" y="-48916"/>
+		<node x="45124" y="-48916"/>
+		<node x="45124" y="-48716"/>
+		<node x="44924" y="-48716"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_0501" territory="rune02_npc2116_05" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31316" pos="45072;-48784;-800;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_06" minZ="-844" maxZ="-644">
+		<node x="45084" y="-48708"/>
+		<node x="45284" y="-48708"/>
+		<node x="45284" y="-48508"/>
+		<node x="45084" y="-48508"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_0601" territory="rune02_npc2116_06" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="31317" pos="45136;-48624;-800;49000" total="1" respawn="1min"/>
+		<npc id="31592" pos="45184;-48624;-800;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_07" minZ="-864" maxZ="-664">
+		<node x="45292" y="-48564"/>
+		<node x="45784" y="-48572"/>
+		<node x="45784" y="-48356"/>
+		<node x="45292" y="-48364"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_0701" territory="rune02_npc2116_07" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="31319" pos="45620;-48460;-800;22000" total="1" respawn="1min"/>
+		<npc id="31318" pos="45392;-48496;-800;16500" total="1" respawn="1min"/>
+		<npc id="32024" pos="45728;-48400;-800;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_08" minZ="-856" maxZ="-656">
+		<node x="43596" y="-47796"/>
+		<node x="43908" y="-47748"/>
+		<node x="43908" y="-47548"/>
+		<node x="43576" y="-47600"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_0801" territory="rune02_npc2116_08" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="31320" pos="43824;-47664;-800;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_09" minZ="-829" maxZ="-629">
+		<node x="42582" y="-48518"/>
+		<node x="42627" y="-48513"/>
+		<node x="42702" y="-47883"/>
+		<node x="42580" y="-47948"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_0901" territory="rune02_npc2116_09" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="31340" pos="42596;-47988;-800;0" total="1" respawn="1min"/>
+		<npc id="31341" pos="42596;-48484;-800;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_10" minZ="-1004" maxZ="-804">
+		<node x="40528" y="-52628"/>
+		<node x="40776" y="-52948"/>
+		<node x="41040" y="-52824"/>
+		<node x="40724" y="-52424"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_1001" territory="rune02_npc2116_10" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31342" pos="40640;-52620;-880;40000" total="1" respawn="1min"/>
+		<npc id="31343" pos="40848;-52880;-912;36000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_11" minZ="-904" maxZ="-704">
+		<node x="46232" y="-51476"/>
+		<node x="46432" y="-51476"/>
+		<node x="46432" y="-51276"/>
+		<node x="46232" y="-51276"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_1101" territory="rune02_npc2116_11" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31344" pos="46384;-51408;-811;57000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_12" minZ="-900" maxZ="-700">
+		<node x="46684" y="-51012"/>
+		<node x="46884" y="-51012"/>
+		<node x="46884" y="-50812"/>
+		<node x="46684" y="-50812"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_1201" territory="rune02_npc2116_12" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31345" pos="46832;-50912;-811;57000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_13" minZ="-860" maxZ="-660">
+		<node x="42444" y="-46820"/>
+		<node x="42644" y="-46820"/>
+		<node x="42644" y="-46620"/>
+		<node x="42444" y="-46620"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_1301" territory="rune02_npc2116_13" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31346" pos="42544;-46688;-800;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_14" minZ="-3656" maxZ="-3456">
+		<node x="39660" y="-39972"/>
+		<node x="39860" y="-39972"/>
+		<node x="39860" y="-39772"/>
+		<node x="39660" y="-39772"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_1401" territory="rune02_npc2116_14" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31347" pos="39776;-39872;-3607;7500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_15" minZ="-3712" maxZ="-3512">
+		<node x="37692" y="-38036"/>
+		<node x="37892" y="-38036"/>
+		<node x="37892" y="-37836"/>
+		<node x="37692" y="-37836"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_1501" territory="rune02_npc2116_15" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31351" pos="37762;-37946;-3668;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_16" minZ="-852" maxZ="-652">
+		<node x="44108" y="-48980"/>
+		<node x="44308" y="-48980"/>
+		<node x="44308" y="-48780"/>
+		<node x="44108" y="-48780"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_1601" territory="rune02_npc2116_16" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31578" pos="44216;-48880;-800;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_17" minZ="-1184" maxZ="-984">
+		<node x="38244" y="-47188"/>
+		<node x="38452" y="-47180"/>
+		<node x="38440" y="-46612"/>
+		<node x="38252" y="-46676"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_1701" territory="rune02_npc2116_17" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="31321" pos="38368;-46912;-1131;33000" total="1" respawn="1min"/>
+		<npc id="31324" pos="38368;-47096;-1143;33000" total="1" respawn="1min"/>
+		<npc id="31326" pos="38368;-46728;-1143;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_18" minZ="-1180" maxZ="-980">
+		<node x="37916" y="-47012"/>
+		<node x="38116" y="-47012"/>
+		<node x="38116" y="-46812"/>
+		<node x="37916" y="-46812"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_1801" territory="rune02_npc2116_18" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31322" pos="38060;-46920;-1143;49000" total="1" respawn="1min"/>
+		<npc id="31691" pos="38020;-46912;-1143;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_19" minZ="-1176" maxZ="-976">
+		<node x="36732" y="-47012"/>
+		<node x="36932" y="-47012"/>
+		<node x="36932" y="-46812"/>
+		<node x="36732" y="-46812"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_1901" territory="rune02_npc2116_19" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31325" pos="36832;-46916;-1143;49000" total="1" respawn="1min"/>
+		<npc id="31691" pos="36792;-46912;-1143;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_20" minZ="-1192" maxZ="-992">
+		<node x="37500" y="-47012"/>
+		<node x="37700" y="-47012"/>
+		<node x="37700" y="-46812"/>
+		<node x="37500" y="-46812"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2001" territory="rune02_npc2116_20" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31327" pos="37648;-46920;-1135;49000" total="1" respawn="1min"/>
+		<npc id="31691" pos="37616;-46912;-1143;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_21" minZ="-1184" maxZ="-984">
+		<node x="37084" y="-47012"/>
+		<node x="37284" y="-47012"/>
+		<node x="37284" y="-46812"/>
+		<node x="37084" y="-46812"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2101" territory="rune02_npc2116_21" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31323" pos="37240;-46916;-1143;49000" total="1" respawn="1min"/>
+		<npc id="31691" pos="37200;-46912;-1143;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_22" minZ="-1172" maxZ="-972">
+		<node x="36384" y="-49192"/>
+		<node x="36696" y="-49156"/>
+		<node x="36580" y="-48956"/>
+		<node x="36380" y="-48956"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2201" territory="rune02_npc2116_22" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="31328" pos="36476;-49032;-1104;55000" total="1" respawn="1min"/>
+		<npc id="31329" pos="36528;-49024;-1104;44000" total="1" respawn="1min"/>
+		<npc id="31330" pos="36448;-49072;-1104;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_23" minZ="-1172" maxZ="-972">
+		<node x="36156" y="-49652"/>
+		<node x="36356" y="-49652"/>
+		<node x="36356" y="-49452"/>
+		<node x="36156" y="-49452"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2301" territory="rune02_npc2116_23" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31331" pos="36256;-49536;-1104;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_24" minZ="-1176" maxZ="-976">
+		<node x="36252" y="-50004"/>
+		<node x="36452" y="-50004"/>
+		<node x="36452" y="-49804"/>
+		<node x="36252" y="-49804"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2401" territory="rune02_npc2116_24" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31332" pos="36336;-49904;-1104;10000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_25" minZ="-1176" maxZ="-976">
+		<node x="36444" y="-50148"/>
+		<node x="36644" y="-50148"/>
+		<node x="36644" y="-49948"/>
+		<node x="36444" y="-49948"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2501" territory="rune02_npc2116_25" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31333" pos="36548;-50064;-1104;47000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_26" minZ="-1172" maxZ="-972">
+		<node x="38332" y="-50004"/>
+		<node x="38532" y="-50004"/>
+		<node x="38532" y="-49804"/>
+		<node x="38332" y="-49804"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2601" territory="rune02_npc2116_26" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="31334" pos="38464;-49920;-1105;57000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_27" minZ="-1164" maxZ="-964">
+		<node x="38412" y="-49636"/>
+		<node x="38612" y="-49636"/>
+		<node x="38612" y="-49436"/>
+		<node x="38412" y="-49436"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2701" territory="rune02_npc2116_27" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31335" pos="38512;-49552;-1105;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_28" minZ="-1160" maxZ="-960">
+		<node x="38300" y="-49300"/>
+		<node x="38500" y="-49300"/>
+		<node x="38500" y="-49100"/>
+		<node x="38300" y="-49100"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2801" territory="rune02_npc2116_28" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31336" pos="38432;-49184;-1105;40000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_29" minZ="-1168" maxZ="-968">
+		<node x="38108" y="-49140"/>
+		<node x="38308" y="-49140"/>
+		<node x="38308" y="-48940"/>
+		<node x="38108" y="-48940"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2901" territory="rune02_npc2116_29" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31337" pos="38220;-49012;-1105;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_2c01" minZ="-864" maxZ="-664">
+		<node x="44051" y="-48834"/>
+		<node x="44251" y="-48834"/>
+		<node x="44251" y="-48634"/>
+		<node x="44051" y="-48634"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2c01" territory="rune02_npc2116_2c01" event="test_2nd_class" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31756" pos="44176;-48732;-800;33000" total="1" respawn="1min"/>
+		<npc id="31757" pos="44176;-48688;-800;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_2c02" minZ="-864" maxZ="-664">
+		<node x="44229" y="-47816"/>
+		<node x="44429" y="-47816"/>
+		<node x="44429" y="-47616"/>
+		<node x="44229" y="-47616"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_2c02" territory="rune02_npc2116_2c02" event="test_2nd_class" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31756" pos="44333;-47639;-800;49999" total="1" respawn="1min"/>
+		<npc id="31757" pos="44371;-47638;-800;49999" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_30" minZ="-1172" maxZ="-972">
+		<node x="36908" y="-49284"/>
+		<node x="37108" y="-49284"/>
+		<node x="37108" y="-49084"/>
+		<node x="36908" y="-49084"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_3001" territory="rune02_npc2116_30" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31338" pos="37008;-49200;-1127;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_301" minZ="860" maxZ="1060">
+		<node x="39280" y="-48372"/>
+		<node x="39516" y="-48380"/>
+		<node x="39528" y="-48184"/>
+		<node x="39280" y="-48172"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_301m1" territory="rune02_npc2116_301" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35567" pos="39308;-48304;899;33000" total="1" respawn="1min"/>
+		<npc id="35566" pos="39440;-48304;896;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_302" minZ="856" maxZ="1056">
+		<node x="37568" y="-50656"/>
+		<node x="37780" y="-50652"/>
+		<node x="37772" y="-50360"/>
+		<node x="37572" y="-50360"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_302m1" territory="rune02_npc2116_302" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35569" pos="37668;-50396;899;16500" total="1" respawn="1min"/>
+		<npc id="35568" pos="37668;-50592;896;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_303" minZ="864" maxZ="1064">
+		<node x="38604" y="-50412"/>
+		<node x="38708" y="-50328"/>
+		<node x="38596" y="-50028"/>
+		<node x="38396" y="-50028"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_303m1" territory="rune02_npc2116_303" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35571" pos="38496;-50112;899;22000" total="1" respawn="1min"/>
+		<npc id="35570" pos="38604;-50324;896;54000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_304" minZ="864" maxZ="1064">
+		<node x="39268" y="-49708"/>
+		<node x="39360" y="-49636"/>
+		<node x="39064" y="-49436"/>
+		<node x="38944" y="-49564"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_304m1" territory="rune02_npc2116_304" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35573" pos="39072;-49528;899;27000" total="1" respawn="1min"/>
+		<npc id="35572" pos="39276;-49644;896;60000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_305" minZ="852" maxZ="1052">
+		<node x="39052" y="-47156"/>
+		<node x="39392" y="-46944"/>
+		<node x="39352" y="-46884"/>
+		<node x="39052" y="-46956"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_305m1" territory="rune02_npc2116_305" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35575" pos="39152;-47056;899;37500" total="1" respawn="1min"/>
+		<npc id="35574" pos="39340;-46944;896;5000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_306" minZ="860" maxZ="1060">
+		<node x="38524" y="-46516"/>
+		<node x="38724" y="-46516"/>
+		<node x="38752" y="-46128"/>
+		<node x="38524" y="-46316"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_306m1" territory="rune02_npc2116_306" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35577" pos="38624;-46416;899;43000" total="1" respawn="1min"/>
+		<npc id="35576" pos="38704;-46224;896;11000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_307" minZ="864" maxZ="1064">
+		<node x="37708" y="-46180"/>
+		<node x="37908" y="-46180"/>
+		<node x="37908" y="-45784"/>
+		<node x="37708" y="-45792"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_307m1" territory="rune02_npc2116_307" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35579" pos="37808;-46080;899;48000" total="1" respawn="1min"/>
+		<npc id="35578" pos="37792;-45872;896;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_308" minZ="-852" maxZ="-652">
+		<node x="42892" y="-47892"/>
+		<node x="43092" y="-47892"/>
+		<node x="43092" y="-47692"/>
+		<node x="42892" y="-47692"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_308m1" territory="rune02_npc2116_308" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30767" pos="42984;-47792;-800;1000" total="1" respawn="1min">
+			<ai>
+				<set name="fnAgitMap" val="rune"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_309" minZ="856" maxZ="1056">
+		<node x="38156" y="-48532"/>
+		<node x="38356" y="-48532"/>
+		<node x="38356" y="-48332"/>
+		<node x="38156" y="-48332"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_309m1" territory="rune02_npc2116_309" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35512" pos="38256;-48432;899;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_31" minZ="-1172" maxZ="-972">
+		<node x="37628" y="-49284"/>
+		<node x="37828" y="-49284"/>
+		<node x="37828" y="-49084"/>
+		<node x="37628" y="-49084"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_3101" territory="rune02_npc2116_31" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31339" pos="37728;-49216;-1127;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_32" minZ="868" maxZ="1068">
+		<node x="35372" y="-48416"/>
+		<node x="35588" y="-48392"/>
+		<node x="35588" y="-48040"/>
+		<node x="35396" y="-48020"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_3201" territory="rune02_npc2116_32" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="31348" pos="35480;-48224;899;0" total="1" respawn="1min"/>
+		<npc id="31349" pos="35408;-48368;899;0" total="1" respawn="1min"/>
+		<npc id="31350" pos="35416;-48076;899;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_33" minZ="-912" maxZ="-712">
+		<node x="41052" y="-52244"/>
+		<node x="41252" y="-52244"/>
+		<node x="41252" y="-52044"/>
+		<node x="41052" y="-52044"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_3301" territory="rune02_npc2116_33" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31674" pos="41104;-52152;-832;57000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_34" minZ="-920" maxZ="-720">
+		<node x="41388" y="-52756"/>
+		<node x="41588" y="-52756"/>
+		<node x="41588" y="-52556"/>
+		<node x="41388" y="-52556"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_3401" territory="rune02_npc2116_34" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="41568;-52624;-821;25000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_35" minZ="-856" maxZ="-656">
+		<node x="43436" y="-52292"/>
+		<node x="43636" y="-52292"/>
+		<node x="43636" y="-52092"/>
+		<node x="43436" y="-52092"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_3501" territory="rune02_npc2116_35" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="43584;-52240;-811;57000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_36" minZ="-860" maxZ="-660">
+		<node x="44588" y="-51924"/>
+		<node x="44788" y="-51924"/>
+		<node x="44788" y="-51724"/>
+		<node x="44588" y="-51724"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_3601" territory="rune02_npc2116_36" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="44736;-51904;-811;58000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_37" minZ="-884" maxZ="-684">
+		<node x="45324" y="-51460"/>
+		<node x="45524" y="-51460"/>
+		<node x="45524" y="-51260"/>
+		<node x="45324" y="-51260"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_3701" territory="rune02_npc2116_37" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="45456;-51424;-811;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_38" minZ="-884" maxZ="-684">
+		<node x="46508" y="-50052"/>
+		<node x="46708" y="-50052"/>
+		<node x="46708" y="-49852"/>
+		<node x="46508" y="-49852"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_3801" territory="rune02_npc2116_38" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="46672;-49888;-811;8000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_39" minZ="-896" maxZ="-696">
+		<node x="46588" y="-48628"/>
+		<node x="46788" y="-48628"/>
+		<node x="46788" y="-48428"/>
+		<node x="46588" y="-48428"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_3901" territory="rune02_npc2116_39" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="46752;-48496;-811;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_40" minZ="-876" maxZ="-676">
+		<node x="46108" y="-47812"/>
+		<node x="46308" y="-47812"/>
+		<node x="46308" y="-47612"/>
+		<node x="46108" y="-47612"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_4001" territory="rune02_npc2116_40" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="46272;-47632;-811;5000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_41" minZ="-888" maxZ="-688">
+		<node x="45132" y="-46932"/>
+		<node x="45332" y="-46932"/>
+		<node x="45332" y="-46732"/>
+		<node x="45132" y="-46732"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_4101" territory="rune02_npc2116_41" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="45268;-46820;-811;13000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_42" minZ="-876" maxZ="-676">
+		<node x="43484" y="-46628"/>
+		<node x="43684" y="-46628"/>
+		<node x="43684" y="-46428"/>
+		<node x="43484" y="-46428"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_4201" territory="rune02_npc2116_42" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31673" pos="43584;-46528;-800;25000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_43" minZ="-848" maxZ="-648">
+		<node x="40796" y="-48020"/>
+		<node x="40996" y="-48020"/>
+		<node x="40996" y="-47820"/>
+		<node x="40796" y="-47820"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_4301" territory="rune02_npc2116_43" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31674" pos="40832;-47920;-775;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_44" minZ="-864" maxZ="-664">
+		<node x="40796" y="-48660"/>
+		<node x="40996" y="-48660"/>
+		<node x="40996" y="-48460"/>
+		<node x="40796" y="-48460"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_4401" territory="rune02_npc2116_44" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31674" pos="40832;-48560;-775;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_45" minZ="-3640" maxZ="-3440">
+		<node x="39884" y="-39508"/>
+		<node x="40084" y="-39508"/>
+		<node x="40084" y="-39308"/>
+		<node x="39884" y="-39308"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_4501" territory="rune02_npc2116_45" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31674" pos="39984;-39408;-3607;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_46" minZ="-1160" maxZ="-960">
+		<node x="37196" y="-47844"/>
+		<node x="37540" y="-47844"/>
+		<node x="37540" y="-47644"/>
+		<node x="37188" y="-47644"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_4601" territory="rune02_npc2116_46" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31674" pos="37468;-47712;-1127;49000" total="1" respawn="1min"/>
+		<npc id="31674" pos="37240;-47712;-1127;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_47" minZ="-1176" maxZ="-976">
+		<node x="37180" y="-48852"/>
+		<node x="37532" y="-48852"/>
+		<node x="37532" y="-48652"/>
+		<node x="37180" y="-48652"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_4701" territory="rune02_npc2116_47" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31674" pos="37248;-48752;-1127;16000" total="1" respawn="1min"/>
+		<npc id="31674" pos="37456;-48752;-1127;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_48" minZ="-1196" maxZ="-996">
+		<node x="36320" y="-48516"/>
+		<node x="36532" y="-48536"/>
+		<node x="36532" y="-47932"/>
+		<node x="36332" y="-47932"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_4801" territory="rune02_npc2116_48" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31674" pos="36416;-48032;-1151;0" total="1" respawn="1min"/>
+		<npc id="31674" pos="36412;-48448;-1151;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_49" minZ="-868" maxZ="-668">
+		<node x="44412" y="-48484"/>
+		<node x="44612" y="-48484"/>
+		<node x="44612" y="-48284"/>
+		<node x="44412" y="-48284"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_4901" territory="rune02_npc2116_49" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31695" pos="44528;-48420;-800;17000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_50" minZ="-836" maxZ="-636">
+		<node x="45548" y="-50452"/>
+		<node x="45748" y="-50452"/>
+		<node x="45748" y="-50252"/>
+		<node x="45548" y="-50252"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_5001" territory="rune02_npc2116_50" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31694" pos="45664;-50368;-800;29000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_52" minZ="820" maxZ="1020">
+		<node x="38108" y="-48148"/>
+		<node x="38308" y="-48148"/>
+		<node x="38308" y="-47948"/>
+		<node x="38108" y="-47948"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_5201" territory="rune02_npc2116_52" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31698" pos="38208;-48048;899;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_53" minZ="-1212" maxZ="-1012">
+		<node x="38268" y="-48180"/>
+		<node x="38468" y="-48180"/>
+		<node x="38468" y="-47980"/>
+		<node x="38268" y="-47980"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_5301" territory="rune02_npc2116_53" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31699" pos="38384;-48064;-1151;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_54" minZ="-2236" maxZ="-2036">
+		<node x="42812" y="-41476"/>
+		<node x="43012" y="-41476"/>
+		<node x="43012" y="-41276"/>
+		<node x="42812" y="-41276"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_5401" territory="rune02_npc2116_54" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31092" pos="42918;-41412;-2184;20000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_55" minZ="1688" maxZ="1888">
+		<node x="32908" y="-48324"/>
+		<node x="33108" y="-48324"/>
+		<node x="33108" y="-48124"/>
+		<node x="32908" y="-48124"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_5501" territory="rune02_npc2116_55" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="31742" pos="32960;-48224;1780;33000" total="1" respawn="1min"/>
+		<npc id="31743" pos="32988;-48268;1780;33000" total="1" respawn="1min"/>
+		<npc id="31744" pos="32984;-48180;1780;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_56" minZ="-1144" maxZ="-944">
+		<node x="35964" y="-48340"/>
+		<node x="36164" y="-48340"/>
+		<node x="36164" y="-48140"/>
+		<node x="35964" y="-48140"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_5601" territory="rune02_npc2116_56" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31688" pos="36048;-48208;-1095;0" total="1" respawn="1min"/>
+		<npc id="31690" pos="36048;-48268;-1095;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_57" minZ="-2232" maxZ="-2032">
+		<node x="42828" y="-41732"/>
+		<node x="43028" y="-41732"/>
+		<node x="43028" y="-41532"/>
+		<node x="42828" y="-41532"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_5701" territory="rune02_npc2116_57" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31832" pos="42928;-41616;-2192;37500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_58" minZ="-864" maxZ="-664">
+		<node x="42780" y="-47732"/>
+		<node x="42980" y="-47732"/>
+		<node x="42980" y="-47532"/>
+		<node x="42780" y="-47532"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_5801" territory="rune02_npc2116_58" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31833" pos="42912;-47648;-800;500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_59" minZ="-976" maxZ="-776">
+		<node x="40460" y="-52468"/>
+		<node x="40660" y="-52468"/>
+		<node x="40660" y="-52268"/>
+		<node x="40460" y="-52268"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_5901" territory="rune02_npc2116_59" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31834" pos="40528;-52308;-836;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_60" minZ="-836" maxZ="-636">
+		<node x="45436" y="-49972"/>
+		<node x="45636" y="-49972"/>
+		<node x="45636" y="-49772"/>
+		<node x="45436" y="-49772"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_6001" territory="rune02_npc2116_60" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31835" pos="45552;-49888;-800;34000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_61" minZ="-1176" maxZ="-976">
+		<node x="37452" y="-47540"/>
+		<node x="37652" y="-47540"/>
+		<node x="37652" y="-47340"/>
+		<node x="37452" y="-47340"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_6101" territory="rune02_npc2116_61" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31836" pos="37552;-47440;-1127;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_62" minZ="860" maxZ="1060">
+		<node x="35892" y="-48916"/>
+		<node x="36092" y="-48916"/>
+		<node x="36092" y="-48716"/>
+		<node x="35892" y="-48716"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_62m1" territory="rune02_npc2116_62" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="32009" pos="35996;-48756;899;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_bk01" minZ="-864" maxZ="-664">
+		<node x="44229" y="-47816"/>
+		<node x="44429" y="-47816"/>
+		<node x="44429" y="-47616"/>
+		<node x="44229" y="-47616"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_bk01" territory="rune02_npc2116_bk01" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="44294;-47642;-792;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_bk02" minZ="-864" maxZ="-664">
+		<node x="44051" y="-48834"/>
+		<node x="44251" y="-48834"/>
+		<node x="44251" y="-48634"/>
+		<node x="44051" y="-48634"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_bk02" territory="rune02_npc2116_bk02" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="44176;-48773;-800;32999" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_eg01" minZ="-856" maxZ="-656">
+		<node x="43596" y="-47796"/>
+		<node x="43908" y="-47748"/>
+		<node x="43908" y="-47548"/>
+		<node x="43576" y="-47600"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_eg01" territory="rune02_npc2116_eg01" event="event_gate" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31768" pos="43774;-47671;-792;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_fi01" minZ="-864" maxZ="-664">
+		<node x="44076" y="-48788"/>
+		<node x="44276" y="-48788"/>
+		<node x="44276" y="-48588"/>
+		<node x="44076" y="-48588"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_fi01" territory="rune02_npc2116_fi01" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="44176;-48732;-800;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_fi02" minZ="-864" maxZ="-664">
+		<node x="44239" y="-47585"/>
+		<node x="44250" y="-47706"/>
+		<node x="44376" y="-47689"/>
+		<node x="44377" y="-47587"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_fi02" territory="rune02_npc2116_fi02" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="44294;-47642;-792;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_ht01" minZ="-864" maxZ="-664">
+		<node x="44076" y="-48788"/>
+		<node x="44276" y="-48788"/>
+		<node x="44276" y="-48588"/>
+		<node x="44076" y="-48588"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_ht01" territory="rune02_npc2116_ht01" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="44176;-48732;-800;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_ht02" minZ="-864" maxZ="-664">
+		<node x="44239" y="-47585"/>
+		<node x="44250" y="-47706"/>
+		<node x="44376" y="-47689"/>
+		<node x="44377" y="-47587"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_ht02" territory="rune02_npc2116_ht02" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="44294;-47642;-792;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_lc01" minZ="-864" maxZ="-664">
+		<node x="44076" y="-48788"/>
+		<node x="44276" y="-48788"/>
+		<node x="44276" y="-48588"/>
+		<node x="44076" y="-48588"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_lc01" territory="rune02_npc2116_lc01" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="44176;-48732;-800;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_lc02" minZ="-864" maxZ="-664">
+		<node x="44239" y="-47585"/>
+		<node x="44250" y="-47706"/>
+		<node x="44376" y="-47689"/>
+		<node x="44377" y="-47587"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_lc02" territory="rune02_npc2116_lc02" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="44294;-47642;-792;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_md01" minZ="-864" maxZ="-664">
+		<node x="44076" y="-48788"/>
+		<node x="44276" y="-48788"/>
+		<node x="44276" y="-48588"/>
+		<node x="44076" y="-48588"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_md01" territory="rune02_npc2116_md01" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="44176;-48732;-800;33000" total="1" respawn="1min"/>
+		<npc id="31229" pos="44176;-48688;-800;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_md02" minZ="-864" maxZ="-664">
+		<node x="44239" y="-47585"/>
+		<node x="44250" y="-47706"/>
+		<node x="44376" y="-47689"/>
+		<node x="44377" y="-47587"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_md02" territory="rune02_npc2116_md02" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="44319;-47640;-792;50000" total="1" respawn="1min"/>
+		<npc id="31229" pos="44294;-47642;-792;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_sp1" minZ="-872" maxZ="-672">
+		<node x="43344" y="-50548"/>
+		<node x="43888" y="-51140"/>
+		<node x="44124" y="-50948"/>
+		<node x="43568" y="-50348"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_sp1m1" territory="rune02_npc2116_sp1" event="ssq_seal2_dawn" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31717" total="1" respawn="1min"/>
+		<npc id="31725" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_sp2" minZ="-868" maxZ="-668">
+		<node x="45052" y="-48116"/>
+		<node x="45540" y="-48116"/>
+		<node x="45540" y="-47916"/>
+		<node x="45036" y="-47916"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_sp2m1" territory="rune02_npc2116_sp2" event="ssq_seal2_dawn" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31718" total="1" respawn="1min"/>
+		<npc id="31726" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_sp3" minZ="-948" maxZ="-748">
+		<node x="42688" y="-46580"/>
+		<node x="43388" y="-46580"/>
+		<node x="43336" y="-46300"/>
+		<node x="42664" y="-46284"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_sp3m1" territory="rune02_npc2116_sp3" event="ssq_seal2_dawn" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31719" total="1" respawn="1min"/>
+		<npc id="31727" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_sp4" minZ="824" maxZ="1024">
+		<node x="38560" y="-48500"/>
+		<node x="38756" y="-48528"/>
+		<node x="38748" y="-47896"/>
+		<node x="38556" y="-47884"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_sp4m1" territory="rune02_npc2116_sp4" event="ssq_seal2_dawn" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31720" total="1" respawn="1min"/>
+		<npc id="31728" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_tb01" minZ="-864" maxZ="-664">
+		<node x="44077" y="-48820"/>
+		<node x="44206" y="-48782"/>
+		<node x="44185" y="-48609"/>
+		<node x="44043" y="-48629"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_tb01m1" territory="rune02_npc2116_tb01" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="44150;-48708;-800;32999" total="1" respawn="1min"/>
+		<npc id="13036" pos="44191;-48780;-797;54255" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44164;-48622;-798;15608" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44151;-48791;-797;49631" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44110;-48785;-797;45225" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44076;-48754;-797;37471" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44066;-48685;-798;30840" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44088;-48648;-798;23864" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44122;-48627;-798;20464" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_tb02" minZ="-864" maxZ="-664">
+		<node x="44186" y="-47615"/>
+		<node x="44184" y="-47751"/>
+		<node x="44361" y="-47755"/>
+		<node x="44373" y="-47620"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_tb02m1" territory="rune02_npc2116_tb02" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="44280;-47664;-792;49167" total="1" respawn="1min"/>
+		<npc id="13036" pos="44359;-47632;-789;3039" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44199;-47628;-790;29928" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44362;-47674;-789;63951" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44348;-47713;-789;59545" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44311;-47740;-789;51791" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44241;-47736;-790;45160" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44209;-47708;-790;38184" total="1" respawn="15sec"/>
+		<npc id="13036" pos="44195;-47670;-790;34784" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_tk01" minZ="-856" maxZ="-656">
+		<node x="43596" y="-47796"/>
+		<node x="43908" y="-47748"/>
+		<node x="43908" y="-47548"/>
+		<node x="43576" y="-47600"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_tk01" territory="rune02_npc2116_tk01" event="18age" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30990" pos="43664;-47664;-800;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_tw01" minZ="-872" maxZ="-672">
+		<node x="43344" y="-50548"/>
+		<node x="43888" y="-51140"/>
+		<node x="44124" y="-50948"/>
+		<node x="43568" y="-50348"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_tw01m1" territory="rune02_npc2116_tw01" event="ssq_seal2_twilight" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31717" total="1" respawn="1min"/>
+		<npc id="31725" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_tw02" minZ="-868" maxZ="-668">
+		<node x="45052" y="-48116"/>
+		<node x="45540" y="-48116"/>
+		<node x="45540" y="-47916"/>
+		<node x="45036" y="-47916"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_tw02m1" territory="rune02_npc2116_tw02" event="ssq_seal2_twilight" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31718" total="1" respawn="1min"/>
+		<npc id="31726" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_tw03" minZ="-948" maxZ="-748">
+		<node x="42688" y="-46580"/>
+		<node x="43388" y="-46580"/>
+		<node x="43336" y="-46300"/>
+		<node x="42664" y="-46284"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_tw03m1" territory="rune02_npc2116_tw03" event="ssq_seal2_twilight" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31719" total="1" respawn="1min"/>
+		<npc id="31727" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_tw04" minZ="824" maxZ="1024">
+		<node x="38560" y="-48500"/>
+		<node x="38756" y="-48528"/>
+		<node x="38748" y="-47896"/>
+		<node x="38556" y="-47884"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_tw04m1" territory="rune02_npc2116_tw04" event="ssq_seal2_twilight" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31720" total="1" respawn="1min"/>
+		<npc id="31728" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_xm01" minZ="-864" maxZ="-664">
+		<node x="44076" y="-48788"/>
+		<node x="44276" y="-48788"/>
+		<node x="44276" y="-48588"/>
+		<node x="44076" y="-48588"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_xm01" territory="rune02_npc2116_xm01" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="44176;-48732;-800;33000" total="1" respawn="1min"/>
+		<npc id="13006" pos="44176;-48688;-800;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2116_xm02" minZ="-864" maxZ="-664">
+		<node x="44239" y="-47585"/>
+		<node x="44250" y="-47706"/>
+		<node x="44376" y="-47689"/>
+		<node x="44377" y="-47587"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_xm02" territory="rune02_npc2116_xm02" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="44319;-47640;-792;50000" total="1" respawn="1min"/>
+		<npc id="13006" pos="44294;-47642;-792;50000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2216_63" minZ="680" maxZ="880">
+		<node x="36332" y="-51396"/>
+		<node x="36532" y="-51396"/>
+		<node x="36532" y="-51196"/>
+		<node x="36332" y="-51196"/>
+	</territory>
+	<npcmaker name="rune02_npc2216_63m1" territory="rune02_npc2216_63" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="32010" pos="36432;-51296;720;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune02_npc2216_64" minZ="-806" maxZ="-606">
+		<node x="34719" y="-50002"/>
+		<node x="35105" y="-50002"/>
+		<node x="35105" y="-49502"/>
+		<node x="34721" y="-49501"/>
+	</territory>
+	<npcmaker name="rune02_npc2216_64m1" territory="rune02_npc2216_64" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="32040" pos="34876;-49761;-760;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune04_npc2116_51" minZ="-3692" maxZ="-3492">
+		<node x="37500" y="-38068"/>
+		<node x="37700" y="-38068"/>
+		<node x="37700" y="-37868"/>
+		<node x="37500" y="-37868"/>
+	</territory>
+	<npcmaker name="rune02_npc2116_5101" territory="rune04_npc2116_51" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31696" pos="37600;-37952;-3643;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_01" minZ="-2885" maxZ="-2335">
+		<node x="51088" y="-61979"/>
+		<node x="51906" y="-61281"/>
+		<node x="51096" y="-60374"/>
+		<node x="49342" y="-60066"/>
+		<node x="48950" y="-60699"/>
+		<node x="49872" y="-61921"/>
+	</territory>
+	<npcmaker name="rune09_01_day" territory="rune09_2116_01" maximumNpcs="39">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21549" total="3" respawn="30sec"/>
+		<npc id="21553" total="3" respawn="30sec"/>
+		<npc id="21558" total="2" respawn="30sec"/>
+		<npc id="21559" total="1" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_01_night" territory="rune09_2116_01" maximumNpcs="54">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21549" total="2" respawn="30sec"/>
+		<npc id="21550" total="2" respawn="30sec"/>
+		<npc id="21555" total="2" respawn="30sec"/>
+		<npc id="21556" total="2" respawn="30sec"/>
+		<npc id="21552" total="1" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_02" minZ="-3394" maxZ="-2694">
+		<node x="53066" y="-60914"/>
+		<node x="54969" y="-60537"/>
+		<node x="53552" y="-58689"/>
+		<node x="51986" y="-59406"/>
+		<node x="51599" y="-60439"/>
+	</territory>
+	<npcmaker name="rune09_02_day" territory="rune09_2116_02" maximumNpcs="29">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21549" total="2" respawn="30sec"/>
+		<npc id="21554" total="2" respawn="30sec"/>
+		<npc id="21557" total="2" respawn="30sec"/>
+		<npc id="21558" total="1" respawn="30sec"/>
+		<npc id="21559" total="2" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_02_night" territory="rune09_2116_02" maximumNpcs="72">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21549" total="2" respawn="30sec"/>
+		<npc id="21550" total="2" respawn="30sec"/>
+		<npc id="21555" total="2" respawn="30sec"/>
+		<npc id="21556" total="3" respawn="30sec"/>
+		<npc id="21552" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_03" minZ="-3734" maxZ="-2834">
+		<node x="55947" y="-59306"/>
+		<node x="55857" y="-57736"/>
+		<node x="55422" y="-57554"/>
+		<node x="53718" y="-58754"/>
+		<node x="55017" y="-60462"/>
+	</territory>
+	<npcmaker name="rune09_03_day" territory="rune09_2116_03" maximumNpcs="21">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21549" total="1" respawn="30sec"/>
+		<npc id="21554" total="2" respawn="30sec"/>
+		<npc id="21557" total="1" respawn="30sec"/>
+		<npc id="21558" total="1" respawn="30sec"/>
+		<npc id="21559" total="1" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_03_night" territory="rune09_2116_03" maximumNpcs="60">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21549" total="2" respawn="30sec"/>
+		<npc id="21550" total="2" respawn="30sec"/>
+		<npc id="21556" total="4" respawn="30sec"/>
+		<npc id="21552" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_04" minZ="-3364" maxZ="-2364">
+		<node x="50875" y="-59952"/>
+		<node x="53186" y="-58121"/>
+		<node x="52429" y="-57584"/>
+		<node x="49356" y="-58742"/>
+		<node x="49343" y="-59399"/>
+	</territory>
+	<npcmaker name="rune09_04_day" territory="rune09_2116_04" maximumNpcs="44">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21549" total="4" respawn="30sec"/>
+		<npc id="21553" total="3" respawn="30sec"/>
+		<npc id="21558" total="1" respawn="30sec"/>
+		<npc id="21559" total="1" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_04_night" territory="rune09_2116_04" maximumNpcs="72">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21549" total="3" respawn="30sec"/>
+		<npc id="21550" total="3" respawn="30sec"/>
+		<npc id="21556" total="3" respawn="30sec"/>
+		<npc id="21552" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_05" minZ="-2822" maxZ="-2022">
+		<node x="47991" y="-58773"/>
+		<node x="49889" y="-57367"/>
+		<node x="48562" y="-55344"/>
+		<node x="47061" y="-56908"/>
+		<node x="46714" y="-58004"/>
+	</territory>
+	<npcmaker name="rune09_05_day" territory="rune09_2116_05" maximumNpcs="84">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21547" total="4" respawn="30sec"/>
+		<npc id="21548" total="5" respawn="30sec"/>
+		<npc id="21550" total="3" respawn="30sec"/>
+		<npc id="21554" total="2" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_05_night" territory="rune09_2116_05" maximumNpcs="90">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21547" total="5" respawn="30sec"/>
+		<npc id="21548" total="5" respawn="30sec"/>
+		<npc id="21549" total="3" respawn="30sec"/>
+		<npc id="21555" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_06" minZ="-3099" maxZ="-2299">
+		<node x="49958" y="-57323"/>
+		<node x="51530" y="-57076"/>
+		<node x="51827" y="-55793"/>
+		<node x="49874" y="-54770"/>
+		<node x="48623" y="-55290"/>
+	</territory>
+	<npcmaker name="rune09_06_day" territory="rune09_2116_06" maximumNpcs="60">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21547" total="3" respawn="30sec"/>
+		<npc id="21548" total="2" respawn="30sec"/>
+		<npc id="21550" total="3" respawn="30sec"/>
+		<npc id="21554" total="2" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_06_night" territory="rune09_2116_06" maximumNpcs="96">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21547" total="5" respawn="30sec"/>
+		<npc id="21548" total="5" respawn="30sec"/>
+		<npc id="21549" total="3" respawn="30sec"/>
+		<npc id="21555" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_07" minZ="-3622" maxZ="-2522">
+		<node x="55839" y="-56824"/>
+		<node x="56094" y="-54794"/>
+		<node x="55017" y="-53294"/>
+		<node x="53072" y="-54320"/>
+		<node x="53029" y="-56382"/>
+		<node x="54195" y="-57695"/>
+	</territory>
+	<npcmaker name="rune09_07_day" territory="rune09_2116_07" maximumNpcs="185">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="18119" total="20" respawn="60sec"/>
+		<npc id="21563" total="4" respawn="30sec"/>
+		<npc id="21561" total="4" respawn="30sec"/>
+		<npc id="21565" total="4" respawn="30sec"/>
+		<npc id="21596" total="3" respawn="90sec">
+			<privates>
+				<private id="21597" weight="1" respawn="0sec"/>
+				<private id="21598" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21570" total="4" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_07_night" territory="rune09_2116_07" maximumNpcs="92">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="18119" total="12" respawn="60sec"/>
+		<npc id="21564" total="5" respawn="30sec"/>
+		<npc id="21568" total="3" respawn="30sec"/>
+		<npc id="21569" total="4" respawn="30sec"/>
+		<npc id="21566" total="5" respawn="90sec"/>
+		<npc id="21573" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_08" minZ="-3578" maxZ="-2778">
+		<node x="58000" y="-53340"/>
+		<node x="58352" y="-51238"/>
+		<node x="57194" y="-50956"/>
+		<node x="55910" y="-51563"/>
+		<node x="55215" y="-53245"/>
+		<node x="56372" y="-54735"/>
+	</territory>
+	<npcmaker name="rune09_08_day" territory="rune09_2116_08" maximumNpcs="181">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="18119" total="20" respawn="60sec"/>
+		<npc id="21561" total="4" respawn="30sec"/>
+		<npc id="21596" total="3" respawn="90sec">
+			<privates>
+				<private id="21597" weight="1" respawn="0sec"/>
+				<private id="21598" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21567" total="4" respawn="30sec"/>
+		<npc id="21570" total="4" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_08_night" territory="rune09_2116_08" maximumNpcs="92">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="18119" total="12" respawn="60sec"/>
+		<npc id="21564" total="4" respawn="30sec"/>
+		<npc id="21568" total="3" respawn="90sec"/>
+		<npc id="21569" total="4" respawn="30sec"/>
+		<npc id="21566" total="4" respawn="30sec"/>
+		<npc id="21573" total="5" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_09" minZ="-3607" maxZ="-2807">
+		<node x="59147" y="-57639"/>
+		<node x="59410" y="-54956"/>
+		<node x="58373" y="-54061"/>
+		<node x="56759" y="-55546"/>
+		<node x="56378" y="-57632"/>
+		<node x="57310" y="-58768"/>
+	</territory>
+	<npcmaker name="rune09_09_day" territory="rune09_2116_09" maximumNpcs="124">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="18119" total="15" respawn="60sec"/>
+		<npc id="21558" total="6" respawn="30sec"/>
+		<npc id="21559" total="6" respawn="30sec"/>
+		<npc id="21561" total="3" respawn="30sec"/>
+		<npc id="21563" total="4" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_09_night" territory="rune09_2116_09" maximumNpcs="130">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="18119" total="5" respawn="60sec"/>
+		<npc id="21560" total="5" respawn="30sec"/>
+		<npc id="21551" total="5" respawn="30sec"/>
+		<npc id="21552" total="5" respawn="30sec"/>
+		<npc id="21562" total="5" respawn="30sec"/>
+		<npc id="21564" total="5" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_10" minZ="-3515" maxZ="-2715">
+		<node x="59981" y="-54556"/>
+		<node x="60939" y="-53182"/>
+		<node x="60726" y="-52341"/>
+		<node x="59098" y="-52110"/>
+		<node x="58513" y="-53596"/>
+	</territory>
+	<npcmaker name="rune09_10_day" territory="rune09_2116_10" maximumNpcs="28">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21561" total="4" respawn="30sec"/>
+		<npc id="21567" total="2" respawn="30sec"/>
+		<npc id="21565" total="2" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_10_night" territory="rune09_2116_10" maximumNpcs="30">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21562" total="4" respawn="30sec"/>
+		<npc id="21569" total="3" respawn="30sec"/>
+		<npc id="21566" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_11" minZ="-3295" maxZ="-2595">
+		<node x="60753" y="-52237"/>
+		<node x="61459" y="-51067"/>
+		<node x="60988" y="-49341"/>
+		<node x="59148" y="-50895"/>
+		<node x="59142" y="-52067"/>
+	</territory>
+	<npcmaker name="rune09_11_day" territory="rune09_2116_11" maximumNpcs="9">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21563" total="4" respawn="30sec"/>
+		<npc id="21567" total="3" respawn="30sec"/>
+		<npc id="21565" total="2" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_11_night" territory="rune09_2116_11" maximumNpcs="25">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21562" total="3" respawn="30sec"/>
+		<npc id="21569" total="3" respawn="30sec"/>
+		<npc id="21566" total="4" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_12" minZ="-3195" maxZ="-2495">
+		<node x="51547" y="-54171"/>
+		<node x="52883" y="-52822"/>
+		<node x="50208" y="-51055"/>
+		<node x="50231" y="-53713"/>
+	</territory>
+	<npcmaker name="rune09_12_day" territory="rune09_2116_12" maximumNpcs="48">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="18119" total="6" respawn="60sec"/>
+		<npc id="21557" total="2" respawn="30sec"/>
+		<npc id="21563" total="2" respawn="30sec"/>
+		<npc id="21565" total="2" respawn="30sec"/>
+		<npc id="21596" total="2" respawn="90sec">
+			<privates>
+				<private id="21597" weight="1" respawn="0sec"/>
+				<private id="21598" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	<npcmaker name="rune09_12_night" territory="rune09_2116_12" maximumNpcs="66">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="18119" total="8" respawn="60sec"/>
+		<npc id="21560" total="2" respawn="30sec"/>
+		<npc id="21551" total="2" respawn="30sec"/>
+		<npc id="21564" total="2" respawn="30sec"/>
+		<npc id="21568" total="2" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_13" minZ="-3582" maxZ="-2482">
+		<node x="52993" y="-52764"/>
+		<node x="54593" y="-51652"/>
+		<node x="52548" y="-49621"/>
+		<node x="50566" y="-49198"/>
+		<node x="50248" y="-50992"/>
+	</territory>
+	<npcmaker name="rune09_13_day" territory="rune09_2116_13" maximumNpcs="76">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="18119" total="9" respawn="60sec"/>
+		<npc id="21557" total="5" respawn="30sec"/>
+		<npc id="21563" total="5" respawn="30sec"/>
+		<npc id="21565" total="3" respawn="30sec"/>
+		<npc id="21596" total="3" respawn="90sec">
+			<privates>
+				<private id="21597" weight="1" respawn="0sec"/>
+				<private id="21598" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	<npcmaker name="rune09_13_night" territory="rune09_2116_13" maximumNpcs="108">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="18119" total="12" respawn="60sec"/>
+		<npc id="21560" total="3" respawn="30sec"/>
+		<npc id="21551" total="4" respawn="30sec"/>
+		<npc id="21564" total="5" respawn="30sec"/>
+		<npc id="21568" total="4" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_14" minZ="-3762" maxZ="-2562">
+		<node x="58979" y="-50028"/>
+		<node x="58254" y="-47746"/>
+		<node x="55197" y="-46308"/>
+		<node x="53374" y="-47521"/>
+		<node x="53261" y="-49355"/>
+		<node x="55040" y="-50952"/>
+	</territory>
+	<npcmaker name="rune09_14_day" territory="rune09_2116_14" maximumNpcs="168">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="18119" total="18" respawn="60sec"/>
+		<npc id="21570" total="4" respawn="30sec"/>
+		<npc id="21572" total="8" respawn="30sec"/>
+		<npc id="21574" total="6" respawn="30sec"/>
+		<npc id="21575" total="6" respawn="30sec"/>
+		<npc id="21580" total="4" respawn="30sec"/>
+		<npc id="21599" total="4" respawn="90sec">
+			<privates>
+				<private id="21600" weight="1" respawn="0sec"/>
+				<private id="21601" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	<npcmaker name="rune09_14_night" territory="rune09_2116_14" maximumNpcs="210">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="18119" total="15" respawn="60sec"/>
+		<npc id="21573" total="7" respawn="30sec"/>
+		<npc id="21571" total="7" respawn="30sec"/>
+		<npc id="21576" total="7" respawn="30sec"/>
+		<npc id="21577" total="7" respawn="30sec"/>
+		<npc id="21579" total="7" respawn="30sec"/>
+		<npc id="21599" total="5" respawn="90sec">
+			<privates>
+				<private id="21600" weight="1" respawn="0sec"/>
+				<private id="21601" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_15" minZ="-3247" maxZ="-2347">
+		<node x="61271" y="-48011"/>
+		<node x="62135" y="-44855"/>
+		<node x="61207" y="-44065"/>
+		<node x="58383" y="-47642"/>
+		<node x="59055" y="-49908"/>
+	</territory>
+	<npcmaker name="rune09_15_day" territory="rune09_2116_15" maximumNpcs="66">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21570" total="6" respawn="30sec"/>
+		<npc id="21575" total="6" respawn="30sec"/>
+		<npc id="21578" total="3" respawn="30sec"/>
+		<npc id="21580" total="3" respawn="30sec"/>
+		<npc id="21581" total="3" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_15_night" territory="rune09_2116_15" maximumNpcs="76">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21573" total="4" respawn="30sec"/>
+		<npc id="21571" total="4" respawn="30sec"/>
+		<npc id="21576" total="4" respawn="30sec"/>
+		<npc id="21577" total="4" respawn="30sec"/>
+		<npc id="21579" total="4" respawn="30sec"/>
+		<npc id="21582" total="4" respawn="30sec"/>
+		<npc id="21599" total="4" respawn="90sec">
+			<privates>
+				<private id="21600" weight="1" respawn="0sec"/>
+				<private id="21601" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_16" minZ="-3465" maxZ="-2165">
+		<node x="58049" y="-47430"/>
+		<node x="59409" y="-45332"/>
+		<node x="55094" y="-42164"/>
+		<node x="54333" y="-44387"/>
+		<node x="55252" y="-46179"/>
+	</territory>
+	<npcmaker name="rune09_16_day" territory="rune09_2116_16" maximumNpcs="108">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="18119" total="13" respawn="30sec"/>
+		<npc id="21580" total="3" respawn="30sec"/>
+		<npc id="21581" total="3" respawn="30sec"/>
+		<npc id="21584" total="3" respawn="30sec"/>
+		<npc id="21587" total="3" respawn="30sec"/>
+		<npc id="21590" total="3" respawn="30sec"/>
+		<npc id="21593" total="3" respawn="30sec"/>
+		<npc id="21599" total="4" respawn="90sec">
+			<privates>
+				<private id="21600" weight="1" respawn="0sec"/>
+				<private id="21601" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	<npcmaker name="rune09_16_night" territory="rune09_2116_16" maximumNpcs="57">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21579" total="4" respawn="30sec"/>
+		<npc id="21582" total="4" respawn="30sec"/>
+		<npc id="21586" total="4" respawn="30sec"/>
+		<npc id="21585" total="4" respawn="30sec"/>
+		<npc id="21592" total="4" respawn="30sec"/>
+		<npc id="21595" total="4" respawn="30sec"/>
+		<npc id="21589" total="4" respawn="30sec"/>
+		<npc id="21599" total="3" respawn="90sec">
+			<privates>
+				<private id="21600" weight="1" respawn="0sec"/>
+				<private id="21601" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_17" minZ="-3785" maxZ="-2485">
+		<node x="52416" y="-49303"/>
+		<node x="52699" y="-45840"/>
+		<node x="48978" y="-45027"/>
+		<node x="48979" y="-47767"/>
+		<node x="50416" y="-48949"/>
+	</territory>
+	<npcmaker name="rune09_17_day" territory="rune09_2116_17" maximumNpcs="85">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="18119" total="12" respawn="30sec"/>
+		<npc id="21567" total="4" respawn="30sec"/>
+		<npc id="21572" total="5" respawn="30sec"/>
+		<npc id="21574" total="4" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_17_night" territory="rune09_2116_17" maximumNpcs="112">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="18119" total="10" respawn="30sec"/>
+		<npc id="21568" total="4" respawn="30sec"/>
+		<npc id="21573" total="3" respawn="30sec"/>
+		<npc id="21571" total="7" respawn="30sec"/>
+		<npc id="21577" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_18" minZ="-3454" maxZ="-2054">
+		<node x="53057" y="-45111"/>
+		<node x="53121" y="-42263"/>
+		<node x="50824" y="-41678"/>
+		<node x="50259" y="-44275"/>
+		<node x="51907" y="-45600"/>
+	</territory>
+	<npcmaker name="rune09_18_day" territory="rune09_2116_18" maximumNpcs="29">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21575" total="4" respawn="30sec"/>
+		<npc id="21578" total="3" respawn="30sec"/>
+		<npc id="21580" total="3" respawn="30sec"/>
+		<npc id="21583" total="4" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_18_night" territory="rune09_2116_18" maximumNpcs="47">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21571" total="6" respawn="30sec"/>
+		<npc id="21576" total="6" respawn="30sec"/>
+		<npc id="21582" total="5" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_19" minZ="-2919" maxZ="-1519">
+		<node x="52766" y="-41986"/>
+		<node x="51862" y="-38059"/>
+		<node x="50873" y="-37668"/>
+		<node x="48991" y="-38876"/>
+		<node x="50845" y="-41514"/>
+	</territory>
+	<npcmaker name="rune09_19_day" territory="rune09_2116_19" maximumNpcs="35">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21575" total="3" respawn="30sec"/>
+		<npc id="21578" total="4" respawn="30sec"/>
+		<npc id="21583" total="3" respawn="30sec"/>
+		<npc id="21584" total="3" respawn="30sec"/>
+		<npc id="21587" total="2" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_19_night" territory="rune09_2116_19" maximumNpcs="19">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21573" total="5" respawn="30sec"/>
+		<npc id="21576" total="5" respawn="30sec"/>
+		<npc id="21582" total="6" respawn="30sec"/>
+		<npc id="21587" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_20" minZ="-3365" maxZ="-1965">
+		<node x="50050" y="-44770"/>
+		<node x="50552" y="-42189"/>
+		<node x="48201" y="-42970"/>
+		<node x="47781" y="-44506"/>
+		<node x="48779" y="-45614"/>
+	</territory>
+	<npcmaker name="rune09_20_day" territory="rune09_2116_20" maximumNpcs="21">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21570" total="2" respawn="30sec"/>
+		<npc id="21572" total="4" respawn="30sec"/>
+		<npc id="21574" total="3" respawn="30sec"/>
+		<npc id="21580" total="2" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_20_night" territory="rune09_2116_20" maximumNpcs="32">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21571" total="4" respawn="30sec"/>
+		<npc id="21577" total="4" respawn="30sec"/>
+		<npc id="21582" total="4" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_21" minZ="-2506" maxZ="-1506">
+		<node x="50214" y="-42130"/>
+		<node x="48835" y="-39806"/>
+		<node x="46697" y="-41050"/>
+		<node x="46876" y="-42018"/>
+		<node x="48051" y="-42834"/>
+	</territory>
+	<npcmaker name="rune09_21_day" territory="rune09_2116_21" maximumNpcs="19">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21570" total="2" respawn="30sec"/>
+		<npc id="21574" total="4" respawn="30sec"/>
+		<npc id="21581" total="3" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_21_night" territory="rune09_2116_21" maximumNpcs="32">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21573" total="4" respawn="30sec"/>
+		<npc id="21576" total="4" respawn="30sec"/>
+		<npc id="21579" total="4" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_22" minZ="-2272" maxZ="-1372">
+		<node x="48841" y="-39600"/>
+		<node x="47859" y="-38225"/>
+		<node x="46734" y="-38134"/>
+		<node x="45561" y="-39907"/>
+		<node x="46630" y="-40855"/>
+	</territory>
+	<npcmaker name="rune09_22_day" territory="rune09_2116_22" maximumNpcs="28">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21578" total="4" respawn="30sec"/>
+		<npc id="21583" total="1" respawn="30sec"/>
+		<npc id="21584" total="2" respawn="30sec"/>
+		<npc id="21587" total="1" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_22_night" territory="rune09_2116_22" maximumNpcs="10">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21582" total="3" respawn="30sec"/>
+		<npc id="21586" total="3" respawn="30sec"/>
+		<npc id="21594" total="2" respawn="30sec"/>
+		<npc id="21591" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_23" minZ="-2019" maxZ="-1219">
+		<node x="48083" y="-38016"/>
+		<node x="47510" y="-35628"/>
+		<node x="45908" y="-35733"/>
+		<node x="45339" y="-36807"/>
+		<node x="46689" y="-38068"/>
+	</territory>
+	<npcmaker name="rune09_23_day" territory="rune09_2116_23" maximumNpcs="12">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21581" total="3" respawn="30sec"/>
+		<npc id="21583" total="2" respawn="30sec"/>
+		<npc id="21587" total="2" respawn="30sec"/>
+		<npc id="21593" total="2" respawn="30sec"/>
+		<npc id="21599" total="1" respawn="90sec">
+			<privates>
+				<private id="21600" weight="1" respawn="0sec"/>
+				<private id="21601" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	<npcmaker name="rune09_23_night" territory="rune09_2116_23" maximumNpcs="10">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21586" total="3" respawn="30sec"/>
+		<npc id="21585" total="2" respawn="30sec"/>
+		<npc id="21594" total="2" respawn="30sec"/>
+		<npc id="21588" total="2" respawn="30sec"/>
+		<npc id="21589" total="1" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_24" minZ="-2047" maxZ="-1047">
+		<node x="51808" y="-37216"/>
+		<node x="51166" y="-35851"/>
+		<node x="49675" y="-35182"/>
+		<node x="47845" y="-35731"/>
+		<node x="48247" y="-37978"/>
+	</territory>
+	<npcmaker name="rune09_24_day" territory="rune09_2116_24" maximumNpcs="16">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21581" total="3" respawn="30sec"/>
+		<npc id="21584" total="1" respawn="30sec"/>
+		<npc id="21587" total="2" respawn="30sec"/>
+		<npc id="21590" total="2" respawn="30sec"/>
+		<npc id="21593" total="2" respawn="30sec"/>
+		<npc id="21599" total="2" respawn="90sec">
+			<privates>
+				<private id="21600" weight="1" respawn="0sec"/>
+				<private id="21601" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	<npcmaker name="rune09_24_night" territory="rune09_2116_24" maximumNpcs="15">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21586" total="3" respawn="30sec"/>
+		<npc id="21585" total="3" respawn="30sec"/>
+		<npc id="21594" total="3" respawn="30sec"/>
+		<npc id="21588" total="3" respawn="30sec"/>
+		<npc id="21589" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_25" minZ="-3105" maxZ="-1905">
+		<node x="55328" y="-41060"/>
+		<node x="54890" y="-39477"/>
+		<node x="53638" y="-38835"/>
+		<node x="52743" y="-39441"/>
+		<node x="53558" y="-41751"/>
+	</territory>
+	<npcmaker name="rune09_25_day" territory="rune09_2116_25" maximumNpcs="8">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="21583" total="1" respawn="30sec"/>
+		<npc id="21584" total="1" respawn="30sec"/>
+		<npc id="21587" total="2" respawn="30sec"/>
+		<npc id="21590" total="2" respawn="30sec"/>
+		<npc id="21593" total="2" respawn="30sec"/>
+	</npcmaker>
+	<npcmaker name="rune09_25_night" territory="rune09_2116_25" maximumNpcs="10">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21586" total="2" respawn="30sec"/>
+		<npc id="21585" total="2" respawn="30sec"/>
+		<npc id="21591" total="2" respawn="30sec"/>
+		<npc id="21594" total="2" respawn="30sec"/>
+		<npc id="21588" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_2116_26" minZ="-3216" maxZ="-2616">
+		<node x="61742" y="-43011"/>
+		<node x="61991" y="-41266"/>
+		<node x="58288" y="-40739"/>
+		<node x="55959" y="-41439"/>
+		<node x="58733" y="-43587"/>
+		<node x="60332" y="-43914"/>
+	</territory>
+	<npcmaker name="rune09_26_night" territory="rune09_2116_26" maximumNpcs="12">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="21586" total="2" respawn="30sec"/>
+		<npc id="21585" total="2" respawn="30sec"/>
+		<npc id="21592" total="2" respawn="30sec"/>
+		<npc id="21595" total="2" respawn="30sec"/>
+		<npc id="21588" total="2" respawn="30sec"/>
+		<npc id="21589" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_02" minZ="-3210" maxZ="-3010">
+		<node x="51498" y="-54843"/>
+		<node x="52112" y="-55030"/>
+		<node x="52082" y="-54541"/>
+		<node x="51437" y="-54544"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_0201" territory="rune09_npc2116_02" maximumNpcs="117">
+		<ai type="default_maker"/>
+		<npc id="31522" pos="51878;-54796;-3167;22912" total="1" respawn="1min"/>
+		<npc id="31523" pos="51475;-54596;-3155;11040" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_03" minZ="-3220" maxZ="-3020">
+		<node x="51816" y="-51250"/>
+		<node x="52178" y="-51555"/>
+		<node x="52323" y="-51360"/>
+		<node x="51975" y="-51064"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_0301" territory="rune09_npc2116_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31526" pos="51995;-51265;-3104;63472" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_04" minZ="-3445" maxZ="-3245">
+		<node x="49905" y="-47084"/>
+		<node x="50105" y="-47084"/>
+		<node x="50105" y="-46884"/>
+		<node x="49905" y="-46884"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_0401" territory="rune09_npc2116_04" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="31534" pos="49952;-46960;-3396;61832" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_05" minZ="-1682" maxZ="-1482">
+		<node x="46976" y="-36253"/>
+		<node x="47250" y="-36298"/>
+		<node x="47285" y="-35814"/>
+		<node x="46967" y="-35784"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_0501" territory="rune09_npc2116_05" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="31533" pos="47059;-35982;-1635;43344" total="1" respawn="1min"/>
+	</npcmaker>
+	<npcmaker name="rune09_npc2116_0502" territory="rune09_npc2116_05" maximumNpcs="1">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="31532" pos="47108;-36189;-1624;43344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_06" minZ="-744" maxZ="-544">
+		<node x="60046" y="-35958"/>
+		<node x="60246" y="-35958"/>
+		<node x="60246" y="-35758"/>
+		<node x="60046" y="-35758"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_0601" territory="rune09_npc2116_06" maximumNpcs="101">
+		<ai type="default_maker"/>
+		<npc id="31531" pos="60162;-35900;-672;19944" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_07" minZ="-2771" maxZ="-2571">
+		<node x="59616" y="-47745"/>
+		<node x="59816" y="-47745"/>
+		<node x="59816" y="-47545"/>
+		<node x="59616" y="-47545"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_0701" territory="rune09_npc2116_07" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="31535" pos="59753;-47648;-2728;38504" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_08" minZ="-3036" maxZ="-2836">
+		<node x="56313" y="-47255"/>
+		<node x="56513" y="-47255"/>
+		<node x="56513" y="-47055"/>
+		<node x="56313" y="-47055"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_0801" territory="rune09_npc2116_08" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31530" pos="56393;-47191;-2993;54736" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_101" minZ="-2464" maxZ="-2264">
+		<node x="47276" y="-56980"/>
+		<node x="47476" y="-56980"/>
+		<node x="47476" y="-56780"/>
+		<node x="47276" y="-56780"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_101m1" territory="rune09_npc2116_101" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="31656" pos="47376;-56880;-2340;58000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_102" minZ="-1752" maxZ="-1552">
+		<node x="45932" y="-36484"/>
+		<node x="46132" y="-36484"/>
+		<node x="46132" y="-36284"/>
+		<node x="45932" y="-36284"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_102m1" territory="rune09_npc2116_102" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="31657" pos="46016;-36368;-1659;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_21" minZ="-3054" maxZ="-2854">
+		<node x="58708" y="-42778"/>
+		<node x="58908" y="-42778"/>
+		<node x="58908" y="-42578"/>
+		<node x="58708" y="-42578"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_2101" territory="rune09_npc2116_21" maximumNpcs="1">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="31387" pos="58782;-42652;-3004;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_22" minZ="-3054" maxZ="-2854">
+		<node x="59551" y="-42834"/>
+		<node x="59751" y="-42834"/>
+		<node x="59751" y="-42634"/>
+		<node x="59551" y="-42634"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_2201" territory="rune09_npc2116_22" maximumNpcs="1">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="31386" pos="59612;-42775;-2996;13152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_23" minZ="-3054" maxZ="-2854">
+		<node x="59482" y="-41732"/>
+		<node x="59682" y="-41732"/>
+		<node x="59682" y="-41532"/>
+		<node x="59482" y="-41532"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_2301" territory="rune09_npc2116_23" maximumNpcs="1">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="31388" pos="59618;-41675;-3003;45256" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_npc2116_24" minZ="-3054" maxZ="-2854">
+		<node x="60025" y="-42195"/>
+		<node x="60225" y="-42195"/>
+		<node x="60225" y="-41995"/>
+		<node x="60025" y="-41995"/>
+	</territory>
+	<npcmaker name="rune09_npc2116_2401" territory="rune09_npc2116_24" maximumNpcs="1">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="31389" pos="60162;-42069;-3003;36368" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_tb2116_16" minZ="-3465" maxZ="-2165">
+		<node x="58049" y="-47430"/>
+		<node x="59409" y="-45332"/>
+		<node x="55094" y="-42164"/>
+		<node x="54333" y="-44387"/>
+		<node x="55252" y="-46179"/>
+	</territory>
+	<npcmaker name="rune09_tb16_m1" territory="rune09_tb2116_16" maximumNpcs="16">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="18279" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18280" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18281" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18282" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21815" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21816" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21817" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21818" total="2" respawn="2700sec" respawnRand="900sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune09_tb2116_26" minZ="-3216" maxZ="-2616">
+		<node x="61742" y="-43011"/>
+		<node x="61991" y="-41266"/>
+		<node x="58288" y="-40739"/>
+		<node x="55959" y="-41439"/>
+		<node x="58733" y="-43587"/>
+		<node x="60332" y="-43914"/>
+	</territory>
+	<npcmaker name="rune09_tb26_m1" territory="rune09_tb2116_26" maximumNpcs="16">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="0"/>
+		</ai>
+		<npc id="18279" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18280" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18281" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18282" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21815" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21816" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21817" total="2" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21818" total="2" respawn="2700sec" respawnRand="900sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune10_mb2116_01" minZ="-3060" maxZ="-2810">
+		<node x="60056" y="-42856"/>
+		<node x="60254" y="-42112"/>
+		<node x="59393" y="-41412"/>
+		<node x="58528" y="-42009"/>
+		<node x="58969" y="-42638"/>
+	</territory>
+	<npcmaker name="rune10_mb2116_01m1" territory="rune10_mb2116_01" maximumNpcs="8">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="25328" pos="59331;-42403;-3003;0;20%;59709;-42310;-3003;0;20%;59717;-41974;-3003;0;20%;59333;-41858;-3003;0;20%;59047;-42165;-3003;0;20%;" total="1" respawn="3hour" respawnRand="1hour" dbName="raid_boss_von_helman"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune14_2116_01" minZ="-807" maxZ="-557">
+		<node x="35325" y="-50074"/>
+		<node x="35916" y="-50073"/>
+		<node x="35919" y="-49455"/>
+		<node x="35329" y="-49443"/>
+	</territory>
+	<npcmaker name="rune14_2116_01m1" territory="rune14_2116_01" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="18343" pos="35348;-49857;-760;16384" total="1" respawn="15sec"/>
+		<npc id="18343" pos="35349;-49662;-760;49152" total="1" respawn="15sec"/>
+		<npc id="18343" pos="35713;-50050;-760;32768" total="1" respawn="15sec"/>
+		<npc id="18343" pos="35517;-50049;-760;0" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune14_2116_02" minZ="-806" maxZ="-606">
+		<node x="34719" y="-50002"/>
+		<node x="35105" y="-50002"/>
+		<node x="35105" y="-49502"/>
+		<node x="34721" y="-49501"/>
+	</territory>
+	<npcmaker name="rune14_2116_01m2" territory="rune14_2116_02" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="18343" pos="35033;-49669;-760;49152" total="1" respawn="15sec"/>
+		<npc id="18343" pos="35035;-49850;-760;16384" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune_2116_pg01" minZ="-1098" maxZ="-728">
+		<node x="43134" y="-47480"/>
+		<node x="43986" y="-46946"/>
+		<node x="43944" y="-46655"/>
+		<node x="43114" y="-45701"/>
+		<node x="42570" y="-45804"/>
+		<node x="42398" y="-46689"/>
+	</territory>
+	<territory name="rune_2116_pg02" minZ="-910" maxZ="-710">
+		<node x="42713" y="-48524"/>
+		<node x="44295" y="-48403"/>
+		<node x="44227" y="-47672"/>
+		<node x="43627" y="-47676"/>
+		<node x="43429" y="-47186"/>
+		<node x="42694" y="-47959"/>
+	</territory>
+	<territory name="rune_2116_pg03" minZ="-910" maxZ="-710">
+		<node x="44896" y="-48405"/>
+		<node x="46419" y="-48255"/>
+		<node x="46038" y="-47915"/>
+		<node x="45771" y="-47431"/>
+		<node x="44759" y="-47521"/>
+	</territory>
+	<territory name="rune_2116_pg04" minZ="-910" maxZ="-710">
+		<node x="45415" y="-49523"/>
+		<node x="46554" y="-49492"/>
+		<node x="46619" y="-49033"/>
+		<node x="46795" y="-48709"/>
+		<node x="46713" y="-48282"/>
+		<node x="45816" y="-48339"/>
+	</territory>
+	<territory name="rune_2116_pg05" minZ="-910" maxZ="-710">
+		<node x="43195" y="-50862"/>
+		<node x="44027" y="-51150"/>
+		<node x="45527" y="-50218"/>
+		<node x="45257" y="-49354"/>
+		<node x="44704" y="-49646"/>
+		<node x="43685" y="-49559"/>
+	</territory>
+	<territory name="rune_2116_pg06" minZ="-910" maxZ="-710">
+		<node x="45280" y="-51298"/>
+		<node x="46285" y="-51404"/>
+		<node x="46825" y="-50865"/>
+		<node x="46527" y="-49563"/>
+		<node x="46006" y="-49580"/>
+		<node x="46162" y="-50531"/>
+	</territory>
+	<territory name="rune_2116_pg07" minZ="-910" maxZ="-710">
+		<node x="41326" y="-52300"/>
+		<node x="42611" y="-52364"/>
+		<node x="42881" y="-51881"/>
+		<node x="43868" y="-51141"/>
+		<node x="43032" y="-50866"/>
+	</territory>
+	<npcmaker name="rune_2116_pg01m1" territory="rune_2116_pg01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="43069;-46845;-800;4152" total="1" respawn="1min"/>
+	</npcmaker>
+	<npcmaker name="rune_2116_pg01m2" territory="rune_2116_pg01" maximumNpcs="21">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="7" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="rune_2116_pg02m1" territory="rune_2116_pg02" maximumNpcs="21">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="7" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="rune_2116_pg03m1" territory="rune_2116_pg03" maximumNpcs="21">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="7" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="rune_2116_pg04m1" territory="rune_2116_pg04" maximumNpcs="21">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="7" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="rune_2116_pg05m1" territory="rune_2116_pg05" maximumNpcs="21">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="7" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="rune_2116_pg06m1" territory="rune_2116_pg06" maximumNpcs="21">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="7" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="rune_2116_pg07m1" territory="rune_2116_pg07" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="42352;-51600;-800;57816" total="1" respawn="1min"/>
+	</npcmaker>
+	<npcmaker name="rune_2116_pg07m2" territory="rune_2116_pg07" maximumNpcs="39">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="13" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="rune_2116_pgm01" territory="rune_2116_pg01;rune_2116_pg02;rune_2116_pg03;rune_2116_pg04;rune_2116_pg05;rune_2116_pg06;rune_2116_pg07" maximumNpcs="7">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13035" total="1" respawn="10min" respawnRand="3min"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+	</npcmaker>
+</list>

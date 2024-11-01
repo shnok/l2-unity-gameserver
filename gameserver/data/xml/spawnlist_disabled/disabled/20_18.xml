@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Dark Elven Area
+ * Dark Elven Village
+ * Shilen Temple
+ * Shilen's Garden
+-->
+<list>
+	<!--  -->
+	<territory name="20_18_net_cafe_event_1_01" minZ="-4692" maxZ="-4492">
+		<node x="11180" y="15564"/>
+		<node x="11380" y="15564"/>
+		<node x="11380" y="15764"/>
+		<node x="11180" y="15764"/>
+	</territory>
+	<npcmaker name="20_18_net_cafe_event_1_01m1" territory="20_18_net_cafe_event_1_01" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="11281;15652;-4584;25000" total="1" respawn="1min"/>
+	</npcmaker>
+	<npcmaker name="20_18_net_cafe_event_1_01m2" territory="20_18_net_cafe_event_1_01" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="11303;17732;-4574;57344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_g01" minZ="-3788" maxZ="-2988">
+		<node x="21578" y="15481"/>
+		<node x="32446" y="12033"/>
+		<node x="32415" y="19776"/>
+		<node x="24380" y="23747"/>
+		<node x="20200" y="20476"/>
+	</territory>
+	<npcmaker name="oren07_npc2018_g01m1" territory="oren07_npc2018_g01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31034" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_g02" minZ="-3811" maxZ="-2911">
+		<node x="16561" y="5199"/>
+		<node x="22410" y="5106"/>
+		<node x="26151" y="13788"/>
+		<node x="21502" y="15081"/>
+	</territory>
+	<npcmaker name="oren07_npc2018_g02m1" territory="oren07_npc2018_g02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31034" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_g03" minZ="-3825" maxZ="-3225">
+		<node x="22488" y="4692"/>
+		<node x="25244" y="3445"/>
+		<node x="30523" y="5031"/>
+		<node x="28846" y="7832"/>
+		<node x="25236" y="10703"/>
+	</territory>
+	<npcmaker name="oren07_npc2018_g03m1" territory="oren07_npc2018_g03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31034" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_g04" minZ="-3453" maxZ="-2253">
+		<node x="7992" y="8001"/>
+		<node x="8651" y="2646"/>
+		<node x="16332" y="5247"/>
+		<node x="17634" y="6967"/>
+		<node x="11313" y="8233"/>
+	</territory>
+	<npcmaker name="oren07_npc2018_g04m1" territory="oren07_npc2018_g04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31034" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_g05" minZ="-3511" maxZ="-2511">
+		<node x="179" y="4048"/>
+		<node x="2737" y="3249"/>
+		<node x="3874" y="3455"/>
+		<node x="4324" y="11027"/>
+		<node x="159" y="20078"/>
+	</territory>
+	<npcmaker name="oren07_npc2018_g05m1" territory="oren07_npc2018_g05" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31034" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_g06" minZ="-3822" maxZ="-3022">
+		<node x="6901" y="27926"/>
+		<node x="4625" y="25849"/>
+		<node x="9867" y="24404"/>
+		<node x="15956" y="28897"/>
+		<node x="10621" y="29990"/>
+	</territory>
+	<npcmaker name="oren07_npc2018_g06m1" territory="oren07_npc2018_g06" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31034" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd001" minZ="-3776" maxZ="-3476">
+		<node x="28316" y="4256"/>
+		<node x="32496" y="5352"/>
+		<node x="32480" y="10004"/>
+		<node x="29872" y="9844"/>
+		<node x="28316" y="8608"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd001m1" territory="oren07_npc2018_gd001" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31850" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd002" minZ="-3772" maxZ="-3372">
+		<node x="25400" y="3308"/>
+		<node x="28168" y="4256"/>
+		<node x="28112" y="8492"/>
+		<node x="24788" y="10940"/>
+		<node x="19620" y="10848"/>
+		<node x="17048" y="7948"/>
+		<node x="18780" y="6020"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd002m1" territory="oren07_npc2018_gd002" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31845" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd003" minZ="-3776" maxZ="-3476">
+		<node x="30036" y="12200"/>
+		<node x="32420" y="11992"/>
+		<node x="32460" y="19600"/>
+		<node x="29828" y="20712"/>
+		<node x="28004" y="19996"/>
+		<node x="28076" y="13480"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd003m1" territory="oren07_npc2018_gd003" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31850" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd004" minZ="-3800" maxZ="-3300">
+		<node x="20860" y="11156"/>
+		<node x="24796" y="11200"/>
+		<node x="27824" y="13536"/>
+		<node x="27848" y="17312"/>
+		<node x="20804" y="18276"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd004m1" territory="oren07_npc2018_gd004" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31845" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd005" minZ="-3724" maxZ="-3324">
+		<node x="20836" y="18416"/>
+		<node x="27852" y="17404"/>
+		<node x="27816" y="21108"/>
+		<node x="25100" y="23292"/>
+		<node x="22372" y="22700"/>
+		<node x="20428" y="20000"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd005m1" territory="oren07_npc2018_gd005" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31850" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd006" minZ="-3656" maxZ="-2706">
+		<node x="12808" y="4404"/>
+		<node x="18760" y="5752"/>
+		<node x="16808" y="8040"/>
+		<node x="11224" y="7332"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd006m1" territory="oren07_npc2018_gd006" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31850" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd007" minZ="-3168" maxZ="-2418">
+		<node x="8468" y="2476"/>
+		<node x="12692" y="4392"/>
+		<node x="10668" y="7916"/>
+		<node x="6240" y="8240"/>
+		<node x="4324" y="3544"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd007m1" territory="oren07_npc2018_gd007" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31845" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd008" minZ="-3436" maxZ="-2786">
+		<node x="2472" y="3168"/>
+		<node x="4252" y="3448"/>
+		<node x="6028" y="7676"/>
+		<node x="2504" y="13380"/>
+		<node x="236" y="13532"/>
+		<node x="324" y="4196"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd008m1" territory="oren07_npc2018_gd008" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31850" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd009" minZ="-3380" maxZ="-2980">
+		<node x="244" y="13704"/>
+		<node x="2492" y="13688"/>
+		<node x="2208" y="16292"/>
+		<node x="204" y="18316"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd009m1" territory="oren07_npc2018_gd009" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31845" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd010" minZ="-3768" maxZ="-3118">
+		<node x="112" y="21584"/>
+		<node x="4076" y="21172"/>
+		<node x="3344" y="23868"/>
+		<node x="1272" y="24096"/>
+		<node x="104" y="23532"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd010m1" territory="oren07_npc2018_gd010" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31845" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc2018_gd011" minZ="-3764" maxZ="-3314">
+		<node x="8052" y="24820"/>
+		<node x="11076" y="24872"/>
+		<node x="15976" y="29020"/>
+		<node x="10076" y="29568"/>
+		<node x="5496" y="26128"/>
+	</territory>
+	<npcmaker name="oren_npc2018_gd011m1" territory="oren07_npc2018_gd011" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31850" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren08_npc2018_s01" minZ="-4268" maxZ="-4068">
+		<node x="27820" y="10364"/>
+		<node x="29036" y="10356"/>
+		<node x="29032" y="11724"/>
+		<node x="27856" y="11720"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_s0101" territory="oren08_npc2018_s01" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30129" pos="28384;11008;-4233;32000" total="1" respawn="1min"/>
+		<npc id="30131" pos="28384;11056;-4233;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren08_npc2018_s02" minZ="-3776" maxZ="-3576">
+		<node x="27831" y="12940"/>
+		<node x="28294" y="12942"/>
+		<node x="28164" y="13188"/>
+		<node x="27964" y="13188"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_s0201" territory="oren08_npc2018_s02" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30132" pos="28225;12998;-3725;16500" total="1" respawn="1min"/>
+		<npc id="30133" pos="27921;12991;-3728;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren08_npc2018_s03" minZ="-4274" maxZ="-4074">
+		<node x="28524" y="10540"/>
+		<node x="28724" y="10540"/>
+		<node x="28724" y="10740"/>
+		<node x="28524" y="10740"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_s0301" territory="oren08_npc2018_s03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30130" pos="25856;10832;-3724;24576" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc1921_bk01" minZ="-4692" maxZ="-4492">
+		<node x="11180" y="15564"/>
+		<node x="11380" y="15564"/>
+		<node x="11380" y="15764"/>
+		<node x="11180" y="15764"/>
+	</territory>
+	<npcmaker name="oren09_npc1921_bk01" territory="oren09_npc1921_bk01" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="11281;15652;-4584;25000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc1921_bk02" minZ="-4680" maxZ="-4480">
+		<node x="11196" y="17612"/>
+		<node x="11396" y="17612"/>
+		<node x="11396" y="17812"/>
+		<node x="11196" y="17812"/>
+	</territory>
+	<npcmaker name="oren09_npc1921_bk02" territory="oren09_npc1921_bk02" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="11303;17732;-4574;57344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_001" minZ="-4697" maxZ="-4497">
+		<node x="12012" y="16572"/>
+		<node x="12212" y="16572"/>
+		<node x="12212" y="16772"/>
+		<node x="12012" y="16772"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_00101" territory="oren09_npc2018_001" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30600" pos="12111;16686;-4582;63240" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_002" minZ="-3776" maxZ="-3576">
+		<node x="16940" y="13212"/>
+		<node x="17140" y="13212"/>
+		<node x="17140" y="13412"/>
+		<node x="16940" y="13412"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_00201" territory="oren09_npc2018_002" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30600" pos="17024;13296;-3744;62000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_003" minZ="-4384" maxZ="-4184">
+		<node x="10279" y="14273"/>
+		<node x="11255" y="14044"/>
+		<node x="11373" y="14451"/>
+		<node x="10373" y="14679"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_00301" territory="oren09_npc2018_003" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="30141" pos="11012;14128;-4242;14500" total="1" respawn="1min"/>
+		<npc id="30359" pos="11235;14078;-4242;24576" total="1" respawn="1min"/>
+		<npc id="30144" pos="10344;14445;-4242;63640" total="1" respawn="1min"/>
+		<npc id="30360" pos="10447;14620;-4242;46500" total="1" respawn="1min"/>
+		<npc id="30143" pos="11283;14226;-4242;31000" total="1" respawn="1min"/>
+		<npc id="30358" pos="10775;14190;-4242;14500" total="1" respawn="1min"/>
+		<npc id="30305" pos="10315;14293;-4242;4096" total="1" respawn="1min"/>
+		<npc id="30145" pos="11258;14431;-4242;46500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_004" minZ="-4694" maxZ="-4494">
+		<node x="13323" y="17405"/>
+		<node x="13784" y="17348"/>
+		<node x="13858" y="17670"/>
+		<node x="13379" y="17795"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_00401" territory="oren09_npc2018_004" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30350" pos="13763;17501;-4542;30768" total="1" respawn="1min"/>
+		<npc id="30140" pos="13464;17751;-4541;47000" total="1" respawn="1min"/>
+		<npc id="30139" pos="13380;17430;-4542;14384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_005" minZ="-4710" maxZ="-4510">
+		<node x="10523" y="17544"/>
+		<node x="10651" y="17508"/>
+		<node x="10893" y="18011"/>
+		<node x="10776" y="18103"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_00501" territory="oren09_npc2018_005" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30136" pos="10823;18013;-4554;61440" total="1" respawn="1min"/>
+		<npc id="30307" pos="10580;17574;-4554;14000" total="1" respawn="1min"/>
+		<npc id="30135" pos="10761;17970;-4554;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_006" minZ="-4710" maxZ="-4510">
+		<node x="11804" y="15644"/>
+		<node x="12022" y="15607"/>
+		<node x="12076" y="15841"/>
+		<node x="11804" y="15844"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_00601" territory="oren09_npc2018_006" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30137" pos="11951;15661;-4554;28672" total="1" respawn="1min"/>
+		<npc id="30138" pos="12009;15704;-4554;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_007" minZ="-3831" maxZ="-3631">
+		<node x="6368" y="19555"/>
+		<node x="6569" y="19506"/>
+		<node x="6695" y="19926"/>
+		<node x="6515" y="20007"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_00701" territory="oren09_npc2018_007" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30347" pos="6449;19619;-3694;30000" total="1" respawn="1min"/>
+		<npc id="30346" pos="6532;19903;-3693;30000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_008" minZ="-4016" maxZ="-3516">
+		<node x="16768" y="13028"/>
+		<node x="17315" y="12736"/>
+		<node x="17557" y="13726"/>
+		<node x="17000" y="13707"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_00801" territory="oren09_npc2018_008" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30348" pos="17306;13592;-3724;0" total="1" respawn="1min"/>
+		<npc id="30349" pos="17102;13002;-3743;61440" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_009" minZ="-4717" maxZ="-4517">
+		<node x="12220" y="14876"/>
+		<node x="12420" y="14876"/>
+		<node x="12420" y="15076"/>
+		<node x="12220" y="15076"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_00901" territory="oren09_npc2018_009" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30351" pos="12328;14947;-4574;21000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_010" minZ="-4710" maxZ="-4510">
+		<node x="9596" y="15452"/>
+		<node x="9796" y="15452"/>
+		<node x="9796" y="15652"/>
+		<node x="9596" y="15652"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_01001" territory="oren09_npc2018_010" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30134" pos="9670;15537;-4574;5892" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_011" minZ="-4714" maxZ="-4514">
+		<node x="10220" y="18716"/>
+		<node x="10420" y="18716"/>
+		<node x="10420" y="18916"/>
+		<node x="10220" y="18916"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_01101" territory="oren09_npc2018_011" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30352" pos="10301;18870;-4574;55344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_012" minZ="-4706" maxZ="-4506">
+		<node x="12188" y="17356"/>
+		<node x="12388" y="17356"/>
+		<node x="12388" y="17556"/>
+		<node x="12188" y="17556"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_01201" territory="oren09_npc2018_012" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30354" pos="12311;17470;-4574;40960" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_013" minZ="-4707" maxZ="-4507">
+		<node x="12972" y="18316"/>
+		<node x="13172" y="18316"/>
+		<node x="13172" y="18516"/>
+		<node x="12972" y="18516"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_01301" territory="oren09_npc2018_013" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30353" pos="13081;18444;-4573;46152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_014" minZ="-4493" maxZ="-4293">
+		<node x="7420" y="17277"/>
+		<node x="7684" y="17204"/>
+		<node x="7734" y="18145"/>
+		<node x="7427" y="18349"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_01401" territory="oren09_npc2018_014" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30357" pos="7644;18048;-4377;47052" total="1" respawn="1min"/>
+		<npc id="30356" pos="7496;17388;-4377;13384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_015" minZ="-4511" maxZ="-4311">
+		<node x="15027" y="15572"/>
+		<node x="15299" y="15527"/>
+		<node x="15337" y="16443"/>
+		<node x="15076" y="16508"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_01501" territory="oren09_npc2018_015" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30355" pos="15272;16310;-4377;47352" total="1" respawn="1min"/>
+		<npc id="30224" pos="15120;15656;-4376;14384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_016" minZ="-4630" maxZ="-4430">
+		<node x="9291" y="17663"/>
+		<node x="9491" y="17663"/>
+		<node x="9491" y="17863"/>
+		<node x="9291" y="17863"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_01601" territory="oren09_npc2018_016" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35231" pos="9383;17746;-4572;46256" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_017" minZ="-4283" maxZ="-4083">
+		<node x="10652" y="14380"/>
+		<node x="10852" y="14380"/>
+		<node x="10852" y="14580"/>
+		<node x="10652" y="14580"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_01701" territory="oren09_npc2018_017" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31415" pos="10736;14496;-4240;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_018" minZ="-4600" maxZ="-4400">
+		<node x="11548" y="15756"/>
+		<node x="11748" y="15756"/>
+		<node x="11748" y="15956"/>
+		<node x="11548" y="15956"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_01801" territory="oren09_npc2018_018" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31564" pos="11648;15872;-4553;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_019" minZ="-4617" maxZ="-4417">
+		<node x="9644" y="16604"/>
+		<node x="9844" y="16604"/>
+		<node x="9844" y="16804"/>
+		<node x="9644" y="16804"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_01901" territory="oren09_npc2018_019" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31688" pos="9680;16672;-4572;14000" total="1" respawn="1min"/>
+		<npc id="31770" pos="9760;16656;-4572;14000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_020" minZ="-4644" maxZ="-4444">
+		<node x="11996" y="16540"/>
+		<node x="12196" y="16540"/>
+		<node x="12196" y="16740"/>
+		<node x="11996" y="16740"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_02001" territory="oren09_npc2018_020" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31777" pos="12100;16635;-4584;63000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_021" minZ="-4208" maxZ="-4008">
+		<node x="16748" y="14908"/>
+		<node x="16948" y="14908"/>
+		<node x="16948" y="15108"/>
+		<node x="16748" y="15108"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_02101" territory="oren09_npc2018_021" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31778" pos="16864;15024;-4128;30000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_022" minZ="-4128" maxZ="-3928">
+		<node x="6176" y="18636"/>
+		<node x="6376" y="18636"/>
+		<node x="6376" y="18836"/>
+		<node x="6176" y="18836"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_02201" territory="oren09_npc2018_022" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31779" pos="6256;18768;-4029;57000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_2c01" minZ="-4632" maxZ="-4432">
+		<node x="11228" y="15868"/>
+		<node x="11428" y="15868"/>
+		<node x="11428" y="16068"/>
+		<node x="11228" y="16068"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_2c01" territory="oren09_npc2018_2c01" event="test_2nd_class" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31756" pos="11340;15972;-4577;14000" total="1" respawn="1min"/>
+		<npc id="31757" pos="11353;16022;-4577;14000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_2c02" minZ="-4624" maxZ="-4424">
+		<node x="10876" y="17452"/>
+		<node x="11076" y="17452"/>
+		<node x="11076" y="17652"/>
+		<node x="10876" y="17652"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_2c02" territory="oren09_npc2018_2c02" event="test_2nd_class" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31756" pos="10968;17540;-4567;55000" total="1" respawn="1min"/>
+		<npc id="31757" pos="10918;17511;-4567;55000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_eg01" minZ="-4628" maxZ="-4428">
+		<node x="9580" y="15372"/>
+		<node x="9780" y="15372"/>
+		<node x="9780" y="15572"/>
+		<node x="9580" y="15572"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_eg01" territory="oren09_npc2018_eg01" event="event_gate" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31214" pos="9693;15478;-4568;6000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_fi01" minZ="-4636" maxZ="-4436">
+		<node x="11548" y="15932"/>
+		<node x="11748" y="15932"/>
+		<node x="11748" y="16132"/>
+		<node x="11548" y="16132"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_fi01" territory="oren09_npc2018_fi01" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="11658;16027;-4568;22000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_ht01" minZ="-4692" maxZ="-4492">
+		<node x="11180" y="15564"/>
+		<node x="11380" y="15564"/>
+		<node x="11380" y="15764"/>
+		<node x="11180" y="15764"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_ht01" territory="oren09_npc2018_ht01" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="11281;15652;-4584;25000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_ht02" minZ="-4680" maxZ="-4480">
+		<node x="11196" y="17612"/>
+		<node x="11396" y="17612"/>
+		<node x="11396" y="17812"/>
+		<node x="11196" y="17812"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_ht02" territory="oren09_npc2018_ht02" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="11303;17732;-4574;57344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_lc01" minZ="-4692" maxZ="-4492">
+		<node x="11180" y="15564"/>
+		<node x="11380" y="15564"/>
+		<node x="11380" y="15764"/>
+		<node x="11180" y="15764"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_lc01" territory="oren09_npc2018_lc01" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31856" pos="11281;15652;-4584;25000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_lc02" minZ="-4680" maxZ="-4480">
+		<node x="11196" y="17612"/>
+		<node x="11396" y="17612"/>
+		<node x="11396" y="17812"/>
+		<node x="11196" y="17812"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_lc02" territory="oren09_npc2018_lc02" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31856" pos="11303;17732;-4574;57344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_md01" minZ="-4692" maxZ="-4492">
+		<node x="11180" y="15564"/>
+		<node x="11380" y="15564"/>
+		<node x="11380" y="15764"/>
+		<node x="11180" y="15764"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_md01" territory="oren09_npc2018_md01" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="11281;15652;-4584;25000" total="1" respawn="1min"/>
+		<npc id="31229" pos="11327;15682;-4584;25000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_md02" minZ="-4680" maxZ="-4480">
+		<node x="11196" y="17612"/>
+		<node x="11396" y="17612"/>
+		<node x="11396" y="17812"/>
+		<node x="11196" y="17812"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_md02" territory="oren09_npc2018_md02" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="11303;17732;-4574;57344" total="1" respawn="1min"/>
+		<npc id="31229" pos="11243;17712;-4574;57344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_sw01" minZ="-4632" maxZ="-4432">
+		<node x="11228" y="15868"/>
+		<node x="11428" y="15868"/>
+		<node x="11428" y="16068"/>
+		<node x="11228" y="16068"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_sw01" territory="oren09_npc2018_sw01" event="start_weapon" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31760" pos="11340;15972;-4582;14000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_sw02" minZ="-4624" maxZ="-4424">
+		<node x="10876" y="17452"/>
+		<node x="11076" y="17452"/>
+		<node x="11076" y="17652"/>
+		<node x="10876" y="17652"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_sw02" territory="oren09_npc2018_sw02" event="start_weapon" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31760" pos="10968;17540;-4572;55000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_tb01" minZ="-4692" maxZ="-4492">
+		<node x="11180" y="15586"/>
+		<node x="11321" y="15581"/>
+		<node x="11374" y="15792"/>
+		<node x="11180" y="15786"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_tb01m1" territory="oren09_npc2018_tb01" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="11286;15675;-4584;29712" total="1" respawn="1min"/>
+		<npc id="13036" pos="11291;15590;-4581;49359" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11338;15743;-4582;10712" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11250;15598;-4581;44735" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11216;15622;-4581;40329" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11200;15665;-4581;32575" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11222;15731;-4582;25944" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11259;15754;-4582;18968" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11298;15758;-4582;15568" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_tb02" minZ="-4680" maxZ="-4480">
+		<node x="11311" y="17651"/>
+		<node x="11511" y="17651"/>
+		<node x="11511" y="17851"/>
+		<node x="11311" y="17851"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_tb02m1" territory="oren09_npc2018_tb02" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="11400;17767;-4574;63847" total="1" respawn="1min"/>
+		<npc id="13036" pos="11390;17845;-4571;17399" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11354;17689;-4572;44288" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11431;17840;-4571;12775" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11466;17819;-4571;8369" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11486;17777;-4571;615" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11469;17710;-4572;59520" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11434;17684;-4572;52544" total="1" respawn="15sec"/>
+		<npc id="13036" pos="11395;17677;-4572;49144" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_tk01" minZ="-4609" maxZ="-4409">
+		<node x="9516" y="15500"/>
+		<node x="9716" y="15500"/>
+		<node x="9716" y="15700"/>
+		<node x="9516" y="15700"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_tk01" territory="oren09_npc2018_tk01" event="18age" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30992" pos="9656;15578;-4574;6000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_wp1" minZ="-4312" maxZ="-4112">
+		<node x="10892" y="14524"/>
+		<node x="11092" y="14524"/>
+		<node x="11092" y="14724"/>
+		<node x="10892" y="14724"/>
+	</territory>
+	<npcmaker name="oren09_alhena01" territory="oren09_npc2018_wp1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31360" pos="10976;14616;-4246;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_xm01" minZ="-4692" maxZ="-4492">
+		<node x="11180" y="15564"/>
+		<node x="11380" y="15564"/>
+		<node x="11380" y="15764"/>
+		<node x="11180" y="15764"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_xm01" territory="oren09_npc2018_xm01" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31863" pos="11281;15652;-4584;25000" total="1" respawn="1min"/>
+		<npc id="13006" pos="11327;15682;-4584;25000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren09_npc2018_xm02" minZ="-4680" maxZ="-4480">
+		<node x="11196" y="17612"/>
+		<node x="11396" y="17612"/>
+		<node x="11396" y="17812"/>
+		<node x="11196" y="17812"/>
+	</territory>
+	<npcmaker name="oren09_npc2018_xm02" territory="oren09_npc2018_xm02" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31863" pos="11303;17732;-4574;57344" total="1" respawn="1min"/>
+		<npc id="13006" pos="11243;17712;-4574;57344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_01" minZ="-3841" maxZ="-3241">
+		<node x="28698" y="13261"/>
+		<node x="32528" y="11772"/>
+		<node x="32532" y="15921"/>
+		<node x="28836" y="15849"/>
+	</territory>
+	<npcmaker name="oren23_2018_01m1" territory="oren23_2018_01" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20456" total="3" respawn="15sec"/>
+		<npc id="20003" total="5" respawn="15sec"/>
+		<npc id="20004" total="2" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_02" minZ="-3841" maxZ="-3341">
+		<node x="28663" y="15962"/>
+		<node x="32510" y="16021"/>
+		<node x="30495" y="20648"/>
+		<node x="28305" y="20243"/>
+	</territory>
+	<npcmaker name="oren23_2018_02m1" territory="oren23_2018_02" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20003" total="3" respawn="15sec"/>
+		<npc id="20004" total="3" respawn="15sec"/>
+		<npc id="20005" total="4" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_03" minZ="-3841" maxZ="-3341">
+		<node x="25541" y="11582"/>
+		<node x="28378" y="13608"/>
+		<node x="28587" y="15902"/>
+		<node x="25106" y="15582"/>
+		<node x="23063" y="11697"/>
+	</territory>
+	<npcmaker name="oren23_2018_03m1" territory="oren23_2018_03" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20529" total="6" respawn="15sec"/>
+		<npc id="20536" total="4" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_04" minZ="-3841" maxZ="-3341">
+		<node x="25163" y="15686"/>
+		<node x="28557" y="16019"/>
+		<node x="28210" y="20279"/>
+		<node x="26644" y="21609"/>
+		<node x="24096" y="17724"/>
+	</territory>
+	<npcmaker name="oren23_2018_04m1" territory="oren23_2018_04" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20532" total="3" respawn="15sec"/>
+		<npc id="20536" total="5" respawn="15sec"/>
+		<npc id="20456" total="2" respawn="15sec"/>
+		<npc id="20003" total="2" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_05" minZ="-3841" maxZ="-3341">
+		<node x="21023" y="12162"/>
+		<node x="22981" y="11725"/>
+		<node x="25071" y="15668"/>
+		<node x="23992" y="17700"/>
+		<node x="20863" y="17800"/>
+	</territory>
+	<npcmaker name="oren23_2018_05m1" territory="oren23_2018_05" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20529" total="4" respawn="15sec"/>
+		<npc id="20532" total="4" respawn="15sec"/>
+		<npc id="20536" total="4" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_06" minZ="-3841" maxZ="-3241">
+		<node x="20851" y="17898"/>
+		<node x="24023" y="17778"/>
+		<node x="26626" y="21687"/>
+		<node x="23786" y="23599"/>
+		<node x="19844" y="19911"/>
+	</territory>
+	<npcmaker name="oren23_2018_06m1" territory="oren23_2018_06" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20456" total="5" respawn="15sec"/>
+		<npc id="20003" total="3" respawn="15sec"/>
+		<npc id="20004" total="2" respawn="15sec"/>
+		<npc id="20005" total="2" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_07" minZ="-3813" maxZ="-3313">
+		<node x="27578" y="4375"/>
+		<node x="31421" y="5965"/>
+		<node x="32433" y="9577"/>
+		<node x="29722" y="9513"/>
+		<node x="27787" y="8019"/>
+	</territory>
+	<npcmaker name="oren23_2018_07m1" territory="oren23_2018_07" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20003" total="2" respawn="15sec"/>
+		<npc id="20004" total="3" respawn="15sec"/>
+		<npc id="20005" total="5" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_08" minZ="-3813" maxZ="-3313">
+		<node x="18955" y="8948"/>
+		<node x="23471" y="7295"/>
+		<node x="27596" y="8002"/>
+		<node x="25389" y="10438"/>
+		<node x="20667" y="10575"/>
+	</territory>
+	<npcmaker name="oren23_2018_08m1" territory="oren23_2018_08" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20529" total="4" respawn="15sec"/>
+		<npc id="20532" total="6" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_09" minZ="-3813" maxZ="-3313">
+		<node x="21699" y="4773"/>
+		<node x="25523" y="3367"/>
+		<node x="27454" y="4361"/>
+		<node x="27648" y="7884"/>
+		<node x="23500" y="7171"/>
+	</territory>
+	<npcmaker name="oren23_2018_09m1" territory="oren23_2018_09" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="20456" total="3" respawn="15sec"/>
+		<npc id="20004" total="4" respawn="15sec"/>
+		<npc id="20005" total="4" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_10" minZ="-3785" maxZ="-3185">
+		<node x="18464" y="5925"/>
+		<node x="21852" y="5271"/>
+		<node x="23309" y="7174"/>
+		<node x="18868" y="8829"/>
+		<node x="17239" y="7454"/>
+	</territory>
+	<npcmaker name="oren23_2018_10m1" territory="oren23_2018_10" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20456" total="3" respawn="15sec"/>
+		<npc id="20003" total="4" respawn="15sec"/>
+		<npc id="20004" total="3" respawn="15sec"/>
+		<npc id="20005" total="2" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_14" minZ="-3743" maxZ="-3143">
+		<node x="250" y="21362"/>
+		<node x="3471" y="21918"/>
+		<node x="3044" y="23649"/>
+		<node x="195" y="23257"/>
+	</territory>
+	<npcmaker name="oren23_2018_14m1" territory="oren23_2018_14" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20004" total="2" respawn="15sec"/>
+		<npc id="20005" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_15s" minZ="-3788" maxZ="-3288">
+		<node x="22575" y="8778"/>
+		<node x="25374" y="7911"/>
+		<node x="26382" y="8997"/>
+		<node x="25291" y="10175"/>
+		<node x="22858" y="10173"/>
+	</territory>
+	<npcmaker name="oren23_2018_15sm1" territory="oren23_2018_15s" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20529" total="5" respawn="15sec"/>
+		<npc id="20532" total="3" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_2018_16s" minZ="-3788" maxZ="-3288">
+		<node x="23945" y="12538"/>
+		<node x="25276" y="11848"/>
+		<node x="26784" y="13578"/>
+		<node x="25225" y="15054"/>
+	</territory>
+	<npcmaker name="oren23_2018_16sm1" territory="oren23_2018_16s" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20529" total="5" respawn="15sec"/>
+		<npc id="20532" total="3" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_npc2018_pg1" minZ="-3900" maxZ="-3400">
+		<node x="18279" y="8183"/>
+		<node x="25388" y="8500"/>
+		<node x="25987" y="15184"/>
+		<node x="21702" y="14386"/>
+	</territory>
+	<npcmaker name="oren23_npc2018_pg1m1" territory="oren23_npc2018_pg1" maximumNpcs="67">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="20" respawn="20sec"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+		<npc id="13035" total="1" respawn="10min" respawnRand="2min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_npc2018_pg2" minZ="-3840" maxZ="-3340">
+		<node x="18380" y="12668"/>
+		<node x="18580" y="12668"/>
+		<node x="18580" y="12868"/>
+		<node x="18380" y="12868"/>
+	</territory>
+	<npcmaker name="oren23_npc2018_pg2m1" territory="oren23_npc2018_pg2" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="18496;12720;-3727;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_npc2018_wp2" minZ="-3756" maxZ="-3556">
+		<node x="23324" y="11100"/>
+		<node x="23524" y="11100"/>
+		<node x="23524" y="11300"/>
+		<node x="23324" y="11300"/>
+	</territory>
+	<npcmaker name="oren09_kreed01" territory="oren23_npc2018_wp2" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31361" pos="23436;11152;-3728;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren23_qm2018_00" minZ="-4268" maxZ="-4068">
+		<node x="27820" y="10364"/>
+		<node x="29036" y="10356"/>
+		<node x="29032" y="11724"/>
+		<node x="27856" y="11720"/>
+	</territory>
+	<npcmaker name="oren23_qm2018_00m1" territory="oren23_qm2018_00" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="18342" total="15" respawn="15sec"/>
+	</npcmaker>
+</list>

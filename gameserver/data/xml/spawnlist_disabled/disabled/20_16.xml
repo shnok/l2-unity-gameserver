@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Rune Area
+ * Rune Township
+ * Rune Castle
+-->
+<list>
+	<!--  -->
+	<territory name="rune03_2016_01" minZ="-1276" maxZ="-1076">
+		<node x="18554" y="-49313"/>
+		<node x="18754" y="-49313"/>
+		<node x="18754" y="-48993"/>
+		<node x="18554" y="-48993"/>
+	</territory>
+	<npcmaker name="rune03_2016_01" territory="rune03_2016_01" spawnTime="siege_warfare_start(8)" maximumNpcs="35">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="18647;-49068;-1215;0" total="1" respawn="3hour" dbName="rune_siege_001" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18647;-49106;-1215;0" total="1" respawn="3hour" dbName="rune_siege_002" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18647;-49151;-1215;0" total="1" respawn="3hour" dbName="rune_siege_003" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18647;-49193;-1215;0" total="1" respawn="3hour" dbName="rune_siege_004" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18647;-49233;-1215;0" total="1" respawn="3hour" dbName="rune_siege_005" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18647;-49274;-1215;0" total="1" respawn="3hour" dbName="rune_siege_006" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18648;-49026;-1215;0" total="1" respawn="3hour" dbName="rune_siege_007" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18685;-49275;-1215;0" total="1" respawn="3hour" dbName="rune_siege_008" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18686;-49027;-1215;0" total="1" respawn="3hour" dbName="rune_siege_009" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18723;-49275;-1215;0" total="1" respawn="3hour" dbName="rune_siege_010" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18724;-49027;-1215;0" total="1" respawn="3hour" dbName="rune_siege_011" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18574;-49069;-1215;0" total="1" respawn="3hour" dbName="rune_siege_012" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18574;-49107;-1215;0" total="1" respawn="3hour" dbName="rune_siege_013" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18574;-49152;-1215;0" total="1" respawn="3hour" dbName="rune_siege_014" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18574;-49194;-1215;0" total="1" respawn="3hour" dbName="rune_siege_015" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18574;-49234;-1215;0" total="1" respawn="3hour" dbName="rune_siege_016" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35487" pos="18611;-49068;-1215;0" total="1" respawn="3hour" dbName="rune_siege_017" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35487" pos="18611;-49107;-1215;0" total="1" respawn="3hour" dbName="rune_siege_018" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35487" pos="18611;-49193;-1215;0" total="1" respawn="3hour" dbName="rune_siege_019" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35487" pos="18611;-49234;-1215;0" total="1" respawn="3hour" dbName="rune_siege_020" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35487" pos="18611;-49274;-1215;0" total="1" respawn="3hour" dbName="rune_siege_021" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35487" pos="18612;-49026;-1215;0" total="1" respawn="3hour" dbName="rune_siege_022" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35484" pos="18611;-49151;-1215;0" total="1" respawn="3hour" dbName="rune_siege_023" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="18575;-49275;-1215;0" total="1" respawn="3hour" dbName="rune_siege_024" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="18575;-49027;-1215;0" total="1" respawn="3hour" dbName="rune_siege_025" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="18723;-49069;-1215;0" total="1" respawn="3hour" dbName="rune_siege_026" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="18723;-49108;-1215;0" total="1" respawn="3hour" dbName="rune_siege_027" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="18723;-49152;-1215;0" total="1" respawn="3hour" dbName="rune_siege_028" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="18723;-49195;-1215;0" total="1" respawn="3hour" dbName="rune_siege_029" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="18723;-49235;-1215;0" total="1" respawn="3hour" dbName="rune_siege_030" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="18685;-49070;-1215;0" total="1" respawn="3hour" dbName="rune_siege_031" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="18685;-49108;-1215;0" total="1" respawn="3hour" dbName="rune_siege_032" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="18685;-49153;-1215;0" total="1" respawn="3hour" dbName="rune_siege_033" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="18685;-49195;-1215;0" total="1" respawn="3hour" dbName="rune_siege_034" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="18685;-49235;-1215;0" total="1" respawn="3hour" dbName="rune_siege_035" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_02" minZ="-612" maxZ="-412">
+		<node x="18452" y="-49463"/>
+		<node x="18595" y="-49463"/>
+		<node x="18598" y="-48839"/>
+		<node x="18454" y="-48839"/>
+	</territory>
+	<npcmaker name="rune03_2016_02m1" territory="rune03_2016_02" spawnTime="siege_warfare_start(8)" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="18584;-48894;-568;0" total="1" respawn="3hour" dbName="rune_siege_036" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18585;-48935;-568;0" total="1" respawn="3hour" dbName="rune_siege_037" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18585;-48857;-568;0" total="1" respawn="3hour" dbName="rune_siege_038" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18529;-48863;-568;0" total="1" respawn="3hour" dbName="rune_siege_039" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18480;-48864;-568;0" total="1" respawn="3hour" dbName="rune_siege_040" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="18535;-48922;-568;0" total="1" respawn="3hour" dbName="rune_siege_041" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18480;-48922;-568;0" total="1" respawn="3hour" dbName="rune_siege_042" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18585;-49402;-568;0" total="1" respawn="3hour" dbName="rune_siege_043" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18586;-49443;-568;0" total="1" respawn="3hour" dbName="rune_siege_044" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18586;-49365;-568;0" total="1" respawn="3hour" dbName="rune_siege_045" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18531;-49443;-568;0" total="1" respawn="3hour" dbName="rune_siege_046" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18483;-49444;-568;0" total="1" respawn="3hour" dbName="rune_siege_047" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="18532;-49372;-568;0" total="1" respawn="3hour" dbName="rune_siege_048" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18476;-49372;-568;0" total="1" respawn="3hour" dbName="rune_siege_049" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="rune03_2016_02m2" territory="rune03_2016_02" spawnTime="pc_siege_warfare_start(8)" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="18584;-48894;-568;0" total="1" respawn="3hour" dbName="rune_siege_036" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18585;-48935;-568;0" total="1" respawn="3hour" dbName="rune_siege_037" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18585;-48857;-568;0" total="1" respawn="3hour" dbName="rune_siege_038" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18529;-48863;-568;0" total="1" respawn="3hour" dbName="rune_siege_039" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18480;-48864;-568;0" total="1" respawn="3hour" dbName="rune_siege_040" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="18535;-48922;-568;0" total="1" respawn="3hour" dbName="rune_siege_041" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18480;-48922;-568;0" total="1" respawn="3hour" dbName="rune_siege_042" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18585;-49402;-568;0" total="1" respawn="3hour" dbName="rune_siege_043" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18586;-49443;-568;0" total="1" respawn="3hour" dbName="rune_siege_044" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18586;-49365;-568;0" total="1" respawn="3hour" dbName="rune_siege_045" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18531;-49443;-568;0" total="1" respawn="3hour" dbName="rune_siege_046" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18483;-49444;-568;0" total="1" respawn="3hour" dbName="rune_siege_047" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="18532;-49372;-568;0" total="1" respawn="3hour" dbName="rune_siege_048" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18476;-49372;-568;0" total="1" respawn="3hour" dbName="rune_siege_049" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_04" minZ="-746" maxZ="-546">
+		<node x="18169" y="-48561"/>
+		<node x="18358" y="-48547"/>
+		<node x="18319" y="-48340"/>
+		<node x="18178" y="-47925"/>
+		<node x="17989" y="-48002"/>
+	</territory>
+	<npcmaker name="rune03_2016_04m1" territory="rune03_2016_04" spawnTime="siege_warfare_start(8)" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="18339;-48519;-704;0" total="1" respawn="3hour" dbName="rune_siege_050" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18330;-48466;-704;0" total="1" respawn="3hour" dbName="rune_siege_051" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18323;-48416;-704;0" total="1" respawn="3hour" dbName="rune_siege_052" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18311;-48360;-704;0" total="1" respawn="3hour" dbName="rune_siege_053" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18296;-48307;-704;0" total="1" respawn="3hour" dbName="rune_siege_054" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="18272;-48261;-704;0" total="1" respawn="3hour" dbName="rune_siege_055" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18291;-48441;-704;0" total="1" respawn="3hour" dbName="rune_siege_056" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="rune03_2016_04m2" territory="rune03_2016_04" spawnTime="pc_siege_warfare_start(8)" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="18339;-48519;-704;0" total="1" respawn="3hour" dbName="rune_siege_050" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18330;-48466;-704;0" total="1" respawn="3hour" dbName="rune_siege_051" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18323;-48416;-704;0" total="1" respawn="3hour" dbName="rune_siege_052" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18311;-48360;-704;0" total="1" respawn="3hour" dbName="rune_siege_053" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18296;-48307;-704;0" total="1" respawn="3hour" dbName="rune_siege_054" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="18272;-48261;-704;0" total="1" respawn="3hour" dbName="rune_siege_055" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18291;-48441;-704;0" total="1" respawn="3hour" dbName="rune_siege_056" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_05" minZ="-746" maxZ="-546">
+		<node x="17992" y="-50297"/>
+		<node x="18176" y="-50401"/>
+		<node x="18320" y="-49960"/>
+		<node x="18355" y="-49751"/>
+		<node x="18159" y="-49748"/>
+	</territory>
+	<npcmaker name="rune03_2016_05m1" territory="rune03_2016_05" spawnTime="siege_warfare_start(8)" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="18337;-49773;-704;0" total="1" respawn="3hour" dbName="rune_siege_057" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18330;-49819;-704;0" total="1" respawn="3hour" dbName="rune_siege_058" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18323;-49867;-704;0" total="1" respawn="3hour" dbName="rune_siege_059" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18315;-49911;-704;0" total="1" respawn="3hour" dbName="rune_siege_060" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18302;-49963;-704;0" total="1" respawn="3hour" dbName="rune_siege_061" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="18287;-50008;-704;0" total="1" respawn="3hour" dbName="rune_siege_062" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18292;-49840;-704;0" total="1" respawn="3hour" dbName="rune_siege_063" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="rune03_2016_05m2" territory="rune03_2016_05" spawnTime="pc_siege_warfare_start(8)" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="18337;-49773;-704;0" total="1" respawn="3hour" dbName="rune_siege_057" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18330;-49819;-704;0" total="1" respawn="3hour" dbName="rune_siege_058" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18323;-49867;-704;0" total="1" respawn="3hour" dbName="rune_siege_059" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18315;-49911;-704;0" total="1" respawn="3hour" dbName="rune_siege_060" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="18302;-49963;-704;0" total="1" respawn="3hour" dbName="rune_siege_061" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="18287;-50008;-704;0" total="1" respawn="3hour" dbName="rune_siege_062" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="18292;-49840;-704;0" total="1" respawn="3hour" dbName="rune_siege_063" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_06" minZ="-1114" maxZ="-914">
+		<node x="15916" y="-49457"/>
+		<node x="16649" y="-49457"/>
+		<node x="16644" y="-48845"/>
+		<node x="15915" y="-48843"/>
+	</territory>
+	<npcmaker name="rune03_2016_06" territory="rune03_2016_06" spawnTime="siege_warfare_start(8)" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="35487" pos="15929;-49227;-1060;0" total="1" respawn="3hour" dbName="rune_siege_064" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35487" pos="15927;-49092;-1060;0" total="1" respawn="3hour" dbName="rune_siege_065" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="15995;-49228;-1060;0" total="1" respawn="3hour" dbName="rune_siege_066" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="15993;-49094;-1060;0" total="1" respawn="3hour" dbName="rune_siege_067" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="16055;-49228;-1060;0" total="1" respawn="3hour" dbName="rune_siege_068" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="16053;-49094;-1060;0" total="1" respawn="3hour" dbName="rune_siege_069" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="16122;-49228;-1060;0" total="1" respawn="3hour" dbName="rune_siege_070" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="16120;-49094;-1060;0" total="1" respawn="3hour" dbName="rune_siege_071" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="16186;-49229;-1060;0" total="1" respawn="3hour" dbName="rune_siege_072" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="16184;-49094;-1060;0" total="1" respawn="3hour" dbName="rune_siege_073" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="16251;-49227;-1060;0" total="1" respawn="3hour" dbName="rune_siege_074" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="16249;-49093;-1060;0" total="1" respawn="3hour" dbName="rune_siege_075" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_07" minZ="-1166" maxZ="-866">
+		<node x="16357" y="-48355"/>
+		<node x="16642" y="-48298"/>
+		<node x="16618" y="-48219"/>
+		<node x="16324" y="-48214"/>
+	</territory>
+	<npcmaker name="rune03_2016_07" territory="rune03_2016_07" spawnTime="siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35488" pos="16373;-48296;-1018;1832" total="1" respawn="3hour" dbName="rune_siege_076" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16368;-48345;-1008;50840" total="1" respawn="3hour" dbName="rune_siege_077" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="16415;-48310;-1018;2424" total="1" respawn="3hour" dbName="rune_siege_078" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="16457;-48281;-1018;1992" total="1" respawn="3hour" dbName="rune_siege_079" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="16404;-48261;-1018;2208" total="1" respawn="3hour" dbName="rune_siege_080" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16467;-48323;-1008;50840" total="1" respawn="3hour" dbName="rune_siege_081" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16453;-48249;-1008;50840" total="1" respawn="3hour" dbName="rune_siege_082" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16345;-48255;-1008;50840" total="1" respawn="3hour" dbName="rune_siege_083" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_08" minZ="-682" maxZ="-482">
+		<node x="16467" y="-48200"/>
+		<node x="16706" y="-48154"/>
+		<node x="16635" y="-47797"/>
+		<node x="16389" y="-47847"/>
+	</territory>
+	<npcmaker name="rune03_2016_08" territory="rune03_2016_08" spawnTime="siege_warfare_start(8)" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="16507;-48184;-640;51728" total="1" respawn="3hour" dbName="rune_siege_092" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16564;-48170;-640;51728" total="1" respawn="3hour" dbName="rune_siege_093" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16622;-48157;-640;51728" total="1" respawn="3hour" dbName="rune_siege_094" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16679;-48143;-640;51728" total="1" respawn="3hour" dbName="rune_siege_095" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="16478;-48127;-641;18832" total="1" respawn="3hour" dbName="rune_siege_096" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="16541;-48113;-640;0" total="1" respawn="3hour" dbName="rune_siege_097" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_09" minZ="-1166" maxZ="-866">
+		<node x="16337" y="-50088"/>
+		<node x="16642" y="-50094"/>
+		<node x="16669" y="-50016"/>
+		<node x="16378" y="-49943"/>
+	</territory>
+	<npcmaker name="rune03_2016_09" territory="rune03_2016_09" spawnTime="siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35488" pos="16396;-50000;-1018;63024" total="1" respawn="3hour" dbName="rune_siege_084" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16362;-50034;-1008;14160" total="1" respawn="3hour" dbName="rune_siege_085" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="16424;-50039;-1018;2448" total="1" respawn="3hour" dbName="rune_siege_086" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="16479;-50021;-1018;62768" total="1" respawn="3hour" dbName="rune_siege_087" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="16439;-49981;-1018;63312" total="1" respawn="3hour" dbName="rune_siege_088" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16469;-50050;-1008;10688" total="1" respawn="3hour" dbName="rune_siege_089" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16489;-49979;-1008;13232" total="1" respawn="3hour" dbName="rune_siege_090" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16387;-49955;-1008;13976" total="1" respawn="3hour" dbName="rune_siege_091" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_10" minZ="-682" maxZ="-482">
+		<node x="16386" y="-50457"/>
+		<node x="16755" y="-50525"/>
+		<node x="16721" y="-50159"/>
+		<node x="16482" y="-50099"/>
+	</territory>
+	<npcmaker name="rune03_2016_10" territory="rune03_2016_10" spawnTime="siege_warfare_start(8)" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="16501;-50116;-640;13200" total="1" respawn="3hour" dbName="rune_siege_098" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16548;-50129;-640;13720" total="1" respawn="3hour" dbName="rune_siege_099" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16598;-50140;-640;14096" total="1" respawn="3hour" dbName="rune_siege_100" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="16646;-50152;-640;14944" total="1" respawn="3hour" dbName="rune_siege_101" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="16481;-50180;-641;28128" total="1" respawn="3hour" dbName="rune_siege_102" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="16535;-50194;-640;20272" total="1" respawn="3hour" dbName="rune_siege_103" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_11" minZ="-1099" maxZ="-899">
+		<node x="15411" y="-49268"/>
+		<node x="15760" y="-49236"/>
+		<node x="15757" y="-49068"/>
+		<node x="15411" y="-49031"/>
+	</territory>
+	<npcmaker name="rune03_2016_11" territory="rune03_2016_11" spawnTime="siege_warfare_start(8)" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="35488" pos="15722;-49150;-1056;0" total="1" respawn="3hour" dbName="rune_siege_104" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="15721;-49188;-1056;0" total="1" respawn="3hour" dbName="rune_siege_105" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="15721;-49228;-1056;0" total="1" respawn="3hour" dbName="rune_siege_106" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="15723;-49115;-1056;0" total="1" respawn="3hour" dbName="rune_siege_107" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="15722;-49080;-1056;0" total="1" respawn="3hour" dbName="rune_siege_108" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="15680;-49208;-1056;0" total="1" respawn="3hour" dbName="rune_siege_109" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="15680;-49168;-1056;0" total="1" respawn="3hour" dbName="rune_siege_110" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="15680;-49128;-1056;0" total="1" respawn="3hour" dbName="rune_siege_111" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="15681;-49090;-1056;0" total="1" respawn="3hour" dbName="rune_siege_112" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15633;-49234;-1056;0" total="1" respawn="3hour" dbName="rune_siege_113" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15633;-49191;-1056;0" total="1" respawn="3hour" dbName="rune_siege_114" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15634;-49149;-1056;0" total="1" respawn="3hour" dbName="rune_siege_115" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15634;-49108;-1056;0" total="1" respawn="3hour" dbName="rune_siege_116" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15634;-49067;-1056;0" total="1" respawn="3hour" dbName="rune_siege_117" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15594;-49213;-1056;0" total="1" respawn="3hour" dbName="rune_siege_118" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15594;-49171;-1056;0" total="1" respawn="3hour" dbName="rune_siege_119" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15594;-49128;-1056;0" total="1" respawn="3hour" dbName="rune_siege_120" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15594;-49087;-1056;0" total="1" respawn="3hour" dbName="rune_siege_121" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_12" minZ="-1099" maxZ="-699">
+		<node x="15440" y="-48927"/>
+		<node x="15666" y="-48888"/>
+		<node x="15566" y="-48399"/>
+		<node x="15346" y="-48451"/>
+	</territory>
+	<npcmaker name="rune03_2016_12" territory="rune03_2016_12" spawnTime="siege_warfare_start(8)" maximumNpcs="19">
+		<ai type="default_maker"/>
+		<npc id="35489" pos="15476;-48870;-1052;50960" total="1" respawn="3hour" dbName="rune_siege_122" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15519;-48867;-1052;50960" total="1" respawn="3hour" dbName="rune_siege_123" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15567;-48864;-1052;50960" total="1" respawn="3hour" dbName="rune_siege_124" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15611;-48859;-1052;50960" total="1" respawn="3hour" dbName="rune_siege_125" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15492;-48822;-1030;51080" total="1" respawn="3hour" dbName="rune_siege_126" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15536;-48818;-1030;51080" total="1" respawn="3hour" dbName="rune_siege_127" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15583;-48814;-1030;51080" total="1" respawn="3hour" dbName="rune_siege_128" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15624;-48809;-1030;51080" total="1" respawn="3hour" dbName="rune_siege_129" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15443;-48826;-1030;51080" total="1" respawn="3hour" dbName="rune_siege_130" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15453;-48768;-1005;50960" total="1" respawn="3hour" dbName="rune_siege_131" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15497;-48765;-1005;50960" total="1" respawn="3hour" dbName="rune_siege_132" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15544;-48761;-1005;50960" total="1" respawn="3hour" dbName="rune_siege_133" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15588;-48757;-1005;50960" total="1" respawn="3hour" dbName="rune_siege_134" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15456;-48725;-986;50960" total="1" respawn="3hour" dbName="rune_siege_135" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15500;-48722;-989;50960" total="1" respawn="3hour" dbName="rune_siege_136" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15547;-48718;-989;50960" total="1" respawn="3hour" dbName="rune_siege_137" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15591;-48714;-989;50960" total="1" respawn="3hour" dbName="rune_siege_138" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="15536;-48671;-964;52672" total="1" respawn="3hour" dbName="rune_siege_139" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35484" pos="15485;-48680;-965;52584" total="1" respawn="3hour" dbName="rune_siege_140" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_13" minZ="-1099" maxZ="-699">
+		<node x="15347" y="-49839"/>
+		<node x="15580" y="-49856"/>
+		<node x="15656" y="-49416"/>
+		<node x="15458" y="-49398"/>
+	</territory>
+	<npcmaker name="rune03_2016_13" territory="rune03_2016_13" spawnTime="siege_warfare_start(8)" maximumNpcs="19">
+		<ai type="default_maker"/>
+		<npc id="35489" pos="15613;-49441;-1049;16456" total="1" respawn="3hour" dbName="rune_siege_141" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15570;-49437;-1049;16456" total="1" respawn="3hour" dbName="rune_siege_142" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15522;-49432;-1049;16456" total="1" respawn="3hour" dbName="rune_siege_143" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15478;-49430;-1049;16456" total="1" respawn="3hour" dbName="rune_siege_144" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15589;-49487;-1027;16576" total="1" respawn="3hour" dbName="rune_siege_145" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15546;-49482;-1027;16576" total="1" respawn="3hour" dbName="rune_siege_146" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15499;-49479;-1027;16576" total="1" respawn="3hour" dbName="rune_siege_147" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15457;-49477;-1027;16576" total="1" respawn="3hour" dbName="rune_siege_148" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="15636;-49489;-1027;16576" total="1" respawn="3hour" dbName="rune_siege_149" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15602;-49539;-1005;16432" total="1" respawn="3hour" dbName="rune_siege_150" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15558;-49535;-1005;16432" total="1" respawn="3hour" dbName="rune_siege_151" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15511;-49530;-1005;16432" total="1" respawn="3hour" dbName="rune_siege_152" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15467;-49527;-1005;16432" total="1" respawn="3hour" dbName="rune_siege_153" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15591;-49581;-986;16432" total="1" respawn="3hour" dbName="rune_siege_154" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15547;-49576;-989;16432" total="1" respawn="3hour" dbName="rune_siege_155" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15500;-49572;-989;16432" total="1" respawn="3hour" dbName="rune_siege_156" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15456;-49569;-989;16432" total="1" respawn="3hour" dbName="rune_siege_157" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="15491;-49623;-964;16168" total="1" respawn="3hour" dbName="rune_siege_158" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35484" pos="15542;-49633;-965;16080" total="1" respawn="3hour" dbName="rune_siege_159" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_14" minZ="-459" maxZ="-259">
+		<node x="15686" y="-48842"/>
+		<node x="15797" y="-48830"/>
+		<node x="15743" y="-48531"/>
+		<node x="15622" y="-48522"/>
+	</territory>
+	<npcmaker name="rune03_2016_14" territory="rune03_2016_14" spawnTime="siege_warfare_start(8)" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="15777;-48788;-420;0" total="1" respawn="3hour" dbName="rune_siege_160" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15770;-48743;-420;0" total="1" respawn="3hour" dbName="rune_siege_161" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15762;-48697;-420;0" total="1" respawn="3hour" dbName="rune_siege_162" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15746;-48617;-420;0" total="1" respawn="3hour" dbName="rune_siege_163" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15736;-48573;-420;0" total="1" respawn="3hour" dbName="rune_siege_164" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15690;-48808;-420;0" total="1" respawn="3hour" dbName="rune_siege_165" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15682;-48766;-420;0" total="1" respawn="3hour" dbName="rune_siege_166" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15672;-48722;-420;0" total="1" respawn="3hour" dbName="rune_siege_167" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15665;-48683;-420;0" total="1" respawn="3hour" dbName="rune_siege_168" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15655;-48639;-420;0" total="1" respawn="3hour" dbName="rune_siege_169" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15648;-48594;-420;0" total="1" respawn="3hour" dbName="rune_siege_170" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15637;-48550;-420;0" total="1" respawn="3hour" dbName="rune_siege_171" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="15735;-48773;-416;0" total="1" respawn="3hour" dbName="rune_siege_172" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="15714;-48700;-420;0" total="1" respawn="3hour" dbName="rune_siege_173" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="15700;-48626;-420;0" total="1" respawn="3hour" dbName="rune_siege_174" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_15" minZ="-459" maxZ="-259">
+		<node x="15624" y="-49774"/>
+		<node x="15738" y="-49781"/>
+		<node x="15801" y="-49470"/>
+		<node x="15684" y="-49471"/>
+	</territory>
+	<npcmaker name="rune03_2016_15" territory="rune03_2016_15" spawnTime="siege_warfare_start(8)" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="15781;-49498;-420;0" total="1" respawn="3hour" dbName="rune_siege_175" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15773;-49544;-420;0" total="1" respawn="3hour" dbName="rune_siege_176" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15768;-49587;-420;0" total="1" respawn="3hour" dbName="rune_siege_177" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15732;-49744;-420;0" total="1" respawn="3hour" dbName="rune_siege_178" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15743;-49702;-420;0" total="1" respawn="3hour" dbName="rune_siege_179" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15686;-49508;-420;0" total="1" respawn="3hour" dbName="rune_siege_180" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15678;-49545;-420;0" total="1" respawn="3hour" dbName="rune_siege_181" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15671;-49586;-420;0" total="1" respawn="3hour" dbName="rune_siege_182" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15664;-49623;-420;0" total="1" respawn="3hour" dbName="rune_siege_183" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15658;-49664;-420;0" total="1" respawn="3hour" dbName="rune_siege_184" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15650;-49702;-420;0" total="1" respawn="3hour" dbName="rune_siege_185" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="15642;-49743;-420;0" total="1" respawn="3hour" dbName="rune_siege_186" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="15736;-49528;-416;0" total="1" respawn="3hour" dbName="rune_siege_187" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="15713;-49616;-420;0" total="1" respawn="3hour" dbName="rune_siege_188" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="15701;-49688;-420;0" total="1" respawn="3hour" dbName="rune_siege_189" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_16" minZ="-645" maxZ="-445">
+		<node x="17582" y="-47041"/>
+		<node x="17694" y="-46829"/>
+		<node x="17687" y="-46787"/>
+		<node x="17643" y="-46775"/>
+		<node x="17455" y="-46855"/>
+	</territory>
+	<npcmaker name="rune03_2016_16m1" territory="rune03_2016_16" spawnTime="siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="17685;-46806;-580;7312" total="1" respawn="3hour" dbName="rune_siege_190" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17674;-46835;-580;7312" total="1" respawn="3hour" dbName="rune_siege_191" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17640;-46900;-580;7312" total="1" respawn="3hour" dbName="rune_siege_192" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17568;-46823;-580;7312" total="1" respawn="3hour" dbName="rune_siege_193" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17637;-46794;-580;7312" total="1" respawn="3hour" dbName="rune_siege_194" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="17657;-46869;-581;7800" total="1" respawn="3hour" dbName="rune_siege_195" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="17602;-46807;-581;7800" total="1" respawn="3hour" dbName="rune_siege_196" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="17668;-46786;-581;7800" total="1" respawn="3hour" dbName="rune_siege_197" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="rune03_2016_16m2" territory="rune03_2016_16" spawnTime="pc_siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="17685;-46806;-580;7312" total="1" respawn="3hour" dbName="rune_siege_190" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17674;-46835;-580;7312" total="1" respawn="3hour" dbName="rune_siege_191" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17640;-46900;-580;7312" total="1" respawn="3hour" dbName="rune_siege_192" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17568;-46823;-580;7312" total="1" respawn="3hour" dbName="rune_siege_193" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17637;-46794;-580;7312" total="1" respawn="3hour" dbName="rune_siege_194" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="17657;-46869;-581;7800" total="1" respawn="3hour" dbName="rune_siege_195" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="17602;-46807;-581;7800" total="1" respawn="3hour" dbName="rune_siege_196" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="17668;-46786;-581;7800" total="1" respawn="3hour" dbName="rune_siege_197" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_17" minZ="-638" maxZ="-438">
+		<node x="17059" y="-46728"/>
+		<node x="17303" y="-46952"/>
+		<node x="17453" y="-46813"/>
+		<node x="17187" y="-46574"/>
+	</territory>
+	<npcmaker name="rune03_2016_17m1" territory="rune03_2016_17" spawnTime="siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="17412;-46791;-580;7312" total="1" respawn="3hour" dbName="rune_siege_198" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17375;-46759;-580;7312" total="1" respawn="3hour" dbName="rune_siege_199" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17341;-46728;-580;7312" total="1" respawn="3hour" dbName="rune_siege_200" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17308;-46696;-580;7312" total="1" respawn="3hour" dbName="rune_siege_201" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17274;-46667;-580;7312" total="1" respawn="3hour" dbName="rune_siege_202" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17241;-46635;-580;7312" total="1" respawn="3hour" dbName="rune_siege_203" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17205;-46601;-580;7312" total="1" respawn="3hour" dbName="rune_siege_204" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="17338;-46766;-576;8520" total="1" respawn="3hour" dbName="rune_siege_205" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="rune03_2016_17m2" territory="rune03_2016_17" spawnTime="pc_siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="17412;-46791;-580;7312" total="1" respawn="3hour" dbName="rune_siege_198" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17375;-46759;-580;7312" total="1" respawn="3hour" dbName="rune_siege_199" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17341;-46728;-580;7312" total="1" respawn="3hour" dbName="rune_siege_200" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17308;-46696;-580;7312" total="1" respawn="3hour" dbName="rune_siege_201" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17274;-46667;-580;7312" total="1" respawn="3hour" dbName="rune_siege_202" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17241;-46635;-580;7312" total="1" respawn="3hour" dbName="rune_siege_203" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17205;-46601;-580;7312" total="1" respawn="3hour" dbName="rune_siege_204" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="17338;-46766;-576;8520" total="1" respawn="3hour" dbName="rune_siege_205" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_18" minZ="-675" maxZ="-475">
+		<node x="17685" y="-51523"/>
+		<node x="17690" y="-51479"/>
+		<node x="17601" y="-51319"/>
+		<node x="17425" y="-51274"/>
+		<node x="17529" y="-51470"/>
+		<node x="17642" y="-51526"/>
+	</territory>
+	<npcmaker name="rune03_2016_18" territory="rune03_2016_18" spawnTime="siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="17663;-51514;-580;57488" total="1" respawn="3hour" dbName="rune_siege_206" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17633;-51507;-580;57488" total="1" respawn="3hour" dbName="rune_siege_207" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17564;-51479;-580;57488" total="1" respawn="3hour" dbName="rune_siege_208" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17634;-51400;-580;57488" total="1" respawn="3hour" dbName="rune_siege_209" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17670;-51466;-580;57488" total="1" respawn="3hour" dbName="rune_siege_210" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="17597;-51493;-581;57976" total="1" respawn="3hour" dbName="rune_siege_211" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="17653;-51432;-581;57976" total="1" respawn="3hour" dbName="rune_siege_212" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="17681;-51496;-581;57976" total="1" respawn="3hour" dbName="rune_siege_213" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_19" minZ="-626" maxZ="-426">
+		<node x="17024" y="-51605"/>
+		<node x="17150" y="-51765"/>
+		<node x="17452" y="-51489"/>
+		<node x="17306" y="-51349"/>
+	</territory>
+	<npcmaker name="rune03_2016_19" territory="rune03_2016_19" spawnTime="siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35486" pos="17343;-51527;-576;56832" total="1" respawn="3hour" dbName="rune_siege_214" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17413;-51506;-580;57488" total="1" respawn="3hour" dbName="rune_siege_215" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17375;-51538;-576;57488" total="1" respawn="3hour" dbName="rune_siege_216" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17340;-51572;-576;57488" total="1" respawn="3hour" dbName="rune_siege_217" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17309;-51605;-580;57488" total="1" respawn="3hour" dbName="rune_siege_218" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17271;-51642;-580;57488" total="1" respawn="3hour" dbName="rune_siege_219" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17232;-51677;-580;57488" total="1" respawn="3hour" dbName="rune_siege_220" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="17188;-51717;-580;57488" total="1" respawn="3hour" dbName="rune_siege_221" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_20" minZ="-1122" maxZ="-922">
+		<node x="13470" y="-47029"/>
+		<node x="13782" y="-47153"/>
+		<node x="13900" y="-46903"/>
+		<node x="13572" y="-46780"/>
+	</territory>
+	<npcmaker name="rune03_2016_20" territory="rune03_2016_20" spawnTime="siege_warfare_start(8)" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="13598;-46874;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_222" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13720;-46977;-1075;13672" total="1" respawn="3hour" dbName="rune_siege_223" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13676;-46964;-1075;13672" total="1" respawn="3hour" dbName="rune_siege_224" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13625;-46949;-1075;13672" total="1" respawn="3hour" dbName="rune_siege_225" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13577;-46935;-1075;13672" total="1" respawn="3hour" dbName="rune_siege_226" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13767;-46990;-1075;13672" total="1" respawn="3hour" dbName="rune_siege_227" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13730;-46946;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_228" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13685;-46932;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_229" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13634;-46917;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_230" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13643;-46886;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_231" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13695;-46900;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_232" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13742;-46912;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_233" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13790;-46926;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_234" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13654;-46853;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_235" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13702;-46865;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_236" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13750;-46878;-1072;13672" total="1" respawn="3hour" dbName="rune_siege_237" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_21" minZ="-1126" maxZ="-926">
+		<node x="12639" y="-51552"/>
+		<node x="13045" y="-51552"/>
+		<node x="13045" y="-51166"/>
+		<node x="12640" y="-51163"/>
+	</territory>
+	<npcmaker name="rune03_2016_21" territory="rune03_2016_21" spawnTime="siege_warfare_start(8)" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="12960;-51235;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_238" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="12814;-51168;-1085;49288" total="1" respawn="3hour" dbName="rune_siege_239" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="12861;-51169;-1085;49288" total="1" respawn="3hour" dbName="rune_siege_240" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="12913;-51170;-1085;49288" total="1" respawn="3hour" dbName="rune_siege_241" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="12963;-51170;-1085;49288" total="1" respawn="3hour" dbName="rune_siege_242" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="12766;-51168;-1085;49288" total="1" respawn="3hour" dbName="rune_siege_243" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="12813;-51201;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_244" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="12861;-51202;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_245" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="12913;-51203;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_246" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12913;-51236;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_247" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12860;-51236;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_248" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12811;-51237;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_249" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12761;-51237;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_250" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12911;-51271;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_251" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12862;-51272;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_252" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12812;-51271;-1082;49288" total="1" respawn="3hour" dbName="rune_siege_253" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_22" minZ="677" maxZ="877">
+		<node x="13603" y="-47552"/>
+		<node x="13826" y="-47661"/>
+		<node x="13928" y="-47470"/>
+		<node x="13677" y="-47353"/>
+	</territory>
+	<npcmaker name="rune03_2016_22" territory="rune03_2016_22" spawnTime="siege_warfare_start(8)" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="35488" pos="13804;-47600;748;58736" total="1" respawn="3hour" dbName="rune_siege_254" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13825;-47561;748;58736" total="1" respawn="3hour" dbName="rune_siege_255" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13845;-47524;748;58736" total="1" respawn="3hour" dbName="rune_siege_256" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13743;-47607;748;58736" total="1" respawn="3hour" dbName="rune_siege_257" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13766;-47573;748;58736" total="1" respawn="3hour" dbName="rune_siege_258" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13787;-47535;748;58736" total="1" respawn="3hour" dbName="rune_siege_259" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13806;-47497;748;58736" total="1" respawn="3hour" dbName="rune_siege_260" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13829;-47461;748;58736" total="1" respawn="3hour" dbName="rune_siege_261" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13702;-47581;748;58736" total="1" respawn="3hour" dbName="rune_siege_262" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13724;-47547;748;58736" total="1" respawn="3hour" dbName="rune_siege_263" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13746;-47508;748;58736" total="1" respawn="3hour" dbName="rune_siege_264" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13765;-47471;748;58736" total="1" respawn="3hour" dbName="rune_siege_265" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13788;-47434;748;58736" total="1" respawn="3hour" dbName="rune_siege_266" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="13731;-47444;748;59728" total="1" respawn="3hour" dbName="rune_siege_267" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="13753;-47410;748;59728" total="1" respawn="3hour" dbName="rune_siege_268" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="13662;-47549;748;59728" total="1" respawn="3hour" dbName="rune_siege_269" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="13683;-47515;748;59728" total="1" respawn="3hour" dbName="rune_siege_270" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35484" pos="13708;-47479;748;59304" total="1" respawn="3hour" dbName="rune_siege_271" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_23" minZ="715" maxZ="1015">
+		<node x="13277" y="-48008"/>
+		<node x="13500" y="-48122"/>
+		<node x="13765" y="-47665"/>
+		<node x="13505" y="-47532"/>
+	</territory>
+	<npcmaker name="rune03_2016_23" territory="rune03_2016_23" spawnTime="siege_warfare_start(8)" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="13740;-47672;762;11264" total="1" respawn="3hour" dbName="rune_siege_272" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13702;-47652;762;11264" total="1" respawn="3hour" dbName="rune_siege_273" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13665;-47630;762;11264" total="1" respawn="3hour" dbName="rune_siege_274" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13626;-47609;762;11264" total="1" respawn="3hour" dbName="rune_siege_275" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13588;-47591;762;11264" total="1" respawn="3hour" dbName="rune_siege_276" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13550;-47571;762;11264" total="1" respawn="3hour" dbName="rune_siege_277" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13512;-47552;762;11264" total="1" respawn="3hour" dbName="rune_siege_278" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="13545;-47617;793;11832" total="1" respawn="3hour" dbName="rune_siege_279" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="13508;-47597;793;11832" total="1" respawn="3hour" dbName="rune_siege_280" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="13658;-47667;793;11832" total="1" respawn="3hour" dbName="rune_siege_281" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="13698;-47688;793;11832" total="1" respawn="3hour" dbName="rune_siege_282" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="13583;-47628;800;11440" total="1" respawn="3hour" dbName="rune_siege_283" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="13622;-47651;800;11440" total="1" respawn="3hour" dbName="rune_siege_284" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_24" minZ="662" maxZ="862">
+		<node x="13701" y="-50941"/>
+		<node x="13955" y="-50806"/>
+		<node x="13835" y="-50639"/>
+		<node x="13614" y="-50750"/>
+	</territory>
+	<npcmaker name="rune03_2016_24" territory="rune03_2016_24" spawnTime="siege_warfare_start(8)" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="35488" pos="13855;-50785;748;5680" total="1" respawn="3hour" dbName="rune_siege_285" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13827;-50751;748;5680" total="1" respawn="3hour" dbName="rune_siege_286" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13799;-50719;748;5680" total="1" respawn="3hour" dbName="rune_siege_287" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13840;-50844;748;5680" total="1" respawn="3hour" dbName="rune_siege_288" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13817;-50811;748;5680" total="1" respawn="3hour" dbName="rune_siege_289" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13788;-50777;748;5680" total="1" respawn="3hour" dbName="rune_siege_290" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13761;-50745;748;5680" total="1" respawn="3hour" dbName="rune_siege_291" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13735;-50711;748;5680" total="1" respawn="3hour" dbName="rune_siege_292" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13800;-50873;748;5680" total="1" respawn="3hour" dbName="rune_siege_293" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13777;-50840;748;5680" total="1" respawn="3hour" dbName="rune_siege_294" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13749;-50806;748;5680" total="1" respawn="3hour" dbName="rune_siege_295" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13721;-50774;748;5680" total="1" respawn="3hour" dbName="rune_siege_296" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="13695;-50740;748;5680" total="1" respawn="3hour" dbName="rune_siege_297" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="13684;-50795;748;6672" total="1" respawn="3hour" dbName="rune_siege_298" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="13660;-50763;748;6672" total="1" respawn="3hour" dbName="rune_siege_299" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="13756;-50898;748;6672" total="1" respawn="3hour" dbName="rune_siege_300" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="13733;-50866;748;6672" total="1" respawn="3hour" dbName="rune_siege_301" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35484" pos="13708;-50830;748;6248" total="1" respawn="3hour" dbName="rune_siege_302" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_25" minZ="663" maxZ="863">
+		<node x="13516" y="-50804"/>
+		<node x="13791" y="-50669"/>
+		<node x="13657" y="-50446"/>
+		<node x="13418" y="-50575"/>
+	</territory>
+	<npcmaker name="rune03_2016_25" territory="rune03_2016_25" spawnTime="siege_warfare_start(8)" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="13507;-50740;767;54152" total="1" respawn="3hour" dbName="rune_siege_303" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13545;-50721;767;54152" total="1" respawn="3hour" dbName="rune_siege_304" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13584;-50702;767;54152" total="1" respawn="3hour" dbName="rune_siege_305" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13623;-50682;767;54152" total="1" respawn="3hour" dbName="rune_siege_306" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13659;-50661;767;54152" total="1" respawn="3hour" dbName="rune_siege_307" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13697;-50641;767;54152" total="1" respawn="3hour" dbName="rune_siege_308" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="13734;-50620;767;54152" total="1" respawn="3hour" dbName="rune_siege_309" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="13663;-50611;784;54720" total="1" respawn="3hour" dbName="rune_siege_310" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="13700;-50591;784;54720" total="1" respawn="3hour" dbName="rune_siege_311" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="13557;-50676;784;54720" total="1" respawn="3hour" dbName="rune_siege_312" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35485" pos="13517;-50697;784;54720" total="1" respawn="3hour" dbName="rune_siege_313" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="13632;-50635;791;54328" total="1" respawn="3hour" dbName="rune_siege_314" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="13591;-50655;791;54328" total="1" respawn="3hour" dbName="rune_siege_315" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_26" minZ="1205" maxZ="1405">
+		<node x="11540" y="-48213"/>
+		<node x="11753" y="-48365"/>
+		<node x="11856" y="-48230"/>
+		<node x="11650" y="-48064"/>
+	</territory>
+	<npcmaker name="rune03_2016_26" territory="rune03_2016_26" spawnTime="siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="11762;-48332;1247;58424" total="1" respawn="2min" dbName="rune_siege_316" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11785;-48303;1247;58424" total="1" respawn="2min" dbName="rune_siege_317" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11807;-48276;1247;58424" total="1" respawn="2min" dbName="rune_siege_318" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11829;-48249;1247;58424" total="1" respawn="2min" dbName="rune_siege_319" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11739;-48348;1247;44424" total="1" respawn="2min" dbName="rune_siege_320" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11711;-48327;1247;44424" total="1" respawn="2min" dbName="rune_siege_321" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11835;-48224;1247;8760" total="1" respawn="2min" dbName="rune_siege_322" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11808;-48201;1247;8760" total="1" respawn="2min" dbName="rune_siege_323" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_27" minZ="1205" maxZ="1405">
+		<node x="11654" y="-50228"/>
+		<node x="11855" y="-50073"/>
+		<node x="11752" y="-49940"/>
+		<node x="11544" y="-50097"/>
+	</territory>
+	<npcmaker name="rune03_2016_27" territory="rune03_2016_27" spawnTime="siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="11806;-50025;1247;6936" total="1" respawn="2min" dbName="rune_siege_324" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11826;-50052;1247;6936" total="1" respawn="2min" dbName="rune_siege_325" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11783;-49997;1247;6936" total="1" respawn="2min" dbName="rune_siege_326" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11762;-49969;1247;6936" total="1" respawn="2min" dbName="rune_siege_327" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11733;-49968;1247;22368" total="1" respawn="2min" dbName="rune_siege_328" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11705;-49986;1247;22368" total="1" respawn="2min" dbName="rune_siege_329" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11827;-50085;1247;58408" total="1" respawn="2min" dbName="rune_siege_330" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11800;-50105;1247;58408" total="1" respawn="2min" dbName="rune_siege_331" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_28" minZ="938" maxZ="1138">
+		<node x="8968" y="-47611"/>
+		<node x="9209" y="-47611"/>
+		<node x="9209" y="-47370"/>
+		<node x="8968" y="-47370"/>
+	</territory>
+	<npcmaker name="rune03_2016_28" territory="rune03_2016_28" spawnTime="siege_warfare_start(8)" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="35488" pos="9191;-47437;975;0" total="1" respawn="3hour" dbName="rune_siege_332" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9191;-47485;975;0" total="1" respawn="3hour" dbName="rune_siege_333" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9191;-47533;975;0" total="1" respawn="3hour" dbName="rune_siege_334" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9190;-47582;975;0" total="1" respawn="3hour" dbName="rune_siege_335" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9149;-47531;974;0" total="1" respawn="3hour" dbName="rune_siege_336" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9148;-47490;974;0" total="1" respawn="3hour" dbName="rune_siege_337" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9148;-47450;974;0" total="1" respawn="3hour" dbName="rune_siege_338" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9148;-47407;974;0" total="1" respawn="3hour" dbName="rune_siege_339" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9191;-47394;975;0" total="1" respawn="3hour" dbName="rune_siege_340" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9090;-47562;975;16384" total="1" respawn="3hour" dbName="rune_siege_341" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9045;-47562;975;16384" total="1" respawn="3hour" dbName="rune_siege_342" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="8998;-47562;975;16384" total="1" respawn="3hour" dbName="rune_siege_343" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9167;-47595;974;16384" total="1" respawn="3hour" dbName="rune_siege_344" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9119;-47595;974;16384" total="1" respawn="3hour" dbName="rune_siege_345" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9076;-47595;974;16384" total="1" respawn="3hour" dbName="rune_siege_346" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9032;-47595;974;16384" total="1" respawn="3hour" dbName="rune_siege_347" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9132;-47561;975;16384" total="1" respawn="3hour" dbName="rune_siege_348" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="8988;-47595;974;16384" total="1" respawn="3hour" dbName="rune_siege_349" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_29" minZ="932" maxZ="1132">
+		<node x="8968" y="-50934"/>
+		<node x="9211" y="-50934"/>
+		<node x="9211" y="-50691"/>
+		<node x="8968" y="-50691"/>
+	</territory>
+	<npcmaker name="rune03_2016_29" territory="rune03_2016_29" spawnTime="siege_warfare_start(8)" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="35488" pos="9190;-50760;975;0" total="1" respawn="3hour" dbName="rune_siege_350" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9190;-50808;975;0" total="1" respawn="3hour" dbName="rune_siege_351" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9190;-50856;975;0" total="1" respawn="3hour" dbName="rune_siege_352" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9190;-50905;975;0" total="1" respawn="3hour" dbName="rune_siege_353" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9190;-50715;975;0" total="1" respawn="3hour" dbName="rune_siege_354" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9155;-50883;974;0" total="1" respawn="3hour" dbName="rune_siege_355" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9155;-50834;974;0" total="1" respawn="3hour" dbName="rune_siege_356" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9155;-50786;974;0" total="1" respawn="3hour" dbName="rune_siege_357" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9155;-50738;974;0" total="1" respawn="3hour" dbName="rune_siege_358" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9128;-50752;975;49256" total="1" respawn="3hour" dbName="rune_siege_359" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9084;-50752;975;49256" total="1" respawn="3hour" dbName="rune_siege_360" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="9037;-50752;975;49256" total="1" respawn="3hour" dbName="rune_siege_361" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="8994;-50752;975;49256" total="1" respawn="3hour" dbName="rune_siege_362" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9156;-50705;974;49160" total="1" respawn="3hour" dbName="rune_siege_363" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9116;-50705;974;49160" total="1" respawn="3hour" dbName="rune_siege_364" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9072;-50705;974;49160" total="1" respawn="3hour" dbName="rune_siege_365" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="8988;-50705;974;49160" total="1" respawn="3hour" dbName="rune_siege_366" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="9028;-50705;974;49160" total="1" respawn="3hour" dbName="rune_siege_367" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_30" minZ="955" maxZ="1155">
+		<node x="10752" y="-49384"/>
+		<node x="10952" y="-49384"/>
+		<node x="10951" y="-48920"/>
+		<node x="10749" y="-48916"/>
+	</territory>
+	<npcmaker name="rune03_2016_30" territory="rune03_2016_30" spawnTime="siege_warfare_start(8)" maximumNpcs="23">
+		<ai type="default_maker"/>
+		<npc id="35488" pos="10928;-49304;999;0" total="1" respawn="200sec" dbName="rune_siege_368" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="10929;-49259;999;0" total="1" respawn="200sec" dbName="rune_siege_369" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="10930;-49216;999;0" total="1" respawn="200sec" dbName="rune_siege_370" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="10930;-49168;999;0" total="1" respawn="200sec" dbName="rune_siege_371" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="10932;-49123;999;0" total="1" respawn="200sec" dbName="rune_siege_372" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="10933;-49079;999;0" total="1" respawn="200sec" dbName="rune_siege_373" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="10933;-49035;999;0" total="1" respawn="200sec" dbName="rune_siege_374" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="10934;-48987;999;0" total="1" respawn="200sec" dbName="rune_siege_375" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="10866;-49303;999;0" total="1" respawn="3hour" dbName="rune_siege_376" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="10867;-49258;999;0" total="1" respawn="3hour" dbName="rune_siege_377" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="10868;-49215;999;0" total="1" respawn="3hour" dbName="rune_siege_378" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="10868;-49167;999;0" total="1" respawn="3hour" dbName="rune_siege_379" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="10870;-49122;999;0" total="1" respawn="3hour" dbName="rune_siege_380" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="10871;-49078;999;0" total="1" respawn="3hour" dbName="rune_siege_381" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="10871;-49034;999;0" total="1" respawn="3hour" dbName="rune_siege_382" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35489" pos="10872;-48986;999;0" total="1" respawn="3hour" dbName="rune_siege_383" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35471" pos="10817;-49177;1008;0" total="1" respawn="200sec" dbName="rune_siege_384" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="10819;-49059;1008;0" total="1" respawn="200sec" dbName="rune_siege_385" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35486" pos="10817;-49234;1008;0" total="1" respawn="200sec" dbName="rune_siege_386" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35471" pos="10817;-49118;1008;0" total="1" respawn="200sec" dbName="rune_siege_387" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="10816;-49280;999;0" total="1" respawn="3hour" dbName="rune_siege_388" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="10817;-49019;999;0" total="1" respawn="3hour" dbName="rune_siege_389" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35488" pos="10778;-49151;999;0" total="1" respawn="3hour" dbName="rune_siege_390" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_31" minZ="955" maxZ="1155">
+		<node x="9379" y="-49517"/>
+		<node x="9579" y="-49517"/>
+		<node x="9582" y="-48792"/>
+		<node x="9381" y="-48788"/>
+	</territory>
+	<npcmaker name="rune03_2016_31" territory="rune03_2016_31" spawnTime="siege_warfare_start(8)" maximumNpcs="23">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="9442;-48934;998;0" total="1" respawn="200sec" dbName="rune_siege_391" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9441;-48976;998;0" total="1" respawn="200sec" dbName="rune_siege_392" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9400;-49084;998;0" total="1" respawn="200sec" dbName="rune_siege_393" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9475;-49129;998;0" total="1" respawn="200sec" dbName="rune_siege_394" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="9478;-48950;999;0" total="1" respawn="200sec" dbName="rune_siege_395" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="9479;-48994;999;0" total="1" respawn="200sec" dbName="rune_siege_396" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="9479;-49039;999;0" total="1" respawn="200sec" dbName="rune_siege_397" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="9477;-49084;999;0" total="1" respawn="200sec" dbName="rune_siege_398" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35472" pos="9441;-49061;992;0" total="1" respawn="200sec" dbName="rune_siege_399" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9476;-49172;998;0" total="1" respawn="200sec" dbName="rune_siege_400" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9441;-49371;998;0" total="1" respawn="200sec" dbName="rune_siege_401" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9442;-49327;998;0" total="1" respawn="200sec" dbName="rune_siege_402" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9401;-49221;998;0" total="1" respawn="200sec" dbName="rune_siege_403" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="9477;-49220;999;0" total="1" respawn="200sec" dbName="rune_siege_404" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="9477;-49264;999;0" total="1" respawn="200sec" dbName="rune_siege_405" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="9477;-49309;999;0" total="1" respawn="200sec" dbName="rune_siege_406" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35475" pos="9475;-49354;999;0" total="1" respawn="200sec" dbName="rune_siege_407" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35472" pos="9444;-49239;992;0" total="1" respawn="200sec" dbName="rune_siege_408" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35470" pos="9442;-49154;992;0" total="1" respawn="200sec" dbName="rune_siege_409" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35473" pos="9442;-49199;1008;0" total="1" respawn="200sec" dbName="rune_siege_410" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35473" pos="9444;-49109;1008;0" total="1" respawn="200sec" dbName="rune_siege_411" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35473" pos="9442;-49288;1008;0" total="1" respawn="200sec" dbName="rune_siege_412" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35473" pos="9445;-49019;1008;0" total="1" respawn="200sec" dbName="rune_siege_413" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_32" minZ="1205" maxZ="1405">
+		<node x="8511" y="-48631"/>
+		<node x="10893" y="-48631"/>
+		<node x="10893" y="-48459"/>
+		<node x="8515" y="-48461"/>
+	</territory>
+	<npcmaker name="rune03_2016_32" territory="rune03_2016_32" spawnTime="siege_warfare_start(8)" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="10703;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_414" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="10631;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_415" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="10595;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_416" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="10557;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_417" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="10776;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_418" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="10740;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_419" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9269;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_420" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9213;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_421" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9164;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_422" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9108;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_423" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9375;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_424" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9320;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_425" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9045;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_426" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35472" pos="8993;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_427" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35473" pos="10665;-48590;1251;49152" total="1" respawn="3hour" dbName="rune_siege_428" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35472" pos="10666;-48624;1251;49152" total="1" respawn="3hour" dbName="rune_siege_429" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_33" minZ="1205" maxZ="1405">
+		<node x="8541" y="-49848"/>
+		<node x="10932" y="-49841"/>
+		<node x="10931" y="-49669"/>
+		<node x="8545" y="-49679"/>
+	</territory>
+	<npcmaker name="rune03_2016_33" territory="rune03_2016_33" spawnTime="siege_warfare_start(8)" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="10686;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_430" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="10614;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_431" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="10577;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_432" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="10542;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_433" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="10756;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_434" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="10720;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_435" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9268;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_436" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9212;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_437" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9163;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_438" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9107;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_439" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9374;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_440" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9319;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_441" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="9044;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_442" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35472" pos="8992;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_443" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35472" pos="10650;-49682;1251;16384" total="1" respawn="3hour" dbName="rune_siege_444" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35473" pos="10649;-49715;1251;16464" total="1" respawn="3hour" dbName="rune_siege_445" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_34" minZ="1211" maxZ="1411">
+		<node x="8298" y="-49658"/>
+		<node x="8498" y="-49658"/>
+		<node x="8501" y="-48641"/>
+		<node x="8299" y="-48637"/>
+	</territory>
+	<npcmaker name="rune03_2016_34" territory="rune03_2016_34" spawnTime="siege_warfare_start(8)" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="8493;-49085;1251;0" total="1" respawn="3hour" dbName="rune_siege_446" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35472" pos="8493;-49179;1251;0" total="1" respawn="3hour" dbName="rune_siege_447" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35472" pos="8493;-49125;1251;0" total="1" respawn="3hour" dbName="rune_siege_448" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="8493;-49048;1251;0" total="1" respawn="3hour" dbName="rune_siege_449" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="8493;-49011;1251;0" total="1" respawn="3hour" dbName="rune_siege_450" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="8493;-49293;1251;0" total="1" respawn="3hour" dbName="rune_siege_451" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="8493;-49256;1251;0" total="1" respawn="3hour" dbName="rune_siege_452" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="8493;-49220;1251;0" total="1" respawn="3hour" dbName="rune_siege_453" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_2016_35" minZ="-1130" maxZ="-930">
+		<node x="11530" y="-49876"/>
+		<node x="12886" y="-49881"/>
+		<node x="12892" y="-48442"/>
+		<node x="11536" y="-48437"/>
+	</territory>
+	<npcmaker name="rune03_2016_35" territory="rune03_2016_35" spawnTime="siege_warfare_start(8)" maximumNpcs="51">
+		<ai type="default_maker"/>
+		<npc id="35490" pos="12406;-49829;-1087;0" total="1" respawn="3hour" dbName="rune_siege_454" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12430;-49581;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_455" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35471" pos="12215;-49424;-1087;0" total="1" respawn="200sec" dbName="rune_siege_456" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35473" pos="12218;-49373;-1087;0" total="1" respawn="200sec" dbName="rune_siege_457" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12406;-49785;-1087;0" total="1" respawn="3hour" dbName="rune_siege_458" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12407;-49744;-1087;0" total="1" respawn="3hour" dbName="rune_siege_459" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12407;-49701;-1087;0" total="1" respawn="3hour" dbName="rune_siege_460" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12406;-49658;-1087;0" total="1" respawn="3hour" dbName="rune_siege_461" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12407;-49616;-1087;0" total="1" respawn="3hour" dbName="rune_siege_462" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12672;-49835;-1087;32768" total="1" respawn="3hour" dbName="rune_siege_463" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12672;-49791;-1087;32768" total="1" respawn="3hour" dbName="rune_siege_464" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12672;-49750;-1087;32768" total="1" respawn="3hour" dbName="rune_siege_465" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12673;-49706;-1087;32768" total="1" respawn="3hour" dbName="rune_siege_466" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12672;-49664;-1087;32768" total="1" respawn="3hour" dbName="rune_siege_467" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="12672;-49622;-1087;32768" total="1" respawn="3hour" dbName="rune_siege_468" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11820;-49863;-1087;16448" total="1" respawn="3hour" dbName="rune_siege_469" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11776;-49863;-1087;16448" total="1" respawn="3hour" dbName="rune_siege_470" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11735;-49863;-1087;16448" total="1" respawn="3hour" dbName="rune_siege_471" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11691;-49863;-1087;16448" total="1" respawn="3hour" dbName="rune_siege_472" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11649;-49864;-1087;16448" total="1" respawn="3hour" dbName="rune_siege_473" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11606;-49864;-1087;16448" total="1" respawn="3hour" dbName="rune_siege_474" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11829;-48453;-1087;49152" total="1" respawn="3hour" dbName="rune_siege_475" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11784;-48453;-1087;49152" total="1" respawn="3hour" dbName="rune_siege_476" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11743;-48453;-1087;49152" total="1" respawn="3hour" dbName="rune_siege_477" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11700;-48453;-1087;49152" total="1" respawn="3hour" dbName="rune_siege_478" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11658;-48454;-1087;49152" total="1" respawn="3hour" dbName="rune_siege_479" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35490" pos="11615;-48454;-1087;49152" total="1" respawn="3hour" dbName="rune_siege_480" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12479;-49581;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_481" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12525;-49581;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_482" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12570;-49581;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_483" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12614;-49581;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_484" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12657;-49581;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_485" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12430;-49551;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_486" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12478;-49551;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_487" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12525;-49551;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_488" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12570;-49551;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_489" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12613;-49551;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_490" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="12656;-49551;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_491" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11610;-48496;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_492" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11658;-48496;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_493" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11705;-48496;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_494" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11750;-48496;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_495" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11794;-48496;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_496" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11836;-48496;-1086;49152" total="1" respawn="200sec" dbName="rune_siege_497" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11600;-49823;-1086;16384" total="1" respawn="200sec" dbName="rune_siege_498" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11648;-49823;-1086;16384" total="1" respawn="200sec" dbName="rune_siege_499" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11695;-49823;-1086;16384" total="1" respawn="200sec" dbName="rune_siege_500" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11740;-49823;-1086;16384" total="1" respawn="200sec" dbName="rune_siege_501" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11784;-49823;-1086;16384" total="1" respawn="200sec" dbName="rune_siege_502" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35476" pos="11827;-49823;-1086;16384" total="1" respawn="200sec" dbName="rune_siege_503" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35474" pos="12215;-49476;-1086;0" total="1" respawn="200sec" dbName="rune_siege_504" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_01" minZ="-1288" maxZ="-1088">
+		<node x="18540" y="-49076"/>
+		<node x="18740" y="-49076"/>
+		<node x="18740" y="-48876"/>
+		<node x="18540" y="-48876"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_01m1" territory="rune03_npc2016_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35503" pos="18616;-48956;-1228;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_02" minZ="-1256" maxZ="-1056">
+		<node x="17772" y="-49076"/>
+		<node x="17972" y="-49076"/>
+		<node x="17972" y="-48876"/>
+		<node x="17772" y="-48876"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_02m1" territory="rune03_npc2016_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35503" pos="17908;-48960;-1206;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_03" minZ="-1100" maxZ="-900">
+		<node x="15804" y="-49140"/>
+		<node x="16004" y="-49140"/>
+		<node x="16004" y="-48940"/>
+		<node x="15804" y="-48940"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_03m1" territory="rune03_npc2016_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35504" pos="15860;-49020;-1065;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_04" minZ="-1096" maxZ="-896">
+		<node x="15580" y="-49156"/>
+		<node x="15780" y="-49156"/>
+		<node x="15780" y="-48956"/>
+		<node x="15580" y="-48956"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_04m1" territory="rune03_npc2016_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35504" pos="15688;-49036;-1061;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_05" minZ="-592" maxZ="-392">
+		<node x="10252" y="-49604"/>
+		<node x="10452" y="-49604"/>
+		<node x="10452" y="-49404"/>
+		<node x="10252" y="-49404"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_05m1" territory="rune03_npc2016_05" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35511" pos="10352;-49504;-549;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_06" minZ="-1128" maxZ="-928">
+		<node x="12764" y="-49284"/>
+		<node x="12964" y="-49284"/>
+		<node x="12964" y="-49084"/>
+		<node x="12764" y="-49084"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_06m1" territory="rune03_npc2016_06" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35508" pos="12864;-49184;-1091;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_07" minZ="-1132" maxZ="-932">
+		<node x="12796" y="-48852"/>
+		<node x="12996" y="-48852"/>
+		<node x="12996" y="-48652"/>
+		<node x="12796" y="-48652"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_07m1" territory="rune03_npc2016_07" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35507" pos="12872;-48752;-1091;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_08" minZ="-1332" maxZ="-1132">
+		<node x="26888" y="-49092"/>
+		<node x="27088" y="-49092"/>
+		<node x="27088" y="-48892"/>
+		<node x="26888" y="-48892"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_08m1" territory="rune03_npc2016_08" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35513" pos="26976;-48968;-1303;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_15" minZ="1240" maxZ="1440">
+		<node x="11932" y="-47312"/>
+		<node x="12132" y="-47312"/>
+		<node x="12132" y="-47112"/>
+		<node x="11932" y="-47112"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_15m1" territory="rune03_npc2016_15" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35510" pos="12012;-47180;1296;57000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_16" minZ="3744" maxZ="3944">
+		<node x="9236" y="-49752"/>
+		<node x="11352" y="-49316"/>
+		<node x="11360" y="-48988"/>
+		<node x="9292" y="-48576"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_16m1" territory="rune03_npc2016_16" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35502" pos="10592;-49136;3864;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_17" minZ="-340" maxZ="-140">
+		<node x="10180" y="-49224"/>
+		<node x="10380" y="-49224"/>
+		<node x="10380" y="-49024"/>
+		<node x="10180" y="-49024"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_17m1" territory="rune03_npc2016_17" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35509" pos="10256;-49088;-296;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_18" minZ="-1124" maxZ="-924">
+		<node x="11436" y="-49236"/>
+		<node x="11636" y="-49236"/>
+		<node x="11636" y="-49036"/>
+		<node x="11436" y="-49036"/>
+	</territory>
+	<territory name="rune03_npc2016_19" minZ="-3050" maxZ="-2750">
+		<node x="11538" y="-49804"/>
+		<node x="12852" y="-49804"/>
+		<node x="12860" y="-48461"/>
+		<node x="11545" y="-48449"/>
+	</territory>
+	<territory name="rune03_npc2016_20" minZ="-607" maxZ="-357">
+		<node x="10254" y="-49749"/>
+		<node x="13407" y="-49727"/>
+		<node x="13400" y="-48644"/>
+		<node x="10250" y="-48658"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_18m1" territory="rune03_npc2016_18;rune03_npc2016_19;rune03_npc2016_20" maximumNpcs="3">
+		<ai type="benom_maker">
+				<set name="CastleID" val="8"/>
+		</ai>
+		<npc id="35506" pos="11532;-49136;-1087;0" total="1" respawn="1min"/>
+		<npc id="29054" pos="11882;-49216;-3008;0" total="1" respawn="0sec" dbName="benom"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_21" minZ="-1156" maxZ="-956">
+		<node x="12644" y="-51232"/>
+		<node x="12844" y="-51232"/>
+		<node x="12844" y="-50948"/>
+		<node x="12644" y="-51032"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_21m1" territory="rune03_npc2016_21" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="35505" pos="12736;-51184;-1089;49000" total="1" respawn="1min"/>
+		<npc id="35505" pos="12780;-51060;-1091;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune03_npc2016_22" minZ="-656" maxZ="-456">
+		<node x="10224" y="-48876"/>
+		<node x="10424" y="-48876"/>
+		<node x="10424" y="-48676"/>
+		<node x="10224" y="-48676"/>
+	</territory>
+	<npcmaker name="rune03_npc2016_22m1" territory="rune03_npc2016_22" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35655" pos="10352;-48788;-545;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune_2016_pg01" minZ="-1350" maxZ="-1150">
+		<node x="19147" y="-50438"/>
+		<node x="19472" y="-49442"/>
+		<node x="19463" y="-48784"/>
+		<node x="19111" y="-47869"/>
+		<node x="18695" y="-47309"/>
+		<node x="18618" y="-51187"/>
+	</territory>
+	<territory name="rune_2016_pg02" minZ="-1264" maxZ="-1064">
+		<node x="17425" y="-51979"/>
+		<node x="17863" y="-52029"/>
+		<node x="18662" y="-51043"/>
+		<node x="18680" y="-49788"/>
+	</territory>
+	<territory name="rune_2016_pg03" minZ="-1264" maxZ="-1064">
+		<node x="17587" y="-46568"/>
+		<node x="18724" y="-48542"/>
+		<node x="18735" y="-47372"/>
+		<node x="18260" y="-46595"/>
+	</territory>
+	<territory name="rune_2016_pg04" minZ="-1402" maxZ="-1102">
+		<node x="19291" y="-48936"/>
+		<node x="19278" y="-49302"/>
+		<node x="27530" y="-49290"/>
+		<node x="27580" y="-48979"/>
+	</territory>
+	<territory name="rune_2016_pg05" minZ="-1367" maxZ="-1167">
+		<node x="21410" y="-47808"/>
+		<node x="21423" y="-50408"/>
+		<node x="22290" y="-50407"/>
+		<node x="22302" y="-47801"/>
+	</territory>
+	<territory name="rune_2016_pg06" minZ="-1984" maxZ="-1134">
+		<node x="27111" y="-50634"/>
+		<node x="28151" y="-52261"/>
+		<node x="29524" y="-48109"/>
+		<node x="28649" y="-47529"/>
+		<node x="27527" y="-47970"/>
+	</territory>
+	<npcmaker name="rune_2016_pg01m1" territory="rune_2016_pg01;rune_2016_pg02;rune_2016_pg03" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="18698;-49348;-1232;0" total="1" respawn="1min"/>
+	</npcmaker>
+	<npcmaker name="rune_2016_pg01m2" territory="rune_2016_pg01;rune_2016_pg02;rune_2016_pg03" maximumNpcs="51">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="15" respawn="20sec"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+	</npcmaker>
+	<npcmaker name="rune_2016_pg04m1" territory="rune_2016_pg04;rune_2016_pg05" maximumNpcs="33">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="9" respawn="20sec"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+	</npcmaker>
+	<npcmaker name="rune_2016_pg06m1" territory="rune_2016_pg06" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="27797;-49239;-1292;9688" total="1" respawn="1min"/>
+	</npcmaker>
+	<npcmaker name="rune_2016_pg06m2" territory="rune_2016_pg06" maximumNpcs="30">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="10" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="rune_2016_pgm01" territory="rune_2016_pg01;rune_2016_pg02;rune_2016_pg03;rune_2016_pg04;rune_2016_pg05;rune_2016_pg06" maximumNpcs="7">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13035" total="1" respawn="10min" respawnRand="3min"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+	</npcmaker>
+</list>

@@ -1,0 +1,63 @@
+<html><body>
+	<table width=270>
+		<tr>
+			<td width=45><button value="Main" action="bypass -h admin_admin" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+			<td width=180 align=center>%castleName%</td>
+			<td width=45><button value="Back" action="bypass -h admin_siege" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		</tr>
+	</table><br>
+	<center>
+	<table width=270>
+		<tr>
+			<td width=150>Circlet id: %circletId%</td><td width=120>Left cert.: %certificates% (<a action="bypass -h admin_castle certificates %castleAlias%">reset</a>)</td>
+		</tr><tr>
+			<td>Ticket templates: %ticketsNumber%</td><td>NPCs number: %npcsNumber%</td>
+		</tr><tr>
+			<td>Dropped tickets: %droppedTicketsNumber%</td><td>Parent: %parent%</td>
+		</tr><tr>
+			<td>Alive Life Towers : %aliveLifeTowers%</td><td></td>
+		</tr>
+	</table><br>
+	<table width=270>
+		<tr>
+			<td width=95>Default: %defaultTax%%</td><td width=175>Current/next: %currentTax%% / %nextTax%%</td>
+		</tr><tr>
+			<td>TaxSysget: %taxSysgetRate%%</td><td>Tax revenue: %taxRevenue%</td>
+		</tr><tr>
+			<td>Tribute: %tributeRate%%</td><td>Seed income: %seedIncome%</td>
+		</tr>
+		<tr>
+			<td>(<a action="bypass -h admin_castle tax %castleAlias%">update</a>)</td><td>Treasure: %treasury%</td>
+		</tr>
+	</table><br>
+	<table width=270>
+		<tr>
+			<td width=270><font color="LEVEL">Artifacts</font></td>
+		</tr><tr>
+			<td>%artifacts%</td>
+		</tr>
+	</table><br>
+	<table width=270>
+		<tr>
+			<td width=270><font color="LEVEL">Control Towers</font></td>
+		</tr><tr>
+			<td>%ct%</td>
+		</tr>
+	</table><br>
+	<table width=240>
+		<tr>
+			<td><button value="Add Attacker" action="bypass -h admin_siege attack %castleAlias%" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+			<td><button value="Start Siege" action="bypass -h admin_siege start %castleAlias%" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+			<td><button value="Set Castle" action="bypass -h admin_castle set %castleAlias%" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+		</tr><tr>
+			<td><button value="Add Defender" action="bypass -h admin_siege defend %castleAlias%" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+			<td><button value="End Siege" action="bypass -h admin_siege end %castleAlias%" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+			<td><button value="Remove Castle" action="bypass -h admin_castle remove %castleAlias%" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+		</tr><tr>
+			<td></td>
+			<td><button value="Clear List" action="bypass -h admin_siege clear %castleAlias%" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+			<td></td>
+		</tr>
+	</table>
+	</center>
+</body></html>
