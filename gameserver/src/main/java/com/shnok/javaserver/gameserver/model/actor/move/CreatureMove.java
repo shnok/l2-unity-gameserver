@@ -27,7 +27,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrim
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToLocation;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToPawn;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.StopMove;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.StopMove;
 
 /**
  * This class groups all movement data related to a {@link Creature}.
@@ -432,8 +432,8 @@ public class CreatureMove<T extends Creature>
 	// Monsters: regular movement, NOT for combat
 	public boolean maybeMoveToLocation(Location destination, int offset, boolean pathfinding, boolean isShiftPressed)
 	{
-//		if (_actor.isIn3DRadius(destination, offset)) // Position reached?
-//			return false;
+		if (_actor.isIn3DRadius(destination, offset)) // Position reached?
+			return false;
 		
 		if (!_actor.isMovementDisabled() && !isShiftPressed)
 		{

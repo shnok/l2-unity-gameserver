@@ -115,7 +115,7 @@ public class PlayerMove extends CreatureMove<Player>
 		// Get the current position of the Creature.
 		final Location position = _actor.getPosition().clone();
 
-		System.out.println("CurrentPos: " +  _actor.getPosition());
+//		System.out.println("CurrentPos: " +  _actor.getPosition());
 		// Set the current x/y/z.
 		_xAccurate = position.getX();
 		_yAccurate = position.getY();
@@ -126,7 +126,7 @@ public class PlayerMove extends CreatureMove<Player>
 				position.getY() + moveDirection.getY() * 100,
 				position.getZ());
 
-		System.out.println("Destination: " + destination);
+//		System.out.println("Destination: " + destination);
 
 //		Set the destination.
 		_destination.set(destination);
@@ -315,7 +315,7 @@ public class PlayerMove extends CreatureMove<Player>
 			nextZ = Math.min(_destination.getZ(), maxZ);
 		}
 
-		System.out.println("Movedirection: " + _moveDirection);
+//		System.out.println("Movedirection: " + _moveDirection);
 
 		// Check if location can be reached (case of dynamic objects, such as opening doors/fences).
 		if (type == MoveType.GROUND && !GeoEngine.getInstance().canMoveToTarget(

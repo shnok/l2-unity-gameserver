@@ -77,7 +77,7 @@ public class ValidatePosition extends L2GameClientPacket
 			dist = (player.getMove().getMoveType() == MoveType.GROUND) ? player.getPosition().distance2D(_x, _y) : player.getPosition().distance3D(_x, _y, _z);
 
 			System.out.println("Player position error delta: " + dist);
-			if (dist > actualSpeed && !info.isBoatMovement())
+			if (dist > actualSpeed / 2f && !info.isBoatMovement())
 				sendPacket(new ValidateLocation(player));
 		}
 		

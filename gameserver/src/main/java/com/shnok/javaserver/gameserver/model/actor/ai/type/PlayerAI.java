@@ -29,7 +29,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.combat.AutoAttackSt
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.ValidateLocation;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ChairSit;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToPawn;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.StopMove;
+import com.shnok.javaserver.gameserver.network.serverpackets.movement.StopMove;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 import com.shnok.javaserver.gameserver.taskmanager.AttackStanceTaskManager;

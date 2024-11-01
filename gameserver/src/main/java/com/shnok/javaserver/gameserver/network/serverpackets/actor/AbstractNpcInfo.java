@@ -193,6 +193,8 @@ public abstract class AbstractNpcInfo extends L2GameServerPacket
 			
 			writeD(_enchantEffect);
 			writeD(_npc.isFlying() ? 1 : 0);
+
+			writeD(_npc.getTemplate().getBaseAttackRange());
 		}
 	}
 	
@@ -302,6 +304,8 @@ public abstract class AbstractNpcInfo extends L2GameServerPacket
 			
 			writeD(_enchantEffect);
 			writeD(0x00);
+
+			writeD(_summon.getStatus().getPhysicalAttackRange());
 		}
 	}
 	
@@ -395,6 +399,9 @@ public abstract class AbstractNpcInfo extends L2GameServerPacket
 			
 			writeD(_enchantEffect);
 			writeD(0x00);
+
+			writeD(_pc.getStatus().getPhysicalAttackRange());
+
 		}
 	}
 }
