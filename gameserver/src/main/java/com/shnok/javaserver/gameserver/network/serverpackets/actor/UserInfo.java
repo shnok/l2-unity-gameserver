@@ -2,6 +2,7 @@ package com.shnok.javaserver.gameserver.network.serverpackets.actor;
 
 import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.data.manager.CursedWeaponManager;
+import com.shnok.javaserver.gameserver.data.xml.PlayerLevelData;
 import com.shnok.javaserver.gameserver.enums.Paperdoll;
 import com.shnok.javaserver.gameserver.enums.TeamType;
 import com.shnok.javaserver.gameserver.enums.skills.AbnormalEffect;
@@ -40,6 +41,7 @@ public class UserInfo extends L2GameServerPacket
 		writeD((_player.getClassIndex() == 0) ? _player.getClassId().getId() : _player.getBaseClass());
 		writeD(_player.getStatus().getLevel());
 		writeQ(_player.getStatus().getExp());
+		writeF((float) (_player.getStatus().getExp() - PlayerLevelData.getInstance().getPlayerLevel(_player.getStatus().getLevel()).requiredExpToLevelUp()) / (PlayerLevelData.getInstance().getPlayerLevel(_player.getStatus().getLevel() + 1).requiredExpToLevelUp() - PlayerLevelData.getInstance().getPlayerLevel(_player.getStatus().getLevel()).requiredExpToLevelUp()));
 		writeD(_player.getStatus().getSTR());
 		writeD(_player.getStatus().getDEX());
 		writeD(_player.getStatus().getCON());
