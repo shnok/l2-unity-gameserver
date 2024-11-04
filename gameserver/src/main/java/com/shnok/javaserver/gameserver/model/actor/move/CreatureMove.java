@@ -144,7 +144,7 @@ public class CreatureMove<T extends Creature>
 		
 		// Initialize variables.
 		_geoPath.clear();
-		
+
 		if (pathfinding)
 		{
 			// Calculate the path.
@@ -223,7 +223,6 @@ public class CreatureMove<T extends Creature>
 			if (updatePosition(false) && !moveToNextRoutePoint())
 				ThreadPool.execute(() ->
 				{
-					System.out.println("STOP MOVE TASK");
 					cancelMoveTask();
 					
 					_actor.revalidateZone(true);
@@ -232,7 +231,7 @@ public class CreatureMove<T extends Creature>
 					else
 						_actor.getAI().notifyEvent(AiEventType.ARRIVED_BLOCKED, null, null);
 				});
-		}, 0, 200);
+		}, 100, 100);
 	}
 	
 	public void cancelMoveTask()
@@ -314,6 +313,8 @@ public class CreatureMove<T extends Creature>
 		// We use Z for delta calculation only if different of GROUND MoveType.
 		final double leftDistance = (type == MoveType.GROUND) ? Math.sqrt(dx * dx + dy * dy) : Math.sqrt(dx * dx + dy * dy + dz * dz);
 		final double passedDistance = _actor.getStatus().getMoveSpeed() / 10;
+
+//		System.out.println("[Gremlin] Left:" + leftDistance + " Passed:" + passedDistance +  "  speed:" + _actor.getStatus().getMoveSpeed() + " Unity:" + _actor.getStatus().getMoveSpeed() / 52.5f);
 		
 		// Calculate the maximum Z.
 		int maxZ = World.WORLD_Z_MAX;
@@ -440,8 +441,8 @@ public class CreatureMove<T extends Creature>
 		{
 			_pawn = null;
 			_offset = 0;
-			
-			moveToLocation(destination, false);
+
+			moveToLocation(destination, !(this instanceof PlayerMove) && pathfinding);
 		}
 		
 		return true;
