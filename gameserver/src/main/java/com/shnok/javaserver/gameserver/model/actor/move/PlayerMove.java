@@ -105,30 +105,28 @@ public class PlayerMove extends CreatureMove<Player>
 	@Override
 	protected void moveToLocation(Location moveDirection, boolean pathfinding)
 	{
-		_moveDirection = moveDirection;
-//		System.out.println("Run: MoveDirection=" + moveDirection);
 		if (_task != null)
 			updatePosition(true);
 
+		_moveDirection = moveDirection;
 		_instant = Instant.now();
 
 		// Get the current position of the Creature.
 		final Location position = _actor.getPosition().clone();
 
-//		System.out.println("CurrentPos: " +  _actor.getPosition());
 		// Set the current x/y/z.
 		_xAccurate = position.getX();
 		_yAccurate = position.getY();
 		_zAccurate = position.getZ();
 
 		final Location destination = new Location(
-				position.getX() + moveDirection.getX() * 100,
-				position.getY() + moveDirection.getY() * 100,
+				position.getX() + moveDirection.getX() * 50,
+				position.getY() + moveDirection.getY() * 50,
 				position.getZ());
 
 //		System.out.println("Destination: " + destination);
 
-//		Set the destination.
+		// Set the destination.
 		_destination.set(destination);
 
 		// Calculate the heading.
@@ -140,95 +138,6 @@ public class PlayerMove extends CreatureMove<Player>
 
 		//_actor.broadcastPacket(new ActionAllowed(_actor, destination));
 		//TODO broadcast movedirection
-
-//		register
-//
-//		_instant = Instant.now();
-//
-//		// Get the current position of the Creature.
-//		final Location position = _actor.getPosition().clone();
-//
-//		// Set the current x/y/z.
-//		_xAccurate = position.getX();
-//		_yAccurate = position.getY();
-//		_zAccurate = position.getZ();
-//
-//		// Initialize variables.
-//		_geoPath.clear();
-//
-//		if (pathfinding)
-//		{
-//			// Calculate the path.
-//			final Location loc = calculatePath(position.getX(), position.getY(), position.getZ(), destination.getX(), destination.getY(), destination.getZ());
-//			if (loc != null)
-//				destination.set(loc);
-//		}
-//
-//		// Draw a debug of this movement if activated.
-//		if (_isDebugMove)
-//		{
-//			// Draw debug packet to surrounding GMs.
-//			_actor.forEachKnownGM(p ->
-//			{
-//				// Get debug packet.
-//				final ExServerPrimitive debug = p.getDebugPacket("MOVE" + _actor.getObjectId());
-//
-//				// Reset the packet lines and points.
-//				debug.reset();
-//
-//				// Add a WHITE line corresponding to the initial click release.
-//				debug.addLine("MoveToLocation: " + destination.toString(), Color.WHITE, true, position, destination);
-//
-//				final Boat boat = _actor.getDockedBoat();
-//				if (boat != null)
-//				{
-//					// Add a WHITE line corresponding to the boat entrance.
-//					debug.addLine("Boat Entrance", Color.WHITE, true, boat.getEngine().getDock().getBoatEntrance(), -3624);
-//
-//					// Add a WHITE line corresponding to the boat Exit.
-//					debug.addLine("Boat Exit", Color.WHITE, true, boat.getEngine().getDock().getBoatExit(), -3624);
-//				}
-//
-//				// Add a RED point corresponding to initial start location.
-//				debug.addPoint(Color.RED, position);
-//
-//				// Add YELLOW lines corresponding to the geo path, if any. Add a single YELLOW line if no geoPath encountered.
-//				if (!_geoPath.isEmpty())
-//				{
-//					// Add manually a segment, since poll() was executed.
-//					debug.addLine("Segment #1", Color.YELLOW, true, position, destination);
-//
-//					// Initialize a Location based on target location.
-//					final Location curPos = new Location(destination);
-//					int i = 2;
-//
-//					// Iterate geo path.
-//					for (final Location geoPos : _geoPath)
-//					{
-//						// Draw a blue line going from initial to geo path.
-//						debug.addLine("Segment #" + i, Color.YELLOW, true, curPos, geoPos);
-//
-//						// Set current path as geo path ; the draw will start from here.
-//						curPos.set(geoPos);
-//						i++;
-//					}
-//				}
-//				else
-//					debug.addLine("No geopath", Color.YELLOW, true, position, destination);
-//
-//				p.sendMessage("Moving from " + position.toString() + " to " + destination.toString());
-//			});
-//		}
-//
-//		// Set the destination.
-//		_destination.set(destination);
-//
-//		// Calculate the heading.
-//		_actor.getPosition().setHeadingTo(destination);
-//
-//		registerMoveTask();
-//
-//		_actor.broadcastPacket(new MoveToLocation(_actor, destination));
 	}
 	
 	@Override
@@ -236,11 +145,7 @@ public class PlayerMove extends CreatureMove<Player>
 	{
 		if (_task == null || !_actor.isVisible())
 			return true;
-//
-//		// We got a pawn target, but it is not known anymore - stop the movement.
-//		if (_pawn != null && !_actor.knows(_pawn))
-//			return true;
-//
+
 		// Save current Instant.
 		final Instant instant = Instant.now();
 
@@ -254,7 +159,6 @@ public class PlayerMove extends CreatureMove<Player>
 		final MoveType type = getMoveType();
 
 //		final boolean canBypassZCheck = _actor.getBoatInfo().getBoat() != null || type == MoveType.FLY;
-		final boolean canBypassZCheck = true;
 
 		// Increment the timestamp.
 		_moveTimeStamp++;
@@ -275,22 +179,17 @@ public class PlayerMove extends CreatureMove<Player>
 
 		// We use Z for delta calculation only if different of GROUND MoveType.
 		final double leftDistance = (type == MoveType.GROUND) ? Math.sqrt(dx * dx + dy * dy) : Math.sqrt(dx * dx + dy * dy + dz * dz);
-		float speed = _actor.getStatus().getRealMoveSpeed(type != MoveType.FLY && _moveTimeStamp <= 5);
-//		System.out.println("Speed: " + speed + " UnitySpd: " + speed / 52.5f);
+		float speed = _actor.getStatus().getRealMoveSpeed(!_actor.isRunning());
+
 		final double passedDistance = speed / (1000d / timePassed);
-//
+
 //		// Calculate the maximum Z. Only FLY is allowed to bypass Z check.
 		int maxZ = World.WORLD_Z_MAX;
-//		if (canBypassZCheck)
-//		{
-//			final WaterZone waterZone = ZoneManager.getInstance().getZone(curX, curY, curZ, WaterZone.class);
-//			if (waterZone != null && GeoEngine.getInstance().getHeight(curX, curY, curZ) - waterZone.getWaterZ() < -20)
-//				maxZ = waterZone.getWaterZ();
-//		}
-//
+
 		final int nextX;
 		final int nextY;
 		final int nextZ;
+//		System.out.println(Thread.currentThread().threadId() + " - TIME PASSED: " + timePassed + " dx:" + dx + " dy:" + dy + " dz:" + dz + "Speed: " + speed + " UnitySpd: " + speed / 52.5f);
 
 		// Set the position only
 		if (passedDistance < leftDistance)
@@ -341,8 +240,6 @@ public class PlayerMove extends CreatureMove<Player>
 //		if (isOnLastPawnMoveGeoPath() && ((type == MoveType.GROUND) ? _actor.isIn2DRadius(_pawn, _offset) : _actor.isIn3DRadius(_pawn, _offset)))
 //			return true;
 //
-//		System.out.println("passedDistance: " + passedDistance);
-//		System.out.println("leftDistance: " + leftDistance);
 		return (passedDistance >= leftDistance);
 	}
 	

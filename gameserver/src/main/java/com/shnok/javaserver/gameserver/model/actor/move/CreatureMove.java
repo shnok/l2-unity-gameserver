@@ -223,6 +223,7 @@ public class CreatureMove<T extends Creature>
 			if (updatePosition(false) && !moveToNextRoutePoint())
 				ThreadPool.execute(() ->
 				{
+					System.out.println("STOP MOVE TASK");
 					cancelMoveTask();
 					
 					_actor.revalidateZone(true);
@@ -231,7 +232,7 @@ public class CreatureMove<T extends Creature>
 					else
 						_actor.getAI().notifyEvent(AiEventType.ARRIVED_BLOCKED, null, null);
 				});
-		}, 100, 100);
+		}, 0, 200);
 	}
 	
 	public void cancelMoveTask()
