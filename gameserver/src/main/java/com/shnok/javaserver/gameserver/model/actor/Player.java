@@ -2670,8 +2670,10 @@ public final class Player extends Playable
 		forEachKnownType(Creature.class, creature -> creature.getFusionSkill() != null && creature.getFusionSkill().getTarget() == this, creature -> creature.getCast().stop());
 		
 		// Calculate death penalty buff.
-		calculateDeathPenaltyBuffLevel(killer);
-		
+		if(Config.DEATH_PENALTY_ENABLED) {
+			calculateDeathPenaltyBuffLevel(killer); //l2-unity no death penality
+		}
+
 		WaterTaskManager.getInstance().remove(this);
 		
 		if (isPhoenixBlessed())

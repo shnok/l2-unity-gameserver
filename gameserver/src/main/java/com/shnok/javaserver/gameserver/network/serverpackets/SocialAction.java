@@ -19,5 +19,6 @@ public class SocialAction extends L2GameServerPacket
 		writeC(0x2d);
 		writeD(_charObjId);
 		writeD(_actionId);
+		System.out.println("Social action: " + _actionId);
 	}
 }

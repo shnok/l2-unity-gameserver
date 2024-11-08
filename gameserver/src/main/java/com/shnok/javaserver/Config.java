@@ -256,7 +256,8 @@ public final class Config
 	public static boolean DEEPBLUE_DROP_RULES;
 	public static boolean ALLOW_DELEVEL;
 	public static int DEATH_PENALTY_CHANCE;
-	
+	public static boolean DEATH_PENALTY_ENABLED;
+
 	/** Inventory & WH */
 	public static int INVENTORY_MAXIMUM_NO_DWARF;
 	public static int INVENTORY_MAXIMUM_DWARF;
@@ -781,7 +782,8 @@ public final class Config
 		DEEPBLUE_DROP_RULES = players.getProperty("UseDeepBlueDropRules", true);
 		ALLOW_DELEVEL = players.getProperty("AllowDelevel", true);
 		DEATH_PENALTY_CHANCE = players.getProperty("DeathPenaltyChance", 20);
-		
+		DEATH_PENALTY_ENABLED = players.getProperty("DeathPenaltyEnabled", false);
+
 		INVENTORY_MAXIMUM_NO_DWARF = players.getProperty("MaximumSlotsForNoDwarf", 80);
 		INVENTORY_MAXIMUM_DWARF = players.getProperty("MaximumSlotsForDwarf", 100);
 		INVENTORY_MAXIMUM_PET = players.getProperty("MaximumSlotsForPet", 12);

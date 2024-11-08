@@ -94,7 +94,7 @@ public class PlayerAI extends PlayableAI<Player>
 			super.onEvtArrivedBlocked();
 		}
 		else {
-			System.out.println("SHOULD HANDLE PLAYER BLOCKED!");
+			System.out.println("HANDLE PLAYER BLOCKED");
 			_actor.broadcastPacket(new ValidateLocation(_actor));
 		}
 	}
@@ -450,15 +450,16 @@ public class PlayerAI extends PlayableAI<Player>
 			doIdleIntention();
 			return;
 		}
-		
+
 		if (target instanceof Npc targetNpc && targetNpc.isMoving())
 			_actor.broadcastPacket(new StopMove(_actor));
 		else
 		{
 			_actor.getPosition().setHeadingTo(target);
-			_actor.broadcastPacket(new MoveToPawn(_actor, target, Npc.INTERACTION_DISTANCE));
+			// MoveDirection is shared by the client
+//			_actor.broadcastPacket(new MoveToPawn(_actor, target, Npc.INTERACTION_DISTANCE));
 		}
-		
+
 		target.onInteract(_actor);
 		
 		doIdleIntention();
