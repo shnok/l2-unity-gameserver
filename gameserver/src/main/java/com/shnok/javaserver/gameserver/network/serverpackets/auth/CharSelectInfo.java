@@ -9,6 +9,7 @@ import java.util.List;
 import com.shnok.javaserver.commons.pool.ConnectionPool;
 
 import com.shnok.javaserver.gameserver.data.sql.ClanTable;
+import com.shnok.javaserver.gameserver.data.xml.PlayerLevelData;
 import com.shnok.javaserver.gameserver.enums.Paperdoll;
 import com.shnok.javaserver.gameserver.model.CharSelectSlot;
 import com.shnok.javaserver.gameserver.model.pledge.Clan;
@@ -91,6 +92,7 @@ public class CharSelectInfo extends L2GameServerPacket
 			
 			writeD(slot.getSp());
 			writeQ(slot.getExp());
+			writeF((float) (slot.getExp() - PlayerLevelData.getInstance().getPlayerLevel(slot.getLevel()).requiredExpToLevelUp()) / (PlayerLevelData.getInstance().getPlayerLevel(slot.getLevel() + 1).requiredExpToLevelUp() - PlayerLevelData.getInstance().getPlayerLevel(slot.getLevel()).requiredExpToLevelUp()));
 			writeD(slot.getLevel());
 			
 			writeD(slot.getKarma());
