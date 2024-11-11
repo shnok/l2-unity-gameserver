@@ -504,8 +504,8 @@ public class AdminEditChar implements IAdminCommandHandler
 					{
 						if (!(targetWorldObject instanceof Player targetPlayer))
 							return;
-						
-						targetPlayer.getAppearance().setTitleColor(Integer.decode("0x" + command.substring(16)));
+
+						targetPlayer.getAppearance().setTitleColor(Integer.decode("0x" + st.nextToken())); //fix on the previous substring
 						targetPlayer.broadcastUserInfo();
 						
 						player.sendMessage("You successfully set title color name of " + targetPlayer.getName() + ".");
