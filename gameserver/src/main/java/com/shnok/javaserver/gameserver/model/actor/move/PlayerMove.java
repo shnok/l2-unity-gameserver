@@ -256,6 +256,10 @@ public class PlayerMove extends CreatureMove<Player>
 //
 		if (_actor.isIn3DRadius(target, (int) (offset + _actor.getCollisionRadius() + ((target instanceof Creature targetCreature) ? targetCreature.getCollisionRadius() : 0))))
 			return false;
+
+		System.out.println("maybeMoveToPawn");
+
+		return true;
 //
 //		if (!_actor.isMovementDisabled() && !isShiftPressed)
 //		{
@@ -266,12 +270,13 @@ public class PlayerMove extends CreatureMove<Player>
 //		}
 //
 //		return true;
-		return isShiftPressed;
+//		return isShiftPressed;
 	}
 	
 	@Override
 	protected void offensiveFollowTask(Creature target, int offset)
 	{
+		System.out.println("Player offensive follow task");
 //		// No follow task, return.
 //		if (_followTask == null)
 //			return;
@@ -309,6 +314,8 @@ public class PlayerMove extends CreatureMove<Player>
 	@Override
 	protected void friendlyFollowTask(Creature target, int offset)
 	{
+		System.out.println("Player friendlyFollowTask");
+
 //		// No follow task, return.
 //		if (_followTask == null)
 //			return;
