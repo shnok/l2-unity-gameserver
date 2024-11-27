@@ -196,6 +196,7 @@ public abstract class AbstractNpcInfo extends L2GameServerPacket
 
 			writeD(_npc.getTemplate().getBaseAttackRange());
 			writeD(_npc.getStatus().getMaxHp());
+			writeD(_npc.getStatus().getLevel());
 		}
 	}
 	
