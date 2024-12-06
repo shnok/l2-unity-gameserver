@@ -21,7 +21,7 @@ public class StatusUpdate extends L2GameServerPacket
 	
 	public void addAttribute(StatusType type, int level)
 	{
-		System.out.println("NEW STATUS UPDATE: " + type);
+//		System.out.println("NEW STATUS UPDATE: " + type);
 		_attributes.add(new IntIntHolder(type.getId(), level));
 	}
 	

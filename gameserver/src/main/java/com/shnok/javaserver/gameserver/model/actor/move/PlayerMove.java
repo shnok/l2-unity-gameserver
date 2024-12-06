@@ -126,6 +126,7 @@ public class PlayerMove extends CreatureMove<Player>
 				position.getZ());
 
 //		System.out.println("Destination: " + destination);
+		System.out.println("Movedirection: " + _moveDirection);
 
 		// Set the destination.
 		_destination.set(destination);
@@ -233,7 +234,7 @@ public class PlayerMove extends CreatureMove<Player>
 		// Set the position of the Creature.
 		_actor.setXYZ(nextX, nextY, nextZ);
 
-		System.out.println("Updated position to: (" + _actor.getPosition().getY()/52.5f + "," + + _actor.getPosition().getZ()/52.5f + "," + + _actor.getPosition().getX()/52.5f + ")");
+//		System.out.println("Updated position to: (" + _actor.getPosition().getY()/52.5f + "," + + _actor.getPosition().getZ()/52.5f + "," + + _actor.getPosition().getX()/52.5f + ")");
 
 		_actor.revalidateZone(false);
 //

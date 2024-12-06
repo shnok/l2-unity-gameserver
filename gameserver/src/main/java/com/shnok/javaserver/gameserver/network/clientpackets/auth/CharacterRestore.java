@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.clientpackets.unused;
+package com.shnok.javaserver.gameserver.network.clientpackets.auth;
 
 import com.shnok.javaserver.gameserver.enums.FloodProtector;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
