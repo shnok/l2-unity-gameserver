@@ -11,9 +11,9 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.model.buylist.NpcBuyList;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.BuyList;
+import com.shnok.javaserver.gameserver.network.serverpackets.item.BuyList;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.SellList;
+import com.shnok.javaserver.gameserver.network.serverpackets.item.SellList;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ShopPreviewList;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
@@ -52,15 +52,36 @@ public class Merchant extends Folk
 		StringTokenizer st = new StringTokenizer(command, " ");
 		String actualCommand = st.nextToken(); // Get actual command
 		
-		if (actualCommand.equalsIgnoreCase("Buy"))
+//		if (actualCommand.equalsIgnoreCase("Buy"))
+//		{
+//			if (st.countTokens() < 1)
+//				return;
+//
+//			showBuyWindow(player, Integer.parseInt(st.nextToken()));
+//		}
+//		else if (actualCommand.equalsIgnoreCase("Sell"))
+//		{
+//			// Retrieve sellable items.
+//			final List<ItemInstance> items = player.getInventory().getSellableItems();
+//			if (items.isEmpty())
+//			{
+//				final String content = HtmCache.getInstance().getHtm("data/html/" + ((this instanceof Fisherman) ? "fisherman" : "merchant") + "/" + getNpcId() + "-empty.htm");
+//				if (content != null)
+//				{
+//					final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
+//					html.setHtml(content);
+//					html.replace("%objectId%", getObjectId());
+//					player.sendPacket(html);
+//					return;
+//				}
+//			}
+//
+//			player.sendPacket(new SellList(player.getAdena(), items));
+//		}
+		if (actualCommand.equalsIgnoreCase("Buy") || actualCommand.equalsIgnoreCase("Sell"))
 		{
-			if (st.countTokens() < 1)
-				return;
-			
-			showBuyWindow(player, Integer.parseInt(st.nextToken()));
-		}
-		else if (actualCommand.equalsIgnoreCase("Sell"))
-		{
+			boolean buy = actualCommand.equalsIgnoreCase("Buy");
+
 			// Retrieve sellable items.
 			final List<ItemInstance> items = player.getInventory().getSellableItems();
 			if (items.isEmpty())
@@ -75,8 +96,13 @@ public class Merchant extends Folk
 					return;
 				}
 			}
-			
-			player.sendPacket(new SellList(player.getAdena(), items));
+
+			player.sendPacket(new SellList(player.getAdena(), items, !buy));
+
+			if (st.countTokens() < 1)
+				return;
+
+			showBuyWindow(player, Integer.parseInt(st.nextToken()), buy);
 		}
 		else if (actualCommand.equalsIgnoreCase("Wear") && Config.ALLOW_WEAR)
 		{
@@ -148,14 +174,18 @@ public class Merchant extends Folk
 		player.tempInventoryDisable();
 		player.sendPacket(new ShopPreviewList(buyList, player.getAdena(), player.getSkillLevel(L2Skill.SKILL_EXPERTISE)));
 	}
-	
-	protected final void showBuyWindow(Player player, int val)
+
+	protected final void showBuyWindow(Player player, int val) {
+		showBuyWindow(player, val, true);
+	}
+
+	protected final void showBuyWindow(Player player, int val, boolean openTab)
 	{
 		final NpcBuyList buyList = BuyListManager.getInstance().getBuyList(val);
 		if (buyList == null || !buyList.isNpcAllowed(getNpcId()))
 			return;
 		
 		player.tempInventoryDisable();
-		player.sendPacket(new BuyList(buyList, player.getAdena(), (getCastle() != null) ? getCastle().getTaxRate() : 0));
+		player.sendPacket(new BuyList(buyList, player.getAdena(), (getCastle() != null) ? getCastle().getTaxRate() : 0, openTab));
 	}
 }

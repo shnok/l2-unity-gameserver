@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.serverpackets.unused;
+package com.shnok.javaserver.gameserver.network.serverpackets.item;
 
 import java.util.List;
 
@@ -9,17 +9,20 @@ public class SellList extends L2GameServerPacket
 {
 	private final int _money;
 	private final List<ItemInstance> _items;
+	private final boolean _openTab;
 	
-	public SellList(int adena, List<ItemInstance> items)
+	public SellList(int adena, List<ItemInstance> items, boolean openTab)
 	{
 		_money = adena;
 		_items = items;
+		_openTab = openTab;
 	}
 	
 	@Override
 	protected final void writeImpl()
 	{
 		writeC(0x10);
+		writeC(_openTab ? (byte) 1 : (byte) 0);
 		writeD(_money);
 		writeD(0x00);
 		writeH(_items.size());

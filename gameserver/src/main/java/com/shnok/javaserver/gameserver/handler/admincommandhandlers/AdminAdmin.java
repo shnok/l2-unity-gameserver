@@ -30,7 +30,7 @@ import com.shnok.javaserver.gameserver.model.records.AdminCommand;
 import com.shnok.javaserver.gameserver.model.restart.RestartArea;
 import com.shnok.javaserver.gameserver.model.restart.RestartPoint;
 import com.shnok.javaserver.gameserver.model.spawn.ASpawn;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.BuyList;
+import com.shnok.javaserver.gameserver.network.serverpackets.item.BuyList;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.CameraMode;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
