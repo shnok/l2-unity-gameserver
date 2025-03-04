@@ -24,7 +24,6 @@ public final class RequestSellItem extends L2GameClientPacket
 	{
 		_listId = readD();
 		int count = readD();
-		System.out.println("Comparing " +  count * BATCH_LENGTH + " with " + _buf.remaining());
 		if (count <= 0 || count > Config.MAX_ITEM_IN_PACKET || count * BATCH_LENGTH != _buf.remaining() - 4)
 			return;
 		
