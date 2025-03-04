@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.clientpackets.unused;
+package com.shnok.javaserver.gameserver.network.clientpackets.item;
 
 import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.data.cache.HtmCache;
@@ -24,7 +24,8 @@ public final class RequestSellItem extends L2GameClientPacket
 	{
 		_listId = readD();
 		int count = readD();
-		if (count <= 0 || count > Config.MAX_ITEM_IN_PACKET || count * BATCH_LENGTH != _buf.remaining())
+		System.out.println("Comparing " +  count * BATCH_LENGTH + " with " + _buf.remaining());
+		if (count <= 0 || count > Config.MAX_ITEM_IN_PACKET || count * BATCH_LENGTH != _buf.remaining() - 4)
 			return;
 		
 		_items = new IntIntHolder[count];

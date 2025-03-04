@@ -20,7 +20,7 @@ public class RequestBuyProcure extends L2GameClientPacket
 		_manorId = readD();
 		
 		final int count = readD();
-		if (count <= 0 || count > Config.MAX_ITEM_IN_PACKET || count * BATCH_LENGTH != _buf.remaining())
+		if (count <= 0 || count > Config.MAX_ITEM_IN_PACKET || count * BATCH_LENGTH != _buf.remaining() - 4)
 			return;
 		
 		_items = new ArrayList<>(count);
