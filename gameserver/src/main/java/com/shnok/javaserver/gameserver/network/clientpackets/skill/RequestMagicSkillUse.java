@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.clientpackets.unused;
+package com.shnok.javaserver.gameserver.network.clientpackets.skill;
 
 import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.enums.skills.SkillType;

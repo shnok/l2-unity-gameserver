@@ -20,6 +20,7 @@ import com.shnok.javaserver.gameserver.network.clientpackets.movement.PlayerMove
 import com.shnok.javaserver.gameserver.network.clientpackets.movement.legacy.MoveBackwardToLocation;
 import com.shnok.javaserver.gameserver.network.clientpackets.movement.RequestChangeMoveType;
 import com.shnok.javaserver.gameserver.network.clientpackets.movement.ValidatePosition;
+import com.shnok.javaserver.gameserver.network.clientpackets.skill.RequestMagicSkillUse;
 import com.shnok.javaserver.gameserver.network.clientpackets.unused.*;
 
 /**
