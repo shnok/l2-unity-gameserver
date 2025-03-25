@@ -47,7 +47,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.PledgeSkillL
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.QuestList;
 import com.shnok.javaserver.gameserver.network.serverpackets.ShortCutInit;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillCoolTime;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.SkillList;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
 import com.shnok.javaserver.gameserver.scripting.Quest;

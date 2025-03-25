@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.clientpackets.unused;
+package com.shnok.javaserver.gameserver.network.clientpackets.skill;
 
 import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.data.SkillTable;
@@ -14,7 +14,7 @@ import com.shnok.javaserver.gameserver.model.holder.skillnode.GeneralSkillNode;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExStorageMaxCount;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.SkillList;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 

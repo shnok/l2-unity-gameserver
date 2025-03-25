@@ -11,7 +11,7 @@ import com.shnok.javaserver.gameserver.enums.skills.Stats;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.records.Timestamp;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillCoolTime;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.SkillList;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 import com.shnok.javaserver.gameserver.skills.basefuncs.FuncAdd;
 

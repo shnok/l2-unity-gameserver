@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.clientpackets.unused;
+package com.shnok.javaserver.gameserver.network.clientpackets.skill;
 
 import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.data.SkillTable;
@@ -10,7 +10,7 @@ import com.shnok.javaserver.gameserver.model.holder.skillnode.ClanSkillNode;
 import com.shnok.javaserver.gameserver.model.holder.skillnode.FishingSkillNode;
 import com.shnok.javaserver.gameserver.model.holder.skillnode.GeneralSkillNode;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.AcquireSkillInfo;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.AcquireSkillInfo;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
 public class RequestAcquireSkillInfo extends L2GameClientPacket
