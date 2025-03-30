@@ -192,7 +192,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.SetupGauge;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ShortBuffStatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.ShortCutInit;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillCoolTime;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.SkillList;
 import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.StaticObjectInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.StatusUpdate;

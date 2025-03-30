@@ -13,7 +13,7 @@ import com.shnok.javaserver.gameserver.model.item.kind.Item;
 import com.shnok.javaserver.gameserver.model.item.kind.Weapon;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.EnchantResult;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.SkillList;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 

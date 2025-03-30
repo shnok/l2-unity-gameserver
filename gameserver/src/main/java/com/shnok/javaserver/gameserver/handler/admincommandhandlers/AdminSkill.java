@@ -18,7 +18,7 @@ import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.pledge.Clan;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.SkillList;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 

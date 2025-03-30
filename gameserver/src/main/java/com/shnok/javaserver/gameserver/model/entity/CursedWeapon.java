@@ -22,7 +22,7 @@ import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.Earthquake;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExRedSky;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillList;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.SkillList;
 import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.actor.UserInfo;
