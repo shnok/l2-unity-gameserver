@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.serverpackets.unused;
+package com.shnok.javaserver.gameserver.network.serverpackets.item;
 
 import java.util.Collection;
 
@@ -13,19 +13,31 @@ public final class BuyList extends L2GameServerPacket
 	private final int _listId;
 	private final Collection<Product> _list;
 	private double _taxRate = 0;
-	
+	private final boolean _openTab;
+
 	public BuyList(NpcBuyList list, int currentMoney, double taxRate)
 	{
 		_money = currentMoney;
 		_listId = list.getListId();
 		_list = list.values();
 		_taxRate = taxRate;
+		_openTab = true;
+	}
+
+	public BuyList(NpcBuyList list, int currentMoney, double taxRate, boolean openTab)
+	{
+		_money = currentMoney;
+		_listId = list.getListId();
+		_list = list.values();
+		_taxRate = taxRate;
+		_openTab = openTab;
 	}
 	
 	@Override
 	protected final void writeImpl()
 	{
 		writeC(0x11);
+		writeC(_openTab ? (byte) 1 : (byte) 0);
 		writeD(_money);
 		writeD(_listId);
 		writeH(_list.size());

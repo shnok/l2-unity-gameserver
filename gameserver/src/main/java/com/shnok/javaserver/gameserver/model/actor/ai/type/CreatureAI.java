@@ -6,6 +6,7 @@ import com.shnok.javaserver.gameserver.enums.items.WeaponType;
 import com.shnok.javaserver.gameserver.model.WorldObject;
 import com.shnok.javaserver.gameserver.model.actor.Creature;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
+import com.shnok.javaserver.gameserver.network.serverpackets.SocialAction;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.Die;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToLocation;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToPawn;
@@ -252,11 +253,10 @@ public class CreatureAI<T extends Creature> extends AbstractAI<T>
 	@Override
 	protected void thinkSocial()
 	{
-		//l2-unity random social actions are calculated client side
-//		if (_actor.denyAiAction())
-//			return;
-//
-//		_actor.broadcastPacket(new SocialAction(_actor, _currentIntention.getItemObjectId()));
+		if (_actor.denyAiAction())
+			return;
+
+		_actor.broadcastPacket(new SocialAction(_actor, _currentIntention.getItemObjectId()));
 	}
 	
 	@Override
