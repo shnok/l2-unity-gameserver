@@ -70,7 +70,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowScreenMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowVariationCancelWindow;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExShowVariationMakeWindow;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.MagicSkillUse;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.NpcSay;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;

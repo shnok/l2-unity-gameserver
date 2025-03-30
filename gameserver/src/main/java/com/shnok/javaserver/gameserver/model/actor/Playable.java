@@ -33,7 +33,7 @@ import com.shnok.javaserver.gameserver.model.residence.castle.Siege;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExUseSharedGroupItem;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.MagicSkillUse;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.Revive;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.scripting.Quest;

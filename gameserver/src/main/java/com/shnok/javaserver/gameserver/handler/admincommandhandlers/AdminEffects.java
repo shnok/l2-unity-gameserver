@@ -20,7 +20,7 @@ import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.Earthquake;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExRedSky;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.MagicSkillUse;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.PlaySound;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SSQInfo;

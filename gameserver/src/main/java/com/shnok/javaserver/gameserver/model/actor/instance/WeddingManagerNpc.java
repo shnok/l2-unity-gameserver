@@ -13,7 +13,7 @@ import com.shnok.javaserver.gameserver.model.World;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.model.actor.template.NpcTemplate;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ConfirmDlg;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.MagicSkillUse;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.NpcHtmlMessage;
 
 public class WeddingManagerNpc extends Folk

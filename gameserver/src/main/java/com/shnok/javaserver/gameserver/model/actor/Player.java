@@ -167,7 +167,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.HennaInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.item.InventoryUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.L2GameServerPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.auth.LeaveWorld;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.MagicSkillUse;
+import com.shnok.javaserver.gameserver.network.serverpackets.skill.MagicSkillUse;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.MyTargetSelected;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ObserverEnd;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ObserverStart;
