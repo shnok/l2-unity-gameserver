@@ -9,12 +9,18 @@ public final class MoveDirection extends L2GameServerPacket
     private final int _objectId;
     private final Location _currentPosition;
     private final Location _direction;
+    private final Location _lastGamePosition;
+    private final long _timestamp;
 
-    public MoveDirection(Creature creature, Location direction)
+    public MoveDirection(Creature creature, Location direction, double verticalVelocity, long timestamp)
     {
         _objectId = creature.getObjectId();
         _currentPosition = creature.getPosition().clone();
         _direction = direction;
+        _lastGamePosition  = _currentPosition;
+        _timestamp =  timestamp;
+        //System.out.println("PlayerMoveDirection sharing _direction: " + _direction + " timestamp: " + _timestamp );
+
     }
 
     @Override
@@ -24,6 +30,7 @@ public final class MoveDirection extends L2GameServerPacket
         writeD(_objectId);
         writeD(_direction.getY());
         writeD(_direction.getX());
-        writeLoc(_currentPosition);
+        writeLoc(_lastGamePosition);
+        writeQ(_timestamp);
     }
 }

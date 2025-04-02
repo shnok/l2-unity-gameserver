@@ -31,7 +31,7 @@ public class ValidatePosition extends L2GameClientPacket
 		_y = readD();
 		_z = readD();
 		_heading = readD();
-		_boatId = readD();
+		//_boatId = readD(); The client is sending this?
 	}
 	
 	@Override
