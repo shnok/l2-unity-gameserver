@@ -148,7 +148,7 @@ public class PlayerMove extends CreatureMove<Player>
 		_actor.revalidateZone(false);
 		_actor.getPosition().setHeadingTo(destination);
 		_actor.sendPacket(ActionAllowed.STATIC_PACKET);
-		_actor.broadcastPacket(new MoveDirection(_actor, moveDirection, _actor._verticalVelocity, _actor._lastPacketTimestamp), false);
+		_actor.broadcastPacket(new MoveDirection(_actor, moveDirection, (int)(_actor._verticalVelocity * 100), _actor._lastPacketTimestamp), false);
 		_actor._verticalVelocity = 0d;
 
 
