@@ -393,6 +393,11 @@ public final class Player extends Playable
 	private AccessLevel _accessLevel;
 	
 	private Location _enterWorld;
+	public double _verticalVelocity;
+	public long _lastPacketTimestamp;
+	public Location _lastGamePosition;
+
+
 	private final Map<String, ExServerPrimitive> _debug = new HashMap<>();
 	
 	private Party _party;

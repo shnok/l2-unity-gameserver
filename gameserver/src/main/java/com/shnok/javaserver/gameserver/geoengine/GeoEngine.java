@@ -603,7 +603,9 @@ public class GeoEngine
 		// Check target coordinates.
 		if (World.isOutOfWorld(tx, ty))
 			return false;
-		
+
+		/*
+		@TODO: Temporarily removed because a different geodata validation needs to be implemented
 		// Get geodata coordinates.
 		int gox = getGeoX(ox);
 		int goy = getGeoY(oy);
@@ -733,7 +735,7 @@ public class GeoEngine
 			groundZ = z;
 			nswe = block.getNswe(index, ignore);
 		}
-		
+		*/
 		// Iteration is completed, no obstacle is found.
 		return true;
 	}

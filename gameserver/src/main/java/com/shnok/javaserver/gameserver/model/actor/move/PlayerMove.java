@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.List;
 
+import com.shnok.javaserver.Config;
 import com.shnok.javaserver.gameserver.enums.actors.MoveType;
 import com.shnok.javaserver.gameserver.geoengine.GeoEngine;
 import com.shnok.javaserver.gameserver.geoengine.geodata.GeoStructure;
@@ -27,7 +28,11 @@ public class PlayerMove extends CreatureMove<Player>
 	private int _moveTimeStamp;
 	private double _zAccurate;
 	private Location _moveDirection;
-	
+	private int virutalX;
+	private int virutalY;
+	private int virutalZ;
+	private long lastMoveTime;
+
 	public PlayerMove(Player actor)
 	{
 		super(actor);
@@ -109,37 +114,46 @@ public class PlayerMove extends CreatureMove<Player>
 		if (_task != null)
 			updatePosition(true);
 
-		_moveDirection = moveDirection;
-		_instant = Instant.now();
 
-		// Get the current position of the Creature.
+		if (_instant == null) {
+			_instant = Instant.now();
+		}
+		if (lastMoveTime == 0) {
+			lastMoveTime = _actor._lastPacketTimestamp;
+		}
+
+
+
 		final Location position = _actor.getPosition().clone();
+		if (virutalX == 0 && virutalY == 0 && virutalZ == 0) {
+			virutalX = position.getX();
+			virutalY = position.getY();
+			virutalZ = position.getZ();
+		}
 
-		// Set the current x/y/z.
-		_xAccurate = position.getX();
-		_yAccurate = position.getY();
-		_zAccurate = position.getZ();
+
+		virutalX =  _actor._lastGamePosition.getX();
+		virutalY =  _actor._lastGamePosition.getY();
+		virutalZ =  _actor._lastGamePosition.getZ();
+
+
 
 		final Location destination = new Location(
-				position.getX() + moveDirection.getX() * 50,
-				position.getY() + moveDirection.getY() * 50,
-				position.getZ());
+					virutalX,
+					virutalY,
+					virutalZ);
 
-//		System.out.println("Destination: " + destination);
-		System.out.println("Movedirection: " + _moveDirection);
-
-		// Set the destination.
 		_destination.set(destination);
-
-		// Calculate the heading.
+		_actor.setXYZ(destination.getX(), destination.getY(), destination.getZ());
+		_actor.revalidateZone(false);
 		_actor.getPosition().setHeadingTo(destination);
-
-		registerMoveTask();
-
 		_actor.sendPacket(ActionAllowed.STATIC_PACKET);
+		_actor.broadcastPacket(new MoveDirection(_actor, moveDirection, (int)(_actor._verticalVelocity * 100), _actor._lastPacketTimestamp), false);
+		_actor._verticalVelocity = 0d;
 
-		_actor.broadcastPacket(new MoveDirection(_actor, moveDirection), false);
+
 	}
+
 	
 	@Override
 	public boolean updatePosition(boolean firstRun)

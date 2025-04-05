@@ -523,8 +523,8 @@ abstract class AbstractAI<T extends Creature>
 			case STAND:
 				return true;
 			
-			case MOVE_TO:
-				return newIntention == IntentionType.SIT;
+			/*case MOVE_TO:
+				return newIntention == IntentionType.SIT;*/
 		}
 		return false;
 	}

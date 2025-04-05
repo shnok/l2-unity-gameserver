@@ -441,7 +441,7 @@ public abstract class PlayableAI<T extends Playable> extends CreatureAI<T>
 			getNextIntention().updateAsSit(target);
 			return;
 		}
-		
+	
 		doSitIntention(target);
 	}
 	
