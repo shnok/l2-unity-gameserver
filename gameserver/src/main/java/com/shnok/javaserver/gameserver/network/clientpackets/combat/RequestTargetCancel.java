@@ -28,8 +28,8 @@ public final class RequestTargetCancel extends L2GameClientPacket
 				if (player.getCast().canAbortCast())
 					player.getAI().notifyEvent(AiEventType.CANCEL, null, null);
 			}
-			else
-				player.setTarget(null);
+//			else
+//				player.setTarget(null);
 		}
 		else
 			player.setTarget(null);
