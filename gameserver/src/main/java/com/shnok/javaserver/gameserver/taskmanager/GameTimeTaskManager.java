@@ -16,6 +16,9 @@ import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.scripting.Quest;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * Controls game time, informs spawn manager about day/night spawns and players about daytime change. Informs players about their extended activity in game.
@@ -29,10 +32,10 @@ public final class GameTimeTaskManager implements Runnable
 	public static final int SECONDS_PER_GAME_DAY = MINUTES_PER_GAME_DAY * 60; // 14400s is 1 game day
 	private static final int MILLISECONDS_PER_GAME_MINUTE = SECONDS_PER_GAME_DAY / (MINUTES_PER_DAY) * 1000; // 10000ms is 1 game minute
 	
-	private static final int TAKE_BREAK_HOURS = 2; // each 2h
+	private static final int TAKE_BREAK_HOURS = 1; // each 1h
 	private static final int TAKE_BREAK_GAME_MINUTES = TAKE_BREAK_HOURS * MINUTES_PER_DAY / HOURS_PER_GAME_DAY; // 2h of real time is 720 game minutes
 	
-	private final Map<Player, Integer> _players = new ConcurrentHashMap<>();
+	private final Map<Player, GameTimeHandler> _players = new ConcurrentHashMap<>();
 	
 	private List<Quest> _questEvents = Collections.emptyList();
 	
@@ -85,7 +88,7 @@ public final class GameTimeTaskManager implements Runnable
 			return;
 		
 		// Loop all players.
-		for (Map.Entry<Player, Integer> entry : _players.entrySet())
+		for (Map.Entry<Player, GameTimeHandler> entry : _players.entrySet())
 		{
 			// Get player.
 			final Player player = entry.getKey();
@@ -104,15 +107,21 @@ public final class GameTimeTaskManager implements Runnable
 				// Inform player about effect change.
 				player.sendPacket(SystemMessage.getSystemMessage(_isNight ? SystemMessageId.NIGHT_S1_EFFECT_APPLIES : SystemMessageId.DAY_S1_EFFECT_DISAPPEARS).addSkillName(L2Skill.SKILL_SHADOW_SENSE));
 			}
-			
+
+			GameTimeHandler value = entry.getValue();
 			// Activity time has passed already.
-			if (_time >= entry.getValue())
+			if (_time >= value.getNextBreakAlert())
 			{
 				// Inform player about his activity.
-				player.sendPacket(SystemMessageId.PLAYING_FOR_LONG_TIME);
-				
+//				player.sendPacket(SystemMessageId.PLAYING_FOR_LONG_TIME);
+
+				value.setLoginHours((short) (value.getLoginHours() + 1));
+				value.setNextBreakAlert(_time + TAKE_BREAK_GAME_MINUTES);
+
+				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.PLAYING_FOR_LONG_TIME).addNumber(value.getLoginHours()));
+
 				// Update activity time.
-				entry.setValue(_time + TAKE_BREAK_GAME_MINUTES);
+				entry.setValue(value);
 			}
 		}
 	}
@@ -185,7 +194,7 @@ public final class GameTimeTaskManager implements Runnable
 	 */
 	public final void add(Player player)
 	{
-		_players.put(player, _time + TAKE_BREAK_GAME_MINUTES);
+		_players.put(player, new GameTimeHandler(_time + TAKE_BREAK_GAME_MINUTES));
 	}
 	
 	/**
@@ -210,7 +219,17 @@ public final class GameTimeTaskManager implements Runnable
 	{
 		return SingletonHolder.INSTANCE;
 	}
-	
+
+	@Getter
+	@Setter
+	private static class GameTimeHandler {
+		private short loginHours;
+		private int nextBreakAlert;
+
+		public GameTimeHandler(int nextBreakAlert) {
+			this.nextBreakAlert = nextBreakAlert;
+		}
+	}
 	private static class SingletonHolder
 	{
 		protected static final GameTimeTaskManager INSTANCE = new GameTimeTaskManager();
