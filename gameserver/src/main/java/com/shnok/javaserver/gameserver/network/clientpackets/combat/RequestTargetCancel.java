@@ -3,6 +3,7 @@ package com.shnok.javaserver.gameserver.network.clientpackets.combat;
 import com.shnok.javaserver.gameserver.enums.AiEventType;
 import com.shnok.javaserver.gameserver.model.actor.Player;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 
 public final class RequestTargetCancel extends L2GameClientPacket
 {
@@ -27,6 +28,10 @@ public final class RequestTargetCancel extends L2GameClientPacket
 			{
 				if (player.getCast().canAbortCast())
 					player.getAI().notifyEvent(AiEventType.CANCEL, null, null);
+				else
+					player.sendPacket(ActionFailed.STATIC_PACKET);
+			} else {
+				player.sendPacket(ActionFailed.STATIC_PACKET);
 			}
 //			else
 //				player.setTarget(null);
