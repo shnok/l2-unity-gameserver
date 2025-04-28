@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.serverpackets.unused;
+package com.shnok.javaserver.gameserver.network.serverpackets.effect;
 
 import com.shnok.javaserver.gameserver.enums.ZoneId;
 import com.shnok.javaserver.gameserver.enums.skills.EffectFlag;

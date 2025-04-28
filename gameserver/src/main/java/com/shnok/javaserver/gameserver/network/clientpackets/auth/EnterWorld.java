@@ -33,7 +33,7 @@ import com.shnok.javaserver.gameserver.network.SystemMessageId;
 import com.shnok.javaserver.gameserver.network.clientpackets.L2GameClientPacket;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionFailed;
 import com.shnok.javaserver.gameserver.network.serverpackets.combat.Die;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.EtcStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.effect.EtcStatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExMailArrived;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExStorageMaxCount;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.FriendList;
@@ -98,6 +98,7 @@ public class EnterWorld extends L2GameClientPacket
 		player.getMacroList().sendUpdate();
 		player.sendPacket(new ExStorageMaxCount(player));
 		player.sendPacket(new HennaInfo(player));
+		System.out.println("updating icons");
 		player.updateEffectIcons();
 		player.sendPacket(new EtcStatusUpdate(player));
 		
