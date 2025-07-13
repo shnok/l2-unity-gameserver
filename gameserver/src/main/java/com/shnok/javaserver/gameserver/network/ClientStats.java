@@ -186,6 +186,7 @@ public class ClientStats
 		}
 		
 		final int count = ++_packetsInSecond[_head];
+		System.out.println("Packets in last second: " + _packetsInSecond[_head]);
 		if (!_floodDetected)
 		{
 			if (count > Config.CLIENT_PACKET_QUEUE_MAX_PACKETS_PER_SECOND)

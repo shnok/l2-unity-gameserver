@@ -8,6 +8,7 @@ public final class ActionFailed extends L2GameServerPacket
 	
 	private ActionFailed()
 	{
+		System.out.println("Call");
 	}
 	
 	@Override

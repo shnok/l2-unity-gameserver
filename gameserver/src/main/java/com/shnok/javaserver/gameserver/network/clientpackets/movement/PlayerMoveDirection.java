@@ -20,10 +20,12 @@ public class PlayerMoveDirection extends L2GameClientPacket
     private int _y;
     private int _z;
     private long _timestamp;
+    private boolean _requireResponse;
 
     @Override
     protected void readImpl()
     {
+        _requireResponse = readC() == 1;
         _moveDirectionY = readF();
         _moveDirectionZ = 0;
         _moveDirectionX = readF();
@@ -43,7 +45,7 @@ public class PlayerMoveDirection extends L2GameClientPacket
             return;
 
         // If Player can't be controlled, forget it.
-        if (player.isOutOfControl())
+        if (player.isOutOfControl() && _requireResponse)
         {
             player.sendPacket(ActionFailed.STATIC_PACKET); //validatelocation?
             return;
@@ -51,7 +53,7 @@ public class PlayerMoveDirection extends L2GameClientPacket
 
 
         // If Player can't move, forget it.
-        if (player.getStatus().getMoveSpeed() == 0)
+        if (player.getStatus().getMoveSpeed() == 0 && _requireResponse)
         {
             player.sendPacket(ActionFailed.STATIC_PACKET); //validatelocation?
             player.sendPacket(SystemMessageId.CANT_MOVE_TOO_ENCUMBERED); //validatelocation?
@@ -66,6 +68,6 @@ public class PlayerMoveDirection extends L2GameClientPacket
         // Generate a Location based on target coords.
         final Location moveDirection = new Location((int)(_moveDirectionX * 100), (int)(_moveDirectionY * 100), (int)(_moveDirectionZ * 100));
 
-        player.getAI().tryToMoveTo(moveDirection, null);
+        player.getAI().tryToMoveTo(moveDirection, null, _requireResponse);
     }
 }

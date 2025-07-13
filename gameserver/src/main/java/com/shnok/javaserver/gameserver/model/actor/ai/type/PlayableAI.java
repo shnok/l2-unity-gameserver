@@ -15,6 +15,7 @@ import com.shnok.javaserver.gameserver.model.actor.ai.Intention;
 import com.shnok.javaserver.gameserver.model.item.instance.ItemInstance;
 import com.shnok.javaserver.gameserver.model.location.Location;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
+import com.shnok.javaserver.gameserver.network.serverpackets.combat.ActionAllowed;
 import com.shnok.javaserver.gameserver.network.serverpackets.movement.MoveToPawn;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
 
@@ -388,12 +389,16 @@ public abstract class PlayableAI<T extends Playable> extends CreatureAI<T>
 		
 		doInteractIntention(target, isCtrlPressed, isShiftPressed);
 	}
-	
-	public synchronized void tryToMoveTo(Location dir, Boat boat)
+
+	public synchronized void tryToMoveTo(Location dir, Boat boat) {
+		tryToMoveTo(dir, boat, false);
+	}
+
+	public synchronized void tryToMoveTo(Location dir, Boat boat, boolean requireResponse)
 	{
 		if (_actor.denyAiAction())
 		{
-			clientActionFailed();
+			if(requireResponse) clientActionFailed();
 			return;
 		}
 		
@@ -401,8 +406,12 @@ public abstract class PlayableAI<T extends Playable> extends CreatureAI<T>
 		if (_actor.getAttack().isAttackingNow() || _actor.getCast().isCastingNow() || _actor.isSittingNow() || _actor.isStandingNow() || canScheduleAfter(_currentIntention.getType(), IntentionType.MOVE_TO))
 		{
 			getNextIntention().updateAsMoveTo(dir, boat);
-			clientActionFailed();
+			if(requireResponse) clientActionFailed();
 			return;
+		}
+
+		if(requireResponse) {
+			_actor.sendPacket(ActionAllowed.STATIC_PACKET);
 		}
 		
 		doMoveToIntention(dir, boat);
