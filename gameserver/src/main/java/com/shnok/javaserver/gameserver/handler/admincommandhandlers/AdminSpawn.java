@@ -177,8 +177,9 @@ public class AdminSpawn implements IAdminCommandHandler
 			{
 				final String cmd = st.nextToken();
 				final String idOrName = st.nextToken();
-				final int respawnTime = (st.hasMoreTokens()) ? Integer.parseInt(st.nextToken()) : 60;
-				
+//				final int respawnTime = (st.hasMoreTokens()) ? Integer.parseInt(st.nextToken()) : 60;
+				final int spawnCount = Math.min((st.hasMoreTokens()) ? Integer.parseInt(st.nextToken()) : 1, 200);
+
 				final WorldObject targetWorldObject = getTarget(WorldObject.class, player, true);
 				
 				NpcTemplate template;
@@ -192,11 +193,13 @@ public class AdminSpawn implements IAdminCommandHandler
 				
 				try
 				{
-					final Spawn spawn = new Spawn(template);
-					spawn.setLoc(targetWorldObject.getPosition());
-					spawn.setRespawnDelay(respawnTime);
-					spawn.doSpawn(false);
-					
+					for(int i  = 0; i < spawnCount; i++) {
+						final Spawn spawn = new Spawn(template);
+						spawn.setLoc(targetWorldObject.getPosition());
+//					spawn.setRespawnDelay(respawnTime);
+						spawn.doSpawn(false);
+					}
+
 					player.sendMessage("You spawned " + template.getName() + ". - Cmd: " + cmd);
 					
 				}
