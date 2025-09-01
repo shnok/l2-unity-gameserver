@@ -1,4 +1,4 @@
-package com.shnok.javaserver.gameserver.network.serverpackets.unused;
+package com.shnok.javaserver.gameserver.network.serverpackets.effect;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -19,7 +19,7 @@ public class AbnormalStatusUpdate extends L2GameServerPacket
 	protected final void writeImpl()
 	{
 		writeC(0x7f);
-		
+		System.out.println(_effects);
 		writeH(_effects.size() + _toggles.size());
 		
 		for (EffectHolder effect : _effects)

@@ -302,6 +302,7 @@ public abstract class Playable extends Creature
 	@Override
 	public void updateEffectIcons(boolean partyOnly)
 	{
+		System.out.println("inside playable");
 		_effects.updateEffectIcons(partyOnly);
 	}
 	

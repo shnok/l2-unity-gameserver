@@ -157,7 +157,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.auth.CharInfo;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ConfirmDlg;
 import com.shnok.javaserver.gameserver.network.serverpackets.actor.DeleteObject;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.EnchantResult;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.EtcStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.effect.EtcStatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExAutoSoulShot;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExOlympiadMode;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExServerPrimitive;
@@ -189,7 +189,7 @@ import com.shnok.javaserver.gameserver.network.serverpackets.unused.Ride;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SendTradeDone;
 import com.shnok.javaserver.gameserver.network.serverpackets.auth.ServerClose;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SetupGauge;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.ShortBuffStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.effect.ShortBuffStatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.ShortCutInit;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.SkillCoolTime;
 import com.shnok.javaserver.gameserver.network.serverpackets.skill.SkillList;
@@ -4725,6 +4725,7 @@ public final class Player extends Playable
 				{
 					while (rs.next())
 					{
+						System.out.println("inside next");
 						final int effectCount = rs.getInt("effect_count");
 						final int effectCurTime = rs.getInt("effect_cur_time");
 						final long reuseDelay = rs.getLong("reuse_delay");

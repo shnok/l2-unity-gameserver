@@ -21,9 +21,9 @@ import com.shnok.javaserver.gameserver.model.group.Party;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameManager;
 import com.shnok.javaserver.gameserver.model.olympiad.OlympiadGameTask;
 import com.shnok.javaserver.gameserver.network.SystemMessageId;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.AbnormalStatusUpdate;
+import com.shnok.javaserver.gameserver.network.serverpackets.effect.AbnormalStatusUpdate;
 import com.shnok.javaserver.gameserver.network.serverpackets.unused.ExOlympiadSpelledInfo;
-import com.shnok.javaserver.gameserver.network.serverpackets.unused.PartySpelled;
+import com.shnok.javaserver.gameserver.network.serverpackets.effect.PartySpelled;
 import com.shnok.javaserver.gameserver.network.serverpackets.SystemMessage;
 import com.shnok.javaserver.gameserver.skills.AbstractEffect;
 import com.shnok.javaserver.gameserver.skills.L2Skill;
@@ -427,6 +427,8 @@ public class EffectList
 	
 	public void updateEffectIcons(boolean partyOnly)
 	{
+		System.out.println("buffs");
+		System.out.println(_buffs);
 		if (_buffs == null && _debuffs == null)
 			return;
 		
@@ -779,7 +781,8 @@ public class EffectList
 	{
 		if (!(_owner instanceof Playable))
 			return;
-		
+		System.out.println("inside effectlist");
+
 		AbnormalStatusUpdate mi = null;
 		PartySpelled ps = null;
 		ExOlympiadSpelledInfo os = null;
@@ -802,11 +805,14 @@ public class EffectList
 		
 		if (_buffs != null && !_buffs.isEmpty())
 		{
-			for (AbstractEffect e : _buffs)
-			{
+			for (AbstractEffect e : _buffs) {
+				
+				System.out.println(e);
+				System.out.println(mi);
 				if (e == null || !e.getTemplate().showIcon() || e.getEffectType() == EffectType.SIGNET_GROUND)
 					continue;
 				
+
 				if (e.getInUse())
 				{
 					if (mi != null)
