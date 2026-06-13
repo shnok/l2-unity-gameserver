@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="4200" type="EtcItem" name="Spellbook: Restore Life">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="3850" />
+	</item>
+	<item id="4201" type="EtcItem" name="Spellbook: Resist Shock">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+	</item>
+	<item id="4202" type="Weapon" name="Chrono Cithara">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="is_dropable" val="false" />
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="1" />
+			<set stat="rCrit" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="4203" type="EtcItem" name="Spellbook: Life Leech">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+	</item>
+	<item id="4204" type="EtcItem" name="Amulet: Pa'agrio's Tact">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+	</item>
+	<item id="4205" type="EtcItem" name="Amulet: Pa'agrio's Rage">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="3850" />
+	</item>
+	<item id="4206" type="EtcItem" name="Spellbook: Transfer Pain">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+	</item>
+	<item id="4207" type="EtcItem" name="Spellbook: Mana Regeneration">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+	</item>
+	<item id="4208" type="EtcItem" name="Spellbook: Curse Gloom">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="price" val="3850" />
+	</item>
+	<item id="4209" type="EtcItem" name="Change of Heart - Piece 1">
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4210" type="EtcItem" name="Change of Heart - Piece 2">
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4211" type="EtcItem" name="Change of Heart - Piece 3">
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4212" type="EtcItem" name="Change of Heart - Piece 4">
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4213" type="EtcItem" name="Change of Heart - Piece 5">
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4214" type="EtcItem" name="Change of Heart - Piece 6">
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4215" type="EtcItem" name="Change of Heart - Piece 7">
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4216" type="EtcItem" name="Change of Heart - Piece 8">
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4217" type="EtcItem" name="Change of Heart - Piece 9">
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4218" type="EtcItem" name="L2 Day - Scroll of Mana Regeneration">
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2064-1" />
+	</item>
+	<item id="4219" type="Weapon" name="Dream Sword">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1530" />
+		<set name="price" val="244000" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set stat="pAtk" val="31" />
+			<set stat="mAtk" val="21" />
+			<set stat="rCrit" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="4220" type="Weapon" name="Dream Knife">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1110" />
+		<set name="price" val="244000" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set stat="pAtk" val="27" />
+			<set stat="mAtk" val="21" />
+			<set stat="rCrit" val="12" />
+			<sub stat="accCombat" val="3" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="4221" type="Weapon" name="Ubiquitous Axe">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1850" />
+		<set name="price" val="244000" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set stat="pAtk" val="31" />
+			<set stat="mAtk" val="21" />
+			<set stat="rCrit" val="4" />
+			<add stat="accCombat" val="4" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="4222" type="Armor" name="Dream Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="90" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="4223" type="Armor" name="Ubiquitous Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="90" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="4224" type="Armor" name="Dream Armor">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="8920" />
+		<set name="price" val="49200" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<baseadd stat="pDef" val="68" />
+		</for>
+	</item>
+	<item id="4225" type="Armor" name="Dream Stockings">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="3960" />
+		<set name="price" val="30700" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<baseadd stat="pDef" val="43" />
+		</for>
+	</item>
+	<item id="4226" type="Armor" name="Dream Gloves">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="650" />
+		<set name="price" val="12300" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<baseadd stat="pDef" val="17" />
+		</for>
+	</item>
+	<item id="4227" type="Armor" name="Dream Boots">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1310" />
+		<set name="price" val="12300" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<baseadd stat="pDef" val="17" />
+		</for>
+	</item>
+	<item id="4228" type="Armor" name="Ubiquitous Armor">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="8920" />
+		<set name="price" val="49200" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<baseadd stat="pDef" val="68" />
+		</for>
+	</item>
+	<item id="4229" type="Armor" name="Ubiquitous Stockings">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="3960" />
+		<set name="price" val="30700" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<baseadd stat="pDef" val="43" />
+		</for>
+	</item>
+	<item id="4230" type="Armor" name="Ubiquitous Gloves">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="650" />
+		<set name="price" val="12300" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<baseadd stat="pDef" val="17" />
+		</for>
+	</item>
+	<item id="4231" type="Armor" name="Ubiquitous Boots">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1310" />
+		<set name="price" val="12300" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<baseadd stat="pDef" val="17" />
+		</for>
+	</item>
+	<item id="4232" type="EtcItem" name="Dice">
+		<set name="default_action" val="dice" />
+		<set name="material" val="STEEL" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="4233" type="Weapon" name="Knuckle Duster">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="crystal_count" val="1148" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1490" />
+		<set name="price" val="2870000" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="148" />
+			<set stat="mAtk" val="68" />
+			<set stat="rCrit" val="4" />
+			<add stat="accCombat" val="4" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="4234" type="Armor" name="Hatchling's Level 65 Armor">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="PET" />
+		<set name="bodypart" val="hatchling" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="160" />
+		<set name="price" val="5628000" />
+		<for>
+			<baseadd stat="pDef" val="50" />
+			<baseadd stat="mDef" val="50" />
+		</for>
+	</item>
+	<item id="4235" type="Armor" name="Hatchling's Level 75 Armor">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="PET" />
+		<set name="bodypart" val="hatchling" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="160" />
+		<set name="price" val="19073000" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<baseadd stat="mDef" val="58" />
+		</for>
+	</item>
+	<item id="4236" type="Armor" name="Gara Item">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="160" />
+		<set name="price" val="19073000" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<baseadd stat="mDef" val="58" />
+		</for>
+	</item>
+	<item id="4237" type="Weapon" name="Hatchling's Level 65 Weapon">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="PET" />
+		<set name="bodypart" val="hatchling" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="100" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<add stat="pAtk" val="24" />
+			<add stat="mAtk" val="32" />
+			<set stat="rCrit" val="8" />
+			<set stat="pAtkSpd" val="277" />
+		</for>
+	</item>
+	<item id="4238" type="Weapon" name="Hatchling's Level 75 Weapon">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="PET" />
+		<set name="bodypart" val="hatchling" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="100" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<add stat="pAtk" val="31" />
+			<add stat="mAtk" val="43" />
+			<set stat="rCrit" val="8" />
+			<set stat="pAtkSpd" val="277" />
+		</for>
+	</item>
+	<item id="4239" type="EtcItem" name="Blade Mold">
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4240" type="EtcItem" name="Tyra's Bill">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4241" type="EtcItem" name="Ranger's Report - Part 1">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4242" type="EtcItem" name="Ranger's Report - Part 2">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4243" type="EtcItem" name="Ranger's Report - Part 3">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4244" type="EtcItem" name="Ranger's Report - Part 4">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4245" type="EtcItem" name="Weapons Trade Contract">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4246" type="EtcItem" name="Attack Directives">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4247" type="EtcItem" name="Certificate of the Silver Scale Guild">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4248" type="EtcItem" name="Rolento's Cargobox">
+		<set name="material" val="WOOD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4249" type="EtcItem" name="Ol Mahum Captain's Head">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4250" type="EtcItem" name="Jade Crystal">
+		<set name="material" val="CRYSTAL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4251" type="EtcItem" name="Ancient Statue of Goddess">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4252" type="EtcItem" name="GalfRedo Romer's Bust">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4253" type="EtcItem" name="Eye of the Shadow">
+		<set name="material" val="CRYSTAL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4254" type="EtcItem" name="Certificate of Participation: Battle Royal">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4255" type="EtcItem" name="Trade Cargo">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4256" type="EtcItem" name="Agnes's Holy Symbol">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4257" type="EtcItem" name="Agnes's Rosary">
+		<set name="material" val="WOOD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4258" type="EtcItem" name="Sinister Totem">
+		<set name="material" val="WOOD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4259" type="EtcItem" name="Bear Skin">
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4260" type="EtcItem" name="Enku Orc's Head">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4261" type="EtcItem" name="Orc Heads Bouquet -1">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4262" type="EtcItem" name="Orc Heads Bouquet -2">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4263" type="EtcItem" name="Orc Heads Bouquet -3">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4264" type="EtcItem" name="Orc Heads Bouquet -4">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4265" type="EtcItem" name="Orc Heads Bouquet -5">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4266" type="EtcItem" name="Orc Heads Bouquet -6">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4267" type="EtcItem" name="Orc Heads Bouquet -7">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4268" type="EtcItem" name="Jennifer's Box">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4269" type="EtcItem" name="Articles of Dead Heroes">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4270" type="EtcItem" name="Old Key">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4271" type="EtcItem" name="Old Hilt">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4272" type="EtcItem" name="Totem Necklace">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4273" type="EtcItem" name="Einhasad Crucifix">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4274" type="EtcItem" name="Victim's Arm Bone">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4275" type="EtcItem" name="Victim's Thigh Bone">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4276" type="EtcItem" name="Victim's Skull">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4277" type="EtcItem" name="Victim's Rib Bone">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4278" type="EtcItem" name="Victim's Spine">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4279" type="EtcItem" name="Jar of Bones">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4280" type="EtcItem" name="Useless Bone Pieces">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4281" type="EtcItem" name="Powder to Summon Dead Souls">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4282" type="EtcItem" name="Sack of the Dead">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4283" type="EtcItem" name="Frog Prince">
+		<set name="material" val="CRYSTAL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4284" type="EtcItem" name="Fly Powder">
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4285" type="EtcItem" name="Calculator">
+		<set name="material" val="CRYSTAL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4286" type="EtcItem" name="Gemstone Beast's Crystal">
+		<set name="material" val="CRYSTAL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4287" type="EtcItem" name="Titan's Powerstone">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4288" type="EtcItem" name="Hanellin's 1st Letter">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4289" type="EtcItem" name="Hanellin's 2nd Letter">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4290" type="EtcItem" name="Hanellin's 3rd Letter">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4291" type="EtcItem" name="1st Key of Ark">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4292" type="EtcItem" name="2nd Key of Ark">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4293" type="EtcItem" name="3rd Key of Ark">
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4294" type="EtcItem" name="White Fabric">
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4295" type="EtcItem" name="Blooded Fabric">
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4296" type="EtcItem" name="Order of Gosta">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4297" type="EtcItem" name="Lizard Fang">
+		<set name="material" val="BONE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4298" type="EtcItem" name="Barrel of League">
+		<set name="material" val="WOOD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	<item id="4299" type="EtcItem" name="Operation Document - 1/10">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+</list>

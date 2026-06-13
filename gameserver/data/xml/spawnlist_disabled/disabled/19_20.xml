@@ -1,0 +1,5183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Gludio Area
+ * Neutral Zone
+ * The Patriot's Necropolis
+-->
+<list>
+	<!--  -->
+	<territory name="gludio01_qm1920_01" minZ="-3596" maxZ="-3096">
+		<node x="-9276" y="72188"/>
+		<node x="-8520" y="72308"/>
+		<node x="-8312" y="72740"/>
+		<node x="-9140" y="72780"/>
+	</territory>
+	<npcmaker name="gludio01_qm1920_01m1" territory="gludio01_qm1920_01" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="27031" total="2" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc1920_g01" minZ="-3776" maxZ="-2976">
+		<node x="-32524" y="65806"/>
+		<node x="-12071" y="66277"/>
+		<node x="-21652" y="76722"/>
+		<node x="-32406" y="72843"/>
+	</territory>
+	<npcmaker name="oren07_npc1920_g01m1" territory="oren07_npc1920_g01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31034" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc1920_g02" minZ="-3776" maxZ="-2976">
+		<node x="-32438" y="73241"/>
+		<node x="-23540" y="76777"/>
+		<node x="-23427" y="88652"/>
+		<node x="-32206" y="84591"/>
+	</territory>
+	<npcmaker name="oren07_npc1920_g02m1" territory="oren07_npc1920_g02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31034" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc1920_g03" minZ="-3776" maxZ="-2976">
+		<node x="-9152" y="66809"/>
+		<node x="-526" y="65873"/>
+		<node x="-1276" y="72459"/>
+		<node x="-8148" y="70259"/>
+	</territory>
+	<npcmaker name="oren07_npc1920_g03m1" territory="oren07_npc1920_g03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31033" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc1920_gd01" minZ="-3708" maxZ="-3308">
+		<node x="-18624" y="68648"/>
+		<node x="-17428" y="69532"/>
+		<node x="-16296" y="71120"/>
+		<node x="-21424" y="76504"/>
+		<node x="-25612" y="70380"/>
+		<node x="-21892" y="68492"/>
+	</territory>
+	<npcmaker name="oren_npc1920_gd01m1" territory="oren07_npc1920_gd01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31845" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren07_npc1920_gd02" minZ="-3732" maxZ="-3232">
+		<node x="-32508" y="70548"/>
+		<node x="-25776" y="70408"/>
+		<node x="-21596" y="76712"/>
+		<node x="-23528" y="79416"/>
+		<node x="-32508" y="80860"/>
+	</territory>
+	<npcmaker name="oren_npc1920_gd02m1" territory="oren07_npc1920_gd02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31850" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_01" minZ="-3820" maxZ="-3520">
+		<node x="-3932" y="82476"/>
+		<node x="-188" y="82880"/>
+		<node x="-168" y="86340"/>
+		<node x="-5228" y="86076"/>
+	</territory>
+	<npcmaker name="oren13_1920_01m1" territory="oren13_1920_01" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20393" total="3" respawn="20sec"/>
+		<npc id="20369" total="3" respawn="20sec"/>
+		<npc id="20049" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_01s" minZ="-3756" maxZ="-3556">
+		<node x="-3244" y="84004"/>
+		<node x="-1676" y="84380"/>
+		<node x="-1676" y="86036"/>
+		<node x="-3484" y="85428"/>
+	</territory>
+	<npcmaker name="oren13_1920_01sm1" territory="oren13_1920_01s" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20393" total="1" respawn="20sec"/>
+		<npc id="20049" total="1" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_02" minZ="-3752" maxZ="-3352">
+		<node x="-2132" y="77796"/>
+		<node x="-272" y="79536"/>
+		<node x="-180" y="82816"/>
+		<node x="-3884" y="82456"/>
+		<node x="-5664" y="81000"/>
+		<node x="-5860" y="77764"/>
+	</territory>
+	<npcmaker name="oren13_1920_02m1" territory="oren13_1920_02" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20393" total="4" respawn="20sec"/>
+		<npc id="20369" total="3" respawn="20sec"/>
+		<npc id="20049" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_02s" minZ="-3648" maxZ="-3348">
+		<node x="-4440" y="78488"/>
+		<node x="-2956" y="78448"/>
+		<node x="-2268" y="80356"/>
+		<node x="-4376" y="80480"/>
+	</territory>
+	<npcmaker name="oren13_1920_02sm1" territory="oren13_1920_02s" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20393" total="1" respawn="20sec"/>
+		<npc id="20369" total="1" respawn="20sec"/>
+		<npc id="20049" total="1" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_03" minZ="-3672" maxZ="-3372">
+		<node x="-10216" y="76172"/>
+		<node x="-5860" y="77764"/>
+		<node x="-5708" y="80972"/>
+		<node x="-8964" y="81736"/>
+	</territory>
+	<npcmaker name="oren13_1920_03m1" territory="oren13_1920_03" maximumNpcs="24">
+		<ai type="default_maker"/>
+		<npc id="20043" total="3" respawn="20sec"/>
+		<npc id="20369" total="3" respawn="20sec"/>
+		<npc id="20049" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_03s" minZ="-3524" maxZ="-3324">
+		<node x="-8540" y="78020"/>
+		<node x="-6644" y="77944"/>
+		<node x="-6520" y="79412"/>
+		<node x="-7828" y="79704"/>
+	</territory>
+	<npcmaker name="oren13_1920_03sm1" territory="oren13_1920_03s" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20043" total="1" respawn="20sec"/>
+		<npc id="20369" total="1" respawn="20sec"/>
+		<npc id="20049" total="1" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_04" minZ="-3756" maxZ="-3356">
+		<node x="-5712" y="80968"/>
+		<node x="-3940" y="82424"/>
+		<node x="-5236" y="86032"/>
+		<node x="-9280" y="86152"/>
+		<node x="-8956" y="81748"/>
+	</territory>
+	<npcmaker name="oren13_1920_04m1" territory="oren13_1920_04" maximumNpcs="24">
+		<ai type="default_maker"/>
+		<npc id="20039" total="3" respawn="20sec"/>
+		<npc id="20369" total="3" respawn="20sec"/>
+		<npc id="20043" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_04s" minZ="-3668" maxZ="-3468">
+		<node x="-7104" y="82560"/>
+		<node x="-5500" y="82988"/>
+		<node x="-5500" y="84556"/>
+		<node x="-7348" y="84228"/>
+	</territory>
+	<npcmaker name="oren13_1920_04sm1" territory="oren13_1920_04s" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="20039" total="2" respawn="20sec"/>
+		<npc id="20369" total="2" respawn="20sec"/>
+		<npc id="20043" total="2" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_05" minZ="-3808" maxZ="-3408">
+		<node x="-19080" y="78044"/>
+		<node x="-9864" y="81600"/>
+		<node x="-10500" y="84652"/>
+		<node x="-16232" y="85492"/>
+		<node x="-20764" y="82224"/>
+	</territory>
+	<npcmaker name="oren13_1920_05m1" territory="oren13_1920_05" maximumNpcs="41">
+		<ai type="default_maker"/>
+		<npc id="20410" total="5" respawn="20sec"/>
+		<npc id="20369" total="6" respawn="20sec"/>
+		<npc id="20043" total="5" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_051s" minZ="-3732" maxZ="-3432">
+		<node x="-14968" y="81524"/>
+		<node x="-13348" y="82624"/>
+		<node x="-14144" y="84616"/>
+		<node x="-15684" y="83700"/>
+	</territory>
+	<npcmaker name="oren13_1920_051sm1" territory="oren13_1920_051s" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20410" total="1" respawn="20sec"/>
+		<npc id="20369" total="1" respawn="20sec"/>
+		<npc id="20049" total="2" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_052s" minZ="-3724" maxZ="-3524">
+		<node x="-19324" y="80580"/>
+		<node x="-17528" y="80964"/>
+		<node x="-17864" y="82780"/>
+		<node x="-19720" y="82940"/>
+	</territory>
+	<npcmaker name="oren13_1920_052sm1" territory="oren13_1920_052s" maximumNpcs="24">
+		<ai type="default_maker"/>
+		<npc id="20039" total="3" respawn="20sec"/>
+		<npc id="20410" total="3" respawn="20sec"/>
+		<npc id="20043" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_06" minZ="-3700" maxZ="-3400">
+		<node x="-14516" y="73296"/>
+		<node x="-11248" y="76408"/>
+		<node x="-9876" y="81556"/>
+		<node x="-19056" y="78000"/>
+		<node x="-17364" y="75004"/>
+	</territory>
+	<npcmaker name="oren13_1920_06m1" territory="oren13_1920_06" maximumNpcs="36">
+		<ai type="default_maker"/>
+		<npc id="20043" total="4" respawn="20sec"/>
+		<npc id="20369" total="6" respawn="20sec"/>
+		<npc id="20049" total="6" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_1920_06s" minZ="-3572" maxZ="-3272">
+		<node x="-16540" y="76232"/>
+		<node x="-13900" y="75392"/>
+		<node x="-12824" y="78128"/>
+		<node x="-14788" y="78228"/>
+	</territory>
+	<npcmaker name="oren13_1920_06sm1" territory="oren13_1920_06s" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20039" total="3" respawn="20sec"/>
+		<npc id="20369" total="2" respawn="20sec"/>
+		<npc id="20049" total="2" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_npc1920_001" minZ="-3563" maxZ="-3363">
+		<node x="-15206" y="70970"/>
+		<node x="-15463" y="71310"/>
+		<node x="-15848" y="71618"/>
+		<node x="-16231" y="71283"/>
+		<node x="-16167" y="70786"/>
+		<node x="-15578" y="70623"/>
+	</territory>
+	<npcmaker name="oren_npc1920_00101" territory="oren13_npc1920_001" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30432" pos="-15404;71131;-3445;40440" total="1" respawn="1min"/>
+		<npc id="30433" pos="-15648;71405;-3451;40608" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_npc1920_002" minZ="-3696" maxZ="-3496">
+		<node x="-1090" y="75585"/>
+		<node x="-846" y="75687"/>
+		<node x="-720" y="75932"/>
+		<node x="-1056" y="76309"/>
+		<node x="-1420" y="75763"/>
+	</territory>
+	<npcmaker name="oren_npc1920_00201" territory="oren13_npc1920_002" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30430" pos="-1152;76125;-3566;56616" total="1" respawn="1min"/>
+		<npc id="30431" pos="-1301;75883;-3566;60908" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren13_npc1920_003" minZ="-3558" maxZ="-3358">
+		<node x="-9188" y="72860"/>
+		<node x="-8988" y="72860"/>
+		<node x="-8988" y="73060"/>
+		<node x="-9188" y="73060"/>
+	</territory>
+	<npcmaker name="oren_npc1920_00301" territory="oren13_npc1920_003" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30426" pos="-9076;72969;-3457;57344" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da02" minZ="-5211" maxZ="-5061">
+		<node x="-21394" y="78949"/>
+		<node x="-20744" y="78947"/>
+		<node x="-20746" y="80286"/>
+		<node x="-21396" y="80291"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da02m1" territory="ssq03_1920_da02" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da03" minZ="-5205" maxZ="-5055">
+		<node x="-21684" y="81663"/>
+		<node x="-21088" y="81659"/>
+		<node x="-21094" y="82286"/>
+		<node x="-21682" y="82282"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da03m1" territory="ssq03_1920_da03" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da04" minZ="-5209" maxZ="-5059">
+		<node x="-20335" y="81661"/>
+		<node x="-19005" y="81656"/>
+		<node x="-19006" y="82324"/>
+		<node x="-20325" y="82308"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da04m1" territory="ssq03_1920_da04" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da05" minZ="-5208" maxZ="-5058">
+		<node x="-20569" y="80509"/>
+		<node x="-19968" y="80514"/>
+		<node x="-19968" y="81150"/>
+		<node x="-20567" y="81149"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da05m1" territory="ssq03_1920_da05" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da06" minZ="-5205" maxZ="-5055">
+		<node x="-19485" y="80383"/>
+		<node x="-18884" y="80381"/>
+		<node x="-18883" y="81024"/>
+		<node x="-19486" y="81025"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da06m1" territory="ssq03_1920_da06" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da07" minZ="-5210" maxZ="-5060">
+		<node x="-20285" y="77154"/>
+		<node x="-19619" y="77151"/>
+		<node x="-19619" y="78964"/>
+		<node x="-20282" y="78963"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da07m1" territory="ssq03_1920_da07" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da08" minZ="-5184" maxZ="-5034">
+		<node x="-18994" y="78247"/>
+		<node x="-18345" y="78250"/>
+		<node x="-18352" y="79525"/>
+		<node x="-18994" y="79523"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da08m1" territory="ssq03_1920_da08" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da09" minZ="-5210" maxZ="-5060">
+		<node x="-17079" y="77061"/>
+		<node x="-16501" y="77059"/>
+		<node x="-16499" y="77702"/>
+		<node x="-17076" y="77697"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da09m1" territory="ssq03_1920_da09" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da10" minZ="-5212" maxZ="-5062">
+		<node x="-18345" y="80379"/>
+		<node x="-16535" y="80380"/>
+		<node x="-16544" y="81027"/>
+		<node x="-18334" y="81015"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da10m1" territory="ssq03_1920_da10" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da11" minZ="-5207" maxZ="-5057">
+		<node x="-17090" y="81663"/>
+		<node x="-16482" y="81658"/>
+		<node x="-16487" y="82313"/>
+		<node x="-17088" y="82306"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da11m1" territory="ssq03_1920_da11" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da12" minZ="-5207" maxZ="-5057">
+		<node x="-16007" y="81688"/>
+		<node x="-15386" y="81691"/>
+		<node x="-15387" y="82284"/>
+		<node x="-16008" y="82285"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da12m1" territory="ssq03_1920_da12" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da13" minZ="-5207" maxZ="-5057">
+		<node x="-16019" y="78438"/>
+		<node x="-15363" y="78436"/>
+		<node x="-15369" y="79741"/>
+		<node x="-16044" y="79747"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da13m1" territory="ssq03_1920_da13" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da14" minZ="-5207" maxZ="-5057">
+		<node x="-16013" y="77079"/>
+		<node x="-15367" y="77080"/>
+		<node x="-15366" y="77676"/>
+		<node x="-16004" y="77672"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da14m1" territory="ssq03_1920_da14" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da15" minZ="-5212" maxZ="-5062">
+		<node x="-13996" y="77358"/>
+		<node x="-12640" y="77365"/>
+		<node x="-12638" y="78024"/>
+		<node x="-13995" y="78025"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da15m1" territory="ssq03_1920_da15" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da16" minZ="-5214" maxZ="-5064">
+		<node x="-14855" y="78190"/>
+		<node x="-14222" y="78193"/>
+		<node x="-14225" y="78799"/>
+		<node x="-14859" y="78796"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da16m1" territory="ssq03_1920_da16" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da17" minZ="-5206" maxZ="-5056">
+		<node x="-14733" y="79290"/>
+		<node x="-14095" y="79288"/>
+		<node x="-14092" y="79884"/>
+		<node x="-14742" y="79877"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da17m1" territory="ssq03_1920_da17" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da18" minZ="-5207" maxZ="-5057">
+		<node x="-14729" y="80393"/>
+		<node x="-14076" y="80409"/>
+		<node x="-14090" y="82254"/>
+		<node x="-14747" y="82261"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da18m1" territory="ssq03_1920_da18" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da19" minZ="-5209" maxZ="-5059">
+		<node x="-11417" y="81680"/>
+		<node x="-10771" y="81676"/>
+		<node x="-10774" y="82277"/>
+		<node x="-11416" y="82274"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da19m1" territory="ssq03_1920_da19" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da20" minZ="-5206" maxZ="-5056">
+		<node x="-13259" y="79747"/>
+		<node x="-11909" y="79781"/>
+		<node x="-11926" y="80415"/>
+		<node x="-13257" y="80425"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da20m1" territory="ssq03_1920_da20" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da21" minZ="-5210" maxZ="-5060">
+		<node x="-12680" y="78495"/>
+		<node x="-10834" y="78504"/>
+		<node x="-10834" y="79145"/>
+		<node x="-12685" y="79134"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da21m1" territory="ssq03_1920_da21" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da22" minZ="-5202" maxZ="-5052">
+		<node x="-11385" y="77069"/>
+		<node x="-10770" y="77074"/>
+		<node x="-10770" y="77672"/>
+		<node x="-11386" y="77675"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da22m1" territory="ssq03_1920_da22" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da23" minZ="-5203" maxZ="-5053">
+		<node x="-21693" y="82764"/>
+		<node x="-21093" y="82763"/>
+		<node x="-21089" y="83387"/>
+		<node x="-21688" y="83387"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da23m1" territory="ssq03_1920_da23" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da24" minZ="-5203" maxZ="-5053">
+		<node x="-19149" y="82738"/>
+		<node x="-17845" y="82751"/>
+		<node x="-17832" y="83393"/>
+		<node x="-19148" y="83393"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da24m1" territory="ssq03_1920_da24" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da25" minZ="-5208" maxZ="-5058">
+		<node x="-17085" y="82758"/>
+		<node x="-16491" y="82753"/>
+		<node x="-16492" y="83397"/>
+		<node x="-17086" y="83399"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da25m1" territory="ssq03_1920_da25" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da26" minZ="-5212" maxZ="-5062">
+		<node x="-17427" y="84778"/>
+		<node x="-16766" y="84774"/>
+		<node x="-16775" y="86105"/>
+		<node x="-17438" y="86102"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da26m1" territory="ssq03_1920_da26" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da27" minZ="-5207" maxZ="-5057">
+		<node x="-17084" y="87357"/>
+		<node x="-16484" y="87357"/>
+		<node x="-16486" y="87997"/>
+		<node x="-17089" y="87997"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da27m1" territory="ssq03_1920_da27" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da28" minZ="-5213" maxZ="-5063">
+		<node x="-18561" y="86078"/>
+		<node x="-17883" y="86079"/>
+		<node x="-17896" y="87874"/>
+		<node x="-18550" y="87876"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da28m1" territory="ssq03_1920_da28" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da29" minZ="-5214" maxZ="-5064">
+		<node x="-19828" y="85511"/>
+		<node x="-19165" y="85511"/>
+		<node x="-19182" y="86832"/>
+		<node x="-19846" y="86836"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da29m1" territory="ssq03_1920_da29" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da30" minZ="-5209" maxZ="-5009">
+		<node x="-21691" y="87349"/>
+		<node x="-21090" y="87349"/>
+		<node x="-21091" y="87996"/>
+		<node x="-21689" y="88001"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da30m1" territory="ssq03_1920_da30" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da31" minZ="-5207" maxZ="-5057">
+		<node x="-21627" y="84032"/>
+		<node x="-19836" y="84025"/>
+		<node x="-19834" y="84678"/>
+		<node x="-21631" y="84670"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da31m1" territory="ssq03_1920_da31" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da32" minZ="-5204" maxZ="-5054">
+		<node x="-19287" y="84039"/>
+		<node x="-18695" y="84036"/>
+		<node x="-18695" y="84667"/>
+		<node x="-19289" y="84665"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da32m1" territory="ssq03_1920_da32" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_da33" minZ="-5209" maxZ="-5059">
+		<node x="-18194" y="83901"/>
+		<node x="-17602" y="83894"/>
+		<node x="-17601" y="84548"/>
+		<node x="-18197" y="84546"/>
+	</territory>
+	<npcmaker name="ssq03_1920_da33m1" territory="ssq03_1920_da33" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no02" minZ="-5211" maxZ="-5061">
+		<node x="-21394" y="78949"/>
+		<node x="-20744" y="78947"/>
+		<node x="-20746" y="80286"/>
+		<node x="-21396" y="80291"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no02m1" territory="ssq03_1920_no02" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no03" minZ="-5205" maxZ="-5055">
+		<node x="-21684" y="81663"/>
+		<node x="-21088" y="81659"/>
+		<node x="-21094" y="82286"/>
+		<node x="-21682" y="82282"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no03m1" territory="ssq03_1920_no03" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no04" minZ="-5209" maxZ="-5059">
+		<node x="-20335" y="81661"/>
+		<node x="-19005" y="81656"/>
+		<node x="-19006" y="82324"/>
+		<node x="-20325" y="82308"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no04m1" territory="ssq03_1920_no04" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no05" minZ="-5208" maxZ="-5058">
+		<node x="-20569" y="80509"/>
+		<node x="-19968" y="80514"/>
+		<node x="-19968" y="81150"/>
+		<node x="-20567" y="81149"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no05m1" territory="ssq03_1920_no05" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no06" minZ="-5205" maxZ="-5055">
+		<node x="-19485" y="80383"/>
+		<node x="-18884" y="80381"/>
+		<node x="-18883" y="81024"/>
+		<node x="-19486" y="81025"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no06m1" territory="ssq03_1920_no06" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no07" minZ="-5210" maxZ="-5060">
+		<node x="-20285" y="77154"/>
+		<node x="-19619" y="77151"/>
+		<node x="-19619" y="78964"/>
+		<node x="-20282" y="78963"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no07m1" territory="ssq03_1920_no07" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no08" minZ="-5184" maxZ="-5034">
+		<node x="-18994" y="78247"/>
+		<node x="-18345" y="78250"/>
+		<node x="-18352" y="79525"/>
+		<node x="-18994" y="79523"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no08m1" territory="ssq03_1920_no08" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no09" minZ="-5210" maxZ="-5060">
+		<node x="-17079" y="77061"/>
+		<node x="-16501" y="77059"/>
+		<node x="-16499" y="77702"/>
+		<node x="-17076" y="77697"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no09m1" territory="ssq03_1920_no09" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no10" minZ="-5212" maxZ="-5062">
+		<node x="-18345" y="80379"/>
+		<node x="-16535" y="80380"/>
+		<node x="-16544" y="81027"/>
+		<node x="-18334" y="81015"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no10m1" territory="ssq03_1920_no10" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no11" minZ="-5207" maxZ="-5057">
+		<node x="-17090" y="81663"/>
+		<node x="-16482" y="81658"/>
+		<node x="-16487" y="82313"/>
+		<node x="-17088" y="82306"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no11m1" territory="ssq03_1920_no11" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no12" minZ="-5207" maxZ="-5057">
+		<node x="-16007" y="81688"/>
+		<node x="-15386" y="81691"/>
+		<node x="-15387" y="82284"/>
+		<node x="-16008" y="82285"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no12m1" territory="ssq03_1920_no12" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no13" minZ="-5207" maxZ="-5057">
+		<node x="-16019" y="78438"/>
+		<node x="-15363" y="78436"/>
+		<node x="-15369" y="79741"/>
+		<node x="-16044" y="79747"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no13m1" territory="ssq03_1920_no13" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no14" minZ="-5207" maxZ="-5057">
+		<node x="-16013" y="77079"/>
+		<node x="-15367" y="77080"/>
+		<node x="-15366" y="77676"/>
+		<node x="-16004" y="77672"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no14m1" territory="ssq03_1920_no14" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no15" minZ="-5212" maxZ="-5062">
+		<node x="-13996" y="77358"/>
+		<node x="-12640" y="77365"/>
+		<node x="-12638" y="78024"/>
+		<node x="-13995" y="78025"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no15m1" territory="ssq03_1920_no15" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no16" minZ="-5214" maxZ="-5064">
+		<node x="-14855" y="78190"/>
+		<node x="-14222" y="78193"/>
+		<node x="-14225" y="78799"/>
+		<node x="-14859" y="78796"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no16m1" territory="ssq03_1920_no16" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no17" minZ="-5206" maxZ="-5056">
+		<node x="-14733" y="79290"/>
+		<node x="-14095" y="79288"/>
+		<node x="-14092" y="79884"/>
+		<node x="-14742" y="79877"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no17m1" territory="ssq03_1920_no17" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no18" minZ="-5207" maxZ="-5057">
+		<node x="-14729" y="80393"/>
+		<node x="-14076" y="80409"/>
+		<node x="-14090" y="82254"/>
+		<node x="-14747" y="82261"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no18m1" territory="ssq03_1920_no18" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no19" minZ="-5209" maxZ="-5059">
+		<node x="-11417" y="81680"/>
+		<node x="-10771" y="81676"/>
+		<node x="-10774" y="82277"/>
+		<node x="-11416" y="82274"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no19m1" territory="ssq03_1920_no19" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no20" minZ="-5206" maxZ="-5056">
+		<node x="-13259" y="79747"/>
+		<node x="-11909" y="79781"/>
+		<node x="-11926" y="80415"/>
+		<node x="-13257" y="80425"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no20m1" territory="ssq03_1920_no20" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no21" minZ="-5210" maxZ="-5060">
+		<node x="-12680" y="78495"/>
+		<node x="-10834" y="78504"/>
+		<node x="-10834" y="79145"/>
+		<node x="-12685" y="79134"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no21m1" territory="ssq03_1920_no21" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no22" minZ="-5202" maxZ="-5052">
+		<node x="-11385" y="77069"/>
+		<node x="-10770" y="77074"/>
+		<node x="-10770" y="77672"/>
+		<node x="-11386" y="77675"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no22m1" territory="ssq03_1920_no22" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no23" minZ="-5203" maxZ="-5053">
+		<node x="-21693" y="82764"/>
+		<node x="-21093" y="82763"/>
+		<node x="-21089" y="83387"/>
+		<node x="-21688" y="83387"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no23m1" territory="ssq03_1920_no23" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no24" minZ="-5203" maxZ="-5053">
+		<node x="-19149" y="82738"/>
+		<node x="-17845" y="82751"/>
+		<node x="-17832" y="83393"/>
+		<node x="-19148" y="83393"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no24m1" territory="ssq03_1920_no24" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no25" minZ="-5208" maxZ="-5058">
+		<node x="-17085" y="82758"/>
+		<node x="-16491" y="82753"/>
+		<node x="-16492" y="83397"/>
+		<node x="-17086" y="83399"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no25m1" territory="ssq03_1920_no25" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no26" minZ="-5212" maxZ="-5062">
+		<node x="-17427" y="84778"/>
+		<node x="-16766" y="84774"/>
+		<node x="-16775" y="86105"/>
+		<node x="-17438" y="86102"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no26m1" territory="ssq03_1920_no26" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no27" minZ="-5207" maxZ="-5057">
+		<node x="-17084" y="87357"/>
+		<node x="-16484" y="87357"/>
+		<node x="-16486" y="87997"/>
+		<node x="-17089" y="87997"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no27m1" territory="ssq03_1920_no27" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no28" minZ="-5213" maxZ="-5063">
+		<node x="-18561" y="86078"/>
+		<node x="-17883" y="86079"/>
+		<node x="-17896" y="87874"/>
+		<node x="-18550" y="87876"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no28m1" territory="ssq03_1920_no28" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no29" minZ="-5214" maxZ="-5064">
+		<node x="-19828" y="85511"/>
+		<node x="-19165" y="85511"/>
+		<node x="-19182" y="86832"/>
+		<node x="-19846" y="86836"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no29m1" territory="ssq03_1920_no29" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no30" minZ="-5209" maxZ="-5009">
+		<node x="-21691" y="87349"/>
+		<node x="-21090" y="87349"/>
+		<node x="-21091" y="87996"/>
+		<node x="-21689" y="88001"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no30m1" territory="ssq03_1920_no30" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no31" minZ="-5207" maxZ="-5057">
+		<node x="-21627" y="84032"/>
+		<node x="-19836" y="84025"/>
+		<node x="-19834" y="84678"/>
+		<node x="-21631" y="84670"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no31m1" territory="ssq03_1920_no31" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="3" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no32" minZ="-5204" maxZ="-5054">
+		<node x="-19287" y="84039"/>
+		<node x="-18695" y="84036"/>
+		<node x="-18695" y="84667"/>
+		<node x="-19289" y="84665"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no32m1" territory="ssq03_1920_no32" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_no33" minZ="-5209" maxZ="-5059">
+		<node x="-18194" y="83901"/>
+		<node x="-17602" y="83894"/>
+		<node x="-17601" y="84548"/>
+		<node x="-18197" y="84546"/>
+	</territory>
+	<npcmaker name="ssq03_1920_no33m1" territory="ssq03_1920_no33" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq02" minZ="-5211" maxZ="-5061">
+		<node x="-21394" y="78949"/>
+		<node x="-20744" y="78947"/>
+		<node x="-20746" y="80286"/>
+		<node x="-21396" y="80291"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq02m1" territory="ssq03_1920_ssq02" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq03" minZ="-5205" maxZ="-5055">
+		<node x="-21684" y="81663"/>
+		<node x="-21088" y="81659"/>
+		<node x="-21094" y="82286"/>
+		<node x="-21682" y="82282"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq03m1" territory="ssq03_1920_ssq03" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq04" minZ="-5209" maxZ="-5059">
+		<node x="-20335" y="81661"/>
+		<node x="-19005" y="81656"/>
+		<node x="-19006" y="82324"/>
+		<node x="-20325" y="82308"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq04m1" territory="ssq03_1920_ssq04" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq05" minZ="-5208" maxZ="-5058">
+		<node x="-20569" y="80509"/>
+		<node x="-19968" y="80514"/>
+		<node x="-19968" y="81150"/>
+		<node x="-20567" y="81149"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq05m1" territory="ssq03_1920_ssq05" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq06" minZ="-5205" maxZ="-5055">
+		<node x="-19485" y="80383"/>
+		<node x="-18884" y="80381"/>
+		<node x="-18883" y="81024"/>
+		<node x="-19486" y="81025"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq06m1" territory="ssq03_1920_ssq06" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq07" minZ="-5210" maxZ="-5060">
+		<node x="-20285" y="77154"/>
+		<node x="-19619" y="77151"/>
+		<node x="-19619" y="78964"/>
+		<node x="-20282" y="78963"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq07m1" territory="ssq03_1920_ssq07" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq08" minZ="-5184" maxZ="-5034">
+		<node x="-18994" y="78247"/>
+		<node x="-18345" y="78250"/>
+		<node x="-18352" y="79525"/>
+		<node x="-18994" y="79523"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq08m1" territory="ssq03_1920_ssq08" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq09" minZ="-5210" maxZ="-5060">
+		<node x="-17079" y="77061"/>
+		<node x="-16501" y="77059"/>
+		<node x="-16499" y="77702"/>
+		<node x="-17076" y="77697"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq09m1" territory="ssq03_1920_ssq09" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq10" minZ="-5212" maxZ="-5062">
+		<node x="-18345" y="80379"/>
+		<node x="-16535" y="80380"/>
+		<node x="-16544" y="81027"/>
+		<node x="-18334" y="81015"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq10m1" territory="ssq03_1920_ssq10" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq11" minZ="-5207" maxZ="-5057">
+		<node x="-17090" y="81663"/>
+		<node x="-16482" y="81658"/>
+		<node x="-16487" y="82313"/>
+		<node x="-17088" y="82306"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq11m1" territory="ssq03_1920_ssq11" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21198" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq12" minZ="-5207" maxZ="-5057">
+		<node x="-16007" y="81688"/>
+		<node x="-15386" y="81691"/>
+		<node x="-15387" y="82284"/>
+		<node x="-16008" y="82285"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq12m1" territory="ssq03_1920_ssq12" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq13" minZ="-5207" maxZ="-5057">
+		<node x="-16019" y="78438"/>
+		<node x="-15363" y="78436"/>
+		<node x="-15369" y="79741"/>
+		<node x="-16044" y="79747"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq13m1" territory="ssq03_1920_ssq13" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq14" minZ="-5207" maxZ="-5057">
+		<node x="-16013" y="77079"/>
+		<node x="-15367" y="77080"/>
+		<node x="-15366" y="77676"/>
+		<node x="-16004" y="77672"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq14m1" territory="ssq03_1920_ssq14" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq15" minZ="-5212" maxZ="-5062">
+		<node x="-13996" y="77358"/>
+		<node x="-12640" y="77365"/>
+		<node x="-12638" y="78024"/>
+		<node x="-13995" y="78025"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq15m1" territory="ssq03_1920_ssq15" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq16" minZ="-5214" maxZ="-5064">
+		<node x="-14855" y="78190"/>
+		<node x="-14222" y="78193"/>
+		<node x="-14225" y="78799"/>
+		<node x="-14859" y="78796"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq16m1" territory="ssq03_1920_ssq16" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq17" minZ="-5206" maxZ="-5056">
+		<node x="-14733" y="79290"/>
+		<node x="-14095" y="79288"/>
+		<node x="-14092" y="79884"/>
+		<node x="-14742" y="79877"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq17m1" territory="ssq03_1920_ssq17" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq18" minZ="-5207" maxZ="-5057">
+		<node x="-14729" y="80393"/>
+		<node x="-14076" y="80409"/>
+		<node x="-14090" y="82254"/>
+		<node x="-14747" y="82261"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq18m1" territory="ssq03_1920_ssq18" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq19" minZ="-5209" maxZ="-5059">
+		<node x="-11417" y="81680"/>
+		<node x="-10771" y="81676"/>
+		<node x="-10774" y="82277"/>
+		<node x="-11416" y="82274"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq19m1" territory="ssq03_1920_ssq19" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq20" minZ="-5206" maxZ="-5056">
+		<node x="-13259" y="79747"/>
+		<node x="-11909" y="79781"/>
+		<node x="-11926" y="80415"/>
+		<node x="-13257" y="80425"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq20m1" territory="ssq03_1920_ssq20" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq21" minZ="-5210" maxZ="-5060">
+		<node x="-12680" y="78495"/>
+		<node x="-10834" y="78504"/>
+		<node x="-10834" y="79145"/>
+		<node x="-12685" y="79134"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq21m1" territory="ssq03_1920_ssq21" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq22" minZ="-5202" maxZ="-5052">
+		<node x="-11385" y="77069"/>
+		<node x="-10770" y="77074"/>
+		<node x="-10770" y="77672"/>
+		<node x="-11386" y="77675"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq22m1" territory="ssq03_1920_ssq22" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21199" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq23" minZ="-5203" maxZ="-5053">
+		<node x="-21693" y="82764"/>
+		<node x="-21093" y="82763"/>
+		<node x="-21089" y="83387"/>
+		<node x="-21688" y="83387"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq23m1" territory="ssq03_1920_ssq23" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq24" minZ="-5203" maxZ="-5053">
+		<node x="-19149" y="82738"/>
+		<node x="-17845" y="82751"/>
+		<node x="-17832" y="83393"/>
+		<node x="-19148" y="83393"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq24m1" territory="ssq03_1920_ssq24" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq25" minZ="-5208" maxZ="-5058">
+		<node x="-17085" y="82758"/>
+		<node x="-16491" y="82753"/>
+		<node x="-16492" y="83397"/>
+		<node x="-17086" y="83399"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq25m1" territory="ssq03_1920_ssq25" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq26" minZ="-5212" maxZ="-5062">
+		<node x="-17427" y="84778"/>
+		<node x="-16766" y="84774"/>
+		<node x="-16775" y="86105"/>
+		<node x="-17438" y="86102"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq26m1" territory="ssq03_1920_ssq26" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq27" minZ="-5207" maxZ="-5057">
+		<node x="-17084" y="87357"/>
+		<node x="-16484" y="87357"/>
+		<node x="-16486" y="87997"/>
+		<node x="-17089" y="87997"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq27m1" territory="ssq03_1920_ssq27" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq28" minZ="-5213" maxZ="-5063">
+		<node x="-18561" y="86078"/>
+		<node x="-17883" y="86079"/>
+		<node x="-17896" y="87874"/>
+		<node x="-18550" y="87876"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq28m1" territory="ssq03_1920_ssq28" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq29" minZ="-5214" maxZ="-5064">
+		<node x="-19828" y="85511"/>
+		<node x="-19165" y="85511"/>
+		<node x="-19182" y="86832"/>
+		<node x="-19846" y="86836"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq29m1" territory="ssq03_1920_ssq29" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq30" minZ="-5209" maxZ="-5009">
+		<node x="-21691" y="87349"/>
+		<node x="-21090" y="87349"/>
+		<node x="-21091" y="87996"/>
+		<node x="-21689" y="88001"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq30m1" territory="ssq03_1920_ssq30" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq31" minZ="-5207" maxZ="-5057">
+		<node x="-21627" y="84032"/>
+		<node x="-19836" y="84025"/>
+		<node x="-19834" y="84678"/>
+		<node x="-21631" y="84670"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq31m1" territory="ssq03_1920_ssq31" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq32" minZ="-5204" maxZ="-5054">
+		<node x="-19287" y="84039"/>
+		<node x="-18695" y="84036"/>
+		<node x="-18695" y="84667"/>
+		<node x="-19289" y="84665"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq32m1" territory="ssq03_1920_ssq32" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_ssq33" minZ="-5209" maxZ="-5059">
+		<node x="-18194" y="83901"/>
+		<node x="-17602" y="83894"/>
+		<node x="-17601" y="84548"/>
+		<node x="-18197" y="84546"/>
+	</territory>
+	<npcmaker name="ssq03_1920_ssq33m1" territory="ssq03_1920_ssq33" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21200" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw02" minZ="-5211" maxZ="-5061">
+		<node x="-21394" y="78949"/>
+		<node x="-20744" y="78947"/>
+		<node x="-20746" y="80286"/>
+		<node x="-21396" y="80291"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw02m1" territory="ssq03_1920_tw02" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw03" minZ="-5205" maxZ="-5055">
+		<node x="-21684" y="81663"/>
+		<node x="-21088" y="81659"/>
+		<node x="-21094" y="82286"/>
+		<node x="-21682" y="82282"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw03m1" territory="ssq03_1920_tw03" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw04" minZ="-5209" maxZ="-5059">
+		<node x="-20335" y="81661"/>
+		<node x="-19005" y="81656"/>
+		<node x="-19006" y="82324"/>
+		<node x="-20325" y="82308"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw04m1" territory="ssq03_1920_tw04" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw05" minZ="-5208" maxZ="-5058">
+		<node x="-20569" y="80509"/>
+		<node x="-19968" y="80514"/>
+		<node x="-19968" y="81150"/>
+		<node x="-20567" y="81149"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw05m1" territory="ssq03_1920_tw05" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw06" minZ="-5205" maxZ="-5055">
+		<node x="-19485" y="80383"/>
+		<node x="-18884" y="80381"/>
+		<node x="-18883" y="81024"/>
+		<node x="-19486" y="81025"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw06m1" territory="ssq03_1920_tw06" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw07" minZ="-5210" maxZ="-5060">
+		<node x="-20285" y="77154"/>
+		<node x="-19619" y="77151"/>
+		<node x="-19619" y="78964"/>
+		<node x="-20282" y="78963"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw07m1" territory="ssq03_1920_tw07" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw08" minZ="-5184" maxZ="-5034">
+		<node x="-18994" y="78247"/>
+		<node x="-18345" y="78250"/>
+		<node x="-18352" y="79525"/>
+		<node x="-18994" y="79523"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw08m1" territory="ssq03_1920_tw08" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw09" minZ="-5210" maxZ="-5060">
+		<node x="-17079" y="77061"/>
+		<node x="-16501" y="77059"/>
+		<node x="-16499" y="77702"/>
+		<node x="-17076" y="77697"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw09m1" territory="ssq03_1920_tw09" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw10" minZ="-5212" maxZ="-5062">
+		<node x="-18345" y="80379"/>
+		<node x="-16535" y="80380"/>
+		<node x="-16544" y="81027"/>
+		<node x="-18334" y="81015"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw10m1" territory="ssq03_1920_tw10" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21221" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw11" minZ="-5207" maxZ="-5057">
+		<node x="-17090" y="81663"/>
+		<node x="-16482" y="81658"/>
+		<node x="-16487" y="82313"/>
+		<node x="-17088" y="82306"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw11m1" territory="ssq03_1920_tw11" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21221" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21222" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21177" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw12" minZ="-5207" maxZ="-5057">
+		<node x="-16007" y="81688"/>
+		<node x="-15386" y="81691"/>
+		<node x="-15387" y="82284"/>
+		<node x="-16008" y="82285"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw12m1" territory="ssq03_1920_tw12" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw13" minZ="-5207" maxZ="-5057">
+		<node x="-16019" y="78438"/>
+		<node x="-15363" y="78436"/>
+		<node x="-15369" y="79741"/>
+		<node x="-16044" y="79747"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw13m1" territory="ssq03_1920_tw13" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw14" minZ="-5207" maxZ="-5057">
+		<node x="-16013" y="77079"/>
+		<node x="-15367" y="77080"/>
+		<node x="-15366" y="77676"/>
+		<node x="-16004" y="77672"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw14m1" territory="ssq03_1920_tw14" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw15" minZ="-5212" maxZ="-5062">
+		<node x="-13996" y="77358"/>
+		<node x="-12640" y="77365"/>
+		<node x="-12638" y="78024"/>
+		<node x="-13995" y="78025"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw15m1" territory="ssq03_1920_tw15" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw16" minZ="-5214" maxZ="-5064">
+		<node x="-14855" y="78190"/>
+		<node x="-14222" y="78193"/>
+		<node x="-14225" y="78799"/>
+		<node x="-14859" y="78796"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw16m1" territory="ssq03_1920_tw16" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw17" minZ="-5206" maxZ="-5056">
+		<node x="-14733" y="79290"/>
+		<node x="-14095" y="79288"/>
+		<node x="-14092" y="79884"/>
+		<node x="-14742" y="79877"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw17m1" territory="ssq03_1920_tw17" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw18" minZ="-5207" maxZ="-5057">
+		<node x="-14729" y="80393"/>
+		<node x="-14076" y="80409"/>
+		<node x="-14090" y="82254"/>
+		<node x="-14747" y="82261"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw18m1" territory="ssq03_1920_tw18" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw19" minZ="-5209" maxZ="-5059">
+		<node x="-11417" y="81680"/>
+		<node x="-10771" y="81676"/>
+		<node x="-10774" y="82277"/>
+		<node x="-11416" y="82274"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw19m1" territory="ssq03_1920_tw19" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw20" minZ="-5206" maxZ="-5056">
+		<node x="-13259" y="79747"/>
+		<node x="-11909" y="79781"/>
+		<node x="-11926" y="80415"/>
+		<node x="-13257" y="80425"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw20m1" territory="ssq03_1920_tw20" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw21" minZ="-5210" maxZ="-5060">
+		<node x="-12680" y="78495"/>
+		<node x="-10834" y="78504"/>
+		<node x="-10834" y="79145"/>
+		<node x="-12685" y="79134"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw21m1" territory="ssq03_1920_tw21" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21223" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw22" minZ="-5202" maxZ="-5052">
+		<node x="-11385" y="77069"/>
+		<node x="-10770" y="77074"/>
+		<node x="-10770" y="77672"/>
+		<node x="-11386" y="77675"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw22m1" territory="ssq03_1920_tw22" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21223" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21153" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21178" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw23" minZ="-5203" maxZ="-5053">
+		<node x="-21693" y="82764"/>
+		<node x="-21093" y="82763"/>
+		<node x="-21089" y="83387"/>
+		<node x="-21688" y="83387"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw23m1" territory="ssq03_1920_tw23" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw24" minZ="-5203" maxZ="-5053">
+		<node x="-19149" y="82738"/>
+		<node x="-17845" y="82751"/>
+		<node x="-17832" y="83393"/>
+		<node x="-19148" y="83393"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw24m1" territory="ssq03_1920_tw24" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw25" minZ="-5208" maxZ="-5058">
+		<node x="-17085" y="82758"/>
+		<node x="-16491" y="82753"/>
+		<node x="-16492" y="83397"/>
+		<node x="-17086" y="83399"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw25m1" territory="ssq03_1920_tw25" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw26" minZ="-5212" maxZ="-5062">
+		<node x="-17427" y="84778"/>
+		<node x="-16766" y="84774"/>
+		<node x="-16775" y="86105"/>
+		<node x="-17438" y="86102"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw26m1" territory="ssq03_1920_tw26" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw27" minZ="-5207" maxZ="-5057">
+		<node x="-17084" y="87357"/>
+		<node x="-16484" y="87357"/>
+		<node x="-16486" y="87997"/>
+		<node x="-17089" y="87997"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw27m1" territory="ssq03_1920_tw27" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw28" minZ="-5213" maxZ="-5063">
+		<node x="-18561" y="86078"/>
+		<node x="-17883" y="86079"/>
+		<node x="-17896" y="87874"/>
+		<node x="-18550" y="87876"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw28m1" territory="ssq03_1920_tw28" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw29" minZ="-5214" maxZ="-5064">
+		<node x="-19828" y="85511"/>
+		<node x="-19165" y="85511"/>
+		<node x="-19182" y="86832"/>
+		<node x="-19846" y="86836"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw29m1" territory="ssq03_1920_tw29" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw30" minZ="-5209" maxZ="-5009">
+		<node x="-21691" y="87349"/>
+		<node x="-21090" y="87349"/>
+		<node x="-21091" y="87996"/>
+		<node x="-21689" y="88001"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw30m1" territory="ssq03_1920_tw30" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw31" minZ="-5207" maxZ="-5057">
+		<node x="-21627" y="84032"/>
+		<node x="-19836" y="84025"/>
+		<node x="-19834" y="84678"/>
+		<node x="-21631" y="84670"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw31m1" territory="ssq03_1920_tw31" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21154" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="4" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25135"/>
+				<set name="SSQTelPosY" val="77832"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw32" minZ="-5204" maxZ="-5054">
+		<node x="-19287" y="84039"/>
+		<node x="-18695" y="84036"/>
+		<node x="-18695" y="84667"/>
+		<node x="-19289" y="84665"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw32m1" territory="ssq03_1920_tw32" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_1920_tw33" minZ="-5209" maxZ="-5059">
+		<node x="-18194" y="83901"/>
+		<node x="-17602" y="83894"/>
+		<node x="-17601" y="84548"/>
+		<node x="-18197" y="84546"/>
+	</territory>
+	<npcmaker name="ssq03_1920_tw33m1" territory="ssq03_1920_tw33" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21154" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21155" total="1" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="21179" total="2" respawn="131sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="-25683"/>
+				<set name="SSQTelPosY" val="77379"/>
+				<set name="SSQTelPosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_npc1920_01" minZ="-5208" maxZ="-5008">
+		<node x="-21492" y="77276"/>
+		<node x="-21292" y="77276"/>
+		<node x="-21292" y="77476"/>
+		<node x="-21492" y="77476"/>
+	</territory>
+	<npcmaker name="ssq03_npc1920_0101" territory="ssq03_npc1920_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31106" pos="-21392;77376;-5169;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_npc1920_02" minZ="-5210" maxZ="-5010">
+		<node x="-22324" y="77276"/>
+		<node x="-22124" y="77276"/>
+		<node x="-22124" y="77476"/>
+		<node x="-22324" y="77476"/>
+	</territory>
+	<npcmaker name="ssq03_npc1920_0201" territory="ssq03_npc1920_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31098" pos="-22224;77376;-5171;32500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_npc1920_03" minZ="-5213" maxZ="-5013">
+		<node x="-21780" y="76924"/>
+		<node x="-21580" y="76924"/>
+		<node x="-21580" y="77124"/>
+		<node x="-21780" y="77124"/>
+	</territory>
+	<npcmaker name="ssq03_npc1920_0301" territory="ssq03_npc1920_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31500" pos="-21635;77075;-5168;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_npc1920_f21" minZ="-3633" maxZ="-1633">
+		<node x="-25662" y="76866"/>
+		<node x="-24634" y="76867"/>
+		<node x="-24630" y="77895"/>
+		<node x="-25662" y="77882"/>
+	</territory>
+	<npcmaker name="ssq03_npc1920_f21m1" territory="ssq03_npc1920_f21" event="ssq_seal1_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31170" pos="-24895;77634;-3495;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq03_npc1920_f22" minZ="-3633" maxZ="-1633">
+		<node x="-25662" y="76866"/>
+		<node x="-24634" y="76867"/>
+		<node x="-24630" y="77895"/>
+		<node x="-25662" y="77882"/>
+	</territory>
+	<npcmaker name="ssq03_npc1920_f22m1" territory="ssq03_npc1920_f22" event="ssq_seal1_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31171" pos="-24895;77634;-3495;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq14_npc2517_da12" minZ="-5250" maxZ="-5050">
+		<node x="21715" y="77190"/>
+		<node x="-21714" y="77116"/>
+		<node x="-21605" y="77106"/>
+		<node x="-21591" y="77183"/>
+	</territory>
+	<npcmaker name="ssq14_npc2517_da12m1" territory="ssq14_npc2517_da12" event="ssq_seal1_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31113" pos="-21680;77152;-5171;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX1" val="118336"/>
+				<set name="PosY1" val="132592"/>
+				<set name="PosZ1" val="-4829"/>
+				<set name="PosX2" val="111296"/>
+				<set name="PosY2" val="173792"/>
+				<set name="PosZ2" val="-5440"/>
+				<set name="PosX3" val="83136"/>
+				<set name="PosY3" val="208992"/>
+				<set name="PosZ3" val="-5437"/>
+				<set name="PosX4" val="172384"/>
+				<set name="PosY4" val="-17823"/>
+				<set name="PosZ4" val="-4897"/>
+				<set name="PosX5" val="118336"/>
+				<set name="PosY5" val="132592"/>
+				<set name="PosZ5" val="-4829"/>
+				<set name="PosX6" val="111296"/>
+				<set name="PosY6" val="173792"/>
+				<set name="PosZ6" val="-5440"/>
+				<set name="PosX7" val="83136"/>
+				<set name="PosY7" val="208992"/>
+				<set name="PosZ7" val="-5437"/>
+				<set name="PosX8" val="172384"/>
+				<set name="PosY8" val="-17823"/>
+				<set name="PosZ8" val="-4897"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq14_npc2517_tw12" minZ="-5250" maxZ="-5050">
+		<node x="21715" y="77190"/>
+		<node x="-21714" y="77116"/>
+		<node x="-21605" y="77106"/>
+		<node x="-21591" y="77183"/>
+	</territory>
+	<npcmaker name="ssq14_npc2517_tw12m1" territory="ssq14_npc2517_tw12" event="ssq_seal1_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31113" pos="-21680;77152;-5171;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX1" val="118336"/>
+				<set name="PosY1" val="132592"/>
+				<set name="PosZ1" val="-4829"/>
+				<set name="PosX2" val="111296"/>
+				<set name="PosY2" val="173792"/>
+				<set name="PosZ2" val="-5440"/>
+				<set name="PosX3" val="83136"/>
+				<set name="PosY3" val="208992"/>
+				<set name="PosZ3" val="-5437"/>
+				<set name="PosX4" val="172384"/>
+				<set name="PosY4" val="-17823"/>
+				<set name="PosZ4" val="-4897"/>
+				<set name="PosX5" val="118336"/>
+				<set name="PosY5" val="132592"/>
+				<set name="PosZ5" val="-4829"/>
+				<set name="PosX6" val="111296"/>
+				<set name="PosY6" val="173792"/>
+				<set name="PosZ6" val="-5440"/>
+				<set name="PosX7" val="83136"/>
+				<set name="PosY7" val="208992"/>
+				<set name="PosZ7" val="-5437"/>
+				<set name="PosX8" val="172384"/>
+				<set name="PosY8" val="-17823"/>
+				<set name="PosZ8" val="-4897"/>
+			</ai>
+		</npc>
+	</npcmaker>
+</list>

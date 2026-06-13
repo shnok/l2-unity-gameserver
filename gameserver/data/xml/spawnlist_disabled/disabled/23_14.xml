@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Shuttgart Area
+ * Ice Merchant Cabin
+ * Frost Lake
+ * Frozen Labyrinth
+ * The Ice Queen's Castle
+-->
+<list>
+	<!--  -->
+	<territory name="schuttgart12_2314_01" minZ="-3096" maxZ="-2396">
+		<node x="105313" y="-115297"/>
+		<node x="108270" y="-115860"/>
+		<node x="107646" y="-114609"/>
+		<node x="104868" y="-114681"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_01m1" territory="schuttgart12_2314_01" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="22080" total="2" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22079" weight="1" respawn="0sec"/>
+				<private id="22079" weight="1" respawn="0sec"/>
+				<private id="22079" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_02" minZ="-2936" maxZ="-2236">
+		<node x="103826" y="-117679"/>
+		<node x="104554" y="-116458"/>
+		<node x="104939" y="-115260"/>
+		<node x="104380" y="-115064"/>
+		<node x="104131" y="-116113"/>
+		<node x="103223" y="-116437"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_02m1" territory="schuttgart12_2314_02" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="22081" total="3" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22082" total="3" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_03" minZ="-2976" maxZ="-2276">
+		<node x="105137" y="-118958"/>
+		<node x="106043" y="-119100"/>
+		<node x="106794" y="-118067"/>
+		<node x="105242" y="-117482"/>
+		<node x="104685" y="-118015"/>
+		<node x="105328" y="-118322"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_03m1" territory="schuttgart12_2314_03" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="22080" total="2" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22079" weight="1" respawn="0sec"/>
+				<private id="22079" weight="1" respawn="0sec"/>
+				<private id="22079" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_04" minZ="-2920" maxZ="-2220">
+		<node x="106806" y="-118059"/>
+		<node x="107818" y="-116958"/>
+		<node x="110214" y="-117388"/>
+		<node x="109144" y="-116037"/>
+		<node x="107414" y="-115693"/>
+		<node x="106217" y="-117817"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_04m1" territory="schuttgart12_2314_04" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="22080" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22079" weight="1" respawn="0sec"/>
+				<private id="22079" weight="1" respawn="0sec"/>
+				<private id="22079" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22081" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22082" total="3" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_05" minZ="-2952" maxZ="-2252">
+		<node x="112188" y="-120985"/>
+		<node x="113254" y="-120995"/>
+		<node x="113762" y="-119223"/>
+		<node x="111542" y="-118132"/>
+		<node x="112210" y="-119294"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_05m1" territory="schuttgart12_2314_05" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="22081" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22082" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22084" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_06" minZ="-2952" maxZ="-2252">
+		<node x="113584" y="-119107"/>
+		<node x="115965" y="-118714"/>
+		<node x="114787" y="-117850"/>
+		<node x="111417" y="-118067"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_06m1" territory="schuttgart12_2314_06" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="22081" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22082" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22084" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_07" minZ="-3156" maxZ="-2456">
+		<node x="117055" y="-122031"/>
+		<node x="119463" y="-121746"/>
+		<node x="119061" y="-120288"/>
+		<node x="119945" y="-119719"/>
+		<node x="118592" y="-119242"/>
+		<node x="116179" y="-121448"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_07m1" territory="schuttgart12_2314_07" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="22084" total="2" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22085" total="3" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22086" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_08" minZ="-1596" maxZ="-996">
+		<node x="117738" y="-105679"/>
+		<node x="118697" y="-105963"/>
+		<node x="118778" y="-104571"/>
+		<node x="117562" y="-104449"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_08m1" territory="schuttgart12_2314_08" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="22080" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22079" weight="1" respawn="0sec"/>
+				<private id="22079" weight="1" respawn="0sec"/>
+				<private id="22079" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_09" minZ="-2640" maxZ="-1940">
+		<node x="121051" y="-107210"/>
+		<node x="122281" y="-107061"/>
+		<node x="121780" y="-105953"/>
+		<node x="120835" y="-106129"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_09m1" territory="schuttgart12_2314_09" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="22081" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22082" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_10" minZ="-3020" maxZ="-2320">
+		<node x="123012" y="-105411"/>
+		<node x="123686" y="-105356"/>
+		<node x="123131" y="-103910"/>
+		<node x="122227" y="-104493"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_10m1" territory="schuttgart12_2314_10" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="22084" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_11" minZ="-3120" maxZ="-2420">
+		<node x="124161" y="-103587"/>
+		<node x="124714" y="-104644"/>
+		<node x="125201" y="-104254"/>
+		<node x="124562" y="-102940"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_11m1" territory="schuttgart12_2314_11" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="22085" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22086" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_12" minZ="-2855" maxZ="-2355">
+		<node x="127163" y="-107967"/>
+		<node x="127927" y="-108134"/>
+		<node x="129021" y="-106727"/>
+		<node x="127772" y="-105965"/>
+		<node x="127270" y="-106870"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_12m1" territory="schuttgart12_2314_12" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="22088" total="1" respawn="50sec" respawnRand="10sec"/>
+		<npc id="22084" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_13" minZ="-2848" maxZ="-2148">
+		<node x="123051" y="-111586"/>
+		<node x="125523" y="-111656"/>
+		<node x="125048" y="-109571"/>
+		<node x="123808" y="-108593"/>
+		<node x="122395" y="-110407"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_13m1" territory="schuttgart12_2314_13" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22088" total="1" respawn="50sec" respawnRand="10sec"/>
+		<npc id="22089" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22090" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22092" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_14" minZ="-3196" maxZ="-2496">
+		<node x="128102" y="-112295"/>
+		<node x="128770" y="-111302"/>
+		<node x="128178" y="-109679"/>
+		<node x="127195" y="-110520"/>
+		<node x="127534" y="-111154"/>
+		<node x="127209" y="-111995"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_14m1" territory="schuttgart12_2314_14" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="22088" total="1" respawn="50sec" respawnRand="10sec"/>
+		<npc id="22089" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22090" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_15" minZ="-2804" maxZ="-2104">
+		<node x="119682" y="-114587"/>
+		<node x="121200" y="-114894"/>
+		<node x="122078" y="-111994"/>
+		<node x="120341" y="-111808"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_15m1" territory="schuttgart12_2314_15" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="22085" total="3" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22086" total="3" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22088" total="1" respawn="50sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_16" minZ="-2956" maxZ="-2256">
+		<node x="123477" y="-113391"/>
+		<node x="123986" y="-114295"/>
+		<node x="124870" y="-114366"/>
+		<node x="126279" y="-114094"/>
+		<node x="124507" y="-113029"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_16m1" territory="schuttgart12_2314_16" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="22089" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22090" total="3" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_17" minZ="-2980" maxZ="-2280">
+		<node x="125940" y="-116971"/>
+		<node x="128483" y="-115159"/>
+		<node x="127126" y="-113912"/>
+		<node x="124886" y="-114383"/>
+		<node x="126048" y="-115748"/>
+		<node x="125091" y="-116172"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_17m1" territory="schuttgart12_2314_17" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="22089" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22090" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22092" total="2" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_18" minZ="-3060" maxZ="-2360">
+		<node x="124317" y="-117339"/>
+		<node x="124679" y="-116119"/>
+		<node x="123047" y="-115934"/>
+		<node x="122759" y="-116345"/>
+		<node x="123417" y="-118121"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_18m1" territory="schuttgart12_2314_18" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="22089" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22090" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22092" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_19" minZ="-2916" maxZ="-2216">
+		<node x="126739" y="-120275"/>
+		<node x="127262" y="-119304"/>
+		<node x="126233" y="-118516"/>
+		<node x="125666" y="-119281"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_19m1" territory="schuttgart12_2314_19" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="22089" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22090" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22092" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_20" minZ="-2658" maxZ="-2058">
+		<node x="126810" y="-120160"/>
+		<node x="127724" y="-120438"/>
+		<node x="128715" y="-119079"/>
+		<node x="127879" y="-118484"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_20m1" territory="schuttgart12_2314_20" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="22092" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22094" total="2" respawn="50sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_21" minZ="-2920" maxZ="-2220">
+		<node x="127519" y="-123863"/>
+		<node x="129306" y="-123319"/>
+		<node x="128821" y="-122075"/>
+		<node x="126284" y="-122986"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_21m1" territory="schuttgart12_2314_21" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="22096" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22095" weight="1" respawn="0sec"/>
+				<private id="22095" weight="1" respawn="0sec"/>
+				<private id="22095" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22097" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22098" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_22" minZ="-2852" maxZ="-2152">
+		<node x="127020" y="-125557"/>
+		<node x="128740" y="-125572"/>
+		<node x="128928" y="-124921"/>
+		<node x="127020" y="-124808"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_22m1" territory="schuttgart12_2314_22" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="22096" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22095" weight="1" respawn="0sec"/>
+				<private id="22095" weight="1" respawn="0sec"/>
+				<private id="22095" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22097" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22098" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_23" minZ="-3104" maxZ="-2404">
+		<node x="123171" y="-127577"/>
+		<node x="125006" y="-127378"/>
+		<node x="125540" y="-126301"/>
+		<node x="125112" y="-125819"/>
+		<node x="123180" y="-127080"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_23m1" territory="schuttgart12_2314_23" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="22096" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22095" weight="1" respawn="0sec"/>
+				<private id="22095" weight="1" respawn="0sec"/>
+				<private id="22095" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22097" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22098" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_24" minZ="-3080" maxZ="-2380">
+		<node x="123946" y="-125293"/>
+		<node x="123460" y="-125252"/>
+		<node x="123245" y="-124636"/>
+		<node x="122818" y="-124615"/>
+		<node x="122930" y="-125197"/>
+		<node x="122368" y="-125474"/>
+		<node x="123825" y="-125921"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_24m1" territory="schuttgart12_2314_24" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="22096" total="2" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22095" weight="1" respawn="0sec"/>
+				<private id="22095" weight="1" respawn="0sec"/>
+				<private id="22095" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_25" minZ="-2936" maxZ="-1936">
+		<node x="124748" y="-122966"/>
+		<node x="125382" y="-122480"/>
+		<node x="124539" y="-121429"/>
+		<node x="123990" y="-121829"/>
+		<node x="123911" y="-122440"/>
+		<node x="124229" y="-122850"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_25m1" territory="schuttgart12_2314_25" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="22092" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22094" total="1" respawn="50sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_26" minZ="-3276" maxZ="-2576">
+		<node x="121295" y="-127706"/>
+		<node x="121878" y="-126820"/>
+		<node x="121324" y="-126288"/>
+		<node x="120349" y="-126816"/>
+		<node x="121139" y="-127078"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_26m1" territory="schuttgart12_2314_26" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="22096" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22095" weight="1" respawn="0sec"/>
+				<private id="22095" weight="1" respawn="0sec"/>
+				<private id="22095" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22092" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+				<private id="22091" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_27" minZ="-3455" maxZ="-2955">
+		<node x="119275" y="-102188"/>
+		<node x="120959" y="-102262"/>
+		<node x="121521" y="-100792"/>
+		<node x="119433" y="-100432"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_27m1" territory="schuttgart12_2314_27" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="22085" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22086" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22088" total="1" respawn="50sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_28" minZ="-4184" maxZ="-3484">
+		<node x="112260" y="-102338"/>
+		<node x="114820" y="-101810"/>
+		<node x="115263" y="-99992"/>
+		<node x="111630" y="-100579"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_28m1" territory="schuttgart12_2314_28" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="22081" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22082" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22080" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22079" weight="1" respawn="0sec"/>
+				<private id="22079" weight="1" respawn="0sec"/>
+				<private id="22079" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22084" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_29" minZ="-3884" maxZ="-3184">
+		<node x="106052" y="-105180"/>
+		<node x="107914" y="-103747"/>
+		<node x="107574" y="-101927"/>
+		<node x="104411" y="-104629"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_29m1" territory="schuttgart12_2314_29" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="22085" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22086" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22084" total="1" respawn="40sec" respawnRand="10sec">
+			<privates>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+				<private id="22083" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_30" minZ="-3656" maxZ="-2956">
+		<node x="103172" y="-113631"/>
+		<node x="104355" y="-112867"/>
+		<node x="104355" y="-112012"/>
+		<node x="102747" y="-112922"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_30m1" territory="schuttgart12_2314_30" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="22081" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22082" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_31" minZ="-3352" maxZ="-2552">
+		<node x="104393" y="-112858"/>
+		<node x="105237" y="-112106"/>
+		<node x="105406" y="-111153"/>
+		<node x="104381" y="-112015"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_31m1" territory="schuttgart12_2314_31" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22081" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_32" minZ="-3236" maxZ="-2336">
+		<node x="105352" y="-111555"/>
+		<node x="107179" y="-112053"/>
+		<node x="107506" y="-111635"/>
+		<node x="105437" y="-111052"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_32m1" territory="schuttgart12_2314_32" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22082" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_33" minZ="-2636" maxZ="-1936">
+		<node x="107255" y="-111989"/>
+		<node x="109274" y="-113294"/>
+		<node x="109670" y="-113004"/>
+		<node x="107525" y="-111626"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_33m1" territory="schuttgart12_2314_33" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="22081" total="1" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22082" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_34" minZ="-2336" maxZ="-1836">
+		<node x="109126" y="-114370"/>
+		<node x="110110" y="-113540"/>
+		<node x="109677" y="-113006"/>
+		<node x="108783" y="-114091"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_34m1" territory="schuttgart12_2314_34" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22082" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_35" minZ="-1924" maxZ="-1224">
+		<node x="110806" y="-113394"/>
+		<node x="111461" y="-112847"/>
+		<node x="111122" y="-112393"/>
+		<node x="110491" y="-112940"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_35m1" territory="schuttgart12_2314_35" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22082" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_36" minZ="-1240" maxZ="-640">
+		<node x="115834" y="-112323"/>
+		<node x="115988" y="-112146"/>
+		<node x="115611" y="-111653"/>
+		<node x="115465" y="-111745"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_36m1" territory="schuttgart12_2314_36" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22085" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_37" minZ="-1716" maxZ="-916">
+		<node x="116031" y="-114373"/>
+		<node x="116444" y="-113869"/>
+		<node x="116229" y="-112368"/>
+		<node x="116019" y="-112491"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_37m1" territory="schuttgart12_2314_37" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22085" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_38" minZ="-2048" maxZ="-1448">
+		<node x="116777" y="-116047"/>
+		<node x="117057" y="-115745"/>
+		<node x="116444" y="-114799"/>
+		<node x="116102" y="-114906"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_38m1" territory="schuttgart12_2314_38" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22086" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_39" minZ="-2436" maxZ="-1636">
+		<node x="117270" y="-116618"/>
+		<node x="118327" y="-116884"/>
+		<node x="118519" y="-116585"/>
+		<node x="117093" y="-116260"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_39m1" territory="schuttgart12_2314_39" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22086" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_40" minZ="-2696" maxZ="-2096">
+		<node x="120459" y="-117827"/>
+		<node x="121431" y="-118682"/>
+		<node x="121639" y="-118488"/>
+		<node x="120684" y="-117674"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_40m1" territory="schuttgart12_2314_40" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22089" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_41" minZ="-2888" maxZ="-2288">
+		<node x="121860" y="-119480"/>
+		<node x="122187" y="-119726"/>
+		<node x="122402" y="-118835"/>
+		<node x="121852" y="-118708"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_41m1" territory="schuttgart12_2314_41" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22090" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_42" minZ="-2936" maxZ="-2436">
+		<node x="121941" y="-121703"/>
+		<node x="122228" y="-121584"/>
+		<node x="122490" y="-120573"/>
+		<node x="122211" y="-120605"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_42m1" territory="schuttgart12_2314_42" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22097" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_43" minZ="-2892" maxZ="-2292">
+		<node x="120725" y="-122839"/>
+		<node x="121055" y="-123127"/>
+		<node x="121339" y="-122074"/>
+		<node x="121143" y="-121895"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_43m1" territory="schuttgart12_2314_43" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22097" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_44" minZ="-3080" maxZ="-2480">
+		<node x="120600" y="-123995"/>
+		<node x="120847" y="-123958"/>
+		<node x="121005" y="-123182"/>
+		<node x="120851" y="-123042"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_44m1" territory="schuttgart12_2314_44" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22098" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_45" minZ="-2984" maxZ="-2384">
+		<node x="120428" y="-125618"/>
+		<node x="120693" y="-125283"/>
+		<node x="120247" y="-124711"/>
+		<node x="119991" y="-124841"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_45m1" territory="schuttgart12_2314_45" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22098" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_46" minZ="-3204" maxZ="-2304">
+		<node x="109289" y="-104938"/>
+		<node x="109922" y="-105171"/>
+		<node x="109614" y="-103262"/>
+		<node x="108990" y="-103967"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_46m1" territory="schuttgart12_2314_46" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22081" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_47" minZ="-2656" maxZ="-1756">
+		<node x="110209" y="-106521"/>
+		<node x="110486" y="-106041"/>
+		<node x="109943" y="-105215"/>
+		<node x="109348" y="-104981"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_47m1" territory="schuttgart12_2314_47" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="22085" total="1" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_48" minZ="-2941" maxZ="-2441">
+		<node x="126220" y="-104753"/>
+		<node x="127489" y="-104895"/>
+		<node x="127837" y="-104168"/>
+		<node x="126348" y="-103970"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_48m1" territory="schuttgart12_2314_48" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="22088" total="1" respawn="50sec" respawnRand="10sec"/>
+		<npc id="22086" total="2" respawn="40sec" respawnRand="10sec"/>
+		<npc id="22090" total="2" respawn="40sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_49" minZ="-2720" maxZ="-2320">
+		<node x="127850" y="-127844"/>
+		<node x="128364" y="-127758"/>
+		<node x="128326" y="-127159"/>
+		<node x="127802" y="-127539"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_49m1" territory="schuttgart12_2314_49" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="22094" total="1" respawn="50sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_50" minZ="-2728" maxZ="-2328">
+		<node x="122576" y="-123720"/>
+		<node x="122862" y="-123751"/>
+		<node x="122990" y="-123248"/>
+		<node x="122732" y="-123260"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_50m1" territory="schuttgart12_2314_50" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="22094" total="1" respawn="50sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_2314_51" minZ="-2728" maxZ="-2328">
+		<node x="126866" y="-127904"/>
+		<node x="127174" y="-127977"/>
+		<node x="127307" y="-127688"/>
+		<node x="126916" y="-127575"/>
+	</territory>
+	<npcmaker name="schuttgart12_2314_51m1" territory="schuttgart12_2314_51" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="22094" total="1" respawn="50sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_npc2314_01" minZ="-3796" maxZ="-3496">
+		<node x="107788" y="-120564"/>
+		<node x="107988" y="-120564"/>
+		<node x="107988" y="-120364"/>
+		<node x="107788" y="-120364"/>
+	</territory>
+	<npcmaker name="schuttgart12_npc2314_01m1" territory="schuttgart12_npc2314_01" maximumNpcs="1">
+		<ai type="on_day_night_spawn">
+				<set name="IsNight" val="1"/>
+		</ai>
+		<npc id="32018" pos="107888;-120464;-3739;24576" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_npc2314_2" minZ="-3728" maxZ="-3428">
+		<node x="104412" y="-107748"/>
+		<node x="104612" y="-107748"/>
+		<node x="104612" y="-107548"/>
+		<node x="104412" y="-107548"/>
+	</territory>
+	<npcmaker name="schuttgart12_npc2314_2m1" territory="schuttgart12_npc2314_2" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="32022" pos="104512;-107648;-3691;28672" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_npc2314_3" minZ="-888" maxZ="-588">
+		<node x="113632" y="-109496"/>
+		<node x="113984" y="-109484"/>
+		<node x="113892" y="-109164"/>
+		<node x="113572" y="-109092"/>
+	</territory>
+	<npcmaker name="schuttgart12_npc2314_3m1" territory="schuttgart12_npc2314_3" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="32020" pos="113808;-109344;-846;8192" total="1" respawn="1min"/>
+		<npc id="32023" pos="113760;-109264;-840;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_npc2314_4" minZ="-2732" maxZ="-2432">
+		<node x="117248" y="-126920"/>
+		<node x="118069" y="-126944"/>
+		<node x="118298" y="-126139"/>
+		<node x="117423" y="-126467"/>
+	</territory>
+	<npcmaker name="schuttgart12_npc2314_4m1" territory="schuttgart12_npc2314_4" maximumNpcs="24">
+		<ai type="default_maker"/>
+		<npc id="32021" pos="117920;-126592;-2584;8192" total="1" respawn="1min"/>
+		<npc id="32077" pos="117808;-126768;-2584;24576" total="1" respawn="1min"/>
+		<npc id="32078" pos="117760;-126656;-2584;32768" total="1" respawn="1min"/>
+		<npc id="32079" pos="117840;-126528;-2584;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_01" minZ="-3096" maxZ="-2396">
+		<node x="105313" y="-115297"/>
+		<node x="108270" y="-115860"/>
+		<node x="107646" y="-114609"/>
+		<node x="104868" y="-114681"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_01m1" territory="schuttgart12_tb2314_01" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_02" minZ="-2936" maxZ="-2236">
+		<node x="103826" y="-117679"/>
+		<node x="104554" y="-116458"/>
+		<node x="104939" y="-115260"/>
+		<node x="104380" y="-115064"/>
+		<node x="104131" y="-116113"/>
+		<node x="103223" y="-116437"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_02m1" territory="schuttgart12_tb2314_02" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_03" minZ="-2976" maxZ="-2276">
+		<node x="105137" y="-118958"/>
+		<node x="106043" y="-119100"/>
+		<node x="106794" y="-118067"/>
+		<node x="105242" y="-117482"/>
+		<node x="104685" y="-118015"/>
+		<node x="105328" y="-118322"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_03m1" territory="schuttgart12_tb2314_03" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_04" minZ="-2920" maxZ="-2220">
+		<node x="106806" y="-118059"/>
+		<node x="107818" y="-116958"/>
+		<node x="110214" y="-117388"/>
+		<node x="109144" y="-116037"/>
+		<node x="107414" y="-115693"/>
+		<node x="106217" y="-117817"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_04m1" territory="schuttgart12_tb2314_04" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_05" minZ="-2952" maxZ="-2252">
+		<node x="112188" y="-120985"/>
+		<node x="113254" y="-120995"/>
+		<node x="113762" y="-119223"/>
+		<node x="111542" y="-118132"/>
+		<node x="112210" y="-119294"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_05m1" territory="schuttgart12_tb2314_05" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_06" minZ="-2952" maxZ="-2252">
+		<node x="113584" y="-119107"/>
+		<node x="115965" y="-118714"/>
+		<node x="114787" y="-117850"/>
+		<node x="111417" y="-118067"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_06m1" territory="schuttgart12_tb2314_06" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_07" minZ="-2984" maxZ="-2284">
+		<node x="116812" y="-122168"/>
+		<node x="119630" y="-122019"/>
+		<node x="119061" y="-120288"/>
+		<node x="119945" y="-119719"/>
+		<node x="118501" y="-118939"/>
+		<node x="116012" y="-121418"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_07m1" territory="schuttgart12_tb2314_07" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_08" minZ="-1596" maxZ="-996">
+		<node x="117738" y="-105679"/>
+		<node x="118697" y="-105963"/>
+		<node x="118778" y="-104571"/>
+		<node x="117562" y="-104449"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_08m1" territory="schuttgart12_tb2314_08" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_09" minZ="-2640" maxZ="-1940">
+		<node x="121051" y="-107210"/>
+		<node x="122281" y="-107061"/>
+		<node x="121780" y="-105953"/>
+		<node x="120835" y="-106129"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_09m1" territory="schuttgart12_tb2314_09" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_10" minZ="-3020" maxZ="-2320">
+		<node x="123012" y="-105411"/>
+		<node x="123686" y="-105356"/>
+		<node x="123131" y="-103910"/>
+		<node x="122227" y="-104493"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_10m1" territory="schuttgart12_tb2314_10" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_11" minZ="-3120" maxZ="-2420">
+		<node x="124161" y="-103587"/>
+		<node x="124714" y="-104644"/>
+		<node x="125201" y="-104254"/>
+		<node x="124562" y="-102940"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_11m1" territory="schuttgart12_tb2314_11" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_12" minZ="-3236" maxZ="-2536">
+		<node x="127134" y="-108026"/>
+		<node x="128133" y="-108216"/>
+		<node x="129189" y="-106634"/>
+		<node x="127730" y="-105835"/>
+		<node x="127220" y="-106869"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_12m1" territory="schuttgart12_tb2314_12" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_13" minZ="-2848" maxZ="-2148">
+		<node x="123051" y="-111586"/>
+		<node x="125523" y="-111656"/>
+		<node x="125048" y="-109571"/>
+		<node x="123808" y="-108593"/>
+		<node x="122395" y="-110407"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_13m1" territory="schuttgart12_tb2314_13" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18277" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21813" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_14" minZ="-3196" maxZ="-2496">
+		<node x="128102" y="-112295"/>
+		<node x="128770" y="-111302"/>
+		<node x="128178" y="-109679"/>
+		<node x="127195" y="-110520"/>
+		<node x="127534" y="-111154"/>
+		<node x="127209" y="-111995"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_14m1" territory="schuttgart12_tb2314_14" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18277" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21813" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_15" minZ="-2804" maxZ="-2104">
+		<node x="119682" y="-114587"/>
+		<node x="121200" y="-114894"/>
+		<node x="122078" y="-111994"/>
+		<node x="120341" y="-111808"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_15m1" territory="schuttgart12_tb2314_15" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18277" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21813" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_16" minZ="-2956" maxZ="-2256">
+		<node x="123477" y="-113391"/>
+		<node x="123986" y="-114295"/>
+		<node x="124870" y="-114366"/>
+		<node x="126279" y="-114094"/>
+		<node x="124507" y="-113029"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_16m1" territory="schuttgart12_tb2314_16" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18277" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21813" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_17" minZ="-2980" maxZ="-2280">
+		<node x="125940" y="-116971"/>
+		<node x="128483" y="-115159"/>
+		<node x="127126" y="-113912"/>
+		<node x="124886" y="-114383"/>
+		<node x="126048" y="-115748"/>
+		<node x="125091" y="-116172"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_17m1" territory="schuttgart12_tb2314_17" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18277" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21813" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_18" minZ="-3060" maxZ="-2360">
+		<node x="124317" y="-117339"/>
+		<node x="124679" y="-116119"/>
+		<node x="123047" y="-115934"/>
+		<node x="122759" y="-116345"/>
+		<node x="123417" y="-118121"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_18m1" territory="schuttgart12_tb2314_18" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18277" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21813" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_19" minZ="-2916" maxZ="-2216">
+		<node x="126739" y="-120275"/>
+		<node x="127262" y="-119304"/>
+		<node x="126233" y="-118516"/>
+		<node x="125666" y="-119281"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_19m1" territory="schuttgart12_tb2314_19" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18277" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21813" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_20" minZ="-2852" maxZ="-2152">
+		<node x="126730" y="-120277"/>
+		<node x="127724" y="-120438"/>
+		<node x="128856" y="-118856"/>
+		<node x="127774" y="-118415"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_20m1" territory="schuttgart12_tb2314_20" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18278" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21814" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_21" minZ="-2920" maxZ="-2220">
+		<node x="127519" y="-123863"/>
+		<node x="129306" y="-123319"/>
+		<node x="128821" y="-122075"/>
+		<node x="126284" y="-122986"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_21m1" territory="schuttgart12_tb2314_21" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18278" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21814" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_22" minZ="-2852" maxZ="-2152">
+		<node x="127020" y="-125557"/>
+		<node x="128740" y="-125572"/>
+		<node x="128928" y="-124921"/>
+		<node x="127020" y="-124808"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_22m1" territory="schuttgart12_tb2314_22" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18278" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21814" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_23" minZ="-3104" maxZ="-2404">
+		<node x="123171" y="-127577"/>
+		<node x="125006" y="-127378"/>
+		<node x="125540" y="-126301"/>
+		<node x="125112" y="-125819"/>
+		<node x="123180" y="-127080"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_23m1" territory="schuttgart12_tb2314_23" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18278" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21814" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_24" minZ="-3080" maxZ="-2380">
+		<node x="123946" y="-125293"/>
+		<node x="123460" y="-125252"/>
+		<node x="123245" y="-124636"/>
+		<node x="122818" y="-124615"/>
+		<node x="122930" y="-125197"/>
+		<node x="122368" y="-125474"/>
+		<node x="123825" y="-125921"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_24m1" territory="schuttgart12_tb2314_24" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18278" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21814" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_25" minZ="-3388" maxZ="-2388">
+		<node x="124748" y="-122966"/>
+		<node x="125382" y="-122480"/>
+		<node x="124539" y="-121429"/>
+		<node x="123990" y="-121829"/>
+		<node x="123911" y="-122440"/>
+		<node x="123485" y="-123096"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_25m1" territory="schuttgart12_tb2314_25" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18278" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21814" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_26" minZ="-3276" maxZ="-2576">
+		<node x="121295" y="-127706"/>
+		<node x="121878" y="-126820"/>
+		<node x="121324" y="-126288"/>
+		<node x="120349" y="-126816"/>
+		<node x="121139" y="-127078"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_26m1" territory="schuttgart12_tb2314_26" maximumNpcs="4">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18278" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21814" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_27" minZ="-3956" maxZ="-3256">
+		<node x="119090" y="-102280"/>
+		<node x="120959" y="-102263"/>
+		<node x="121530" y="-100700"/>
+		<node x="119294" y="-100333"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_27m1" territory="schuttgart12_tb2314_27" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18277" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21813" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart12_tb2314_28" minZ="-4184" maxZ="-3484">
+		<node x="112260" y="-102338"/>
+		<node x="114820" y="-101810"/>
+		<node x="115263" y="-99992"/>
+		<node x="111630" y="-100579"/>
+	</territory>
+	<npcmaker name="schuttgart12_tb2314_28m1" territory="schuttgart12_tb2314_28" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="15min" respawnRand="3min"/>
+		<npc id="21812" total="1" respawn="15min" respawnRand="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart13_mb2314_01" minZ="-3448" maxZ="-2748">
+		<node x="111255" y="-126956"/>
+		<node x="111802" y="-126970"/>
+		<node x="111844" y="-126423"/>
+		<node x="111338" y="-126520"/>
+	</territory>
+	<npcmaker name="schuttgart13_mb2314_01m1" territory="schuttgart13_mb2314_01" maximumNpcs="10">
+		<ai type="Close_Door_maker">
+				<set name="DoorName" val="ice_barrier_001"/>
+		</ai>
+		<npc id="22100" total="1" respawn="no">
+			<privates>
+				<private id="22099" weight="1" respawn="0sec"/>
+				<private id="22099" weight="1" respawn="0sec"/>
+				<private id="22099" weight="1" respawn="0sec"/>
+				<private id="22099" weight="1" respawn="0sec"/>
+				<private id="22099" weight="1" respawn="0sec"/>
+				<private id="22099" weight="1" respawn="0sec"/>
+				<private id="22099" weight="1" respawn="0sec"/>
+				<private id="22099" weight="1" respawn="0sec"/>
+				<private id="22099" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart13_mb2314_02" minZ="-3752" maxZ="-3052">
+		<node x="108778" y="-129253"/>
+		<node x="109524" y="-129459"/>
+		<node x="109553" y="-128467"/>
+		<node x="108692" y="-128306"/>
+	</territory>
+	<npcmaker name="schuttgart13_mb2314_02m1" territory="schuttgart13_mb2314_02" maximumNpcs="41">
+		<ai type="Close_Door_maker">
+				<set name="DoorName" val="ice_barrier_001"/>
+		</ai>
+		<npc id="22102" total="1" respawn="no">
+			<privates>
+				<private id="22101" weight="1" respawn="0sec"/>
+				<private id="22101" weight="1" respawn="0sec"/>
+				<private id="22101" weight="1" respawn="0sec"/>
+				<private id="22101" weight="1" respawn="0sec"/>
+				<private id="22101" weight="1" respawn="0sec"/>
+				<private id="22101" weight="1" respawn="0sec"/>
+				<private id="22101" weight="1" respawn="0sec"/>
+				<private id="22101" weight="1" respawn="0sec"/>
+				<private id="22101" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart13_mb2314_03" minZ="-3764" maxZ="-3064">
+		<node x="109245" y="-126024"/>
+		<node x="109698" y="-126260"/>
+		<node x="109835" y="-125739"/>
+		<node x="109474" y="-125686"/>
+	</territory>
+	<npcmaker name="schuttgart13_mb2314_03m1" territory="schuttgart13_mb2314_03" maximumNpcs="10">
+		<ai type="Close_Door_maker">
+				<set name="DoorName" val="ice_barrier_001"/>
+		</ai>
+		<npc id="22104" total="1" respawn="no">
+			<privates>
+				<private id="22103" weight="1" respawn="0sec"/>
+				<private id="22103" weight="1" respawn="0sec"/>
+				<private id="22103" weight="1" respawn="0sec"/>
+				<private id="22103" weight="1" respawn="0sec"/>
+				<private id="22103" weight="1" respawn="0sec"/>
+				<private id="22103" weight="1" respawn="0sec"/>
+				<private id="22103" weight="1" respawn="0sec"/>
+				<private id="22103" weight="1" respawn="0sec"/>
+				<private id="22103" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart13_mb2314_04" minZ="-3264" maxZ="-2564">
+		<node x="105236" y="-127996"/>
+		<node x="106490" y="-128116"/>
+		<node x="106270" y="-127182"/>
+		<node x="105410" y="-126982"/>
+	</territory>
+	<npcmaker name="schuttgart13_mb2314_04m1" territory="schuttgart13_mb2314_04" maximumNpcs="8">
+		<ai type="Close_Door_maker">
+				<set name="DoorName" val="ice_barrier_001"/>
+		</ai>
+		<npc id="29060" total="1" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart13_mb2314_05" minZ="-3160" maxZ="-2460">
+		<node x="102526" y="-126288"/>
+		<node x="102960" y="-126201"/>
+		<node x="102966" y="-125828"/>
+		<node x="102373" y="-125854"/>
+	</territory>
+	<npcmaker name="schuttgart13_mb2314_05m1" territory="schuttgart13_mb2314_05" maximumNpcs="8">
+		<ai type="ice_fairy_sirr_maker">
+				<set name="DoorName" val="ice_barrier_001"/>
+		</ai>
+		<npc id="29056" total="1" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart13_npc2314_1" minZ="-3497" maxZ="-3197">
+		<node x="115392" y="-125760"/>
+		<node x="115508" y="-125745"/>
+		<node x="115520" y="-125643"/>
+		<node x="115377" y="-125643"/>
+	</territory>
+	<npcmaker name="schuttgart13_npc2314_1m1" territory="schuttgart13_npc2314_1" maximumNpcs="1">
+		<ai type="freya_deacon_keeper_maker"/>
+		<npc id="32029" pos="115451;-125706;-3388;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart13_npc2314_2" minZ="-6392" maxZ="-392">
+		<node x="100932" y="-130203"/>
+		<node x="112975" y="-130547"/>
+		<node x="114054" y="-126327"/>
+		<node x="115314" y="-125940"/>
+		<node x="115208" y="-125520"/>
+		<node x="113978" y="-125524"/>
+		<node x="102357" y="-121351"/>
+		<node x="99542" y="-125460"/>
+	</territory>
+	<npcmaker name="schuttgart13_npc2314_2m1" territory="schuttgart13_npc2314_2" maximumNpcs="1">
+		<ai type="sculpture_garden_maker"/>
+		<npc id="32030" pos="111664;-126304;-2992;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="schuttgart13_npc2314_3" minZ="-2968" maxZ="-2668">
+		<node x="102288" y="-125780"/>
+		<node x="102488" y="-125780"/>
+		<node x="102488" y="-125580"/>
+		<node x="102288" y="-125580"/>
+	</territory>
+	<npcmaker name="schuttgart13_npc2314_3m1" territory="schuttgart13_npc2314_3" maximumNpcs="1">
+		<ai type="sculpture_ice_fairy_maker"/>
+		<npc id="32031" pos="102384;-125696;-2848;0" total="1" respawn="1min"/>
+	</npcmaker>
+</list>

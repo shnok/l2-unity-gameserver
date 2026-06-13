@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="3600" levels="10" name="Special Ability: Anger" >
+		<table name="#magicLvl"> 46 49 52 55 58 61 64 67 75 80 </table>
+		<table name="#pAtk"> 20.44 22.64 24.77 26.78 28.59 30.12 31.30 39 45 78.33 </table>
+		<table name="#pvpBonus"> 1 1 1 1 1 1 1.05 1.05 1.05 1.05 </table>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="#magicLvl" />
+		<for>
+			<add stat="pAtk" val="#pAtk" />
+			<mul stat="maxHp" val="0.85" />
+			<add stat="atkCountMax" val="4" />
+			<mul stat="pvpPhysDmg" val="#pvpBonus" />
+			<mul stat="pvpPhysSkillsDmg" val="#pvpBonus" />
+			<mul stat="pvpMagicalDmg" val="#pvpBonus" />
+		</for>
+	</skill>
+	<skill id="3601" levels="10" name="Special Ability: Haste" >
+		<table name="#pAtkSpd"> 1.08 1.07 1.07 1.07 1.06 1.06 1.06 1.06 1.07 1.09 </table>
+		<table name="#pvpBonus"> 1 1 1 1 1 1 1.05 1.05 1.05 1.05 </table>
+		<table name="#magicLvl"> 46 49 52 55 58 61 64 67 75 84 </table>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="#magicLvl" />
+		<for>
+			<mul stat="pAtkSpd" val="#pAtkSpd" />
+			<add stat="atkCountMax" val="4" />
+			<mul stat="pvpPhysDmg" val="#pvpBonus" />
+			<mul stat="pvpPhysSkillsDmg" val="#pvpBonus" />
+			<mul stat="pvpMagicalDmg" val="#pvpBonus" />
+		</for>
+	</skill>
+	<skill id="3602" levels="10" name="Special Ability: Guidance" >
+		<table name="#accCombat"> 6.88 6.07 5.72 5.37 5.02 4.68 4.34 3.95 5.27 7.5 </table>
+		<table name="#magicLvl"> 46 49 52 55 58 61 64 67 75 84 </table>
+		<table name="#pvpBonus"> 1 1 1 1 1 1 1.05 1.05 1.05 1.05 </table>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="#magicLvl" />
+		<for>
+			<add stat="accCombat" val="#accCombat" />
+			<add stat="atkCountMax" val="4" />
+			<mul stat="pvpPhysDmg" val="#pvpBonus" />
+			<mul stat="pvpPhysSkillsDmg" val="#pvpBonus" />
+			<mul stat="pvpMagicalDmg" val="#pvpBonus" />
+		</for>
+	</skill>
+	<skill id="3603" levels="10" name="Demonic Sword Zariche" >
+		<table name="#maxCp"> 12 13 14 15 17 19 21 23 25 27 </table>
+		<table name="#pAtk"> 3 4.5 6 7.5 9 10.5 11 11.5 12 12.5 </table>
+		<table name="#mAtk"> 3 3.25 3.50 3.75 4 4.25 4.50 5 5.50 5.75 </table>
+		<table name="#pDef"> 2.5 2.6 2.7 2.8 2.9 3 3.25 3.50 3.75 4 </table>
+		<table name="#mDef"> 3 3.1 3.2 3.3 3.4 3.5 3.75 4 4.25 4.5 </table>
+		<table name="#runSpd"> 4 6 8 10 12 14 16 18 19 20 </table>
+		<table name="#accCombat"> 15 20 25 30 35 40 45 50 55 60 </table>
+		<set name="magicLvl" val="85"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<set name="isMagic" val="true"/>
+		<for>
+			<mul stat="maxCp" val="#maxCp"/>
+			<mul stat="pAtk" val="#pAtk"/>
+			<mul stat="mAtk" val="#mAtk"/>
+			<mul stat="pDef" val="#pDef"/>
+			<mul stat="mDef" val="#mDef"/>
+			<add stat="accCombat" val="#accCombat"/>
+			<add stat="runSpd" val="#runSpd"/>
+			<add stat="absorbDam" val="100"/>
+			<mul stat="regCp" val="20"/>
+		</for>
+	</skill>
+	<skill id="3604" levels="1" name="Frintezza's Necklace" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="sleepVuln" val="30" />
+			<addMul stat="poisonVuln" val="50" />
+			<addMul stat="bleedVuln" val="50" />
+			<addMul stat="paralyzeVuln" val="30" />
+			<addMul stat="stunVuln" val="30" />
+			<addMul stat="darkRes" val="15" />
+			<add stat="reflectDam" val="5" />
+			<mul stat="mReuse" val="0.9" />
+			<mul stat="pReuse" val="0.9" />
+		</for>
+	</skill>
+	<skill id="3605" levels="1" name="Clan Oath Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<for>
+			<mul stat="pDef" val="1.05" />
+			<add stat="maxHp" val="85" />
+		</for>
+	</skill>
+	<skill id="3606" levels="1" name="Clan Oath Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<for>
+			<mul stat="pDef" val="1.05" />
+			<add stat="rEvas" val="3" />
+		</for>
+	</skill>
+	<skill id="3607" levels="1" name="Clan Oath Robe Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<for>
+			<mul stat="pDef" val="1.05" />
+			<mul stat="mAtkSpd" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3608" levels="1" name="Apella Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<set name="activationChance" val="80" />
+		<set name="chanceType" val="ON_ATTACKED_HIT" />
+		<set name="triggeredId" val="5605" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<add stat="maxCp" val="232" />
+			<mul stat="regCp" val="1.4" />
+		</for>
+	</skill>
+	<skill id="3609" levels="1" name="Apella Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<set name="activationChance" val="80" />
+		<set name="chanceType" val="ON_ATTACKED_HIT" />
+		<set name="triggeredId" val="5607" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<add stat="maxCp" val="195" />
+			<mul stat="regCp" val="1.4" />
+		</for>
+	</skill>
+	<skill id="3610" levels="1" name="Apella Robe Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<set name="activationChance" val="80" />
+		<set name="chanceType" val="ON_ATTACKED_HIT" />
+		<set name="triggeredId" val="5608" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<add stat="maxCp" val="177" />
+			<mul stat="regCp" val="1.4" />
+		</for>
+	</skill>
+	<skill id="3611" levels="1" name="Enchant Heavy Armor (Grade D)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="25"/>
+			<add stat="regMp" val="2"/> 
+		</for>
+	</skill>
+	<skill id="3612" levels="1" name="Enchant Light Armor (Grade D)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="rEvas" val="2"/>
+			<add stat="mDef" val="12"/>
+		</for>
+	</skill>
+	<skill id="3613" levels="1" name="Enchant Robe (Grade D)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="16"/>
+			<mul stat="weightLimit" val="1.3"/>
+		</for>
+	</skill>
+	<skill id="3614" levels="1" name="Enchant Heavy Armor (Grade C)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="38"/>
+			<add stat="regMp" val="2"/> 
+		</for>
+	</skill>
+	<skill id="3615" levels="1" name="Enchant Light Armor (Grade C)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="rEvas" val="2"/>
+			<add stat="mDef" val="20"/>
+		</for>
+	</skill>
+	<skill id="3616" levels="1" name="Enchant Robe (Grade C)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="24"/>
+			<mul stat="weightLimit" val="1.3"/>
+		</for>
+	</skill>
+	<skill id="3617" levels="1" name="Enchant Heavy Armor (Grade B)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="44"/>
+			<add stat="regMp" val="2"/> 
+		</for>
+	</skill>
+	<skill id="3618" levels="1" name="Enchant Light Armor (Grade B)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="rEvas" val="2"/>
+			<add stat="mDef" val="24"/>
+		</for>
+	</skill>
+	<skill id="3619" levels="1" name="Enchant Robe (Grade B)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="28"/>
+			<mul stat="weightLimit" val="1.3"/>
+		</for>
+	</skill>
+	<skill id="3620" levels="1" name="Enchant Heavy Armor (Grade A)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="50"/>
+			<add stat="regMp" val="2"/> 
+		</for>
+	</skill>
+	<skill id="3621" levels="1" name="Enchant Light Armor (Grade A)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="rEvas" val="2"/>
+			<add stat="mDef" val="28"/>
+		</for>
+	</skill>
+	<skill id="3622" levels="1" name="Enchant Robe (Grade A)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="32"/>
+			<mul stat="weightLimit" val="1.3"/>
+		</for>
+	</skill>
+	<skill id="3623" levels="1" name="Enchant Heavy Armor (Grade S)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="56"/>
+			<add stat="regMp" val="2"/> 
+		</for>
+	</skill>
+	<skill id="3624" levels="1" name="Enchant Light Armor (Grade S)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="rEvas" val="2"/>
+			<add stat="mDef" val="32"/>
+		</for>
+	</skill>
+	<skill id="3625" levels="1" name="Enchant Robe (Grade S)" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="36"/>
+			<mul stat="weightLimit" val="1.3"/>
+		</for>
+	</skill>
+	<skill id="3626" levels="1" name="Kabokula" >
+		<set name="itemConsumeId" val="8764" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="magicLvl" val="-1" />
+		<set name="triggeredId" val="5106" />
+		<set name="triggeredLevel" val="1" />
+		<set name="target" val="ONE" />
+		<set name="hitTime" val="25000" />
+		<set name="staticHitTime" val="true" />
+		<set name="power" val="100" />
+		<set name="skillType" val="FUSION" />
+		<set name="offensive" val="true"/>
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="300" />
+		<set name="effectRange" val="900" />
+		<set name="reuseDelay" val="1000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="109">
+			<and>
+				<target npcId="22215,22216,22217" />
+				<target hp_min_max="65,100" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="3627" levels="1" name="Tapirawa" >
+		<set name="itemConsumeId" val="8764" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="magicLvl" val="-1" />
+		<set name="triggeredId" val="5107" />
+		<set name="triggeredLevel" val="1" />
+		<set name="target" val="ONE" />
+		<set name="hitTime" val="25000" />
+		<set name="staticHitTime" val="true" />
+		<set name="power" val="100" />
+		<set name="skillType" val="FUSION" />
+		<set name="offensive" val="true"/>
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="300" />
+		<set name="effectRange" val="900" />
+		<set name="reuseDelay" val="1000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="109">
+			<and>
+				<target npcId="22215,22216,22217" />
+				<target hp_min_max="25,65" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="3628" levels="1" name="Shabonoba" >
+		<set name="itemConsumeId" val="8764" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="magicLvl" val="-1" />
+		<set name="triggeredId" val="5108" />
+		<set name="triggeredLevel" val="1" />
+		<set name="target" val="ONE" />
+		<set name="hitTime" val="25000" />
+		<set name="staticHitTime" val="true" />
+		<set name="power" val="100" />
+		<set name="skillType" val="FUSION" />
+		<set name="offensive" val="true"/>
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="300" />
+		<set name="effectRange" val="900" />
+		<set name="reuseDelay" val="1000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="109">
+			<and>
+				<target npcId="22215,22216,22217" />
+				<target hp_min_max="1,25" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="3629" levels="10" name="Blood Sword Akamanah" >
+		<table name="#maxCp"> 12 13 14 15 17 19 21 23 25 27 </table>
+		<table name="#pAtk"> 3 4.5 6 7.5 9 10.5 11 11.5 12 12.5 </table>
+		<table name="#mAtk"> 3 3.25 3.50 3.75 4 4.25 4.50 5 5.50 5.75 </table>
+		<table name="#pDef"> 2.5 2.6 2.7 2.8 2.9 3 3.25 3.50 3.75 4 </table>
+		<table name="#mDef"> 3 3.1 3.2 3.3 3.4 3.5 3.75 4 4.25 4.5 </table>
+		<table name="#runSpd"> 4 6 8 10 12 14 16 18 19 20 </table>
+		<table name="#accCombat"> 15 20 25 30 35 40 45 50 55 60 </table>
+		<set name="magicLvl" val="85"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<set name="isMagic" val="true"/>
+		<for>
+			<mul stat="maxCp" val="#maxCp"/>
+			<mul stat="pAtk" val="#pAtk"/>
+			<mul stat="mAtk" val="#mAtk"/>
+			<mul stat="pDef" val="#pDef"/>
+			<mul stat="mDef" val="#mDef"/>
+			<add stat="accCombat" val="#accCombat"/>
+			<add stat="runSpd" val="#runSpd"/>
+			<add stat="absorbDam" val="100"/>
+			<mul stat="regCp" val="20"/>
+		</for>
+	</skill>
+	<skill id="3630" levels="1" name="Void Burst" >
+		<set name="magicLvl" val="80"/>
+		<set name="target" val="AURA" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="mpConsume" val="140" />
+		<set name="power" val="11500" />
+		<set name="hitTime" val="2000" />
+		<set name="reuseDelay" val="60000" />
+		<set name="skillRadius" val="200" />
+	</skill>
+	<skill id="3631" levels="1" name="Void Flow" >
+		<set name="magicLvl" val="80"/>
+		<set name="target" val="ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="mpConsume" val="140" />
+		<set name="power" val="15000" />
+		<set name="hitTime" val="1900" />
+		<set name="reuseDelay" val="60000" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+	</skill>
+	<skill id="3632" levels="1" name="Clan Gate" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="-1" />
+		<set name="hitTime" val="10000" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="staticReuse" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="ClanGate" time="120" val="0" stackOrder="1" stackType="abnormal_item" />
+			<effect name="ImobileBuff" time="120" val="0" noicon="1" />
+		</for>
+	</skill>
+	<skill id="3633" levels="2" name="Residential Shock Immunity" >
+		<table name="#vuln"> 80 100 </table>
+		<set name="magicLvl" val="-1" />
+		<set name="target" val="SELF" />
+		<set name="reuseDelay" val="600000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<for>
+			<effect name="Buff" time="7" val="0" stackOrder="1" stackType="abnormal_item">
+				<addMul stat="stunVuln" val="#vuln" />
+			</effect>
+		</for>
+	</skill>
+</list>

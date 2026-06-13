@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="7900" type="Weapon" name="Ice Storm Hammer">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="BIGBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="crystal_count" val="1157" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1950" />
+		<set name="price" val="8680000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="91" />
+			<set stat="rCrit" val="4" />
+			<add stat="accCombat" val="4" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="7901" type="Weapon" name="Star Buster">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="BIGBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="crystal_count" val="1746" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1930" />
+		<set name="price" val="13100000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set stat="pAtk" val="236" />
+			<set stat="mAtk" val="99" />
+			<set stat="rCrit" val="4" />
+			<add stat="accCombat" val="4" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="7902" type="Weapon" name="Doom Crusher">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="BIGBLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="crystal_count" val="2160" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1900" />
+		<set name="price" val="27000000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set stat="pAtk" val="282" />
+			<set stat="mAtk" val="114" />
+			<set stat="rCrit" val="4" />
+			<add stat="accCombat" val="4" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
+	</item>
+	<item id="7903" type="Weapon" name="Frintezza's Sword">
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="BIGSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2180" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="78" />
+			<set stat="mAtk" val="39" />
+			<set stat="rCrit" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="7904" type="EtcItem" name="Boat Ticket: Rune to Gludin">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7905" type="EtcItem" name="Boat Ticket: Gludin to Rune">
+		<set name="material" val="PAPER" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7906" type="EtcItem" name="Blessing of Fire">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2248-1" />
+	</item>
+	<item id="7907" type="EtcItem" name="Blessing of Water">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2249-1" />
+	</item>
+	<item id="7908" type="EtcItem" name="Blessing of Wind">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2250-1" />
+	</item>
+	<item id="7909" type="EtcItem" name="Blessing of Earth">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2251-1" />
+	</item>
+	<item id="7910" type="EtcItem" name="Blessing of Darkness">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="price" val="5000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2252-1" />
+	</item>
+	<item id="7911" type="EtcItem" name="Blessing of Sanctity">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="price" val="5000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2253-1" />
+	</item>
+	<item id="7912" type="EtcItem" name="Fire Crystal">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2254-3" />
+	</item>
+	<item id="7913" type="EtcItem" name="Water Crystal">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2255-3" />
+	</item>
+	<item id="7914" type="EtcItem" name="Wind Crystal">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2256-3" />
+	</item>
+	<item id="7915" type="EtcItem" name="Earth Crystal">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2257-3" />
+	</item>
+	<item id="7916" type="EtcItem" name="Dark Crystal">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="price" val="3000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2258-3" />
+	</item>
+	<item id="7917" type="EtcItem" name="Sanctity Crystal">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="price" val="3000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2259-3" />
+	</item>
+	<item id="7918" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7919" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7920" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7921" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7922" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7923" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7924" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7925" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7926" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7927" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7928" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7929" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7930" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7931" type="EtcItem" name="Greater Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7932" type="EtcItem" name="Greater Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7933" type="EtcItem" name="Greater Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7934" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7935" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7936" type="EtcItem" name="Greater Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7937" type="EtcItem" name="Greater Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7938" type="EtcItem" name="Greater Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7939" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7940" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7941" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7942" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7943" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7944" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7945" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7946" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7947" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7948" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7949" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7950" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7951" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7952" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7953" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7954" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7955" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7956" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7957" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7958" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7959" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7960" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7961" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7962" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7963" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7964" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7965" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7966" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7967" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7968" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7969" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7970" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7971" type="EtcItem" name="Nephilim Warrior Posting Ticket">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7972" type="EtcItem" name="Nephilim Shaman Posting Ticket">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7973" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7974" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7975" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7976" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7977" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7978" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7979" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7980" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7981" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7982" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7983" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7984" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7985" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7986" type="EtcItem" name="Mercenary Posting Ticket (Teleporter4)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7987" type="EtcItem" name="Mercenary Posting Ticket (Teleporter5)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7988" type="EtcItem" name="Greater Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7989" type="EtcItem" name="Greater Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7990" type="EtcItem" name="Greater Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7991" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7992" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7993" type="EtcItem" name="Greater Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7994" type="EtcItem" name="Greater Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7995" type="EtcItem" name="Greater Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7996" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7997" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7998" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+	<item id="7999" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="etcitem_type" val="CASTLE_GUARD" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercenaryTickets" />
+	</item>
+</list>

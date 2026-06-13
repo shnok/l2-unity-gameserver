@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Heine Area
+ * Heine
+ * Alligator Beach
+-->
+<list>
+	<!--  -->
+	<territory name="23_24_net_cafe_event_1_01" minZ="-3584" maxZ="-3384">
+		<node x="111660" y="221036"/>
+		<node x="111860" y="221036"/>
+		<node x="111860" y="221236"/>
+		<node x="111660" y="221236"/>
+	</territory>
+	<npcmaker name="23_24_net_cafe_event_1_01" territory="23_24_net_cafe_event_1_01" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="111776;221104;-3543;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="23_24_net_cafe_event_1_02" minZ="-3720" maxZ="-3520">
+		<node x="107868" y="217996"/>
+		<node x="108068" y="217996"/>
+		<node x="108068" y="218196"/>
+		<node x="107868" y="218196"/>
+	</territory>
+	<npcmaker name="23_24_net_cafe_event_1_02" territory="23_24_net_cafe_event_1_02" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="107904;218096;-3675;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="23_24_net_cafe_event_1_03" minZ="-3688" maxZ="-3488">
+		<node x="114780" y="219868"/>
+		<node x="114980" y="219868"/>
+		<node x="114980" y="220068"/>
+		<node x="114780" y="220068"/>
+	</territory>
+	<npcmaker name="23_24_net_cafe_event_1_03" territory="23_24_net_cafe_event_1_03" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="114920;220020;-3632;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril01_mb2324_01" minZ="-3687" maxZ="-3087">
+		<node x="111582" y="209341"/>
+		<node x="112538" y="209177"/>
+		<node x="112840" y="210036"/>
+		<node x="112103" y="210972"/>
+		<node x="111263" y="210522"/>
+	</territory>
+	<npcmaker name="innadril01_mb2324_01" territory="innadril01_mb2324_01" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25214" total="1" respawn="36hour" respawnRand="24hour" dbName="fafurions_pagehood_sika" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril01_npc2324_18" minZ="-3879" maxZ="-3379">
+		<node x="128293" y="219032"/>
+		<node x="129927" y="218217"/>
+		<node x="130471" y="219761"/>
+		<node x="128611" y="220522"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_1801" territory="innadril01_npc2324_18" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30971" pos="129812;219005;-3583;24952" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril01_qm2324_01" minZ="-4236" maxZ="-4036">
+		<node x="106252" y="197068"/>
+		<node x="106452" y="197068"/>
+		<node x="106452" y="197268"/>
+		<node x="106252" y="197268"/>
+	</territory>
+	<npcmaker name="innadril01_qm2324_01m1" territory="innadril01_qm2324_01" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20314" total="3" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril04_mb2324_02" minZ="-3780" maxZ="-3180">
+		<node x="100816" y="199980"/>
+		<node x="102868" y="199276"/>
+		<node x="102256" y="201032"/>
+		<node x="101284" y="201288"/>
+	</territory>
+	<npcmaker name="innadril04_mb2324_02" territory="innadril04_mb2324_02" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25394" total="1" respawn="36hour" respawnRand="24hour" dbName="premo_prime_the_creature" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_01" minZ="-3643" maxZ="-3493">
+		<node x="103617" y="217914"/>
+		<node x="103760" y="217914"/>
+		<node x="103762" y="218413"/>
+		<node x="103625" y="218412"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_0101" territory="innadril09_npc2324_01" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30918" pos="103710;218030;-3584;32852" total="1" respawn="1min"/>
+		<npc id="30919" pos="103711;218289;-3584;32852" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_02" minZ="-3713" maxZ="-3563">
+		<node x="106913" y="218002"/>
+		<node x="107603" y="217687"/>
+		<node x="107601" y="218332"/>
+		<node x="106911" y="218336"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_0201" territory="innadril09_npc2324_02" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30916" pos="106942;218040;-3664;0" total="1" respawn="1min"/>
+		<npc id="30917" pos="106938;218283;-3664;0" total="1" respawn="1min"/>
+		<npc id="35319" pos="107372;217848;-3675;13120" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_03" minZ="-3713" maxZ="-3563">
+		<node x="114769" y="218802"/>
+		<node x="115760" y="218798"/>
+		<node x="115760" y="219557"/>
+		<node x="114768" y="219559"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_0301" territory="innadril09_npc2324_03" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30921" pos="115735;219407;-3659;32768" total="1" respawn="1min"/>
+		<npc id="30920" pos="115737;219156;-3659;32768" total="1" respawn="1min"/>
+		<npc id="35319" pos="115527;218850;-3664;16256" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_04" minZ="-3618" maxZ="-3468">
+		<node x="118906" y="219028"/>
+		<node x="118995" y="219028"/>
+		<node x="118995" y="219535"/>
+		<node x="118908" y="219535"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_0401" territory="innadril09_npc2324_04" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30922" pos="118944;219120;-3568;0" total="1" respawn="1min"/>
+		<npc id="30923" pos="118944;219437;-3568;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_05" minZ="-3618" maxZ="-3468">
+		<node x="115619" y="217662"/>
+		<node x="115971" y="217661"/>
+		<node x="115973" y="218304"/>
+		<node x="115621" y="218303"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_0501" territory="innadril09_npc2324_05" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30890" pos="115799;217684;-3580;16416" total="1" respawn="1min"/>
+		<npc id="30891" pos="115957;217807;-3582;29320" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_06" minZ="-3633" maxZ="-3483">
+		<node x="106924" y="216645"/>
+		<node x="107292" y="216644"/>
+		<node x="107293" y="217594"/>
+		<node x="106931" y="217594"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_0601" territory="innadril09_npc2324_06" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="31050" pos="107253;217252;-3597;39408" total="1" respawn="1min"/>
+		<npc id="30892" pos="107082;216673;-3595;13168" total="1" respawn="1min"/>
+		<npc id="30893" pos="107141;216674;-3595;19624" total="1" respawn="1min"/>
+		<npc id="31042" pos="106955;216987;-3600;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_07" minZ="-3553" maxZ="-3453">
+		<node x="109444" y="219641"/>
+		<node x="110160" y="219642"/>
+		<node x="110160" y="220592"/>
+		<node x="109441" y="220594"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_0701" territory="innadril09_npc2324_07" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30895" pos="109623;220091;-3520;2088" total="1" respawn="1min"/>
+		<npc id="30894" pos="109627;220168;-3520;0" total="1" respawn="1min"/>
+		<npc id="30896" pos="109625;220238;-3520;62216" total="1" respawn="1min"/>
+		<npc id="30969" pos="109695;220008;-3516;7656" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_08" minZ="-3690" maxZ="-3590">
+		<node x="107659" y="218692"/>
+		<node x="108235" y="218691"/>
+		<node x="108230" y="219031"/>
+		<node x="107662" y="219029"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_0801" territory="innadril09_npc2324_08" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30897" pos="108003;218963;-3656;43208" total="1" respawn="1min"/>
+		<npc id="30898" pos="107763;218725;-3659;12192" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_09" minZ="-3581" maxZ="-3461">
+		<node x="111317" y="219343"/>
+		<node x="111458" y="219346"/>
+		<node x="111457" y="219486"/>
+		<node x="111315" y="219485"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_0901" territory="innadril09_npc2324_09" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30899" pos="111386;219413;-3536;49756" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_10" minZ="-3676" maxZ="-3536">
+		<node x="113585" y="218204"/>
+		<node x="114682" y="218203"/>
+		<node x="114687" y="219614"/>
+		<node x="113588" y="219612"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_1001" territory="innadril09_npc2324_10" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="30900" pos="113739;218423;-3626;0" total="1" respawn="1min"/>
+		<npc id="30901" pos="113967;218584;-3626;52200" total="1" respawn="1min"/>
+		<npc id="30902" pos="114373;218268;-3626;21824" total="1" respawn="1min"/>
+		<npc id="30903" pos="114251;219489;-3626;54784" total="1" respawn="1min"/>
+		<npc id="30904" pos="114205;219156;-3626;3208" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_12" minZ="-3497" maxZ="-3377">
+		<node x="111208" y="216781"/>
+		<node x="111565" y="216781"/>
+		<node x="111565" y="217706"/>
+		<node x="111201" y="217707"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_1201" territory="innadril09_npc2324_12" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="30905" pos="111385;216821;-3458;16264" total="1" respawn="1min"/>
+		<npc id="30906" pos="111226;216994;-3458;5384" total="1" respawn="1min"/>
+		<npc id="30908" pos="111548;217133;-3458;28808" total="1" respawn="1min"/>
+		<npc id="30907" pos="111221;217236;-3458;5384" total="1" respawn="1min"/>
+		<npc id="30909" pos="111549;217381;-3458;28808" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_13" minZ="-3693" maxZ="-3573">
+		<node x="115371" y="219645"/>
+		<node x="115925" y="219645"/>
+		<node x="115922" y="220300"/>
+		<node x="115372" y="220299"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_1301" territory="innadril09_npc2324_13" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30910" pos="115904;219919;-3627;32648" total="1" respawn="1min"/>
+		<npc id="30911" pos="115618;219666;-3627;11680" total="1" respawn="1min"/>
+		<npc id="30912" pos="115614;220280;-3627;54096" total="1" respawn="1min"/>
+		<npc id="30973" pos="115531;220194;-3627;54144" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_15" minZ="-3695" maxZ="-3465">
+		<node x="110911" y="223761"/>
+		<node x="112608" y="223752"/>
+		<node x="112620" y="225495"/>
+		<node x="110915" y="225497"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_1501" territory="innadril09_npc2324_15" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30924" pos="112050;225462;-3627;40960" total="1" respawn="1min"/>
+		<npc id="30925" pos="111487;224587;-3549;46320" total="1" respawn="1min"/>
+		<npc id="30926" pos="111053;224148;-3549;3400" total="1" respawn="1min"/>
+		<npc id="30927" pos="111657;223985;-3549;25456" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_17" minZ="-3771" maxZ="-3651">
+		<node x="114781" y="223158"/>
+		<node x="114977" y="223156"/>
+		<node x="114974" y="223437"/>
+		<node x="114781" y="223436"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_1701" territory="innadril09_npc2324_17" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30970" pos="114939;223293;-3736;38248" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_19" minZ="-3739" maxZ="-3539">
+		<node x="110530" y="219409"/>
+		<node x="112244" y="219408"/>
+		<node x="112244" y="220934"/>
+		<node x="110530" y="220935"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_1901" territory="innadril09_npc2324_19" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="31067" pos="110605;219495;-3672;8192" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_20" minZ="-4236" maxZ="-4036">
+		<node x="106252" y="197068"/>
+		<node x="106452" y="197068"/>
+		<node x="106452" y="197268"/>
+		<node x="106252" y="197268"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2001" territory="innadril09_npc2324_20" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31148" pos="106354;197181;-4200;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_21" minZ="-3584" maxZ="-3384">
+		<node x="111292" y="220812"/>
+		<node x="111492" y="220812"/>
+		<node x="111492" y="221012"/>
+		<node x="111292" y="221012"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2101" territory="innadril09_npc2324_21" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31082" pos="111386;220908;-3544;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_22" minZ="-3642" maxZ="-3442">
+		<node x="112332" y="220076"/>
+		<node x="112532" y="220076"/>
+		<node x="112532" y="220276"/>
+		<node x="112332" y="220276"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2201" territory="innadril09_npc2324_22" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31089" pos="112486;220173;-3592;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_23" minZ="-3684" maxZ="-3484">
+		<node x="114453" y="217376"/>
+		<node x="114653" y="217376"/>
+		<node x="114653" y="217576"/>
+		<node x="114453" y="217576"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2301" territory="innadril09_npc2324_23" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31092" pos="114480;217412;-3632;5584" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_24" minZ="-3730" maxZ="-3530">
+		<node x="108604" y="218808"/>
+		<node x="108804" y="218808"/>
+		<node x="108804" y="219108"/>
+		<node x="108604" y="219097"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2401" territory="innadril09_npc2324_24" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30913" pos="108683;218942;-3674;32500" total="1" respawn="1min"/>
+		<npc id="30914" pos="108656;219056;-3676;48500" total="1" respawn="1min"/>
+		<npc id="30915" pos="108652;218856;-3676;32500" total="1" respawn="1min"/>
+		<npc id="31429" pos="108684;218986;-3676;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_25" minZ="-3697" maxZ="-3497">
+		<node x="107657" y="218716"/>
+		<node x="108196" y="218693"/>
+		<node x="108191" y="219031"/>
+		<node x="107665" y="219022"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2501" territory="innadril09_npc2324_25" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31436" pos="107682;218987;-3657;58000" total="1" respawn="1min"/>
+		<npc id="31443" pos="108165;218729;-3657;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_26" minZ="-3456" maxZ="-3256">
+		<node x="111205" y="217925"/>
+		<node x="111405" y="217925"/>
+		<node x="111405" y="218125"/>
+		<node x="111205" y="218125"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2601" territory="innadril09_npc2324_26" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31421" pos="111305;218025;-3456;49036" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_27" minZ="-3644" maxZ="-3444">
+		<node x="106940" y="217196"/>
+		<node x="107140" y="217196"/>
+		<node x="107140" y="217396"/>
+		<node x="106940" y="217396"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2701" territory="innadril09_npc2324_27" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31575" pos="107025;217312;-3600;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_28" minZ="-3647" maxZ="-3447">
+		<node x="112252" y="220076"/>
+		<node x="112452" y="220076"/>
+		<node x="112452" y="220276"/>
+		<node x="112252" y="220276"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2801" territory="innadril09_npc2324_28" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31688" pos="112336;220128;-3599;33000" total="1" respawn="1min"/>
+		<npc id="31690" pos="112336;220208;-3599;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_29" minZ="-3532" maxZ="-3332">
+		<node x="109928" y="220504"/>
+		<node x="110128" y="220504"/>
+		<node x="110128" y="220704"/>
+		<node x="109928" y="220704"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2901" territory="innadril09_npc2324_29" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31819" pos="110000;220608;-3480;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_2c01" minZ="-3752" maxZ="-3552">
+		<node x="110428" y="220284"/>
+		<node x="110628" y="220284"/>
+		<node x="110628" y="220484"/>
+		<node x="110428" y="220484"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_2c01" territory="innadril09_npc2324_2c01" event="test_2nd_class" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31756" pos="110592;220400;-3667;0" total="1" respawn="1min"/>
+		<npc id="31757" pos="110592;220443;-3667;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_30" minZ="-3532" maxZ="-3332">
+		<node x="111164" y="218412"/>
+		<node x="111364" y="218412"/>
+		<node x="111364" y="218612"/>
+		<node x="111164" y="218612"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_3001" territory="innadril09_npc2324_30" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31820" pos="111296;218472;-3459;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_31" minZ="-3716" maxZ="-3516">
+		<node x="115804" y="219388"/>
+		<node x="116004" y="219388"/>
+		<node x="116004" y="219588"/>
+		<node x="115804" y="219588"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_3101" territory="innadril09_npc2324_31" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31821" pos="115920;219472;-3663;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_32" minZ="-3764" maxZ="-3564">
+		<node x="106908" y="218364"/>
+		<node x="107108" y="218364"/>
+		<node x="107108" y="218564"/>
+		<node x="106908" y="218564"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_3201" territory="innadril09_npc2324_32" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31822" pos="106992;218464;-3676;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_bk01" minZ="-3584" maxZ="-3384">
+		<node x="111660" y="221036"/>
+		<node x="111860" y="221036"/>
+		<node x="111860" y="221236"/>
+		<node x="111660" y="221236"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_bk01" territory="innadril09_npc2324_bk01" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="111776;221104;-3543;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_bk02" minZ="-3720" maxZ="-3520">
+		<node x="107868" y="217996"/>
+		<node x="108068" y="217996"/>
+		<node x="108068" y="218196"/>
+		<node x="107868" y="218196"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_bk02" territory="innadril09_npc2324_bk02" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="107904;218096;-3675;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_bk03" minZ="-3688" maxZ="-3488">
+		<node x="114780" y="219868"/>
+		<node x="114980" y="219868"/>
+		<node x="114980" y="220068"/>
+		<node x="114780" y="220068"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_bk03" territory="innadril09_npc2324_bk03" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="114920;220020;-3632;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_eg01" minZ="-3636" maxZ="-3436">
+		<node x="111244" y="219324"/>
+		<node x="111444" y="219324"/>
+		<node x="111444" y="219524"/>
+		<node x="111244" y="219524"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_eg01" territory="innadril09_npc2324_eg01" event="event_gate" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31222" pos="111360;219410;-3544;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_fi01" minZ="-3768" maxZ="-3568">
+		<node x="111148" y="219548"/>
+		<node x="111348" y="219548"/>
+		<node x="111348" y="219748"/>
+		<node x="111148" y="219748"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_fi01" territory="innadril09_npc2324_fi01" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="111262;219619;-3664;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_fi02" minZ="-3720" maxZ="-3520">
+		<node x="111484" y="223004"/>
+		<node x="111684" y="223004"/>
+		<node x="111684" y="223204"/>
+		<node x="111484" y="223204"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_fi02" territory="innadril09_npc2324_fi02" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="111591;223109;-3672;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_ht01" minZ="-3584" maxZ="-3384">
+		<node x="111660" y="221036"/>
+		<node x="111860" y="221036"/>
+		<node x="111860" y="221236"/>
+		<node x="111660" y="221236"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_ht01" territory="innadril09_npc2324_ht01" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="111776;221104;-3543;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_ht02" minZ="-3720" maxZ="-3520">
+		<node x="107868" y="217996"/>
+		<node x="108068" y="217996"/>
+		<node x="108068" y="218196"/>
+		<node x="107868" y="218196"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_ht02" territory="innadril09_npc2324_ht02" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="107904;218096;-3675;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_ht03" minZ="-3688" maxZ="-3488">
+		<node x="114780" y="219868"/>
+		<node x="114980" y="219868"/>
+		<node x="114980" y="220068"/>
+		<node x="114780" y="220068"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_ht03" territory="innadril09_npc2324_ht03" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="114920;220020;-3632;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_lc01" minZ="-3584" maxZ="-3384">
+		<node x="111660" y="221036"/>
+		<node x="111860" y="221036"/>
+		<node x="111860" y="221236"/>
+		<node x="111660" y="221236"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_lc01" territory="innadril09_npc2324_lc01" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31855" pos="111776;221104;-3543;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_lc02" minZ="-3720" maxZ="-3520">
+		<node x="107868" y="217996"/>
+		<node x="108068" y="217996"/>
+		<node x="108068" y="218196"/>
+		<node x="107868" y="218196"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_lc02" territory="innadril09_npc2324_lc02" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31855" pos="107904;218096;-3675;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_lc03" minZ="-3688" maxZ="-3488">
+		<node x="114780" y="219868"/>
+		<node x="114980" y="219868"/>
+		<node x="114980" y="220068"/>
+		<node x="114780" y="220068"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_lc03" territory="innadril09_npc2324_lc03" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31855" pos="114920;220020;-3632;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_md01" minZ="-3584" maxZ="-3384">
+		<node x="111660" y="221036"/>
+		<node x="111860" y="221036"/>
+		<node x="111860" y="221236"/>
+		<node x="111660" y="221236"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_md01" territory="innadril09_npc2324_md01" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="111776;221104;-3543;16384" total="1" respawn="1min"/>
+		<npc id="31229" pos="111724;221111;-3543;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_md02" minZ="-3720" maxZ="-3520">
+		<node x="107868" y="217996"/>
+		<node x="108068" y="217996"/>
+		<node x="108068" y="218196"/>
+		<node x="107868" y="218196"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_md02" territory="innadril09_npc2324_md02" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="107904;218096;-3675;0" total="1" respawn="1min"/>
+		<npc id="31229" pos="107899;218149;-3675;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_md03" minZ="-3688" maxZ="-3488">
+		<node x="114780" y="219868"/>
+		<node x="114980" y="219868"/>
+		<node x="114980" y="220168"/>
+		<node x="114780" y="220168"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_md03" territory="innadril09_npc2324_md03" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="114920;220020;-3632;32768" total="1" respawn="1min"/>
+		<npc id="31229" pos="114920;220080;-3632;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_sp1" minZ="-3585" maxZ="-3385">
+		<node x="111308" y="219020"/>
+		<node x="111508" y="219020"/>
+		<node x="111508" y="219220"/>
+		<node x="111308" y="219220"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_sp1m1" territory="innadril09_npc2324_sp1" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31232" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_sp2" minZ="-3650" maxZ="-3450">
+		<node x="111292" y="221388"/>
+		<node x="111492" y="221388"/>
+		<node x="111492" y="221588"/>
+		<node x="111292" y="221588"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_sp2m1" territory="innadril09_npc2324_sp2" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31197" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_sp3" minZ="-3724" maxZ="-3524">
+		<node x="111998" y="220062"/>
+		<node x="112198" y="220062"/>
+		<node x="112198" y="220262"/>
+		<node x="111998" y="220262"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_sp3m1" territory="innadril09_npc2324_sp3" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31201" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_sp4" minZ="-3715" maxZ="-3515">
+		<node x="110613" y="220043"/>
+		<node x="110813" y="220043"/>
+		<node x="110813" y="220243"/>
+		<node x="110613" y="220243"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_sp4m1" territory="innadril09_npc2324_sp4" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31248" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_sp5" minZ="-3702" maxZ="-3502">
+		<node x="115564" y="219196"/>
+		<node x="115764" y="219196"/>
+		<node x="115764" y="219396"/>
+		<node x="115564" y="219396"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_sp5m1" territory="innadril09_npc2324_sp5" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31234" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_sp6" minZ="-3713" maxZ="-3513">
+		<node x="107004" y="218124"/>
+		<node x="107204" y="218124"/>
+		<node x="107204" y="218324"/>
+		<node x="107004" y="218324"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_sp6m1" territory="innadril09_npc2324_sp6" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31236" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_sp7" minZ="-3647" maxZ="-3447">
+		<node x="111276" y="221308"/>
+		<node x="111476" y="221308"/>
+		<node x="111476" y="221508"/>
+		<node x="111276" y="221508"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_sp7m1" territory="innadril09_npc2324_sp7" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31238" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tb01" minZ="-3584" maxZ="-3384">
+		<node x="111886" y="221288"/>
+		<node x="112086" y="221288"/>
+		<node x="112086" y="221488"/>
+		<node x="111886" y="221488"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tb01m1" territory="innadril09_npc2324_tb01" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="111988;221337;-3543;16224" total="1" respawn="1min"/>
+		<npc id="13036" pos="111903;221310;-3540;35967" total="1" respawn="15sec"/>
+		<npc id="13036" pos="112064;221308;-3541;62856" total="1" respawn="15sec"/>
+		<npc id="13036" pos="111900;221351;-3540;31343" total="1" respawn="15sec"/>
+		<npc id="13036" pos="111914;221390;-3540;26937" total="1" respawn="15sec"/>
+		<npc id="13036" pos="111950;221419;-3540;19183" total="1" respawn="15sec"/>
+		<npc id="13036" pos="112019;221416;-3541;12552" total="1" respawn="15sec"/>
+		<npc id="13036" pos="112052;221387;-3541;5576" total="1" respawn="15sec"/>
+		<npc id="13036" pos="112066;221350;-3541;2176" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tb02" minZ="-3720" maxZ="-3520">
+		<node x="107873" y="217996"/>
+		<node x="108073" y="217996"/>
+		<node x="108073" y="218196"/>
+		<node x="107873" y="218196"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tb02m1" territory="innadril09_npc2324_tb02" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="107922;218094;-3675;0" total="1" respawn="1min"/>
+		<npc id="13036" pos="107887;218173;-3672;19743" total="1" respawn="15sec"/>
+		<npc id="13036" pos="107888;218013;-3673;46632" total="1" respawn="15sec"/>
+		<npc id="13036" pos="107929;218178;-3672;15119" total="1" respawn="15sec"/>
+		<npc id="13036" pos="107968;218165;-3672;10713" total="1" respawn="15sec"/>
+		<npc id="13036" pos="107996;218128;-3672;2959" total="1" respawn="15sec"/>
+		<npc id="13036" pos="107995;218059;-3673;61864" total="1" respawn="15sec"/>
+		<npc id="13036" pos="107967;218026;-3673;54888" total="1" respawn="15sec"/>
+		<npc id="13036" pos="107930;218011;-3673;51488" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tb03" minZ="-3688" maxZ="-3488">
+		<node x="114796" y="219921"/>
+		<node x="114996" y="219921"/>
+		<node x="114996" y="220121"/>
+		<node x="114796" y="220121"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tb03m1" territory="innadril09_npc2324_tb03" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="114920;220020;-3632;32768" total="1" respawn="1min"/>
+		<npc id="13036" pos="114955;219943;-3629;52359" total="1" respawn="15sec"/>
+		<npc id="13036" pos="114957;220103;-3630;13712" total="1" respawn="15sec"/>
+		<npc id="13036" pos="114914;219939;-3629;47735" total="1" respawn="15sec"/>
+		<npc id="13036" pos="114874;219953;-3629;43329" total="1" respawn="15sec"/>
+		<npc id="13036" pos="114847;219989;-3629;35575" total="1" respawn="15sec"/>
+		<npc id="13036" pos="114849;220059;-3630;28944" total="1" respawn="15sec"/>
+		<npc id="13036" pos="114878;220091;-3630;21968" total="1" respawn="15sec"/>
+		<npc id="13036" pos="114915;220106;-3630;18568" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tk01" minZ="-3601" maxZ="-3401">
+		<node x="111308" y="219324"/>
+		<node x="111508" y="219324"/>
+		<node x="111508" y="219524"/>
+		<node x="111308" y="219524"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tk01" territory="innadril09_npc2324_tk01" event="18age" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30990" pos="111417;219422;-3544;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tw01" minZ="-3585" maxZ="-3385">
+		<node x="111308" y="219020"/>
+		<node x="111508" y="219020"/>
+		<node x="111508" y="219220"/>
+		<node x="111308" y="219220"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tw01m1" territory="innadril09_npc2324_tw01" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31232" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tw02" minZ="-3650" maxZ="-3450">
+		<node x="111292" y="221388"/>
+		<node x="111492" y="221388"/>
+		<node x="111492" y="221588"/>
+		<node x="111292" y="221588"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tw02m1" territory="innadril09_npc2324_tw02" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31197" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tw03" minZ="-3724" maxZ="-3524">
+		<node x="111998" y="220062"/>
+		<node x="112198" y="220062"/>
+		<node x="112198" y="220262"/>
+		<node x="111998" y="220262"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tw03m1" territory="innadril09_npc2324_tw03" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31201" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tw04" minZ="-3715" maxZ="-3515">
+		<node x="110613" y="220043"/>
+		<node x="110813" y="220043"/>
+		<node x="110813" y="220243"/>
+		<node x="110613" y="220243"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tw04m1" territory="innadril09_npc2324_tw04" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31248" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tw05" minZ="-3702" maxZ="-3502">
+		<node x="115564" y="219196"/>
+		<node x="115764" y="219196"/>
+		<node x="115764" y="219396"/>
+		<node x="115564" y="219396"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tw05m1" territory="innadril09_npc2324_tw05" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31234" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tw06" minZ="-3713" maxZ="-3513">
+		<node x="107004" y="218124"/>
+		<node x="107204" y="218124"/>
+		<node x="107204" y="218324"/>
+		<node x="107004" y="218324"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tw06m1" territory="innadril09_npc2324_tw06" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31236" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_tw07" minZ="-3647" maxZ="-3447">
+		<node x="111276" y="221308"/>
+		<node x="111476" y="221308"/>
+		<node x="111476" y="221508"/>
+		<node x="111276" y="221508"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_tw07m1" territory="innadril09_npc2324_tw07" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31238" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_xm01" minZ="-3584" maxZ="-3384">
+		<node x="111660" y="221036"/>
+		<node x="111860" y="221036"/>
+		<node x="111860" y="221236"/>
+		<node x="111660" y="221236"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_xm01" territory="innadril09_npc2324_xm01" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="111776;221104;-3543;16384" total="1" respawn="1min"/>
+		<npc id="13006" pos="111724;221111;-3543;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_xm02" minZ="-3720" maxZ="-3520">
+		<node x="107868" y="217996"/>
+		<node x="108068" y="217996"/>
+		<node x="108068" y="218196"/>
+		<node x="107868" y="218196"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_xm02" territory="innadril09_npc2324_xm02" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="107904;218096;-3675;0" total="1" respawn="1min"/>
+		<npc id="13006" pos="107899;218149;-3675;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril09_npc2324_xm03" minZ="-3688" maxZ="-3488">
+		<node x="114780" y="219868"/>
+		<node x="114980" y="219868"/>
+		<node x="114980" y="220068"/>
+		<node x="114780" y="220068"/>
+	</territory>
+	<npcmaker name="innadril09_npc2324_xm03" territory="innadril09_npc2324_xm03" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="114920;220020;-3632;32768" total="1" respawn="1min"/>
+		<npc id="13006" pos="114920;220080;-3632;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril13_2324_01" minZ="-3753" maxZ="-2953">
+		<node x="104812" y="201853"/>
+		<node x="106386" y="201898"/>
+		<node x="106134" y="204477"/>
+		<node x="103123" y="203007"/>
+	</territory>
+	<npcmaker name="innadril13_01" territory="innadril13_2324_01" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20792" total="2" respawn="30sec"/>
+		<npc id="20135" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril13_2324_02" minZ="-3814" maxZ="-3014">
+		<node x="109022" y="198572"/>
+		<node x="111677" y="199916"/>
+		<node x="109883" y="201624"/>
+		<node x="106772" y="201334"/>
+	</territory>
+	<npcmaker name="innadril13_02" territory="innadril13_2324_02" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20792" total="2" respawn="30sec"/>
+		<npc id="20135" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril13_2324_03" minZ="-3814" maxZ="-3014">
+		<node x="112870" y="198916"/>
+		<node x="113997" y="199265"/>
+		<node x="112526" y="201064"/>
+		<node x="110681" y="200917"/>
+	</territory>
+	<npcmaker name="innadril13_03" territory="innadril13_2324_03" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20135" total="4" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril13_2324_04" minZ="-3819" maxZ="-3019">
+		<node x="113733" y="200706"/>
+		<node x="116145" y="200194"/>
+		<node x="115379" y="202202"/>
+		<node x="112944" y="202817"/>
+	</territory>
+	<npcmaker name="innadril13_04" territory="innadril13_2324_04" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20792" total="3" respawn="30sec"/>
+		<npc id="20135" total="2" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril13_2324_07" minZ="-3816" maxZ="-3016">
+		<node x="117679" y="211677"/>
+		<node x="121408" y="208460"/>
+		<node x="123515" y="208312"/>
+		<node x="122186" y="210758"/>
+		<node x="118246" y="212386"/>
+	</territory>
+	<npcmaker name="innadril13_07" territory="innadril13_2324_07" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20791" total="3" respawn="30sec"/>
+		<npc id="20792" total="3" respawn="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril_2324_pg01" minZ="-3840" maxZ="-3040">
+		<node x="118557" y="214835"/>
+		<node x="121244" y="212757"/>
+		<node x="124466" y="214604"/>
+		<node x="122393" y="216676"/>
+		<node x="123557" y="218818"/>
+		<node x="125927" y="218520"/>
+		<node x="124423" y="219627"/>
+		<node x="119033" y="219700"/>
+	</territory>
+	<territory name="innadril_2324_pg02" minZ="-3747" maxZ="-2547">
+		<node x="119252" y="219482"/>
+		<node x="125860" y="218543"/>
+		<node x="126705" y="219673"/>
+		<node x="125430" y="220690"/>
+		<node x="122944" y="220335"/>
+		<node x="120643" y="224504"/>
+		<node x="118468" y="223798"/>
+	</territory>
+	<npcmaker name="innadril_2324_pg01m1" territory="innadril_2324_pg01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="119074;218735;-3542;10304" total="1" respawn="1min"/>
+	</npcmaker>
+	<npcmaker name="innadril_2324_pg01m2" territory="innadril_2324_pg01" maximumNpcs="39">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="13" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="innadril_2324_pg02m1" territory="innadril_2324_pg02" maximumNpcs="33">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="11" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="innadril_2324_pgm3" territory="innadril_2324_pg01;innadril_2324_pg02" maximumNpcs="7">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13035" total="1" respawn="10min" respawnRand="3min"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril_2324_pg03" minZ="-3639" maxZ="-3439">
+		<node x="103579" y="218283"/>
+		<node x="103779" y="218283"/>
+		<node x="103779" y="218483"/>
+		<node x="103579" y="218483"/>
+	</territory>
+	<npcmaker name="innadril_2324_pg03m1" territory="innadril_2324_pg03" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="103648;218356;-3600;41160" total="1" respawn="1min"/>
+	</npcmaker>
+</list>

@@ -1,0 +1,27 @@
+<html><body><center>
+	<table width=270>
+		<tr>
+			<td><button value="Main" action="bypass -h admin_admin" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+			<td width=125 align=center>Skills List</td>
+			<td><button value="Full List" action="bypass -h admin_skill list" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td><button value="Back" action="bypass -h admin_debug %name%" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		</tr>
+	</table><br>
+	<table width=260>
+		<tr>
+			<td><edit var="id" width=40 height=15></td>
+			<td><edit var="lvl" width=20 height=15></td>
+			<td><button value="Set" action="bypass -h admin_skill set $id $lvl" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td width=30><button value="Set all" action="bypass -h admin_skill set all" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td width=30><button value="Remove all" action="bypass -h admin_skill remove all" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		</tr>
+	</table><br>
+	<table width=280 height=22>
+		<tr>
+			<td width=35>Id</td>
+			<td width=220>Name</td>
+			<td width=25>Lvl</td>
+		</tr>
+	</table><br>
+	%content%
+</center></body></html>

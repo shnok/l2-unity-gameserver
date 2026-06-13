@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Giran Area
+ * Antharas' Nest
+-->
+<list>
+	<!--  -->
+	<territory name="antaras_2521_01" minZ="-7712" maxZ="-6212">
+		<node x="175201" y="110789"/>
+		<node x="179519" y="110645"/>
+		<node x="187612" y="113814"/>
+		<node x="187652" y="115788"/>
+		<node x="179659" y="118982"/>
+		<node x="175206" y="118934"/>
+		<node x="173003" y="114720"/>
+	</territory>
+	<npcmaker name="antaras_2521_01" territory="antaras_2521_01" maximumNpcs="89">
+		<ai type="default_use_db_maker">
+				<set name="maker_name" val="antaras_2521_02"/>
+		</ai>
+		<npc id="29066" pos="185708;114298;-8221;32768" total="1" respawn="264hour" respawnRand="72hour" dbName="antaras_min">
+			<ai>
+				<set name="GM_ID" val="1"/>
+			</ai>
+		</npc>
+		<npc id="29067" pos="185708;114298;-8221;32768" total="1" respawn="264hour" respawnRand="72hour" dbName="antaras_normal">
+			<ai>
+				<set name="GM_ID" val="9"/>
+			</ai>
+		</npc>
+		<npc id="29068" pos="185708;114298;-8221;32768" total="1" respawn="264hour" respawnRand="72hour" dbName="antaras_max">
+			<ai>
+				<set name="GM_ID" val="10"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	<npcmaker name="antaras_2521_02" territory="antaras_2521_01" maximumNpcs="20">
+		<ai type="default_maker">
+				<set name="on_start_spawn" val="0"/>
+		</ai>
+		<npc id="31859" pos="177615;114941;-7709;0" total="20" respawn="no"/>
+	</npcmaker>
+</list>

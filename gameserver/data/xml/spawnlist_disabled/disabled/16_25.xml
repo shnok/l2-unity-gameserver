@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Talking Island
+ * Elven Ruins (entrance only, mobs in 21_25)
+ * Obelisk of Victory
+-->
+<list>
+	<!--  -->
+	<territory name="gludio01_qm1624_01" minZ="-3029" maxZ="-2829">
+		<node x="-118719" y="233139"/>
+		<node x="-118519" y="233139"/>
+		<node x="-118519" y="233339"/>
+		<node x="-118719" y="233339"/>
+	</territory>
+	<npcmaker name="gludio01_qm1624_01m1" territory="gludio01_qm1624_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27102" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio01_qm1625_02" minZ="-3789" maxZ="-3389">
+		<node x="-121998" y="236299"/>
+		<node x="-121382" y="235219"/>
+		<node x="-121138" y="235995"/>
+		<node x="-121310" y="237847"/>
+	</territory>
+	<npcmaker name="gludio01_qm1625_02m1" territory="gludio01_qm1625_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27005" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio01_qm1625_03" minZ="-3623" maxZ="-3173">
+		<node x="-100177" y="234305"/>
+		<node x="-98517" y="234345"/>
+		<node x="-98537" y="237421"/>
+		<node x="-99565" y="236309"/>
+	</territory>
+	<npcmaker name="gludio01_qm1625_03m1" territory="gludio01_qm1625_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27004" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio08_npc1921_023" minZ="-4076" maxZ="-3876">
+		<node x="-115818" y="235733"/>
+		<node x="-115618" y="235733"/>
+		<node x="-115618" y="235933"/>
+		<node x="-115818" y="235933"/>
+	</territory>
+	<npcmaker name="gludio_npc1921_02301" territory="gludio08_npc1921_023" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30429" pos="-115744;235924;-4032;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio28_npc1625_bow01" minZ="-3641" maxZ="-3441">
+		<node x="-100587" y="237258"/>
+		<node x="-99508" y="237119"/>
+		<node x="-99481" y="237889"/>
+		<node x="-100588" y="237869"/>
+	</territory>
+	<npcmaker name="gludio_npc1625_bow01m1" territory="gludio28_npc1625_bow01" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30733" pos="-100536;237822;-3572;24576" total="1" respawn="1min"/>
+		<npc id="30733" pos="-99843;237523;-3568;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio29_npc_1625_010" minZ="-3786" maxZ="-3586">
+		<node x="-113636" y="235420"/>
+		<node x="-113436" y="235420"/>
+		<node x="-113436" y="235620"/>
+		<node x="-113636" y="235620"/>
+	</territory>
+	<npcmaker name="gludio_npc1625_01001" territory="gludio29_npc_1625_010" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30427" pos="-113490;235526;-3646;57800" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_01" minZ="-3662" maxZ="-3112">
+		<node x="-101435" y="250001"/>
+		<node x="-98652" y="251678"/>
+		<node x="-98625" y="254407"/>
+		<node x="-100950" y="255312"/>
+		<node x="-102169" y="253508"/>
+	</territory>
+	<npcmaker name="gludio31_1625_01m1" territory="gludio31_1625_01" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="20326" total="3" respawn="20sec"/>
+		<npc id="20093" total="4" respawn="20sec"/>
+		<npc id="20096" total="4" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_02" minZ="-3662" maxZ="-3112">
+		<node x="-103027" y="248235"/>
+		<node x="-101517" y="249972"/>
+		<node x="-102267" y="253418"/>
+		<node x="-105296" y="251375"/>
+		<node x="-104951" y="248324"/>
+	</territory>
+	<npcmaker name="gludio31_1625_02m1" territory="gludio31_1625_02" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20093" total="2" respawn="20sec"/>
+		<npc id="20096" total="4" respawn="20sec"/>
+		<npc id="20098" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_03" minZ="-3763" maxZ="-3213">
+		<node x="-100403" y="246290"/>
+		<node x="-98572" y="247318"/>
+		<node x="-98553" y="250643"/>
+		<node x="-101430" y="249868"/>
+		<node x="-102964" y="248193"/>
+	</territory>
+	<npcmaker name="gludio31_1625_03m1" territory="gludio31_1625_03" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20006" total="3" respawn="20sec"/>
+		<npc id="20132" total="3" respawn="20sec"/>
+		<npc id="20093" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_04" minZ="-3776" maxZ="-3226">
+		<node x="-102370" y="244870"/>
+		<node x="-101448" y="246892"/>
+		<node x="-102974" y="248101"/>
+		<node x="-104797" y="246937"/>
+		<node x="-103475" y="244184"/>
+	</territory>
+	<npcmaker name="gludio31_1625_04m1" territory="gludio31_1625_04" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20093" total="3" respawn="20sec"/>
+		<npc id="20096" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_05" minZ="-3474" maxZ="-2924">
+		<node x="-106916" y="249892"/>
+		<node x="-106467" y="252406"/>
+		<node x="-110087" y="254329"/>
+		<node x="-111485" y="252780"/>
+	</territory>
+	<npcmaker name="gludio31_1625_05m1" territory="gludio31_1625_05" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20096" total="4" respawn="20sec"/>
+		<npc id="20098" total="5" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_06" minZ="-3628" maxZ="-3028">
+		<node x="-105125" y="244535"/>
+		<node x="-106056" y="248544"/>
+		<node x="-108132" y="249628"/>
+		<node x="-107514" y="244905"/>
+	</territory>
+	<npcmaker name="gludio31_1625_06m1" territory="gludio31_1625_06" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20096" total="5" respawn="20sec"/>
+		<npc id="20098" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_07" minZ="-3728" maxZ="-3128">
+		<node x="-100315" y="239129"/>
+		<node x="-100377" y="243125"/>
+		<node x="-104945" y="240635"/>
+		<node x="-103207" y="238139"/>
+	</territory>
+	<npcmaker name="gludio31_1625_07m1" territory="gludio31_1625_07" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="20326" total="2" respawn="20sec"/>
+		<npc id="20132" total="5" respawn="20sec"/>
+		<npc id="20343" total="4" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_08" minZ="-3745" maxZ="-3145">
+		<node x="-103294" y="237924"/>
+		<node x="-105080" y="240574"/>
+		<node x="-108540" y="237970"/>
+		<node x="-106463" y="236356"/>
+	</territory>
+	<npcmaker name="gludio31_1625_08m1" territory="gludio31_1625_08" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20132" total="3" respawn="20sec"/>
+		<npc id="20343" total="3" respawn="20sec"/>
+		<npc id="20342" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_09" minZ="-3632" maxZ="-3132">
+		<node x="-98526" y="231227"/>
+		<node x="-98632" y="237185"/>
+		<node x="-100034" y="234969"/>
+		<node x="-99895" y="233301"/>
+	</territory>
+	<npcmaker name="gludio31_1625_09m1" territory="gludio31_1625_09" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20132" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_10" minZ="-3714" maxZ="-3214">
+		<node x="-100945" y="235618"/>
+		<node x="-101697" y="236662"/>
+		<node x="-104856" y="235535"/>
+		<node x="-103035" y="231953"/>
+		<node x="-101247" y="233524"/>
+	</territory>
+	<npcmaker name="gludio31_1625_10m1" territory="gludio31_1625_10" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20343" total="5" respawn="20sec"/>
+		<npc id="20342" total="5" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_11" minZ="-3830" maxZ="-3330">
+		<node x="-103100" y="231909"/>
+		<node x="-105026" y="235648"/>
+		<node x="-107690" y="232837"/>
+		<node x="-106302" y="231263"/>
+	</territory>
+	<npcmaker name="gludio31_1625_11m1" territory="gludio31_1625_11" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20343" total="2" respawn="20sec"/>
+		<npc id="20342" total="3" respawn="20sec"/>
+		<npc id="20016" total="4" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_12" minZ="-3801" maxZ="-3301">
+		<node x="-99911" y="231385"/>
+		<node x="-101157" y="233457"/>
+		<node x="-103436" y="231488"/>
+		<node x="-103499" y="229458"/>
+		<node x="-100993" y="229477"/>
+	</territory>
+	<npcmaker name="gludio31_1625_12m1" territory="gludio31_1625_12" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20343" total="2" respawn="20sec"/>
+		<npc id="20342" total="4" respawn="20sec"/>
+		<npc id="20016" total="2" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_13" minZ="-3818" maxZ="-3318">
+		<node x="-103609" y="229448"/>
+		<node x="-103643" y="231628"/>
+		<node x="-107288" y="230786"/>
+		<node x="-107961" y="229497"/>
+	</territory>
+	<npcmaker name="gludio31_1625_13m1" territory="gludio31_1625_13" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20342" total="3" respawn="20sec"/>
+		<npc id="20016" total="2" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_14" minZ="-3325" maxZ="-2825">
+		<node x="-113649" y="247332"/>
+		<node x="-113268" y="250975"/>
+		<node x="-115528" y="251733"/>
+		<node x="-117323" y="247602"/>
+	</territory>
+	<npcmaker name="gludio31_1625_14m1" territory="gludio31_1625_14" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20106" total="4" respawn="20sec"/>
+		<npc id="20108" total="6" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_15" minZ="-3481" maxZ="-2981">
+		<node x="-113584" y="244563"/>
+		<node x="-114737" y="247191"/>
+		<node x="-117149" y="247279"/>
+		<node x="-118233" y="242813"/>
+		<node x="-115772" y="242891"/>
+	</territory>
+	<npcmaker name="gludio31_1625_15m1" territory="gludio31_1625_15" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="20101" total="5" respawn="20sec"/>
+		<npc id="20106" total="3" respawn="20sec"/>
+		<npc id="20108" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_16" minZ="-3339" maxZ="-2689">
+		<node x="-117190" y="238176"/>
+		<node x="-115865" y="242687"/>
+		<node x="-118263" y="242622"/>
+		<node x="-119941" y="237599"/>
+	</territory>
+	<npcmaker name="gludio31_1625_16m1" territory="gludio31_1625_16" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20106" total="5" respawn="20sec"/>
+		<npc id="20108" total="5" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_17" minZ="-3112" maxZ="-2612">
+		<node x="-118314" y="234409"/>
+		<node x="-117625" y="237929"/>
+		<node x="-119938" y="237444"/>
+		<node x="-120271" y="232816"/>
+	</territory>
+	<npcmaker name="gludio31_1625_17m1" territory="gludio31_1625_17" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20101" total="2" respawn="20sec"/>
+		<npc id="20106" total="3" respawn="20sec"/>
+		<npc id="20108" total="2" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_1625_18" minZ="-3045" maxZ="-2645">
+		<node x="-117390" y="229561"/>
+		<node x="-117687" y="231805"/>
+		<node x="-120184" y="232674"/>
+		<node x="-119579" y="229487"/>
+	</territory>
+	<npcmaker name="gludio31_1625_18m1" territory="gludio31_1625_18" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20103" total="2" respawn="20sec"/>
+		<npc id="20106" total="3" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_npc1625_001" minZ="-3586" maxZ="-3386">
+		<node x="-112317" y="244198"/>
+		<node x="-112117" y="244198"/>
+		<node x="-112117" y="244398"/>
+		<node x="-112317" y="244398"/>
+	</territory>
+	<npcmaker name="gludio_npc1625_00101" territory="gludio31_npc1625_001" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30667" pos="-112206;244303;-3450;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_npc1625_002" minZ="-3029" maxZ="-2829">
+		<node x="-118719" y="233139"/>
+		<node x="-118519" y="233139"/>
+		<node x="-118519" y="233339"/>
+		<node x="-118719" y="233339"/>
+	</territory>
+	<npcmaker name="gludio_npc1625_00201" territory="gludio31_npc1625_002" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30635" pos="-118618;233239;-2910;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_npc1625_003" minZ="-3675" maxZ="-3475">
+		<node x="-106564" y="233292"/>
+		<node x="-106364" y="233292"/>
+		<node x="-106364" y="233492"/>
+		<node x="-106564" y="233492"/>
+	</territory>
+	<npcmaker name="gludio_npc1625_00301" territory="gludio31_npc1625_003" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30408" pos="-106485;233377;-3629;12288" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_npc1625_004" minZ="-3626" maxZ="-3426">
+		<node x="-100452" y="237932"/>
+		<node x="-100252" y="237932"/>
+		<node x="-100252" y="238132"/>
+		<node x="-100452" y="238132"/>
+	</territory>
+	<npcmaker name="gludio_npc1625_00401" territory="gludio31_npc1625_004" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30311" pos="-100332;238019;-3573;36864" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_npc1625_bow02" minZ="-3586" maxZ="-3386">
+		<node x="-109974" y="255526"/>
+		<node x="-109730" y="255497"/>
+		<node x="-109677" y="256257"/>
+		<node x="-109960" y="256252"/>
+	</territory>
+	<npcmaker name="gludio_npc1625_bow02m1" territory="gludio31_npc1625_bow02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30733" pos="-109715;256200;-3520;36864" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_npc1625_g01" minZ="-4012" maxZ="-2812">
+		<node x="-99476" y="245543"/>
+		<node x="-98792" y="247332"/>
+		<node x="-98736" y="255971"/>
+		<node x="-102039" y="255957"/>
+		<node x="-105135" y="254484"/>
+		<node x="-110440" y="253539"/>
+		<node x="-107361" y="244724"/>
+		<node x="-104637" y="243779"/>
+		<node x="-102869" y="244425"/>
+		<node x="-101382" y="246654"/>
+	</territory>
+	<npcmaker name="gludio31_npc1625_g01m1" territory="gludio31_npc1625_g01" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31032" total="1" respawn="1min"/>
+		<npc id="31032" pos="-105222;248500;-3444;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_npc1625_g02" minZ="-3936" maxZ="-2736">
+		<node x="-110090" y="229483"/>
+		<node x="-98652" y="229704"/>
+		<node x="-98602" y="243327"/>
+		<node x="-101825" y="243873"/>
+		<node x="-104339" y="242947"/>
+		<node x="-107307" y="243185"/>
+		<node x="-108020" y="242381"/>
+		<node x="-106402" y="241513"/>
+		<node x="-112499" y="234214"/>
+	</territory>
+	<npcmaker name="gludio31_npc1625_g02m1" territory="gludio31_npc1625_g02" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31032" total="1" respawn="1min"/>
+		<npc id="31032" pos="-107097;233752;-3608;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_npc1625_g03" minZ="-3616" maxZ="-2416">
+		<node x="-119203" y="240535"/>
+		<node x="-116215" y="239684"/>
+		<node x="-111549" y="252806"/>
+		<node x="-112354" y="254352"/>
+		<node x="-115111" y="253158"/>
+		<node x="-117362" y="247984"/>
+		<node x="-117375" y="245632"/>
+	</territory>
+	<npcmaker name="gludio31_npc1625_g03m1" territory="gludio31_npc1625_g03" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31032" total="1" respawn="1min"/>
+		<npc id="31032" pos="-116429;246451;-3204;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio31_npc1625_g04" minZ="-3304" maxZ="-2104">
+		<node x="-119321" y="229797"/>
+		<node x="-117066" y="229745"/>
+		<node x="-116936" y="239598"/>
+		<node x="-118567" y="240077"/>
+		<node x="-120490" y="233677"/>
+	</territory>
+	<npcmaker name="gludio31_npc1625_g04m1" territory="gludio31_npc1625_g04" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31032" total="1" respawn="1min"/>
+		<npc id="31032" pos="-118864;234801;-2900;0" total="1" respawn="1min"/>
+	</npcmaker>
+</list>

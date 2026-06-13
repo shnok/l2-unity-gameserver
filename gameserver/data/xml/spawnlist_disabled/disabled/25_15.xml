@@ -1,0 +1,3250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Goddard Area
+ * Imperial Tomb
+ * The Four Sepulchers
+ * Pilgrims Temple
+-->
+<list>
+	<!--  -->
+	<territory name="frintessa_2515_01" minZ="-5175" maxZ="-4675">
+		<node x="175952" y="-87343"/>
+		<node x="175727" y="-87039"/>
+		<node x="174894" y="-86310"/>
+		<node x="173514" y="-86303"/>
+		<node x="172706" y="-86995"/>
+		<node x="172516" y="-87365"/>
+		<node x="172519" y="-88523"/>
+		<node x="172590" y="-88974"/>
+		<node x="173481" y="-89723"/>
+		<node x="174989" y="-89720"/>
+		<node x="175956" y="-88932"/>
+	</territory>
+	<npcmaker name="frintessa_evilate_maker1" territory="frintessa_2515_01" maximumNpcs="20">
+		<ai type="frintessa_evilate_maker">
+				<set name="on_start_spawn" val="0"/>
+		</ai>
+		<npc id="29048" pos="172638;-88698;-5104;3368" total="1" respawn="0sec">
+			<ai>
+				<set name="SpawnPosX" val="172641"/>
+				<set name="SpawnPosY" val="-88685"/>
+				<set name="SpawnPosZ" val="-5104"/>
+				<set name="SpawnAngle" val="3368"/>
+			</ai>
+		</npc>
+		<npc id="29048" pos="175785;-87184;-5104;37656" total="1" respawn="0sec">
+			<ai>
+				<set name="SpawnPosX" val="175758"/>
+				<set name="SpawnPosY" val="-87209"/>
+				<set name="SpawnPosZ" val="-5104"/>
+				<set name="SpawnAngle" val="37656"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	<npcmaker name="frintessa_evilate_maker2" territory="frintessa_2515_01" maximumNpcs="20">
+		<ai type="frintessa_evilate_maker">
+				<set name="on_start_spawn" val="0"/>
+		</ai>
+		<npc id="29049" pos="172677;-87196;-5104;60384" total="1" respawn="0sec">
+			<ai>
+				<set name="SpawnPosX" val="172708"/>
+				<set name="SpawnPosY" val="-87208"/>
+				<set name="SpawnPosZ" val="-5104"/>
+				<set name="SpawnAngle" val="-5152"/>
+			</ai>
+		</npc>
+		<npc id="29049" pos="175830;-88685;-5104;29456" total="1" respawn="0sec">
+			<ai>
+				<set name="SpawnPosX" val="175802"/>
+				<set name="SpawnPosY" val="-88673"/>
+				<set name="SpawnPosZ" val="-5104"/>
+				<set name="SpawnAngle" val="29456"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	<npcmaker name="frintessa_maker" territory="frintessa_2515_01" maximumNpcs="9">
+		<ai type="default_use_db_maker_for_frintessa">
+				<set name="maker_name" val="frintessa_teleportcuve"/>
+		</ai>
+		<npc id="29045" pos="-105200;-253104;-15264;16834" total="1" respawn="48hour" respawnRand="24hour" dbName="frintessa"/>
+		<npc id="29046" pos="-105200;-253104;-15264;16834" total="1" respawn="48hour" respawnRand="24hour" dbName="follower_of_frintessa"/>
+		<npc id="29047" pos="-105200;-253104;-15264;16834" total="1" respawn="48hour" respawnRand="24hour" dbName="follower_of_frintessa_tr"/>
+	</npcmaker>
+	<npcmaker name="frintessa_teleportcuve" territory="frintessa_2515_01" maximumNpcs="1">
+		<ai type="default_maker">
+				<set name="on_start_spawn" val="0"/>
+		</ai>
+		<npc id="29061" pos="174234;-88020;-5056;0" total="1" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="frintessa_2515_02" minZ="-5156" maxZ="-4856">
+		<node x="174063" y="-86624"/>
+		<node x="174429" y="-86623"/>
+		<node x="174429" y="-86136"/>
+		<node x="174064" y="-86138"/>
+	</territory>
+	<npcmaker name="frintessa_2515_m01" territory="frintessa_2515_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="29059" pos="174259;-86550;-5088;16440" total="1" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_03" minZ="-2784" maxZ="-2484">
+		<node x="183025" y="-78004"/>
+		<node x="182081" y="-77103"/>
+		<node x="180769" y="-77070"/>
+		<node x="179850" y="-78031"/>
+		<node x="179838" y="-79343"/>
+		<node x="180759" y="-80288"/>
+		<node x="182097" y="-80297"/>
+		<node x="183015" y="-79354"/>
+	</territory>
+	<npcmaker name="godard14_03_01" territory="godard14_2515_03" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="21798" total="4" respawn="90sec" respawnRand="20sec"/>
+		<npc id="21799" total="3" respawn="90sec" respawnRand="20sec"/>
+		<npc id="21800" total="4" respawn="90sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_04" minZ="-2778" maxZ="-2478">
+		<node x="179362" y="-75558"/>
+		<node x="181659" y="-75562"/>
+		<node x="181570" y="-75066"/>
+		<node x="179360" y="-75074"/>
+	</territory>
+	<npcmaker name="godard14_04_01" territory="godard14_2515_04" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21798" total="2" respawn="90sec" respawnRand="20sec"/>
+		<npc id="21799" total="2" respawn="90sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_05" minZ="-2778" maxZ="-2478">
+		<node x="177505" y="-75734"/>
+		<node x="178286" y="-75713"/>
+		<node x="178278" y="-74915"/>
+		<node x="177532" y="-74910"/>
+	</territory>
+	<npcmaker name="godard14_05_01" territory="godard14_2515_05" maximumNpcs="8">
+		<ai type="unique_npc_kill_event">
+				<set name="on_start_spawn" val="1"/>
+				<set name="unique_npc" val="soldier_scarab_a"/>
+				<set name="event" val="1"/>
+				<set name="maker_name" val="godard14_05_02"/>
+		</ai>
+		<npc id="21398" total="2" respawn="30sec" respawnRand="15sec"/>
+		<npc id="21399" total="1" respawn="180sec" respawnRand="40sec"/>
+		<npc id="21402" total="1" respawn="45sec" respawnRand="15sec"/>
+		<npc id="21403" total="2" respawn="90sec" respawnRand="25sec"/>
+		<npc id="21405" total="2" respawn="40sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_05_02" territory="godard14_2515_05" maximumNpcs="7">
+		<ai type="default_maker">
+				<set name="on_start_spawn" val="0"/>
+		</ai>
+		<npc id="21397" total="3" respawn="0sec"/>
+		<npc id="21399" total="1" respawn="0sec"/>
+		<npc id="21403" total="3" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_06" minZ="-2775" maxZ="-2475">
+		<node x="174676" y="-75761"/>
+		<node x="175457" y="-75739"/>
+		<node x="175449" y="-74942"/>
+		<node x="174703" y="-74937"/>
+	</territory>
+	<npcmaker name="godard14_06_01" territory="godard14_2515_06" maximumNpcs="8">
+		<ai type="unique_npc_kill_event">
+				<set name="on_start_spawn" val="1"/>
+				<set name="unique_npc" val="soldier_scarab_a"/>
+				<set name="event" val="1"/>
+				<set name="maker_name" val="godard14_06_02"/>
+		</ai>
+		<npc id="21398" total="2" respawn="30sec" respawnRand="15sec"/>
+		<npc id="21399" total="1" respawn="180sec" respawnRand="40sec"/>
+		<npc id="21402" total="1" respawn="40sec" respawnRand="15sec"/>
+		<npc id="21403" total="2" respawn="90sec" respawnRand="25sec"/>
+		<npc id="21404" total="2" respawn="40sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_06_02" territory="godard14_2515_06" maximumNpcs="7">
+		<ai type="default_maker">
+				<set name="on_start_spawn" val="0"/>
+		</ai>
+		<npc id="21396" total="3" respawn="0sec"/>
+		<npc id="21399" total="1" respawn="0sec"/>
+		<npc id="21403" total="3" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_07" minZ="-3422" maxZ="-3122">
+		<node x="177556" y="-78584"/>
+		<node x="178370" y="-78567"/>
+		<node x="178368" y="-77809"/>
+		<node x="177552" y="-77791"/>
+	</territory>
+	<npcmaker name="godard14_07_01" territory="godard14_2515_07" maximumNpcs="8">
+		<ai type="unique_npc_kill_event">
+				<set name="on_start_spawn" val="1"/>
+				<set name="unique_npc" val="soldier_scarab_a"/>
+				<set name="event" val="1"/>
+				<set name="maker_name" val="godard14_07_02"/>
+		</ai>
+		<npc id="21398" total="2" respawn="30sec" respawnRand="15sec"/>
+		<npc id="21399" total="1" respawn="180sec" respawnRand="40sec"/>
+		<npc id="21402" total="1" respawn="40sec" respawnRand="15sec"/>
+		<npc id="21403" total="2" respawn="90sec" respawnRand="25sec"/>
+		<npc id="21405" total="2" respawn="40sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_07_02" territory="godard14_2515_07" maximumNpcs="7">
+		<ai type="default_maker">
+				<set name="on_start_spawn" val="0"/>
+		</ai>
+		<npc id="21397" total="3" respawn="0sec"/>
+		<npc id="21399" total="1" respawn="0sec"/>
+		<npc id="21403" total="3" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_08" minZ="-2770" maxZ="-2470">
+		<node x="174679" y="-78607"/>
+		<node x="175464" y="-78600"/>
+		<node x="175477" y="-77837"/>
+		<node x="174673" y="-77829"/>
+	</territory>
+	<npcmaker name="godard14_08_01" territory="godard14_2515_08" maximumNpcs="8">
+		<ai type="unique_npc_kill_event">
+				<set name="on_start_spawn" val="1"/>
+				<set name="unique_npc" val="soldier_scarab_a"/>
+				<set name="event" val="1"/>
+				<set name="maker_name" val="godard14_08_02"/>
+		</ai>
+		<npc id="21398" total="2" respawn="30sec" respawnRand="15sec"/>
+		<npc id="21399" total="1" respawn="180sec" respawnRand="40sec"/>
+		<npc id="21402" total="1" respawn="40sec" respawnRand="15sec"/>
+		<npc id="21403" total="2" respawn="90sec" respawnRand="25sec"/>
+		<npc id="21404" total="2" respawn="40sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_08_02" territory="godard14_2515_08" maximumNpcs="7">
+		<ai type="default_maker">
+				<set name="on_start_spawn" val="0"/>
+		</ai>
+		<npc id="21396" total="3" respawn="0sec"/>
+		<npc id="21399" total="1" respawn="0sec"/>
+		<npc id="21403" total="3" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_09" minZ="-3423" maxZ="-3123">
+		<node x="174736" y="-81498"/>
+		<node x="175468" y="-81493"/>
+		<node x="175512" y="-80681"/>
+		<node x="174691" y="-80692"/>
+	</territory>
+	<npcmaker name="godard14_09_01" territory="godard14_2515_09" maximumNpcs="10">
+		<ai type="maker_instant_spawn_random">
+				<set name="on_start_spawn" val="1"/>
+				<set name="maker_name1" val="godard14_09_01"/>
+				<set name="maker_name2" val="godard14_09_02"/>
+				<set name="maker_name3" val="godard14_09_03"/>
+				<set name="maker_cnt" val="3"/>
+				<set name="respawn_time" val="60"/>
+		</ai>
+		<npc id="21410" total="5" respawn="60sec"/>
+		<npc id="21411" total="5" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_09_02" territory="godard14_2515_09" maximumNpcs="13">
+		<ai type="maker_instant_spawn_random">
+				<set name="on_start_spawn" val="0"/>
+				<set name="maker_name1" val="godard14_09_01"/>
+				<set name="maker_name2" val="godard14_09_02"/>
+				<set name="maker_name3" val="godard14_09_03"/>
+				<set name="maker_cnt" val="3"/>
+				<set name="respawn_time" val="45"/>
+		</ai>
+		<npc id="21400" total="4" respawn="45sec"/>
+		<npc id="21408" total="4" respawn="45sec"/>
+		<npc id="21411" total="5" respawn="45sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_09_03" territory="godard14_2515_09" maximumNpcs="8">
+		<ai type="maker_instant_spawn_random">
+				<set name="on_start_spawn" val="0"/>
+				<set name="maker_name1" val="godard14_09_01"/>
+				<set name="maker_name2" val="godard14_09_02"/>
+				<set name="maker_name3" val="godard14_09_03"/>
+				<set name="maker_cnt" val="3"/>
+				<set name="respawn_time" val="35"/>
+		</ai>
+		<npc id="21408" total="4" respawn="35sec"/>
+		<npc id="21409" total="4" respawn="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_10" minZ="-4072" maxZ="-3772">
+		<node x="177583" y="-81446"/>
+		<node x="178337" y="-81443"/>
+		<node x="178350" y="-80638"/>
+		<node x="177570" y="-80645"/>
+	</territory>
+	<npcmaker name="godard14_10_01" territory="godard14_2515_10" maximumNpcs="10">
+		<ai type="maker_instant_spawn_random">
+				<set name="on_start_spawn" val="1"/>
+				<set name="maker_name1" val="godard14_10_01"/>
+				<set name="maker_name2" val="godard14_10_02"/>
+				<set name="maker_name3" val="godard14_10_03"/>
+				<set name="maker_cnt" val="3"/>
+				<set name="respawn_time" val="30"/>
+		</ai>
+		<npc id="21410" total="5" respawn="60sec"/>
+		<npc id="21411" total="5" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_10_02" territory="godard14_2515_10" maximumNpcs="13">
+		<ai type="maker_instant_spawn_random">
+				<set name="on_start_spawn" val="0"/>
+				<set name="maker_name1" val="godard14_10_01"/>
+				<set name="maker_name2" val="godard14_10_02"/>
+				<set name="maker_name3" val="godard14_10_03"/>
+				<set name="maker_cnt" val="3"/>
+				<set name="respawn_time" val="45"/>
+		</ai>
+		<npc id="21400" total="4" respawn="45sec"/>
+		<npc id="21408" total="4" respawn="45sec"/>
+		<npc id="21411" total="5" respawn="45sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_10_03" territory="godard14_2515_10" maximumNpcs="8">
+		<ai type="maker_instant_spawn_random">
+				<set name="on_start_spawn" val="0"/>
+				<set name="maker_name1" val="godard14_10_01"/>
+				<set name="maker_name2" val="godard14_10_02"/>
+				<set name="maker_name3" val="godard14_10_03"/>
+				<set name="maker_cnt" val="3"/>
+				<set name="respawn_time" val="35"/>
+		</ai>
+		<npc id="21408" total="4" respawn="35sec"/>
+		<npc id="21409" total="4" respawn="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_11" minZ="-4715" maxZ="-4415">
+		<node x="180439" y="-81438"/>
+		<node x="181196" y="-81441"/>
+		<node x="181202" y="-80595"/>
+		<node x="180441" y="-80597"/>
+	</territory>
+	<npcmaker name="godard14_11_01" territory="godard14_2515_11" maximumNpcs="10">
+		<ai type="maker_instant_spawn_random">
+				<set name="on_start_spawn" val="1"/>
+				<set name="maker_name1" val="godard14_11_01"/>
+				<set name="maker_name2" val="godard14_11_02"/>
+				<set name="maker_name3" val="godard14_11_03"/>
+				<set name="maker_cnt" val="3"/>
+				<set name="respawn_time" val="60"/>
+		</ai>
+		<npc id="21410" total="5" respawn="60sec"/>
+		<npc id="21411" total="5" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_11_02" territory="godard14_2515_11" maximumNpcs="13">
+		<ai type="maker_instant_spawn_random">
+				<set name="on_start_spawn" val="0"/>
+				<set name="maker_name1" val="godard14_11_01"/>
+				<set name="maker_name2" val="godard14_11_02"/>
+				<set name="maker_name3" val="godard14_11_03"/>
+				<set name="maker_cnt" val="3"/>
+				<set name="respawn_time" val="45"/>
+		</ai>
+		<npc id="21400" total="4" respawn="45sec"/>
+		<npc id="21408" total="4" respawn="45sec"/>
+		<npc id="21411" total="5" respawn="45sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_11_03" territory="godard14_2515_11" maximumNpcs="8">
+		<ai type="maker_instant_spawn_random">
+				<set name="on_start_spawn" val="0"/>
+				<set name="maker_name1" val="godard14_11_01"/>
+				<set name="maker_name2" val="godard14_11_02"/>
+				<set name="maker_name3" val="godard14_11_03"/>
+				<set name="maker_cnt" val="3"/>
+				<set name="respawn_time" val="35"/>
+		</ai>
+		<npc id="21408" total="4" respawn="35sec"/>
+		<npc id="21409" total="4" respawn="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_12" minZ="-6012" maxZ="-5712">
+		<node x="183282" y="-78507"/>
+		<node x="184060" y="-78506"/>
+		<node x="184047" y="-77708"/>
+		<node x="183290" y="-77713"/>
+	</territory>
+	<npcmaker name="godard14_12_01" territory="godard14_2515_12" maximumNpcs="10">
+		<ai type="maker_instant_spawn_serial">
+				<set name="on_start_spawn" val="1"/>
+				<set name="loop_cnt" val="7"/>
+				<set name="maker_name" val="godard14_12_02"/>
+		</ai>
+		<npc id="21401" total="3" respawn="40sec"/>
+		<npc id="21407" total="3" respawn="40sec"/>
+		<npc id="21416" total="4" respawn="40sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_12_02" territory="godard14_2515_12" maximumNpcs="11">
+		<ai type="maker_instant_spawn_serial_last">
+				<set name="on_start_spawn" val="0"/>
+				<set name="loop_cnt" val="1"/>
+				<set name="maker_name" val="godard14_12_01"/>
+		</ai>
+		<npc id="21432" total="3" respawn="40sec">
+			<privates>
+				<private id="21433" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21424" total="2" respawn="40sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_13" minZ="-6647" maxZ="-6347">
+		<node x="186143" y="-78512"/>
+		<node x="186962" y="-78497"/>
+		<node x="186952" y="-77690"/>
+		<node x="186140" y="-77695"/>
+	</territory>
+	<npcmaker name="godard14_13_01" territory="godard14_2515_13" maximumNpcs="10">
+		<ai type="maker_instant_spawn_serial">
+				<set name="on_start_spawn" val="1"/>
+				<set name="loop_cnt" val="7"/>
+				<set name="maker_name" val="godard14_13_02"/>
+		</ai>
+		<npc id="21401" total="3" respawn="40sec"/>
+		<npc id="21407" total="3" respawn="40sec"/>
+		<npc id="21416" total="4" respawn="40sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_13_02" territory="godard14_2515_13" maximumNpcs="11">
+		<ai type="maker_instant_spawn_serial_last">
+				<set name="on_start_spawn" val="0"/>
+				<set name="loop_cnt" val="1"/>
+				<set name="maker_name" val="godard14_13_01"/>
+		</ai>
+		<npc id="21432" total="3" respawn="40sec">
+			<privates>
+				<private id="21433" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21424" total="2" respawn="40sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_14" minZ="-7313" maxZ="-7013">
+		<node x="189041" y="-78487"/>
+		<node x="189856" y="-78476"/>
+		<node x="189845" y="-77747"/>
+		<node x="189045" y="-77684"/>
+	</territory>
+	<npcmaker name="godard14_14_01" territory="godard14_2515_14" maximumNpcs="10">
+		<ai type="maker_instant_spawn_serial">
+				<set name="on_start_spawn" val="1"/>
+				<set name="loop_cnt" val="7"/>
+				<set name="maker_name" val="godard14_14_02"/>
+		</ai>
+		<npc id="21401" total="3" respawn="40sec"/>
+		<npc id="21406" total="3" respawn="40sec"/>
+		<npc id="21417" total="4" respawn="40sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_14_02" territory="godard14_2515_14" maximumNpcs="11">
+		<ai type="maker_instant_spawn_serial_last">
+				<set name="on_start_spawn" val="0"/>
+				<set name="loop_cnt" val="1"/>
+				<set name="maker_name" val="godard14_14_01"/>
+		</ai>
+		<npc id="21432" total="3" respawn="40sec">
+			<privates>
+				<private id="21433" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21424" total="2" respawn="40sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_15" minZ="-5367" maxZ="-5067">
+		<node x="183286" y="-81378"/>
+		<node x="184046" y="-81378"/>
+		<node x="184034" y="-80596"/>
+		<node x="183293" y="-80595"/>
+	</territory>
+	<npcmaker name="godard14_15_01" territory="godard14_2515_15" maximumNpcs="10">
+		<ai type="random_spawn"/>
+		<npc id="21407" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21414" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21418" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21422" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21423" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21424" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21425" total="10" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_16" minZ="-6015" maxZ="-5715">
+		<node x="186142" y="-81378"/>
+		<node x="186961" y="-81360"/>
+		<node x="186957" y="-80639"/>
+		<node x="186164" y="-80573"/>
+	</territory>
+	<npcmaker name="godard14_16_01" territory="godard14_2515_16" maximumNpcs="10">
+		<ai type="random_spawn"/>
+		<npc id="21407" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21414" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21418" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21422" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21423" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21424" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21425" total="10" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_17" minZ="-6668" maxZ="-6368">
+		<node x="189032" y="-81361"/>
+		<node x="189850" y="-81343"/>
+		<node x="189847" y="-80621"/>
+		<node x="189054" y="-80555"/>
+	</territory>
+	<npcmaker name="godard14_17_01" territory="godard14_2515_17" maximumNpcs="10">
+		<ai type="random_spawn"/>
+		<npc id="21406" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21415" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21418" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21422" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21423" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21424" total="10" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21425" total="10" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_18" minZ="-6005" maxZ="-5705">
+		<node x="189047" y="-84252"/>
+		<node x="189801" y="-84247"/>
+		<node x="189857" y="-83452"/>
+		<node x="189048" y="-83434"/>
+	</territory>
+	<npcmaker name="godard14_18_01" territory="godard14_2515_18" maximumNpcs="12">
+		<ai type="exclusive_spawn_normal">
+				<set name="on_start_spawn" val="0"/>
+				<set name="unique_npc" val="priest_of_blood"/>
+				<set name="maker_name" val="godard14_18_02"/>
+		</ai>
+		<npc id="21426" total="2" respawn="30sec" respawnRand="15sec"/>
+		<npc id="21428" total="2" respawn="60sec" respawnRand="20sec"/>
+		<npc id="21430" total="2" respawn="90sec" respawnRand="30sec"/>
+		<npc id="21427" total="2" respawn="60sec" respawnRand="20sec"/>
+		<npc id="21429" total="2" respawn="90sec" respawnRand="30sec"/>
+		<npc id="21430" total="2" respawn="120sec" respawnRand="30sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_18_02" territory="godard14_2515_18" maximumNpcs="18">
+		<ai type="exclusive_spawn_normal">
+				<set name="on_start_spawn" val="1"/>
+				<set name="unique_npc" val="priest_of_blood"/>
+				<set name="maker_name" val="godard14_18_01"/>
+		</ai>
+		<npc id="21434" total="1" respawn="720sec" respawnRand="120sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_18_03" territory="godard14_2515_18" maximumNpcs="2">
+		<ai type="random_spawn"/>
+		<npc id="21412" total="2" respawn="80sec" respawnRand="20sec"/>
+		<npc id="21420" total="2" respawn="80sec" respawnRand="20sec"/>
+		<npc id="21413" total="2" respawn="80sec" respawnRand="20sec"/>
+		<npc id="21421" total="2" respawn="80sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_19" minZ="-5372" maxZ="-5072">
+		<node x="186151" y="-84243"/>
+		<node x="186911" y="-84241"/>
+		<node x="186965" y="-83467"/>
+		<node x="186141" y="-83455"/>
+	</territory>
+	<npcmaker name="godard14_19_01" territory="godard14_2515_19" maximumNpcs="12">
+		<ai type="exclusive_spawn_normal">
+				<set name="on_start_spawn" val="0"/>
+				<set name="unique_npc" val="priest_of_blood"/>
+				<set name="maker_name" val="godard14_19_02"/>
+		</ai>
+		<npc id="21426" total="2" respawn="30sec" respawnRand="15sec"/>
+		<npc id="21428" total="2" respawn="60sec" respawnRand="20sec"/>
+		<npc id="21430" total="2" respawn="90sec" respawnRand="30sec"/>
+		<npc id="21427" total="2" respawn="60sec" respawnRand="20sec"/>
+		<npc id="21429" total="2" respawn="90sec" respawnRand="30sec"/>
+		<npc id="21431" total="2" respawn="120sec" respawnRand="30sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_19_02" territory="godard14_2515_19" maximumNpcs="18">
+		<ai type="exclusive_spawn_normal">
+				<set name="on_start_spawn" val="1"/>
+				<set name="unique_npc" val="priest_of_blood"/>
+				<set name="maker_name" val="godard14_19_01"/>
+		</ai>
+		<npc id="21434" total="1" respawn="720sec" respawnRand="120sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_19_03" territory="godard14_2515_19" maximumNpcs="2">
+		<ai type="random_spawn"/>
+		<npc id="21412" total="2" respawn="80sec" respawnRand="20sec"/>
+		<npc id="21420" total="2" respawn="80sec" respawnRand="20sec"/>
+		<npc id="21413" total="2" respawn="80sec" respawnRand="20sec"/>
+		<npc id="21421" total="2" respawn="80sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_20" minZ="-6011" maxZ="-5711">
+		<node x="183299" y="-84273"/>
+		<node x="184050" y="-84275"/>
+		<node x="184080" y="-83473"/>
+		<node x="183288" y="-83466"/>
+	</territory>
+	<npcmaker name="godard14_20_01" territory="godard14_2515_20" maximumNpcs="12">
+		<ai type="exclusive_spawn_normal">
+				<set name="on_start_spawn" val="0"/>
+				<set name="unique_npc" val="priest_of_blood"/>
+				<set name="maker_name" val="godard14_20_02"/>
+		</ai>
+		<npc id="21426" total="2" respawn="30sec" respawnRand="15sec"/>
+		<npc id="21428" total="2" respawn="60sec" respawnRand="20sec"/>
+		<npc id="21430" total="2" respawn="90sec" respawnRand="30sec"/>
+		<npc id="21427" total="2" respawn="60sec" respawnRand="20sec"/>
+		<npc id="21429" total="2" respawn="90sec" respawnRand="30sec"/>
+		<npc id="21431" total="2" respawn="120sec" respawnRand="30sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_20_02" territory="godard14_2515_20" maximumNpcs="18">
+		<ai type="exclusive_spawn_normal">
+				<set name="on_start_spawn" val="1"/>
+				<set name="unique_npc" val="priest_of_blood"/>
+				<set name="maker_name" val="godard14_20_01"/>
+		</ai>
+		<npc id="21434" total="1" respawn="720sec" respawnRand="120sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_20_03" territory="godard14_2515_20" maximumNpcs="2">
+		<ai type="random_spawn"/>
+		<npc id="21412" total="2" respawn="80sec" respawnRand="20sec"/>
+		<npc id="21420" total="2" respawn="80sec" respawnRand="20sec"/>
+		<npc id="21413" total="2" respawn="80sec" respawnRand="20sec"/>
+		<npc id="21421" total="2" respawn="80sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_21" minZ="-6641" maxZ="-6341">
+		<node x="180806" y="-84051"/>
+		<node x="181277" y="-84137"/>
+		<node x="181323" y="-82707"/>
+		<node x="180852" y="-82704"/>
+	</territory>
+	<npcmaker name="godard14_21_01" territory="godard14_2515_21" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21424" total="2" respawn="90sec" respawnRand="20sec"/>
+		<npc id="21426" total="2" respawn="90sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_2515_22" minZ="-6631" maxZ="-6331">
+		<node x="179922" y="-82573"/>
+		<node x="181354" y="-82571"/>
+		<node x="181280" y="-82101"/>
+		<node x="179926" y="-82053"/>
+	</territory>
+	<npcmaker name="godard14_22_01" territory="godard14_2515_22" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21425" total="2" respawn="90sec" respawnRand="20sec"/>
+		<npc id="21427" total="2" respawn="90sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_npc2515_04" minZ="-2773" maxZ="-2573">
+		<node x="181462" y="-75402"/>
+		<node x="181662" y="-75402"/>
+		<node x="181662" y="-75202"/>
+		<node x="181462" y="-75202"/>
+	</territory>
+	<npcmaker name="godard14_npc2515_0401" territory="godard14_npc2515_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31538" pos="181611;-75293;-2728;39536" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard14_tb2515_03" minZ="-2784" maxZ="-2484">
+		<node x="183025" y="-78004"/>
+		<node x="182081" y="-77103"/>
+		<node x="180769" y="-77070"/>
+		<node x="179850" y="-78031"/>
+		<node x="179838" y="-79343"/>
+		<node x="180759" y="-80288"/>
+		<node x="182097" y="-80297"/>
+		<node x="183015" y="-79354"/>
+	</territory>
+	<npcmaker name="godard14_tb03_m1" territory="godard14_tb2515_03" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18284" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18285" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18286" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21820" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21821" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21822" total="1" respawn="2700sec" respawnRand="900sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_tb03_m2" territory="godard14_tb2515_03" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18284" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18285" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18286" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21820" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21821" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21822" total="1" respawn="2700sec" respawnRand="900sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_tb03_m3" territory="godard14_tb2515_03" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18284" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18285" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18286" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21820" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21821" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21822" total="1" respawn="2700sec" respawnRand="900sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_tb03_m4" territory="godard14_tb2515_03" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18284" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18285" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18286" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21820" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21821" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21822" total="1" respawn="2700sec" respawnRand="900sec"/>
+	</npcmaker>
+	<npcmaker name="godard14_tb03_m5" territory="godard14_tb2515_03" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18284" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18285" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="18286" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21820" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21821" total="1" respawn="2700sec" respawnRand="900sec"/>
+		<npc id="21822" total="1" respawn="2700sec" respawnRand="900sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard15_npc2515_02" minZ="-2964" maxZ="-2764">
+		<node x="169376" y="-91495"/>
+		<node x="169772" y="-91497"/>
+		<node x="169771" y="-91098"/>
+		<node x="169374" y="-91091"/>
+	</territory>
+	<npcmaker name="godard14_npc2515_0201" territory="godard15_npc2515_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31454" pos="169589;-91293;-2896;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard15_npc2515_03" minZ="-2964" maxZ="-2764">
+		<node x="170060" y="-88318"/>
+		<node x="170297" y="-88396"/>
+		<node x="170385" y="-88126"/>
+		<node x="170123" y="-88088"/>
+	</territory>
+	<npcmaker name="godard14_npc2515_0301" territory="godard15_npc2515_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31919" pos="170279;-88244;-2896;22024" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard16_2515_01" minZ="-7263" maxZ="-6963">
+		<node x="181458" y="-86121"/>
+		<node x="182690" y="-86121"/>
+		<node x="182690" y="-85041"/>
+		<node x="181457" y="-85042"/>
+	</territory>
+	<npcmaker name="1st_trigger_a" territory="godard16_2515_01" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31468" pos="182074;-85579;-7216;32936" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type1_a" territory="godard16_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18120" pos="182556;-85581;-7216;32616" total="1" respawn="0sec"/>
+		<npc id="18135" pos="182075;-85345;-7174;50056" total="1" respawn="300sec"/>
+		<npc id="18135" pos="182081;-85788;-7174;16312" total="1" respawn="300sec"/>
+		<npc id="18136" pos="181818;-85576;-7174;464" total="1" respawn="300sec"/>
+		<npc id="18136" pos="182323;-85580;-7174;32672" total="1" respawn="300sec"/>
+		<npc id="18134" pos="181808;-85797;-7174;8192" total="1" respawn="300sec"/>
+		<npc id="18134" pos="182308;-85786;-7174;24128" total="1" respawn="300sec"/>
+		<npc id="18134" pos="182305;-85375;-7174;39264" total="1" respawn="300sec"/>
+		<npc id="18134" pos="181812;-85361;-7174;58056" total="1" respawn="300sec"/>
+		<npc id="18137" pos="182466;-85281;-7185;48632" total="1" respawn="300sec"/>
+		<npc id="18134" pos="182467;-85901;-7185;16680" total="1" respawn="300sec"/>
+		<npc id="18132" pos="182509;-85729;-7216;21360" total="1" respawn="60sec"/>
+		<npc id="18132" pos="182504;-85439;-7216;40048" total="1" respawn="60sec"/>
+		<npc id="18132" pos="181690;-85217;-7216;58816" total="1" respawn="60sec"/>
+		<npc id="18132" pos="181673;-85943;-7216;6488" total="1" respawn="60sec"/>
+		<npc id="18132" pos="182092;-85128;-7216;48664" total="1" respawn="60sec"/>
+		<npc id="18132" pos="182084;-86036;-7216;16032" total="1" respawn="60sec"/>
+		<npc id="18136" total="2" respawn="60sec"/>
+		<npc id="18135" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type2_a" territory="godard16_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18121" pos="182556;-85581;-7216;32616" total="1" respawn="0sec"/>
+		<npc id="18140" pos="182075;-85345;-7174;50056" total="1" respawn="300sec"/>
+		<npc id="18140" pos="182081;-85788;-7174;16312" total="1" respawn="300sec"/>
+		<npc id="18138" pos="181818;-85576;-7174;464" total="1" respawn="300sec"/>
+		<npc id="18138" pos="182323;-85580;-7174;32672" total="1" respawn="300sec"/>
+		<npc id="18137" pos="181808;-85797;-7174;8192" total="1" respawn="300sec"/>
+		<npc id="18137" pos="182308;-85786;-7174;24128" total="1" respawn="300sec"/>
+		<npc id="18137" pos="182305;-85375;-7174;39264" total="1" respawn="300sec"/>
+		<npc id="18137" pos="181812;-85361;-7174;58056" total="1" respawn="300sec"/>
+		<npc id="18137" pos="182466;-85281;-7185;48632" total="1" respawn="300sec"/>
+		<npc id="18137" pos="182467;-85901;-7185;16680" total="1" respawn="300sec"/>
+		<npc id="18132" pos="182509;-85729;-7216;21360" total="1" respawn="60sec"/>
+		<npc id="18132" pos="182504;-85439;-7216;40048" total="1" respawn="60sec"/>
+		<npc id="18132" pos="181690;-85217;-7216;58816" total="1" respawn="60sec"/>
+		<npc id="18132" pos="181673;-85943;-7216;6488" total="1" respawn="60sec"/>
+		<npc id="18132" pos="182092;-85128;-7216;48664" total="1" respawn="60sec"/>
+		<npc id="18132" pos="182084;-86036;-7216;16032" total="1" respawn="60sec"/>
+		<npc id="18138" total="2" respawn="60sec"/>
+		<npc id="18139" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type3_a" territory="godard16_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18122" pos="182556;-85581;-7216;32616" total="1" respawn="0sec"/>
+		<npc id="18135" pos="182075;-85345;-7174;50056" total="1" respawn="300sec"/>
+		<npc id="18135" pos="182081;-85788;-7174;16312" total="1" respawn="300sec"/>
+		<npc id="18133" pos="181818;-85576;-7174;464" total="1" respawn="300sec"/>
+		<npc id="18133" pos="182323;-85580;-7174;32672" total="1" respawn="300sec"/>
+		<npc id="18137" pos="181808;-85797;-7174;8192" total="1" respawn="300sec"/>
+		<npc id="18137" pos="182308;-85786;-7174;24128" total="1" respawn="300sec"/>
+		<npc id="18137" pos="182305;-85375;-7174;39264" total="1" respawn="300sec"/>
+		<npc id="18137" pos="181812;-85361;-7174;58056" total="1" respawn="300sec"/>
+		<npc id="18137" pos="182466;-85281;-7185;48632" total="1" respawn="300sec"/>
+		<npc id="18137" pos="182467;-85901;-7185;16680" total="1" respawn="300sec"/>
+		<npc id="18132" pos="182509;-85729;-7216;21360" total="1" respawn="60sec"/>
+		<npc id="18132" pos="182504;-85439;-7216;40048" total="1" respawn="60sec"/>
+		<npc id="18132" pos="181690;-85217;-7216;58816" total="1" respawn="60sec"/>
+		<npc id="18132" pos="181673;-85943;-7216;6488" total="1" respawn="60sec"/>
+		<npc id="18132" pos="182092;-85128;-7216;48664" total="1" respawn="60sec"/>
+		<npc id="18132" pos="182084;-86036;-7216;16032" total="1" respawn="60sec"/>
+		<npc id="18138" total="2" respawn="60sec"/>
+		<npc id="18136" total="2" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard16_2515_02" minZ="-7263" maxZ="-6963">
+		<node x="183308" y="-85954"/>
+		<node x="184472" y="-85954"/>
+		<node x="184474" y="-85215"/>
+		<node x="183304" y="-85211"/>
+	</territory>
+	<npcmaker name="1st_trigger_b" territory="godard16_2515_02" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31469" pos="183868;-85577;-7216;32936" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type1_b1" territory="godard16_2515_02" maximumNpcs="16">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="1st_type1_b2"/>
+		</ai>
+		<npc id="18146" pos="183514;-85804;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18146" pos="184247;-85801;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18146" pos="183532;-85328;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18146" pos="184248;-85335;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18148" pos="183888;-85805;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18148" pos="183700;-85807;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18148" pos="184083;-85801;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18148" pos="183896;-85331;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18148" pos="183712;-85328;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18148" pos="184078;-85336;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18148" pos="183494;-85669;-7216;264" total="1" respawn="0sec"/>
+		<npc id="18148" pos="183494;-85480;-7216;264" total="1" respawn="0sec"/>
+		<npc id="18148" pos="184239;-85467;-7216;34016" total="1" respawn="0sec"/>
+		<npc id="18148" pos="184235;-85688;-7216;34016" total="1" respawn="0sec"/>
+		<npc id="18149" total="2" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type1_b2" territory="godard16_2515_02" maximumNpcs="18">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="1st_type1_b3"/>
+		</ai>
+		<npc id="18146" pos="183514;-85804;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18146" pos="184247;-85801;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18146" pos="183532;-85328;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18146" pos="184248;-85335;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18148" total="9" respawn="0sec"/>
+		<npc id="18146" total="2" respawn="0sec"/>
+		<npc id="18149" total="3" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type1_b3" territory="godard16_2515_02" maximumNpcs="19">
+		<ai type="royal_rush_maker"/>
+		<npc id="18141" pos="184363;-85587;-7216;32744" total="1" respawn="0sec"/>
+		<npc id="18146" pos="184239;-85467;-7216;34016" total="1" respawn="60sec"/>
+		<npc id="18146" pos="184235;-85688;-7216;34016" total="1" respawn="60sec"/>
+		<npc id="18146" total="5" respawn="60sec"/>
+		<npc id="18148" total="5" respawn="60sec"/>
+		<npc id="18149" total="4" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type2_b1" territory="godard16_2515_02" maximumNpcs="16">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="1st_type2_b2"/>
+		</ai>
+		<npc id="18145" pos="183514;-85804;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18145" pos="184247;-85801;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18145" pos="183532;-85328;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18145" pos="184248;-85335;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18147" pos="183888;-85805;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18147" pos="183700;-85807;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18147" pos="184083;-85801;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18147" pos="183896;-85331;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18147" pos="183712;-85328;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18147" pos="184078;-85336;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18147" pos="183494;-85669;-7216;264" total="1" respawn="0sec"/>
+		<npc id="18147" pos="183494;-85480;-7216;264" total="1" respawn="0sec"/>
+		<npc id="18147" pos="184239;-85467;-7216;34016" total="1" respawn="0sec"/>
+		<npc id="18147" pos="184235;-85688;-7216;34016" total="1" respawn="0sec"/>
+		<npc id="18149" total="2" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type2_b2" territory="godard16_2515_02" maximumNpcs="18">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="1st_type2_b3"/>
+		</ai>
+		<npc id="18145" pos="183514;-85804;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18145" pos="184247;-85801;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18145" pos="183532;-85328;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18145" pos="184248;-85335;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18147" total="9" respawn="0sec"/>
+		<npc id="18145" total="2" respawn="0sec"/>
+		<npc id="18149" total="3" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type2_b3" territory="godard16_2515_02" maximumNpcs="19">
+		<ai type="royal_rush_maker"/>
+		<npc id="18141" pos="184363;-85587;-7216;32744" total="1" respawn="0sec"/>
+		<npc id="18145" pos="184239;-85467;-7216;34016" total="1" respawn="60sec"/>
+		<npc id="18145" pos="184235;-85688;-7216;34016" total="1" respawn="60sec"/>
+		<npc id="18145" total="5" respawn="60sec"/>
+		<npc id="18147" total="5" respawn="60sec"/>
+		<npc id="18149" total="4" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard16_2515_03" minZ="-7264" maxZ="-6964">
+		<node x="185119" y="-86024"/>
+		<node x="186274" y="-86022"/>
+		<node x="186269" y="-85218"/>
+		<node x="185121" y="-85217"/>
+	</territory>
+	<npcmaker name="1st_trigger_c" territory="godard16_2515_03" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31470" pos="185681;-85573;-7216;32936" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type1_c" territory="godard16_2515_03" maximumNpcs="32">
+		<ai type="royal_rush_maker"/>
+		<npc id="18150" pos="185681;-85573;-7232;32936" total="1" respawn="0sec"/>
+		<npc id="18169" pos="185699;-85701;-7216;16408" total="1" respawn="60sec"/>
+		<npc id="18169" pos="185700;-85462;-7216;49136" total="1" respawn="60sec"/>
+		<npc id="18168" pos="185228;-85535;-7216;208" total="1" respawn="0sec"/>
+		<npc id="18167" pos="186192;-85572;-7216;32848" total="1" respawn="60sec"/>
+		<npc id="18168" pos="186018;-85472;-7216;40728" total="1" respawn="0sec"/>
+		<npc id="18168" pos="186017;-85738;-7216;24464" total="1" respawn="0sec"/>
+		<npc id="18168" pos="185228;-85654;-7216;65200" total="1" respawn="0sec"/>
+		<npc id="18172" pos="185373;-85577;-7232;65528" total="1" respawn="0sec"/>
+		<npc id="18170" pos="186035;-85575;-7232;32840" total="1" respawn="0sec"/>
+		<npc id="18167" pos="185623;-85805;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="185462;-85805;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="185304;-85805;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="186105;-85804;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="185944;-85804;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="185786;-85804;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="185624;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18170" pos="185463;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="185305;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="186107;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18170" pos="185945;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="185787;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="186123;-85691;-7232;32840" total="1" respawn="60sec"/>
+		<npc id="18167" pos="186121;-85463;-7232;32840" total="1" respawn="60sec"/>
+		<npc id="18166" total="3" respawn="60sec"/>
+		<npc id="18169" total="3" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type2_c" territory="godard16_2515_03" maximumNpcs="32">
+		<ai type="royal_rush_maker"/>
+		<npc id="18151" pos="185681;-85573;-7232;32936" total="1" respawn="0sec"/>
+		<npc id="18169" pos="185699;-85701;-7216;16408" total="1" respawn="60sec"/>
+		<npc id="18169" pos="185700;-85462;-7216;49136" total="1" respawn="60sec"/>
+		<npc id="18171" pos="185228;-85535;-7216;208" total="1" respawn="0sec"/>
+		<npc id="18167" pos="186192;-85572;-7216;32848" total="1" respawn="60sec"/>
+		<npc id="18167" pos="186018;-85472;-7216;40728" total="1" respawn="0sec"/>
+		<npc id="18167" pos="186017;-85738;-7216;24464" total="1" respawn="0sec"/>
+		<npc id="18171" pos="185228;-85654;-7216;65200" total="1" respawn="0sec"/>
+		<npc id="18172" pos="185373;-85577;-7232;65528" total="1" respawn="0sec"/>
+		<npc id="18170" pos="186035;-85575;-7232;32840" total="1" respawn="0sec"/>
+		<npc id="18170" pos="185623;-85805;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="185462;-85805;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="185304;-85805;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="186105;-85804;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="185944;-85804;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="185786;-85804;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="185624;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="185463;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18170" pos="185305;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18170" pos="186107;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="185945;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18170" pos="185787;-85398;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18171" pos="186123;-85691;-7232;32840" total="1" respawn="60sec"/>
+		<npc id="18171" pos="186121;-85463;-7232;32840" total="1" respawn="60sec"/>
+		<npc id="18172" total="3" respawn="60sec"/>
+		<npc id="18171" total="3" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard16_2515_04" minZ="-7264" maxZ="-6964">
+		<node x="186888" y="-86108"/>
+		<node x="188120" y="-86108"/>
+		<node x="188120" y="-85028"/>
+		<node x="186887" y="-85029"/>
+	</territory>
+	<npcmaker name="1st_trigger_d" territory="godard16_2515_04" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31471" pos="187498;-85566;-7216;32936" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type1_d" territory="godard16_2515_04" maximumNpcs="30">
+		<ai type="royal_rush_maker"/>
+		<npc id="18173" pos="187145;-85574;-7217;0" total="1" respawn="0sec"/>
+		<npc id="18196" pos="186956;-86039;-7168;9264" total="1" respawn="0sec"/>
+		<npc id="18197" pos="186949;-85098;-7168;57056" total="1" respawn="0sec"/>
+		<npc id="18198" pos="188053;-85106;-7168;41832" total="1" respawn="0sec"/>
+		<npc id="18199" pos="188063;-86053;-7168;25360" total="1" respawn="0sec"/>
+		<npc id="18185" pos="187748;-85460;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18185" pos="187746;-85686;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="187912;-85575;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="187091;-85966;-7232;8248" total="1" respawn="300sec"/>
+		<npc id="18186" pos="187101;-85185;-7232;59872" total="1" respawn="300sec"/>
+		<npc id="18188" pos="187815;-85819;-7200;23520" total="1" respawn="300sec"/>
+		<npc id="18188" pos="187814;-85319;-7200;38672" total="1" respawn="300sec"/>
+		<npc id="18188" pos="187207;-85318;-7200;57088" total="1" respawn="300sec"/>
+		<npc id="18188" pos="187208;-85820;-7200;7248" total="1" respawn="300sec"/>
+		<npc id="18187" pos="187501;-85813;-7200;15704" total="1" respawn="300sec"/>
+		<npc id="18187" pos="187502;-85344;-7200;48792" total="1" respawn="300sec"/>
+		<npc id="18190" pos="187664;-85571;-7192;32856" total="1" respawn="300sec"/>
+		<npc id="18185" pos="187032;-85678;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18185" pos="187029;-85484;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18189" total="3" respawn="60sec"/>
+		<npc id="18190" total="3" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type2_d" territory="godard16_2515_04" maximumNpcs="30">
+		<ai type="royal_rush_maker"/>
+		<npc id="18174" pos="187145;-85574;-7217;0" total="1" respawn="0sec"/>
+		<npc id="18196" pos="186956;-86039;-7168;9264" total="1" respawn="0sec"/>
+		<npc id="18197" pos="186949;-85098;-7168;57056" total="1" respawn="0sec"/>
+		<npc id="18198" pos="188053;-85106;-7168;41832" total="1" respawn="0sec"/>
+		<npc id="18199" pos="188063;-86053;-7168;25360" total="1" respawn="0sec"/>
+		<npc id="18185" pos="187748;-85460;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18185" pos="187746;-85686;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="187912;-85575;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="187091;-85966;-7232;8248" total="1" respawn="300sec"/>
+		<npc id="18186" pos="187101;-85185;-7232;59872" total="1" respawn="300sec"/>
+		<npc id="18191" pos="187815;-85819;-7200;23520" total="1" respawn="300sec"/>
+		<npc id="18191" pos="187814;-85319;-7200;38672" total="1" respawn="300sec"/>
+		<npc id="18191" pos="187207;-85318;-7200;57088" total="1" respawn="300sec"/>
+		<npc id="18191" pos="187208;-85820;-7200;7248" total="1" respawn="300sec"/>
+		<npc id="18192" pos="187501;-85813;-7200;15704" total="1" respawn="300sec"/>
+		<npc id="18192" pos="187502;-85344;-7200;48792" total="1" respawn="300sec"/>
+		<npc id="18190" pos="187664;-85571;-7192;32856" total="1" respawn="300sec"/>
+		<npc id="18185" pos="187032;-85678;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18185" pos="187029;-85484;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18192" total="2" respawn="60sec"/>
+		<npc id="18193" total="2" respawn="60sec"/>
+		<npc id="18194" total="2" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type3_d" territory="godard16_2515_04" maximumNpcs="34">
+		<ai type="royal_rush_maker"/>
+		<npc id="18175" pos="187145;-85574;-7217;0" total="1" respawn="0sec"/>
+		<npc id="18196" pos="186956;-86039;-7168;9264" total="1" respawn="300sec"/>
+		<npc id="18197" pos="186949;-85098;-7168;57056" total="1" respawn="300sec"/>
+		<npc id="18198" pos="188053;-85106;-7168;41832" total="1" respawn="300sec"/>
+		<npc id="18199" pos="188063;-86053;-7168;25360" total="1" respawn="300sec"/>
+		<npc id="18185" pos="187748;-85460;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18185" pos="187746;-85686;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="187912;-85575;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="187091;-85966;-7232;8248" total="1" respawn="300sec"/>
+		<npc id="18186" pos="187101;-85185;-7232;59872" total="1" respawn="300sec"/>
+		<npc id="18188" pos="187815;-85819;-7200;23520" total="1" respawn="300sec"/>
+		<npc id="18191" pos="187814;-85319;-7200;38672" total="1" respawn="300sec"/>
+		<npc id="18188" pos="187207;-85318;-7200;57088" total="1" respawn="300sec"/>
+		<npc id="18191" pos="187208;-85820;-7200;7248" total="1" respawn="300sec"/>
+		<npc id="18187" pos="187501;-85813;-7200;15704" total="1" respawn="300sec"/>
+		<npc id="18192" pos="187502;-85344;-7200;48792" total="1" respawn="300sec"/>
+		<npc id="18190" pos="187664;-85571;-7192;32856" total="1" respawn="300sec"/>
+		<npc id="18185" pos="187032;-85678;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18185" pos="187029;-85484;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18189" total="2" respawn="60sec"/>
+		<npc id="18190" total="2" respawn="60sec"/>
+		<npc id="18192" total="2" respawn="60sec"/>
+		<npc id="18193" total="2" respawn="60sec"/>
+		<npc id="18194" total="2" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard16_2515_05" minZ="-7264" maxZ="-6964">
+		<node x="188781" y="-85908"/>
+		<node x="189931" y="-86059"/>
+		<node x="189928" y="-85071"/>
+		<node x="188780" y="-85260"/>
+	</territory>
+	<npcmaker name="1st_trigger_e" territory="godard16_2515_05" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31472" pos="189306;-85571;-7216;32936" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type1_boss_e" territory="godard16_2515_05" maximumNpcs="24">
+		<ai type="royal_rush_maker"/>
+		<npc id="18212" total="1" respawn="0sec"/>
+		<npc id="18230" total="5" respawn="60sec"/>
+		<npc id="18220" total="4" respawn="60sec"/>
+		<npc id="18227" total="2" respawn="60sec"/>
+		<npc id="18222" total="2" respawn="60sec"/>
+		<npc id="18224" total="2" respawn="60sec"/>
+		<npc id="18225" total="2" respawn="60sec"/>
+		<npc id="18243" pos="190034;-85514;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="190034;-85585;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="190034;-85652;-7200;33096" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type1_e" territory="godard16_2515_05" maximumNpcs="44">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="1st_type1_boss_e"/>
+		</ai>
+		<npc id="18224" pos="189011;-85567;-7184;0" total="1" respawn="0sec"/>
+		<npc id="18225" pos="189540;-85576;-7202;32104" total="1" respawn="0sec"/>
+		<npc id="18226" pos="188837;-85755;-7217;5632" total="1" respawn="0sec"/>
+		<npc id="18226" pos="188834;-85401;-7217;58304" total="1" respawn="0sec"/>
+		<npc id="18220" pos="189139;-85279;-7217;49280" total="1" respawn="0sec"/>
+		<npc id="18221" pos="189142;-85889;-7217;16336" total="1" respawn="0sec"/>
+		<npc id="18223" pos="189813;-85652;-7217;32712" total="1" respawn="0sec"/>
+		<npc id="18223" pos="189809;-85499;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18223" pos="189318;-85335;-7200;48888" total="1" respawn="0sec"/>
+		<npc id="18223" pos="189321;-85826;-7200;16104" total="1" respawn="0sec"/>
+		<npc id="18222" pos="189250;-85749;-7202;16888" total="1" respawn="0sec"/>
+		<npc id="18222" pos="189243;-85405;-7202;49592" total="1" respawn="0sec"/>
+		<npc id="18223" pos="189625;-85339;-7200;48880" total="1" respawn="0sec"/>
+		<npc id="18223" pos="189623;-85826;-7200;16208" total="1" respawn="0sec"/>
+		<npc id="18223" pos="189012;-85341;-7200;48880" total="1" respawn="0sec"/>
+		<npc id="18223" pos="189020;-85828;-7200;16208" total="1" respawn="0sec"/>
+		<npc id="18220" pos="189453;-85890;-7217;16336" total="1" respawn="0sec"/>
+		<npc id="18221" pos="189489;-85286;-7217;49496" total="1" respawn="0sec"/>
+		<npc id="18227" pos="189568;-85695;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18227" pos="189563;-85428;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18226" pos="189014;-85428;-7217;49016" total="1" respawn="0sec"/>
+		<npc id="18226" pos="189015;-85702;-7217;16200" total="1" respawn="0sec"/>
+		<npc id="18220" pos="189713;-85575;-7217;32800" total="1" respawn="0sec"/>
+		<npc id="18221" pos="188807;-85570;-7217;65408" total="1" respawn="0sec"/>
+		<npc id="18222" total="2" respawn="0sec"/>
+		<npc id="18224" total="2" respawn="0sec"/>
+		<npc id="18225" total="2" respawn="0sec"/>
+		<npc id="18230" total="4" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85733;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85804;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85876;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85946;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-86014;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85125;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85196;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85268;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85339;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85406;-7200;33096" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type2_boss_e" territory="godard16_2515_05" maximumNpcs="24">
+		<ai type="royal_rush_maker"/>
+		<npc id="18212" total="1" respawn="0sec"/>
+		<npc id="18230" total="5" respawn="60sec"/>
+		<npc id="18220" total="4" respawn="60sec"/>
+		<npc id="18224" total="2" respawn="60sec"/>
+		<npc id="18229" total="2" respawn="60sec"/>
+		<npc id="18227" total="2" respawn="60sec"/>
+		<npc id="18228" total="2" respawn="60sec"/>
+		<npc id="18243" pos="190034;-85514;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="190034;-85585;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="190034;-85652;-7200;33096" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_type2_e" territory="godard16_2515_05" maximumNpcs="44">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="1st_type2_boss_e"/>
+		</ai>
+		<npc id="18227" pos="189011;-85567;-7184;0" total="1" respawn="0sec"/>
+		<npc id="18227" pos="189540;-85576;-7202;32104" total="1" respawn="0sec"/>
+		<npc id="18223" pos="188837;-85755;-7217;5632" total="1" respawn="0sec"/>
+		<npc id="18223" pos="188834;-85401;-7217;58304" total="1" respawn="0sec"/>
+		<npc id="18220" pos="189139;-85279;-7217;49280" total="1" respawn="0sec"/>
+		<npc id="18221" pos="189142;-85889;-7217;16336" total="1" respawn="0sec"/>
+		<npc id="18226" pos="189813;-85652;-7217;32712" total="1" respawn="0sec"/>
+		<npc id="18226" pos="189809;-85499;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18226" pos="189318;-85335;-7200;48888" total="1" respawn="0sec"/>
+		<npc id="18226" pos="189321;-85826;-7200;16104" total="1" respawn="0sec"/>
+		<npc id="18227" pos="189250;-85749;-7202;16888" total="1" respawn="0sec"/>
+		<npc id="18227" pos="189243;-85405;-7202;49592" total="1" respawn="0sec"/>
+		<npc id="18226" pos="189625;-85339;-7200;48880" total="1" respawn="0sec"/>
+		<npc id="18226" pos="189623;-85826;-7200;16208" total="1" respawn="0sec"/>
+		<npc id="18226" pos="189012;-85341;-7200;48880" total="1" respawn="0sec"/>
+		<npc id="18226" pos="189020;-85828;-7200;16208" total="1" respawn="0sec"/>
+		<npc id="18220" pos="189453;-85890;-7217;16336" total="1" respawn="0sec"/>
+		<npc id="18221" pos="189489;-85286;-7217;49496" total="1" respawn="0sec"/>
+		<npc id="18224" pos="189568;-85695;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18224" pos="189563;-85428;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18223" pos="189014;-85428;-7217;49016" total="1" respawn="0sec"/>
+		<npc id="18223" pos="189015;-85702;-7217;16200" total="1" respawn="0sec"/>
+		<npc id="18220" pos="189713;-85575;-7217;32800" total="1" respawn="0sec"/>
+		<npc id="18221" pos="188807;-85570;-7217;65408" total="1" respawn="0sec"/>
+		<npc id="18229" total="2" respawn="0sec"/>
+		<npc id="18227" total="2" respawn="0sec"/>
+		<npc id="18228" total="2" respawn="0sec"/>
+		<npc id="18230" total="4" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85733;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85804;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85876;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85946;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-86014;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85125;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85196;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85268;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85339;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="189901;-85406;-7200;33096" total="1" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard16_2515_06" minZ="-7264" maxZ="-6914">
+		<node x="190568" y="-86236"/>
+		<node x="191884" y="-86224"/>
+		<node x="191872" y="-84923"/>
+		<node x="190577" y="-84916"/>
+	</territory>
+	<npcmaker name="1st_boss_treasure" territory="godard16_2515_06" maximumNpcs="200">
+		<ai type="royal_spawn_treasurebox"/>
+		<npc id="18256" total="200" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_boss_type1" territory="godard16_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="1st_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25339" pos="191544;-85575;-7184;32520" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_boss_type2" territory="godard16_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="1st_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25342" pos="191544;-85575;-7184;32520" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_boss_type3" territory="godard16_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="1st_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25346" pos="191544;-85575;-7184;32520" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="1st_boss_type4" territory="godard16_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="1st_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25349" pos="191544;-85575;-7184;32520" total="1" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard16_npc2515_11" minZ="-7263" maxZ="-7063">
+		<node x="181198" y="-86516"/>
+		<node x="192394" y="-86521"/>
+		<node x="192391" y="-84626"/>
+		<node x="181193" y="-84622"/>
+	</territory>
+	<npcmaker name="godard14_npc2515_1101" territory="godard16_npc2515_11" maximumNpcs="1001">
+		<ai type="default_maker"/>
+		<npc id="31921" pos="181061;-85595;-7200;32952" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard17_2515_01" minZ="-7263" maxZ="-6963">
+		<node x="179754" y="-89520"/>
+		<node x="180986" y="-89520"/>
+		<node x="180986" y="-88440"/>
+		<node x="179753" y="-88441"/>
+	</territory>
+	<npcmaker name="2nd_trigger_a" territory="godard17_2515_01" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31473" pos="180375;-88968;-7216;32936" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type1_a" territory="godard17_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18123" pos="180856;-88969;-7216;32616" total="1" respawn="0sec"/>
+		<npc id="18135" pos="180376;-88733;-7174;50056" total="1" respawn="300sec"/>
+		<npc id="18135" pos="180381;-89177;-7174;16312" total="1" respawn="300sec"/>
+		<npc id="18136" pos="180118;-88965;-7174;464" total="1" respawn="300sec"/>
+		<npc id="18136" pos="180623;-88969;-7174;32672" total="1" respawn="300sec"/>
+		<npc id="18134" pos="180108;-89185;-7174;8192" total="1" respawn="300sec"/>
+		<npc id="18134" pos="180608;-89175;-7174;24128" total="1" respawn="300sec"/>
+		<npc id="18134" pos="180605;-88764;-7174;39264" total="1" respawn="300sec"/>
+		<npc id="18134" pos="180112;-88749;-7174;58056" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180767;-88670;-7185;48632" total="1" respawn="300sec"/>
+		<npc id="18134" pos="180768;-89290;-7185;16680" total="1" respawn="300sec"/>
+		<npc id="18132" pos="180810;-89118;-7216;21360" total="1" respawn="60sec"/>
+		<npc id="18132" pos="180804;-88828;-7216;40048" total="1" respawn="60sec"/>
+		<npc id="18132" pos="179991;-88605;-7216;58816" total="1" respawn="60sec"/>
+		<npc id="18132" pos="179974;-89331;-7216;6488" total="1" respawn="60sec"/>
+		<npc id="18132" pos="180393;-88516;-7216;48664" total="1" respawn="60sec"/>
+		<npc id="18132" pos="180384;-89425;-7216;16032" total="1" respawn="60sec"/>
+		<npc id="18136" total="2" respawn="60sec"/>
+		<npc id="18135" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type2_a" territory="godard17_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18124" pos="180856;-88969;-7216;32616" total="1" respawn="0sec"/>
+		<npc id="18140" pos="180376;-88733;-7174;50056" total="1" respawn="300sec"/>
+		<npc id="18140" pos="180381;-89177;-7174;16312" total="1" respawn="300sec"/>
+		<npc id="18138" pos="180118;-88965;-7174;464" total="1" respawn="300sec"/>
+		<npc id="18138" pos="180623;-88969;-7174;32672" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180108;-89185;-7174;8192" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180608;-89175;-7174;24128" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180605;-88764;-7174;39264" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180112;-88749;-7174;58056" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180767;-88670;-7185;48632" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180768;-89290;-7185;16680" total="1" respawn="300sec"/>
+		<npc id="18132" pos="180810;-89118;-7216;21360" total="1" respawn="60sec"/>
+		<npc id="18132" pos="180804;-88828;-7216;40048" total="1" respawn="60sec"/>
+		<npc id="18132" pos="179991;-88605;-7216;58816" total="1" respawn="60sec"/>
+		<npc id="18132" pos="179974;-89331;-7216;6488" total="1" respawn="60sec"/>
+		<npc id="18132" pos="180393;-88516;-7216;48664" total="1" respawn="60sec"/>
+		<npc id="18132" pos="180384;-89425;-7216;16032" total="1" respawn="60sec"/>
+		<npc id="18138" total="2" respawn="60sec"/>
+		<npc id="18139" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type3_a" territory="godard17_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18125" pos="180856;-88969;-7216;32616" total="1" respawn="0sec"/>
+		<npc id="18135" pos="180376;-88733;-7174;50056" total="1" respawn="300sec"/>
+		<npc id="18135" pos="180381;-89177;-7174;16312" total="1" respawn="300sec"/>
+		<npc id="18133" pos="180118;-88965;-7174;464" total="1" respawn="300sec"/>
+		<npc id="18133" pos="180623;-88969;-7174;32672" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180108;-89185;-7174;8192" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180608;-89175;-7174;24128" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180605;-88764;-7174;39264" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180112;-88749;-7174;58056" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180767;-88670;-7185;48632" total="1" respawn="300sec"/>
+		<npc id="18137" pos="180768;-89290;-7185;16680" total="1" respawn="300sec"/>
+		<npc id="18132" pos="180810;-89118;-7216;21360" total="1" respawn="60sec"/>
+		<npc id="18132" pos="180804;-88828;-7216;40048" total="1" respawn="60sec"/>
+		<npc id="18132" pos="179991;-88605;-7216;58816" total="1" respawn="60sec"/>
+		<npc id="18132" pos="179974;-89331;-7216;6488" total="1" respawn="60sec"/>
+		<npc id="18132" pos="180393;-88516;-7216;48664" total="1" respawn="60sec"/>
+		<npc id="18132" pos="180384;-89425;-7216;16032" total="1" respawn="60sec"/>
+		<npc id="18138" total="2" respawn="60sec"/>
+		<npc id="18136" total="2" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard17_2515_02" minZ="-7263" maxZ="-6963">
+		<node x="181557" y="-89502"/>
+		<node x="182790" y="-89502"/>
+		<node x="182790" y="-88423"/>
+		<node x="181557" y="-88424"/>
+	</territory>
+	<npcmaker name="2nd_trigger_b" territory="godard17_2515_02" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31474" pos="182151;-88962;-7216;32936" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type1_b1" territory="godard17_2515_02" maximumNpcs="16">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="2nd_type1_b2"/>
+		</ai>
+		<npc id="18146" pos="181797;-89190;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18146" pos="182531;-89186;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18146" pos="181815;-88714;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18146" pos="182532;-88720;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18148" pos="182171;-89191;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18148" pos="181983;-89192;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18148" pos="182366;-89186;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18148" pos="182179;-88717;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18148" pos="181995;-88714;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18148" pos="182362;-88721;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18148" pos="181777;-89054;-7216;264" total="1" respawn="0sec"/>
+		<npc id="18148" pos="181777;-88866;-7216;264" total="1" respawn="0sec"/>
+		<npc id="18148" pos="182522;-88853;-7216;34016" total="1" respawn="0sec"/>
+		<npc id="18148" pos="182518;-89073;-7216;34016" total="1" respawn="0sec"/>
+		<npc id="18149" total="2" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type1_b2" territory="godard17_2515_02" maximumNpcs="18">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="2nd_type1_b3"/>
+		</ai>
+		<npc id="18146" pos="181797;-89190;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18146" pos="182531;-89186;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18146" pos="181815;-88714;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18146" pos="182532;-88720;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18148" total="9" respawn="0sec"/>
+		<npc id="18146" total="2" respawn="0sec"/>
+		<npc id="18149" total="3" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type1_b3" territory="godard17_2515_02" maximumNpcs="19">
+		<ai type="royal_rush_maker"/>
+		<npc id="18142" total="1" respawn="0sec"/>
+		<npc id="18146" total="5" respawn="60sec"/>
+		<npc id="18148" total="6" respawn="60sec"/>
+		<npc id="18149" total="5" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type2_b1" territory="godard17_2515_02" maximumNpcs="16">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="2nd_type2_b2"/>
+		</ai>
+		<npc id="18145" pos="181797;-89190;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18145" pos="182531;-89186;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18145" pos="181815;-88714;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18145" pos="182532;-88720;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18147" pos="182171;-89191;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18147" pos="181983;-89192;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18147" pos="182366;-89186;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18147" pos="182179;-88717;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18147" pos="181995;-88714;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18147" pos="182362;-88721;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18147" pos="181777;-89054;-7216;264" total="1" respawn="0sec"/>
+		<npc id="18147" pos="181777;-88866;-7216;264" total="1" respawn="0sec"/>
+		<npc id="18147" pos="182522;-88853;-7216;34016" total="1" respawn="0sec"/>
+		<npc id="18147" pos="182518;-89073;-7216;34016" total="1" respawn="0sec"/>
+		<npc id="18149" total="2" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type2_b2" territory="godard17_2515_02" maximumNpcs="18">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="2nd_type2_b3"/>
+		</ai>
+		<npc id="18145" pos="181797;-89190;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18145" pos="182531;-89186;-7216;16112" total="1" respawn="0sec"/>
+		<npc id="18145" pos="181815;-88714;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18145" pos="182532;-88720;-7216;49536" total="1" respawn="0sec"/>
+		<npc id="18147" total="9" respawn="0sec"/>
+		<npc id="18145" total="2" respawn="0sec"/>
+		<npc id="18149" total="3" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type2_b3" territory="godard17_2515_02" maximumNpcs="19">
+		<ai type="royal_rush_maker"/>
+		<npc id="18142" total="1" respawn="0sec"/>
+		<npc id="18145" total="5" respawn="60sec"/>
+		<npc id="18147" total="6" respawn="60sec"/>
+		<npc id="18149" total="5" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard17_2515_03" minZ="-7264" maxZ="-6964">
+		<node x="183369" y="-89407"/>
+		<node x="184601" y="-89407"/>
+		<node x="184611" y="-88538"/>
+		<node x="183378" y="-88539"/>
+	</territory>
+	<npcmaker name="2nd_trigger_c" territory="godard17_2515_03" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31475" pos="183960;-88964;-7216;32936" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type1_c" territory="godard17_2515_03" maximumNpcs="32">
+		<ai type="royal_rush_maker"/>
+		<npc id="18152" pos="183960;-88964;-7232;32936" total="1" respawn="0sec"/>
+		<npc id="18169" pos="183996;-89091;-7216;16408" total="1" respawn="60sec"/>
+		<npc id="18169" pos="183996;-88852;-7216;49136" total="1" respawn="60sec"/>
+		<npc id="18168" pos="183524;-88925;-7216;208" total="1" respawn="0sec"/>
+		<npc id="18167" pos="184488;-88962;-7216;32848" total="1" respawn="60sec"/>
+		<npc id="18168" pos="184314;-88862;-7216;40728" total="1" respawn="0sec"/>
+		<npc id="18168" pos="184313;-89128;-7216;24464" total="1" respawn="0sec"/>
+		<npc id="18168" pos="183524;-89044;-7216;65200" total="1" respawn="0sec"/>
+		<npc id="18172" pos="183670;-88967;-7232;65528" total="1" respawn="0sec"/>
+		<npc id="18170" pos="184331;-88965;-7232;32840" total="1" respawn="0sec"/>
+		<npc id="18167" pos="183919;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="183758;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="183600;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="184402;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="184240;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="184082;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="183921;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18170" pos="183759;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="183601;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="184403;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18170" pos="184241;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="184083;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="184419;-89081;-7232;32840" total="1" respawn="60sec"/>
+		<npc id="18167" pos="184417;-88853;-7232;32840" total="1" respawn="60sec"/>
+		<npc id="18166" total="3" respawn="60sec"/>
+		<npc id="18169" total="3" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type2_c" territory="godard17_2515_03" maximumNpcs="30">
+		<ai type="royal_rush_maker"/>
+		<npc id="18153" pos="183960;-88964;-7232;32936" total="1" respawn="0sec"/>
+		<npc id="18169" pos="183996;-89091;-7216;16408" total="1" respawn="60sec"/>
+		<npc id="18169" pos="183996;-88852;-7216;49136" total="1" respawn="60sec"/>
+		<npc id="18171" pos="183524;-88925;-7216;208" total="1" respawn="0sec"/>
+		<npc id="18167" pos="184488;-88962;-7216;32848" total="1" respawn="60sec"/>
+		<npc id="18167" pos="184314;-88862;-7216;40728" total="1" respawn="0sec"/>
+		<npc id="18167" pos="184313;-89128;-7216;24464" total="1" respawn="0sec"/>
+		<npc id="18171" pos="183524;-89044;-7216;65200" total="1" respawn="0sec"/>
+		<npc id="18172" pos="183670;-88967;-7232;65528" total="1" respawn="0sec"/>
+		<npc id="18170" pos="184331;-88965;-7232;32840" total="1" respawn="0sec"/>
+		<npc id="18170" pos="183919;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="183758;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="183600;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="184402;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18167" pos="184240;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="184082;-89195;-7216;16408" total="1" respawn="0sec"/>
+		<npc id="18170" pos="183921;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="183759;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18170" pos="183601;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18170" pos="184403;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18167" pos="184241;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18170" pos="184083;-88788;-7216;49152" total="1" respawn="0sec"/>
+		<npc id="18171" pos="184419;-89081;-7232;32840" total="1" respawn="60sec"/>
+		<npc id="18171" pos="184417;-88853;-7232;32840" total="1" respawn="60sec"/>
+		<npc id="18172" total="2" respawn="60sec"/>
+		<npc id="18171" total="2" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard17_2515_04" minZ="-7264" maxZ="-6964">
+		<node x="185185" y="-89509"/>
+		<node x="186417" y="-89509"/>
+		<node x="186417" y="-88429"/>
+		<node x="185184" y="-88430"/>
+	</territory>
+	<npcmaker name="2nd_trigger_d" territory="godard17_2515_04" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31476" pos="185792;-88966;-7216;32936" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type1_d" territory="godard17_2515_04" maximumNpcs="30">
+		<ai type="royal_rush_maker"/>
+		<npc id="18176" pos="185471;-88983;-7217;0" total="1" respawn="0sec"/>
+		<npc id="18200" pos="185242;-88497;-7168;57056" total="1" respawn="300sec"/>
+		<npc id="18201" pos="186346;-88505;-7168;41832" total="1" respawn="300sec"/>
+		<npc id="18202" pos="186356;-89453;-7168;25360" total="1" respawn="300sec"/>
+		<npc id="18203" pos="185249;-89438;-7168;9264" total="1" respawn="300sec"/>
+		<npc id="18185" pos="186041;-88859;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18185" pos="186039;-89086;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="186205;-88974;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="185384;-89365;-7232;8248" total="1" respawn="300sec"/>
+		<npc id="18186" pos="185394;-88585;-7232;59872" total="1" respawn="300sec"/>
+		<npc id="18188" pos="186108;-89218;-7200;23520" total="1" respawn="300sec"/>
+		<npc id="18188" pos="186108;-88719;-7200;38672" total="1" respawn="300sec"/>
+		<npc id="18188" pos="185501;-88718;-7200;57088" total="1" respawn="300sec"/>
+		<npc id="18188" pos="185501;-89219;-7200;7248" total="1" respawn="300sec"/>
+		<npc id="18187" pos="185794;-89212;-7200;15704" total="1" respawn="300sec"/>
+		<npc id="18187" pos="185796;-88743;-7200;48792" total="1" respawn="300sec"/>
+		<npc id="18190" pos="185958;-88971;-7192;32856" total="1" respawn="300sec"/>
+		<npc id="18185" pos="185325;-89077;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18185" pos="185322;-88883;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18189" total="3" respawn="60sec"/>
+		<npc id="18190" total="3" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type2_d" territory="godard17_2515_04" maximumNpcs="30">
+		<ai type="royal_rush_maker"/>
+		<npc id="18177" pos="185471;-88983;-7217;0" total="1" respawn="0sec"/>
+		<npc id="18201" pos="185242;-88497;-7168;57056" total="1" respawn="300sec"/>
+		<npc id="18200" pos="186346;-88505;-7168;41832" total="1" respawn="300sec"/>
+		<npc id="18203" pos="186356;-89453;-7168;25360" total="1" respawn="300sec"/>
+		<npc id="18202" pos="185249;-89438;-7168;9264" total="1" respawn="300sec"/>
+		<npc id="18185" pos="186041;-88859;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18185" pos="186039;-89086;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="186205;-88974;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="185384;-89365;-7232;8248" total="1" respawn="300sec"/>
+		<npc id="18186" pos="185394;-88585;-7232;59872" total="1" respawn="300sec"/>
+		<npc id="18191" pos="186108;-89218;-7200;23520" total="1" respawn="300sec"/>
+		<npc id="18191" pos="186108;-88719;-7200;38672" total="1" respawn="300sec"/>
+		<npc id="18191" pos="185501;-88718;-7200;57088" total="1" respawn="300sec"/>
+		<npc id="18191" pos="185501;-89219;-7200;7248" total="1" respawn="300sec"/>
+		<npc id="18192" pos="185794;-89212;-7200;15704" total="1" respawn="300sec"/>
+		<npc id="18192" pos="185796;-88743;-7200;48792" total="1" respawn="300sec"/>
+		<npc id="18190" pos="185958;-88971;-7192;32856" total="1" respawn="300sec"/>
+		<npc id="18185" pos="185325;-89077;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18185" pos="185322;-88883;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18192" total="2" respawn="60sec"/>
+		<npc id="18193" total="2" respawn="60sec"/>
+		<npc id="18194" total="2" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type3_d" territory="godard17_2515_04" maximumNpcs="34">
+		<ai type="royal_rush_maker"/>
+		<npc id="18178" pos="185471;-88983;-7217;0" total="1" respawn="0sec"/>
+		<npc id="18200" pos="185242;-88497;-7168;57056" total="1" respawn="300sec"/>
+		<npc id="18201" pos="186346;-88505;-7168;41832" total="1" respawn="300sec"/>
+		<npc id="18202" pos="186356;-89453;-7168;25360" total="1" respawn="300sec"/>
+		<npc id="18203" pos="185249;-89438;-7168;9264" total="1" respawn="300sec"/>
+		<npc id="18185" pos="186041;-88859;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18185" pos="186039;-89086;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="186205;-88974;-7232;32840" total="1" respawn="300sec"/>
+		<npc id="18186" pos="185384;-89365;-7232;8248" total="1" respawn="300sec"/>
+		<npc id="18186" pos="185394;-88585;-7232;59872" total="1" respawn="300sec"/>
+		<npc id="18188" pos="186108;-89218;-7200;23520" total="1" respawn="300sec"/>
+		<npc id="18191" pos="186108;-88719;-7200;38672" total="1" respawn="300sec"/>
+		<npc id="18188" pos="185501;-88718;-7200;57088" total="1" respawn="300sec"/>
+		<npc id="18191" pos="185501;-89219;-7200;7248" total="1" respawn="300sec"/>
+		<npc id="18187" pos="185794;-89212;-7200;15704" total="1" respawn="300sec"/>
+		<npc id="18192" pos="185796;-88743;-7200;48792" total="1" respawn="300sec"/>
+		<npc id="18190" pos="185958;-88971;-7192;32856" total="1" respawn="300sec"/>
+		<npc id="18185" pos="185325;-89077;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18185" pos="185322;-88883;-7232;40" total="1" respawn="60sec"/>
+		<npc id="18189" total="2" respawn="60sec"/>
+		<npc id="18190" total="2" respawn="60sec"/>
+		<npc id="18192" total="2" respawn="60sec"/>
+		<npc id="18193" total="2" respawn="60sec"/>
+		<npc id="18194" total="2" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard17_2515_05" minZ="-7265" maxZ="-7065">
+		<node x="187040" y="-89323"/>
+		<node x="188228" y="-89425"/>
+		<node x="188227" y="-88441"/>
+		<node x="187049" y="-88588"/>
+	</territory>
+	<npcmaker name="2nd_trigger_e" territory="godard17_2515_05" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31477" pos="187625;-88953;-7216;32936" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type1_boss_e" territory="godard17_2515_05" maximumNpcs="24">
+		<ai type="royal_rush_maker"/>
+		<npc id="18214" total="1" respawn="0sec"/>
+		<npc id="18230" total="5" respawn="60sec"/>
+		<npc id="18220" total="4" respawn="60sec"/>
+		<npc id="18227" total="2" respawn="60sec"/>
+		<npc id="18222" total="2" respawn="60sec"/>
+		<npc id="18224" total="2" respawn="60sec"/>
+		<npc id="18225" total="2" respawn="60sec"/>
+		<npc id="18243" pos="188336;-88896;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188336;-88966;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188336;-89034;-7200;33096" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type1_e" territory="godard17_2515_05" maximumNpcs="44">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="2nd_type1_boss_e"/>
+		</ai>
+		<npc id="18224" pos="187780;-88963;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18225" pos="187306;-88950;-7202;0" total="1" respawn="0sec"/>
+		<npc id="18226" pos="187133;-89138;-7217;5632" total="1" respawn="0sec"/>
+		<npc id="18226" pos="187130;-88784;-7217;58304" total="1" respawn="0sec"/>
+		<npc id="18220" pos="187435;-88662;-7217;49280" total="1" respawn="0sec"/>
+		<npc id="18221" pos="187438;-89272;-7217;16336" total="1" respawn="0sec"/>
+		<npc id="18223" pos="188108;-89035;-7217;32712" total="1" respawn="0sec"/>
+		<npc id="18223" pos="188105;-88882;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18223" pos="187613;-88718;-7200;48888" total="1" respawn="0sec"/>
+		<npc id="18223" pos="187617;-89209;-7200;16104" total="1" respawn="0sec"/>
+		<npc id="18222" pos="187546;-89132;-7202;16888" total="1" respawn="0sec"/>
+		<npc id="18222" pos="187539;-88788;-7202;49592" total="1" respawn="0sec"/>
+		<npc id="18223" pos="187920;-88722;-7200;48880" total="1" respawn="0sec"/>
+		<npc id="18223" pos="187919;-89209;-7200;16208" total="1" respawn="0sec"/>
+		<npc id="18223" pos="187307;-88724;-7200;48880" total="1" respawn="0sec"/>
+		<npc id="18223" pos="187315;-89211;-7200;16208" total="1" respawn="0sec"/>
+		<npc id="18220" pos="187749;-89273;-7217;16336" total="1" respawn="0sec"/>
+		<npc id="18221" pos="187784;-88670;-7217;49496" total="1" respawn="0sec"/>
+		<npc id="18227" pos="187863;-89078;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18227" pos="187859;-88811;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18226" pos="187310;-88811;-7217;49016" total="1" respawn="0sec"/>
+		<npc id="18226" pos="187310;-89085;-7217;16200" total="1" respawn="0sec"/>
+		<npc id="18220" pos="188008;-88959;-7217;32800" total="1" respawn="0sec"/>
+		<npc id="18221" pos="187102;-88953;-7217;65408" total="1" respawn="0sec"/>
+		<npc id="18222" total="2" respawn="0sec"/>
+		<npc id="18224" total="2" respawn="0sec"/>
+		<npc id="18225" total="2" respawn="0sec"/>
+		<npc id="18230" total="4" respawn="0sec"/>
+		<npc id="18243" pos="188200;-89114;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-89185;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-89257;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-89328;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-89395;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-88507;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-88577;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-88650;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-88720;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-88787;-7200;33096" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type2_boss_e" territory="godard17_2515_05" maximumNpcs="24">
+		<ai type="royal_rush_maker"/>
+		<npc id="18215" total="1" respawn="0sec"/>
+		<npc id="18230" total="5" respawn="60sec"/>
+		<npc id="18220" total="4" respawn="60sec"/>
+		<npc id="18224" total="2" respawn="60sec"/>
+		<npc id="18229" total="2" respawn="60sec"/>
+		<npc id="18227" total="2" respawn="60sec"/>
+		<npc id="18228" total="2" respawn="60sec"/>
+		<npc id="18243" pos="188336;-88896;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188336;-88966;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188336;-89034;-7200;33096" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_type2_e" territory="godard17_2515_05" maximumNpcs="42">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="2nd_type2_boss_e"/>
+		</ai>
+		<npc id="18227" pos="187780;-88963;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18227" pos="187306;-88950;-7202;0" total="1" respawn="0sec"/>
+		<npc id="18223" pos="187133;-89138;-7217;5632" total="1" respawn="0sec"/>
+		<npc id="18223" pos="187130;-88784;-7217;58304" total="1" respawn="0sec"/>
+		<npc id="18220" pos="187435;-88662;-7217;49280" total="1" respawn="0sec"/>
+		<npc id="18221" pos="187438;-89272;-7217;16336" total="1" respawn="0sec"/>
+		<npc id="18226" pos="188108;-89035;-7217;32712" total="1" respawn="0sec"/>
+		<npc id="18226" pos="188105;-88882;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18226" pos="187613;-88718;-7200;48888" total="1" respawn="0sec"/>
+		<npc id="18226" pos="187617;-89209;-7200;16104" total="1" respawn="0sec"/>
+		<npc id="18227" pos="187546;-89132;-7202;16888" total="1" respawn="0sec"/>
+		<npc id="18227" pos="187539;-88788;-7202;49592" total="1" respawn="0sec"/>
+		<npc id="18226" pos="187920;-88722;-7200;48880" total="1" respawn="0sec"/>
+		<npc id="18226" pos="187919;-89209;-7200;16208" total="1" respawn="0sec"/>
+		<npc id="18226" pos="187307;-88724;-7200;48880" total="1" respawn="0sec"/>
+		<npc id="18226" pos="187315;-89211;-7200;16208" total="1" respawn="0sec"/>
+		<npc id="18220" pos="187749;-89273;-7217;16336" total="1" respawn="0sec"/>
+		<npc id="18221" pos="187784;-88670;-7217;49496" total="1" respawn="0sec"/>
+		<npc id="18224" pos="187863;-89078;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18224" pos="187859;-88811;-7217;32416" total="1" respawn="0sec"/>
+		<npc id="18223" pos="187310;-88811;-7217;49016" total="1" respawn="0sec"/>
+		<npc id="18223" pos="187310;-89085;-7217;16200" total="1" respawn="0sec"/>
+		<npc id="18220" pos="188008;-88959;-7217;32800" total="1" respawn="0sec"/>
+		<npc id="18221" pos="187102;-88953;-7217;65408" total="1" respawn="0sec"/>
+		<npc id="18229" total="2" respawn="0sec"/>
+		<npc id="18227" total="2" respawn="0sec"/>
+		<npc id="18228" total="2" respawn="0sec"/>
+		<npc id="18230" total="2" respawn="0sec"/>
+		<npc id="18243" pos="188200;-89114;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-89185;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-89257;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-89328;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-89395;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-88507;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-88577;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-88650;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-88720;-7200;33096" total="1" respawn="0sec"/>
+		<npc id="18243" pos="188200;-88787;-7200;33096" total="1" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard17_2515_06" minZ="-7267" maxZ="-6917">
+		<node x="188863" y="-89623"/>
+		<node x="190179" y="-89611"/>
+		<node x="190167" y="-88310"/>
+		<node x="188872" y="-88303"/>
+	</territory>
+	<npcmaker name="2nd_boss_treasure" territory="godard17_2515_06" maximumNpcs="200">
+		<ai type="royal_spawn_treasurebox"/>
+		<npc id="18256" total="200" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_boss_type1" territory="godard17_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="2nd_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25339" pos="189801;-88965;-7184;32520" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_boss_type2" territory="godard17_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="2nd_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25342" pos="189801;-88965;-7184;32520" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_boss_type3" territory="godard17_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="2nd_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25346" pos="189801;-88965;-7184;32520" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="2nd_boss_type4" territory="godard17_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="2nd_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25349" pos="189801;-88965;-7184;32520" total="1" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard17_npc2515_21" minZ="-7270" maxZ="-7020">
+		<node x="179579" y="-89768"/>
+		<node x="190542" y="-89973"/>
+		<node x="190540" y="-87925"/>
+		<node x="179578" y="-88135"/>
+	</territory>
+	<npcmaker name="godard14_npc2515_2101" territory="godard17_npc2515_21" maximumNpcs="1001">
+		<ai type="default_maker"/>
+		<npc id="31922" pos="179292;-88981;-7200;32264" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard18_2515_01" minZ="-7264" maxZ="-6964">
+		<node x="172678" y="-86332"/>
+		<node x="173749" y="-86333"/>
+		<node x="173749" y="-85103"/>
+		<node x="172683" y="-85104"/>
+	</territory>
+	<npcmaker name="3rd_trigger_a" territory="godard18_2515_01" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31478" pos="173218;-85703;-7216;49400" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type1_a" territory="godard18_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18126" pos="173217;-85222;-7216;49080" total="1" respawn="0sec"/>
+		<npc id="18135" pos="172984;-85704;-7174;984" total="1" respawn="300sec"/>
+		<npc id="18135" pos="173427;-85695;-7174;32776" total="1" respawn="300sec"/>
+		<npc id="18136" pos="173218;-85960;-7174;16928" total="1" respawn="300sec"/>
+		<npc id="18136" pos="173218;-85455;-7174;49136" total="1" respawn="300sec"/>
+		<npc id="18134" pos="173438;-85968;-7174;24656" total="1" respawn="300sec"/>
+		<npc id="18134" pos="173423;-85469;-7174;40592" total="1" respawn="300sec"/>
+		<npc id="18134" pos="173013;-85474;-7174;55728" total="1" respawn="300sec"/>
+		<npc id="18134" pos="173002;-85968;-7174;8984" total="1" respawn="300sec"/>
+		<npc id="18137" pos="172918;-85313;-7185;65096" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173538;-85308;-7185;33144" total="1" respawn="300sec"/>
+		<npc id="18132" pos="173365;-85267;-7216;37824" total="1" respawn="60sec"/>
+		<npc id="18132" pos="173076;-85275;-7216;56512" total="1" respawn="60sec"/>
+		<npc id="18132" pos="172859;-86090;-7216;9744" total="1" respawn="60sec"/>
+		<npc id="18132" pos="173585;-86101;-7216;22952" total="1" respawn="60sec"/>
+		<npc id="18132" pos="172767;-85688;-7216;65128" total="1" respawn="60sec"/>
+		<npc id="18132" pos="173675;-85690;-7216;32496" total="1" respawn="60sec"/>
+		<npc id="18136" total="2" respawn="60sec"/>
+		<npc id="18135" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type2_a" territory="godard18_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18127" pos="173217;-85222;-7216;49080" total="1" respawn="0sec"/>
+		<npc id="18140" pos="172984;-85704;-7174;984" total="1" respawn="300sec"/>
+		<npc id="18140" pos="173427;-85695;-7174;32776" total="1" respawn="300sec"/>
+		<npc id="18138" pos="173218;-85960;-7174;16928" total="1" respawn="300sec"/>
+		<npc id="18138" pos="173218;-85455;-7174;49136" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173438;-85968;-7174;24656" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173423;-85469;-7174;40592" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173013;-85474;-7174;55728" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173002;-85968;-7174;8984" total="1" respawn="300sec"/>
+		<npc id="18137" pos="172918;-85313;-7185;65096" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173538;-85308;-7185;33144" total="1" respawn="300sec"/>
+		<npc id="18132" pos="173365;-85267;-7216;37824" total="1" respawn="60sec"/>
+		<npc id="18132" pos="173076;-85275;-7216;56512" total="1" respawn="60sec"/>
+		<npc id="18132" pos="172859;-86090;-7216;9744" total="1" respawn="60sec"/>
+		<npc id="18132" pos="173585;-86101;-7216;22952" total="1" respawn="60sec"/>
+		<npc id="18132" pos="172767;-85688;-7216;65128" total="1" respawn="60sec"/>
+		<npc id="18132" pos="173675;-85690;-7216;32496" total="1" respawn="60sec"/>
+		<npc id="18138" total="2" respawn="60sec"/>
+		<npc id="18139" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type3_a" territory="godard18_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18128" pos="173217;-85222;-7216;49080" total="1" respawn="0sec"/>
+		<npc id="18135" pos="172984;-85704;-7174;984" total="1" respawn="300sec"/>
+		<npc id="18135" pos="173427;-85695;-7174;32776" total="1" respawn="300sec"/>
+		<npc id="18133" pos="173218;-85960;-7174;16928" total="1" respawn="300sec"/>
+		<npc id="18133" pos="173218;-85455;-7174;49136" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173438;-85968;-7174;24656" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173423;-85469;-7174;40592" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173013;-85474;-7174;55728" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173002;-85968;-7174;8984" total="1" respawn="300sec"/>
+		<npc id="18137" pos="172918;-85313;-7185;65096" total="1" respawn="300sec"/>
+		<npc id="18137" pos="173538;-85308;-7185;33144" total="1" respawn="300sec"/>
+		<npc id="18132" pos="173365;-85267;-7216;37824" total="1" respawn="60sec"/>
+		<npc id="18132" pos="173076;-85275;-7216;56512" total="1" respawn="60sec"/>
+		<npc id="18132" pos="172859;-86090;-7216;9744" total="1" respawn="60sec"/>
+		<npc id="18132" pos="173585;-86101;-7216;22952" total="1" respawn="60sec"/>
+		<npc id="18132" pos="172767;-85688;-7216;65128" total="1" respawn="60sec"/>
+		<npc id="18132" pos="173675;-85690;-7216;32496" total="1" respawn="60sec"/>
+		<npc id="18138" total="2" respawn="60sec"/>
+		<npc id="18136" total="2" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard18_2515_02" minZ="-7264" maxZ="-6964">
+		<node x="172815" y="-84492"/>
+		<node x="173603" y="-84495"/>
+		<node x="173601" y="-83319"/>
+		<node x="172820" y="-83312"/>
+	</territory>
+	<npcmaker name="3rd_trigger_b" territory="godard18_2515_02" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31479" pos="173206;-83929;-7216;49592" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type1_b1" territory="godard18_2515_02" maximumNpcs="16">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="3rd_type1_b2"/>
+		</ai>
+		<npc id="18146" pos="173443;-84278;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18146" pos="173420;-83544;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18146" pos="172967;-84272;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18146" pos="172955;-83555;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18148" pos="173434;-83903;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18148" pos="173441;-84091;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18148" pos="173425;-83709;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18148" pos="172960;-83908;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18148" pos="172962;-84092;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18148" pos="172960;-83725;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18148" pos="173308;-84301;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18148" pos="173120;-84305;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18148" pos="173087;-83561;-7216;50672" total="1" respawn="0sec"/>
+		<npc id="18148" pos="173308;-83559;-7216;50672" total="1" respawn="0sec"/>
+		<npc id="18149" total="2" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type1_b2" territory="godard18_2515_02" maximumNpcs="18">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="3rd_type1_b3"/>
+		</ai>
+		<npc id="18146" pos="172962;-84092;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18146" pos="172960;-83725;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18146" pos="173308;-84301;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18146" pos="173120;-84305;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18148" total="9" respawn="0sec"/>
+		<npc id="18146" total="2" respawn="0sec"/>
+		<npc id="18149" total="3" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type1_b3" territory="godard18_2515_02" maximumNpcs="20">
+		<ai type="royal_rush_maker"/>
+		<npc id="18143" total="1" respawn="0sec"/>
+		<npc id="18146" total="6" respawn="60sec"/>
+		<npc id="18148" total="6" respawn="60sec"/>
+		<npc id="18149" total="5" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type2_b1" territory="godard18_2515_02" maximumNpcs="16">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="3rd_type2_b2"/>
+		</ai>
+		<npc id="18145" pos="173443;-84278;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18145" pos="173420;-83544;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18145" pos="172967;-84272;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18145" pos="172955;-83555;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18147" pos="173434;-83903;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18147" pos="173441;-84091;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18147" pos="173425;-83709;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18147" pos="172960;-83908;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18147" pos="172962;-84092;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18147" pos="172960;-83725;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18147" pos="173308;-84301;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18147" pos="173120;-84305;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18147" pos="173087;-83561;-7216;50672" total="1" respawn="0sec"/>
+		<npc id="18147" pos="173308;-83559;-7216;50672" total="1" respawn="0sec"/>
+		<npc id="18149" total="2" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type2_b2" territory="godard18_2515_02" maximumNpcs="18">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="3rd_type2_b3"/>
+		</ai>
+		<npc id="18145" pos="172962;-84092;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18145" pos="172960;-83725;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18145" pos="173308;-84301;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18145" pos="173120;-84305;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18147" total="9" respawn="0sec"/>
+		<npc id="18145" total="2" respawn="0sec"/>
+		<npc id="18149" total="3" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type2_b3" territory="godard18_2515_02" maximumNpcs="20">
+		<ai type="royal_rush_maker"/>
+		<npc id="18143" total="1" respawn="0sec"/>
+		<npc id="18145" total="6" respawn="60sec"/>
+		<npc id="18147" total="6" respawn="60sec"/>
+		<npc id="18149" total="5" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard18_2515_03" minZ="-7264" maxZ="-6964">
+		<node x="172787" y="-82704"/>
+		<node x="173641" y="-82702"/>
+		<node x="173641" y="-81472"/>
+		<node x="172793" y="-81475"/>
+	</territory>
+	<npcmaker name="3rd_trigger_c" territory="godard18_2515_03" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31480" pos="173208;-82085;-7216;49592" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type1_c" territory="godard18_2515_03" maximumNpcs="32">
+		<ai type="royal_rush_maker"/>
+		<npc id="18154" pos="173208;-82085;-7232;49592" total="1" respawn="0sec"/>
+		<npc id="18169" pos="173314;-82087;-7216;32808" total="1" respawn="60sec"/>
+		<npc id="18169" pos="173075;-82086;-7216;0" total="1" respawn="60sec"/>
+		<npc id="18168" pos="173149;-82558;-7216;16608" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173184;-81594;-7216;49248" total="1" respawn="60sec"/>
+		<npc id="18168" pos="173085;-81769;-7216;57128" total="1" respawn="0sec"/>
+		<npc id="18168" pos="173351;-81769;-7216;40864" total="1" respawn="0sec"/>
+		<npc id="18168" pos="173268;-82558;-7216;16064" total="1" respawn="0sec"/>
+		<npc id="18172" pos="173191;-82413;-7232;16392" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173188;-81752;-7232;49240" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173418;-82163;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173419;-82324;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173419;-82482;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173417;-81681;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173417;-81842;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173418;-82000;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173012;-82162;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173012;-82324;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173012;-82482;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173011;-81680;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173011;-81841;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173011;-81999;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173304;-81663;-7232;49240" total="1" respawn="60sec"/>
+		<npc id="18167" pos="173076;-81666;-7232;49240" total="1" respawn="60sec"/>
+		<npc id="18166" total="3" respawn="60sec"/>
+		<npc id="18169" total="3" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type2_c" territory="godard18_2515_03" maximumNpcs="32">
+		<ai type="royal_rush_maker"/>
+		<npc id="18155" pos="173208;-82085;-7232;49592" total="1" respawn="0sec"/>
+		<npc id="18169" pos="173314;-82087;-7216;32808" total="1" respawn="60sec"/>
+		<npc id="18169" pos="173075;-82086;-7216;0" total="1" respawn="60sec"/>
+		<npc id="18171" pos="173149;-82558;-7216;16608" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173184;-81594;-7216;49248" total="1" respawn="60sec"/>
+		<npc id="18167" pos="173085;-81769;-7216;57128" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173351;-81769;-7216;40864" total="1" respawn="0sec"/>
+		<npc id="18171" pos="173268;-82558;-7216;16064" total="1" respawn="0sec"/>
+		<npc id="18172" pos="173191;-82413;-7232;16392" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173188;-81752;-7232;49240" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173418;-82163;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173419;-82324;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173419;-82482;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173417;-81681;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173417;-81842;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173418;-82000;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173012;-82162;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173012;-82324;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173012;-82482;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173011;-81680;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="173011;-81841;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18170" pos="173011;-81999;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18171" pos="173304;-81663;-7232;49240" total="1" respawn="60sec"/>
+		<npc id="18171" pos="173076;-81666;-7232;49240" total="1" respawn="60sec"/>
+		<npc id="18172" total="3" respawn="60sec"/>
+		<npc id="18171" total="3" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard18_2515_04" minZ="-7254" maxZ="-6954">
+		<node x="172654" y="-80897"/>
+		<node x="173725" y="-80898"/>
+		<node x="173725" y="-79668"/>
+		<node x="172660" y="-79668"/>
+	</territory>
+	<npcmaker name="3rd_trigger_d" territory="godard18_2515_04" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31481" pos="173191;-80290;-7216;49288" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type1_d" territory="godard18_2515_04" maximumNpcs="30">
+		<ai type="royal_rush_maker"/>
+		<npc id="18179" pos="173207;-80611;-7217;16352" total="1" respawn="0sec"/>
+		<npc id="18207" pos="173662;-80834;-7168;25616" total="1" respawn="0sec"/>
+		<npc id="18205" pos="172732;-79735;-7168;58184" total="1" respawn="0sec"/>
+		<npc id="18206" pos="172720;-80839;-7168;7872" total="1" respawn="0sec"/>
+		<npc id="18204" pos="173679;-79728;-7168;41712" total="1" respawn="0sec"/>
+		<npc id="18185" pos="173085;-80041;-7232;49192" total="1" respawn="300sec"/>
+		<npc id="18185" pos="173311;-80044;-7232;49192" total="1" respawn="300sec"/>
+		<npc id="18186" pos="173200;-79877;-7232;49192" total="1" respawn="300sec"/>
+		<npc id="18186" pos="173589;-80699;-7232;24600" total="1" respawn="300sec"/>
+		<npc id="18186" pos="172809;-80687;-7232;10688" total="1" respawn="300sec"/>
+		<npc id="18188" pos="173444;-79975;-7200;39872" total="1" respawn="300sec"/>
+		<npc id="18188" pos="172945;-79974;-7200;55024" total="1" respawn="300sec"/>
+		<npc id="18188" pos="172942;-80580;-7200;7904" total="1" respawn="300sec"/>
+		<npc id="18188" pos="173443;-80582;-7200;23600" total="1" respawn="300sec"/>
+		<npc id="18187" pos="173437;-80289;-7200;32056" total="1" respawn="300sec"/>
+		<npc id="18187" pos="172968;-80286;-7200;65144" total="1" respawn="300sec"/>
+		<npc id="18190" pos="173197;-80124;-7192;49208" total="1" respawn="300sec"/>
+		<npc id="18185" pos="173301;-80758;-7232;16392" total="1" respawn="60sec"/>
+		<npc id="18185" pos="173107;-80759;-7232;16392" total="1" respawn="60sec"/>
+		<npc id="18189" total="3" respawn="60sec"/>
+		<npc id="18190" total="3" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type2_d" territory="godard18_2515_04" maximumNpcs="33">
+		<ai type="royal_rush_maker"/>
+		<npc id="18180" pos="173207;-80611;-7217;16352" total="1" respawn="0sec"/>
+		<npc id="18204" pos="173662;-80834;-7168;25616" total="1" respawn="0sec"/>
+		<npc id="18205" pos="172732;-79735;-7168;58184" total="1" respawn="0sec"/>
+		<npc id="18206" pos="172720;-80839;-7168;7872" total="1" respawn="0sec"/>
+		<npc id="18207" pos="173679;-79728;-7168;41712" total="1" respawn="0sec"/>
+		<npc id="18185" pos="173085;-80041;-7232;49192" total="1" respawn="300sec"/>
+		<npc id="18185" pos="173311;-80044;-7232;49192" total="1" respawn="300sec"/>
+		<npc id="18186" pos="173200;-79877;-7232;49192" total="1" respawn="300sec"/>
+		<npc id="18186" pos="173589;-80699;-7232;24600" total="1" respawn="300sec"/>
+		<npc id="18186" pos="172809;-80687;-7232;10688" total="1" respawn="300sec"/>
+		<npc id="18191" pos="173444;-79975;-7200;39872" total="1" respawn="300sec"/>
+		<npc id="18191" pos="172945;-79974;-7200;55024" total="1" respawn="300sec"/>
+		<npc id="18191" pos="172942;-80580;-7200;7904" total="1" respawn="300sec"/>
+		<npc id="18191" pos="173443;-80582;-7200;23600" total="1" respawn="300sec"/>
+		<npc id="18192" pos="173437;-80289;-7200;32056" total="1" respawn="300sec"/>
+		<npc id="18192" pos="172968;-80286;-7200;65144" total="1" respawn="300sec"/>
+		<npc id="18190" pos="173197;-80124;-7192;49208" total="1" respawn="300sec"/>
+		<npc id="18185" pos="173301;-80758;-7232;16392" total="1" respawn="60sec"/>
+		<npc id="18185" pos="173107;-80759;-7232;16392" total="1" respawn="60sec"/>
+		<npc id="18192" total="3" respawn="60sec"/>
+		<npc id="18193" total="3" respawn="60sec"/>
+		<npc id="18194" total="3" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type3_d" territory="godard18_2515_04" maximumNpcs="39">
+		<ai type="royal_rush_maker"/>
+		<npc id="18181" pos="173207;-80611;-7217;16352" total="1" respawn="0sec"/>
+		<npc id="18204" pos="173662;-80834;-7168;25616" total="1" respawn="0sec"/>
+		<npc id="18205" pos="172732;-79735;-7168;58184" total="1" respawn="0sec"/>
+		<npc id="18206" pos="172720;-80839;-7168;7872" total="1" respawn="0sec"/>
+		<npc id="18207" pos="173679;-79728;-7168;41712" total="1" respawn="0sec"/>
+		<npc id="18185" pos="173085;-80041;-7232;49192" total="1" respawn="300sec"/>
+		<npc id="18185" pos="173311;-80044;-7232;49192" total="1" respawn="300sec"/>
+		<npc id="18186" pos="173200;-79877;-7232;49192" total="1" respawn="300sec"/>
+		<npc id="18186" pos="173589;-80699;-7232;24600" total="1" respawn="300sec"/>
+		<npc id="18186" pos="172809;-80687;-7232;10688" total="1" respawn="300sec"/>
+		<npc id="18188" pos="173444;-79975;-7200;39872" total="1" respawn="300sec"/>
+		<npc id="18191" pos="172945;-79974;-7200;55024" total="1" respawn="300sec"/>
+		<npc id="18188" pos="172942;-80580;-7200;7904" total="1" respawn="300sec"/>
+		<npc id="18191" pos="173443;-80582;-7200;23600" total="1" respawn="300sec"/>
+		<npc id="18187" pos="173437;-80289;-7200;32056" total="1" respawn="300sec"/>
+		<npc id="18192" pos="172968;-80286;-7200;65144" total="1" respawn="300sec"/>
+		<npc id="18190" pos="173197;-80124;-7192;49208" total="1" respawn="300sec"/>
+		<npc id="18185" pos="173301;-80758;-7232;16392" total="1" respawn="60sec"/>
+		<npc id="18185" pos="173107;-80759;-7232;16392" total="1" respawn="60sec"/>
+		<npc id="18189" total="3" respawn="60sec"/>
+		<npc id="18190" total="3" respawn="60sec"/>
+		<npc id="18192" total="3" respawn="60sec"/>
+		<npc id="18193" total="3" respawn="60sec"/>
+		<npc id="18194" total="3" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard18_2515_05" minZ="-7254" maxZ="-6954">
+		<node x="172858" y="-79061"/>
+		<node x="173521" y="-79050"/>
+		<node x="173672" y="-77859"/>
+		<node x="172702" y="-77858"/>
+	</territory>
+	<npcmaker name="3rd_trigger_e" territory="godard18_2515_05" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31482" pos="173198;-78465;-7216;49608" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type1_boss_e" territory="godard18_2515_05" maximumNpcs="24">
+		<ai type="royal_rush_maker"/>
+		<npc id="18216" total="1" respawn="0sec"/>
+		<npc id="18230" total="5" respawn="60sec"/>
+		<npc id="18220" total="4" respawn="60sec"/>
+		<npc id="18227" total="2" respawn="60sec"/>
+		<npc id="18222" total="2" respawn="60sec"/>
+		<npc id="18224" total="2" respawn="60sec"/>
+		<npc id="18225" total="2" respawn="60sec"/>
+		<npc id="18243" pos="173132;-77749;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173198;-77749;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173261;-77749;-7200;49152" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type1_e" territory="godard18_2515_05" maximumNpcs="44">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="3rd_type1_boss_e"/>
+		</ai>
+		<npc id="18224" pos="173189;-78304;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18225" pos="173168;-78794;-7202;16184" total="1" respawn="0sec"/>
+		<npc id="18226" pos="173353;-78971;-7217;21816" total="1" respawn="0sec"/>
+		<npc id="18226" pos="172999;-78968;-7217;8952" total="1" respawn="0sec"/>
+		<npc id="18220" pos="172891;-78672;-7217;65464" total="1" respawn="0sec"/>
+		<npc id="18221" pos="173493;-78669;-7217;32520" total="1" respawn="0sec"/>
+		<npc id="18223" pos="173269;-77994;-7217;48896" total="1" respawn="0sec"/>
+		<npc id="18223" pos="173116;-77995;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18223" pos="172942;-78483;-7200;65072" total="1" respawn="0sec"/>
+		<npc id="18223" pos="173433;-78489;-7200;32288" total="1" respawn="0sec"/>
+		<npc id="18222" pos="173355;-78558;-7202;33072" total="1" respawn="0sec"/>
+		<npc id="18222" pos="173011;-78559;-7202;240" total="1" respawn="0sec"/>
+		<npc id="18223" pos="172952;-78176;-7200;65064" total="1" respawn="0sec"/>
+		<npc id="18223" pos="173439;-78187;-7200;32392" total="1" respawn="0sec"/>
+		<npc id="18223" pos="172942;-78789;-7200;65064" total="1" respawn="0sec"/>
+		<npc id="18223" pos="173429;-78790;-7200;32392" total="1" respawn="0sec"/>
+		<npc id="18220" pos="173484;-78365;-7217;32520" total="1" respawn="0sec"/>
+		<npc id="18221" pos="172895;-78308;-7217;144" total="1" respawn="0sec"/>
+		<npc id="18227" pos="173307;-78240;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18227" pos="173041;-78240;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18226" pos="173030;-78788;-7217;65200" total="1" respawn="0sec"/>
+		<npc id="18226" pos="173304;-78793;-7217;32384" total="1" respawn="0sec"/>
+		<npc id="18220" pos="173191;-78093;-7217;48984" total="1" respawn="0sec"/>
+		<npc id="18221" pos="173167;-78998;-7217;16056" total="1" respawn="0sec"/>
+		<npc id="18222" total="2" respawn="0sec"/>
+		<npc id="18224" total="2" respawn="0sec"/>
+		<npc id="18225" total="2" respawn="0sec"/>
+		<npc id="18230" total="4" respawn="0sec"/>
+		<npc id="18243" pos="173369;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173435;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173498;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173561;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173623;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="172757;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="172824;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="172886;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="172950;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173012;-77885;-7200;49152" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type2_boss_e" territory="godard18_2515_05" maximumNpcs="24">
+		<ai type="royal_rush_maker"/>
+		<npc id="18217" total="1" respawn="0sec"/>
+		<npc id="18230" total="5" respawn="60sec"/>
+		<npc id="18220" total="4" respawn="60sec"/>
+		<npc id="18224" total="2" respawn="60sec"/>
+		<npc id="18229" total="2" respawn="60sec"/>
+		<npc id="18227" total="2" respawn="60sec"/>
+		<npc id="18228" total="2" respawn="60sec"/>
+		<npc id="18243" pos="173132;-77749;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173198;-77749;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173261;-77749;-7200;49152" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_type2_e" territory="godard18_2515_05" maximumNpcs="44">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="3rd_type2_boss_e"/>
+		</ai>
+		<npc id="18227" pos="173185;-78288;-7202;49080" total="1" respawn="0sec"/>
+		<npc id="18227" pos="173168;-78794;-7202;16184" total="1" respawn="0sec"/>
+		<npc id="18223" pos="173353;-78971;-7217;21816" total="1" respawn="0sec"/>
+		<npc id="18223" pos="172999;-78968;-7217;8952" total="1" respawn="0sec"/>
+		<npc id="18220" pos="172891;-78672;-7217;65464" total="1" respawn="0sec"/>
+		<npc id="18221" pos="173493;-78669;-7217;32520" total="1" respawn="0sec"/>
+		<npc id="18226" pos="173269;-77994;-7217;48896" total="1" respawn="0sec"/>
+		<npc id="18226" pos="173116;-77995;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18226" pos="172942;-78483;-7200;65072" total="1" respawn="0sec"/>
+		<npc id="18226" pos="173433;-78489;-7200;32288" total="1" respawn="0sec"/>
+		<npc id="18227" pos="173355;-78558;-7202;33072" total="1" respawn="0sec"/>
+		<npc id="18227" pos="173011;-78559;-7202;240" total="1" respawn="0sec"/>
+		<npc id="18226" pos="172952;-78176;-7200;65064" total="1" respawn="0sec"/>
+		<npc id="18226" pos="173439;-78187;-7200;32392" total="1" respawn="0sec"/>
+		<npc id="18226" pos="172942;-78789;-7200;65064" total="1" respawn="0sec"/>
+		<npc id="18226" pos="173429;-78790;-7200;32392" total="1" respawn="0sec"/>
+		<npc id="18220" pos="173484;-78365;-7217;32520" total="1" respawn="0sec"/>
+		<npc id="18221" pos="172895;-78308;-7217;144" total="1" respawn="0sec"/>
+		<npc id="18224" pos="173307;-78240;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18224" pos="173041;-78240;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18223" pos="173030;-78788;-7217;65200" total="1" respawn="0sec"/>
+		<npc id="18223" pos="173304;-78793;-7217;32384" total="1" respawn="0sec"/>
+		<npc id="18220" pos="173191;-78093;-7217;48984" total="1" respawn="0sec"/>
+		<npc id="18221" pos="173167;-78998;-7217;16056" total="1" respawn="0sec"/>
+		<npc id="18229" total="2" respawn="0sec"/>
+		<npc id="18227" total="2" respawn="0sec"/>
+		<npc id="18228" total="2" respawn="0sec"/>
+		<npc id="18230" total="4" respawn="0sec"/>
+		<npc id="18243" pos="173369;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173435;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173498;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173561;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173623;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="172757;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="172824;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="172886;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="172950;-77885;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="173012;-77885;-7200;49152" total="1" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard18_2515_06" minZ="-7254" maxZ="-6954">
+		<node x="172534" y="-77213"/>
+		<node x="173838" y="-77208"/>
+		<node x="173841" y="-75904"/>
+		<node x="172527" y="-75894"/>
+	</territory>
+	<npcmaker name="3rd_boss_treasure" territory="godard18_2515_06" maximumNpcs="200">
+		<ai type="royal_spawn_treasurebox"/>
+		<npc id="18256" total="200" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_boss_type1" territory="godard18_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="3rd_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25339" pos="173193;-76299;-7184;49544" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_boss_type2" territory="godard18_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="3rd_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25342" pos="173193;-76299;-7184;49544" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_boss_type3" territory="godard18_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="3rd_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25346" pos="173193;-76299;-7184;49544" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="3rd_boss_type4" territory="godard18_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="3rd_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25349" pos="173193;-76299;-7184;49544" total="1" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard18_npc2515_31" minZ="-7263" maxZ="-7063">
+		<node x="172183" y="-86660"/>
+		<node x="174307" y="-86661"/>
+		<node x="174301" y="-75214"/>
+		<node x="172174" y="-75213"/>
+	</territory>
+	<npcmaker name="godard14_npc2515_3101" territory="godard18_npc2515_31" maximumNpcs="1001">
+		<ai type="default_maker"/>
+		<npc id="31923" pos="173202;-87004;-7200;49288" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard19_2515_01" minZ="-7264" maxZ="-6964">
+		<node x="175066" y="-82516"/>
+		<node x="176137" y="-82517"/>
+		<node x="176137" y="-81287"/>
+		<node x="175072" y="-81287"/>
+	</territory>
+	<npcmaker name="4th_trigger_a" territory="godard19_2515_01" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31483" pos="175601;-81905;-7216;49400" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type1_a" territory="godard19_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18129" pos="175599;-81424;-7216;49080" total="1" respawn="0sec"/>
+		<npc id="18135" pos="175366;-81906;-7174;984" total="1" respawn="300sec"/>
+		<npc id="18135" pos="175810;-81897;-7174;32776" total="1" respawn="300sec"/>
+		<npc id="18136" pos="175600;-82162;-7174;16928" total="1" respawn="300sec"/>
+		<npc id="18136" pos="175601;-81657;-7174;49136" total="1" respawn="300sec"/>
+		<npc id="18134" pos="175821;-82170;-7174;24656" total="1" respawn="300sec"/>
+		<npc id="18134" pos="175806;-81671;-7174;40592" total="1" respawn="300sec"/>
+		<npc id="18134" pos="175395;-81676;-7174;55728" total="1" respawn="300sec"/>
+		<npc id="18134" pos="175385;-82170;-7174;8984" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175301;-81515;-7185;65096" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175920;-81510;-7185;33144" total="1" respawn="300sec"/>
+		<npc id="18132" pos="175748;-81469;-7216;37824" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175458;-81477;-7216;56512" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175241;-82292;-7216;9744" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175967;-82303;-7216;22952" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175149;-81890;-7216;65128" total="1" respawn="60sec"/>
+		<npc id="18132" pos="176058;-81892;-7216;32496" total="1" respawn="60sec"/>
+		<npc id="18136" total="2" respawn="60sec"/>
+		<npc id="18135" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type2_a" territory="godard19_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18130" pos="175599;-81424;-7216;49080" total="1" respawn="0sec"/>
+		<npc id="18140" pos="175366;-81906;-7174;984" total="1" respawn="300sec"/>
+		<npc id="18140" pos="175810;-81897;-7174;32776" total="1" respawn="300sec"/>
+		<npc id="18138" pos="175600;-82162;-7174;16928" total="1" respawn="300sec"/>
+		<npc id="18138" pos="175601;-81657;-7174;49136" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175821;-82170;-7174;24656" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175806;-81671;-7174;40592" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175395;-81676;-7174;55728" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175385;-82170;-7174;8984" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175301;-81515;-7185;65096" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175920;-81510;-7185;33144" total="1" respawn="300sec"/>
+		<npc id="18132" pos="175748;-81469;-7216;37824" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175458;-81477;-7216;56512" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175241;-82292;-7216;9744" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175967;-82303;-7216;22952" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175149;-81890;-7216;65128" total="1" respawn="60sec"/>
+		<npc id="18132" pos="176058;-81892;-7216;32496" total="1" respawn="60sec"/>
+		<npc id="18138" total="2" respawn="60sec"/>
+		<npc id="18139" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type3_a" territory="godard19_2515_01" maximumNpcs="23">
+		<ai type="royal_rush_maker"/>
+		<npc id="18131" pos="175599;-81424;-7216;49080" total="1" respawn="0sec"/>
+		<npc id="18135" pos="175366;-81906;-7174;984" total="1" respawn="300sec"/>
+		<npc id="18135" pos="175810;-81897;-7174;32776" total="1" respawn="300sec"/>
+		<npc id="18133" pos="175600;-82162;-7174;16928" total="1" respawn="300sec"/>
+		<npc id="18133" pos="175601;-81657;-7174;49136" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175821;-82170;-7174;24656" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175806;-81671;-7174;40592" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175395;-81676;-7174;55728" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175385;-82170;-7174;8984" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175301;-81515;-7185;65096" total="1" respawn="300sec"/>
+		<npc id="18137" pos="175920;-81510;-7185;33144" total="1" respawn="300sec"/>
+		<npc id="18132" pos="175748;-81469;-7216;37824" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175458;-81477;-7216;56512" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175241;-82292;-7216;9744" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175967;-82303;-7216;22952" total="1" respawn="60sec"/>
+		<npc id="18132" pos="175149;-81890;-7216;65128" total="1" respawn="60sec"/>
+		<npc id="18132" pos="176058;-81892;-7216;32496" total="1" respawn="60sec"/>
+		<npc id="18138" total="2" respawn="60sec"/>
+		<npc id="18136" total="2" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard19_2515_02" minZ="-7264" maxZ="-6964">
+		<node x="175215" y="-80658"/>
+		<node x="175996" y="-80655"/>
+		<node x="175984" y="-79516"/>
+		<node x="175214" y="-79516"/>
+	</territory>
+	<npcmaker name="4th_trigger_b" territory="godard19_2515_02" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31484" pos="175619;-80094;-7216;49592" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type1_b1" territory="godard19_2515_02" maximumNpcs="16">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="4th_type1_b2"/>
+		</ai>
+		<npc id="18146" pos="175856;-80442;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18146" pos="175833;-79709;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18146" pos="175379;-80437;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18146" pos="175367;-79720;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18148" pos="175847;-80068;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18148" pos="175853;-80256;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18148" pos="175837;-79873;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18148" pos="175373;-80072;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18148" pos="175375;-80256;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18148" pos="175373;-79890;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18148" pos="175721;-80465;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18148" pos="175532;-80470;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18148" pos="175500;-79726;-7216;50672" total="1" respawn="0sec"/>
+		<npc id="18148" pos="175720;-79724;-7216;50672" total="1" respawn="0sec"/>
+		<npc id="18149" total="2" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type1_b2" territory="godard19_2515_02" maximumNpcs="18">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="4th_type1_b3"/>
+		</ai>
+		<npc id="18146" pos="175856;-80442;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18146" pos="175833;-79709;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18146" pos="175379;-80437;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18146" pos="175367;-79720;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18148" total="9" respawn="0sec"/>
+		<npc id="18146" total="2" respawn="0sec"/>
+		<npc id="18149" total="3" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type1_b3" territory="godard19_2515_02" maximumNpcs="19">
+		<ai type="royal_rush_maker"/>
+		<npc id="18144" total="1" respawn="0sec"/>
+		<npc id="18146" total="5" respawn="60sec"/>
+		<npc id="18148" total="6" respawn="60sec"/>
+		<npc id="18149" total="5" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type2_b1" territory="godard19_2515_02" maximumNpcs="16">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="4th_type2_b2"/>
+		</ai>
+		<npc id="18145" pos="175856;-80442;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18145" pos="175833;-79709;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18145" pos="175379;-80437;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18145" pos="175367;-79720;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18147" pos="175847;-80068;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18147" pos="175853;-80256;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18147" pos="175837;-79873;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18147" pos="175373;-80072;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18147" pos="175375;-80256;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18147" pos="175373;-79890;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18147" pos="175721;-80465;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18147" pos="175532;-80470;-7216;16920" total="1" respawn="0sec"/>
+		<npc id="18147" pos="175500;-79726;-7216;50672" total="1" respawn="0sec"/>
+		<npc id="18147" pos="175720;-79724;-7216;50672" total="1" respawn="0sec"/>
+		<npc id="18149" total="2" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type2_b2" territory="godard19_2515_02" maximumNpcs="18">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="4th_type2_b3"/>
+		</ai>
+		<npc id="18145" pos="175856;-80442;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18145" pos="175833;-79709;-7216;32768" total="1" respawn="0sec"/>
+		<npc id="18145" pos="175379;-80437;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18145" pos="175367;-79720;-7216;656" total="1" respawn="0sec"/>
+		<npc id="18147" total="9" respawn="0sec"/>
+		<npc id="18145" total="2" respawn="0sec"/>
+		<npc id="18149" total="3" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type2_b3" territory="godard19_2515_02" maximumNpcs="19">
+		<ai type="royal_rush_maker"/>
+		<npc id="18144" total="1" respawn="0sec"/>
+		<npc id="18145" total="5" respawn="60sec"/>
+		<npc id="18147" total="6" respawn="60sec"/>
+		<npc id="18149" total="5" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard19_2515_03" minZ="-7264" maxZ="-6964">
+		<node x="175176" y="-78888"/>
+		<node x="176021" y="-78889"/>
+		<node x="176021" y="-77659"/>
+		<node x="175181" y="-77660"/>
+	</territory>
+	<npcmaker name="4th_trigger_c" territory="godard19_2515_03" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31485" pos="175608;-78268;-7216;49592" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type1_c" territory="godard19_2515_03" maximumNpcs="32">
+		<ai type="royal_rush_maker"/>
+		<npc id="18156" pos="175608;-78268;-7232;49592" total="1" respawn="0sec"/>
+		<npc id="18169" pos="175711;-78271;-7216;32808" total="1" respawn="60sec"/>
+		<npc id="18169" pos="175472;-78271;-7216;0" total="1" respawn="60sec"/>
+		<npc id="18168" pos="175546;-78743;-7216;16608" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175582;-77779;-7216;49248" total="1" respawn="60sec"/>
+		<npc id="18168" pos="175482;-77953;-7216;57128" total="1" respawn="0sec"/>
+		<npc id="18168" pos="175748;-77953;-7216;40864" total="1" respawn="0sec"/>
+		<npc id="18168" pos="175665;-78743;-7216;16064" total="1" respawn="0sec"/>
+		<npc id="18172" pos="175588;-78597;-7232;16392" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175585;-77936;-7232;49240" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175815;-78347;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175816;-78509;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175816;-78667;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175814;-77865;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175815;-78027;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175815;-78185;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175409;-78347;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175409;-78508;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175409;-78666;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175408;-77864;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175408;-78026;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175408;-78184;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175701;-77848;-7232;49240" total="1" respawn="60sec"/>
+		<npc id="18167" pos="175473;-77851;-7232;49240" total="1" respawn="60sec"/>
+		<npc id="18166" total="3" respawn="60sec"/>
+		<npc id="18169" total="3" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type2_c" territory="godard19_2515_03" maximumNpcs="30">
+		<ai type="royal_rush_maker"/>
+		<npc id="18157" pos="175608;-78268;-7232;49592" total="1" respawn="0sec"/>
+		<npc id="18169" pos="175711;-78271;-7216;32808" total="1" respawn="60sec"/>
+		<npc id="18169" pos="175472;-78271;-7216;0" total="1" respawn="60sec"/>
+		<npc id="18171" pos="175546;-78743;-7216;16608" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175582;-77779;-7216;49248" total="1" respawn="60sec"/>
+		<npc id="18167" pos="175482;-77953;-7216;57128" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175748;-77953;-7216;40864" total="1" respawn="0sec"/>
+		<npc id="18171" pos="175665;-78743;-7216;16064" total="1" respawn="0sec"/>
+		<npc id="18172" pos="175588;-78597;-7232;16392" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175585;-77936;-7232;49240" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175815;-78347;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175816;-78509;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175816;-78667;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175814;-77865;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175815;-78027;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175815;-78185;-7216;32808" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175409;-78347;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175409;-78508;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175409;-78666;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175408;-77864;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18167" pos="175408;-78026;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18170" pos="175408;-78184;-7216;16" total="1" respawn="0sec"/>
+		<npc id="18171" pos="175701;-77848;-7232;49240" total="1" respawn="60sec"/>
+		<npc id="18171" pos="175473;-77851;-7232;49240" total="1" respawn="60sec"/>
+		<npc id="18172" total="2" respawn="60sec"/>
+		<npc id="18171" total="2" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard19_2515_04" minZ="-7254" maxZ="-6954">
+		<node x="175052" y="-77080"/>
+		<node x="176123" y="-77081"/>
+		<node x="176123" y="-75851"/>
+		<node x="175058" y="-75852"/>
+	</territory>
+	<npcmaker name="4th_trigger_d" territory="godard19_2515_04" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31486" pos="175588;-76472;-7216;49208" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type1_d" territory="godard19_2515_04" maximumNpcs="30">
+		<ai type="royal_rush_maker"/>
+		<npc id="18182" pos="175602;-76793;-7217;16272" total="1" respawn="0sec"/>
+		<npc id="18210" pos="176055;-77020;-7168;25536" total="1" respawn="0sec"/>
+		<npc id="18211" pos="175114;-77018;-7168;7792" total="1" respawn="0sec"/>
+		<npc id="18208" pos="175134;-75913;-7168;58104" total="1" respawn="0sec"/>
+		<npc id="18209" pos="176081;-75913;-7168;41632" total="1" respawn="0sec"/>
+		<npc id="18185" pos="175485;-76222;-7232;49112" total="1" respawn="300sec"/>
+		<npc id="18185" pos="175711;-76227;-7232;49112" total="1" respawn="300sec"/>
+		<npc id="18186" pos="175601;-76059;-7232;49112" total="1" respawn="300sec"/>
+		<npc id="18186" pos="175983;-76884;-7232;24520" total="1" respawn="300sec"/>
+		<npc id="18186" pos="175203;-76866;-7232;10608" total="1" respawn="300sec"/>
+		<npc id="18188" pos="175844;-76159;-7200;39792" total="1" respawn="300sec"/>
+		<npc id="18188" pos="175345;-76154;-7200;54944" total="1" respawn="300sec"/>
+		<npc id="18188" pos="175337;-76761;-7200;7824" total="1" respawn="300sec"/>
+		<npc id="18188" pos="175838;-76766;-7200;23520" total="1" respawn="300sec"/>
+		<npc id="18187" pos="175835;-76473;-7200;31976" total="1" respawn="300sec"/>
+		<npc id="18187" pos="175366;-76466;-7200;65064" total="1" respawn="300sec"/>
+		<npc id="18185" pos="175695;-76941;-7232;16312" total="1" respawn="300sec"/>
+		<npc id="18185" pos="175501;-76941;-7232;16312" total="1" respawn="60sec"/>
+		<npc id="18190" pos="175595;-76306;-7192;49128" total="1" respawn="60sec"/>
+		<npc id="18189" total="3" respawn="60sec"/>
+		<npc id="18190" total="3" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type2_d" territory="godard19_2515_04" maximumNpcs="32">
+		<ai type="royal_rush_maker"/>
+		<npc id="18183" pos="175602;-76793;-7217;16272" total="1" respawn="0sec"/>
+		<npc id="18210" pos="176055;-77020;-7168;25536" total="1" respawn="0sec"/>
+		<npc id="18211" pos="175114;-77018;-7168;7792" total="1" respawn="0sec"/>
+		<npc id="18208" pos="175134;-75913;-7168;58104" total="1" respawn="0sec"/>
+		<npc id="18209" pos="176081;-75913;-7168;41632" total="1" respawn="0sec"/>
+		<npc id="18185" pos="175485;-76222;-7232;49112" total="1" respawn="300sec"/>
+		<npc id="18185" pos="175711;-76227;-7232;49112" total="1" respawn="300sec"/>
+		<npc id="18186" pos="175601;-76059;-7232;49112" total="1" respawn="300sec"/>
+		<npc id="18186" pos="175983;-76884;-7232;24520" total="1" respawn="300sec"/>
+		<npc id="18186" pos="175203;-76866;-7232;10608" total="1" respawn="300sec"/>
+		<npc id="18191" pos="175844;-76159;-7200;39792" total="1" respawn="300sec"/>
+		<npc id="18191" pos="175345;-76154;-7200;54944" total="1" respawn="300sec"/>
+		<npc id="18191" pos="175337;-76761;-7200;7824" total="1" respawn="300sec"/>
+		<npc id="18191" pos="175838;-76766;-7200;23520" total="1" respawn="300sec"/>
+		<npc id="18192" pos="175835;-76473;-7200;31976" total="1" respawn="300sec"/>
+		<npc id="18192" pos="175366;-76466;-7200;65064" total="1" respawn="300sec"/>
+		<npc id="18190" pos="175695;-76941;-7232;16312" total="1" respawn="300sec"/>
+		<npc id="18185" pos="175501;-76941;-7232;16312" total="1" respawn="60sec"/>
+		<npc id="18185" pos="175595;-76306;-7192;49128" total="1" respawn="60sec"/>
+		<npc id="18192" total="3" respawn="60sec"/>
+		<npc id="18193" total="3" respawn="60sec"/>
+		<npc id="18194" total="2" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type3_d" territory="godard19_2515_04" maximumNpcs="36">
+		<ai type="royal_rush_maker"/>
+		<npc id="18184" pos="175602;-76793;-7217;16272" total="1" respawn="0sec"/>
+		<npc id="18210" pos="176055;-77020;-7168;25536" total="1" respawn="0sec"/>
+		<npc id="18211" pos="175114;-77018;-7168;7792" total="1" respawn="0sec"/>
+		<npc id="18208" pos="175134;-75913;-7168;58104" total="1" respawn="0sec"/>
+		<npc id="18209" pos="176081;-75913;-7168;41632" total="1" respawn="0sec"/>
+		<npc id="18185" pos="175485;-76222;-7232;49112" total="1" respawn="300sec"/>
+		<npc id="18185" pos="175711;-76227;-7232;49112" total="1" respawn="300sec"/>
+		<npc id="18186" pos="175601;-76059;-7232;49112" total="1" respawn="300sec"/>
+		<npc id="18186" pos="175983;-76884;-7232;24520" total="1" respawn="300sec"/>
+		<npc id="18186" pos="175203;-76866;-7232;10608" total="1" respawn="300sec"/>
+		<npc id="18188" pos="175844;-76159;-7200;39792" total="1" respawn="300sec"/>
+		<npc id="18191" pos="175345;-76154;-7200;54944" total="1" respawn="300sec"/>
+		<npc id="18188" pos="175337;-76761;-7200;7824" total="1" respawn="300sec"/>
+		<npc id="18191" pos="175838;-76766;-7200;23520" total="1" respawn="300sec"/>
+		<npc id="18187" pos="175835;-76473;-7200;31976" total="1" respawn="300sec"/>
+		<npc id="18192" pos="175366;-76466;-7200;65064" total="1" respawn="300sec"/>
+		<npc id="18190" pos="175695;-76941;-7232;16312" total="1" respawn="300sec"/>
+		<npc id="18185" pos="175501;-76941;-7232;16312" total="1" respawn="60sec"/>
+		<npc id="18185" pos="175595;-76306;-7192;49128" total="1" respawn="60sec"/>
+		<npc id="18189" total="3" respawn="60sec"/>
+		<npc id="18190" total="3" respawn="60sec"/>
+		<npc id="18192" total="2" respawn="60sec"/>
+		<npc id="18193" total="2" respawn="60sec"/>
+		<npc id="18194" total="2" respawn="60sec"/>
+		<npc id="18195" total="2" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard19_2515_05" minZ="-7254" maxZ="-6954">
+		<node x="175243" y="-75227"/>
+		<node x="175948" y="-75221"/>
+		<node x="176058" y="-74040"/>
+		<node x="175125" y="-74037"/>
+	</territory>
+	<npcmaker name="4th_trigger_e" territory="godard19_2515_05" maximumNpcs="1">
+		<ai type="royal_rush_maker"/>
+		<npc id="31487" pos="175594;-74655;-7216;49608" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type1_boss_e" territory="godard19_2515_05" maximumNpcs="24">
+		<ai type="royal_rush_maker"/>
+		<npc id="18218" total="1" respawn="0sec"/>
+		<npc id="18230" total="5" respawn="60sec"/>
+		<npc id="18220" total="4" respawn="60sec"/>
+		<npc id="18227" total="2" respawn="60sec"/>
+		<npc id="18222" total="2" respawn="60sec"/>
+		<npc id="18224" total="2" respawn="60sec"/>
+		<npc id="18225" total="2" respawn="60sec"/>
+		<npc id="18243" pos="175521;-73930;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175588;-73930;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175650;-73930;-7200;49152" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type1_e" territory="godard19_2515_05" maximumNpcs="44">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="4th_type1_boss_e"/>
+		</ai>
+		<npc id="18224" pos="175577;-74447;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18225" pos="175558;-74953;-7202;16184" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175742;-75130;-7217;21816" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175388;-75126;-7217;8952" total="1" respawn="0sec"/>
+		<npc id="18220" pos="175272;-74819;-7217;65464" total="1" respawn="0sec"/>
+		<npc id="18221" pos="175883;-74828;-7217;32520" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175658;-74153;-7217;48896" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175506;-74153;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175331;-74642;-7200;65072" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175822;-74648;-7200;32288" total="1" respawn="0sec"/>
+		<npc id="18222" pos="175744;-74717;-7202;33072" total="1" respawn="0sec"/>
+		<npc id="18222" pos="175400;-74718;-7202;240" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175342;-74335;-7200;65064" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175828;-74346;-7200;32392" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175331;-74948;-7200;65064" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175819;-74949;-7200;32392" total="1" respawn="0sec"/>
+		<npc id="18220" pos="175889;-74517;-7217;32520" total="1" respawn="0sec"/>
+		<npc id="18221" pos="175287;-74470;-7217;144" total="1" respawn="0sec"/>
+		<npc id="18227" pos="175697;-74399;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18227" pos="175430;-74398;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175419;-74947;-7217;65200" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175693;-74952;-7217;32384" total="1" respawn="0sec"/>
+		<npc id="18220" pos="175580;-74251;-7217;48984" total="1" respawn="0sec"/>
+		<npc id="18221" pos="175557;-75157;-7217;16056" total="1" respawn="0sec"/>
+		<npc id="18222" total="2" respawn="0sec"/>
+		<npc id="18224" total="2" respawn="0sec"/>
+		<npc id="18225" total="2" respawn="0sec"/>
+		<npc id="18230" total="4" respawn="0sec"/>
+		<npc id="18243" pos="175768;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175834;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175897;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175960;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="176022;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175156;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175222;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175285;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175349;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175411;-74059;-7200;49288" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type2_boss_e" territory="godard19_2515_05" maximumNpcs="24">
+		<ai type="royal_rush_maker"/>
+		<npc id="18219" total="1" respawn="0sec"/>
+		<npc id="18230" total="5" respawn="60sec"/>
+		<npc id="18220" total="4" respawn="60sec"/>
+		<npc id="18224" total="2" respawn="60sec"/>
+		<npc id="18229" total="2" respawn="60sec"/>
+		<npc id="18227" total="2" respawn="60sec"/>
+		<npc id="18228" total="2" respawn="60sec"/>
+		<npc id="18243" pos="175521;-73930;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175588;-73930;-7200;49152" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175650;-73930;-7200;49152" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_type2_e" territory="godard19_2515_05" maximumNpcs="44">
+		<ai type="royal_req_next_maker">
+				<set name="req_count" val="0"/>
+				<set name="next_maker_name" val="4th_type2_boss_e"/>
+		</ai>
+		<npc id="18227" pos="175577;-74447;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18227" pos="175558;-74953;-7202;16184" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175742;-75130;-7217;21816" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175388;-75126;-7217;8952" total="1" respawn="0sec"/>
+		<npc id="18220" pos="175272;-74819;-7217;65464" total="1" respawn="0sec"/>
+		<npc id="18221" pos="175883;-74828;-7217;32520" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175658;-74153;-7217;48896" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175506;-74153;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175331;-74642;-7200;65072" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175822;-74648;-7200;32288" total="1" respawn="0sec"/>
+		<npc id="18227" pos="175744;-74717;-7202;33072" total="1" respawn="0sec"/>
+		<npc id="18227" pos="175400;-74718;-7202;240" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175342;-74335;-7200;65064" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175828;-74346;-7200;32392" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175331;-74948;-7200;65064" total="1" respawn="0sec"/>
+		<npc id="18226" pos="175819;-74949;-7200;32392" total="1" respawn="0sec"/>
+		<npc id="18220" pos="175889;-74517;-7217;32520" total="1" respawn="0sec"/>
+		<npc id="18221" pos="175287;-74470;-7217;144" total="1" respawn="0sec"/>
+		<npc id="18224" pos="175697;-74399;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18224" pos="175430;-74398;-7217;48600" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175419;-74947;-7217;65200" total="1" respawn="0sec"/>
+		<npc id="18223" pos="175693;-74952;-7217;32384" total="1" respawn="0sec"/>
+		<npc id="18220" pos="175580;-74251;-7217;48984" total="1" respawn="0sec"/>
+		<npc id="18221" pos="175557;-75157;-7217;16056" total="1" respawn="0sec"/>
+		<npc id="18229" total="2" respawn="0sec"/>
+		<npc id="18227" total="2" respawn="0sec"/>
+		<npc id="18228" total="2" respawn="0sec"/>
+		<npc id="18230" total="4" respawn="0sec"/>
+		<npc id="18243" pos="175768;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175834;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175897;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175960;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="176022;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175156;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175222;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175285;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175349;-74059;-7200;49288" total="1" respawn="0sec"/>
+		<npc id="18243" pos="175411;-74059;-7200;49288" total="1" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard19_2515_06" minZ="-7254" maxZ="-6954">
+		<node x="174936" y="-73401"/>
+		<node x="176239" y="-73396"/>
+		<node x="176242" y="-72092"/>
+		<node x="174929" y="-72082"/>
+	</territory>
+	<npcmaker name="4th_boss_treasure" territory="godard19_2515_06" maximumNpcs="200">
+		<ai type="royal_spawn_treasurebox"/>
+		<npc id="18256" total="200" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_boss_type1" territory="godard19_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="4th_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25339" pos="175610;-72453;-7184;49544" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_boss_type2" territory="godard19_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="4th_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25342" pos="175610;-72453;-7184;49544" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_boss_type3" territory="godard19_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="4th_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25346" pos="175610;-72453;-7184;49544" total="1" respawn="0sec"/>
+	</npcmaker>
+	<npcmaker name="4th_boss_type4" territory="godard19_2515_06" maximumNpcs="10">
+		<ai type="royal_req_next_maker">
+				<set name="next_maker_name" val="4th_boss_treasure"/>
+				<set name="BossMaker" val="1"/>
+				<set name="req_count" val="0"/>
+		</ai>
+		<npc id="25349" pos="175610;-72453;-7184;49544" total="1" respawn="0sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard19_npc2515_41" minZ="-7263" maxZ="-7063">
+		<node x="174498" y="-82751"/>
+		<node x="176622" y="-82751"/>
+		<node x="176616" y="-71304"/>
+		<node x="174489" y="-71303"/>
+	</territory>
+	<npcmaker name="godard14_npc2515_4101" territory="godard19_npc2515_41" maximumNpcs="1001">
+		<ai type="default_maker"/>
+		<npc id="31924" pos="175606;-82853;-7200;49288" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard27_2515_01" minZ="-2932" maxZ="-2132">
+		<node x="192418" y="-67289"/>
+		<node x="192941" y="-67677"/>
+		<node x="194198" y="-66931"/>
+		<node x="194052" y="-65722"/>
+	</territory>
+	<npcmaker name="godard27_2515_0101" territory="godard27_2515_01" maximumNpcs="24">
+		<ai type="random_spawn"/>
+		<npc id="21648" total="1" respawn="45sec"/>
+		<npc id="21649" total="1" respawn="45sec"/>
+		<npc id="21650" total="1" respawn="45sec"/>
+		<npc id="21651" total="1" respawn="45sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard27_2515_02" minZ="-2932" maxZ="-2132">
+		<node x="190804" y="-68339"/>
+		<node x="191059" y="-68708"/>
+		<node x="192696" y="-67589"/>
+		<node x="192386" y="-67306"/>
+	</territory>
+	<npcmaker name="godard27_2515_0201" territory="godard27_2515_02" maximumNpcs="18">
+		<ai type="random_spawn"/>
+		<npc id="21648" total="1" respawn="45sec"/>
+		<npc id="21650" total="1" respawn="45sec"/>
+		<npc id="21651" total="1" respawn="45sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard27_2515_03" minZ="-2932" maxZ="-2132">
+		<node x="189510" y="-68900"/>
+		<node x="189339" y="-69998"/>
+		<node x="191016" y="-68700"/>
+		<node x="190768" y="-68341"/>
+	</territory>
+	<npcmaker name="godard27_2515_0301" territory="godard27_2515_03" maximumNpcs="17">
+		<ai type="random_spawn"/>
+		<npc id="21648" total="1" respawn="45sec"/>
+		<npc id="21649" total="1" respawn="45sec"/>
+		<npc id="21651" total="1" respawn="45sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard30_npc2515_01" minZ="-7263" maxZ="-7063">
+		<node x="178099" y="-85779"/>
+		<node x="178495" y="-85781"/>
+		<node x="178494" y="-85382"/>
+		<node x="178097" y="-85375"/>
+	</territory>
+	<npcmaker name="godard14_npc2515_0101" territory="godard30_npc2515_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31453" pos="178292;-85577;-7200;16256" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_01" minZ="-5168" maxZ="-4968">
+		<node x="174072" y="-75476"/>
+		<node x="174628" y="-76020"/>
+		<node x="174708" y="-75948"/>
+		<node x="174136" y="-75404"/>
+	</territory>
+	<npcmaker name="godard32_2515_01m1" territory="godard32_2515_01" maximumNpcs="3">
+		<ai type="hall_keeper_wizard_maker"/>
+		<npc id="18330" total="3" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_02" minZ="-5168" maxZ="-4968">
+		<node x="173480" y="-75944"/>
+		<node x="173528" y="-76004"/>
+		<node x="174064" y="-75468"/>
+		<node x="174016" y="-75408"/>
+	</territory>
+	<npcmaker name="godard32_2515_02m1" territory="godard32_2515_02" maximumNpcs="3">
+		<ai type="hall_keeper_wizard_maker"/>
+		<npc id="18330" total="3" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_03" minZ="-5168" maxZ="-4968">
+		<node x="173488" y="-76064"/>
+		<node x="174024" y="-76620"/>
+		<node x="174108" y="-76548"/>
+		<node x="173540" y="-75984"/>
+	</territory>
+	<npcmaker name="godard32_2515_03m1" territory="godard32_2515_03" maximumNpcs="3">
+		<ai type="hall_keeper_wizard_maker"/>
+		<npc id="18330" total="3" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_04" minZ="-5156" maxZ="-4956">
+		<node x="174116" y="-76552"/>
+		<node x="174184" y="-76608"/>
+		<node x="174724" y="-76072"/>
+		<node x="174660" y="-76024"/>
+	</territory>
+	<npcmaker name="godard32_2515_04m1" territory="godard32_2515_04" maximumNpcs="3">
+		<ai type="hall_keeper_wizard_maker"/>
+		<npc id="18330" total="3" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_05" minZ="-5168" maxZ="-4968">
+		<node x="174136" y="-76532"/>
+		<node x="174648" y="-76028"/>
+		<node x="174060" y="-75472"/>
+		<node x="173556" y="-75988"/>
+	</territory>
+	<npcmaker name="godard32_2515_05m1" territory="godard32_2515_05" maximumNpcs="10">
+		<ai type="hall_keeper_patrol_maker"/>
+		<npc id="18332" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_06" minZ="-5172" maxZ="-4972">
+		<node x="174128" y="-76944"/>
+		<node x="175012" y="-76028"/>
+		<node x="174100" y="-75128"/>
+		<node x="173204" y="-76048"/>
+	</territory>
+	<npcmaker name="godard32_2515_06m1" territory="godard32_2515_06" maximumNpcs="40">
+		<ai type="hall_keeper_guard_maker"/>
+		<npc id="18331" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_07" minZ="-5172" maxZ="-4972">
+		<node x="174128" y="-76944"/>
+		<node x="175012" y="-76028"/>
+		<node x="174100" y="-75128"/>
+		<node x="173204" y="-76048"/>
+	</territory>
+	<npcmaker name="godard32_2515_07m1" territory="godard32_2515_07" maximumNpcs="10">
+		<ai type="hall_keeper_captain_maker"/>
+		<npc id="18329" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_08" minZ="-5172" maxZ="-4972">
+		<node x="174128" y="-76944"/>
+		<node x="175012" y="-76028"/>
+		<node x="174100" y="-75128"/>
+		<node x="173204" y="-76048"/>
+	</territory>
+	<npcmaker name="godard32_2515_08m1" territory="godard32_2515_08" maximumNpcs="10">
+		<ai type="hall_keeper_wizard_maker"/>
+		<npc id="18330" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_09" minZ="-5172" maxZ="-4972">
+		<node x="174128" y="-76944"/>
+		<node x="175012" y="-76028"/>
+		<node x="174100" y="-75128"/>
+		<node x="173204" y="-76048"/>
+	</territory>
+	<npcmaker name="godard32_2515_09m1" territory="godard32_2515_09" maximumNpcs="10">
+		<ai type="hall_keeper_self_destruction_maker"/>
+		<npc id="18333" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_10" minZ="-5188" maxZ="-4988">
+		<node x="173056" y="-81520"/>
+		<node x="173432" y="-80812"/>
+		<node x="173424" y="-80376"/>
+		<node x="173028" y="-80788"/>
+	</territory>
+	<npcmaker name="godard32_2515_10m1" territory="godard32_2515_10" maximumNpcs="10">
+		<ai type="undead_band_leader_maker">
+				<set name="DoorName" val="wall_door_b_left_1"/>
+		</ai>
+		<npc id="18335" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_11" minZ="-5192" maxZ="-4992">
+		<node x="172624" y="-82332"/>
+		<node x="173048" y="-82836"/>
+		<node x="173008" y="-80808"/>
+		<node x="172620" y="-81228"/>
+	</territory>
+	<npcmaker name="godard32_2515_11m1" territory="godard32_2515_11" maximumNpcs="20">
+		<ai type="undead_band_archer_wazird_maker">
+				<set name="DoorName" val="wall_door_b_left_1"/>
+		</ai>
+		<npc id="18337" total="10" respawn="no"/>
+		<npc id="18338" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_12" minZ="-5188" maxZ="-4988">
+		<node x="173056" y="-82824"/>
+		<node x="173492" y="-83188"/>
+		<node x="173492" y="-82868"/>
+		<node x="173048" y="-82016"/>
+	</territory>
+	<npcmaker name="godard32_2515_12m1" territory="godard32_2515_12" maximumNpcs="10">
+		<ai type="undead_band_leader_maker">
+				<set name="DoorName" val="wall_door_b_left_1"/>
+		</ai>
+		<npc id="18335" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_13" minZ="-5168" maxZ="-4968">
+		<node x="174680" y="-82788"/>
+		<node x="174648" y="-83180"/>
+		<node x="175016" y="-82844"/>
+		<node x="175028" y="-82168"/>
+	</territory>
+	<npcmaker name="godard32_2515_13m1" territory="godard32_2515_13" maximumNpcs="10">
+		<ai type="undead_band_leader_maker">
+				<set name="DoorName" val="wall_door_b_left_1"/>
+		</ai>
+		<npc id="18335" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_14" minZ="-5176" maxZ="-4976">
+		<node x="175044" y="-82836"/>
+		<node x="175436" y="-82428"/>
+		<node x="175476" y="-81236"/>
+		<node x="175104" y="-80772"/>
+	</territory>
+	<npcmaker name="godard32_2515_14m1" territory="godard32_2515_14" maximumNpcs="20">
+		<ai type="undead_band_archer_wazird_maker">
+				<set name="DoorName" val="wall_door_b_left_1"/>
+		</ai>
+		<npc id="18337" total="10" respawn="no"/>
+		<npc id="18338" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_15" minZ="-5168" maxZ="-4968">
+		<node x="174672" y="-80764"/>
+		<node x="175048" y="-81428"/>
+		<node x="175092" y="-80780"/>
+		<node x="174684" y="-80428"/>
+	</territory>
+	<npcmaker name="godard32_2515_15m1" territory="godard32_2515_15" maximumNpcs="10">
+		<ai type="undead_band_leader_maker">
+				<set name="DoorName" val="wall_door_b_left_1"/>
+		</ai>
+		<npc id="18335" total="10" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_16" minZ="-5164" maxZ="-4964">
+		<node x="173960" y="-82096"/>
+		<node x="174320" y="-82088"/>
+		<node x="174312" y="-81676"/>
+		<node x="173944" y="-81692"/>
+	</territory>
+	<npcmaker name="godard32_2515_16m1" territory="godard32_2515_16" maximumNpcs="4">
+		<ai type="warrior_passive_weakness_maker">
+				<set name="DoorName" val="grave_pathway_1"/>
+				<set name="TDoorName3" val="grave_pathway_3"/>
+				<set name="TDoorName4" val="grave_pathway_4"/>
+				<set name="WallDoorNameB1" val="wall_door_b_left_1"/>
+				<set name="WallDoorNameB2" val="wall_door_b_left_2"/>
+				<set name="WallDoorNameB3" val="wall_door_b_left_3"/>
+				<set name="WallDoorNameB4" val="wall_door_b_left_4"/>
+				<set name="WallDoorNameB5" val="wall_door_b_left_5"/>
+				<set name="WallDoorNameB6" val="wall_door_b_right_1"/>
+				<set name="WallDoorNameB7" val="wall_door_b_right_2"/>
+				<set name="WallDoorNameB8" val="wall_door_b_right_3"/>
+				<set name="WallDoorNameB9" val="wall_door_b_right_4"/>
+				<set name="WallDoorNameB10" val="wall_door_b_right_5"/>
+		</ai>
+		<npc id="18339" total="4" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_17" minZ="-5179" maxZ="-4979">
+		<node x="174714" y="-83314"/>
+		<node x="175554" y="-82494"/>
+		<node x="175558" y="-81218"/>
+		<node x="174658" y="-80254"/>
+		<node x="173334" y="-80282"/>
+		<node x="172354" y="-81130"/>
+		<node x="172410" y="-82446"/>
+		<node x="173226" y="-83354"/>
+	</territory>
+	<npcmaker name="godard32_2515_17m1" territory="godard32_2515_17" maximumNpcs="8">
+		<ai type="undead_bandmaster_maker">
+				<set name="DoorName" val="wall_door_b_left_1"/>
+				<set name="dmgzone1" val="25_15_frintessaE_02"/>
+				<set name="dmgzone2" val="25_15_frintessaE_03"/>
+				<set name="dmgzone3" val="25_15_frintessaE_04"/>
+				<set name="TDoorName3" val="grave_pathway_3"/>
+				<set name="TDoorName4" val="grave_pathway_4"/>
+		</ai>
+		<npc id="18334" pos="173264;-82112;-5074;0" total="1" respawn="no">
+			<ai>
+				<set name="Shoutman" val="1"/>
+			</ai>
+		</npc>
+		<npc id="18334" pos="173264;-81904;-5074;0" total="1" respawn="no"/>
+		<npc id="18334" pos="173264;-81680;-5074;0" total="1" respawn="no"/>
+		<npc id="18334" pos="173264;-81440;-5074;0" total="1" respawn="no"/>
+		<npc id="18334" pos="174864;-82128;-5074;33000" total="1" respawn="no"/>
+		<npc id="18334" pos="174864;-81936;-5074;33000" total="1" respawn="no"/>
+		<npc id="18334" pos="174864;-81680;-5074;33000" total="1" respawn="no"/>
+		<npc id="18334" pos="174848;-81456;-5074;33000" total="1" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_18" minZ="-5179" maxZ="-4979">
+		<node x="174714" y="-83314"/>
+		<node x="175554" y="-82494"/>
+		<node x="175558" y="-81218"/>
+		<node x="174658" y="-80254"/>
+		<node x="173334" y="-80282"/>
+		<node x="172354" y="-81130"/>
+		<node x="172410" y="-82446"/>
+		<node x="173226" y="-83354"/>
+	</territory>
+	<npcmaker name="godard32_2515_18m1" territory="godard32_2515_18" maximumNpcs="36">
+		<ai type="undead_band_lance_maker">
+				<set name="DoorName" val="wall_door_b_left_1"/>
+		</ai>
+		<npc id="18336" pos="173552;-83184;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173552;-83120;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173552;-83056;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173552;-82988;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173548;-82916;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173520;-83152;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173516;-83092;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173520;-83024;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173516;-82956;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="174592;-82908;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174592;-82980;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174592;-83048;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174592;-83112;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174592;-83184;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174624;-83152;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174624;-83088;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174624;-83020;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174624;-82944;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174592;-80400;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174592;-80464;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174592;-80600;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174592;-80536;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174592;-80672;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174624;-80432;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174624;-80496;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174624;-80576;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="174624;-80640;-5106;33000" total="1" respawn="no"/>
+		<npc id="18336" pos="173556;-80688;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173552;-80616;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173552;-80544;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173552;-80480;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173548;-80416;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173524;-80656;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173520;-80580;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173520;-80512;-5106;0" total="1" respawn="no"/>
+		<npc id="18336" pos="173520;-80448;-5106;0" total="1" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_19" minZ="-5156" maxZ="-4956">
+		<node x="172796" y="-76100"/>
+		<node x="172996" y="-76100"/>
+		<node x="172996" y="-75900"/>
+		<node x="172796" y="-75900"/>
+	</territory>
+	<npcmaker name="godard32_2515_19m1" territory="godard32_2515_19" maximumNpcs="1">
+		<ai type="alarm_device2_maker"/>
+		<npc id="18328" pos="172896;-76000;-5106;0" total="1" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_20" minZ="-5148" maxZ="-4948">
+		<node x="173996" y="-74900"/>
+		<node x="174196" y="-74900"/>
+		<node x="174196" y="-74700"/>
+		<node x="173996" y="-74700"/>
+	</territory>
+	<npcmaker name="godard32_2515_20m1" territory="godard32_2515_20" maximumNpcs="1">
+		<ai type="alarm_device3_maker"/>
+		<npc id="18328" pos="174096;-74800;-5106;0" total="1" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_21" minZ="-5144" maxZ="-4944">
+		<node x="175228" y="-76132"/>
+		<node x="175428" y="-76132"/>
+		<node x="175428" y="-75932"/>
+		<node x="175228" y="-75932"/>
+	</territory>
+	<npcmaker name="godard32_2515_21m1" territory="godard32_2515_21" maximumNpcs="1">
+		<ai type="alarm_device4_maker"/>
+		<npc id="18328" pos="175328;-76032;-5106;0" total="1" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_22" minZ="-5140" maxZ="-4940">
+		<node x="173996" y="-77380"/>
+		<node x="174196" y="-77380"/>
+		<node x="174196" y="-77180"/>
+		<node x="173996" y="-77180"/>
+	</territory>
+	<npcmaker name="godard32_2515_22m1" territory="godard32_2515_22" maximumNpcs="1">
+		<ai type="alarm_device1_maker"/>
+		<npc id="18328" pos="174096;-77280;-5106;0" total="1" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_2515_23" minZ="-5176" maxZ="-4976">
+		<node x="174496" y="-77028"/>
+		<node x="175072" y="-76416"/>
+		<node x="175044" y="-75596"/>
+		<node x="174536" y="-75076"/>
+		<node x="173700" y="-75080"/>
+		<node x="173136" y="-75664"/>
+		<node x="173164" y="-76424"/>
+		<node x="173708" y="-77008"/>
+	</territory>
+	<npcmaker name="godard32_2515_23m1" territory="godard32_2515_23" maximumNpcs="40">
+		<ai type="hall_timer_bomb_maker"/>
+		<npc id="18340" total="20" respawn="no"/>
+		<npc id="18341" total="20" respawn="no"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard32_npc2515_02" minZ="-5161" maxZ="-4661">
+		<node x="171810" y="-85801"/>
+		<node x="176154" y="-85840"/>
+		<node x="176266" y="-74068"/>
+		<node x="171888" y="-74115"/>
+	</territory>
+	<npcmaker name="godard32_npc2515_01m1" territory="godard32_npc2515_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="32011" pos="181376;-81008;-2736;16500" total="1" respawn="1min"/>
+	</npcmaker>
+</list>

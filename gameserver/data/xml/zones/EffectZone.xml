@@ -1,0 +1,2279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- Effect Zones -->
+	<!-- Sea of Spores -->
+	<zone shape="NPoly" minZ="-4468" maxZ="-4118"><!-- spore_boss_poison_zone -->
+		<stat name="skill" val="4070-1"/><!-- s_area_a_speed_down -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="43084" y="15944"/>
+		<node x="45140" y="15816"/>
+		<node x="45748" y="17200"/>
+		<node x="44504" y="18780"/>
+		<node x="43284" y="18952"/>
+		<node x="42476" y="18164"/>
+		<node x="42480" y="16448"/>
+	</zone>
+	<!-- Blazing Swamp -->
+	<zone shape="NPoly" minZ="-4752" maxZ="-4352"><!-- fireswamp_1 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="141408" y="-9676"/>
+		<node x="142248" y="-9284"/>
+		<node x="142428" y="-8732"/>
+		<node x="142344" y="-8256"/>
+		<node x="142096" y="-8136"/>
+		<node x="141600" y="-8444"/>
+		<node x="141264" y="-9352"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4908" maxZ="-4508"><!-- fireswamp_2 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="143780" y="-8144"/>
+		<node x="144504" y="-8484"/>
+		<node x="145000" y="-8064"/>
+		<node x="144948" y="-7372"/>
+		<node x="144552" y="-6872"/>
+		<node x="144120" y="-7076"/>
+		<node x="143716" y="-7672"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4776" maxZ="-4376"><!-- fireswamp_3 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="144144" y="-7020"/>
+		<node x="144552" y="-6836"/>
+		<node x="144564" y="-6324"/>
+		<node x="144072" y="-6280"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4888" maxZ="-4288"><!-- fireswamp_4 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="144060" y="-6240"/>
+		<node x="144548" y="-6276"/>
+		<node x="145416" y="-5772"/>
+		<node x="145292" y="-4940"/>
+		<node x="144208" y="-5076"/>
+		<node x="143920" y="-5540"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4672" maxZ="-4272"><!-- fireswamp_5 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="148616" y="-9208"/>
+		<node x="149200" y="-9492"/>
+		<node x="149992" y="-9472"/>
+		<node x="149880" y="-8348"/>
+		<node x="148452" y="-8308"/>
+		<node x="148340" y="-8600"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4676" maxZ="-4276"><!-- fireswamp_6 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="151636" y="-8512"/>
+		<node x="151592" y="-8196"/>
+		<node x="150644" y="-7904"/>
+		<node x="149912" y="-8420"/>
+		<node x="150040" y="-9404"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4728" maxZ="-4328"><!-- fireswamp_7 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="150728" y="-10176"/>
+		<node x="151352" y="-10536"/>
+		<node x="150404" y="-9264"/>
+		<node x="150072" y="-9444"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4636" maxZ="-4036"><!-- fireswamp_8 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="151192" y="-12588"/>
+		<node x="151612" y="-11884"/>
+		<node x="151772" y="-11248"/>
+		<node x="151572" y="-10860"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4700" maxZ="-4300"><!-- fireswamp_9 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="150456" y="-15148"/>
+		<node x="151760" y="-15072"/>
+		<node x="151556" y="-13400"/>
+		<node x="151148" y="-12856"/>
+		<node x="150384" y="-13904"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4572" maxZ="-3972"><!-- fireswamp_10 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="145032" y="-15132"/>
+		<node x="146108" y="-15008"/>
+		<node x="148212" y="-11784"/>
+		<node x="147528" y="-10992"/>
+		<node x="146000" y="-11072"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4572" maxZ="-4172"><!-- fireswamp_11 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="148288" y="-14420"/>
+		<node x="148432" y="-14428"/>
+		<node x="147984" y="-12448"/>
+		<node x="147228" y="-13572"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4476" maxZ="-2976"><!-- fireswamp_12 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="146120" y="-18720"/>
+		<node x="146276" y="-18884"/>
+		<node x="145976" y="-15072"/>
+		<node x="145056" y="-15200"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4604" maxZ="-4204"><!-- fireswamp_13 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="140616" y="-16808"/>
+		<node x="143708" y="-17160"/>
+		<node x="143152" y="-16000"/>
+		<node x="141268" y="-15872"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3476" maxZ="-3076"><!-- fireswamp_14 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="148892" y="-23044"/>
+		<node x="149160" y="-22280"/>
+		<node x="148292" y="-21148"/>
+		<node x="148080" y="-21508"/>
+		<node x="147584" y="-24204"/>
+		<node x="147948" y="-24056"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3208" maxZ="-1608"><!-- fireswamp_15 -->
+		<stat name="skill" val="4150-1"/><!-- s_area_fire1 -->
+		<!-- stat name="unitTick" val="30" / -->
+		<stat name="chance" val="50"/>
+		<stat name="initialDelay" val="1000"/>
+		<!-- stat name="onTime" val="120" / -->
+		<!-- stat name="offTime" val="5" / -->
+		<!-- stat name="randomTime" val="15" / -->
+		<stat name="reuseDelay" val="6000"/>
+		<node x="143804" y="-27456"/>
+		<node x="147168" y="-25768"/>
+		<node x="147164" y="-25372"/>
+		<node x="143308" y="-26812"/>
+	</zone>
+	<!-- 4 Sepulchers -->
+	<zone id="60000" shape="NPoly" minZ="-7260" maxZ="-7010"><!-- conquerors_weakness -->
+		<stat name="skill" val="4145-3"/><!-- s_area_pa_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="186739" y="-86322"/>
+		<node x="190108" y="-86335"/>
+		<node x="190110" y="-84794"/>
+		<node x="186736" y="-84786"/>
+	</zone>
+	<zone id="60001" shape="NPoly" minZ="-7260" maxZ="-7010"><!-- conquerors_pddown -->
+		<stat name="skill" val="4146-3"/><!-- s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="186739" y="-86322"/>
+		<node x="190108" y="-86335"/>
+		<node x="190110" y="-84794"/>
+		<node x="186736" y="-84786"/>
+	</zone>
+	<zone id="60002" shape="NPoly" minZ="-7260" maxZ="-7010"><!-- conquerors_poison -->
+		<stat name="skill" val="4148-9"/><!-- s_area_poison9 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="186739" y="-86322"/>
+		<node x="190108" y="-86335"/>
+		<node x="190110" y="-84794"/>
+		<node x="186736" y="-84786"/>
+	</zone>
+	<zone id="60003" shape="NPoly" minZ="-7260" maxZ="-7010"><!-- conquerors_nonheal -->
+		<stat name="skill" val="4624-9"/><!-- s_area_disease9 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="186739" y="-86322"/>
+		<node x="190108" y="-86335"/>
+		<node x="190110" y="-84794"/>
+		<node x="186736" y="-84786"/>
+	</zone>
+	<zone id="60010" shape="NPoly" minZ="-7265" maxZ="-7015"><!-- lords_weakness -->
+		<stat name="skill" val="4145-3"/><!-- s_area_pa_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="185028" y="-89729"/>
+		<node x="188398" y="-89741"/>
+		<node x="188400" y="-88200"/>
+		<node x="185026" y="-88192"/>
+	</zone>
+	<zone id="60011" shape="NPoly" minZ="-7265" maxZ="-7015"><!-- lords_pddown -->
+		<stat name="skill" val="4146-3"/><!-- s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="185028" y="-89729"/>
+		<node x="188398" y="-89741"/>
+		<node x="188400" y="-88200"/>
+		<node x="185026" y="-88192"/>
+	</zone>
+	<zone id="60012" shape="NPoly" minZ="-7265" maxZ="-7015"><!-- lords_poison -->
+		<stat name="skill" val="4148-9"/><!-- s_area_poison9 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="185028" y="-89729"/>
+		<node x="188398" y="-89741"/>
+		<node x="188400" y="-88200"/>
+		<node x="185026" y="-88192"/>
+	</zone>
+	<zone id="60013" shape="NPoly" minZ="-7265" maxZ="-7015"><!-- lords_nonheal -->
+		<stat name="skill" val="4624-9"/><!-- s_area_disease9 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="185028" y="-89729"/>
+		<node x="188398" y="-89741"/>
+		<node x="188400" y="-88200"/>
+		<node x="185026" y="-88192"/>
+	</zone>
+	<zone id="60020" shape="NPoly" minZ="-7262" maxZ="-7012"><!-- savants_weakness -->
+		<stat name="skill" val="4145-3"/><!-- s_area_pa_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="172411" y="-81083"/>
+		<node x="173942" y="-81073"/>
+		<node x="173931" y="-77639"/>
+		<node x="172418" y="-77644"/>
+	</zone>
+	<zone id="60021" shape="NPoly" minZ="-7262" maxZ="-7012"><!-- savants_pddown -->
+		<stat name="skill" val="4146-3"/><!-- s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="172411" y="-81083"/>
+		<node x="173942" y="-81073"/>
+		<node x="173931" y="-77639"/>
+		<node x="172418" y="-77644"/>
+	</zone>
+	<zone id="60022" shape="NPoly" minZ="-7262" maxZ="-7012"><!-- savants_poison -->
+		<stat name="skill" val="4148-9"/><!-- s_area_poison9 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="172411" y="-81083"/>
+		<node x="173942" y="-81073"/>
+		<node x="173931" y="-77639"/>
+		<node x="172418" y="-77644"/>
+	</zone>
+	<zone id="60023" shape="NPoly" minZ="-7262" maxZ="-7012"><!-- savants_nonheal -->
+		<stat name="skill" val="4624-9"/><!-- s_area_disease9 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="172411" y="-81083"/>
+		<node x="173942" y="-81073"/>
+		<node x="173931" y="-77639"/>
+		<node x="172418" y="-77644"/>
+	</zone>
+	<zone id="60030" shape="NPoly" minZ="-7262" maxZ="-7012"><!-- magistrates_weakness -->
+		<stat name="skill" val="4145-3"/><!-- s_area_pa_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="174822" y="-77261"/>
+		<node x="176354" y="-77251"/>
+		<node x="176342" y="-73817"/>
+		<node x="174829" y="-73822"/>
+	</zone>
+	<zone id="60031" shape="NPoly" minZ="-7262" maxZ="-7012"><!-- magistrates_pddown -->
+		<stat name="skill" val="4146-3"/><!-- s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="174822" y="-77261"/>
+		<node x="176354" y="-77251"/>
+		<node x="176342" y="-73817"/>
+		<node x="174829" y="-73822"/>
+	</zone>
+	<zone id="60032" shape="NPoly" minZ="-7262" maxZ="-7012"><!-- magistrates_poison -->
+		<stat name="skill" val="4148-9"/><!-- s_area_poison9 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="174822" y="-77261"/>
+		<node x="176354" y="-77251"/>
+		<node x="176342" y="-73817"/>
+		<node x="174829" y="-73822"/>
+	</zone>
+	<zone id="60033" shape="NPoly" minZ="-7262" maxZ="-7012"><!-- magistrates_nonheal -->
+		<stat name="skill" val="4624-9"/><!-- s_area_disease9 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="defaultStatus" val="false"/>
+		<stat name="reuseDelay" val="9000"/>
+		<node x="174822" y="-77261"/>
+		<node x="176354" y="-77251"/>
+		<node x="176342" y="-73817"/>
+		<node x="174829" y="-73822"/>
+	</zone>
+	<!-- Hot Springs -->
+	<zone shape="NPoly" minZ="-3634" maxZ="-3434"><!-- spa_11 -->
+		<stat name="skill" val="4559-1"/><!-- s_spa_big_head -->
+		<stat name="chance" val="100"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="141249" y="-109636"/>
+		<node x="141473" y="-109798"/>
+		<node x="141739" y="-109821"/>
+		<node x="141924" y="-109669"/>
+		<node x="142038" y="-109397"/>
+		<node x="141852" y="-109130"/>
+		<node x="141604" y="-109051"/>
+		<node x="141321" y="-109091"/>
+		<node x="141213" y="-109266"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3668" maxZ="-3468"><!-- spa_21 -->
+		<stat name="skill" val="4559-1"/><!-- s_spa_big_head -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="140174" y="-105832"/>
+		<node x="140490" y="-105875"/>
+		<node x="140962" y="-105738"/>
+		<node x="141039" y="-105378"/>
+		<node x="140872" y="-105119"/>
+		<node x="140081" y="-105295"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3724" maxZ="-3524"><!-- spa_31 -->
+		<stat name="skill" val="4559-1"/><!-- s_spa_big_head -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="144927" y="-105193"/>
+		<node x="145226" y="-105412"/>
+		<node x="145576" y="-105344"/>
+		<node x="145819" y="-104976"/>
+		<node x="145575" y="-104555"/>
+		<node x="145217" y="-104490"/>
+		<node x="144935" y="-104684"/>
+		<node x="144832" y="-104959"/>
+
+	</zone>
+	<zone shape="NPoly" minZ="-2871" maxZ="-2671"><!-- spa_41 -->
+		<stat name="skill" val="4559-1"/><!-- s_spa_big_head -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="152081" y="-108262"/>
+		<node x="152455" y="-108588"/>
+		<node x="152835" y="-108448"/>
+		<node x="152992" y="-108120"/>
+		<node x="152817" y="-107670"/>
+		<node x="152310" y="-107632"/>
+		<node x="152069" y="-107905"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2787" maxZ="-2587"><!-- spa_51 -->
+		<stat name="skill" val="4559-1"/><!-- s_spa_big_head -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="155279" y="-105735"/>
+		<node x="155448" y="-105880"/>
+		<node x="155992" y="-105963"/>
+		<node x="156201" y="-105790"/>
+		<node x="156133" y="-105320"/>
+		<node x="155896" y="-105229"/>
+		<node x="155459" y="-105254"/>
+		<node x="155283" y="-105478"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2717" maxZ="-2517"><!-- spa_61 -->
+		<stat name="skill" val="4559-1"/><!-- s_spa_big_head -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="156838" y="-109948"/>
+		<node x="157133" y="-110046"/>
+		<node x="157436" y="-109918"/>
+		<node x="157491" y="-109405"/>
+		<node x="157197" y="-109197"/>
+		<node x="156843" y="-109261"/>
+		<node x="156683" y="-109569"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1609" maxZ="-1409"><!-- spa_71 -->
+		<stat name="skill" val="4559-1"/><!-- s_spa_big_head -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="152063" y="-116732"/>
+		<node x="152505" y="-116982"/>
+		<node x="152904" y="-116927"/>
+		<node x="153020" y="-116469"/>
+		<node x="152881" y="-116221"/>
+		<node x="152555" y="-116100"/>
+		<node x="152285" y="-116160"/>
+		<node x="152099" y="-116415"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1694" maxZ="-1494"><!-- spa_81 -->
+		<stat name="skill" val="4559-1"/><!-- s_spa_big_head -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="152683" y="-112829"/>
+		<node x="152796" y="-113129"/>
+		<node x="153125" y="-113339"/>
+		<node x="153557" y="-113190"/>
+		<node x="153649" y="-112721"/>
+		<node x="153344" y="-112385"/>
+		<node x="152937" y="-112409"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1979" maxZ="-1779"><!-- spa_91 -->
+		<stat name="skill" val="4559-1"/><!-- s_spa_big_head -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="157444" y="-115790"/>
+		<node x="157774" y="-115907"/>
+		<node x="158174" y="-115759"/>
+		<node x="158017" y="-114971"/>
+		<node x="157625" y="-114984"/>
+		<node x="157439" y="-115101"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2152" maxZ="-1952"><!-- spa_101 -->
+		<stat name="skill" val="4559-1"/><!-- s_spa_big_head -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="147182" y="-113255"/>
+		<node x="147194" y="-113430"/>
+		<node x="147312" y="-113584"/>
+		<node x="147467" y="-113630"/>
+		<node x="147748" y="-113523"/>
+		<node x="147816" y="-113273"/>
+		<node x="147723" y="-113074"/>
+		<node x="147512" y="-112956"/>
+		<node x="147258" y="-113048"/>
+	</zone>
+	<!-- Medical treatment -->
+	<zone shape="NPoly" minZ="-3634" maxZ="-3434"><!-- spa_12 -->
+		<stat name="skill" val="4557-1"/><!-- s_dispel_spa_disease_bd -->
+		<stat name="chance" val="100"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="141249" y="-109636"/>
+		<node x="141473" y="-109798"/>
+		<node x="141739" y="-109821"/>
+		<node x="141924" y="-109669"/>
+		<node x="142038" y="-109397"/>
+		<node x="141852" y="-109130"/>
+		<node x="141604" y="-109051"/>
+		<node x="141321" y="-109091"/>
+		<node x="141213" y="-109266"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3668" maxZ="-3468"><!-- spa_22 -->
+		<stat name="skill" val="4556-1"/><!-- s_dispel_spa_disease_ad -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="140174" y="-105832"/>
+		<node x="140490" y="-105875"/>
+		<node x="140962" y="-105738"/>
+		<node x="141039" y="-105378"/>
+		<node x="140872" y="-105119"/>
+		<node x="140081" y="-105295"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3724" maxZ="-3524"><!-- spa_32 -->
+		<stat name="skill" val="4558-1"/><!-- s_dispel_spa_disease_cd -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="144927" y="-105193"/>
+		<node x="145226" y="-105412"/>
+		<node x="145576" y="-105344"/>
+		<node x="145819" y="-104976"/>
+		<node x="145575" y="-104555"/>
+		<node x="145217" y="-104490"/>
+		<node x="144935" y="-104684"/>
+		<node x="144832" y="-104959"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2871" maxZ="-2671"><!-- spa_42 -->
+		<stat name="skill" val="4556-1"/><!-- s_dispel_spa_disease_ad -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="152081" y="-108262"/>
+		<node x="152455" y="-108588"/>
+		<node x="152835" y="-108448"/>
+		<node x="152992" y="-108120"/>
+		<node x="152817" y="-107670"/>
+		<node x="152310" y="-107632"/>
+		<node x="152069" y="-107905"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2787" maxZ="-2587"><!-- spa_52 -->
+		<stat name="skill" val="4558-1"/><!-- s_dispel_spa_disease_cd -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="155279" y="-105735"/>
+		<node x="155448" y="-105880"/>
+		<node x="155992" y="-105963"/>
+		<node x="156201" y="-105790"/>
+		<node x="156133" y="-105320"/>
+		<node x="155896" y="-105229"/>
+		<node x="155459" y="-105254"/>
+		<node x="155283" y="-105478"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2717" maxZ="-2517"><!-- spa_62 -->
+		<stat name="skill" val="4557-1"/><!-- s_dispel_spa_disease_bd -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="156838" y="-109948"/>
+		<node x="157133" y="-110046"/>
+		<node x="157436" y="-109918"/>
+		<node x="157491" y="-109405"/>
+		<node x="157197" y="-109197"/>
+		<node x="156843" y="-109261"/>
+		<node x="156683" y="-109569"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1609" maxZ="-1409"><!-- spa_72 -->
+		<stat name="skill" val="4556-1"/><!-- s_dispel_spa_disease_ad -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="152063" y="-116732"/>
+		<node x="152505" y="-116982"/>
+		<node x="152904" y="-116927"/>
+		<node x="153020" y="-116469"/>
+		<node x="152881" y="-116221"/>
+		<node x="152555" y="-116100"/>
+		<node x="152285" y="-116160"/>
+		<node x="152099" y="-116415"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1694" maxZ="-1494"><!-- spa_82 -->
+		<stat name="skill" val="4558-1"/><!-- s_dispel_spa_disease_cd -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="152683" y="-112829"/>
+		<node x="152796" y="-113129"/>
+		<node x="153125" y="-113339"/>
+		<node x="153557" y="-113190"/>
+		<node x="153649" y="-112721"/>
+		<node x="153344" y="-112385"/>
+		<node x="152937" y="-112409"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1979" maxZ="-1779"><!-- spa_92 -->
+		<stat name="skill" val="4557-1"/><!-- s_dispel_spa_disease_bd -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="157444" y="-115790"/>
+		<node x="157774" y="-115907"/>
+		<node x="158174" y="-115759"/>
+		<node x="158017" y="-114971"/>
+		<node x="157625" y="-114984"/>
+		<node x="157439" y="-115101"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2152" maxZ="-1952"><!-- spa_102 -->
+		<stat name="skill" val="4557-1"/><!-- s_dispel_spa_disease_bd -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="3000"/>
+		<node x="147182" y="-113255"/>
+		<node x="147194" y="-113430"/>
+		<node x="147312" y="-113584"/>
+		<node x="147467" y="-113630"/>
+		<node x="147748" y="-113523"/>
+		<node x="147816" y="-113273"/>
+		<node x="147723" y="-113074"/>
+		<node x="147512" y="-112956"/>
+		<node x="147258" y="-113048"/>
+	</zone>
+	<!-- Hall of Flames -->
+	<zone shape="NPoly" minZ="-1896" maxZ="-1696"><!-- goddard_fire_zone1 -->
+		<stat name="skill" val="4150-5"/><!-- s_area_fire5 -->
+		<stat name="chance" val="100"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="5000"/>
+		<node x="192073" y="-118243"/>
+		<node x="192185" y="-116883"/>
+		<node x="191921" y="-116651"/>
+		<node x="191330" y="-116793"/>
+		<node x="190997" y="-118195"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3384" maxZ="-3184"><!-- goddard_fire_zone2 -->
+		<stat name="skill" val="4150-5"/><!-- s_area_fire5 -->
+		<stat name="chance" val="100"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="5000"/>
+		<node x="183700" y="-114976"/>
+		<node x="183996" y="-115008"/>
+		<node x="183988" y="-114940"/>
+		<node x="183892" y="-114896"/>
+		<node x="183768" y="-114912"/>
+	</zone>
+	<zone shape="NPoly" minZ="-4728" maxZ="-4028"><!-- goddard_fire_zone3 -->
+		<stat name="skill" val="4150-5"/><!-- s_area_fire5 -->
+		<stat name="chance" val="100"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="5000"/>
+		<node x="170882" y="-116919"/>
+		<node x="173775" y="-116885"/>
+		<node x="173761" y="-113989"/>
+		<node x="170896" y="-113924"/>
+	</zone>
+	<zone shape="NPoly" minZ="-6160" maxZ="-5260"><!-- goddard_fire_zone4 -->
+		<stat name="skill" val="4150-5"/><!-- s_area_fire5 -->
+		<stat name="chance" val="100"/>
+		<!-- stat name="unitTick" val="5" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="5000"/>
+		<node x="170947" y="-113900"/>
+		<node x="173759" y="-113954"/>
+		<node x="173776" y="-111044"/>
+		<node x="170920" y="-111048"/>
+	</zone>
+	<!-- Swamp of Screams (Monsters Buffs) -->
+	<zone shape="NPoly" minZ="-3375" maxZ="-2975"><!-- goddard_swamp_monster1 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="71030" y="-60113"/>
+		<node x="70966" y="-59549"/>
+		<node x="70250" y="-59173"/>
+		<node x="69622" y="-59597"/>
+		<node x="69634" y="-60261"/>
+		<node x="70026" y="-60593"/>
+		<node x="70566" y="-60601"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3191" maxZ="-2991"><!-- goddard_swamp_monster2 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="73522" y="-59473"/>
+		<node x="73454" y="-58861"/>
+		<node x="73194" y="-58629"/>
+		<node x="72642" y="-58433"/>
+		<node x="72110" y="-58501"/>
+		<node x="71782" y="-59013"/>
+		<node x="71922" y="-59817"/>
+		<node x="72482" y="-60149"/>
+		<node x="72986" y="-60085"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3335" maxZ="-2935"><!-- goddard_swamp_monster3 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="72376" y="-55558"/>
+		<node x="72036" y="-54506"/>
+		<node x="71188" y="-54130"/>
+		<node x="70264" y="-54442"/>
+		<node x="69748" y="-55206"/>
+		<node x="69860" y="-56066"/>
+		<node x="70708" y="-56830"/>
+		<node x="71632" y="-56706"/>
+		<node x="72132" y="-56258"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3179" maxZ="-2979"><!-- goddard_swamp_monster4 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="76091" y="-53873"/>
+		<node x="75447" y="-53721"/>
+		<node x="75135" y="-54069"/>
+		<node x="75047" y="-54749"/>
+		<node x="75491" y="-55125"/>
+		<node x="76171" y="-54993"/>
+		<node x="76323" y="-54677"/>
+		<node x="76339" y="-54281"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3255" maxZ="-2955"><!-- goddard_swamp_monster5 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="74415" y="-51769"/>
+		<node x="74351" y="-51081"/>
+		<node x="74075" y="-50837"/>
+		<node x="74007" y="-50597"/>
+		<node x="73335" y="-50669"/>
+		<node x="72983" y="-51393"/>
+		<node x="73167" y="-51845"/>
+		<node x="73995" y="-52025"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3458" maxZ="-3158"><!-- goddard_swamp_monster6 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="73198" y="-44860"/>
+		<node x="72682" y="-44392"/>
+		<node x="71766" y="-44416"/>
+		<node x="71314" y="-44836"/>
+		<node x="71378" y="-45248"/>
+		<node x="71430" y="-45960"/>
+		<node x="71850" y="-46264"/>
+		<node x="72594" y="-46236"/>
+		<node x="73034" y="-45800"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3418" maxZ="-3118"><!-- goddard_swamp_monster7 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="74049" y="-42558"/>
+		<node x="73997" y="-41998"/>
+		<node x="73513" y="-41622"/>
+		<node x="73093" y="-41610"/>
+		<node x="72537" y="-42338"/>
+		<node x="72661" y="-42830"/>
+		<node x="73325" y="-43018"/>
+		<node x="73641" y="-42942"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3410" maxZ="-3110"><!-- goddard_swamp_monster8 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="77309" y="-42410"/>
+		<node x="76629" y="-41878"/>
+		<node x="75557" y="-41990"/>
+		<node x="74781" y="-42802"/>
+		<node x="74745" y="-43802"/>
+		<node x="75581" y="-44790"/>
+		<node x="76761" y="-44770"/>
+		<node x="77597" y="-44062"/>
+		<node x="77641" y="-43006"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3422" maxZ="-3122"><!-- goddard_swamp_monster9 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="80214" y="-42670"/>
+		<node x="80438" y="-42094"/>
+		<node x="80314" y="-41546"/>
+		<node x="79614" y="-41342"/>
+		<node x="78754" y="-41710"/>
+		<node x="78662" y="-42230"/>
+		<node x="79062" y="-42894"/>
+		<node x="79758" y="-43070"/>
+		<node x="79930" y="-42834"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3370" maxZ="-3070"><!-- goddard_swamp_monster10 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="83118" y="-41483"/>
+		<node x="82686" y="-40931"/>
+		<node x="82046" y="-40887"/>
+		<node x="82050" y="-41079"/>
+		<node x="81734" y="-41263"/>
+		<node x="81610" y="-41879"/>
+		<node x="82366" y="-42299"/>
+		<node x="82758" y="-42155"/>
+		<node x="82910" y="-41879"/>
+		<node x="83086" y="-41823"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3366" maxZ="-3066"><!-- goddard_swamp_monster11 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="81654" y="-45503"/>
+		<node x="81886" y="-45267"/>
+		<node x="82222" y="-44899"/>
+		<node x="82266" y="-44547"/>
+		<node x="82098" y="-44207"/>
+		<node x="81506" y="-44063"/>
+		<node x="80846" y="-44375"/>
+		<node x="80786" y="-44795"/>
+		<node x="81094" y="-45271"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2522" maxZ="-2222"><!-- goddard_swamp_monster12 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="79526" y="-51746"/>
+		<node x="79638" y="-51098"/>
+		<node x="79190" y="-50458"/>
+		<node x="78398" y="-50694"/>
+		<node x="78158" y="-51298"/>
+		<node x="78570" y="-51934"/>
+		<node x="79214" y="-51898"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2470" maxZ="-2170"><!-- goddard_swamp_monster13 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="83615" y="-50828"/>
+		<node x="83507" y="-50428"/>
+		<node x="83115" y="-50032"/>
+		<node x="82447" y="-50180"/>
+		<node x="82231" y="-50752"/>
+		<node x="82535" y="-51328"/>
+		<node x="82855" y="-51444"/>
+		<node x="83535" y="-51204"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2458" maxZ="-2158"><!-- goddard_swamp_monster14 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="81946" y="-53719"/>
+		<node x="81398" y="-53767"/>
+		<node x="80642" y="-53691"/>
+		<node x="79554" y="-54587"/>
+		<node x="79782" y="-55123"/>
+		<node x="79886" y="-56423"/>
+		<node x="81054" y="-57231"/>
+		<node x="81802" y="-57111"/>
+		<node x="82970" y="-56139"/>
+		<node x="82738" y="-54227"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2542" maxZ="-2242"><!-- goddard_swamp_monster15 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="78226" y="-58454"/>
+		<node x="78206" y="-58026"/>
+		<node x="77858" y="-57766"/>
+		<node x="77370" y="-57814"/>
+		<node x="77058" y="-58266"/>
+		<node x="77374" y="-58806"/>
+		<node x="77966" y="-58870"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2558" maxZ="-2258"><!-- goddard_swamp_monster16 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="77796" y="-61961"/>
+		<node x="77836" y="-61333"/>
+		<node x="77524" y="-60969"/>
+		<node x="77100" y="-61041"/>
+		<node x="76796" y="-61233"/>
+		<node x="76728" y="-61865"/>
+		<node x="77368" y="-62213"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2414" maxZ="-2114"><!-- goddard_swamp_monster17 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="82052" y="-59979"/>
+		<node x="81588" y="-59123"/>
+		<node x="80692" y="-59059"/>
+		<node x="80152" y="-59707"/>
+		<node x="80172" y="-60535"/>
+		<node x="80824" y="-61043"/>
+		<node x="81552" y="-60955"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2522" maxZ="-2222"><!-- goddard_swamp_monster18 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="85533" y="-63207"/>
+		<node x="85685" y="-62647"/>
+		<node x="85249" y="-62239"/>
+		<node x="84589" y="-62535"/>
+		<node x="84549" y="-63151"/>
+		<node x="85101" y="-63443"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2462" maxZ="-2162"><!-- goddard_swamp_monster19 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="89512" y="-60985"/>
+		<node x="89712" y="-60141"/>
+		<node x="88888" y="-59441"/>
+		<node x="87948" y="-59557"/>
+		<node x="87620" y="-60545"/>
+		<node x="88136" y="-61165"/>
+		<node x="88544" y="-61437"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2574" maxZ="-2274"><!-- goddard_swamp_monster20 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="86034" y="-54576"/>
+		<node x="85642" y="-54220"/>
+		<node x="85238" y="-54224"/>
+		<node x="84862" y="-54636"/>
+		<node x="85082" y="-55248"/>
+		<node x="85526" y="-55364"/>
+		<node x="85950" y="-55020"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2727" maxZ="-2427"><!-- goddard_swamp_monster21 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="90080" y="-52443"/>
+		<node x="90212" y="-51947"/>
+		<node x="89700" y="-51239"/>
+		<node x="88928" y="-51583"/>
+		<node x="88764" y="-51991"/>
+		<node x="89008" y="-52687"/>
+		<node x="89688" y="-52723"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2767" maxZ="-2467"><!-- goddard_swamp_monster22 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="92777" y="-52363"/>
+		<node x="91981" y="-51967"/>
+		<node x="91281" y="-52519"/>
+		<node x="91229" y="-53299"/>
+		<node x="91385" y="-53679"/>
+		<node x="92405" y="-53943"/>
+		<node x="93025" y="-53439"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2763" maxZ="-2463"><!-- goddard_swamp_monster23 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="95179" y="-52286"/>
+		<node x="94747" y="-51982"/>
+		<node x="94303" y="-52062"/>
+		<node x="93927" y="-52458"/>
+		<node x="94187" y="-53042"/>
+		<node x="94707" y="-53150"/>
+		<node x="95043" y="-53058"/>
+		<node x="95211" y="-52546"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2550" maxZ="-2150"><!-- goddard_swamp_monster24 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="85757" y="-59957"/>
+		<node x="86073" y="-59585"/>
+		<node x="86085" y="-59117"/>
+		<node x="85761" y="-58801"/>
+		<node x="85177" y="-58893"/>
+		<node x="84905" y="-59329"/>
+		<node x="85229" y="-59869"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2486" maxZ="-2286"><!-- goddard_swamp_monster25 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="81382" y="-63921"/>
+		<node x="81826" y="-63537"/>
+		<node x="81834" y="-62985"/>
+		<node x="81298" y="-62773"/>
+		<node x="80870" y="-62985"/>
+		<node x="80798" y="-63309"/>
+		<node x="80946" y="-63769"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2819" maxZ="-2619"><!-- goddard_swamp_monster26 -->
+		<stat name="targetType" val="Npc"/>
+		<stat name="skill" val="4644-2;4645-3;4647-3"/><!-- @s_area_haste2;@s_area_focus3;@s_area_might3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="93421" y="-55220"/>
+		<node x="94109" y="-55536"/>
+		<node x="94601" y="-55164"/>
+		<node x="94581" y="-54740"/>
+		<node x="94185" y="-54360"/>
+		<node x="93565" y="-54344"/>
+		<node x="93365" y="-54760"/>
+	</zone>
+	<!-- Valakas Nest Lava -->
+	<zone shape="NPoly" minZ="-1700" maxZ="-1500"><!-- valakas_lava_1 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="212916" y="-117204"/>
+		<node x="213404" y="-117248"/>
+		<node x="213444" y="-116584"/>
+		<node x="213012" y="-116444"/>
+		<node x="212828" y="-116928"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1800" maxZ="-1600"><!-- valakas_lava_2 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="212304" y="-116608"/>
+		<node x="212708" y="-116660"/>
+		<node x="212820" y="-116300"/>
+		<node x="212416" y="-116144"/>
+		<node x="212140" y="-116336"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1772" maxZ="-1572"><!-- valakas_lava_3 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="214032" y="-116748"/>
+		<node x="214488" y="-116652"/>
+		<node x="214548" y="-116352"/>
+		<node x="214064" y="-116232"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1800" maxZ="-1600"><!-- valakas_lava_4 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="214424" y="-115452"/>
+		<node x="214776" y="-115520"/>
+		<node x="214944" y="-115248"/>
+		<node x="214652" y="-114784"/>
+		<node x="214460" y="-114824"/>
+		<node x="214412" y="-115080"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1820" maxZ="-1620"><!-- valakas_lava_5 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="214668" y="-114276"/>
+		<node x="214948" y="-113876"/>
+		<node x="214612" y="-113588"/>
+		<node x="214228" y="-113884"/>
+		<node x="214340" y="-114148"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1768" maxZ="-1568"><!-- valakas_lava_6 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="213916" y="-115660"/>
+		<node x="214220" y="-114648"/>
+		<node x="213392" y="-113112"/>
+		<node x="212100" y="-113460"/>
+		<node x="211292" y="-115164"/>
+		<node x="211948" y="-115196"/>
+		<node x="211976" y="-115628"/>
+		<node x="212696" y="-116036"/>
+		<node x="213200" y="-116136"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1764" maxZ="-1564"><!-- valakas_lava_7 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="210524" y="-114376"/>
+		<node x="211144" y="-114604"/>
+		<node x="211148" y="-114340"/>
+		<node x="210764" y="-114116"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1716" maxZ="-1516"><!-- valakas_lava_8 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="212276" y="-113016"/>
+		<node x="212932" y="-112836"/>
+		<node x="212860" y="-112600"/>
+		<node x="212616" y="-112488"/>
+		<node x="212188" y="-112604"/>
+		<node x="212144" y="-112820"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1720" maxZ="-1520"><!-- valakas_lava_9 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="211608" y="-113560"/>
+		<node x="211944" y="-113408"/>
+		<node x="211880" y="-112888"/>
+		<node x="211220" y="-112780"/>
+		<node x="211204" y="-113400"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1732" maxZ="-1532"><!-- valakas_lava_10 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="210596" y="-116292"/>
+		<node x="210904" y="-116088"/>
+		<node x="210972" y="-115760"/>
+		<node x="210784" y="-115612"/>
+		<node x="210308" y="-115904"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1736" maxZ="-1536"><!-- valakas_lava_11 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="211272" y="-117352"/>
+		<node x="211660" y="-117220"/>
+		<node x="211552" y="-117000"/>
+		<node x="211792" y="-116936"/>
+		<node x="212072" y="-116412"/>
+		<node x="211916" y="-115952"/>
+		<node x="211600" y="-115956"/>
+		<node x="211356" y="-116588"/>
+		<node x="210928" y="-116296"/>
+		<node x="210872" y="-117028"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1748" maxZ="-1548"><!-- valakas_lava_12 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="211528" y="-117312"/>
+		<node x="212828" y="-117884"/>
+		<node x="212756" y="-117068"/>
+		<node x="212584" y="-116828"/>
+		<node x="212300" y="-116812"/>
+		<node x="211796" y="-117168"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1792" maxZ="-1592"><!-- valakas_lava_13 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="213224" y="-117956"/>
+		<node x="213204" y="-117548"/>
+		<node x="213016" y="-117412"/>
+		<node x="212792" y="-117456"/>
+		<node x="212836" y="-117916"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1812" maxZ="-1612"><!-- valakas_lava_14 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="213440" y="-118004"/>
+		<node x="213852" y="-118004"/>
+		<node x="213728" y="-117728"/>
+		<node x="213584" y="-117748"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1764" maxZ="-1564"><!-- valakas_lava_15 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="213988" y="-117184"/>
+		<node x="213808" y="-117232"/>
+		<node x="213952" y="-117772"/>
+		<node x="213636" y="-118036"/>
+		<node x="214660" y="-117924"/>
+		<node x="214232" y="-117560"/>
+		<node x="214224" y="-117412"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1716" maxZ="-1516"><!-- valakas_lava_16 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="214564" y="-117840"/>
+		<node x="214844" y="-117352"/>
+		<node x="214616" y="-117172"/>
+		<node x="214436" y="-117300"/>
+		<node x="214304" y="-117592"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1700" maxZ="-1500"><!-- valakas_lava_17 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="215148" y="-117144"/>
+		<node x="215300" y="-117208"/>
+		<node x="215516" y="-116568"/>
+		<node x="215296" y="-116592"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1684" maxZ="-1484"><!-- valakas_lava_18 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="215356" y="-116304"/>
+		<node x="215584" y="-116508"/>
+		<node x="216472" y="-114732"/>
+		<node x="215428" y="-114700"/>
+		<node x="215204" y="-114556"/>
+		<node x="214916" y="-114664"/>
+		<node x="214932" y="-114920"/>
+		<node x="215244" y="-115184"/>
+		<node x="215116" y="-115408"/>
+		<node x="215420" y="-115756"/>
+		<node x="215296" y="-115852"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1740" maxZ="-1540"><!-- valakas_lava_19 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="214888" y="-114200"/>
+		<node x="216164" y="-114560"/>
+		<node x="216120" y="-113212"/>
+		<node x="215380" y="-112272"/>
+		<node x="214240" y="-113388"/>
+		<node x="215420" y="-113568"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1792" maxZ="-1592"><!-- valakas_lava_20 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="213792" y="-112592"/>
+		<node x="214948" y="-111748"/>
+		<node x="213932" y="-111516"/>
+		<node x="213624" y="-112404"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1772" maxZ="-1572"><!-- valakas_lava_21 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="212408" y="-112372"/>
+		<node x="212800" y="-111924"/>
+		<node x="212656" y="-111156"/>
+		<node x="211096" y="-111788"/>
+		<node x="211460" y="-112196"/>
+		<node x="211904" y="-112736"/>
+		<node x="212280" y="-112092"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1744" maxZ="-1544"><!-- valakas_lava_22 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="211120" y="-112784"/>
+		<node x="211300" y="-112484"/>
+		<node x="211116" y="-112048"/>
+		<node x="209044" y="-113592"/>
+		<node x="209900" y="-113652"/>
+		<node x="210020" y="-113412"/>
+		<node x="210812" y="-113544"/>
+		<node x="211088" y="-113220"/>
+		<node x="210720" y="-112888"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1600" maxZ="-1400"><!-- valakas_lava_23 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="209504" y="-113076"/>
+		<node x="209808" y="-113412"/>
+		<node x="210004" y="-112864"/>
+		<node x="209596" y="-112916"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1528" maxZ="-1328"><!-- valakas_lava_24 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="210400" y="-112656"/>
+		<node x="210308" y="-112356"/>
+		<node x="210152" y="-112260"/>
+		<node x="209944" y="-112384"/>
+		<node x="209804" y="-112308"/>
+		<node x="209688" y="-112448"/>
+		<node x="209804" y="-112564"/>
+		<node x="209772" y="-112672"/>
+		<node x="209968" y="-112884"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1564" maxZ="-1364"><!-- valakas_lava_25 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="210032" y="-112148"/>
+		<node x="210392" y="-112060"/>
+		<node x="210104" y="-111444"/>
+		<node x="209496" y="-112008"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1572" maxZ="-1372"><!-- valakas_lava_26 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="211096" y="-112400"/>
+		<node x="211436" y="-111804"/>
+		<node x="210812" y="-111712"/>
+		<node x="210628" y="-111792"/>
+		<node x="210600" y="-112004"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1488" maxZ="-1288"><!-- valakas_lava_27 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="210552" y="-111368"/>
+		<node x="210904" y="-111412"/>
+		<node x="210864" y="-111236"/>
+		<node x="210492" y="-111100"/>
+		<node x="210100" y="-111432"/>
+		<node x="210408" y="-111488"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1492" maxZ="-1292"><!-- valakas_lava_28 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="212136" y="-110836"/>
+		<node x="212552" y="-110896"/>
+		<node x="212704" y="-110776"/>
+		<node x="212724" y="-110460"/>
+		<node x="212064" y="-110576"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1476" maxZ="-1276"><!-- valakas_lava_29 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="212620" y="-111604"/>
+		<node x="213060" y="-111604"/>
+		<node x="212740" y="-111304"/>
+		<node x="212436" y="-111620"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1452" maxZ="-1252"><!-- valakas_lava_30 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="213416" y="-110968"/>
+		<node x="213716" y="-110772"/>
+		<node x="213752" y="-110376"/>
+		<node x="213356" y="-110388"/>
+		<node x="213328" y="-110760"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1548" maxZ="-1348"><!-- valakas_lava_31 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="214228" y="-111556"/>
+		<node x="214196" y="-111120"/>
+		<node x="213972" y="-111020"/>
+		<node x="213624" y="-111248"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1484" maxZ="-1284"><!-- valakas_lava_32 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="215120" y="-112132"/>
+		<node x="215460" y="-112124"/>
+		<node x="215564" y="-111836"/>
+		<node x="215376" y="-111736"/>
+		<node x="214924" y="-111792"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1456" maxZ="-1256"><!-- valakas_lava_33 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="215564" y="-111380"/>
+		<node x="215764" y="-111380"/>
+		<node x="215764" y="-111180"/>
+		<node x="215564" y="-111180"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1616" maxZ="-1416"><!-- valakas_lava_34 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="215776" y="-112812"/>
+		<node x="216348" y="-112536"/>
+		<node x="216268" y="-112392"/>
+		<node x="215684" y="-112660"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1480" maxZ="-1280"><!-- valakas_lava_35 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="216040" y="-114340"/>
+		<node x="216868" y="-114436"/>
+		<node x="216648" y="-112948"/>
+		<node x="216148" y="-113132"/>
+		<node x="215996" y="-113324"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1520" maxZ="-1320"><!-- valakas_lava_36 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="216136" y="-115280"/>
+		<node x="216760" y="-115372"/>
+		<node x="216880" y="-114792"/>
+		<node x="216636" y="-114964"/>
+		<node x="216428" y="-114976"/>
+		<node x="216364" y="-114832"/>
+		<node x="216068" y="-114768"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1568" maxZ="-1368"><!-- valakas_lava_37 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="215964" y="-115796"/>
+		<node x="216592" y="-115892"/>
+		<node x="216592" y="-115580"/>
+		<node x="216032" y="-115452"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1444" maxZ="-1244"><!-- valakas_lava_38 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="216040" y="-117792"/>
+		<node x="216088" y="-117536"/>
+		<node x="215972" y="-117352"/>
+		<node x="215812" y="-117256"/>
+		<node x="215600" y="-117324"/>
+		<node x="215692" y="-117736"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1448" maxZ="-1248"><!-- valakas_lava_39 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="214896" y="-117908"/>
+		<node x="215156" y="-118020"/>
+		<node x="215396" y="-117668"/>
+		<node x="215204" y="-117084"/>
+		<node x="214744" y="-117508"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1516" maxZ="-1316"><!-- valakas_lava_40 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="214468" y="-118700"/>
+		<node x="214748" y="-118780"/>
+		<node x="214484" y="-117908"/>
+		<node x="214188" y="-118000"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1508" maxZ="-1308"><!-- valakas_lava_41 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="213396" y="-118452"/>
+		<node x="213652" y="-118588"/>
+		<node x="213832" y="-118492"/>
+		<node x="213776" y="-118092"/>
+		<node x="213312" y="-118056"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1480" maxZ="-1280"><!-- valakas_lava_42 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="212684" y="-118456"/>
+		<node x="213148" y="-118436"/>
+		<node x="213168" y="-118308"/>
+		<node x="213008" y="-118204"/>
+		<node x="212668" y="-118300"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1500" maxZ="-1300"><!-- valakas_lava_43 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="212156" y="-118020"/>
+		<node x="212424" y="-118208"/>
+		<node x="213256" y="-118080"/>
+		<node x="211416" y="-117244"/>
+		<node x="211676" y="-118104"/>
+		<node x="211880" y="-118132"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1576" maxZ="-1376"><!-- valakas_lava_44 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="210792" y="-117952"/>
+		<node x="211464" y="-117376"/>
+		<node x="210832" y="-116852"/>
+		<node x="210296" y="-117456"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1556" maxZ="-1356"><!-- valakas_lava_45 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="209932" y="-116124"/>
+		<node x="210112" y="-116340"/>
+		<node x="210756" y="-116432"/>
+		<node x="210080" y="-115704"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1508" maxZ="-1308"><!-- valakas_lava_46 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="209604" y="-115832"/>
+		<node x="209676" y="-115672"/>
+		<node x="209480" y="-115472"/>
+		<node x="209064" y="-115396"/>
+		<node x="209064" y="-116060"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1544" maxZ="-1344"><!-- valakas_lava_47 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="209596" y="-114804"/>
+		<node x="209880" y="-114812"/>
+		<node x="209852" y="-114156"/>
+		<node x="209528" y="-114576"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1656" maxZ="-1456"><!-- valakas_lava_48 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="209452" y="-113908"/>
+		<node x="209720" y="-114032"/>
+		<node x="209648" y="-113588"/>
+		<node x="209452" y="-113708"/>
+	</zone>
+	<zone shape="NPoly" minZ="-1608" maxZ="-1408"><!-- valakas_lava_49 -->
+		<stat name="skill" val="4150-7"/><!-- s_area_fire7 -->
+		<stat name="chance" val="50"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="211652" y="-111708"/>
+		<node x="212000" y="-111640"/>
+		<node x="211652" y="-110812"/>
+		<node x="211420" y="-110828"/>
+	</zone>
+	<!-- Devil Isle Zones -->
+	<!-- Poison -->
+	<zone shape="NPoly" minZ="-3752" maxZ="-3552"><!-- devil_poison_001 -->
+		<stat name="skill" val="4148-4"/><!-- s_area_poison4 -->
+		<stat name="chance" val="30"/>
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="5000"/>
+		<node x="41707" y="211982"/>
+		<node x="42025" y="211917"/>
+		<node x="42463" y="212012"/>
+		<node x="42702" y="212346"/>
+		<node x="42593" y="212977"/>
+		<node x="42301" y="213144"/>
+		<node x="41821" y="213081"/>
+		<node x="41600" y="212602"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3800" maxZ="-3600"><!-- devil_poison_002 -->
+		<stat name="skill" val="4148-4"/><!-- s_area_poison4 -->
+		<stat name="chance" val="30"/>
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="5000"/>
+		<node x="45296" y="213219"/>
+		<node x="46136" y="213081"/>
+		<node x="46289" y="213374"/>
+		<node x="46158" y="213669"/>
+		<node x="45105" y="213668"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3628" maxZ="-3428"><!-- devil_poison_003 -->
+		<stat name="skill" val="4148-4"/><!-- s_area_poison4 -->
+		<stat name="chance" val="30"/>
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="5000"/>
+		<node x="47790" y="220792"/>
+		<node x="48632" y="220818"/>
+		<node x="48683" y="220992"/>
+		<node x="47828" y="220980"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3359" maxZ="-2959"><!-- fire_pot_god_hp_regen1 -->
+		<stat name="skill" val="4698-7"/><!-- s_area_hp_regeneration7 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="185241" y="-118610"/>
+		<node x="185966" y="-119586"/>
+		<node x="187638" y="-117286"/>
+		<node x="186478" y="-116565"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3246" maxZ="-2846"><!-- fire_pot_god_hp_regen2 -->
+		<stat name="skill" val="4698-7"/><!-- s_area_hp_regeneration7 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="182713" y="-119880"/>
+		<node x="183822" y="-120471"/>
+		<node x="184986" y="-118671"/>
+		<node x="183254" y="-118355"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3180" maxZ="-2780"><!-- fire_pot_god_hp_regen3 -->
+		<stat name="skill" val="4698-7"/><!-- s_area_hp_regeneration7 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="184021" y="-121547"/>
+		<node x="185825" y="-121596"/>
+		<node x="185937" y="-119732"/>
+		<node x="184633" y="-119645"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3164" maxZ="-2764"><!-- fire_pot_god_hp_regen4 -->
+		<stat name="skill" val="4698-7"/><!-- s_area_hp_regeneration7 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="186868" y="-121700"/>
+		<node x="188500" y="-121604"/>
+		<node x="188608" y="-119980"/>
+		<node x="187088" y="-120020"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3152" maxZ="-2752"><!-- fire_pot_god_hp_regen5 -->
+		<stat name="skill" val="4698-7"/><!-- s_area_hp_regeneration7 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="189116" y="-121636"/>
+		<node x="190732" y="-121116"/>
+		<node x="190108" y="-119288"/>
+		<node x="188672" y="-119984"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3388" maxZ="-2988"><!-- fire_pot_god_hp_regen6 -->
+		<stat name="skill" val="4698-7"/><!-- s_area_hp_regeneration7 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="187636" y="-120012"/>
+		<node x="189680" y="-119284"/>
+		<node x="188696" y="-117896"/>
+		<node x="187504" y="-118572"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3356" maxZ="-2956"><!-- fire_pot_god_hp_regen7 -->
+		<stat name="skill" val="4698-7"/><!-- s_area_hp_regeneration7 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="188888" y="-118252"/>
+		<node x="191124" y="-118348"/>
+		<node x="190324" y="-115548"/>
+		<node x="188992" y="-116344"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3375" maxZ="-2975"><!-- godad_swamp_pc1 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="71030" y="-60113"/>
+		<node x="70966" y="-59549"/>
+		<node x="70250" y="-59173"/>
+		<node x="69622" y="-59597"/>
+		<node x="69634" y="-60261"/>
+		<node x="70026" y="-60593"/>
+		<node x="70566" y="-60601"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3191" maxZ="-2991"><!-- godad_swamp_pc2 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="73522" y="-59473"/>
+		<node x="73454" y="-58861"/>
+		<node x="73194" y="-58629"/>
+		<node x="72642" y="-58433"/>
+		<node x="72110" y="-58501"/>
+		<node x="71782" y="-59013"/>
+		<node x="71922" y="-59817"/>
+		<node x="72482" y="-60149"/>
+		<node x="72986" y="-60085"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3335" maxZ="-2935"><!-- godad_swamp_pc3 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="72376" y="-55558"/>
+		<node x="72036" y="-54506"/>
+		<node x="71188" y="-54130"/>
+		<node x="70264" y="-54442"/>
+		<node x="69748" y="-55206"/>
+		<node x="69860" y="-56066"/>
+		<node x="70708" y="-56830"/>
+		<node x="71632" y="-56706"/>
+		<node x="72132" y="-56258"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3179" maxZ="-2979"><!-- godad_swamp_pc4 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="76091" y="-53873"/>
+		<node x="75447" y="-53721"/>
+		<node x="75135" y="-54069"/>
+		<node x="75047" y="-54749"/>
+		<node x="75491" y="-55125"/>
+		<node x="76171" y="-54993"/>
+		<node x="76323" y="-54677"/>
+		<node x="76339" y="-54281"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3255" maxZ="-2955"><!-- godad_swamp_pc5 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="74415" y="-51769"/>
+		<node x="74351" y="-51081"/>
+		<node x="74075" y="-50837"/>
+		<node x="74007" y="-50597"/>
+		<node x="73335" y="-50669"/>
+		<node x="72983" y="-51393"/>
+		<node x="73167" y="-51845"/>
+		<node x="73995" y="-52025"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3458" maxZ="-3158"><!-- godad_swamp_pc6 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="73198" y="-44860"/>
+		<node x="72682" y="-44392"/>
+		<node x="71766" y="-44416"/>
+		<node x="71314" y="-44836"/>
+		<node x="71378" y="-45248"/>
+		<node x="71430" y="-45960"/>
+		<node x="71850" y="-46264"/>
+		<node x="72594" y="-46236"/>
+		<node x="73034" y="-45800"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3418" maxZ="-3118"><!-- godad_swamp_pc7 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="74049" y="-42558"/>
+		<node x="73997" y="-41998"/>
+		<node x="73513" y="-41622"/>
+		<node x="73093" y="-41610"/>
+		<node x="72537" y="-42338"/>
+		<node x="72661" y="-42830"/>
+		<node x="73325" y="-43018"/>
+		<node x="73641" y="-42942"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3410" maxZ="-3110"><!-- godad_swamp_pc8 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="77309" y="-42410"/>
+		<node x="76629" y="-41878"/>
+		<node x="75557" y="-41990"/>
+		<node x="74781" y="-42802"/>
+		<node x="74745" y="-43802"/>
+		<node x="75581" y="-44790"/>
+		<node x="76761" y="-44770"/>
+		<node x="77597" y="-44062"/>
+		<node x="77641" y="-43006"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3422" maxZ="-3122"><!-- godad_swamp_pc9 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="80214" y="-42670"/>
+		<node x="80438" y="-42094"/>
+		<node x="80314" y="-41546"/>
+		<node x="79614" y="-41342"/>
+		<node x="78754" y="-41710"/>
+		<node x="78662" y="-42230"/>
+		<node x="79062" y="-42894"/>
+		<node x="79758" y="-43070"/>
+		<node x="79930" y="-42834"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3370" maxZ="-3070"><!-- godad_swamp_pc10 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="83118" y="-41483"/>
+		<node x="82686" y="-40931"/>
+		<node x="82046" y="-40887"/>
+		<node x="82050" y="-41079"/>
+		<node x="81734" y="-41263"/>
+		<node x="81610" y="-41879"/>
+		<node x="82366" y="-42299"/>
+		<node x="82758" y="-42155"/>
+		<node x="82910" y="-41879"/>
+		<node x="83086" y="-41823"/>
+	</zone>
+	<zone shape="NPoly" minZ="-3366" maxZ="-3066"><!-- godad_swamp_pc11 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="81654" y="-45503"/>
+		<node x="81886" y="-45267"/>
+		<node x="82222" y="-44899"/>
+		<node x="82266" y="-44547"/>
+		<node x="82098" y="-44207"/>
+		<node x="81506" y="-44063"/>
+		<node x="80846" y="-44375"/>
+		<node x="80786" y="-44795"/>
+		<node x="81094" y="-45271"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2522" maxZ="-2222"><!-- godad_swamp_pc12 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="79526" y="-51746"/>
+		<node x="79638" y="-51098"/>
+		<node x="79190" y="-50458"/>
+		<node x="78398" y="-50694"/>
+		<node x="78158" y="-51298"/>
+		<node x="78570" y="-51934"/>
+		<node x="79214" y="-51898"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2470" maxZ="-2170"><!-- godad_swamp_pc13 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="83615" y="-50828"/>
+		<node x="83507" y="-50428"/>
+		<node x="83115" y="-50032"/>
+		<node x="82447" y="-50180"/>
+		<node x="82231" y="-50752"/>
+		<node x="82535" y="-51328"/>
+		<node x="82855" y="-51444"/>
+		<node x="83535" y="-51204"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2458" maxZ="-2158"><!-- godad_swamp_pc14 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="81946" y="-53719"/>
+		<node x="81398" y="-53767"/>
+		<node x="80642" y="-53691"/>
+		<node x="79554" y="-54587"/>
+		<node x="79782" y="-55123"/>
+		<node x="79886" y="-56423"/>
+		<node x="81054" y="-57231"/>
+		<node x="81802" y="-57111"/>
+		<node x="82970" y="-56139"/>
+		<node x="82738" y="-54227"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2542" maxZ="-2242"><!-- godad_swamp_pc15 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="78226" y="-58454"/>
+		<node x="78206" y="-58026"/>
+		<node x="77858" y="-57766"/>
+		<node x="77370" y="-57814"/>
+		<node x="77058" y="-58266"/>
+		<node x="77374" y="-58806"/>
+		<node x="77966" y="-58870"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2558" maxZ="-2258"><!-- godad_swamp_pc16 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="77796" y="-61961"/>
+		<node x="77836" y="-61333"/>
+		<node x="77524" y="-60969"/>
+		<node x="77100" y="-61041"/>
+		<node x="76796" y="-61233"/>
+		<node x="76728" y="-61865"/>
+		<node x="77368" y="-62213"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2414" maxZ="-2114"><!-- godad_swamp_pc17 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="82052" y="-59979"/>
+		<node x="81588" y="-59123"/>
+		<node x="80692" y="-59059"/>
+		<node x="80152" y="-59707"/>
+		<node x="80172" y="-60535"/>
+		<node x="80824" y="-61043"/>
+		<node x="81552" y="-60955"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2522" maxZ="-2222"><!-- godad_swamp_pc18 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="85533" y="-63207"/>
+		<node x="85685" y="-62647"/>
+		<node x="85249" y="-62239"/>
+		<node x="84589" y="-62535"/>
+		<node x="84549" y="-63151"/>
+		<node x="85101" y="-63443"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2462" maxZ="-2162"><!-- godad_swamp_pc19 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="89512" y="-60985"/>
+		<node x="89712" y="-60141"/>
+		<node x="88888" y="-59441"/>
+		<node x="87948" y="-59557"/>
+		<node x="87620" y="-60545"/>
+		<node x="88136" y="-61165"/>
+		<node x="88544" y="-61437"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2574" maxZ="-2274"><!-- godad_swamp_pc20 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="86034" y="-54576"/>
+		<node x="85642" y="-54220"/>
+		<node x="85238" y="-54224"/>
+		<node x="84862" y="-54636"/>
+		<node x="85082" y="-55248"/>
+		<node x="85526" y="-55364"/>
+		<node x="85950" y="-55020"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2727" maxZ="-2427"><!-- godad_swamp_pcr21 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="90080" y="-52443"/>
+		<node x="90212" y="-51947"/>
+		<node x="89700" y="-51239"/>
+		<node x="88928" y="-51583"/>
+		<node x="88764" y="-51991"/>
+		<node x="89008" y="-52687"/>
+		<node x="89688" y="-52723"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2767" maxZ="-2467"><!-- godad_swamp_pc22 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="92777" y="-52363"/>
+		<node x="91981" y="-51967"/>
+		<node x="91281" y="-52519"/>
+		<node x="91229" y="-53299"/>
+		<node x="91385" y="-53679"/>
+		<node x="92405" y="-53943"/>
+		<node x="93025" y="-53439"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2763" maxZ="-2463"><!-- godad_swamp_pc23 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="95179" y="-52286"/>
+		<node x="94747" y="-51982"/>
+		<node x="94303" y="-52062"/>
+		<node x="93927" y="-52458"/>
+		<node x="94187" y="-53042"/>
+		<node x="94707" y="-53150"/>
+		<node x="95043" y="-53058"/>
+		<node x="95211" y="-52546"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2550" maxZ="-2150"><!-- godad_swamp_pc24 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="85757" y="-59957"/>
+		<node x="86073" y="-59585"/>
+		<node x="86085" y="-59117"/>
+		<node x="85761" y="-58801"/>
+		<node x="85177" y="-58893"/>
+		<node x="84905" y="-59329"/>
+		<node x="85229" y="-59869"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2486" maxZ="-2286"><!-- godad_swamp_pc25 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="81382" y="-63921"/>
+		<node x="81826" y="-63537"/>
+		<node x="81834" y="-62985"/>
+		<node x="81298" y="-62773"/>
+		<node x="80870" y="-62985"/>
+		<node x="80798" y="-63309"/>
+		<node x="80946" y="-63769"/>
+	</zone>
+	<zone shape="NPoly" minZ="-2819" maxZ="-2619"><!-- godad_swamp_pc26 -->
+		<stat name="skill" val="4148-7;4146-3"/><!-- @s_area_poison7;@s_area_pd_down3 -->
+		<stat name="chance" val="70"/>
+		<!-- stat name="unitTick" val="9" / -->
+		<stat name="initialDelay" val="1000"/>
+		<stat name="reuseDelay" val="6000"/>
+		<node x="93421" y="-55220"/>
+		<node x="94109" y="-55536"/>
+		<node x="94601" y="-55164"/>
+		<node x="94581" y="-54740"/>
+		<node x="94185" y="-54360"/>
+		<node x="93565" y="-54344"/>
+		<node x="93365" y="-54760"/>
+	</zone>
+</list>

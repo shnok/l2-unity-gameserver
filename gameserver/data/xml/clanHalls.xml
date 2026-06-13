@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<clanHall id="21" alias="partisan_agit001" parentId="-1" name="Fortress of Resistance">
+		<agit desc="Contestable Clan Hall" loc="Dion" siegeLength="3600000" scheduleConfig="14;0;0;12;0" auctionMin="0" deposit="0" lease="0" size="0" grade="2"/>
+		<gates val="partisan001;partisan002"/>
+		<npcs val="30596;35382;35383"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="43370" y="108839" z="-1980"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="51952" y="111060" z="-1970"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="51952" y="111060" z="-1970"/>
+		</spawns>
+		<tax taxRate="0" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2104" maxZ="-1104">
+				<node x="43048" y="108832"/>
+				<node x="43692" y="108204"/>
+				<node x="44052" y="108604"/>
+				<node x="43976" y="109180"/>
+				<node x="43684" y="109496"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-2344" maxZ="-1544">
+				<node x="42768" y="109156"/>
+				<node x="44460" y="107584"/>
+				<node x="47219" y="108081"/>
+				<node x="48281" y="109544"/>
+				<node x="47600" y="112400"/>
+				<node x="44092" y="113504"/>
+				<node x="43180" y="112736"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="22" alias="gludio_castle_agit_001" parentId="1" name="Moonstone Hall">
+		<agit desc="Clan hall located in the Town of Gludio" loc="Gludio" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="gludio_castle_agit_001_001;gludio_castle_agit_001_002"/>
+		<npcs val="35384;35385"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="-16029" y="123642" z="-3101"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-15872" y="123824" z="-3116"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="-15872" y="123824" z="-3116"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3598" maxZ="-2098">
+				<node x="-16362" y="123496"/>
+				<node x="-15748" y="123315"/>
+				<node x="-15645" y="123655"/>
+				<node x="-16234" y="123831"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="23" alias="gludio_castle_agit_002" parentId="1" name="Onyx Hall">
+		<agit desc="Clan hall located in the Town of Gludio" loc="Gludio" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="gludio_castle_agit_002_001;gludio_castle_agit_002_002"/>
+		<npcs val="35386;35387"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="-14848" y="125552" z="-3128"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-14684" y="125655" z="-3142"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="-14684" y="125655" z="-3142"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3777" maxZ="-2277">
+				<node x="-15098" y="125352"/>
+				<node x="-14789" y="125352"/>
+				<node x="-14789" y="125816"/>
+				<node x="-15098" y="125816"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="24" alias="gludio_castle_agit_003" parentId="1" name="Topaz Hall">
+		<agit desc="Clan hall located in the Town of Gludio" loc="Gludio" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="gludio_castle_agit_003_001;gludio_castle_agit_003_002"/>
+		<npcs val="35388;35389"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="-13879" y="125413" z="-3128"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-14192" y="125584" z="-3139"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="-14192" y="125584" z="-3139"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3745" maxZ="-2245">
+				<node x="-14028" y="125062"/>
+				<node x="-13695" y="125070"/>
+				<node x="-13695" y="125671"/>
+				<node x="-14028" y="125663"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="25" alias="gludio_castle_agit_004" parentId="1" name="Ruby Hall">
+		<agit desc="Clan hall located in the Town of Gludio" loc="Gludio" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="gludio_castle_agit_004_001;gludio_castle_agit_004_002"/>
+		<npcs val="35390;35391"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="-12710" y="124029" z="-3096"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-12688" y="123760" z="-3115"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="-12688" y="123760" z="-3115"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3809" maxZ="-2309">
+				<node x="-12942" y="123872"/>
+				<node x="-12327" y="123872"/>
+				<node x="-12327" y="124231"/>
+				<node x="-12942" y="124231"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="26" alias="gludin_agit_001" parentId="1" name="Crystal Hall">
+		<agit desc="Clan hall located in Gludin Village" loc="Gludin" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="gludin_agit_001_001;gludin_agit_001_002"/>
+		<npcs val="35392;35393"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="-84416" y="152192" z="-3123"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-84080" y="151744" z="-3127"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="-84080" y="151744" z="-3127"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-4076" maxZ="-2576">
+				<node x="-84691" y="151557"/>
+				<node x="-84261" y="151557"/>
+				<node x="-84260" y="152333"/>
+				<node x="-84690" y="152330"/>
+				<node x="-84325" y="151962"/>
+				<node x="-83819" y="151959"/>
+				<node x="-83819" y="152328"/>
+				<node x="-84325" y="152328"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="27" alias="gludin_agit_002" parentId="1" name="Onyx Hall">
+		<agit desc="Clan hall located in Gludin Village" loc="Gludin" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="gludin_agit_002_001;gludin_agit_002_002;gludin_agit_002_003;gludin_agit_002_004"/>
+		<npcs val="35394;35395"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="-84171" y="153385" z="-3159"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-83860" y="153744" z="-3176"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="-83860" y="153744" z="-3176"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-4012" maxZ="-2512">
+				<node x="-84367" y="153086"/>
+				<node x="-83983" y="153086"/>
+				<node x="-83977" y="154046"/>
+				<node x="-84367" y="154054"/>
+				<node x="-84160" y="153086"/>
+				<node x="-83586" y="153085"/>
+				<node x="-83585" y="153564"/>
+				<node x="-84160" y="153561"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="28" alias="gludin_agit_003" parentId="1" name="Sapphire Hall">
+		<agit desc="Clan hall located in Gludin Village" loc="Gludin" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="gludin_agit_003_001;gludin_agit_003_002;gludin_agit_003_003;gludin_agit_003_004"/>
+		<npcs val="35396;35397"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="-84236" y="155520" z="-3160"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-83824" y="155216" z="-3176"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="-83824" y="155216" z="-3176"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-4044" maxZ="-2544">
+				<node x="-84463" y="154941"/>
+				<node x="-83987" y="154941"/>
+				<node x="-83986" y="155688"/>
+				<node x="-84463" y="155685"/>
+				<node x="-84098" y="155318"/>
+				<node x="-83523" y="155317"/>
+				<node x="-83523" y="155686"/>
+				<node x="-84098" y="155684"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="29" alias="gludin_agit_004" parentId="1" name="Moonstone Hall">
+		<agit desc="Clan hall located in Gludin Village" loc="Gludin" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="gludin_agit_004_001;gludin_agit_004_002"/>
+		<npcs val="35398;35399"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="-79544" y="150181" z="-3038"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-79856" y="150144" z="-3042"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="-79856" y="150144" z="-3042"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3948" maxZ="-2448">
+				<node x="-79657" y="149419"/>
+				<node x="-79290" y="149424"/>
+				<node x="-79284" y="150296"/>
+				<node x="-79656" y="150298"/>
+				<node x="-80066" y="149420"/>
+				<node x="-79491" y="149419"/>
+				<node x="-79491" y="149859"/>
+				<node x="-80066" y="149857"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="30" alias="gludin_agit_005" parentId="1" name="Emerald Hall">
+		<agit desc="Clan hall located in Gludin Village" loc="Gludin" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="gludin_agit_005_001;gludin_agit_005_002"/>
+		<npcs val="35400;35401"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="-79513" y="151506" z="-3041"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="-79854" y="151602" z="-3042"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="-79854" y="151602" z="-3042"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3980" maxZ="-2480">
+				<node x="-79663" y="151367"/>
+				<node x="-79296" y="151372"/>
+				<node x="-79290" y="152244"/>
+				<node x="-79663" y="152246"/>
+				<node x="-80067" y="151809"/>
+				<node x="-79493" y="151808"/>
+				<node x="-79493" y="152247"/>
+				<node x="-80067" y="152245"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="31" alias="dion_castle_agit_001" parentId="2" name="Atramental Barracks">
+		<agit desc="Clan hall located in the Town of Dion" loc="Dion" auctionMin="8000000" deposit="500000" lease="200000" size="30" grade="1"/>
+		<gates val="dion_castle_agit_001_001;dion_castle_agit_001_002"/>
+		<npcs val="35402;35403"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="17760" y="145200" z="-3036"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="17552" y="145248" z="-3050"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="17552" y="145248" z="-3050"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3365" maxZ="-1865">
+				<node x="17597" y="144823"/>
+				<node x="17989" y="145089"/>
+				<node x="17828" y="145333"/>
+				<node x="17433" y="145067"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="32" alias="dion_castle_agit_002" parentId="2" name="Scarlet Barracks">
+		<agit desc="Clan hall located in the Town of Dion" loc="Dion" auctionMin="8000000" deposit="500000" lease="200000" size="30" grade="1"/>
+		<gates val="dion_castle_agit_002_001;dion_castle_agit_002_002"/>
+		<npcs val="35404;35405"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="18800" y="143248" z="-3010"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="18976" y="143360" z="-3033"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="18976" y="143360" z="-3033"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3333" maxZ="-1833">
+				<node x="18849" y="143099"/>
+				<node x="18897" y="143562"/>
+				<node x="18615" y="143588"/>
+				<node x="18571" y="143128"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="33" alias="dion_castle_agit_003" parentId="2" name="Viridian Barracks">
+		<agit desc="Clan hall located in the Town of Dion" loc="Dion" auctionMin="8000000" deposit="500000" lease="200000" size="30" grade="1"/>
+		<gates val="dion_castle_agit_003_001;dion_castle_agit_003_002"/>
+		<npcs val="35406;35407"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="20096" y="146064" z="-3111"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="20192" y="145920" z="-3125"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="20192" y="145920" z="-3125"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3397" maxZ="-1897">
+				<node x="19942" y="145996"/>
+				<node x="20414" y="145996"/>
+				<node x="20414" y="146292"/>
+				<node x="19942" y="146292"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="34" alias="devastated_castle" parentId="-1" name="Devastated Castle">
+		<agit desc="Contestable Clan Hall" loc="Aden" siegeLength="3600000" scheduleConfig="14;0;0;12;0" auctionMin="0" deposit="0" lease="0" size="0" grade="3"/>
+		<gates val="Devastated_castle_outter_001;Devastated_castle_outter_002;Devastated_castle_001;Devastated_castle_002;Devastated_castle_003;Devastated_castle_004"/>
+		<npcs val="35408;35409;35417;35418;35419;35420;35421"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="177930" y="-18629" z="-2240"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="146494" y="30584" z="-2420"/>
+			<spawn type="OTHER" x="146038" y="30519" z="-2420"/>
+			<spawn type="OTHER" x="148112" y="30439" z="-2420"/>
+			<spawn type="OTHER" x="148565" y="30463" z="-2420"/>
+			<spawn type="OTHER" x="150227" y="29104" z="-2420"/>
+			<spawn type="OTHER" x="144626" y="29145" z="-2420"/>
+			<spawn type="OTHER" x="144635" y="26664" z="-2220"/>
+			<spawn type="OTHER" x="144526" y="24661" z="-2100"/>
+			<spawn type="OTHER" x="144559" y="22835" z="-2100"/>
+			<spawn type="OTHER" x="145686" y="21114" z="-2100"/>
+			<spawn type="OTHER" x="148946" y="21121" z="-2070"/>
+			<spawn type="OTHER" x="148010" y="27996" z="-2256"/>
+			<spawn type="OTHER" x="147970" y="27040" z="-2191"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="136398" y="28901" z="-3582"/>
+			<spawn type="CHAOTIC" x="137292" y="28485" z="-3290"/>
+			<spawn type="CHAOTIC" x="155925" y="28554" z="-3164"/>
+			<spawn type="CHAOTIC" x="157608" y="23866" z="-3760"/>
+			<spawn type="CHAOTIC" x="157463" y="28770" z="-3371"/>
+			<spawn type="CHAOTIC" x="159348" y="28561" z="-3400"/>
+			<spawn type="CHAOTIC" x="160236" y="14119" z="-3892"/>
+			<spawn type="CHAOTIC" x="156764" y="13774" z="-3960"/>
+			<spawn type="CHAOTIC" x="161426" y="23055" z="-3670"/>
+			<spawn type="CHAOTIC" x="136380" y="21899" z="-3647"/>
+			<spawn type="CHAOTIC" x="137708" y="15640" z="-3800"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="178497" y="-13129" z="-2200"/>
+		</spawns>
+		<tax taxRate="0" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2514" maxZ="486">
+				<node x="176793" y="-19176"/>
+				<node x="179892" y="-19176"/>
+				<node x="179892" y="-15276"/>
+				<node x="179417" y="-14511"/>
+				<node x="177270" y="-14511"/>
+				<node x="176793" y="-15276"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-2634" maxZ="366">
+				<node x="176367" y="-19559"/>
+				<node x="180367" y="-19559"/>
+				<node x="180367" y="-13059"/>
+				<node x="176367" y="-13059"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-2405" maxZ="595">
+				<node x="176740" y="-13838"/>
+				<node x="180040" y="-13838"/>
+				<node x="180040" y="-13188"/>
+				<node x="176740" y="-13188"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="35" alias="bandits'_stronghold" parentId="5" name="Bandit Stronghold">
+		<agit desc="Contestable Clan Hall" loc="Oren" siegeLength="3600000" scheduleConfig="14;0;0;12;0" auctionMin="0" deposit="0" lease="0" size="0" grade="3"/>
+		<gates val="Bandit_001;Bandit_002;Bandit_003;Bandit_004"/>
+		<npcs val="35433;35434;35435;35436;35437;35438"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="80339" y="-15442" z="-1804"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="80304" y="56241" z="-1500"/>
+			<spawn type="OTHER" x="80594" y="55837" z="-1500"/>
+			<spawn type="OTHER" x="79933" y="55752" z="-1500"/>
+			<spawn type="OTHER" x="80267" y="55497" z="-1500"/>
+			<spawn type="OTHER" x="80334" y="54400" z="-1500"/>
+			<spawn type="OTHER" x="82445" y="56012" z="-1480"/>
+			<spawn type="OTHER" x="82323" y="55466" z="-1480"/>
+			<spawn type="OTHER" x="82880" y="55390" z="-1480"/>
+			<spawn type="OTHER" x="82638" y="53885" z="-1440"/>
+			<spawn type="OTHER" x="82552" y="53447" z="-1440"/>
+			<spawn type="OTHER" x="82213" y="53964" z="-1440"/>
+			<spawn type="OTHER" x="80054" y="53209" z="-1500"/>
+			<spawn type="OTHER" x="79706" y="52986" z="-1500"/>
+			<spawn type="OTHER" x="82123" y="53535" z="-1440"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="76576" y="50151" z="-3200"/>
+			<spawn type="CHAOTIC" x="77310" y="50317" z="-3160"/>
+			<spawn type="CHAOTIC" x="77250" y="51285" z="-3160"/>
+			<spawn type="CHAOTIC" x="78811" y="51106" z="-3160"/>
+			<spawn type="CHAOTIC" x="75755" y="51372" z="-3250"/>
+			<spawn type="CHAOTIC" x="75613" y="52504" z="-3200"/>
+			<spawn type="CHAOTIC" x="74459" y="52441" z="-3260"/>
+			<spawn type="CHAOTIC" x="74467" y="53354" z="-3200"/>
+			<spawn type="CHAOTIC" x="73600" y="53918" z="-3170"/>
+			<spawn type="CHAOTIC" x="71102" y="57875" z="-3330"/>
+			<spawn type="CHAOTIC" x="70052" y="59300" z="-3580"/>
+			<spawn type="CHAOTIC" x="70420" y="57480" z="-3480"/>
+			<spawn type="CHAOTIC" x="75474" y="60125" z="-2730"/>
+			<spawn type="CHAOTIC" x="74880" y="60818" z="-2820"/>
+			<spawn type="CHAOTIC" x="88011" y="56589" z="-3560"/>
+			<spawn type="CHAOTIC" x="91239" y="53120" z="-3430"/>
+			<spawn type="CHAOTIC" x="81785" y="46306" z="-3160"/>
+			<spawn type="CHAOTIC" x="80708" y="44609" z="-3120"/>
+			<spawn type="CHAOTIC" x="70139" y="55885" z="-3550"/>
+			<spawn type="CHAOTIC" x="80236" y="45675" z="-3150"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="91826" y="-12575" z="-2408"/>
+			<spawn type="BANISH" x="92188" y="-12927" z="-2404"/>
+			<spawn type="BANISH" x="91737" y="-12075" z="-2450"/>
+			<spawn type="BANISH" x="91288" y="-12467" z="-2409"/>
+			<spawn type="BANISH" x="91456" y="-13048" z="-2378"/>
+			<spawn type="BANISH" x="91359" y="-12094" z="-2436"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="50" tributeRate="0"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2920" maxZ="80">
+				<node x="79028" y="-17588"/>
+				<node x="84640" y="-19528"/>
+				<node x="86952" y="-16888"/>
+				<node x="83636" y="-13448"/>
+				<node x="79196" y="-13584"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-2920" maxZ="80">
+				<node x="79028" y="-17588"/>
+				<node x="84640" y="-19528"/>
+				<node x="86952" y="-16888"/>
+				<node x="83636" y="-13448"/>
+				<node x="79196" y="-13584"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="36" alias="aden_castle_agit_001" parentId="5" name="Golden Chamber">
+		<agit desc="Clan hall located in the Town of Aden" loc="Aden" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="aden_castle_agit_001_001;aden_castle_agit_001_002"/>
+		<npcs val="35439;35440"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="149134" y="23140" z="-2160"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="149568" y="23024" z="-2128"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="149568" y="23024" z="-2128"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2160" maxZ="-1960">
+				<node x="148844" y="22709"/>
+				<node x="149424" y="22709"/>
+				<node x="149424" y="23569"/>
+				<node x="148844" y="23569"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="37" alias="aden_castle_agit_002" parentId="5" name="Silver Chamber">
+		<agit desc="Clan hall located in the Town of Aden" loc="Aden" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="aden_castle_agit_002_001;aden_castle_agit_002_002"/>
+		<npcs val="35441;35442"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="150644" y="23653" z="-2150"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="150192" y="23808" z="-2128"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="150192" y="23808" z="-2128"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2150" maxZ="-1950">
+				<node x="150343" y="23193"/>
+				<node x="150943" y="23193"/>
+				<node x="150943" y="24113"/>
+				<node x="150343" y="24113"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="38" alias="aden_castle_agit_003" parentId="5" name="Mithril Chamber">
+		<agit desc="Clan hall located in the Town of Aden" loc="Aden" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="aden_castle_agit_003_001;aden_castle_agit_003_002"/>
+		<npcs val="35443;35444"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="145667" y="25356" z="-2150"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="150320" y="26368" z="-2256"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="150320" y="26368" z="-2256"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2150" maxZ="-1950">
+				<node x="145362" y="24890"/>
+				<node x="145972" y="24890"/>
+				<node x="145972" y="25820"/>
+				<node x="145362" y="25820"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="39" alias="aden_castle_agit_004" parentId="5" name="Silver Manor">
+		<agit desc="Clan hall located in the Town of Aden" loc="Aden" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="aden_castle_agit_004_001;aden_castle_agit_004_002"/>
+		<npcs val="35445;35446"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="150748" y="26540" z="-2280"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="145280" y="25184" z="-2128"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="145280" y="25184" z="-2128"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2280" maxZ="-2080">
+				<node x="150460" y="26108"/>
+				<node x="151036" y="26108"/>
+				<node x="151036" y="26972"/>
+				<node x="150460" y="26972"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="40" alias="aden_castle_agit_005" parentId="5" name="Gold Manor">
+		<agit desc="Clan hall located in the Town of Aden" loc="Aden" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="aden_castle_agit_006_001;aden_castle_agit_006_002"/>
+		<npcs val="35447;35448"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="143992" y="27092" z="-2290"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="144432" y="26896" z="-2256"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="144432" y="26896" z="-2256"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2290" maxZ="-2090">
+				<node x="143701" y="26661"/>
+				<node x="144299" y="26661"/>
+				<node x="144299" y="27521"/>
+				<node x="143701" y="27521"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="41" alias="aden_castle_agit_006" parentId="5" name="Bronze Chamber">
+		<agit desc="Clan hall located in the Town of Aden" loc="Aden" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="aden_castle_agit_005_001;aden_castle_agit_005_002"/>
+		<npcs val="35449;35450"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="144014" y="28202" z="-2280"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="144448" y="28384" z="-2256"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="144448" y="28384" z="-2256"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2280" maxZ="-2080">
+				<node x="143704" y="27734"/>
+				<node x="144324" y="27734"/>
+				<node x="144324" y="28670"/>
+				<node x="143704" y="28670"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="42" alias="giran_castle_agit_001" parentId="3" name="Golden Chamber">
+		<agit desc="Clan hall located in the Town of Giran" loc="Giran" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="giran_castle_agit_001_001;giran_castle_agit_001_002"/>
+		<npcs val="35451;35452"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="78592" y="148080" z="-3581"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="83409" y="148578" z="-3300"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="83409" y="148578" z="-3300"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3647" maxZ="-3297">
+				<node x="78059" y="147906"/>
+				<node x="79122" y="147906"/>
+				<node x="79122" y="148296"/>
+				<node x="78059" y="148296"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="43" alias="giran_castle_agit_002" parentId="3" name="Silver Chamber">
+		<agit desc="Clan hall located in the Town of Giran" loc="Giran" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="giran_castle_agit_002_001;giran_castle_agit_002_002"/>
+		<npcs val="35453;35454"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="82032" y="145328" z="-3520"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="83409" y="148578" z="-3300"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="83409" y="148578" z="-3300"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3647" maxZ="-3297">
+				<node x="81859" y="144802"/>
+				<node x="82254" y="144802"/>
+				<node x="82254" y="145870"/>
+				<node x="81859" y="145870"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="44" alias="giran_castle_agit_003" parentId="3" name="Mithril Chamber">
+		<agit desc="Clan hall located in the Town of Giran" loc="Giran" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="giran_castle_agit_003_001;giran_castle_agit_003_002"/>
+		<npcs val="35455;35456"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="83392" y="145328" z="-3389"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="83409" y="148578" z="-3300"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="83409" y="148578" z="-3300"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3540" maxZ="-3190">
+				<node x="83195" y="144779"/>
+				<node x="83591" y="144779"/>
+				<node x="83591" y="145847"/>
+				<node x="83195" y="145847"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="45" alias="giran_castle_agit_004" parentId="3" name="Bronze Chamber">
+		<agit desc="Clan hall located in the Town of Giran" loc="Giran" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="giran_castle_agit_004_001;giran_castle_agit_004_002"/>
+		<npcs val="35457;35458"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="80960" y="151600" z="-3517"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="83409" y="148578" z="-3300"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="83409" y="148578" z="-3300"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3647" maxZ="-3297">
+				<node x="80773" y="151053"/>
+				<node x="81169" y="151053"/>
+				<node x="81169" y="152121"/>
+				<node x="80773" y="152121"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="46" alias="giran_castle_agit_005" parentId="3" name="Silver Manor">
+		<agit desc="Clan hall located in the Town of Giran" loc="Giran" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="giran_castle_agit_005_001;giran_castle_agit_005_002"/>
+		<npcs val="35459;35460"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="82064" y="151904" z="-3520"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="83409" y="148578" z="-3300"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="83409" y="148578" z="-3300"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-3647" maxZ="-3297">
+				<node x="81903" y="151377"/>
+				<node x="82299" y="151377"/>
+				<node x="82299" y="152445"/>
+				<node x="81903" y="152445"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="47" alias="godad_castle_agit_001" parentId="7" name="Moonstone Hall">
+		<agit desc="Clan hall located in the Town of Goddard" loc="Goddard" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="godad_castle_agit_001_001;godad_castle_agit_001_002"/>
+		<npcs val="35461;35462"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="146022" y="-55560" z="-2765"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="147712" y="-58432" z="-2979"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="147712" y="-58432" z="-2979"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2828" maxZ="-2528">
+				<node x="145660" y="-55829"/>
+				<node x="146459" y="-55730"/>
+				<node x="146402" y="-55280"/>
+				<node x="145605" y="-55378"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="48" alias="godad_castle_agit_002" parentId="7" name="Onyx Hall">
+		<agit desc="Clan hall located in the Town of Goddard" loc="Goddard" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="godad_castle_agit_002_001;godad_castle_agit_002_002"/>
+		<npcs val="35463;35464"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="146960" y="-56768" z="-2765"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="147712" y="-58432" z="-2979"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="147712" y="-58432" z="-2979"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2828" maxZ="-2528">
+				<node x="146936" y="-57320"/>
+				<node x="147308" y="-56607"/>
+				<node x="146906" y="-56397"/>
+				<node x="146535" y="-57111"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="49" alias="godad_castle_agit_003" parentId="7" name="Emerald Hall">
+		<agit desc="Clan hall located in the Town of Goddard" loc="Goddard" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="godad_castle_agit_003_001;godad_castle_agit_003_002"/>
+		<npcs val="35465;35466"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="148480" y="-56848" z="-2765"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="147712" y="-58432" z="-2979"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="147712" y="-58432" z="-2979"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2828" maxZ="-2528">
+				<node x="148487" y="-57327"/>
+				<node x="148887" y="-57113"/>
+				<node x="148508" y="-56405"/>
+				<node x="148108" y="-56618"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="50" alias="godad_castle_agit_004" parentId="7" name="Sapphire Hall">
+		<agit desc="Clan hall located in the Town of Goddard" loc="Goddard" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="godad_castle_agit_004_001;godad_castle_agit_004_002"/>
+		<npcs val="35467;35468"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="149376" y="-55568" z="-2765"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="147712" y="-58432" z="-2979"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="147712" y="-58432" z="-2979"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-2828" maxZ="-2528">
+				<node x="148962" y="-55739"/>
+				<node x="149759" y="-55838"/>
+				<node x="149815" y="-55388"/>
+				<node x="149018" y="-55289"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="51" alias="rune_castle_agit_001" parentId="8" name="Mont Chamber">
+		<agit desc="An upscale Clan hall located in the Rune Township" loc="Rune" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="rune_castle_agit_002_001;rune_castle_agit_002_002"/>
+		<npcs val="35568;35569"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="37736" y="-50777" z="950"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="43858" y="-48126" z="-792"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="43858" y="-48126" z="-792"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="850" maxZ="1150">
+				<node x="37433" y="-51016"/>
+				<node x="38034" y="-51016"/>
+				<node x="38034" y="-50565"/>
+				<node x="37433" y="-50565"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="52" alias="rune_castle_agit_002" parentId="8" name="Astaire Chamber">
+		<agit desc="An upscale Clan hall located in the Rune Township" loc="Rune" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="rune_castle_agit_003_001;rune_castle_agit_003_002"/>
+		<npcs val="35570;35571"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="38737" y="-50491" z="950"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="43858" y="-48126" z="-792"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="43858" y="-48126" z="-792"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="850" maxZ="1150">
+				<node x="38569" y="-50790"/>
+				<node x="39107" y="-50522"/>
+				<node x="38908" y="-50119"/>
+				<node x="38369" y="-50386"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="53" alias="rune_castle_agit_003" parentId="8" name="Aria Chamber">
+		<agit desc="An upscale Clan hall located in the Rune Township" loc="Rune" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="rune_castle_agit_004_001;rune_castle_agit_004_002"/>
+		<npcs val="35572;35573"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="39403" y="-49668" z="950"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="43858" y="-48126" z="-792"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="43858" y="-48126" z="-792"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="850" maxZ="1150">
+				<node x="39123" y="-49827"/>
+				<node x="39513" y="-50048"/>
+				<node x="39808" y="-49526"/>
+				<node x="39414" y="-49304"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="54" alias="rune_castle_agit_004" parentId="8" name="Yiana Chamber">
+		<agit desc="An upscale Clan hall located in the Rune Township" loc="Rune" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="rune_castle_agit_001_001;rune_castle_agit_001_002"/>
+		<npcs val="35566;35567"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="39599" y="-48264" z="950"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="43858" y="-48126" z="-792"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="43858" y="-48126" z="-792"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="850" maxZ="1150">
+				<node x="39394" y="-48636"/>
+				<node x="39846" y="-48636"/>
+				<node x="39845" y="-47837"/>
+				<node x="39394" y="-47837"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="55" alias="rune_castle_agit_005" parentId="8" name="Roien Chamber">
+		<agit desc="An upscale Clan hall located in the Rune Township" loc="Rune" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="rune_castle_agit_005_001;rune_castle_agit_005_002"/>
+		<npcs val="35574;35575"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="39440" y="-46806" z="950"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="43858" y="-48126" z="-792"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="43858" y="-48126" z="-792"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="850" maxZ="1150">
+				<node x="39123" y="-46646"/>
+				<node x="39414" y="-47172"/>
+				<node x="39808" y="-46954"/>
+				<node x="39517" y="-46427"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="56" alias="rune_castle_agit_006" parentId="8" name="Luna Chamber">
+		<agit desc="An upscale Clan hall located in the Rune Township" loc="Rune" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="rune_castle_agit_006_001;rune_castle_agit_006_002"/>
+		<npcs val="35576;35577"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="38712" y="-46042" z="950"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="43858" y="-48126" z="-792"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="43858" y="-48126" z="-792"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="850" maxZ="1150">
+				<node x="38371" y="-46086"/>
+				<node x="38577" y="-45688"/>
+				<node x="39111" y="-45960"/>
+				<node x="38906" y="-46362"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="57" alias="rune_castle_agit_007" parentId="8" name="Traban Chamber">
+		<agit desc="An upscale Clan hall located in the Rune Township" loc="Rune" auctionMin="50000000" deposit="1500000" lease="1000000" size="50" grade="3"/>
+		<gates val="rune_castle_agit_007_001;rune_castle_agit_007_002"/>
+		<npcs val="35578;35579"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="37711" y="-45723" z="950"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="43858" y="-48126" z="-792"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="43858" y="-48126" z="-792"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="850" maxZ="1150">
+				<node x="37432" y="-45908"/>
+				<node x="38033" y="-45908"/>
+				<node x="38033" y="-45457"/>
+				<node x="37432" y="-45457"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="58" alias="schuttgart_castle_agit_001" parentId="9" name="Eisen Hall">
+		<agit desc="Clan hall located in the Town of Schuttgart" loc="Schuttgart" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="schutt_castle_agit_001_001;schutt_castle_agit_001_002"/>
+		<npcs val="35580;35581"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="85812" y="-143183" z="-1230"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="87412" y="-139881" z="-1536"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="87412" y="-139881" z="-1536"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-1380" maxZ="-1130">
+				<node x="85259" y="-143315"/>
+				<node x="86057" y="-143416"/>
+				<node x="86108" y="-142966"/>
+				<node x="85311" y="-142865"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="59" alias="schuttgart_castle_agit_002" parentId="9" name="Heavy Metal Hall">
+		<agit desc="Clan hall located in the Town of Schuttgart" loc="Schuttgart" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="schutt_castle_agit_002_001;schutt_castle_agit_002_002"/>
+		<npcs val="35582;35583"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="86609" y="-141949" z="-1230"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="87412" y="-139881" z="-1536"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="87412" y="-139881" z="-1536"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-1380" maxZ="-1130">
+				<node x="86184" y="-141594"/>
+				<node x="86582" y="-141377"/>
+				<node x="86964" y="-142085"/>
+				<node x="86563" y="-142300"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="60" alias="schuttgart_castle_agit_003" parentId="9" name="Molten Ore Hall">
+		<agit desc="Clan hall located in the Town of Schuttgart" loc="Schuttgart" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="schutt_castle_agit_003_001;schutt_castle_agit_003_002"/>
+		<npcs val="35584;35585"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="88093" y="-141931" z="-1230"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="87412" y="-139881" z="-1536"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="87412" y="-139881" z="-1536"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-1380" maxZ="-1130">
+				<node x="87767" y="-142096"/>
+				<node x="88135" y="-141383"/>
+				<node x="88537" y="-141591"/>
+				<node x="88167" y="-142307"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="61" alias="schuttgart_castle_agit_004" parentId="9" name="Titan Hall">
+		<agit desc="Clan hall located in the Town of Schuttgart" loc="Schuttgart" auctionMin="20000000" deposit="1000000" lease="500000" size="30" grade="2"/>
+		<gates val="schutt_castle_agit_004_001;schutt_castle_agit_004_002"/>
+		<npcs val="35586;35587"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="88901" y="-143200" z="-1230"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="87412" y="-139881" z="-1536"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="87412" y="-139881" z="-1536"/>
+		</spawns>
+		<tax taxRate="10" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-1380" maxZ="-1130">
+				<node x="88668" y="-143423"/>
+				<node x="89462" y="-143324"/>
+				<node x="89409" y="-142877"/>
+				<node x="88613" y="-142975"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="62" alias="rainbow_spring" parentId="-1" name="Rainbow Springs Chateau">
+		<agit desc="Contestable Clan Hall" loc="Goddard" siegeLength="3600000" scheduleConfig="14;0;0;12;0" auctionMin="0" deposit="0" lease="0" size="0" grade="3"/>
+		<gates val="spa_agit_001_001;spa_agit_001_002;spa_agit_002_001;spa_agit_002_002;spa_agit_003_001;spa_agit_003_002;spa_agit_004_001;spa_agit_004_002"/>
+		<npcs val="35601;35602;35603;35604;35605"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="140949" y="-124658" z="-1800"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="148560" y="-55904" z="-2779"/>
+			<spawn type="OTHER" x="150704" y="-55744" z="-2979"/>
+			<spawn type="OTHER" x="150400" y="-56752" z="-2979"/>
+			<spawn type="OTHER" x="149872" y="-57424" z="-2979"/>
+			<spawn type="OTHER" x="149088" y="-56256" z="-2779"/>
+			<spawn type="OTHER" x="147664" y="-56464" z="-2779"/>
+			<spawn type="OTHER" x="147680" y="-56928" z="-2779"/>
+			<spawn type="OTHER" x="146832" y="-55904" z="-2779"/>
+			<spawn type="OTHER" x="146368" y="-56256" z="-2779"/>
+			<spawn type="OTHER" x="149120" y="-58064" z="-2979"/>
+			<spawn type="OTHER" x="148288" y="-58304" z="-2979"/>
+			<spawn type="OTHER" x="147680" y="-58208" z="-2979"/>
+			<spawn type="OTHER" x="147232" y="-58480" z="-2979"/>
+			<spawn type="OTHER" x="146272" y="-58176" z="-2979"/>
+			<spawn type="OTHER" x="145696" y="-57696" z="-2979"/>
+			<spawn type="OTHER" x="145264" y="-57680" z="-2979"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="142656" y="-55008" z="-3024"/>
+			<spawn type="CHAOTIC" x="142832" y="-55680" z="-3462"/>
+			<spawn type="CHAOTIC" x="143152" y="-56368" z="-3456"/>
+			<spawn type="CHAOTIC" x="145344" y="-59472" z="-3344"/>
+			<spawn type="CHAOTIC" x="145872" y="-59744" z="-3328"/>
+			<spawn type="CHAOTIC" x="150304" y="-59800" z="-3504"/>
+			<spawn type="CHAOTIC" x="145248" y="-60064" z="-3440"/>
+			<spawn type="CHAOTIC" x="144368" y="-59616" z="-3512"/>
+			<spawn type="CHAOTIC" x="149680" y="-59600" z="-3440"/>
+			<spawn type="CHAOTIC" x="149360" y="-60576" z="-3520"/>
+			<spawn type="CHAOTIC" x="152114" y="-57296" z="-3451"/>
+			<spawn type="CHAOTIC" x="150492" y="-59719" z="-3611"/>
+			<spawn type="CHAOTIC" x="148791" y="-60361" z="-3537"/>
+			<spawn type="CHAOTIC" x="146499" y="-60242" z="-3455"/>
+			<spawn type="CHAOTIC" x="143052" y="-56418" z="-3490"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="141103" y="-120315" z="-2000"/>
+		</spawns>
+		<tax taxRate="0" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-1930" maxZ="-1680">
+				<node x="141073" y="-125043"/>
+				<node x="140574" y="-124709"/>
+				<node x="140933" y="-124171"/>
+				<node x="141432" y="-124505"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-2460" maxZ="-1860">
+				<node x="150253" y="-127587"/>
+				<node x="154061" y="-128780"/>
+				<node x="157203" y="-125699"/>
+				<node x="154870" y="-123511"/>
+				<node x="150933" y="-124975"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="63" alias="beast_farm_guildhall" parentId="8" name="Wild Beast Reserve">
+		<agit desc="Contestable Clan Hall" loc="Rune" siegeLength="3600000" scheduleConfig="14;0;0;12;0" auctionMin="0" deposit="0" lease="0" size="0" grade="3"/>
+		<gates val="Farm_001;Farm_002;Farm_003;Farm_004"/>
+		<npcs val="35623;35624;35625;35626;35627;35628"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="60608" y="-94016" z="-1349"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="38096" y="-46976" z="899"/>
+			<spawn type="OTHER" x="38608" y="-47168" z="899"/>
+			<spawn type="OTHER" x="38752" y="-47792" z="899"/>
+			<spawn type="OTHER" x="38848" y="-48640" z="899"/>
+			<spawn type="OTHER" x="38272" y="-49008" z="899"/>
+			<spawn type="OTHER" x="38112" y="-49792" z="899"/>
+			<spawn type="OTHER" x="43408" y="-51120" z="-800"/>
+			<spawn type="OTHER" x="43536" y="-50416" z="-800"/>
+			<spawn type="OTHER" x="44368" y="-50592" z="-800"/>
+			<spawn type="OTHER" x="44000" y="-49952" z="-800"/>
+			<spawn type="OTHER" x="45072" y="-49936" z="-800"/>
+			<spawn type="OTHER" x="45824" y="-49056" z="-800"/>
+			<spawn type="OTHER" x="45632" y="-47968" z="-800"/>
+			<spawn type="OTHER" x="44864" y="-47824" z="-800"/>
+			<spawn type="OTHER" x="43744" y="-47920" z="-800"/>
+			<spawn type="OTHER" x="43792" y="-48928" z="-800"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="42640" y="-54496" z="-2310"/>
+			<spawn type="CHAOTIC" x="38304" y="-55440" z="-1136"/>
+			<spawn type="CHAOTIC" x="40192" y="-57600" z="-2343"/>
+			<spawn type="CHAOTIC" x="38400" y="-56832" z="-992"/>
+			<spawn type="CHAOTIC" x="35632" y="-54800" z="-1744"/>
+			<spawn type="CHAOTIC" x="37152" y="-56272" z="-272"/>
+			<spawn type="CHAOTIC" x="43936" y="-56480" z="-3627"/>
+			<spawn type="CHAOTIC" x="39440" y="-60080" z="-2870"/>
+			<spawn type="CHAOTIC" x="41376" y="-55376" z="-1488"/>
+			<spawn type="CHAOTIC" x="41920" y="-57760" z="-2392"/>
+			<spawn type="CHAOTIC" x="42496" y="-58192" z="-3264"/>
+			<spawn type="CHAOTIC" x="40784" y="-59888" z="-2600"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="47552" y="-93280" z="-2419"/>
+			<spawn type="BANISH" x="46656" y="-93456" z="-2469"/>
+			<spawn type="BANISH" x="46999" y="-92986" z="-2499"/>
+			<spawn type="BANISH" x="47216" y="-93152" z="-2464"/>
+			<spawn type="BANISH" x="46836" y="-93252" z="-2497"/>
+			<spawn type="BANISH" x="46691" y="-92882" z="-2528"/>
+			<spawn type="BANISH" x="48128" y="-93344" z="-2320"/>
+		</spawns>
+		<tax taxRate="15" taxSysgetRate="50" tributeRate="0"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="-1407" maxZ="-907">
+				<node x="59997" y="-96111"/>
+				<node x="61969" y="-92430"/>
+				<node x="58303" y="-89937"/>
+				<node x="55402" y="-91364"/>
+				<node x="55254" y="-92999"/>
+				<node x="55344" y="-93295"/>
+				<node x="56049" y="-94619"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-1407" maxZ="-907">
+				<node x="59997" y="-96111"/>
+				<node x="61969" y="-92430"/>
+				<node x="58303" y="-89937"/>
+				<node x="55402" y="-91364"/>
+				<node x="55254" y="-92999"/>
+				<node x="55344" y="-93295"/>
+				<node x="56049" y="-94619"/>
+			</zone>
+		</zones>
+	</clanHall>
+	<clanHall id="64" alias="fortress_of_restless" parentId="-1" name="Fortress of the Dead">
+		<agit desc="Contestable Clan Hall" loc="Rune" siegeLength="3600000" scheduleConfig="14;0;0;12;0" auctionMin="0" deposit="0" lease="0" size="0" grade="3"/>
+		<gates val="fortress_outter_001;fortress_outter_002;fortress_001;fortress_002;fortress_003;fortress_004"/>
+		<npcs val="35630;35631;35638;35639;35640;35641;35642"/>
+		<spawns>
+			<!-- owner_restart_point_list -->
+			<spawn type="OWNER" x="57932" y="-26064" z="595"/>
+			<!-- other_restart_village_list -->
+			<spawn type="OTHER" x="38096" y="-46976" z="899"/>
+			<spawn type="OTHER" x="38608" y="-47168" z="899"/>
+			<spawn type="OTHER" x="38752" y="-47792" z="899"/>
+			<spawn type="OTHER" x="38848" y="-48640" z="899"/>
+			<spawn type="OTHER" x="38272" y="-49008" z="899"/>
+			<spawn type="OTHER" x="38112" y="-49792" z="899"/>
+			<spawn type="OTHER" x="43408" y="-51120" z="-800"/>
+			<spawn type="OTHER" x="43536" y="-50416" z="-800"/>
+			<spawn type="OTHER" x="44368" y="-50592" z="-800"/>
+			<spawn type="OTHER" x="44000" y="-49952" z="-800"/>
+			<spawn type="OTHER" x="45072" y="-49936" z="-800"/>
+			<spawn type="OTHER" x="45824" y="-49056" z="-800"/>
+			<spawn type="OTHER" x="45632" y="-47968" z="-800"/>
+			<spawn type="OTHER" x="44864" y="-47824" z="-800"/>
+			<spawn type="OTHER" x="43744" y="-47920" z="-800"/>
+			<spawn type="OTHER" x="43792" y="-48928" z="-800"/>
+			<!-- chao_restart_point_list -->
+			<spawn type="CHAOTIC" x="42640" y="-54496" z="-2310"/>
+			<spawn type="CHAOTIC" x="38304" y="-55440" z="-1136"/>
+			<spawn type="CHAOTIC" x="40192" y="-57600" z="-2343"/>
+			<spawn type="CHAOTIC" x="38400" y="-56832" z="-992"/>
+			<spawn type="CHAOTIC" x="35632" y="-54800" z="-1744"/>
+			<spawn type="CHAOTIC" x="37152" y="-56272" z="-272"/>
+			<spawn type="CHAOTIC" x="43936" y="-56480" z="-3627"/>
+			<spawn type="CHAOTIC" x="39440" y="-60080" z="-2870"/>
+			<spawn type="CHAOTIC" x="41376" y="-55376" z="-1488"/>
+			<spawn type="CHAOTIC" x="41920" y="-57760" z="-2392"/>
+			<spawn type="CHAOTIC" x="42496" y="-58192" z="-3264"/>
+			<spawn type="CHAOTIC" x="40784" y="-59888" z="-2600"/>
+			<!-- banish_point_list -->
+			<spawn type="BANISH" x="58048" y="-32160" z="298"/>
+		</spawns>
+		<tax taxRate="0" taxSysgetRate="0" tributeRate="50"/>
+		<zones>
+			<zone type="RESIDENCE" minZ="305" maxZ="1685">
+				<node x="58672" y="-30158"/>
+				<node x="59478" y="-29345"/>
+				<node x="59477" y="-25636"/>
+				<node x="56445" y="-25638"/>
+				<node x="56445" y="-29326"/>
+				<node x="57277" y="-30154"/>
+			</zone>
+			<zone type="BATTLEFIELD" minZ="-193" maxZ="1687">
+				<node x="59775" y="-31402"/>
+				<node x="61052" y="-28295"/>
+				<node x="60391" y="-25395"/>
+				<node x="56108" y="-25117"/>
+				<node x="55018" y="-27310"/>
+				<node x="57221" y="-31878"/>
+			</zone>
+			<zone type="HEADQUARTER" minZ="-147" maxZ="1853">
+				<node x="57502" y="-31651"/>
+				<node x="58431" y="-31607"/>
+				<node x="59638" y="-30984"/>
+				<node x="56685" y="-30983"/>
+			</zone>
+		</zones>
+	</clanHall>
+</list>

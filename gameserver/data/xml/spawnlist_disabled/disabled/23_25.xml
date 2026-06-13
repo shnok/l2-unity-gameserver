@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Heine Area
+ * Innadril Castle
+-->
+<list>
+	<!--  -->
+	<territory name="innadril12_npc2325_01" minZ="-828" maxZ="-628">
+		<node x="115708" y="249452"/>
+		<node x="115908" y="249452"/>
+		<node x="115908" y="249652"/>
+		<node x="115708" y="249652"/>
+	</territory>
+	<npcmaker name="innadril12_npc2325_0101" territory="innadril12_npc2325_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35318" pos="115787;249585;-775;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril12_npc2325_02" minZ="-979" maxZ="-779">
+		<node x="115580" y="249164"/>
+		<node x="115780" y="249164"/>
+		<node x="115780" y="249364"/>
+		<node x="115580" y="249364"/>
+	</territory>
+	<npcmaker name="innadril12_npc2325_0201" territory="innadril12_npc2325_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35314" pos="115660;249265;-946;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril12_npc2325_03" minZ="-1089" maxZ="-889">
+		<node x="115964" y="248428"/>
+		<node x="116164" y="248428"/>
+		<node x="116164" y="248628"/>
+		<node x="115964" y="248628"/>
+	</territory>
+	<npcmaker name="innadril12_npc2325_0301" territory="innadril12_npc2325_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35315" pos="116062;248523;-953;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril12_npc2325_04" minZ="-362" maxZ="-162">
+		<node x="115756" y="250300"/>
+		<node x="115956" y="250300"/>
+		<node x="115956" y="250500"/>
+		<node x="115756" y="250500"/>
+	</territory>
+	<npcmaker name="innadril12_npc2325_0401" territory="innadril12_npc2325_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35317" pos="115863;250387;-322;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril12_npc2325_05" minZ="-856" maxZ="-656">
+		<node x="116156" y="249500"/>
+		<node x="116356" y="249500"/>
+		<node x="116356" y="249700"/>
+		<node x="116156" y="249700"/>
+	</territory>
+	<npcmaker name="innadril12_npc2325_05m1" territory="innadril12_npc2325_05" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35653" pos="116256;249600;-785;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril_2325_pg01" minZ="-1582" maxZ="-782">
+		<node x="116226" y="241289"/>
+		<node x="118690" y="242110"/>
+		<node x="119503" y="244611"/>
+		<node x="118226" y="246003"/>
+		<node x="116501" y="244606"/>
+		<node x="115293" y="244655"/>
+		<node x="114066" y="245933"/>
+		<node x="112668" y="244495"/>
+		<node x="112878" y="242677"/>
+	</territory>
+	<npcmaker name="innadril_2325_pg01m1" territory="innadril_2325_pg01" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="116064;244576;-1065;55960" total="1" respawn="1min"/>
+	</npcmaker>
+	<npcmaker name="innadril_2325_pg01m2" territory="innadril_2325_pg01" maximumNpcs="61">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="18" respawn="20sec"/>
+		<npc id="13035" total="1" respawn="10min" respawnRand="3min"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_chamberlain_etc" minZ="-2787" maxZ="33270">
+		<node x="123333" y="252779"/>
+		<node x="112962" y="252779"/>
+		<node x="112963" y="241706"/>
+		<node x="123333" y="241706"/>
+	</territory>
+	<npcmaker name="innadrile_chamberlain_etc" territory="innadrile_chamberlain_etc" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="35316" pos="116123;249702;-762;49152" total="1" respawn="1min"/>
+		<npc id="35320" pos="117136;241763;-1280;49152" total="1" respawn="1min"/>
+		<npc id="35312" pos="116363;245268;-1040;49152" total="1" respawn="3hour"/>
+		<npc id="35312" pos="116417;245616;-1040;0" total="1" respawn="3hour"/>
+		<npc id="35313" pos="116190;247827;-750;49152" total="1" respawn="3hour"/>
+		<npc id="35313" pos="116256;248182;-790;0" total="1" respawn="3hour"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_m_teleporter" minZ="-130" maxZ="31228">
+		<node x="115137" y="249333"/>
+		<node x="114183" y="249333"/>
+		<node x="114183" y="248980"/>
+		<node x="115136" y="248979"/>
+	</territory>
+	<npcmaker name="innadrile_m_teleporter" territory="innadrile_m_teleporter" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35311" pos="114443;249142;-74;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege01" minZ="-1081" maxZ="30177">
+		<node x="116422" y="245477"/>
+		<node x="116081" y="245474"/>
+		<node x="116087" y="245256"/>
+		<node x="116422" y="245256"/>
+	</territory>
+	<npcmaker name="innadrile_siege01" territory="innadrile_siege01" spawnTime="siege_warfare_start(6)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35301" pos="116371;245422;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_001" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116343;245422;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_002" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116315;245422;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_003" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116287;245422;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_004" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116259;245422;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_005" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116231;245422;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_006" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116203;245422;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_007" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116175;245422;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_008" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116147;245422;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_009" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116371;245402;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_010" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116343;245402;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_011" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116315;245402;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_012" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116287;245402;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_013" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116259;245402;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_014" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116231;245402;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_015" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116203;245402;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_016" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116175;245402;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_017" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116147;245402;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_018" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116371;245382;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_019" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116343;245382;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_020" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116315;245382;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_021" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116287;245382;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_022" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35295" pos="116259;245382;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_023" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116231;245382;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_024" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116203;245382;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_025" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116175;245382;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_026" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116147;245382;-1049;48376" total="1" respawn="3hour" dbName="innadrile_siege_027" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege02" minZ="-1112" maxZ="30146">
+		<node x="116900" y="246621"/>
+		<node x="116433" y="246612"/>
+		<node x="116446" y="245735"/>
+		<node x="116928" y="245735"/>
+	</territory>
+	<npcmaker name="innadrile_siege02" territory="innadrile_siege02" spawnTime="siege_warfare_start(6)" maximumNpcs="50">
+		<ai type="default_maker"/>
+		<npc id="35300" pos="116514;245800;-1039;32080" total="1" respawn="3hour" dbName="innadrile_siege_028" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116513;245831;-1038;32080" total="1" respawn="3hour" dbName="innadrile_siege_029" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35295" pos="116513;245861;-1038;32080" total="1" respawn="3hour" dbName="innadrile_siege_030" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116513;245891;-1037;32080" total="1" respawn="3hour" dbName="innadrile_siege_031" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116514;245922;-1038;32080" total="1" respawn="3hour" dbName="innadrile_siege_032" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116512;245951;-1037;32080" total="1" respawn="3hour" dbName="innadrile_siege_033" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35295" pos="116512;245981;-1037;32080" total="1" respawn="3hour" dbName="innadrile_siege_034" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116512;246011;-1036;32080" total="1" respawn="3hour" dbName="innadrile_siege_035" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116513;246042;-1037;32080" total="1" respawn="3hour" dbName="innadrile_siege_036" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116539;245818;-1057;32080" total="1" respawn="3hour" dbName="innadrile_siege_037" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116539;245848;-1057;32080" total="1" respawn="3hour" dbName="innadrile_siege_038" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116539;245879;-1056;32080" total="1" respawn="3hour" dbName="innadrile_siege_039" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116540;245909;-1057;32080" total="1" respawn="3hour" dbName="innadrile_siege_040" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116538;245939;-1056;32080" total="1" respawn="3hour" dbName="innadrile_siege_041" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116538;245969;-1056;32080" total="1" respawn="3hour" dbName="innadrile_siege_042" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116537;245998;-1055;32080" total="1" respawn="3hour" dbName="innadrile_siege_043" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116538;246030;-1056;32080" total="1" respawn="3hour" dbName="innadrile_siege_044" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116560;245802;-1061;32080" total="1" respawn="3hour" dbName="innadrile_siege_045" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116559;245832;-1061;32080" total="1" respawn="3hour" dbName="innadrile_siege_046" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116559;245862;-1060;32080" total="1" respawn="3hour" dbName="innadrile_siege_047" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116558;245893;-1060;32080" total="1" respawn="3hour" dbName="innadrile_siege_048" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116560;245923;-1060;32080" total="1" respawn="3hour" dbName="innadrile_siege_049" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116558;245953;-1059;32080" total="1" respawn="3hour" dbName="innadrile_siege_050" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116558;245983;-1059;32080" total="1" respawn="3hour" dbName="innadrile_siege_051" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116557;246012;-1058;32080" total="1" respawn="3hour" dbName="innadrile_siege_052" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116558;246044;-1059;32080" total="1" respawn="3hour" dbName="innadrile_siege_053" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116706;245820;-1062;32080" total="1" respawn="3hour" dbName="innadrile_siege_054" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116706;245850;-1061;32080" total="1" respawn="3hour" dbName="innadrile_siege_055" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116706;245881;-1061;32080" total="1" respawn="3hour" dbName="innadrile_siege_056" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116705;245911;-1060;32080" total="1" respawn="3hour" dbName="innadrile_siege_057" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116706;245941;-1060;32080" total="1" respawn="3hour" dbName="innadrile_siege_058" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116704;245971;-1060;32080" total="1" respawn="3hour" dbName="innadrile_siege_059" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116703;246001;-1059;32080" total="1" respawn="3hour" dbName="innadrile_siege_060" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116703;246031;-1059;32080" total="1" respawn="3hour" dbName="innadrile_siege_061" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="116807;246151;-1053;48668" total="1" respawn="3hour" dbName="innadrile_siege_062" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="116777;246152;-1054;48668" total="1" respawn="3hour" dbName="innadrile_siege_063" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116569;246033;-1037;32080" total="1" respawn="1min" dbName="innadrile_siege_064" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116570;245969;-1037;32080" total="1" respawn="1min" dbName="innadrile_siege_065" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116570;245880;-1037;32080" total="1" respawn="1min" dbName="innadrile_siege_066" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116567;245820;-1037;32080" total="1" respawn="1min" dbName="innadrile_siege_067" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege03" minZ="-936" maxZ="30322">
+		<node x="116563" y="246250"/>
+		<node x="115639" y="246253"/>
+		<node x="115616" y="245831"/>
+		<node x="116568" y="245830"/>
+	</territory>
+	<npcmaker name="innadrile_siege03m1" territory="innadrile_siege03" spawnTime="siege_warfare_start(6)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35301" pos="116321;246173;-788;48668" total="1" respawn="3hour" dbName="innadrile_siege_068" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116291;246174;-789;48668" total="1" respawn="3hour" dbName="innadrile_siege_069" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116261;246171;-788;48668" total="1" respawn="3hour" dbName="innadrile_siege_070" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116231;246170;-788;48668" total="1" respawn="3hour" dbName="innadrile_siege_071" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116202;246169;-787;48668" total="1" respawn="3hour" dbName="innadrile_siege_072" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116551;246107;-786;48668" total="1" respawn="3hour" dbName="innadrile_siege_073" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116521;246108;-787;48668" total="1" respawn="3hour" dbName="innadrile_siege_074" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116492;246105;-786;48668" total="1" respawn="3hour" dbName="innadrile_siege_075" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116462;246104;-786;48668" total="1" respawn="3hour" dbName="innadrile_siege_076" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116432;246103;-785;48668" total="1" respawn="3hour" dbName="innadrile_siege_077" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116018;245969;-787;64432" total="1" respawn="3hour" dbName="innadrile_siege_078" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116015;245939;-788;64432" total="1" respawn="3hour" dbName="innadrile_siege_079" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116017;245910;-787;64432" total="1" respawn="3hour" dbName="innadrile_siege_080" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116016;245880;-787;64432" total="1" respawn="3hour" dbName="innadrile_siege_081" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116015;245850;-786;64432" total="1" respawn="3hour" dbName="innadrile_siege_082" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="115751;246175;-890;32712" total="1" respawn="3hour" dbName="innadrile_siege_083" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35295" pos="115750;246209;-890;32712" total="1" respawn="3hour" dbName="innadrile_siege_084" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="115746;246250;-889;32712" total="1" respawn="3hour" dbName="innadrile_siege_085" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="115772;246175;-879;32712" total="1" respawn="3hour" dbName="innadrile_siege_086" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="115771;246209;-880;32712" total="1" respawn="3hour" dbName="innadrile_siege_087" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="115767;246250;-879;32712" total="1" respawn="3hour" dbName="innadrile_siege_088" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="115790;246175;-865;32712" total="1" respawn="3hour" dbName="innadrile_siege_089" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="115789;246209;-866;32712" total="1" respawn="3hour" dbName="innadrile_siege_090" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="115785;246250;-865;32712" total="1" respawn="3hour" dbName="innadrile_siege_091" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="116118;246216;-788;55444" total="1" respawn="3hour" dbName="innadrile_siege_092" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="innadrile_siege03m2" territory="innadrile_siege03" spawnTime="pc_siege_warfare_start(6)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35301" pos="116321;246173;-788;48668" total="1" respawn="3hour" dbName="innadrile_siege_400" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116261;246171;-788;48668" total="1" respawn="3hour" dbName="innadrile_siege_401" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116202;246169;-787;48668" total="1" respawn="3hour" dbName="innadrile_siege_402" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116551;246107;-786;48668" total="1" respawn="3hour" dbName="innadrile_siege_403" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116521;246108;-787;48668" total="1" respawn="3hour" dbName="innadrile_siege_404" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116492;246105;-786;48668" total="1" respawn="3hour" dbName="innadrile_siege_405" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116462;246104;-786;48668" total="1" respawn="3hour" dbName="innadrile_siege_406" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116018;245969;-787;64432" total="1" respawn="3hour" dbName="innadrile_siege_407" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116017;245910;-787;64432" total="1" respawn="3hour" dbName="innadrile_siege_408" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116015;245850;-786;64432" total="1" respawn="3hour" dbName="innadrile_siege_409" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege04" minZ="-883" maxZ="30375">
+		<node x="116405" y="248854"/>
+		<node x="115463" y="250201"/>
+		<node x="115661" y="247858"/>
+		<node x="116392" y="247829"/>
+	</territory>
+	<npcmaker name="innadrile_siege04" territory="innadrile_siege04" spawnTime="siege_warfare_start(6)" maximumNpcs="70">
+		<ai type="default_maker"/>
+		<npc id="35298" pos="116168;248194;-783;39088" total="1" respawn="3hour" dbName="innadrile_siege_093" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116151;248219;-784;39088" total="1" respawn="3hour" dbName="innadrile_siege_094" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116127;248245;-783;39088" total="1" respawn="3hour" dbName="innadrile_siege_095" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116108;248268;-783;39088" total="1" respawn="3hour" dbName="innadrile_siege_096" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116093;248286;-782;39088" total="1" respawn="3hour" dbName="innadrile_siege_097" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116071;248312;-784;39088" total="1" respawn="3hour" dbName="innadrile_siege_098" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116054;248337;-784;39088" total="1" respawn="3hour" dbName="innadrile_siege_099" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116034;248358;-784;39088" total="1" respawn="3hour" dbName="innadrile_siege_100" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116010;248369;-785;49844" total="1" respawn="3hour" dbName="innadrile_siege_101" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="115985;248350;-784;58336" total="1" respawn="3hour" dbName="innadrile_siege_102" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="115967;248326;-784;58336" total="1" respawn="3hour" dbName="innadrile_siege_103" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="115954;248306;-783;58336" total="1" respawn="3hour" dbName="innadrile_siege_104" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="115935;248279;-785;58336" total="1" respawn="3hour" dbName="innadrile_siege_105" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="115916;248255;-786;58336" total="1" respawn="3hour" dbName="innadrile_siege_106" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="115897;248225;-785;58336" total="1" respawn="3hour" dbName="innadrile_siege_107" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="115880;248200;-785;58336" total="1" respawn="3hour" dbName="innadrile_siege_108" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="115867;248181;-784;58336" total="1" respawn="3hour" dbName="innadrile_siege_109" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116183;248214;-785;39088" total="1" respawn="3hour" dbName="innadrile_siege_110" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116165;248238;-786;39088" total="1" respawn="3hour" dbName="innadrile_siege_111" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116141;248264;-785;39088" total="1" respawn="3hour" dbName="innadrile_siege_112" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116122;248288;-785;39088" total="1" respawn="3hour" dbName="innadrile_siege_113" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116107;248306;-784;39088" total="1" respawn="3hour" dbName="innadrile_siege_114" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116086;248332;-786;39088" total="1" respawn="3hour" dbName="innadrile_siege_115" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116068;248356;-786;39088" total="1" respawn="3hour" dbName="innadrile_siege_116" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116049;248377;-786;39088" total="1" respawn="3hour" dbName="innadrile_siege_117" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116024;248388;-787;49844" total="1" respawn="3hour" dbName="innadrile_siege_118" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115996;248387;-784;49844" total="1" respawn="3hour" dbName="innadrile_siege_119" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="115971;248368;-783;58336" total="1" respawn="3hour" dbName="innadrile_siege_120" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115953;248344;-783;58336" total="1" respawn="3hour" dbName="innadrile_siege_121" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="115940;248324;-782;58336" total="1" respawn="3hour" dbName="innadrile_siege_122" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115921;248297;-784;58336" total="1" respawn="3hour" dbName="innadrile_siege_123" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="115902;248273;-785;58336" total="1" respawn="3hour" dbName="innadrile_siege_124" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115883;248243;-784;58336" total="1" respawn="3hour" dbName="innadrile_siege_125" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="115866;248218;-784;58336" total="1" respawn="3hour" dbName="innadrile_siege_126" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115853;248199;-783;58336" total="1" respawn="3hour" dbName="innadrile_siege_127" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116211;248319;-783;39088" total="1" respawn="3hour" dbName="innadrile_siege_128" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116192;248342;-783;39088" total="1" respawn="3hour" dbName="innadrile_siege_129" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116177;248360;-782;39088" total="1" respawn="3hour" dbName="innadrile_siege_130" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116155;248386;-784;39088" total="1" respawn="3hour" dbName="innadrile_siege_131" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116138;248411;-785;39088" total="1" respawn="3hour" dbName="innadrile_siege_132" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115910;248377;-779;58336" total="1" respawn="3hour" dbName="innadrile_siege_133" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115897;248357;-778;58336" total="1" respawn="3hour" dbName="innadrile_siege_134" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115877;248330;-780;58336" total="1" respawn="3hour" dbName="innadrile_siege_135" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115859;248306;-781;58336" total="1" respawn="3hour" dbName="innadrile_siege_136" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115840;248276;-780;58336" total="1" respawn="3hour" dbName="innadrile_siege_137" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="115879;248453;-781;48388" total="1" respawn="3hour" dbName="innadrile_siege_138" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="115845;248453;-782;48388" total="1" respawn="3hour" dbName="innadrile_siege_139" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116124;248456;-782;48388" total="1" respawn="3hour" dbName="innadrile_siege_140" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="116101;248455;-782;48388" total="1" respawn="3hour" dbName="innadrile_siege_141" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116176;248181;-780;58336" total="1" respawn="3hour" dbName="innadrile_siege_142" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116185;248235;-783;39088" total="1" respawn="1min" dbName="innadrile_siege_143" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116104;248326;-783;39088" total="1" respawn="1min" dbName="innadrile_siege_144" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115919;248317;-783;39088" total="1" respawn="1min" dbName="innadrile_siege_145" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115847;248214;-783;39088" total="1" respawn="1min" dbName="innadrile_siege_146" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege05" minZ="-912" maxZ="30346">
+		<node x="116803" y="250600"/>
+		<node x="115275" y="250608"/>
+		<node x="115262" y="250002"/>
+		<node x="116803" y="250003"/>
+	</territory>
+	<npcmaker name="innadrile_siege05" territory="innadrile_siege05" spawnTime="siege_warfare_start(6)" maximumNpcs="60">
+		<ai type="default_maker"/>
+		<npc id="35280" pos="116084;250339;-845;49112" total="1" respawn="5min"/>
+		<npc id="35281" pos="115972;250342;-844;49112" total="1" respawn="3min"/>
+		<npc id="35288" pos="115870;250325;-850;49112" total="1" respawn="2min" dbName="innadrile_siege_147" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115833;250326;-850;49112" total="1" respawn="2min" dbName="innadrile_siege_148" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115800;250326;-850;49112" total="1" respawn="2min" dbName="innadrile_siege_149" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115762;250327;-850;49112" total="1" respawn="2min" dbName="innadrile_siege_150" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115725;250327;-849;49112" total="1" respawn="2min" dbName="innadrile_siege_151" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115687;250328;-849;49112" total="1" respawn="2min" dbName="innadrile_siege_152" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115655;250328;-849;49112" total="1" respawn="2min" dbName="innadrile_siege_153" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115617;250329;-849;49112" total="1" respawn="2min" dbName="innadrile_siege_154" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="115870;250291;-851;49112" total="1" respawn="2min" dbName="innadrile_siege_155" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="115832;250292;-851;49112" total="1" respawn="2min" dbName="innadrile_siege_156" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="115799;250292;-851;49112" total="1" respawn="2min" dbName="innadrile_siege_157" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="115762;250293;-851;49112" total="1" respawn="2min" dbName="innadrile_siege_158" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="115724;250293;-850;49112" total="1" respawn="2min" dbName="innadrile_siege_159" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="115687;250294;-850;49112" total="1" respawn="2min" dbName="innadrile_siege_160" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="115654;250294;-850;49112" total="1" respawn="2min" dbName="innadrile_siege_161" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="115617;250295;-850;49112" total="1" respawn="2min" dbName="innadrile_siege_162" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115868;250253;-852;49112" total="1" respawn="2min" dbName="innadrile_siege_163" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115830;250254;-852;49112" total="1" respawn="2min" dbName="innadrile_siege_164" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35282" pos="115798;250254;-852;49112" total="1" respawn="2min" dbName="innadrile_siege_165" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115760;250255;-852;49112" total="1" respawn="2min" dbName="innadrile_siege_166" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115723;250255;-851;49112" total="1" respawn="2min" dbName="innadrile_siege_167" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35282" pos="115685;250256;-851;49112" total="1" respawn="2min" dbName="innadrile_siege_168" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115653;250256;-851;49112" total="1" respawn="2min" dbName="innadrile_siege_169" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115615;250257;-851;49112" total="1" respawn="2min" dbName="innadrile_siege_170" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116430;250319;-846;49112" total="1" respawn="2min" dbName="innadrile_siege_171" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116392;250319;-846;49112" total="1" respawn="2min" dbName="innadrile_siege_172" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116360;250319;-846;49112" total="1" respawn="2min" dbName="innadrile_siege_173" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116322;250320;-846;49112" total="1" respawn="2min" dbName="innadrile_siege_174" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116285;250321;-845;49112" total="1" respawn="2min" dbName="innadrile_siege_175" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116247;250321;-845;49112" total="1" respawn="2min" dbName="innadrile_siege_176" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116214;250322;-845;49112" total="1" respawn="2min" dbName="innadrile_siege_177" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116177;250322;-845;49112" total="1" respawn="2min" dbName="innadrile_siege_178" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="116429;250284;-847;49112" total="1" respawn="2min" dbName="innadrile_siege_179" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="116391;250285;-847;49112" total="1" respawn="2min" dbName="innadrile_siege_180" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="116359;250285;-847;49112" total="1" respawn="2min" dbName="innadrile_siege_181" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="116321;250286;-847;49112" total="1" respawn="2min" dbName="innadrile_siege_182" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="116284;250287;-846;49112" total="1" respawn="2min" dbName="innadrile_siege_183" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="116246;250287;-846;49112" total="1" respawn="2min" dbName="innadrile_siege_184" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="116214;250287;-846;49112" total="1" respawn="2min" dbName="innadrile_siege_185" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35285" pos="116176;250288;-846;49112" total="1" respawn="2min" dbName="innadrile_siege_186" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116428;250247;-848;49112" total="1" respawn="2min" dbName="innadrile_siege_187" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116390;250248;-848;49112" total="1" respawn="2min" dbName="innadrile_siege_188" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35282" pos="116357;250248;-848;49112" total="1" respawn="2min" dbName="innadrile_siege_189" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116320;250249;-848;49112" total="1" respawn="2min" dbName="innadrile_siege_190" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116282;250249;-847;49112" total="1" respawn="2min" dbName="innadrile_siege_191" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35282" pos="116245;250250;-847;49112" total="1" respawn="2min" dbName="innadrile_siege_192" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116212;250250;-847;49112" total="1" respawn="2min" dbName="innadrile_siege_193" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116175;250251;-847;49112" total="1" respawn="2min" dbName="innadrile_siege_194" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="116350;250484;-845;49112" total="1" respawn="2min" dbName="innadrile_siege_195" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="116266;250484;-844;49112" total="1" respawn="2min" dbName="innadrile_siege_196" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="116187;250485;-844;49112" total="1" respawn="2min" dbName="innadrile_siege_197" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="116112;250485;-844;49112" total="1" respawn="2min" dbName="innadrile_siege_198" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="115935;250485;-841;49112" total="1" respawn="2min" dbName="innadrile_siege_199" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="115852;250485;-841;49112" total="1" respawn="2min" dbName="innadrile_siege_200" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="115772;250486;-841;49112" total="1" respawn="2min" dbName="innadrile_siege_201" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="115698;250486;-841;49112" total="1" respawn="2min" dbName="innadrile_siege_202" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege06" minZ="-682" maxZ="30576">
+		<node x="115783" y="250433"/>
+		<node x="115443" y="250444"/>
+		<node x="115443" y="249309"/>
+		<node x="115779" y="249310"/>
+	</territory>
+	<npcmaker name="innadrile_siege06" territory="innadrile_siege06" spawnTime="siege_warfare_start(6)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35300" pos="115510;249359;-623;48856" total="1" respawn="3hour" dbName="innadrile_siege_203" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35295" pos="115536;249359;-623;48856" total="1" respawn="3hour" dbName="innadrile_siege_204" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="115564;249359;-622;48856" total="1" respawn="3hour" dbName="innadrile_siege_205" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="115510;249381;-627;48856" total="1" respawn="3hour" dbName="innadrile_siege_206" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="115537;249381;-627;48856" total="1" respawn="3hour" dbName="innadrile_siege_207" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="115564;249381;-626;48856" total="1" respawn="3hour" dbName="innadrile_siege_208" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="115511;249406;-625;48856" total="1" respawn="3hour" dbName="innadrile_siege_209" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="115538;249406;-625;48856" total="1" respawn="3hour" dbName="innadrile_siege_210" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="115565;249405;-624;48856" total="1" respawn="3hour" dbName="innadrile_siege_211" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="115451;249483;-625;48856" total="1" respawn="3hour" dbName="innadrile_siege_212" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="115477;249483;-625;48856" total="1" respawn="3hour" dbName="innadrile_siege_213" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="115505;249483;-624;48856" total="1" respawn="3hour" dbName="innadrile_siege_214" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115706;250056;-628;65460" total="1" respawn="3hour" dbName="innadrile_siege_215" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115705;250093;-628;65460" total="1" respawn="3hour" dbName="innadrile_siege_216" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="115705;250130;-627;65460" total="1" respawn="3hour" dbName="innadrile_siege_217" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115704;250166;-627;65460" total="1" respawn="3hour" dbName="innadrile_siege_218" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115704;250202;-627;65460" total="1" respawn="3hour" dbName="innadrile_siege_219" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="115703;250240;-627;65460" total="1" respawn="3hour" dbName="innadrile_siege_220" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115703;250271;-626;65460" total="1" respawn="3hour" dbName="innadrile_siege_221" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115702;250308;-626;65460" total="1" respawn="3hour" dbName="innadrile_siege_222" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="115701;250343;-626;65460" total="1" respawn="3hour" dbName="innadrile_siege_223" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115701;250380;-626;65460" total="1" respawn="3hour" dbName="innadrile_siege_224" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115701;250417;-626;65460" total="1" respawn="3hour" dbName="innadrile_siege_225" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege07" minZ="-682" maxZ="30576">
+		<node x="116620" y="250429"/>
+		<node x="116280" y="250429"/>
+		<node x="116280" y="249223"/>
+		<node x="116616" y="249224"/>
+	</territory>
+	<npcmaker name="innadrile_siege07" territory="innadrile_siege07" spawnTime="siege_warfare_start(6)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35300" pos="116485;249293;-623;48856" total="1" respawn="3hour" dbName="innadrile_siege_226" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35295" pos="116511;249293;-623;48856" total="1" respawn="3hour" dbName="innadrile_siege_227" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35300" pos="116554;249296;-622;48856" total="1" respawn="3hour" dbName="innadrile_siege_228" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116485;249315;-627;48856" total="1" respawn="3hour" dbName="innadrile_siege_229" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116512;249315;-627;48856" total="1" respawn="3hour" dbName="innadrile_siege_230" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35299" pos="116539;249315;-626;48856" total="1" respawn="3hour" dbName="innadrile_siege_231" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116486;249340;-625;48856" total="1" respawn="3hour" dbName="innadrile_siege_232" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116513;249340;-625;48856" total="1" respawn="3hour" dbName="innadrile_siege_233" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35298" pos="116540;249339;-624;48856" total="1" respawn="3hour" dbName="innadrile_siege_234" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="116447;249581;-625;48856" total="1" respawn="3hour" dbName="innadrile_siege_235" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="116473;249581;-625;48856" total="1" respawn="3hour" dbName="innadrile_siege_236" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="116501;249581;-624;48856" total="1" respawn="3hour" dbName="innadrile_siege_237" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116339;250411;-628;32384" total="1" respawn="3hour" dbName="innadrile_siege_238" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116338;250375;-628;32384" total="1" respawn="3hour" dbName="innadrile_siege_239" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116337;250338;-627;32384" total="1" respawn="3hour" dbName="innadrile_siege_240" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116337;250302;-627;32384" total="1" respawn="3hour" dbName="innadrile_siege_241" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116337;250266;-627;32384" total="1" respawn="3hour" dbName="innadrile_siege_242" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116336;250228;-627;32384" total="1" respawn="3hour" dbName="innadrile_siege_243" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116336;250197;-626;32384" total="1" respawn="3hour" dbName="innadrile_siege_244" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116335;250160;-626;32384" total="1" respawn="3hour" dbName="innadrile_siege_245" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116335;250125;-626;32384" total="1" respawn="3hour" dbName="innadrile_siege_246" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116334;250088;-626;32384" total="1" respawn="3hour" dbName="innadrile_siege_247" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116333;250051;-626;32384" total="1" respawn="3hour" dbName="innadrile_siege_248" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege08" minZ="-1235" maxZ="-235">
+		<node x="115647" y="245089"/>
+		<node x="116825" y="245038"/>
+		<node x="116852" y="245435"/>
+		<node x="115699" y="245418"/>
+	</territory>
+	<npcmaker name="innadrile_siege08m1" territory="innadrile_siege08" spawnTime="siege_warfare_start(6)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35301" pos="116032;245348;-672;0" total="1" respawn="3hour" dbName="innadrile_siege_249" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116032;245277;-672;0" total="1" respawn="3hour" dbName="innadrile_siege_250" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116015;245210;-672;57344" total="1" respawn="3hour" dbName="innadrile_siege_251" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115984;245185;-672;49152" total="1" respawn="3hour" dbName="innadrile_siege_252" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115946;245185;-672;49152" total="1" respawn="3hour" dbName="innadrile_siege_253" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115910;245185;-672;49152" total="1" respawn="3hour" dbName="innadrile_siege_254" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115872;245185;-672;49152" total="1" respawn="3hour" dbName="innadrile_siege_255" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116491;245349;-672;32768" total="1" respawn="3hour" dbName="innadrile_siege_256" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116491;245280;-672;32768" total="1" respawn="3hour" dbName="innadrile_siege_257" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116512;245216;-672;40960" total="1" respawn="3hour" dbName="innadrile_siege_258" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116544;245185;-672;49152" total="1" respawn="3hour" dbName="innadrile_siege_259" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116579;245185;-672;49152" total="1" respawn="3hour" dbName="innadrile_siege_260" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116614;245185;-672;49152" total="1" respawn="3hour" dbName="innadrile_siege_261" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116650;245185;-672;49152" total="1" respawn="3hour" dbName="innadrile_siege_262" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116032;245315;-672;0" total="1" respawn="3hour" dbName="innadrile_siege_263" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116032;245240;-672;0" total="1" respawn="3hour" dbName="innadrile_siege_264" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116491;245312;-672;32768" total="1" respawn="3hour" dbName="innadrile_siege_265" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116491;245242;-672;32768" total="1" respawn="3hour" dbName="innadrile_siege_266" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="115968;245248;-672;57344" total="1" respawn="3hour" dbName="innadrile_siege_267" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="116544;245248;-672;40960" total="1" respawn="3hour" dbName="innadrile_siege_268" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="innadrile_siege08m2" territory="innadrile_siege08" spawnTime="pc_siege_warfare_start(6)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35301" pos="116015;245358;-663;0" total="1" respawn="3hour" dbName="innadrile_siege_413" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116015;245246;-663;0" total="1" respawn="3hour" dbName="innadrile_siege_414" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115968;245187;-663;57344" total="1" respawn="3hour" dbName="innadrile_siege_415" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115901;245173;-663;49152" total="1" respawn="3hour" dbName="innadrile_siege_416" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116500;245319;-663;32768" total="1" respawn="3hour" dbName="innadrile_siege_417" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116499;245239;-663;32768" total="1" respawn="3hour" dbName="innadrile_siege_418" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116545;245182;-663;40960" total="1" respawn="3hour" dbName="innadrile_siege_419" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116617;245170;-663;49152" total="1" respawn="3hour" dbName="innadrile_siege_420" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116500;245278;-662;32768" total="1" respawn="3hour" dbName="innadrile_siege_421" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116511;245207;-662;40960" total="1" respawn="3hour" dbName="innadrile_siege_422" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116005;245210;-662;57344" total="1" respawn="3hour" dbName="innadrile_siege_423" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116015;245294;-663;0" total="1" respawn="3hour" dbName="innadrile_siege_424" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="116599;245209;-663;40960" total="1" respawn="3hour" dbName="innadrile_siege_425" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="115909;245217;-663;57344" total="1" respawn="3hour" dbName="innadrile_siege_426" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege09" minZ="-1002" maxZ="30256">
+		<node x="116534" y="247261"/>
+		<node x="115552" y="247261"/>
+		<node x="115559" y="246854"/>
+		<node x="116536" y="246861"/>
+	</territory>
+	<npcmaker name="innadrile_siege09" territory="innadrile_siege09" spawnTime="siege_warfare_start(6)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35288" pos="116087;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_269" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115959;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_270" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115896;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_271" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116151;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_272" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116282;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_273" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="116410;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_274" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115768;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_275" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35288" pos="115639;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_276" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35283" pos="116215;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_277" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35283" pos="115832;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_278" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35283" pos="115575;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_279" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35283" pos="116474;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_280" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="116023;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_281" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="115704;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_282" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35284" pos="116346;247109;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_283" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116471;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_284" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116407;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_285" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115575;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_286" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115639;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_287" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35282" pos="116023;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_288" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116343;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_289" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116279;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_290" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116215;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_291" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="116151;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_292" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35282" pos="116087;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_293" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35282" pos="115960;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_294" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115896;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_295" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115832;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_296" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115768;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_297" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35287" pos="115704;246959;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_298" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege10" minZ="-553" maxZ="30705">
+		<node x="116501" y="247931"/>
+		<node x="115539" y="247929"/>
+		<node x="115549" y="247597"/>
+		<node x="116506" y="247597"/>
+	</territory>
+	<npcmaker name="innadrile_siege10" territory="innadrile_siege10" spawnTime="siege_warfare_start(6)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35301" pos="115791;247862;-481;0" total="1" respawn="3hour" dbName="innadrile_siege_299"/>
+		<npc id="35301" pos="115792;247740;-481;0" total="1" respawn="3hour" dbName="innadrile_siege_300"/>
+		<npc id="35301" pos="115737;247679;-481;57344" total="1" respawn="3hour" dbName="innadrile_siege_301"/>
+		<npc id="35301" pos="115712;247660;-481;49152" total="1" respawn="3hour" dbName="innadrile_siege_302"/>
+		<npc id="35301" pos="115673;247659;-481;49152" total="1" respawn="3hour" dbName="innadrile_siege_303"/>
+		<npc id="35301" pos="115637;247659;-481;49152" total="1" respawn="3hour" dbName="innadrile_siege_304"/>
+		<npc id="35301" pos="115791;247819;-481;0" total="1" respawn="3hour" dbName="innadrile_siege_305"/>
+		<npc id="35296" pos="115763;247704;-481;57344" total="1" respawn="3hour" dbName="innadrile_siege_306"/>
+		<npc id="35296" pos="115791;247780;-480;0" total="1" respawn="3hour" dbName="innadrile_siege_307"/>
+		<npc id="35297" pos="115689;247725;-482;57344" total="1" respawn="3hour" dbName="innadrile_siege_308"/>
+		<npc id="35301" pos="116244;247868;-483;32768" total="1" respawn="3hour" dbName="innadrile_siege_309"/>
+		<npc id="35301" pos="116244;247828;-481;32768" total="1" respawn="3hour" dbName="innadrile_siege_310"/>
+		<npc id="35301" pos="116244;247743;-482;32768" total="1" respawn="3hour" dbName="innadrile_siege_311"/>
+		<npc id="35301" pos="116302;247678;-481;40960" total="1" respawn="3hour" dbName="innadrile_siege_312"/>
+		<npc id="35301" pos="116329;247658;-480;49152" total="1" respawn="3hour" dbName="innadrile_siege_313"/>
+		<npc id="35301" pos="116369;247659;-481;49152" total="1" respawn="3hour" dbName="innadrile_siege_314"/>
+		<npc id="35301" pos="116408;247658;-481;49152" total="1" respawn="3hour" dbName="innadrile_siege_315"/>
+		<npc id="35296" pos="116244;247784;-479;32768" total="1" respawn="3hour" dbName="innadrile_siege_316"/>
+		<npc id="35296" pos="116266;247714;-482;40960" total="1" respawn="3hour" dbName="innadrile_siege_317"/>
+		<npc id="35297" pos="116346;247732;-479;40960" total="1" respawn="3hour" dbName="innadrile_siege_318"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege11" minZ="-1083" maxZ="30375">
+		<node x="116433" y="248843"/>
+		<node x="115491" y="250190"/>
+		<node x="115689" y="247847"/>
+		<node x="116420" y="247818"/>
+	</territory>
+	<npcmaker name="innadrile_siege11" territory="innadrile_siege11" spawnTime="siege_warfare_start(6)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35301" pos="116131;247989;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_319" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116100;247989;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_320" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116069;247989;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_321" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116037;247989;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_322" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116006;247989;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_323" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115974;247989;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_324" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115943;247989;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_325" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="115911;247989;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_326" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="116131;247969;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_327" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="116100;247969;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_328" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116069;247969;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_329" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116037;247969;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_330" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="116006;247969;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_331" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115974;247969;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_332" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115943;247969;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_333" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="115911;247969;-790;49152" total="1" respawn="3hour" dbName="innadrile_siege_334" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege12" minZ="-1212" maxZ="30375">
+		<node x="114561" y="247454"/>
+		<node x="114434" y="247454"/>
+		<node x="114433" y="246839"/>
+		<node x="114560" y="246839"/>
+	</territory>
+	<npcmaker name="innadrile_siege12" territory="innadrile_siege12" spawnTime="siege_warfare_start(6)" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="35301" pos="114459;246876;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_335" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="114459;246927;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_336" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="114459;246977;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_337" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="114459;247027;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_338" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="114459;247077;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_339" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="114459;247127;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_340" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="114459;247177;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_341" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="114459;247227;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_342" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="114459;247277;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_343" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="114459;247327;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_344" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="114459;247377;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_345" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="114459;247427;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_346" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadrile_siege13" minZ="-1212" maxZ="30375">
+		<node x="117886" y="247455"/>
+		<node x="117759" y="247455"/>
+		<node x="117759" y="246841"/>
+		<node x="117886" y="246841"/>
+	</territory>
+	<npcmaker name="innadrile_siege13" territory="innadrile_siege13" spawnTime="siege_warfare_start(6)" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="35301" pos="117861;246876;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_347" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="117861;246927;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_348" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="117861;246977;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_349" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="117861;247027;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_350" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35297" pos="117861;247077;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_351" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="117861;247127;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_352" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="117861;247177;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_353" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="117861;247227;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_354" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="117861;247277;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_355" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35296" pos="117861;247327;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_356" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="117861;247377;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_357" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35301" pos="117861;247427;-666;32768" total="1" respawn="3hour" dbName="innadrile_siege_358" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+</list>

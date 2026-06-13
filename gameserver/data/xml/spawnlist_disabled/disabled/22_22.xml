@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Giran Area
+ * Town of Giran
+ * Giran Arena
+ * Breka's Stronghold
+-->
+<list>
+	<!--  -->
+	<territory name="22_22_net_cafe_event_1_01" minZ="-3492" maxZ="-3292">
+		<node x="83228" y="149052"/>
+		<node x="83428" y="149052"/>
+		<node x="83428" y="149252"/>
+		<node x="83228" y="149252"/>
+	</territory>
+	<npcmaker name="22_22_net_cafe_event_1_01" territory="22_22_net_cafe_event_1_01" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="83332;149160;-3405;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="22_22_net_cafe_event_1_02" minZ="-3560" maxZ="-3360">
+		<node x="82188" y="148476"/>
+		<node x="82388" y="148476"/>
+		<node x="82388" y="148676"/>
+		<node x="82188" y="148676"/>
+	</territory>
+	<npcmaker name="22_22_net_cafe_event_1_02" territory="22_22_net_cafe_event_1_02" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="82277;148598;-3467;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="22_22_net_cafe_event_1_03" minZ="-3580" maxZ="-3380">
+		<node x="81484" y="148524"/>
+		<node x="81684" y="148524"/>
+		<node x="81684" y="148724"/>
+		<node x="81484" y="148724"/>
+	</territory>
+	<npcmaker name="22_22_net_cafe_event_1_03" territory="22_22_net_cafe_event_1_03" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="81621;148725;-3467;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="22_22_net_cafe_event_1_04" minZ="-3664" maxZ="-3464">
+		<node x="81596" y="145560"/>
+		<node x="81796" y="145560"/>
+		<node x="81796" y="145760"/>
+		<node x="81596" y="145760"/>
+	</territory>
+	<npcmaker name="22_22_net_cafe_event_1_04" territory="22_22_net_cafe_event_1_04" event="net_cafe_event_1" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31774" pos="81680;145656;-3467;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion13_2222_01" minZ="-3796" maxZ="-2996">
+		<node x="65653" y="140593"/>
+		<node x="70132" y="141486"/>
+		<node x="70297" y="144673"/>
+		<node x="65639" y="145754"/>
+	</territory>
+	<npcmaker name="dion13_2222_01" territory="dion13_2222_01" maximumNpcs="50">
+		<ai type="default_maker"/>
+		<npc id="20944" total="5" respawn="45sec">
+			<privates>
+				<private id="20942" weight="1" respawn="0sec"/>
+				<private id="20943" weight="1" respawn="0sec"/>
+				<private id="20943" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="20941" total="5" respawn="45sec">
+			<privates>
+				<private id="20940" weight="1" respawn="0sec"/>
+				<private id="20940" weight="1" respawn="0sec"/>
+				<private id="20940" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion13_2222_02" minZ="-3796" maxZ="-2996">
+		<node x="65647" y="145871"/>
+		<node x="67633" y="145307"/>
+		<node x="66515" y="149891"/>
+		<node x="65655" y="150018"/>
+	</territory>
+	<npcmaker name="dion13_2222_02" territory="dion13_2222_02" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="20944" total="2" respawn="45sec">
+			<privates>
+				<private id="20942" weight="1" respawn="0sec"/>
+				<private id="20943" weight="1" respawn="0sec"/>
+				<private id="20943" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="20941" total="2" respawn="45sec">
+			<privates>
+				<private id="20940" weight="1" respawn="0sec"/>
+				<private id="20940" weight="1" respawn="0sec"/>
+				<private id="20940" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion13_2222_03" minZ="-3796" maxZ="-2996">
+		<node x="65640" y="150135"/>
+		<node x="66531" y="149992"/>
+		<node x="67559" y="151048"/>
+		<node x="65625" y="154132"/>
+	</territory>
+	<npcmaker name="dion13_2222_03" territory="dion13_2222_03" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20944" total="2" respawn="45sec">
+			<privates>
+				<private id="20942" weight="1" respawn="0sec"/>
+				<private id="20943" weight="1" respawn="0sec"/>
+				<private id="20943" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="20941" total="1" respawn="45sec">
+			<privates>
+				<private id="20940" weight="1" respawn="0sec"/>
+				<private id="20940" weight="1" respawn="0sec"/>
+				<private id="20940" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion13_2222_04" minZ="-3796" maxZ="-2996">
+		<node x="65694" y="155668"/>
+		<node x="68513" y="155405"/>
+		<node x="69046" y="159913"/>
+		<node x="65694" y="161414"/>
+	</territory>
+	<npcmaker name="dion13_2222_04" territory="dion13_2222_04" maximumNpcs="50">
+		<ai type="default_maker"/>
+		<npc id="20944" total="6" respawn="45sec">
+			<privates>
+				<private id="20942" weight="1" respawn="0sec"/>
+				<private id="20943" weight="1" respawn="0sec"/>
+				<private id="20943" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="20941" total="4" respawn="45sec">
+			<privates>
+				<private id="20940" weight="1" respawn="0sec"/>
+				<private id="20940" weight="1" respawn="0sec"/>
+				<private id="20940" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran01_mb2222_01" minZ="-3560" maxZ="-2960">
+		<node x="87716" y="140240"/>
+		<node x="88636" y="139892"/>
+		<node x="89640" y="140844"/>
+		<node x="88840" y="141224"/>
+		<node x="87936" y="141032"/>
+	</territory>
+	<npcmaker name="giran01_mb2222_01" territory="giran01_mb2222_01" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25082" total="1" respawn="36hour" respawnRand="24hour" dbName="lost_cat_the_cat_a" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran06_2222_01" minZ="-3720" maxZ="-2920">
+		<node x="70944" y="131260"/>
+		<node x="75076" y="131212"/>
+		<node x="74152" y="134412"/>
+		<node x="72592" y="133828"/>
+	</territory>
+	<npcmaker name="giran06_2222_01m1" territory="giran06_2222_01" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20199" total="2" respawn="33sec"/>
+		<npc id="20267" total="3" respawn="33sec"/>
+		<npc id="20268" total="2" respawn="33sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran06_2222_02" minZ="-3728" maxZ="-3128">
+		<node x="75060" y="131224"/>
+		<node x="78232" y="131232"/>
+		<node x="76840" y="133124"/>
+		<node x="74752" y="132472"/>
+	</territory>
+	<npcmaker name="giran06_2222_02m1" territory="giran06_2222_02" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20199" total="2" respawn="33sec"/>
+		<npc id="20267" total="1" respawn="33sec"/>
+		<npc id="20268" total="2" respawn="33sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran06_2222_03" minZ="-3768" maxZ="-2968">
+		<node x="88284" y="131212"/>
+		<node x="91352" y="131240"/>
+		<node x="90252" y="133484"/>
+		<node x="88708" y="133620"/>
+	</territory>
+	<npcmaker name="giran06_2222_03m1" territory="giran06_2222_03" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20271" total="1" respawn="33sec"/>
+		<npc id="20269" total="2" respawn="33sec"/>
+		<npc id="20270" total="2" respawn="33sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran06_2222_04" minZ="-3700" maxZ="-3100">
+		<node x="91436" y="131228"/>
+		<node x="95288" y="131196"/>
+		<node x="94504" y="133400"/>
+		<node x="90596" y="133092"/>
+	</territory>
+	<npcmaker name="giran06_2222_04m1" territory="giran06_2222_04" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20199" total="2" respawn="33sec"/>
+		<npc id="20267" total="3" respawn="33sec"/>
+		<npc id="20268" total="2" respawn="33sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_01" minZ="-3625" maxZ="-3425">
+		<node x="80412" y="147806"/>
+		<node x="80612" y="147806"/>
+		<node x="80612" y="148006"/>
+		<node x="80412" y="148006"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_0101" territory="giran11_npc2222_01" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30081" pos="80518;147922;-3506;32768" total="1" respawn="1min"/>
+		<npc id="30082" pos="80518;147873;-3506;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_02" minZ="-3621" maxZ="-3421">
+		<node x="79676" y="146380"/>
+		<node x="79876" y="146380"/>
+		<node x="79876" y="146580"/>
+		<node x="79676" y="146580"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_0201" territory="giran11_npc2222_02" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30084" pos="79747;146492;-3518;16384" total="1" respawn="1min"/>
+		<npc id="30085" pos="79801;146493;-3518;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_03" minZ="-3626" maxZ="-3426">
+		<node x="79580" y="150684"/>
+		<node x="79780" y="150684"/>
+		<node x="79780" y="150884"/>
+		<node x="79580" y="150884"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_0301" territory="giran11_npc2222_03" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30087" pos="79711;150788;-3520;49152" total="1" respawn="1min"/>
+		<npc id="30088" pos="79654;150788;-3520;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_04" minZ="-3609" maxZ="-3409">
+		<node x="83279" y="150485"/>
+		<node x="83370" y="150487"/>
+		<node x="83357" y="150880"/>
+		<node x="83276" y="150881"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_0401" territory="giran11_npc2222_04" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30093" pos="83305;150521;-3514;32768" total="1" respawn="1min"/>
+		<npc id="30094" pos="83317;150821;-3514;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_05" minZ="-3600" maxZ="-3400">
+		<node x="83218" y="146577"/>
+		<node x="83312" y="146576"/>
+		<node x="83312" y="146768"/>
+		<node x="83216" y="146768"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_0501" territory="giran11_npc2222_05" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30511" pos="83263;146667;-3464;32768" total="1" respawn="1min"/>
+		<npc id="30103" pos="83264;146602;-3464;32768" total="1" respawn="1min"/>
+		<npc id="30104" pos="83263;146736;-3464;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_06" minZ="-3715" maxZ="-3515">
+		<node x="77447" y="148068"/>
+		<node x="77735" y="148071"/>
+		<node x="77736" y="148324"/>
+		<node x="77448" y="148322"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_0601" territory="giran11_npc2222_06" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30512" pos="77659;148089;-3595;16384" total="1" respawn="1min"/>
+		<npc id="30300" pos="77458;148169;-3595;0" total="1" respawn="1min"/>
+		<npc id="30471" pos="77712;148288;-3595;28672" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_07" minZ="-3593" maxZ="-3393">
+		<node x="85216" y="152902"/>
+		<node x="86423" y="152900"/>
+		<node x="86426" y="153390"/>
+		<node x="85216" y="153395"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_0701" territory="giran11_npc2222_07" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="30115" pos="85823;153248;-3494;49152" total="1" respawn="1min"/>
+		<npc id="30110" pos="85289;153341;-3494;57344" total="1" respawn="1min"/>
+		<npc id="30111" pos="86359;152970;-3494;24576" total="1" respawn="1min"/>
+		<npc id="30112" pos="86362;153337;-3494;40960" total="1" respawn="1min"/>
+		<npc id="30113" pos="85253;153153;-3494;0" total="1" respawn="1min"/>
+		<npc id="30114" pos="85297;152963;-3494;8192" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_08" minZ="-3614" maxZ="-3414">
+		<node x="81036" y="145740"/>
+		<node x="81236" y="145740"/>
+		<node x="81236" y="145940"/>
+		<node x="81036" y="145940"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_0801" territory="giran11_npc2222_08" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="30829" pos="81100;145840;-3531;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_09" minZ="-3499" maxZ="-3299">
+		<node x="84428" y="146284"/>
+		<node x="84628" y="146284"/>
+		<node x="84628" y="146484"/>
+		<node x="84428" y="146484"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_0901" territory="giran11_npc2222_09" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30756" pos="84521;146372;-3404;16384" total="1" respawn="1min"/>
+		<npc id="30753" pos="81296;149728;-3469;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_10" minZ="-3446" maxZ="-3246">
+		<node x="86860" y="148604"/>
+		<node x="87089" y="148606"/>
+		<node x="87101" y="148804"/>
+		<node x="86875" y="148853"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_1001" territory="giran11_npc2222_10" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30120" pos="87058;148634;-3392;32768" total="1" respawn="1min"/>
+		<npc id="30116" pos="86912;148802;-3392;40960" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_11" minZ="-3461" maxZ="-3261">
+		<node x="85781" y="148298"/>
+		<node x="86580" y="148348"/>
+		<node x="86580" y="148898"/>
+		<node x="85775" y="148948"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_1101" territory="giran11_npc2222_11" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30118" pos="86485;148384;-3392;16384" total="1" respawn="1min"/>
+		<npc id="30117" pos="86472;148848;-3392;49152" total="1" respawn="1min"/>
+		<npc id="30473" pos="85829;148365;-3392;16384" total="1" respawn="1min"/>
+		<npc id="30119" pos="85828;148894;-3392;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_12" minZ="-3531" maxZ="-3331">
+		<node x="84956" y="146460"/>
+		<node x="85156" y="146460"/>
+		<node x="85156" y="146660"/>
+		<node x="84956" y="146660"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_1201" territory="giran11_npc2222_12" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30108" pos="85055;146560;-3399;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_13" minZ="-3517" maxZ="-3317">
+		<node x="85207" y="146167"/>
+		<node x="85730" y="146171"/>
+		<node x="85704" y="146858"/>
+		<node x="85196" y="146837"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_1301" territory="giran11_npc2222_13" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="30109" pos="85655;146471;-3399;32768" total="1" respawn="1min"/>
+		<npc id="30105" pos="85505;146208;-3399;16384" total="1" respawn="1min"/>
+		<npc id="30107" pos="85502;146752;-3399;49152" total="1" respawn="1min"/>
+		<npc id="30106" pos="85234;146634;-3399;0" total="1" respawn="1min"/>
+		<npc id="30472" pos="85231;146328;-3399;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_14" minZ="-3499" maxZ="-3299">
+		<node x="84170" y="143639"/>
+		<node x="84370" y="143639"/>
+		<node x="84370" y="143839"/>
+		<node x="84170" y="143839"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_1401" territory="giran11_npc2222_14" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30645" pos="84274;143740;-3403;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_15" minZ="-3643" maxZ="-3443">
+		<node x="79156" y="146947"/>
+		<node x="79356" y="146947"/>
+		<node x="79356" y="147147"/>
+		<node x="79156" y="147147"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_1501" territory="giran11_npc2222_15" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30624" pos="79253;147049;-3529;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_16" minZ="-3509" maxZ="-3309">
+		<node x="87416" y="149556"/>
+		<node x="87616" y="149556"/>
+		<node x="87616" y="149756"/>
+		<node x="87416" y="149756"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_1601" territory="giran11_npc2222_16" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30614" pos="87509;149655;-3402;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_17" minZ="-3592" maxZ="-3392">
+		<node x="80132" y="148956"/>
+		<node x="80628" y="148956"/>
+		<node x="80628" y="149680"/>
+		<node x="80132" y="149680"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_1701" territory="giran11_npc2222_17" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30090" pos="80511;149183;-3508;32768" total="1" respawn="1min"/>
+		<npc id="30091" pos="80510;149250;-3508;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_18" minZ="-3703" maxZ="-3503">
+		<node x="78688" y="148901"/>
+		<node x="79101" y="148888"/>
+		<node x="79113" y="149529"/>
+		<node x="78691" y="149526"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_1801" territory="giran11_npc2222_18" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="30474" pos="79059;149457;-3596;41500" total="1" respawn="1min"/>
+		<npc id="30475" pos="78766;149239;-3596;16384" total="1" respawn="1min"/>
+		<npc id="30476" pos="78928;149041;-3596;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_19" minZ="-3633" maxZ="-3433">
+		<node x="79500" y="145388"/>
+		<node x="79700" y="145388"/>
+		<node x="79700" y="145588"/>
+		<node x="79500" y="145588"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_1901" territory="giran11_npc2222_19" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30097" pos="79599;145522;-3494;0" total="1" respawn="1min"/>
+		<npc id="30098" pos="79599;145457;-3494;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_20" minZ="-3625" maxZ="-3425">
+		<node x="90417" y="147103"/>
+		<node x="90612" y="147099"/>
+		<node x="90621" y="147582"/>
+		<node x="90413" y="147589"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2001" territory="giran11_npc2222_20" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30128" pos="90498;147535;-3528;0" total="1" respawn="1min"/>
+		<npc id="30478" pos="90501;147180;-3530;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_21" minZ="-3644" maxZ="-3444">
+		<node x="83649" y="141341"/>
+		<node x="84179" y="141340"/>
+		<node x="84193" y="141540"/>
+		<node x="83628" y="141540"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2101" territory="giran11_npc2222_21" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30126" pos="84064;141438;-3526;49152" total="1" respawn="1min"/>
+		<npc id="30125" pos="83705;141439;-3530;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_22" minZ="-3645" maxZ="-3445">
+		<node x="81370" y="143372"/>
+		<node x="81649" y="143372"/>
+		<node x="81679" y="143572"/>
+		<node x="81361" y="143572"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2201" territory="giran11_npc2222_22" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30123" pos="81424;143472;-3529;49152" total="1" respawn="1min"/>
+		<npc id="30124" pos="81616;143472;-3529;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_23" minZ="-3725" maxZ="-3525">
+		<node x="76908" y="148375"/>
+		<node x="77106" y="148354"/>
+		<node x="77112" y="148932"/>
+		<node x="76908" y="148935"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2301" territory="giran11_npc2222_23" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30452" pos="77026;148813;-3598;32768" total="1" respawn="1min"/>
+		<npc id="30477" pos="77029;148447;-3599;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_24" minZ="-3634" maxZ="-3434">
+		<node x="81404" y="152844"/>
+		<node x="81696" y="152847"/>
+		<node x="81700" y="153044"/>
+		<node x="81406" y="153044"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2401" territory="giran11_npc2222_24" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30121" pos="81436;152950;-3532;16384" total="1" respawn="1min"/>
+		<npc id="30122" pos="81642;152955;-3526;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_25" minZ="-3653" maxZ="-3453">
+		<node x="80236" y="145388"/>
+		<node x="80436" y="145388"/>
+		<node x="80436" y="145588"/>
+		<node x="80236" y="145588"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2501" territory="giran11_npc2222_25" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30083" pos="80329;145482;-3533;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_26" minZ="-3641" maxZ="-3441">
+		<node x="80636" y="146300"/>
+		<node x="80836" y="146300"/>
+		<node x="80836" y="146500"/>
+		<node x="80636" y="146500"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2601" territory="giran11_npc2222_26" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30086" pos="80752;146400;-3533;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_27" minZ="-3660" maxZ="-3460">
+		<node x="79148" y="149452"/>
+		<node x="79348" y="149452"/>
+		<node x="79348" y="149652"/>
+		<node x="79148" y="149652"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2701" territory="giran11_npc2222_27" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30092" pos="79248;149552;-3531;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_28" minZ="-3629" maxZ="-3429">
+		<node x="82300" y="149804"/>
+		<node x="82500" y="149804"/>
+		<node x="82500" y="150004"/>
+		<node x="82300" y="150004"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2801" territory="giran11_npc2222_28" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30095" pos="82405;149905;-3520;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_29" minZ="-3524" maxZ="-3324">
+		<node x="83260" y="147820"/>
+		<node x="83460" y="147820"/>
+		<node x="83460" y="148020"/>
+		<node x="83260" y="148020"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2901" territory="giran11_npc2222_29" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30080" pos="83396;147904;-3404;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_2c01" minZ="-3516" maxZ="-3316">
+		<node x="82972" y="147804"/>
+		<node x="83172" y="147804"/>
+		<node x="83172" y="148004"/>
+		<node x="82972" y="148004"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_2c01" territory="giran11_npc2222_2c01" event="test_2nd_class" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31756" pos="83076;147912;-3467;32000" total="1" respawn="1min"/>
+		<npc id="31757" pos="83082;147845;-3467;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_30" minZ="-3552" maxZ="-3352">
+		<node x="83148" y="150108"/>
+		<node x="83348" y="150108"/>
+		<node x="83348" y="150308"/>
+		<node x="83148" y="150308"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_3001" territory="giran11_npc2222_30" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31049" pos="83264;150176;-3520;24576" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_31" minZ="-3512" maxZ="-3312">
+		<node x="81848" y="149484"/>
+		<node x="82048" y="149484"/>
+		<node x="82048" y="149684"/>
+		<node x="81848" y="149684"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_3101" territory="giran11_npc2222_31" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35187" pos="81936;149584;-3472;36864" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_32" minZ="-3608" maxZ="-3408">
+		<node x="79264" y="148016"/>
+		<node x="79464" y="148016"/>
+		<node x="79464" y="148216"/>
+		<node x="79264" y="148216"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_3201" territory="giran11_npc2222_32" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35187" pos="79296;148128;-3536;53248" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_33" minZ="-3576" maxZ="-3376">
+		<node x="80452" y="152212"/>
+		<node x="80652" y="152212"/>
+		<node x="80652" y="152412"/>
+		<node x="80452" y="152412"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_3301" territory="giran11_npc2222_33" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35187" pos="80544;152288;-3536;24576" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_34" minZ="-3440" maxZ="-3240">
+		<node x="83276" y="149164"/>
+		<node x="83476" y="149164"/>
+		<node x="83476" y="149364"/>
+		<node x="83276" y="149364"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_3401" territory="giran11_npc2222_34" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31081" pos="83369;149273;-3400;32500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_35" minZ="-3505" maxZ="-3305">
+		<node x="81516" y="148508"/>
+		<node x="81716" y="148508"/>
+		<node x="81716" y="148708"/>
+		<node x="81516" y="148708"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_3501" territory="giran11_npc2222_35" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31088" pos="81623;148606;-3464;32500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_36" minZ="-3569" maxZ="-3369">
+		<node x="81228" y="149948"/>
+		<node x="81428" y="149948"/>
+		<node x="81428" y="150148"/>
+		<node x="81228" y="150148"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_3601" territory="giran11_npc2222_36" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31092" pos="81360;150016;-3528;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_37" minZ="-3576" maxZ="-3376">
+		<node x="81708" y="145148"/>
+		<node x="81908" y="145148"/>
+		<node x="81908" y="145348"/>
+		<node x="81708" y="145348"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_3701" territory="giran11_npc2222_37" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35454" pos="81776;145200;-3529;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_38" minZ="-3568" maxZ="-3368">
+		<node x="81772" y="145276"/>
+		<node x="81972" y="145276"/>
+		<node x="81972" y="145476"/>
+		<node x="81772" y="145476"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_3801" territory="giran11_npc2222_38" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35453" pos="81876;145392;-3520;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_39" minZ="-3444" maxZ="-3244">
+		<node x="83548" y="145292"/>
+		<node x="83748" y="145292"/>
+		<node x="83748" y="145492"/>
+		<node x="83548" y="145492"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_3901" territory="giran11_npc2222_39" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35456" pos="83680;145456;-3408;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_40" minZ="-3432" maxZ="-3232">
+		<node x="83468" y="145180"/>
+		<node x="83668" y="145180"/>
+		<node x="83668" y="145380"/>
+		<node x="83468" y="145380"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_4001" territory="giran11_npc2222_40" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35455" pos="83568;145264;-3388;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_41" minZ="-3632" maxZ="-3432">
+		<node x="78412" y="148252"/>
+		<node x="78612" y="148252"/>
+		<node x="78612" y="148452"/>
+		<node x="78412" y="148452"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_4101" territory="giran11_npc2222_41" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35452" pos="78448;148400;-3600;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_42" minZ="-3624" maxZ="-3424">
+		<node x="78524" y="148188"/>
+		<node x="78724" y="148188"/>
+		<node x="78724" y="148388"/>
+		<node x="78524" y="148388"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_4201" territory="giran11_npc2222_42" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35451" pos="78652;148280;-3580;48000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_43" minZ="-3580" maxZ="-3380">
+		<node x="81116" y="151564"/>
+		<node x="81316" y="151564"/>
+		<node x="81316" y="151764"/>
+		<node x="81116" y="151764"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_4301" territory="giran11_npc2222_43" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35458" pos="81264;151728;-3536;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_44" minZ="-3576" maxZ="-3376">
+		<node x="81052" y="151452"/>
+		<node x="81252" y="151452"/>
+		<node x="81252" y="151652"/>
+		<node x="81052" y="151652"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_4401" territory="giran11_npc2222_44" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35457" pos="81133;151537;-3512;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_45" minZ="-3592" maxZ="-3392">
+		<node x="81740" y="151740"/>
+		<node x="81940" y="151740"/>
+		<node x="81940" y="151940"/>
+		<node x="81740" y="151940"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_4501" territory="giran11_npc2222_45" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35460" pos="81808;151776;-3536;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_46" minZ="-3544" maxZ="-3344">
+		<node x="81820" y="151836"/>
+		<node x="82020" y="151836"/>
+		<node x="82020" y="152036"/>
+		<node x="81820" y="152036"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_4601" territory="giran11_npc2222_46" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35459" pos="81920;151968;-3520;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_47" minZ="-3588" maxZ="-3388">
+		<node x="80348" y="144276"/>
+		<node x="80532" y="144284"/>
+		<node x="80532" y="144640"/>
+		<node x="80332" y="144636"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_4701" territory="giran11_npc2222_47" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="30513" pos="80420;144499;-3536;0" total="1" respawn="1min"/>
+		<npc id="30515" pos="80459;144592;-3529;0" total="1" respawn="1min"/>
+		<npc id="30514" pos="80456;144376;-3536;0" total="1" respawn="1min"/>
+		<npc id="31428" pos="80421;144461;-3536;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_48" minZ="-3536" maxZ="-3336">
+		<node x="85788" y="152796"/>
+		<node x="85988" y="152796"/>
+		<node x="85988" y="152996"/>
+		<node x="85788" y="152996"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_4801" territory="giran11_npc2222_48" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31420" pos="85904;152896;-3494;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_49" minZ="-3451" maxZ="-3251">
+		<node x="84476" y="148444"/>
+		<node x="84676" y="148444"/>
+		<node x="84676" y="148644"/>
+		<node x="84476" y="148644"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_4901" territory="giran11_npc2222_49" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31419" pos="84576;148528;-3400;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_50" minZ="-3633" maxZ="-3433">
+		<node x="77397" y="148188"/>
+		<node x="77684" y="148188"/>
+		<node x="77684" y="148388"/>
+		<node x="77397" y="148388"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_5001" territory="giran11_npc2222_50" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31435" pos="77652;148328;-3600;48000" total="1" respawn="1min"/>
+		<npc id="31442" pos="77446;148302;-3600;58000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_51" minZ="-3568" maxZ="-3368">
+		<node x="80396" y="147612"/>
+		<node x="80596" y="147612"/>
+		<node x="80596" y="147812"/>
+		<node x="80396" y="147812"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_5101" territory="giran11_npc2222_51" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31572" pos="80512;147712;-3502;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_52" minZ="-3508" maxZ="-3308">
+		<node x="82028" y="147420"/>
+		<node x="82228" y="147420"/>
+		<node x="82228" y="147620"/>
+		<node x="82028" y="147620"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_5201" territory="giran11_npc2222_52" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31688" pos="82053;147526;-3464;16500" total="1" respawn="1min"/>
+		<npc id="31690" pos="82118;147524;-3464;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_53" minZ="-3444" maxZ="-3244">
+		<node x="88252" y="147112"/>
+		<node x="88452" y="147112"/>
+		<node x="88452" y="147312"/>
+		<node x="88252" y="147312"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_5301" territory="giran11_npc2222_53" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31804" pos="88384;147176;-3408;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_54" minZ="-3524" maxZ="-3324">
+		<node x="82732" y="147724"/>
+		<node x="82932" y="147724"/>
+		<node x="82932" y="147924"/>
+		<node x="82732" y="147924"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_5401" territory="giran11_npc2222_54" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31805" pos="82840;147796;-3472;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_55" minZ="-3464" maxZ="-3264">
+		<node x="83580" y="143548"/>
+		<node x="83780" y="143548"/>
+		<node x="83780" y="143748"/>
+		<node x="83580" y="143748"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_5501" territory="giran11_npc2222_55" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31806" pos="83680;143616;-3408;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_56" minZ="-3616" maxZ="-3416">
+		<node x="82652" y="146204"/>
+		<node x="82852" y="146204"/>
+		<node x="82852" y="146404"/>
+		<node x="82652" y="146404"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_5601" territory="giran11_npc2222_56" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31807" pos="82768;146320;-3536;33000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_57" minZ="-3648" maxZ="-3448">
+		<node x="77340" y="148332"/>
+		<node x="77540" y="148332"/>
+		<node x="77540" y="148532"/>
+		<node x="77340" y="148532"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_5701" territory="giran11_npc2222_57" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31808" pos="77424;148432;-3600;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_58" minZ="-3620" maxZ="-3420">
+		<node x="81596" y="152556"/>
+		<node x="81796" y="152556"/>
+		<node x="81796" y="152756"/>
+		<node x="81596" y="152756"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_5801" territory="giran11_npc2222_58" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31809" pos="81660;152696;-3536;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_59" minZ="-3504" maxZ="-3304">
+		<node x="81308" y="149612"/>
+		<node x="81508" y="149612"/>
+		<node x="81508" y="149812"/>
+		<node x="81308" y="149812"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_5901" territory="giran11_npc2222_59" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30767" pos="81424;149728;-3472;49000" total="1" respawn="1min">
+			<ai>
+				<set name="fnAgitMap" val="giran"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_bk01" minZ="-3492" maxZ="-3292">
+		<node x="83228" y="149052"/>
+		<node x="83428" y="149052"/>
+		<node x="83428" y="149252"/>
+		<node x="83228" y="149252"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_bk01" territory="giran11_npc2222_bk01" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="83332;149160;-3405;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_bk02" minZ="-3560" maxZ="-3360">
+		<node x="82188" y="148476"/>
+		<node x="82388" y="148476"/>
+		<node x="82388" y="148676"/>
+		<node x="82188" y="148676"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_bk02" territory="giran11_npc2222_bk02" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="82277;148598;-3467;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_bk03" minZ="-3580" maxZ="-3380">
+		<node x="81484" y="148524"/>
+		<node x="81684" y="148524"/>
+		<node x="81684" y="148724"/>
+		<node x="81484" y="148724"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_bk03" territory="giran11_npc2222_bk03" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="81621;148725;-3467;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_bk04" minZ="-3664" maxZ="-3464">
+		<node x="81596" y="145560"/>
+		<node x="81796" y="145560"/>
+		<node x="81796" y="145760"/>
+		<node x="81596" y="145760"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_bk04" territory="giran11_npc2222_bk04" event="bak_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31255" pos="81680;145656;-3533;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_eg01" minZ="-3484" maxZ="-3284">
+		<node x="83356" y="147804"/>
+		<node x="83556" y="147804"/>
+		<node x="83556" y="148004"/>
+		<node x="83356" y="148004"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_eg01" territory="giran11_npc2222_eg01" event="event_gate" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31220" pos="83466;147899;-3400;16700" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_fi01" minZ="-3444" maxZ="-3244">
+		<node x="83580" y="148284"/>
+		<node x="83780" y="148284"/>
+		<node x="83780" y="148484"/>
+		<node x="83580" y="148484"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_fi01" territory="giran11_npc2222_fi01" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="83691;148386;-3400;32000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_fi02" minZ="-3584" maxZ="-3384">
+		<node x="80196" y="146716"/>
+		<node x="80396" y="146716"/>
+		<node x="80396" y="146916"/>
+		<node x="80196" y="146916"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_fi02" territory="giran11_npc2222_fi02" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="80239;146832;-3528;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_fi03" minZ="-3512" maxZ="-3312">
+		<node x="81820" y="148812"/>
+		<node x="82020" y="148812"/>
+		<node x="82020" y="149012"/>
+		<node x="81820" y="149012"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_fi03" territory="giran11_npc2222_fi03" event="fire_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31227" pos="81923;148916;-3464;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_ht01" minZ="-3492" maxZ="-3292">
+		<node x="83228" y="149052"/>
+		<node x="83428" y="149052"/>
+		<node x="83428" y="149252"/>
+		<node x="83228" y="149252"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_ht01" territory="giran11_npc2222_ht01" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="83332;149160;-3405;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_ht02" minZ="-3560" maxZ="-3360">
+		<node x="82188" y="148476"/>
+		<node x="82388" y="148476"/>
+		<node x="82388" y="148676"/>
+		<node x="82188" y="148676"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_ht02" territory="giran11_npc2222_ht02" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="82277;148598;-3467;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_ht03" minZ="-3580" maxZ="-3380">
+		<node x="81484" y="148524"/>
+		<node x="81684" y="148524"/>
+		<node x="81684" y="148724"/>
+		<node x="81484" y="148724"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_ht03" territory="giran11_npc2222_ht03" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="81621;148725;-3467;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_ht04" minZ="-3664" maxZ="-3464">
+		<node x="81596" y="145560"/>
+		<node x="81796" y="145560"/>
+		<node x="81796" y="145760"/>
+		<node x="81596" y="145760"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_ht04" territory="giran11_npc2222_ht04" event="heart_event" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31860" pos="81680;145656;-3533;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_lc01" minZ="-3492" maxZ="-3292">
+		<node x="83228" y="149052"/>
+		<node x="83428" y="149052"/>
+		<node x="83428" y="149252"/>
+		<node x="83228" y="149252"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_lc01" territory="giran11_npc2222_lc01" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="83332;149160;-3405;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_lc02" minZ="-3560" maxZ="-3360">
+		<node x="82188" y="148476"/>
+		<node x="82388" y="148476"/>
+		<node x="82388" y="148676"/>
+		<node x="82188" y="148676"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_lc02" territory="giran11_npc2222_lc02" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="82277;148598;-3467;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_lc03" minZ="-3580" maxZ="-3380">
+		<node x="81484" y="148524"/>
+		<node x="81684" y="148524"/>
+		<node x="81684" y="148724"/>
+		<node x="81484" y="148724"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_lc03" territory="giran11_npc2222_lc03" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="81621;148725;-3467;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_lc04" minZ="-3664" maxZ="-3464">
+		<node x="81596" y="145560"/>
+		<node x="81796" y="145560"/>
+		<node x="81796" y="145760"/>
+		<node x="81596" y="145760"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_lc04" territory="giran11_npc2222_lc04" event="letter_collector" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31854" pos="81680;145656;-3533;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_md01" minZ="-3492" maxZ="-3292">
+		<node x="83228" y="149052"/>
+		<node x="83428" y="149052"/>
+		<node x="83428" y="149252"/>
+		<node x="83228" y="149252"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_md01" territory="giran11_npc2222_md01" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="83332;149160;-3405;49152" total="1" respawn="1min"/>
+		<npc id="31229" pos="83329;149095;-3405;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_md02" minZ="-3560" maxZ="-3360">
+		<node x="82188" y="148476"/>
+		<node x="82388" y="148476"/>
+		<node x="82388" y="148676"/>
+		<node x="82188" y="148676"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_md02" territory="giran11_npc2222_md02" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="82277;148598;-3467;0" total="1" respawn="1min"/>
+		<npc id="31229" pos="82277;148564;-3467;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_md03" minZ="-3580" maxZ="-3380">
+		<node x="81484" y="148524"/>
+		<node x="81684" y="148524"/>
+		<node x="81684" y="148830"/>
+		<node x="81484" y="148830"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_md03" territory="giran11_npc2222_md03" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="81621;148725;-3467;32768" total="1" respawn="1min"/>
+		<npc id="31229" pos="81620;148689;-3464;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_md04" minZ="-3664" maxZ="-3464">
+		<node x="81596" y="145560"/>
+		<node x="81796" y="145560"/>
+		<node x="81796" y="145760"/>
+		<node x="81596" y="145760"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_md04" territory="giran11_npc2222_md04" event="medal" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31228" pos="81680;145656;-3467;32768" total="1" respawn="1min"/>
+		<npc id="31229" pos="81691;145610;-3467;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_sp1" minZ="-3520" maxZ="-3320">
+		<node x="81788" y="148012"/>
+		<node x="81988" y="148012"/>
+		<node x="81988" y="148212"/>
+		<node x="81788" y="148212"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_sp1m1" territory="giran11_npc2222_sp1" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31231" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_sp2" minZ="-3624" maxZ="-3424">
+		<node x="81452" y="146620"/>
+		<node x="81652" y="146620"/>
+		<node x="81652" y="146820"/>
+		<node x="81452" y="146820"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_sp2m1" territory="giran11_npc2222_sp2" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31195" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_sp3" minZ="-3680" maxZ="-3480">
+		<node x="77244" y="148530"/>
+		<node x="77444" y="148525"/>
+		<node x="77444" y="148725"/>
+		<node x="77244" y="148730"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_sp3m1" territory="giran11_npc2222_sp3" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31199" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_sp4" minZ="-3624" maxZ="-3424">
+		<node x="81420" y="152604"/>
+		<node x="81620" y="152604"/>
+		<node x="81620" y="152804"/>
+		<node x="81420" y="152804"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_sp4m1" territory="giran11_npc2222_sp4" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31247" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_sp5" minZ="-3532" maxZ="-3332">
+		<node x="82524" y="147676"/>
+		<node x="82724" y="147676"/>
+		<node x="82724" y="147876"/>
+		<node x="82524" y="147876"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_sp5m1" territory="giran11_npc2222_sp5" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31233" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_sp6" minZ="-3520" maxZ="-3320">
+		<node x="81788" y="148012"/>
+		<node x="81988" y="148012"/>
+		<node x="81988" y="148212"/>
+		<node x="81788" y="148212"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_sp6m1" territory="giran11_npc2222_sp6" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31235" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_sp7" minZ="-3624" maxZ="-3424">
+		<node x="81452" y="146620"/>
+		<node x="81652" y="146620"/>
+		<node x="81652" y="146820"/>
+		<node x="81452" y="146820"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_sp7m1" territory="giran11_npc2222_sp7" event="ssq_seal2_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31237" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tb01" minZ="-3492" maxZ="-3292">
+		<node x="83236" y="149053"/>
+		<node x="83436" y="149053"/>
+		<node x="83436" y="149253"/>
+		<node x="83236" y="149253"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tb01m1" territory="giran11_npc2222_tb01" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="83332;149160;-3405;49152" total="1" respawn="1min"/>
+		<npc id="13036" pos="83409;149195;-3402;3327" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83249;149195;-3403;30216" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83413;149154;-3402;64239" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83400;149114;-3402;59833" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83364;149086;-3402;52079" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83294;149088;-3403;45448" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83262;149116;-3403;38472" total="1" respawn="15sec"/>
+		<npc id="13036" pos="83247;149153;-3403;35072" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tb02" minZ="-3560" maxZ="-3360">
+		<node x="82194" y="148498"/>
+		<node x="82394" y="148498"/>
+		<node x="82394" y="148698"/>
+		<node x="82194" y="148698"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tb02m1" territory="giran11_npc2222_tb02" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="82277;148598;-3467;0" total="1" respawn="1min"/>
+		<npc id="13036" pos="82243;148678;-3464;19583" total="1" respawn="15sec"/>
+		<npc id="13036" pos="82241;148517;-3465;46472" total="1" respawn="15sec"/>
+		<npc id="13036" pos="82284;148681;-3464;14959" total="1" respawn="15sec"/>
+		<npc id="13036" pos="82324;148668;-3464;10553" total="1" respawn="15sec"/>
+		<npc id="13036" pos="82351;148631;-3464;2799" total="1" respawn="15sec"/>
+		<npc id="13036" pos="82349;148561;-3465;61704" total="1" respawn="15sec"/>
+		<npc id="13036" pos="82320;148529;-3465;54728" total="1" respawn="15sec"/>
+		<npc id="13036" pos="82283;148515;-3465;51328" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tb03" minZ="-3580" maxZ="-3380">
+		<node x="81488" y="148618"/>
+		<node x="81688" y="148618"/>
+		<node x="81688" y="148818"/>
+		<node x="81488" y="148818"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tb03m1" territory="giran11_npc2222_tb03" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="81621;148725;-3467;32768" total="1" respawn="1min"/>
+		<npc id="13036" pos="81654;148644;-3464;52647" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81652;148804;-3465;14000" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81613;148639;-3464;48023" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81573;148651;-3464;43617" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81545;148687;-3464;35863" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81545;148757;-3465;29232" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81573;148790;-3465;22256" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81610;148806;-3465;18856" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tb04" minZ="-3664" maxZ="-3464">
+		<node x="81563" y="145553"/>
+		<node x="81763" y="145553"/>
+		<node x="81763" y="145753"/>
+		<node x="81563" y="145753"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tb04m1" territory="giran11_npc2222_tb04" maximumNpcs="9">
+		<ai type="event_maker">
+				<set name="EventName" val="event_treasure_box"/>
+		</ai>
+		<npc id="32132" pos="81680;145656;-3533;32768" total="1" respawn="1min"/>
+		<npc id="13036" pos="81710;145573;-3530;52551" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81710;145733;-3531;13904" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81669;145569;-3530;47927" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81630;145582;-3530;43521" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81601;145618;-3530;35767" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81603;145687;-3531;29136" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81630;145721;-3531;22160" total="1" respawn="15sec"/>
+		<npc id="13036" pos="81667;145735;-3531;18760" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tk01" minZ="-3457" maxZ="-3257">
+		<node x="83260" y="147804"/>
+		<node x="83460" y="147804"/>
+		<node x="83460" y="148004"/>
+		<node x="83260" y="148004"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tk01" territory="giran11_npc2222_tk01" event="18age" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30990" pos="83331;147905;-3400;16700" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tw01" minZ="-3520" maxZ="-3320">
+		<node x="81788" y="148012"/>
+		<node x="81988" y="148012"/>
+		<node x="81988" y="148212"/>
+		<node x="81788" y="148212"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tw01m1" territory="giran11_npc2222_tw01" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31231" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tw02" minZ="-3624" maxZ="-3424">
+		<node x="81452" y="146620"/>
+		<node x="81652" y="146620"/>
+		<node x="81652" y="146820"/>
+		<node x="81452" y="146820"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tw02m1" territory="giran11_npc2222_tw02" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31195" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tw03" minZ="-3680" maxZ="-3480">
+		<node x="77244" y="148530"/>
+		<node x="77444" y="148525"/>
+		<node x="77444" y="148725"/>
+		<node x="77244" y="148730"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tw03m1" territory="giran11_npc2222_tw03" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31199" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tw04" minZ="-3624" maxZ="-3424">
+		<node x="81420" y="152604"/>
+		<node x="81620" y="152604"/>
+		<node x="81620" y="152804"/>
+		<node x="81420" y="152804"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tw04m1" territory="giran11_npc2222_tw04" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31247" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tw05" minZ="-3532" maxZ="-3332">
+		<node x="82524" y="147676"/>
+		<node x="82724" y="147676"/>
+		<node x="82724" y="147876"/>
+		<node x="82524" y="147876"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tw05m1" territory="giran11_npc2222_tw05" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31233" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tw06" minZ="-3520" maxZ="-3320">
+		<node x="81788" y="148012"/>
+		<node x="81988" y="148012"/>
+		<node x="81988" y="148212"/>
+		<node x="81788" y="148212"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tw06m1" territory="giran11_npc2222_tw06" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31235" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_tw07" minZ="-3624" maxZ="-3424">
+		<node x="81452" y="146620"/>
+		<node x="81652" y="146620"/>
+		<node x="81652" y="146820"/>
+		<node x="81452" y="146820"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_tw07m1" territory="giran11_npc2222_tw07" event="ssq_seal2_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31237" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_xm01" minZ="-3492" maxZ="-3292">
+		<node x="83228" y="149052"/>
+		<node x="83428" y="149052"/>
+		<node x="83428" y="149252"/>
+		<node x="83228" y="149252"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_xm01" territory="giran11_npc2222_xm01" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="83327;149141;-3405;32500" total="1" respawn="1min"/>
+		<npc id="13006" pos="83329;149095;-3405;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_xm02" minZ="-3560" maxZ="-3360">
+		<node x="82188" y="148476"/>
+		<node x="82388" y="148476"/>
+		<node x="82388" y="148676"/>
+		<node x="82188" y="148676"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_xm02" territory="giran11_npc2222_xm02" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="82277;148598;-3467;0" total="1" respawn="1min"/>
+		<npc id="13006" pos="82277;148564;-3467;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_xm03" minZ="-3580" maxZ="-3380">
+		<node x="81484" y="148524"/>
+		<node x="81684" y="148524"/>
+		<node x="81684" y="148724"/>
+		<node x="81484" y="148724"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_xm03" territory="giran11_npc2222_xm03" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="81621;148725;-3467;32768" total="1" respawn="1min"/>
+		<npc id="13006" pos="81620;148689;-3464;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran11_npc2222_xm04" minZ="-3664" maxZ="-3464">
+		<node x="81596" y="145560"/>
+		<node x="81796" y="145560"/>
+		<node x="81796" y="145760"/>
+		<node x="81596" y="145760"/>
+	</territory>
+	<npcmaker name="giran11_npc2222_xm04" territory="giran11_npc2222_xm04" event="christmas" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31864" pos="81680;145656;-3467;32768" total="1" respawn="1min"/>
+		<npc id="13006" pos="81691;145610;-3467;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran16_tb2222_02" minZ="-3728" maxZ="-3128">
+		<node x="75160" y="131224"/>
+		<node x="78232" y="131232"/>
+		<node x="76840" y="133124"/>
+		<node x="74752" y="132472"/>
+	</territory>
+	<npcmaker name="giran16_tb02_m1" territory="giran16_tb2222_02" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18269" total="1" respawn="90sec"/>
+		<npc id="21805" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran16_tb2222_03" minZ="-3768" maxZ="-2968">
+		<node x="88284" y="131212"/>
+		<node x="91352" y="131240"/>
+		<node x="90252" y="133484"/>
+		<node x="88708" y="133620"/>
+	</territory>
+	<npcmaker name="giran16_tb03_m1" territory="giran16_tb2222_03" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18269" total="1" respawn="90sec"/>
+		<npc id="21805" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran16_tb2222_04" minZ="-3700" maxZ="-3100">
+		<node x="91436" y="131228"/>
+		<node x="95288" y="131196"/>
+		<node x="94504" y="133400"/>
+		<node x="90596" y="133092"/>
+	</territory>
+	<npcmaker name="giran16_tb04_m1" territory="giran16_tb2222_04" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18269" total="1" respawn="90sec"/>
+		<npc id="21805" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran16_tb2222_17" minZ="-3720" maxZ="-2920">
+		<node x="70944" y="131260"/>
+		<node x="75076" y="131212"/>
+		<node x="74152" y="134412"/>
+		<node x="72592" y="133828"/>
+	</territory>
+	<npcmaker name="giran16_tb17_m1" territory="giran16_tb2222_17" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18269" total="1" respawn="90sec"/>
+		<npc id="21805" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_2222_pg01" minZ="-3877" maxZ="-3377">
+		<node x="78091" y="140054"/>
+		<node x="81825" y="139968"/>
+		<node x="82151" y="141000"/>
+		<node x="81144" y="142888"/>
+		<node x="77267" y="145809"/>
+		<node x="74316" y="143669"/>
+	</territory>
+	<territory name="giran_2222_pg02" minZ="-3666" maxZ="-3116">
+		<node x="73060" y="139385"/>
+		<node x="74097" y="138161"/>
+		<node x="77413" y="141103"/>
+		<node x="76653" y="141737"/>
+		<node x="74873" y="141041"/>
+	</territory>
+	<territory name="giran_2222_pg03" minZ="-3854" maxZ="-2954">
+		<node x="71753" y="145671"/>
+		<node x="73750" y="144505"/>
+		<node x="76288" y="144978"/>
+		<node x="78157" y="146263"/>
+		<node x="75773" y="148157"/>
+		<node x="71459" y="147145"/>
+	</territory>
+	<territory name="giran_2222_pg04" minZ="-3671" maxZ="-3171">
+		<node x="81910" y="140759"/>
+		<node x="82804" y="139373"/>
+		<node x="89944" y="140909"/>
+		<node x="89016" y="142986"/>
+		<node x="84616" y="140909"/>
+	</territory>
+	<npcmaker name="giran_2222_pg01m1" territory="giran_2222_pg01" maximumNpcs="90">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="30" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="giran_2222_pg02m1" territory="giran_2222_pg02" maximumNpcs="45">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="15" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="giran_2222_pg03m1" territory="giran_2222_pg03" maximumNpcs="66">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="22" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="giran_2222_pg04m1" territory="giran_2222_pg04" maximumNpcs="90">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="30" respawn="20sec"/>
+	</npcmaker>
+	<npcmaker name="giran_2222_pg1m1" territory="giran_2222_pg01;giran_2222_pg02;giran_2222_pg03;giran_2222_pg04" maximumNpcs="7">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13035" total="1" respawn="10min" respawnRand="3min"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_2222_pg05" minZ="-3583" maxZ="-3383">
+		<node x="83999" y="141287"/>
+		<node x="84199" y="141287"/>
+		<node x="84199" y="141487"/>
+		<node x="83999" y="141487"/>
+	</territory>
+	<npcmaker name="giran_2222_pg05m1" territory="giran_2222_pg05" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="84099;141426;-3536;36480" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_2222_pg06" minZ="-3591" maxZ="-3391">
+		<node x="81618" y="143267"/>
+		<node x="81818" y="143267"/>
+		<node x="81818" y="143467"/>
+		<node x="81618" y="143467"/>
+	</territory>
+	<npcmaker name="giran_2222_pg06m1" territory="giran_2222_pg06" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="81689;143419;-3542;43168" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_2222_pg07" minZ="-3655" maxZ="-3455">
+		<node x="76886" y="148370"/>
+		<node x="77086" y="148370"/>
+		<node x="77086" y="148570"/>
+		<node x="76886" y="148570"/>
+	</territory>
+	<npcmaker name="giran_2222_pg07m1" territory="giran_2222_pg07" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="77020;148489;-3607;21552" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_2222_pg08" minZ="-3597" maxZ="-3397">
+		<node x="81322" y="152967"/>
+		<node x="81522" y="152967"/>
+		<node x="81522" y="153167"/>
+		<node x="81322" y="153167"/>
+	</territory>
+	<npcmaker name="giran_2222_pg08m1" territory="giran_2222_pg08" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="81422;152997;-3543;8160" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_2222_pg09" minZ="-3588" maxZ="-3388">
+		<node x="90461" y="147401"/>
+		<node x="90661" y="147401"/>
+		<node x="90661" y="147601"/>
+		<node x="90461" y="147601"/>
+	</territory>
+	<npcmaker name="giran_2222_pg09m1" territory="giran_2222_pg09" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="90513;147569;-3531;55504" total="1" respawn="1min"/>
+	</npcmaker>
+</list>

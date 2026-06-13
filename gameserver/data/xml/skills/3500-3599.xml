@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="3500" levels="1" name="Wooden Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.02"/>
+			<add stat="maxHp" val="41"/>
+		</for>
+	</skill>
+	<skill id="3501" levels="1" name="Devotion Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mAtkSpd" val="1.15"/>
+		</for>
+	</skill>
+	<skill id="3502" levels="1" name="Mithril Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="poisonVuln" val="20"/>
+		</for>
+	</skill>
+	<skill id="3503" levels="1" name="Reinforced Leather Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxMp" val="80"/>
+		</for> 
+	</skill>
+	<skill id="3504" levels="1" name="Knowledge Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mAtk" val="1.10"/>
+			<mul stat="regMp" val="0.95"/>
+		</for>
+	</skill>
+	<skill id="3505" levels="1" name="Manticore Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxMp" val="92"/>
+		</for>
+	</skill>
+	<skill id="3506" levels="1" name="Brigandine Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.05"/>
+			<add stat="maxHp" val="153"/>
+		</for>
+	</skill>
+	<skill id="3507" levels="1" name="Elven Mithril Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="runSpd" val="7"/>
+			<add stat="WIT" val="1"/>
+			<sub stat="INT" val="1"/>
+		</for>
+	</skill>
+	<skill id="3508" levels="1" name="Mithril Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="rEvas" val="4"/>
+		</for>
+	</skill>
+	<skill id="3509" levels="1" name="Chain Mail Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="daggerWpnVuln" val="0.9476"/>
+		</for>
+	</skill>
+	<skill id="3510" levels="1" name="Karmian Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.0524"/>
+			<mul stat="mAtkSpd" val="1.15"/>
+		</for>
+	</skill>
+	<skill id="3511" levels="1" name="Plated Leather Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="STR" val="4"/>
+			<sub stat="CON" val="1"/>
+		</for>
+	</skill>
+	<skill id="3512" levels="1" name="Composite Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="weightLimit" val="5795"/>
+		</for>
+	</skill>
+	<skill id="3513" levels="1" name="Demon's Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<sub stat="maxHp" val="270"/>
+			<add stat="INT" val="4"/>
+			<sub stat="WIT" val="1"/>
+		</for>
+	</skill>
+	<skill id="3514" levels="1" name="Theca Leather Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.0524"/>
+		</for>
+	</skill>
+	<skill id="3515" levels="1" name="Drake Leather Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mDef" val="1.0524"/>
+		</for>
+	</skill>
+	<skill id="3516" levels="1" name="Full Plate Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="270"/>
+		</for>
+	</skill>
+	<skill id="3517" levels="1" name="Divine Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.0524"/>
+			<add stat="maxMp" val="171"/>
+			<sub stat="INT" val="1"/>
+			<add stat="WIT" val="1"/>
+		</for>
+	</skill>
+	<skill id="3518" levels="1" name="Zubei's Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.0524"/>
+			<add stat="maxHp" val="294"/>
+		</for>
+	</skill>
+	<skill id="3519" levels="1" name="Avadon Breastplate Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="294"/>
+		</for>
+	</skill>
+	<skill id="3520" levels="1" name="Zubei's Leather Shirt Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="rEvas" val="4"/>
+		</for>
+	</skill>
+	<skill id="3521" levels="1" name="Avadon Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mDef" val="1.0525"/>
+			<add stat="weightLimit" val="5795"/>
+		</for>
+	</skill>
+	<skill id="3522" levels="1" name="Tunic of Zubei Robe Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mAtk" val="1.10"/>
+			<mul stat="regMp" val="0.95"/>
+		</for>
+	</skill>
+	<skill id="3523" levels="1" name="Avadon Robe Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.0547"/>
+			<mul stat="mAtkSpd" val="1.15"/>
+		</for>
+	</skill>
+	<skill id="3524" levels="1" name="Blue Wolf Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="runSpd" val="7"/>
+			<mul stat="regHp" val="1.0526"/>
+			<add stat="STR" val="3"/>
+			<sub stat="CON" val="1"/>
+			<sub stat="DEX" val="2"/>
+		</for>
+	</skill>
+	<skill id="3525" levels="1" name="Doom Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="320"/>
+			<add stat="breath" val="200"/>
+			<sub stat="STR" val="3"/>
+			<add stat="CON" val="3"/>
+		</for>
+	</skill>
+	<skill id="3526" levels="1" name="Blue Wolf Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.0524"/>
+			<mul stat="mAtkSpd" val="1.15"/>
+			<sub stat="INT" val="2"/>
+			<add stat="MEN" val="3"/>
+			<sub stat="WIT" val="1"/>
+		</for>
+	</skill>
+	<skill id="3527" levels="1" name="Doom Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="breath" val="200"/>
+			<mul stat="pAtk" val="1.027"/>
+			<mul stat="regMp" val="1.025"/>
+			<sub stat="STR" val="1"/>
+			<sub stat="CON" val="2"/>
+			<add stat="DEX" val="3"/>
+			<addMul stat="poisonVuln" val="20" />
+		</for>
+	</skill>
+	<skill id="3528" levels="1" name="Blue Wolf Robe Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxMp" val="206"/> 
+			<mul stat="regMp" val="1.0526"/>
+			<sub stat="INT" val="2"/>
+			<sub stat="MEN" val="1"/>
+			<add stat="WIT" val="3"/>
+		</for>
+	</skill>
+	<skill id="3529" levels="1" name="Doom Robe Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="runSpd" val="7"/>
+			<add stat="breath" val="200"/>
+			<mul stat="regMp" val="1.0526"/>
+			<add stat="INT" val="2"/>
+			<add stat="MEN" val="1"/>
+			<sub stat="WIT" val="3"/>
+		</for>
+	</skill>
+	<skill id="3530" levels="1" name="Dark Crystal Breastplate Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="gainHp" val="1.04"/>
+			<addMul stat="paralyzeVuln" val="50" />
+			<sub stat="STR" val="2"/>
+			<add stat="CON" val="2"/>
+		</for>
+	</skill>
+	<skill id="3531" levels="1" name="Tallum Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pAtkSpd" val="1.08"/>
+			<add stat="weightLimit" val="5759"/>
+			<addMul stat="poisonVuln" val="80" />
+			<addMul stat="bleedVuln" val="80" />
+			<add stat="STR" val="2"/>
+			<sub stat="CON" val="2"/>
+		</for>
+	</skill>
+	<skill id="3532" levels="1" name="Dark Crystal Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pAtkSpd" val="1.04"/>
+			<mul stat="pAtk" val="1.04"/>
+			<addMul stat="paralyzeVuln" val="50" />
+			<add stat="STR" val="1"/>
+			<sub stat="CON" val="1"/>
+		</for>
+	</skill>
+	<skill id="3533" levels="1" name="Tallum Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="regMp" val="1.08"/>
+			<add stat="maxMp" val="222"/>
+			<addMul stat="poisonVuln" val="80" />
+			<addMul stat="bleedVuln" val="80" />
+			<add stat="MEN" val="2"/>
+			<sub stat="WIT" val="2"/>
+		</for>
+	</skill>
+	<skill id="3534" levels="1" name="Tallum Robe Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mAtkSpd" val="1.15"/>
+			<mul stat="mDef" val="1.08"/>
+			<addMul stat="poisonVuln" val="80" />
+			<addMul stat="bleedVuln" val="80" />
+			<sub stat="INT" val="2"/>
+			<add stat="WIT" val="2"/>
+		</for>
+	</skill>
+	<skill id="3535" levels="1" name="Dark Crystal Robe Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.08"/>
+			<mul stat="mAtkSpd" val="1.15"/>
+			<add stat="runSpd" val="7"/>
+			<sub stat="cancel" val="18"/>
+			<addMul stat="paralyzeVuln" val="50" />
+			<add stat="WIT" val="2"/>
+			<sub stat="MEN" val="2"/>
+		</for>
+	</skill>
+	<skill id="3536" levels="1" name="Nightmare Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pAtk" val="1.04"/>
+			<addMul stat="sleepVuln" val="70" />
+			<addMul stat="rootVuln" val="70" />
+			<add stat="CON" val="2"/>
+			<sub stat="DEX" val="2"/>
+		</for>
+	</skill>
+	<skill id="3537" levels="1" name="Majestic Heavy Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pAtk" val="1.04"/>
+			<add stat="accCombat" val="3"/>
+			<addMul stat="stunVuln" val="50" />
+			<add stat="STR" val="2"/>
+			<sub stat="CON" val="2"/>
+		</for>
+	</skill>
+	<skill id="3538" levels="1" name="Nightmarish Leather Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mDef" val="1.04"/>
+			<addMul stat="sleepVuln" val="70" />
+			<addMul stat="rootVuln" val="70" />
+			<add stat="absorbDam" val="3"/>
+			<add stat="DEX" val="1"/>
+			<sub stat="CON" val="1"/>
+		</for>
+	</skill>
+	<skill id="3539" levels="1" name="Majestic Light Armor Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pAtk" val="1.08">
+				<using kind="BOW"/>
+			</mul>
+			<add stat="maxMp" val="240"/>
+			<add stat="weightLimit" val="5759"/>
+			<addMul stat="stunVuln" val="50" />
+			<add stat="DEX" val="1"/>
+			<sub stat="CON" val="1"/>
+		</for>
+	</skill>
+	<skill id="3540" levels="1" name="Nightmare Robe Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="regMp" val="1.04"/>
+			<mul stat="mAtk" val="1.08"/>
+			<addMul stat="sleepVuln" val="70" />
+			<addMul stat="rootVuln" val="70" />
+			<add stat="INT" val="2"/>
+			<sub stat="WIT" val="2"/>
+		</for>
+	</skill>
+	<skill id="3541" levels="1" name="Majestic Robe Set" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxMp" val="240"/>
+			<mul stat="mAtkSpd" val="1.15"/>
+			<mul stat="regMp" val="1.08"/>
+			<addMul stat="stunVuln" val="50" />
+			<add stat="MEN" val="1"/>
+			<sub stat="INT" val="1"/>
+		</for>
+	</skill>
+	<skill id="3542" levels="6" name="Special Ability: Critical Damage" >
+		<table name="#cAtkAdd"> 203.97 226.51 248.71 269.91 289.4 306.42 </table>
+		<table name="#magicLvl"> 46 49 52 55 58 61 </table>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="#magicLvl" />
+		<for>
+			<add stat="cAtkAdd" val="#cAtkAdd" />
+		</for>
+	</skill>
+	<skill id="3543" levels="1" name="Equipped with Shield" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="126" />
+		</for>
+	</skill>
+	<skill id="3544" levels="1" name="Equipped with Shield" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="20" />
+		</for>
+	</skill>
+	<skill id="3545" levels="1" name="Equipped with Shield" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="198" />
+		</for>
+	</skill>
+	<skill id="3546" levels="1" name="Equipped with Shield" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mDef" val="1.0526" />
+		</for>
+	</skill>
+	<skill id="3547" levels="1" name="Equipped with Shield" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="rShld" val="1.0525" />
+		</for>
+	</skill>
+	<skill id="3548" levels="1" name="Equipped with Shield" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="rShld" val="1.24" />
+		</for>
+	</skill>
+	<skill id="3549" levels="1" name="Equipped with Shield" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="rShld" val="1.24" />
+		</for>
+	</skill>
+	<skill id="3550" levels="1" name="Equipped with Shield" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="rShld" val="1.18" />
+		</for>
+	</skill>
+	<skill id="3551" levels="1" name="Equipped with Shield" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="reflectDam" val="5" />
+		</for>
+	</skill>
+	<skill id="3552" levels="2" name="Special Ability: PvP Damage" >
+		<table name="#atkCountMax"> 0 4 </table>
+		<set name="magicLvl" val="64" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<for>
+			<add stat="atkCountMax" val="#atkCountMax" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3553" levels="1" name="Imperial Crusader Heavy Armor Set" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pDef" val="1.08"/>
+			<add stat="maxHp" val="445"/>
+			<addMul stat="sleepVuln" val="70" />
+			<addMul stat="rootVuln" val="70" />
+			<sub stat="DEX" val="2"/>
+			<add stat="STR" val="2"/>
+		</for>
+	</skill>
+	<skill id="3554" levels="1" name="Equipped with Shield" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="poisonVuln" val="80" />
+			<addMul stat="bleedVuln" val="80" />
+		</for>
+	</skill>
+	<skill id="3555" levels="1" name="Draconic Light Armor Set" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="pAtkSpd" val="1.04"/>
+			<mul stat="pAtk" val="1.04"/>
+			<add stat="maxMp" val="289"/>
+			<add stat="weightLimit" val="5759"/>
+			<add stat="DEX" val="1"/>
+			<add stat="STR" val="1"/>
+			<sub stat="CON" val="2"/>
+		</for>
+	</skill>
+	<skill id="3556" levels="1" name="Major Arcana Robe Set" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul stat="mAtk" val="1.17"/>
+			<add stat="runSpd" val="7"/>
+			<sub stat="cancel" val="50"/>
+			<add stat="weightLimit" val="5759"/>
+			<add stat="WIT" val="1"/>
+			<add stat="INT" val="1"/>
+			<sub stat="MEN" val="2"/>
+			<addMul stat="stunVuln" val="50" />
+		</for>
+	</skill>
+	<skill id="3557" levels="1" name="Necklace of Valakas" >
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="445" />
+			<mul stat="pAtk" val="1.04" />
+			<mul stat="mAtk" val="1.08" />
+			<mul stat="mCritRate" val="2" />
+			<addMul stat="fireRes" val="15" />
+			<addMul stat="sleepVuln" val="80" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+			<add stat="reflectDam" val="5" />
+		</for>
+	</skill>
+	<skill id="3558" levels="1" name="Earring of Antharas" >
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="earthRes" val="15" />
+			<addMul stat="bleedVuln" val="80" />
+			<addMul stat="stunVuln" val="60" />
+			<addMul stat="derangementVuln" val="60" />
+			<mul stat="gainHp" val="1.1" />
+			<mul stat="MagicalMpConsumeRate" val="0.95" />
+			<mul stat="PhysicalMpConsumeRate" val="0.95" />	
+			<add stat="absorbDam" val="4" />
+		</for>
+	</skill>
+	<skill id="3559" levels="1" name="Earring of Zaken" >
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="bleedVuln" val="60" />
+			<addMul stat="stunVuln" val="40" />
+			<addMul stat="derangementVuln" val="40" />
+			<mul stat="gainHp" val="1.1" />
+			<add stat="absorbDam" val="4" />
+		</for>
+	</skill>
+	<skill id="3560" levels="1" name="Earring of Orfen" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="bleedVuln" val="40" />
+			<mul stat="gainHp" val="1.06" />
+		</for>
+	</skill>
+	<skill id="3561" levels="1" name="Ring of Baium" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="poisonVuln" val="80" />
+			<addMul stat="rootVuln" val="60" />
+			<add stat="accCombat" val="2" />
+			<mul stat="cAtk" val="1.15" />
+			<mul stat="pAtkSpd" val="1.04" />
+			<mul stat="mAtkSpd" val="1.04" />
+		</for>
+	</skill>
+	<skill id="3562" levels="1" name="Ring of Ant Queen" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="poisonVuln" val="60" />
+			<addMul stat="rootVuln" val="40" />
+			<add stat="accCombat" val="2" />
+			<mul stat="cAtk" val="1.15" />	
+		</for>
+	</skill>
+	<skill id="3563" levels="1" name="Ring of Core" >
+		<set name="magicLvl" val="75"/>
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="poisonVuln" val="40" />
+			<add stat="accCombat" val="1" />
+		</for>
+	</skill>
+	<skill id="3564" levels="1" name="Special Ability: Haste" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<mul stat="pAtkSpd" val="1.07" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3565" levels="1" name="Special Ability: Focus" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="rCrit" val="80.6" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3566" levels="1" name="Special Ability: Focus" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="rCrit" val="84.3" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3567" levels="2" name="Special Ability: Focus" >
+		<table name="#rCrit"> 88.1 116 </table>
+		<table name="#magicLvl"> 75 80 </table>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="#magicLvl" />
+		<for>
+			<add stat="rCrit" val="#rCrit" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3568" levels="1" name="Special Ability: HP Drain" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="absorbDam" val="3" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3569" levels="1" name="Special Ability: HP Regeneration" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="regHp" val="2.04" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3570" levels="1" name="Special Ability: Robust Health" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<mul stat="maxHp" val="1.15" />
+			<mul stat="maxMp" val="1.2" />
+			<mul stat="maxCp" val="1.3" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3571" levels="1" name="Special Ability: Crt. Stun" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="STUN" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="75" />
+		<set name="power" val="100" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="1" />
+		<for>
+			<effect name="Stun" time="9" val="0" stackOrder="1" stackType="stun" />
+		</for>
+	</skill>
+	<skill id="3572" levels="1" name="Special Ability: Crt. Damage" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="cAtkAdd" val="265" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3573" levels="1" name="Special Ability: Guidance" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="accCombat" val="5.27" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3574" levels="1" name="Special Ability: Crt. Slow" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="1000" />
+		<set name="effectRange" val="1500" />
+		<set name="magicLvl" val="75" />
+		<set name="power" val="100" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="1" />
+		<for>
+			<effect name="Debuff" time="120" val="0" stackOrder="3" stackType="speed_down">
+				<mul stat="runSpd" val="0.7" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3575" levels="1" name="Special Ability: Empower Option" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="mAtk" val="60.09" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3576" levels="1" name="Special Ability: MP Regeneration" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="regMp" val="0.54" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3577" levels="1" name="Special Ability: Magic Hold" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="ROOT" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="75" />
+		<set name="castRange" val="1000" />
+		<set name="effectRange" val="1500" />
+		<set name="power" val="100" />
+		<set name="isMagic" val="true" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="2" />
+		<for>
+			<effect name="Root" time="30" val="0" stackOrder="1" stackType="root_magically" />
+		</for>
+	</skill>
+	<skill id="3578" levels="1" name="Special Ability: Infinity Blade" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE"/>
+		<set name="magicLvl" val="80" />
+		<set name="chanceType" val="ON_CRIT" />
+		<set name="activationChance" val="5" />
+		<set name="triggeredId" val="3579" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<mul stat="maxHp" val="1.25"/>
+			<mul stat="maxMp" val="1.30"/>
+			<mul stat="maxCp" val="1.50"/>
+			<mul stat="sDef" val="1.33"/>
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+			<add stat="reflectDam" val="9"/>
+		</for>
+	</skill>
+	<skill id="3579" levels="1" name="Decrease P. Def." >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="DEBUFF"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="magicLvl" val="80" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="1" />
+		<set name="power" val="80" />
+		<for>
+			<effect name="Debuff" time="120" val="0" stackOrder="3" stackType="pd_down">
+				<mul stat="pDef" val="0.77" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3580" levels="1" name="Special Ability: Infinity Axe" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="chanceType" val="ON_CRIT" />
+		<set name="activationChance" val="20" />
+		<set name="triggeredId" val="3581" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<mul stat="maxHp" val="1.25"/>
+			<mul stat="maxMp" val="1.30"/>
+			<mul stat="maxCp" val="1.5"/>
+			<mul stat="rShld" val="1.39"/>
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+			<add stat="reflectDam" val="9"/>
+		</for>
+	</skill>
+	<skill id="3581" levels="1" name="Discord" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="CONFUSION" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="power" val="20" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="Distrust" val="0"/>
+		</for>
+	</skill>
+	<skill id="3582" levels="1" name="Special Ability: Infinity Cleaver" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="80" />
+		<for>
+			<add stat="cAtkAdd" val="504"/>
+			<mul stat="maxHp" val="1.25"/>
+			<mul stat="maxCp" val="1.50"/>
+			<add stat="rCrit" val="78.7"/>
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+			<add stat="reflectSkillPhysic" val="10"/>
+			<add stat="reflectSkillMagic" val="10"/>
+		</for>
+	</skill>
+	<skill id="3583" levels="1" name="Special Ability: Infinity Crusher" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="chanceType" val="ON_CRIT" />
+		<set name="activationChance" val="25" />
+		<set name="triggeredId" val="3584" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<mul stat="maxHp" val="1.25"/>
+			<mul stat="maxCp" val="1.50"/>
+			<mul stat="pAtkSpd" val="1.07"/>
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+			<add stat="reflectSkillPhysic" val="10"/>
+			<add stat="reflectSkillMagic" val="10"/>
+		</for>
+	</skill>
+	<skill id="3584" levels="1" name="Shock" >
+		<set name="target" val="ONE" />
+		<set name="lvlDepend" val="1" />
+		<set name="skillType" val="STUN" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="power" val="80" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="Stun" time="9" val="0" stackOrder="1" stackType="stun" />
+		</for>
+	</skill>
+	<skill id="3585" levels="1" name="Special Ability: Infinity Wing" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="chanceType" val="ON_CRIT" />
+		<set name="activationChance" val="10" />
+		<set name="triggeredId" val="3586" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<mul stat="maxHp" val="1.25"/>
+			<mul stat="maxMp" val="1.30"/>
+			<mul stat="maxCp" val="1.50"/>
+			<add stat="rCrit" val="78.7"/>
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+			<add stat="reflectSkillPhysic" val="10"/>
+			<add stat="reflectSkillMagic" val="10"/>
+		</for>
+	</skill>
+	<skill id="3586" levels="1" name="Physical Skill Restraint" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="MUTE" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="power" val="80" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="2" />
+		<for>
+			<effect name="PhysicalMute" time="60" val="0" stackOrder="1" stackType="silence_physical" />
+		</for>
+	</skill>
+	<skill id="3587" levels="1" name="Special Ability: Infinity Fang" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="chanceType" val="ON_CRIT" />
+		<set name="activationChance" val="25" />
+		<set name="triggeredId" val="3588" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<mul stat="maxHp" val="1.25"/>
+			<mul stat="maxMp" val="1.30"/>
+			<mul stat="maxCp" val="1.50"/>
+			<add stat="rEvas" val="3.15"/>
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+			<add stat="reflectSkillPhysic" val="10"/>
+			<add stat="reflectSkillMagic" val="10"/>
+		</for>
+	</skill>
+	<skill id="3588" levels="1" name="Shock" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="STUN" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="power" val="80" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="1" />
+		<for>
+			<effect name="Stun" time="9" val="0" stackOrder="1" stackType="stun" />
+		</for>
+	</skill>
+	<skill id="3589" levels="1" name="Special Ability: Infinity Stinger" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="chanceType" val="ON_CRIT" />
+		<set name="activationChance" val="5" />
+		<set name="triggeredId" val="3590" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<mul stat="maxMp" val="1.30"/>
+			<mul stat="maxCp" val="1.50"/>
+			<mul stat="pAtkSpd" val="1.03"/>
+			<add stat="regMp" val="0.51"/>
+			<add stat="rCrit" val="220">
+				<player behind="True" />
+			</add>
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+			<add stat="absorbDam" val="2" />
+		</for>
+	</skill>
+	<skill id="3590" levels="1" name="Silence" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="MUTE" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="power" val="80" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="1" />
+		<for>
+			<effect name="Mute" time="30" val="0" stackOrder="1" stackType="silence"/>
+		</for>
+	</skill>
+	<skill id="3591" levels="1" name="Special Ability: Infinity Spear" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="chanceType" val="ON_CRIT" />
+		<set name="activationChance" val="10" />
+		<set name="triggeredId" val="3592" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<add stat="atkCountMax" val="5" />
+			<mul stat="maxHp" val="1.25"/>
+			<mul stat="maxCp" val="1.50"/>
+			<mul stat="pAtkSpd" val="1.07"/>
+			<add stat="accCombat" val="4.89"/>
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+			<add stat="reflectSkillPhysic" val="10"/>
+			<add stat="reflectSkillMagic" val="10"/>
+		</for>
+	</skill>
+	<skill id="3592" levels="1" name="Dispell" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="CANCEL" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="maxNegated" val="5" />
+		<set name="power" val="80" />
+	</skill>
+	<skill id="3593" levels="1" name="Special Ability: Infinity Bow" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="chanceType" val="ON_CRIT" />
+		<set name="activationChance" val="7" />
+		<set name="triggeredId" val="3594" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<mul stat="maxMp" val="1.30"/>
+			<mul stat="maxCp" val="1.50"/>
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+		</for>
+	</skill>
+	<skill id="3594" levels="1" name="Slow" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="1" />
+		<set name="power" val="80" />
+		<for>
+			<effect name="Debuff" time="30" val="0" stackOrder="3" stackType="speed_down">
+				<mul stat="runSpd" val="0.5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="3595" levels="1" name="Special Ability: Infinity Scepter" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="chanceType" val="ON_MAGIC_GOOD" />
+		<set name="activationChance" val="3" />
+		<set name="triggeredId" val="3596" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<mul stat="maxMp" val="1.30"/>
+			<mul stat="maxCp" val="1.50"/>
+			<add stat="mAtk" val="29.67"/>
+			<basemul stat="mCritRate" val="0.54" />
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+			<mul stat="MagicalMpConsumeRate" val="0.96" />
+			<sub stat="cancel" val="106"/>
+		</for>
+	</skill>
+	<skill id="3596" levels="1" name="Full Recover" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="power" val="100" />
+		<set name="aggroPoints" val="100" />
+	</skill>
+	<skill id="3597" levels="1" name="Special Ability: Infinity Rod" >
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="chanceType" val="ON_MAGIC_GOOD" />
+		<set name="activationChance" val="3" />
+		<set name="triggeredId" val="3598" />
+		<set name="triggeredLevel" val="1" />
+		<for>
+			<mul stat="maxMp" val="1.3"/>
+			<mul stat="maxCp" val="1.5"/>
+			<mul stat="mAtkSpd" val="1.15"/>
+			<add stat="regMp" val="0.51"/>
+			<mul stat="pvpPhysDmg" val="1.05"/>
+			<mul stat="pvpMagicalDmg" val="1.05"/>
+			<mul stat="pvpPhysSkillsDmg" val="1.05"/>
+		</for>
+	</skill>
+	<skill id="3598" levels="1" name="Full Recover" >
+		<set name="target" val="ONE" />
+		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="80" />
+		<set name="power" val="100" />
+		<set name="aggroPoints" val="100" />
+	</skill>
+	<skill id="3599" levels="1" name="Polearm Multi-attack" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<for>
+			<add stat="atkCountMax" val="4" />
+		</for>
+	</skill>
+</list>

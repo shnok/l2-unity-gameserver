@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Elven Area
+ * Elven Fortress
+-->
+<list>
+	<!--  -->
+	<territory name="dion01_qm2021_02" minZ="-3695" maxZ="-3495">
+		<node x="17832" y="86087"/>
+		<node x="18032" y="86087"/>
+		<node x="18032" y="86287"/>
+		<node x="17832" y="86287"/>
+	</territory>
+	<npcmaker name="dion01_qm2021_02m1" territory="dion01_qm2021_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27106" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren01_qm2019_03" minZ="-3684" maxZ="-3284">
+		<node x="29820" y="79456"/>
+		<node x="32440" y="76268"/>
+		<node x="32412" y="81272"/>
+		<node x="29724" y="81400"/>
+	</territory>
+	<npcmaker name="oren01_qm2019_03m1" territory="oren01_qm2019_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27061" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren01_qm2020_001" minZ="-4124" maxZ="-3924">
+		<node x="12476" y="79676"/>
+		<node x="14184" y="79676"/>
+		<node x="14188" y="80712"/>
+		<node x="12480" y="80712"/>
+	</territory>
+	<npcmaker name="oren01_qm2020_001m1" territory="oren01_qm2020_001" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27020" pos="14016;80192;-4080;0" total="1" respawn="5min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren01_qm2020_002" minZ="-3767" maxZ="-3617">
+		<node x="8975" y="78321"/>
+		<node x="9208" y="78319"/>
+		<node x="9213" y="78564"/>
+		<node x="8979" y="78569"/>
+	</territory>
+	<npcmaker name="oren01_qm2020_002m1" territory="oren01_qm2020_002" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27021" total="1" respawn="20sec" respawnRand="5sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren01_qm2020_01" minZ="-3728" maxZ="-3328">
+		<node x="28568" y="90100"/>
+		<node x="29416" y="89636"/>
+		<node x="29936" y="90672"/>
+		<node x="29448" y="91072"/>
+		<node x="28664" y="91000"/>
+	</territory>
+	<npcmaker name="oren01_qm2020_01m1" territory="oren01_qm2020_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27077" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren01_qm2020_02" minZ="-3704" maxZ="-3304">
+		<node x="23700" y="90308"/>
+		<node x="24860" y="90184"/>
+		<node x="24856" y="91824"/>
+		<node x="23980" y="91820"/>
+		<node x="23284" y="90976"/>
+	</territory>
+	<npcmaker name="oren01_qm2020_02m1" territory="oren01_qm2020_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27077" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren01_qm2020_03" minZ="-3728" maxZ="-3328">
+		<node x="19380" y="89384"/>
+		<node x="20880" y="89472"/>
+		<node x="20996" y="90672"/>
+		<node x="19508" y="90844"/>
+		<node x="18820" y="90256"/>
+	</territory>
+	<npcmaker name="oren01_qm2020_03m1" territory="oren01_qm2020_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27077" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren01_qm2020_04" minZ="-3744" maxZ="-3344">
+		<node x="12844" y="91264"/>
+		<node x="14216" y="90948"/>
+		<node x="14252" y="92448"/>
+		<node x="12916" y="92152"/>
+	</territory>
+	<npcmaker name="oren01_qm2020_04m1" territory="oren01_qm2020_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27077" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren01_qm2020_05" minZ="-3704" maxZ="-3304">
+		<node x="6796" y="92460"/>
+		<node x="8280" y="91244"/>
+		<node x="9340" y="92424"/>
+		<node x="7660" y="93068"/>
+	</territory>
+	<npcmaker name="oren01_qm2020_05m1" territory="oren01_qm2020_05" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27077" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren01_qm2020_06" minZ="-3680" maxZ="-3280">
+		<node x="3408" y="89580"/>
+		<node x="4332" y="88988"/>
+		<node x="5124" y="89688"/>
+		<node x="3836" y="90244"/>
+	</territory>
+	<npcmaker name="oren01_qm2020_06m1" territory="oren01_qm2020_06" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27077" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren02_mb2020_01" minZ="-3272" maxZ="-2772">
+		<node x="22132" y="80160"/>
+		<node x="22724" y="80152"/>
+		<node x="22892" y="80704"/>
+		<node x="22344" y="80708"/>
+	</territory>
+	<npcmaker name="oren02_mb2020_01m1" territory="oren02_mb2020_01" maximumNpcs="8">
+		<ai type="default_use_db_maker"/>
+		<npc id="25375" total="1" respawn="36hour" respawnRand="24hour" dbName="zombie_lord_farakelsus"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren02_npc2020_001" minZ="-3695" maxZ="-3495">
+		<node x="17832" y="86087"/>
+		<node x="18032" y="86087"/>
+		<node x="18032" y="86287"/>
+		<node x="17832" y="86287"/>
+	</territory>
+	<npcmaker name="oren02_npc2020_00101" territory="oren02_npc2020_001" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30639" pos="17925;86183;-3616;8192" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren02_npc2020_g01" minZ="-3907" maxZ="-2707">
+		<node x="26320" y="79479"/>
+		<node x="32386" y="74761"/>
+		<node x="32099" y="89940"/>
+		<node x="25782" y="92882"/>
+	</territory>
+	<npcmaker name="oren_npc2020_g01m1" territory="oren02_npc2020_g01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31033" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren02_npc2020_g02" minZ="-3907" maxZ="-2707">
+		<node x="18059" y="79325"/>
+		<node x="25970" y="79486"/>
+		<node x="25489" y="91655"/>
+		<node x="18541" y="92291"/>
+	</territory>
+	<npcmaker name="oren_npc2020_g02m1" territory="oren02_npc2020_g02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31033" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren02_npc2020_g03" minZ="-3907" maxZ="-2707">
+		<node x="11061" y="85118"/>
+		<node x="17758" y="83556"/>
+		<node x="18077" y="93176"/>
+		<node x="9236" y="92696"/>
+	</territory>
+	<npcmaker name="oren_npc2020_g03m1" territory="oren02_npc2020_g03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31033" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren02_npc2020_g04" minZ="-3907" maxZ="-2707">
+		<node x="3512" y="84134"/>
+		<node x="10869" y="85069"/>
+		<node x="8589" y="93641"/>
+		<node x="3343" y="91984"/>
+	</territory>
+	<npcmaker name="oren_npc2020_g04m1" territory="oren02_npc2020_g04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31033" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren02_npc2020_g05" minZ="-3907" maxZ="-2707">
+		<node x="204" y="73155"/>
+		<node x="4792" y="69393"/>
+		<node x="7169" y="69544"/>
+		<node x="6102" y="84109"/>
+		<node x="3378" y="83972"/>
+	</territory>
+	<npcmaker name="oren_npc2020_g05m1" territory="oren02_npc2020_g05" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31033" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren04_2020_01" minZ="-3792" maxZ="-3592">
+		<node x="5676" y="66908"/>
+		<node x="5736" y="65692"/>
+		<node x="10336" y="65788"/>
+		<node x="7800" y="67508"/>
+	</territory>
+	<npcmaker name="oren04_2020_01m1" territory="oren04_2020_01" maximumNpcs="17">
+		<ai type="default_maker"/>
+		<npc id="20036" total="2" respawn="15sec"/>
+		<npc id="20466" total="3" respawn="15sec"/>
+		<npc id="20308" total="2" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren04_2020_02" minZ="-3816" maxZ="-3516">
+		<node x="300" y="65740"/>
+		<node x="5000" y="65724"/>
+		<node x="5092" y="66820"/>
+		<node x="208" y="69640"/>
+	</territory>
+	<npcmaker name="oren04_2020_02m1" territory="oren04_2020_02" maximumNpcs="47">
+		<ai type="default_maker"/>
+		<npc id="20036" total="3" respawn="15sec"/>
+		<npc id="20466" total="5" respawn="15sec"/>
+		<npc id="20044" total="4" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren04_2020_03" minZ="-3540" maxZ="-3240">
+		<node x="5184" y="69420"/>
+		<node x="8224" y="69864"/>
+		<node x="8464" y="71056"/>
+		<node x="5728" y="74060"/>
+	</territory>
+	<npcmaker name="oren04_2020_03m1" territory="oren04_2020_03" maximumNpcs="36">
+		<ai type="default_maker"/>
+		<npc id="20036" total="5" respawn="15sec"/>
+		<npc id="20466" total="4" respawn="15sec"/>
+		<npc id="20308" total="2" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren04_2020_04" minZ="-3892" maxZ="-3392">
+		<node x="424" y="72732"/>
+		<node x="4356" y="69788"/>
+		<node x="2920" y="74056"/>
+		<node x="264" y="74820"/>
+	</territory>
+	<npcmaker name="oren04_2020_04m1" territory="oren04_2020_04" maximumNpcs="40">
+		<ai type="default_maker"/>
+		<npc id="20036" total="3" respawn="15sec"/>
+		<npc id="20466" total="4" respawn="15sec"/>
+		<npc id="20044" total="3" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren04_2020_05" minZ="-3872" maxZ="-3572">
+		<node x="3612" y="73264"/>
+		<node x="4676" y="73120"/>
+		<node x="5712" y="75844"/>
+		<node x="4052" y="75508"/>
+	</territory>
+	<npcmaker name="oren04_2020_05m1" territory="oren04_2020_05" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="20036" total="2" respawn="15sec"/>
+		<npc id="20466" total="2" respawn="15sec"/>
+		<npc id="20308" total="2" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren04_2020_06" minZ="-3884" maxZ="-3584">
+		<node x="232" y="75708"/>
+		<node x="3380" y="75140"/>
+		<node x="2492" y="79916"/>
+		<node x="276" y="77908"/>
+	</territory>
+	<npcmaker name="oren04_2020_06m1" territory="oren04_2020_06" maximumNpcs="66">
+		<ai type="default_maker"/>
+		<npc id="20036" total="5" respawn="15sec"/>
+		<npc id="20044" total="6" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren04_2020_07" minZ="-3700" maxZ="-3500">
+		<node x="4728" y="75656"/>
+		<node x="5676" y="75868"/>
+		<node x="5348" y="78796"/>
+		<node x="3704" y="78528"/>
+	</territory>
+	<npcmaker name="oren04_2020_07m1" territory="oren04_2020_07" maximumNpcs="21">
+		<ai type="default_maker"/>
+		<npc id="20044" total="3" respawn="15sec"/>
+		<npc id="20466" total="3" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren04_2020_08" minZ="-3664" maxZ="-3364">
+		<node x="3736" y="78528"/>
+		<node x="5336" y="78796"/>
+		<node x="7104" y="84200"/>
+		<node x="4376" y="85876"/>
+		<node x="3216" y="81580"/>
+	</territory>
+	<npcmaker name="oren04_2020_08m1" territory="oren04_2020_08" maximumNpcs="50">
+		<ai type="default_maker"/>
+		<npc id="20044" total="7" respawn="15sec"/>
+		<npc id="20466" total="8" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren04_2020_08s" minZ="-3644" maxZ="-3344">
+		<node x="4372" y="82036"/>
+		<node x="5380" y="82076"/>
+		<node x="5380" y="83892"/>
+		<node x="4232" y="83340"/>
+	</territory>
+	<npcmaker name="oren04_2020_08sm1" territory="oren04_2020_08s" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20044" total="1" respawn="15sec"/>
+		<npc id="20466" total="1" respawn="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_01" minZ="-4144" maxZ="-3994">
+		<node x="24624" y="74620"/>
+		<node x="25656" y="74624"/>
+		<node x="25644" y="75260"/>
+		<node x="24640" y="75304"/>
+	</territory>
+	<npcmaker name="oren05_2020_01m1" territory="oren05_2020_01" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20372" total="3" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_02" minZ="-4160" maxZ="-4010">
+		<node x="23648" y="76112"/>
+		<node x="24676" y="76124"/>
+		<node x="24704" y="77716"/>
+		<node x="23652" y="77708"/>
+	</territory>
+	<npcmaker name="oren05_2020_02m1" territory="oren05_2020_02" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20464" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20463" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20373" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_03" minZ="-4130" maxZ="-3980">
+		<node x="24948" y="75832"/>
+		<node x="25608" y="75836"/>
+		<node x="25624" y="76236"/>
+		<node x="24947" y="76241"/>
+	</territory>
+	<npcmaker name="oren05_2020_03m1" territory="oren05_2020_03" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20372" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20373" total="1" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_04" minZ="-4128" maxZ="-3978">
+		<node x="24938" y="77972"/>
+		<node x="25624" y="77968"/>
+		<node x="25621" y="78364"/>
+		<node x="24947" y="78363"/>
+	</territory>
+	<npcmaker name="oren05_2020_04m1" territory="oren05_2020_04" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20372" total="4" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_05" minZ="-4129" maxZ="-3979">
+		<node x="22724" y="77604"/>
+		<node x="23402" y="77603"/>
+		<node x="23403" y="78000"/>
+		<node x="22716" y="77992"/>
+	</territory>
+	<npcmaker name="oren05_2020_05m1" territory="oren05_2020_05" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20372" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20373" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_06" minZ="-4140" maxZ="-3990">
+		<node x="22484" y="75843"/>
+		<node x="23154" y="75849"/>
+		<node x="23154" y="76236"/>
+		<node x="22489" y="76235"/>
+	</territory>
+	<npcmaker name="oren05_2020_06m1" territory="oren05_2020_06" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20372" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20373" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_07" minZ="-4130" maxZ="-3980">
+		<node x="24411" y="78908"/>
+		<node x="24425" y="79276"/>
+		<node x="24292" y="79338"/>
+		<node x="24062" y="79336"/>
+		<node x="23878" y="79216"/>
+		<node x="23877" y="78969"/>
+		<node x="24055" y="78868"/>
+		<node x="24277" y="78865"/>
+	</territory>
+	<npcmaker name="oren05_2020_07m1" territory="oren05_2020_07" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20464" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_08" minZ="-4136" maxZ="-3986">
+		<node x="23690" y="80463"/>
+		<node x="24681" y="80455"/>
+		<node x="24671" y="81206"/>
+		<node x="23700" y="81214"/>
+	</territory>
+	<npcmaker name="oren05_2020_08m1" territory="oren05_2020_08" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20464" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20463" total="1" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20504" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_09" minZ="-4129" maxZ="-3979">
+		<node x="25250" y="81425"/>
+		<node x="25916" y="81431"/>
+		<node x="25925" y="81819"/>
+		<node x="25245" y="81822"/>
+	</territory>
+	<npcmaker name="oren05_2020_09m1" territory="oren05_2020_09" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20464" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20504" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_10" minZ="-4156" maxZ="-4006">
+		<node x="21849" y="78742"/>
+		<node x="22979" y="78738"/>
+		<node x="22977" y="79446"/>
+		<node x="21844" y="79452"/>
+	</territory>
+	<npcmaker name="oren05_2020_10m1" territory="oren05_2020_10" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20464" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20463" total="1" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20504" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_11" minZ="-4132" maxZ="-3982">
+		<node x="22544" y="80740"/>
+		<node x="22545" y="80967"/>
+		<node x="22469" y="81109"/>
+		<node x="22173" y="81115"/>
+		<node x="22089" y="80973"/>
+		<node x="22087" y="80745"/>
+		<node x="22188" y="80559"/>
+		<node x="22435" y="80555"/>
+	</territory>
+	<npcmaker name="oren05_2020_11m1" territory="oren05_2020_11" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20464" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_12" minZ="-4136" maxZ="-3986">
+		<node x="20815" y="80168"/>
+		<node x="21652" y="80153"/>
+		<node x="21660" y="81526"/>
+		<node x="20819" y="81524"/>
+	</territory>
+	<npcmaker name="oren05_2020_12m1" territory="oren05_2020_12" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20464" total="1" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20463" total="1" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20504" total="1" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_13" minZ="-4134" maxZ="-3984">
+		<node x="20281" y="79280"/>
+		<node x="20924" y="79269"/>
+		<node x="20925" y="79677"/>
+		<node x="20282" y="79669"/>
+	</territory>
+	<npcmaker name="oren05_2020_13m1" territory="oren05_2020_13" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20464" total="1" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20463" total="1" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_14" minZ="-4326" maxZ="-4176">
+		<node x="21591" y="76840"/>
+		<node x="21593" y="77118"/>
+		<node x="21395" y="77251"/>
+		<node x="21047" y="77250"/>
+		<node x="20971" y="77158"/>
+		<node x="20964" y="76809"/>
+		<node x="21036" y="76638"/>
+		<node x="21362" y="76611"/>
+	</territory>
+	<npcmaker name="oren05_2020_14m1" territory="oren05_2020_14" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20371" total="1" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20463" total="1" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_15" minZ="-4459" maxZ="-4309">
+		<node x="18457" y="76533"/>
+		<node x="19824" y="76493"/>
+		<node x="19822" y="77441"/>
+		<node x="18490" y="77467"/>
+	</territory>
+	<npcmaker name="oren05_2020_15m1" territory="oren05_2020_15" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20371" total="3" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20504" total="3" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_16" minZ="-4419" maxZ="-4269">
+		<node x="20085" y="75615"/>
+		<node x="20487" y="75612"/>
+		<node x="20485" y="76289"/>
+		<node x="20084" y="76293"/>
+	</territory>
+	<npcmaker name="oren05_2020_16m1" territory="oren05_2020_16" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20345" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20033" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_17" minZ="-4424" maxZ="-4274">
+		<node x="18303" y="75473"/>
+		<node x="18980" y="75475"/>
+		<node x="18986" y="75868"/>
+		<node x="18286" y="75870"/>
+	</territory>
+	<npcmaker name="oren05_2020_17m1" territory="oren05_2020_17" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20033" total="4" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_18" minZ="-4432" maxZ="-4232">
+		<node x="18798" y="78458"/>
+		<node x="19691" y="78455"/>
+		<node x="19697" y="80042"/>
+		<node x="18791" y="80039"/>
+	</territory>
+	<npcmaker name="oren05_2020_18m1" territory="oren05_2020_18" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20504" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20345" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20033" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_19" minZ="-4429" maxZ="-4279">
+		<node x="17152" y="80660"/>
+		<node x="18616" y="80660"/>
+		<node x="18617" y="81566"/>
+		<node x="17156" y="81558"/>
+	</territory>
+	<npcmaker name="oren05_2020_19m1" territory="oren05_2020_19" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20371" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20345" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20504" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_20" minZ="-4429" maxZ="-4279">
+		<node x="18200" y="81765"/>
+		<node x="18857" y="81770"/>
+		<node x="18849" y="82210"/>
+		<node x="18202" y="82222"/>
+	</territory>
+	<npcmaker name="oren05_2020_20m1" territory="oren05_2020_20" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20371" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20345" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_21" minZ="-4453" maxZ="-4303">
+		<node x="15696" y="76505"/>
+		<node x="17222" y="76508"/>
+		<node x="17252" y="77435"/>
+		<node x="15716" y="77484"/>
+	</territory>
+	<npcmaker name="oren05_2020_21m1" territory="oren05_2020_21" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20504" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20371" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20345" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_22" minZ="-4454" maxZ="-4304">
+		<node x="15459" y="75884"/>
+		<node x="16135" y="75887"/>
+		<node x="16132" y="76287"/>
+		<node x="15461" y="76283"/>
+	</territory>
+	<npcmaker name="oren05_2020_22m1" territory="oren05_2020_22" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20345" total="4" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_23" minZ="-4458" maxZ="-4308">
+		<node x="16162" y="78470"/>
+		<node x="17063" y="78461"/>
+		<node x="17086" y="79748"/>
+		<node x="16179" y="79751"/>
+	</territory>
+	<npcmaker name="oren05_2020_23m1" territory="oren05_2020_23" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20345" total="3" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20033" total="3" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_24" minZ="-4323" maxZ="-4173">
+		<node x="15209" y="78852"/>
+		<node x="15296" y="78963"/>
+		<node x="15299" y="79302"/>
+		<node x="15207" y="79389"/>
+		<node x="14861" y="79394"/>
+		<node x="14680" y="79304"/>
+		<node x="14676" y="78962"/>
+		<node x="14861" y="78854"/>
+	</territory>
+	<npcmaker name="oren05_2020_24m1" territory="oren05_2020_24" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20033" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_25" minZ="-4170" maxZ="-4020">
+		<node x="13678" y="76040"/>
+		<node x="13977" y="76054"/>
+		<node x="13979" y="77309"/>
+		<node x="13684" y="77316"/>
+	</territory>
+	<npcmaker name="oren05_2020_25m1" territory="oren05_2020_25" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20040" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20047" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_26" minZ="-4312" maxZ="-4112">
+		<node x="12744" y="76037"/>
+		<node x="13575" y="76026"/>
+		<node x="13581" y="77361"/>
+		<node x="12736" y="77334"/>
+	</territory>
+	<npcmaker name="oren05_2020_26m1" territory="oren05_2020_26" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20033" total="5" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_27" minZ="-4219" maxZ="-4069">
+		<node x="11697" y="75969"/>
+		<node x="12542" y="75971"/>
+		<node x="12540" y="77396"/>
+		<node x="11709" y="77406"/>
+	</territory>
+	<npcmaker name="oren05_2020_27m1" territory="oren05_2020_27" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20351" total="4" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_28" minZ="-4216" maxZ="-4066">
+		<node x="12339" y="75167"/>
+		<node x="13219" y="75169"/>
+		<node x="13224" y="75744"/>
+		<node x="12340" y="75742"/>
+	</territory>
+	<npcmaker name="oren05_2020_28m1" territory="oren05_2020_28" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20040" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20351" total="3" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_29" minZ="-4218" maxZ="-4018">
+		<node x="12332" y="77613"/>
+		<node x="12980" y="77613"/>
+		<node x="12980" y="78022"/>
+		<node x="12325" y="78019"/>
+	</territory>
+	<npcmaker name="oren05_2020_29m1" territory="oren05_2020_29" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20040" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20351" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_30" minZ="-3880" maxZ="-3730">
+		<node x="11046" y="74656"/>
+		<node x="11036" y="75015"/>
+		<node x="10857" y="75208"/>
+		<node x="10492" y="75220"/>
+		<node x="10323" y="75030"/>
+		<node x="10314" y="74674"/>
+		<node x="10496" y="74503"/>
+		<node x="10876" y="74491"/>
+	</territory>
+	<npcmaker name="oren05_2020_30m1" territory="oren05_2020_30" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20351" total="2" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20353" total="3" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_32" minZ="-3882" maxZ="-3632">
+		<node x="9241" y="78078"/>
+		<node x="10288" y="78059"/>
+		<node x="10284" y="78800"/>
+		<node x="9239" y="78815"/>
+	</territory>
+	<npcmaker name="oren05_2020_32m1" territory="oren05_2020_32" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20492" total="5" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_33" minZ="-3767" maxZ="-3617">
+		<node x="8975" y="78321"/>
+		<node x="9208" y="78319"/>
+		<node x="9213" y="78564"/>
+		<node x="8979" y="78569"/>
+	</territory>
+	<npcmaker name="oren05_2020_33m1" territory="oren05_2020_33" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20492" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_35" minZ="-3869" maxZ="-3719">
+		<node x="10853" y="81667"/>
+		<node x="11042" y="81857"/>
+		<node x="11045" y="82213"/>
+		<node x="10859" y="82403"/>
+		<node x="10465" y="82375"/>
+		<node x="10307" y="82229"/>
+		<node x="10300" y="81850"/>
+		<node x="10480" y="81665"/>
+	</territory>
+	<npcmaker name="oren05_2020_35m1" territory="oren05_2020_35" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20351" total="3" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20353" total="2" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_36" minZ="-4116" maxZ="-3966">
+		<node x="11607" y="80753"/>
+		<node x="12274" y="80750"/>
+		<node x="12273" y="81147"/>
+		<node x="11603" y="81152"/>
+	</territory>
+	<npcmaker name="oren05_2020_36m1" territory="oren05_2020_36" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20351" total="4" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_37" minZ="-4148" maxZ="-3998">
+		<node x="12444" y="79664"/>
+		<node x="14226" y="79678"/>
+		<node x="14236" y="80700"/>
+		<node x="12440" y="80692"/>
+	</territory>
+	<npcmaker name="oren05_2020_37m1" territory="oren05_2020_37" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20040" total="3" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20047" total="3" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_38" minZ="-4128" maxZ="-3978">
+		<node x="14496" y="80172"/>
+		<node x="15568" y="80172"/>
+		<node x="15572" y="81736"/>
+		<node x="14504" y="81736"/>
+	</territory>
+	<npcmaker name="oren05_2020_38m1" territory="oren05_2020_38" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20040" total="3" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20047" total="3" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_2020_39" minZ="-4132" maxZ="-3982">
+		<node x="13224" y="77536"/>
+		<node x="13804" y="77516"/>
+		<node x="13856" y="79284"/>
+		<node x="13192" y="79296"/>
+	</territory>
+	<npcmaker name="oren05_2020_39m1" territory="oren05_2020_39" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20040" total="3" respawn="71sec" respawnRand="25sec"/>
+		<npc id="20047" total="3" respawn="71sec" respawnRand="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_mb2020_02" minZ="-3852" maxZ="-3652">
+		<node x="9396" y="76692"/>
+		<node x="9920" y="76692"/>
+		<node x="9948" y="77260"/>
+		<node x="9380" y="77260"/>
+	</territory>
+	<npcmaker name="oren05_mb2020_02m1" territory="oren05_mb2020_02" maximumNpcs="8">
+		<ai type="default_use_db_maker"/>
+		<npc id="25373" total="1" respawn="36hour" respawnRand="24hour" dbName="malex_herald_of_dagoniel"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="oren05_npc2020_002" minZ="-3921" maxZ="-3721">
+		<node x="28828" y="74140"/>
+		<node x="29028" y="74140"/>
+		<node x="29028" y="74340"/>
+		<node x="28828" y="74340"/>
+	</territory>
+	<npcmaker name="oren05_npc2020_00201" territory="oren05_npc2020_002" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30423" pos="28928;74248;-3773;8192" total="1" respawn="1min"/>
+	</npcmaker>
+</list>

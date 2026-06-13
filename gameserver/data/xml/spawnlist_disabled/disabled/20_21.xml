@@ -1,0 +1,2101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Dion Area
+ * Cruma Tower
+ * Cruma Marshlands
+-->
+<list>
+	<!--  -->
+	<territory name="core_cube" minZ="-6688" maxZ="-6188">
+		<node x="17066" y="108039"/>
+		<node x="18357" y="108039"/>
+		<node x="19223" y="108832"/>
+		<node x="19232" y="110389"/>
+		<node x="16203" y="110401"/>
+		<node x="16203" y="108861"/>
+	</territory>
+	<npcmaker name="core_cube" territory="core_cube" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="29006" pos="17726;108915;-6480;0" total="1" respawn="60hour" respawnRand="23hour" dbName="core" dbSaving="DEATH_TIME;PARAMETERS;POS">
+			<privates>
+				<private id="29007" weight="1" respawn="6min"/>
+				<private id="29007" weight="1" respawn="6min"/>
+				<private id="29007" weight="1" respawn="6min"/>
+				<private id="29007" weight="1" respawn="6min"/>
+				<private id="29007" weight="1" respawn="6min"/>
+				<private id="29007" weight="1" respawn="6min"/>
+				<private id="29007" weight="1" respawn="6min"/>
+				<private id="29007" weight="1" respawn="6min"/>
+				<private id="29007" weight="1" respawn="6min"/>
+				<private id="29007" weight="1" respawn="6min"/>
+				<private id="29008" weight="1" respawn="6min"/>
+				<private id="29008" weight="1" respawn="6min"/>
+				<private id="29008" weight="1" respawn="6min"/>
+				<private id="29011" weight="1" respawn="6min"/>
+				<private id="29011" weight="1" respawn="6min"/>
+				<private id="29011" weight="1" respawn="6min"/>
+				<private id="29011" weight="1" respawn="6min"/>
+			</privates>
+		</npc>
+		<npc id="31842" pos="16502;110165;-6394;0" total="1" respawn="no">
+			<ai>
+				<set name="PosX" val="18241"/>
+				<set name="PosY" val="114140"/>
+				<set name="PosZ" val="-3440"/>
+			</ai>
+		</npc>
+		<npc id="31842" pos="18948;110166;-6397;0" total="1" respawn="no">
+			<ai>
+				<set name="PosX" val="18241"/>
+				<set name="PosY" val="114140"/>
+				<set name="PosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dg_20_21_03f_004" minZ="-6620" maxZ="-6420">
+		<node x="16298" y="112483"/>
+		<node x="19157" y="112499"/>
+		<node x="19157" y="113277"/>
+		<node x="16298" y="113262"/>
+	</territory>
+	<npcmaker name="dg_20_21_03f_004" territory="dg_20_21_03f_004" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="29009" pos="17579;112644;-6592;0" total="6" respawn="3hour"/>
+		<npc id="29013" pos="18145;112725;-6592;0" total="2" respawn="3hour"/>
+		<npc id="29011" pos="17911;112632;-6592;0" total="5" respawn="3hour"/>
+		<npc id="29010" pos="17581;112948;-6592;0" total="3" respawn="3hour"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dg_20_21_03f_004_02" minZ="-6620" maxZ="-6420">
+		<node x="16298" y="112483"/>
+		<node x="19157" y="112499"/>
+		<node x="19157" y="113277"/>
+		<node x="16298" y="113262"/>
+	</territory>
+	<npcmaker name="dg_20_21_03f_004_02" territory="dg_20_21_03f_004_02" spawnTime="door_open([kuruma_parent])" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="29011" pos="17637;112581;-6576;0" total="1" respawn="3hour" dbName="b02_susceptor_01" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="29009" pos="17822;112576;-6576;0" total="1" respawn="3hour" dbName="b02_dicor_01" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="29012" pos="17492;112583;-6576;0" total="1" respawn="3hour" dbName="b02_perum_01" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="29011" pos="17957;112564;-6576;0" total="1" respawn="3hour" dbName="b02_susceptor_02" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="29009" pos="17432;112679;-6576;0" total="1" respawn="3hour" dbName="b02_dicor_02" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="29012" pos="18051;112636;-6576;0" total="1" respawn="3hour" dbName="b02_perum_02" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="29011" pos="17729;112680;-6576;0" total="1" respawn="3hour" dbName="b02_susceptor_03" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dg_20_21_03f_005" minZ="-6612" maxZ="-6412">
+		<node x="16361" y="111504"/>
+		<node x="19172" y="111504"/>
+		<node x="19172" y="112360"/>
+		<node x="16361" y="112360"/>
+	</territory>
+	<npcmaker name="dg_20_21_03f_005" territory="dg_20_21_03f_005" spawnTime="door_open([kuruma_parent])" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="29009" pos="17558;112298;-6576;0" total="3" respawn="3hour" dbName="b02_dicor_03" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="29012" pos="17876;112293;-6576;0" total="3" respawn="3hour" dbName="b02_perum_03" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="29011" pos="17490;112160;-6576;0" total="3" respawn="3hour" dbName="b02_susceptor_04" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dg_20_21_03f_tele" minZ="-6631" maxZ="-6431">
+		<node x="17612" y="115340"/>
+		<node x="17812" y="115340"/>
+		<node x="17812" y="115540"/>
+		<node x="17612" y="115540"/>
+	</territory>
+	<npcmaker name="dg_20_21_03f_tele" territory="dg_20_21_03f_tele" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31843" pos="17719;115430;-6582;0" total="1" respawn="3min">
+			<ai>
+				<set name="PosX" val="18241"/>
+				<set name="PosY" val="114140"/>
+				<set name="PosZ" val="-3440"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_01" minZ="-3831" maxZ="-3231">
+		<node x="9868" y="104802"/>
+		<node x="15668" y="101684"/>
+		<node x="17258" y="105870"/>
+		<node x="12527" y="107380"/>
+	</territory>
+	<npcmaker name="dion04_2021_01" territory="dion04_2021_01" maximumNpcs="120">
+		<ai type="default_maker"/>
+		<npc id="20157" total="7" respawn="25sec"/>
+		<npc id="20229" total="10" respawn="25sec"/>
+		<npc id="20230" total="8" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_02" minZ="-3831" maxZ="-3231">
+		<node x="5649" y="108487"/>
+		<node x="9825" y="104907"/>
+		<node x="12410" y="107417"/>
+		<node x="9242" y="113454"/>
+		<node x="4747" y="113401"/>
+	</territory>
+	<npcmaker name="dion04_2021_02" territory="dion04_2021_02" maximumNpcs="58">
+		<ai type="default_maker"/>
+		<npc id="20227" total="9" respawn="25sec"/>
+		<npc id="20228" total="7" respawn="25sec"/>
+		<npc id="20157" total="7" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_03" minZ="-3831" maxZ="-3231">
+		<node x="4753" y="113545"/>
+		<node x="9222" y="113571"/>
+		<node x="12330" y="120913"/>
+		<node x="10051" y="123286"/>
+		<node x="5076" y="119035"/>
+	</territory>
+	<npcmaker name="dion04_2021_03" territory="dion04_2021_03" maximumNpcs="23">
+		<ai type="default_maker"/>
+		<npc id="20225" total="8" respawn="25sec"/>
+		<npc id="20226" total="7" respawn="25sec"/>
+		<npc id="20227" total="8" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_04" minZ="-3831" maxZ="-3231">
+		<node x="10218" y="123373"/>
+		<node x="12571" y="120869"/>
+		<node x="18009" y="121973"/>
+		<node x="18018" y="126581"/>
+		<node x="12722" y="126534"/>
+	</territory>
+	<npcmaker name="dion04_2021_04" territory="dion04_2021_04" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="20225" total="12" respawn="25sec"/>
+		<npc id="20226" total="10" respawn="25sec"/>
+		<npc id="20227" total="8" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_05" minZ="-3831" maxZ="-3231">
+		<node x="18106" y="126591"/>
+		<node x="18148" y="121963"/>
+		<node x="24549" y="120179"/>
+		<node x="24076" y="123052"/>
+	</territory>
+	<npcmaker name="dion04_2021_05" territory="dion04_2021_05" maximumNpcs="69">
+		<ai type="default_maker"/>
+		<npc id="20227" total="7" respawn="25sec"/>
+		<npc id="20228" total="8" respawn="25sec"/>
+		<npc id="20157" total="9" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_06" minZ="-3831" maxZ="-3231">
+		<node x="27441" y="120344"/>
+		<node x="24536" y="120568"/>
+		<node x="26351" y="112226"/>
+		<node x="30789" y="113867"/>
+	</territory>
+	<npcmaker name="dion04_2021_06" territory="dion04_2021_06" maximumNpcs="126">
+		<ai type="default_maker"/>
+		<npc id="20229" total="12" respawn="25sec"/>
+		<npc id="20230" total="10" respawn="25sec"/>
+		<npc id="20231" total="10" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_07" minZ="-3831" maxZ="-3231">
+		<node x="30747" y="113707"/>
+		<node x="26385" y="112125"/>
+		<node x="25907" y="107829"/>
+		<node x="28587" y="105722"/>
+	</territory>
+	<npcmaker name="dion04_2021_07" territory="dion04_2021_07" maximumNpcs="114">
+		<ai type="default_maker"/>
+		<npc id="20231" total="5" respawn="25sec"/>
+		<npc id="20232" total="5" respawn="25sec"/>
+		<npc id="20233" total="7" respawn="25sec"/>
+		<npc id="20234" total="8" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_08" minZ="-3831" maxZ="-3231">
+		<node x="27956" y="106003"/>
+		<node x="25665" y="107760"/>
+		<node x="22265" y="104874"/>
+		<node x="22630" y="100825"/>
+	</territory>
+	<npcmaker name="dion04_2021_08" territory="dion04_2021_08" maximumNpcs="120">
+		<ai type="default_maker"/>
+		<npc id="20232" total="7" respawn="25sec"/>
+		<npc id="20233" total="10" respawn="25sec"/>
+		<npc id="20234" total="8" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_09" minZ="-3831" maxZ="-3231">
+		<node x="22375" y="101192"/>
+		<node x="22131" y="104854"/>
+		<node x="17449" y="105773"/>
+		<node x="15885" y="101594"/>
+	</territory>
+	<npcmaker name="dion04_2021_09" territory="dion04_2021_09" maximumNpcs="99">
+		<ai type="default_maker"/>
+		<npc id="20231" total="10" respawn="25sec"/>
+		<npc id="20232" total="8" respawn="25sec"/>
+		<npc id="20233" total="7" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_10" minZ="-3831" maxZ="-3231">
+		<node x="17300" y="106034"/>
+		<node x="18020" y="109017"/>
+		<node x="9459" y="113372"/>
+		<node x="12518" y="107510"/>
+	</territory>
+	<npcmaker name="dion04_2021_10" territory="dion04_2021_10" maximumNpcs="111">
+		<ai type="default_maker"/>
+		<npc id="20229" total="6" respawn="25sec"/>
+		<npc id="20230" total="8" respawn="25sec"/>
+		<npc id="20231" total="7" respawn="25sec"/>
+		<npc id="20232" total="4" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_11" minZ="-3831" maxZ="-3231">
+		<node x="12531" y="111947"/>
+		<node x="13878" y="117665"/>
+		<node x="12429" y="120853"/>
+		<node x="9364" y="113513"/>
+	</territory>
+	<npcmaker name="dion04_2021_11" territory="dion04_2021_11" maximumNpcs="46">
+		<ai type="default_maker"/>
+		<npc id="20227" total="6" respawn="25sec"/>
+		<npc id="20228" total="4" respawn="25sec"/>
+		<npc id="20157" total="6" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_12" minZ="-3831" maxZ="-3231">
+		<node x="13985" y="117660"/>
+		<node x="21481" y="120882"/>
+		<node x="18086" y="121855"/>
+		<node x="12596" y="120710"/>
+	</territory>
+	<npcmaker name="dion04_2021_12" territory="dion04_2021_12" maximumNpcs="51">
+		<ai type="default_maker"/>
+		<npc id="20227" total="4" respawn="25sec"/>
+		<npc id="20228" total="5" respawn="25sec"/>
+		<npc id="20157" total="7" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_13" minZ="-3831" maxZ="-3231">
+		<node x="22565" y="113505"/>
+		<node x="25545" y="115492"/>
+		<node x="21069" y="120568"/>
+		<node x="18411" y="119435"/>
+	</territory>
+	<npcmaker name="dion04_2021_13" territory="dion04_2021_13" maximumNpcs="90">
+		<ai type="default_maker"/>
+		<npc id="20229" total="6" respawn="25sec"/>
+		<npc id="20230" total="8" respawn="25sec"/>
+		<npc id="20231" total="8" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_14" minZ="-3831" maxZ="-3231">
+		<node x="25748" y="107864"/>
+		<node x="26253" y="112203"/>
+		<node x="25122" y="114902"/>
+		<node x="22598" y="113291"/>
+		<node x="22622" y="110180"/>
+	</territory>
+	<npcmaker name="dion04_2021_14" territory="dion04_2021_14" maximumNpcs="87">
+		<ai type="default_maker"/>
+		<npc id="20232" total="6" respawn="25sec"/>
+		<npc id="20233" total="5" respawn="25sec"/>
+		<npc id="20234" total="6" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_15" minZ="-3831" maxZ="-3231">
+		<node x="22137" y="105062"/>
+		<node x="25559" y="107832"/>
+		<node x="22589" y="110078"/>
+		<node x="18126" y="108935"/>
+		<node x="17480" y="106067"/>
+	</territory>
+	<npcmaker name="dion04_2021_15" territory="dion04_2021_15" maximumNpcs="102">
+		<ai type="default_maker"/>
+		<npc id="20232" total="7" respawn="25sec"/>
+		<npc id="20233" total="6" respawn="25sec"/>
+		<npc id="20234" total="7" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_16" minZ="-3831" maxZ="-3231">
+		<node x="18137" y="109054"/>
+		<node x="22583" y="110168"/>
+		<node x="22541" y="113269"/>
+		<node x="18978" y="111334"/>
+	</territory>
+	<npcmaker name="dion04_2021_16" territory="dion04_2021_16" maximumNpcs="42">
+		<ai type="default_maker"/>
+		<npc id="20231" total="2" respawn="25sec"/>
+		<npc id="20232" total="4" respawn="25sec"/>
+		<npc id="20233" total="4" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_17" minZ="-3831" maxZ="-3231">
+		<node x="14940" y="110676"/>
+		<node x="18097" y="109107"/>
+		<node x="19441" y="112923"/>
+		<node x="16973" y="112903"/>
+	</territory>
+	<npcmaker name="dion04_2021_17" territory="dion04_2021_17" maximumNpcs="36">
+		<ai type="default_maker"/>
+		<npc id="20230" total="2" respawn="25sec"/>
+		<npc id="20231" total="4" respawn="25sec"/>
+		<npc id="20232" total="2" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_18" minZ="-3831" maxZ="-3231">
+		<node x="12625" y="111910"/>
+		<node x="14909" y="110738"/>
+		<node x="15864" y="113460"/>
+		<node x="13034" y="113634"/>
+	</territory>
+	<npcmaker name="dion04_2021_18" territory="dion04_2021_18" maximumNpcs="42">
+		<ai type="default_maker"/>
+		<npc id="20230" total="6" respawn="25sec"/>
+		<npc id="20231" total="2" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_19" minZ="-3831" maxZ="-3231">
+		<node x="13376" y="115047"/>
+		<node x="15363" y="115113"/>
+		<node x="15203" y="118033"/>
+		<node x="13999" y="117572"/>
+	</territory>
+	<npcmaker name="dion04_2021_19" territory="dion04_2021_19" maximumNpcs="39">
+		<ai type="default_maker"/>
+		<npc id="20229" total="3" respawn="25sec"/>
+		<npc id="20230" total="5" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_20" minZ="-3831" maxZ="-3231">
+		<node x="18832" y="116293"/>
+		<node x="19473" y="117771"/>
+		<node x="18282" y="119361"/>
+		<node x="15243" y="118089"/>
+		<node x="16178" y="116547"/>
+	</territory>
+	<npcmaker name="dion04_2021_20" territory="dion04_2021_20" maximumNpcs="51">
+		<ai type="default_maker"/>
+		<npc id="20229" total="3" respawn="25sec"/>
+		<npc id="20230" total="7" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_21" minZ="-3831" maxZ="-3231">
+		<node x="20572" y="112349"/>
+		<node x="22531" y="113378"/>
+		<node x="20708" y="115963"/>
+		<node x="19738" y="115177"/>
+		<node x="19760" y="113268"/>
+	</territory>
+	<npcmaker name="dion04_2021_21" territory="dion04_2021_21" maximumNpcs="48">
+		<ai type="default_maker"/>
+		<npc id="20230" total="5" respawn="25sec"/>
+		<npc id="20232" total="3" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_22s" minZ="-3831" maxZ="-3231">
+		<node x="5831" y="114948"/>
+		<node x="8701" y="114974"/>
+		<node x="9127" y="118060"/>
+		<node x="6670" y="119263"/>
+	</territory>
+	<npcmaker name="dion04_2021_22s" territory="dion04_2021_22s" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20225" total="4" respawn="25sec"/>
+		<npc id="20226" total="3" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_2021_23s" minZ="-3831" maxZ="-3231">
+		<node x="8209" y="106709"/>
+		<node x="10636" y="107268"/>
+		<node x="10555" y="110159"/>
+		<node x="7618" y="112259"/>
+	</territory>
+	<npcmaker name="dion04_2021_23s" territory="dion04_2021_23s" maximumNpcs="17">
+		<ai type="default_maker"/>
+		<npc id="20228" total="2" respawn="25sec"/>
+		<npc id="20229" total="5" respawn="25sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_mb2021_01" minZ="-3732" maxZ="-3132">
+		<node x="9600" y="126452"/>
+		<node x="11212" y="126132"/>
+		<node x="11336" y="127624"/>
+		<node x="9952" y="127352"/>
+	</territory>
+	<npcmaker name="dion04_mb2021_01" territory="dion04_mb2021_01" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25041" total="1" respawn="36hour" respawnRand="24hour" dbName="remmel" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_mb2021_02" minZ="-3788" maxZ="-3488">
+		<node x="25544" y="121216"/>
+		<node x="27136" y="121432"/>
+		<node x="26463" y="123951"/>
+		<node x="25290" y="122425"/>
+	</territory>
+	<npcmaker name="dion04_mb2021_02" territory="dion04_mb2021_02" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25170" total="1" respawn="36hour" respawnRand="24hour" dbName="lizardman_leader_hellion" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_mb2021_03" minZ="-3792" maxZ="-3192">
+		<node x="25800" y="101804"/>
+		<node x="25904" y="100388"/>
+		<node x="27972" y="100540"/>
+		<node x="29112" y="103004"/>
+		<node x="27116" y="103412"/>
+	</territory>
+	<npcmaker name="dion04_mb2021_03" territory="dion04_mb2021_03" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25023" total="1" respawn="36hour" respawnRand="24hour" dbName="jeruna_queen" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_mb2021_04" minZ="-3772" maxZ="-3572">
+		<node x="29592" y="106484"/>
+		<node x="30604" y="107032"/>
+		<node x="30184" y="107824"/>
+		<node x="29184" y="107464"/>
+	</territory>
+	<npcmaker name="dion04_mb2021_04" territory="dion04_mb2021_04" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25392" total="1" respawn="36hour" respawnRand="24hour" dbName="queens_nobel_leader" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_npc2021_01" minZ="-3809" maxZ="-3609">
+		<node x="22966" y="118844"/>
+		<node x="23166" y="118844"/>
+		<node x="23166" y="119044"/>
+		<node x="22966" y="119044"/>
+	</territory>
+	<npcmaker name="dion04_npc2021_0101" territory="dion04_npc2021_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30637" pos="23066;118944;-3705;8192" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_npc2021_02" minZ="-3685" maxZ="-3485">
+		<node x="16359" y="113402"/>
+		<node x="16559" y="113402"/>
+		<node x="16559" y="113602"/>
+		<node x="16359" y="113602"/>
+	</territory>
+	<npcmaker name="dion04_npc2021_0201" territory="dion04_npc2021_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30673" pos="16460;113488;-3575;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_npc2021_04" minZ="-3779" maxZ="-3579">
+		<node x="10484" y="117922"/>
+		<node x="10684" y="117922"/>
+		<node x="10684" y="118122"/>
+		<node x="10484" y="118122"/>
+	</territory>
+	<npcmaker name="dion04_npc2021_0401" territory="dion04_npc2021_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30621" pos="10580;118027;-3672;59000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_qm2021_00" minZ="-3688" maxZ="-3488">
+		<node x="8672" y="126752"/>
+		<node x="9428" y="126848"/>
+		<node x="9500" y="127228"/>
+		<node x="9036" y="127428"/>
+		<node x="8360" y="127016"/>
+	</territory>
+	<npcmaker name="dion04_qm2021_00m1" territory="dion04_qm2021_00" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27139" pos="9209;127105;-3640;0" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion04_qm2021_01" minZ="-3809" maxZ="-3609">
+		<node x="22966" y="118844"/>
+		<node x="23166" y="118844"/>
+		<node x="23166" y="119044"/>
+		<node x="22966" y="119044"/>
+	</territory>
+	<npcmaker name="dion04_qm2021_01m1" territory="dion04_qm2021_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27104" pos="23031;118953;-3704;8192" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion05_mb2021_01" minZ="-12152" maxZ="-11802">
+		<node x="14751" y="118718"/>
+		<node x="15141" y="118733"/>
+		<node x="15124" y="119076"/>
+		<node x="14782" y="119076"/>
+	</territory>
+	<npcmaker name="dion05_mb2021_01m1" territory="dion05_mb2021_01" maximumNpcs="8">
+		<ai type="default_use_db_maker"/>
+		<npc id="25395" total="1" respawn="36hour" respawnRand="24hour" dbName="archon_susceptor"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion05_mb2021_02" minZ="-9017" maxZ="-8667">
+		<node x="23634" y="119346"/>
+		<node x="23937" y="119340"/>
+		<node x="23939" y="119637"/>
+		<node x="23632" y="119637"/>
+	</territory>
+	<npcmaker name="dion05_mb2021_02m1" territory="dion05_mb2021_02" maximumNpcs="8">
+		<ai type="default_use_db_maker"/>
+		<npc id="25273" total="1" respawn="36hour" respawnRand="24hour" dbName="carnamakos"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion05_npc2021_01" minZ="-3503" maxZ="-3303">
+		<node x="17196" y="114076"/>
+		<node x="17396" y="114076"/>
+		<node x="17396" y="114276"/>
+		<node x="17196" y="114276"/>
+	</territory>
+	<npcmaker name="dion05_npc2021_0101" territory="dion05_npc2021_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30483" pos="17296;114176;-3439;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion05_npc2021_02" minZ="-11708" maxZ="-11508">
+		<node x="17473" y="113908"/>
+		<node x="17987" y="113913"/>
+		<node x="17987" y="114030"/>
+		<node x="17476" y="114042"/>
+	</territory>
+	<npcmaker name="dion05_npc2021_0201" territory="dion05_npc2021_02" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="30484" pos="17544;113970;-11672;16384" total="1" respawn="1min"/>
+		<npc id="30487" pos="17892;113973;-11672;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion05_npc2021_04" minZ="-9162" maxZ="-8962">
+		<node x="17628" y="108140"/>
+		<node x="17828" y="108140"/>
+		<node x="17828" y="108340"/>
+		<node x="17628" y="108340"/>
+	</territory>
+	<npcmaker name="dion05_npc2021_0401" territory="dion05_npc2021_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30485" pos="17725;108220;-9057;16384" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion05_npc2021_05" minZ="-9146" maxZ="-8946">
+		<node x="17628" y="119628"/>
+		<node x="17828" y="119628"/>
+		<node x="17828" y="119828"/>
+		<node x="17628" y="119828"/>
+	</territory>
+	<npcmaker name="dion05_npc2021_0501" territory="dion05_npc2021_05" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30486" pos="17722;119749;-9068;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion05_npc2021_06" minZ="-12127" maxZ="-11877">
+		<node x="15254" y="119676"/>
+		<node x="15487" y="119678"/>
+		<node x="15489" y="119877"/>
+		<node x="15254" y="119876"/>
+	</territory>
+	<npcmaker name="dion05_npc2021_0601" territory="dion05_npc2021_06" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30622" pos="15433;119727;-12088;25728" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_01" minZ="-12128" maxZ="-11928">
+		<node x="13936" y="116683"/>
+		<node x="15149" y="116708"/>
+		<node x="15143" y="117856"/>
+		<node x="13972" y="117865"/>
+	</territory>
+	<npcmaker name="dion18_2021_01m1" territory="dion18_2021_01" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20213" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20214" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_01m2" territory="dion18_2021_01" maximumNpcs="2">
+		<ai type="random_maker"/>
+		<npc id="21035" total="2" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_01m3" territory="dion18_2021_01" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20214" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21035" total="2" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_02" minZ="-12121" maxZ="-11891">
+		<node x="14608" y="118590"/>
+		<node x="15305" y="118589"/>
+		<node x="15296" y="119298"/>
+		<node x="14595" y="119300"/>
+	</territory>
+	<npcmaker name="dion18_2021_02m1" territory="dion18_2021_02" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20213" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20214" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_02m2" territory="dion18_2021_02" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20214" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_03" minZ="-12121" maxZ="-11891">
+		<node x="13995" y="120286"/>
+		<node x="14924" y="120286"/>
+		<node x="14926" y="120805"/>
+		<node x="13994" y="120804"/>
+	</territory>
+	<npcmaker name="dion18_2021_03" territory="dion18_2021_03" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20213" total="5" respawn="34sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_04" minZ="-12133" maxZ="-11903">
+		<node x="12404" y="117401"/>
+		<node x="12932" y="117401"/>
+		<node x="12915" y="120094"/>
+		<node x="12405" y="120097"/>
+	</territory>
+	<npcmaker name="dion18_2021_04" territory="dion18_2021_04" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20213" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20214" total="3" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20215" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21035" total="3" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_05" minZ="-12134" maxZ="-11904">
+		<node x="11085" y="119370"/>
+		<node x="11985" y="119366"/>
+		<node x="11995" y="120516"/>
+		<node x="11087" y="120516"/>
+	</territory>
+	<npcmaker name="dion18_2021_05m1" territory="dion18_2021_05" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20214" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20215" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_05m2" territory="dion18_2021_05" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20214" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20215" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="2" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_05m3" territory="dion18_2021_05" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20213" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20214" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_06" minZ="-12134" maxZ="-11904">
+		<node x="11081" y="116797"/>
+		<node x="12007" y="116789"/>
+		<node x="12023" y="117886"/>
+		<node x="11071" y="117884"/>
+	</territory>
+	<npcmaker name="dion18_2021_06m1" territory="dion18_2021_06" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20213" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="2" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_06m2" territory="dion18_2021_06" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20214" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20215" total="2" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_06m3" territory="dion18_2021_06" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20213" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20214" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20215" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_07" minZ="-12131" maxZ="-11901">
+		<node x="13978" y="110475"/>
+		<node x="15163" y="110485"/>
+		<node x="15091" y="111594"/>
+		<node x="13973" y="111599"/>
+	</territory>
+	<npcmaker name="dion18_2021_07m1" territory="dion18_2021_07" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20216" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_07m2" territory="dion18_2021_07" maximumNpcs="2">
+		<ai type="random_maker"/>
+		<npc id="20216" total="2" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_07m3" territory="dion18_2021_07" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21035" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20216" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_08" minZ="-12121" maxZ="-11891">
+		<node x="13649" y="109350"/>
+		<node x="15077" y="109339"/>
+		<node x="15081" y="109944"/>
+		<node x="13646" y="109939"/>
+	</territory>
+	<npcmaker name="dion18_2021_08m1" territory="dion18_2021_08" maximumNpcs="2">
+		<ai type="random_maker"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_08m2" territory="dion18_2021_08" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21035" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20216" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_09" minZ="-12121" maxZ="-11891">
+		<node x="11609" y="109344"/>
+		<node x="12871" y="109345"/>
+		<node x="12873" y="109925"/>
+		<node x="11608" y="109926"/>
+	</territory>
+	<npcmaker name="dion18_2021_09m1" territory="dion18_2021_09" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20216" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_09m2" territory="dion18_2021_09" maximumNpcs="2">
+		<ai type="random_maker"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_10" minZ="-12121" maxZ="-11891">
+		<node x="12840" y="110168"/>
+		<node x="13360" y="110168"/>
+		<node x="13356" y="111522"/>
+		<node x="12824" y="111524"/>
+	</territory>
+	<npcmaker name="dion18_2021_10m1" territory="dion18_2021_10" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="21035" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_10m2" territory="dion18_2021_10" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20217" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20216" total="2" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_11" minZ="-12121" maxZ="-11891">
+		<node x="12835" y="107668"/>
+		<node x="13346" y="107668"/>
+		<node x="13349" y="109090"/>
+		<node x="12817" y="109084"/>
+	</territory>
+	<npcmaker name="dion18_2021_11m1" territory="dion18_2021_11" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_11m2" territory="dion18_2021_11" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20216" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21036" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_12" minZ="-12121" maxZ="-11891">
+		<node x="13833" y="107699"/>
+		<node x="14772" y="107705"/>
+		<node x="14776" y="108747"/>
+		<node x="13844" y="108742"/>
+	</territory>
+	<npcmaker name="dion18_2021_12m1" territory="dion18_2021_12" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20218" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_12m2" territory="dion18_2021_12" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20216" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20218" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_13" minZ="-12121" maxZ="-11891">
+		<node x="11248" y="110563"/>
+		<node x="12243" y="110556"/>
+		<node x="12243" y="111637"/>
+		<node x="11245" y="111640"/>
+	</territory>
+	<npcmaker name="dion18_2021_13m1" territory="dion18_2021_13" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20218" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_13m2" territory="dion18_2021_13" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20216" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21036" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20218" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_14" minZ="-12128" maxZ="-11898">
+		<node x="11270" y="107678"/>
+		<node x="12235" y="107687"/>
+		<node x="12231" y="108752"/>
+		<node x="11263" y="108742"/>
+	</territory>
+	<npcmaker name="dion18_2021_14m1" territory="dion18_2021_14" maximumNpcs="5">
+		<ai type="random_maker"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20218" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_14m2" territory="dion18_2021_14" maximumNpcs="2">
+		<ai type="random_maker"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21036" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_14m3" territory="dion18_2021_14" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20217" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_15" minZ="-12131" maxZ="-11901">
+		<node x="20278" y="110399"/>
+		<node x="21488" y="110397"/>
+		<node x="21481" y="111593"/>
+		<node x="20331" y="111528"/>
+	</territory>
+	<npcmaker name="dion18_2021_15m1" territory="dion18_2021_15" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20216" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_15m2" territory="dion18_2021_15" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21035" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20216" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_16" minZ="-12121" maxZ="-11891">
+		<node x="20393" y="107831"/>
+		<node x="21370" y="107827"/>
+		<node x="21375" y="108891"/>
+		<node x="20393" y="108891"/>
+	</territory>
+	<npcmaker name="dion18_2021_16m1" territory="dion18_2021_16" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20217" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20218" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_16m2" territory="dion18_2021_16" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_16m3" territory="dion18_2021_16" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20216" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_17" minZ="-12133" maxZ="-11903">
+		<node x="22068" y="108012"/>
+		<node x="22596" y="108012"/>
+		<node x="22565" y="111270"/>
+		<node x="22074" y="111280"/>
+	</territory>
+	<npcmaker name="dion18_2021_17m1" territory="dion18_2021_17" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20217" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20218" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_17m2" territory="dion18_2021_17" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20216" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_18" minZ="-12129" maxZ="-11899">
+		<node x="23294" y="107883"/>
+		<node x="24277" y="107879"/>
+		<node x="24271" y="108947"/>
+		<node x="23294" y="108952"/>
+	</territory>
+	<npcmaker name="dion18_2021_18m1" territory="dion18_2021_18" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_18m2" territory="dion18_2021_18" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20216" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20218" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_19" minZ="-12130" maxZ="-11900">
+		<node x="23248" y="110440"/>
+		<node x="24218" y="110433"/>
+		<node x="24219" y="111498"/>
+		<node x="23251" y="111502"/>
+	</territory>
+	<npcmaker name="dion18_2021_19m1" territory="dion18_2021_19" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20216" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20217" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21036" total="2" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_19m2" territory="dion18_2021_19" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20216" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20218" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_20" minZ="-12131" maxZ="-11901">
+		<node x="20318" y="116756"/>
+		<node x="21506" y="116704"/>
+		<node x="21509" y="117897"/>
+		<node x="20284" y="117887"/>
+	</territory>
+	<npcmaker name="dion18_2021_20m1" territory="dion18_2021_20" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20213" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20214" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_20m2" territory="dion18_2021_20" maximumNpcs="2">
+		<ai type="random_maker"/>
+		<npc id="20214" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_20m3" territory="dion18_2021_20" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20213" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20214" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_21" minZ="-12133" maxZ="-11903">
+		<node x="22185" y="116539"/>
+		<node x="22713" y="116539"/>
+		<node x="22685" y="120742"/>
+		<node x="22194" y="120752"/>
+	</territory>
+	<npcmaker name="dion18_2021_21m1" territory="dion18_2021_21" maximumNpcs="6">
+		<ai type="random_maker"/>
+		<npc id="20213" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20214" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20215" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_21m2" territory="dion18_2021_21" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20213" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20214" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20215" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21035" total="2" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_22" minZ="-12130" maxZ="-11900">
+		<node x="23257" y="116802"/>
+		<node x="24246" y="116799"/>
+		<node x="24241" y="117968"/>
+		<node x="23258" y="117955"/>
+	</territory>
+	<npcmaker name="dion18_2021_22m1" territory="dion18_2021_22" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20213" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_22m2" territory="dion18_2021_22" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20214" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_22m3" territory="dion18_2021_22" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20214" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20215" total="2" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_23" minZ="-12130" maxZ="-11900">
+		<node x="23273" y="119461"/>
+		<node x="24226" y="119461"/>
+		<node x="24226" y="120517"/>
+		<node x="23274" y="120523"/>
+	</territory>
+	<npcmaker name="dion18_2021_23m1" territory="dion18_2021_23" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20213" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20214" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="2" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_23m2" territory="dion18_2021_23" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20215" total="2" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_23m3" territory="dion18_2021_23" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20213" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20215" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_24" minZ="-12131" maxZ="-11901">
+		<node x="20168" y="119397"/>
+		<node x="21129" y="119391"/>
+		<node x="21131" y="120505"/>
+		<node x="20157" y="120499"/>
+	</territory>
+	<npcmaker name="dion18_2021_24m1" territory="dion18_2021_24" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20213" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20214" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_24m2" territory="dion18_2021_24" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20214" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="20215" total="1" respawn="35sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="35sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion18_2021_24m3" territory="dion18_2021_24" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20214" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="20215" total="1" respawn="41sec" respawnRand="15sec"/>
+		<npc id="21035" total="1" respawn="41sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_p08" minZ="-12121" maxZ="-11891">
+		<node x="13649" y="109343"/>
+		<node x="15447" y="109331"/>
+		<node x="15451" y="109937"/>
+		<node x="13646" y="109932"/>
+	</territory>
+	<npcmaker name="dion18_2021_p08" territory="dion18_2021_p08" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20751" total="1" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="21039" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_p09" minZ="-12121" maxZ="-11891">
+		<node x="11459" y="109341"/>
+		<node x="13257" y="109330"/>
+		<node x="13261" y="109935"/>
+		<node x="11456" y="109931"/>
+	</territory>
+	<npcmaker name="dion18_2021_p09" territory="dion18_2021_p09" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20751" total="1" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="21039" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_p12" minZ="-12121" maxZ="-11891">
+		<node x="13733" y="107474"/>
+		<node x="14859" y="107474"/>
+		<node x="14883" y="108944"/>
+		<node x="13753" y="108964"/>
+	</territory>
+	<npcmaker name="dion18_2021_p12" territory="dion18_2021_p12" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20751" total="1" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="21039" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_p14" minZ="-12128" maxZ="-11898">
+		<node x="11042" y="107460"/>
+		<node x="12413" y="107453"/>
+		<node x="12395" y="108969"/>
+		<node x="11052" y="108960"/>
+	</territory>
+	<npcmaker name="dion18_2021_p14" territory="dion18_2021_p14" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20751" total="1" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="21039" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_p16" minZ="-12121" maxZ="-11891">
+		<node x="20028" y="107450"/>
+		<node x="21671" y="107445"/>
+		<node x="21679" y="109280"/>
+		<node x="20028" y="109290"/>
+	</territory>
+	<npcmaker name="dion18_2021_p16" territory="dion18_2021_p16" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20751" total="1" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="21039" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_p17" minZ="-12133" maxZ="-11903">
+		<node x="22065" y="107523"/>
+		<node x="22592" y="107523"/>
+		<node x="22565" y="111726"/>
+		<node x="22074" y="111736"/>
+	</territory>
+	<npcmaker name="dion18_2021_p17" territory="dion18_2021_p17" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="20751" total="2" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="21039" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_p18" minZ="-12129" maxZ="-11899">
+		<node x="23060" y="107444"/>
+		<node x="24424" y="107440"/>
+		<node x="24426" y="109219"/>
+		<node x="23029" y="109210"/>
+	</territory>
+	<npcmaker name="dion18_2021_p18" territory="dion18_2021_p18" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20751" total="1" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="21039" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_2021_p19" minZ="-12130" maxZ="-11900">
+		<node x="23054" y="110075"/>
+		<node x="24419" y="110071"/>
+		<node x="24420" y="111850"/>
+		<node x="23024" y="111841"/>
+	</territory>
+	<npcmaker name="dion18_2021_p19" territory="dion18_2021_p19" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20751" total="1" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="20752" weight="1" respawn="0sec"/>
+				<private id="21039" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_01" minZ="-12128" maxZ="-11928">
+		<node x="13936" y="116683"/>
+		<node x="15149" y="116708"/>
+		<node x="15143" y="117856"/>
+		<node x="13972" y="117865"/>
+	</territory>
+	<npcmaker name="dion18_tb01_m1" territory="dion18_tb2021_01" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_02" minZ="-12121" maxZ="-11891">
+		<node x="14608" y="118590"/>
+		<node x="15305" y="118589"/>
+		<node x="15296" y="119298"/>
+		<node x="14595" y="119300"/>
+	</territory>
+	<npcmaker name="dion18_tb02_m1" territory="dion18_tb2021_02" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_04" minZ="-12133" maxZ="-11903">
+		<node x="12404" y="117401"/>
+		<node x="12932" y="117401"/>
+		<node x="12915" y="120094"/>
+		<node x="12405" y="120097"/>
+	</territory>
+	<npcmaker name="dion18_tb04_m1" territory="dion18_tb2021_04" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_05" minZ="-12134" maxZ="-11904">
+		<node x="11085" y="119370"/>
+		<node x="11985" y="119366"/>
+		<node x="11995" y="120516"/>
+		<node x="11087" y="120516"/>
+	</territory>
+	<npcmaker name="dion18_tb05_m1" territory="dion18_tb2021_05" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_06" minZ="-12134" maxZ="-11904">
+		<node x="11081" y="116797"/>
+		<node x="12007" y="116789"/>
+		<node x="12023" y="117886"/>
+		<node x="11071" y="117884"/>
+	</territory>
+	<npcmaker name="dion18_tb06_m1" territory="dion18_tb2021_06" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_07" minZ="-12131" maxZ="-11901">
+		<node x="13978" y="110475"/>
+		<node x="15163" y="110485"/>
+		<node x="15091" y="111594"/>
+		<node x="13973" y="111599"/>
+	</territory>
+	<npcmaker name="dion18_tb07_m1" territory="dion18_tb2021_07" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_08" minZ="-12121" maxZ="-11891">
+		<node x="13649" y="109350"/>
+		<node x="15077" y="109339"/>
+		<node x="15081" y="109944"/>
+		<node x="13646" y="109939"/>
+	</territory>
+	<territory name="dion18_tb2021_09" minZ="-12121" maxZ="-11891">
+		<node x="11609" y="109344"/>
+		<node x="12871" y="109345"/>
+		<node x="12873" y="109925"/>
+		<node x="11608" y="109926"/>
+	</territory>
+	<territory name="dion18_tb2021_10" minZ="-12121" maxZ="-11891">
+		<node x="12840" y="110168"/>
+		<node x="13360" y="110168"/>
+		<node x="13356" y="111522"/>
+		<node x="12824" y="111524"/>
+	</territory>
+	<territory name="dion18_tb2021_11" minZ="-12121" maxZ="-11891">
+		<node x="12835" y="107668"/>
+		<node x="13346" y="107668"/>
+		<node x="13349" y="109090"/>
+		<node x="12817" y="109084"/>
+	</territory>
+	<npcmaker name="dion18_tb08_m1" territory="dion18_tb2021_08;dion18_tb2021_09;dion18_tb2021_10;dion18_tb2021_11" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_12" minZ="-12121" maxZ="-11891">
+		<node x="13833" y="107699"/>
+		<node x="14772" y="107705"/>
+		<node x="14776" y="108747"/>
+		<node x="13844" y="108742"/>
+	</territory>
+	<npcmaker name="dion18_tb12_m1" territory="dion18_tb2021_12" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+		<npc id="18273" total="1" respawn="60sec"/>
+		<npc id="21809" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_13" minZ="-12121" maxZ="-11891">
+		<node x="11248" y="110563"/>
+		<node x="12243" y="110556"/>
+		<node x="12243" y="111637"/>
+		<node x="11245" y="111640"/>
+	</territory>
+	<npcmaker name="dion18_tb13_m1" territory="dion18_tb2021_13" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_14" minZ="-12128" maxZ="-11898">
+		<node x="11270" y="107678"/>
+		<node x="12235" y="107687"/>
+		<node x="12231" y="108752"/>
+		<node x="11263" y="108742"/>
+	</territory>
+	<npcmaker name="dion18_tb14_m1" territory="dion18_tb2021_14" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+		<npc id="18273" total="1" respawn="60sec"/>
+		<npc id="21809" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_15" minZ="-12131" maxZ="-11901">
+		<node x="20278" y="110399"/>
+		<node x="21488" y="110397"/>
+		<node x="21481" y="111593"/>
+		<node x="20331" y="111528"/>
+	</territory>
+	<npcmaker name="dion18_tb15_m1" territory="dion18_tb2021_15" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_16" minZ="-12121" maxZ="-11891">
+		<node x="20393" y="107831"/>
+		<node x="21370" y="107827"/>
+		<node x="21375" y="108891"/>
+		<node x="20393" y="108891"/>
+	</territory>
+	<npcmaker name="dion18_tb16_m1" territory="dion18_tb2021_16" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_17" minZ="-12133" maxZ="-11903">
+		<node x="22068" y="108012"/>
+		<node x="22596" y="108012"/>
+		<node x="22565" y="111270"/>
+		<node x="22074" y="111280"/>
+	</territory>
+	<npcmaker name="dion18_tb17_m1" territory="dion18_tb2021_17" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_18" minZ="-12129" maxZ="-11899">
+		<node x="23294" y="107883"/>
+		<node x="24277" y="107879"/>
+		<node x="24271" y="108947"/>
+		<node x="23294" y="108952"/>
+	</territory>
+	<npcmaker name="dion18_tb18_m1" territory="dion18_tb2021_18" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+		<npc id="18273" total="1" respawn="60sec"/>
+		<npc id="21809" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_19" minZ="-12130" maxZ="-11900">
+		<node x="23248" y="110440"/>
+		<node x="24218" y="110433"/>
+		<node x="24219" y="111498"/>
+		<node x="23251" y="111502"/>
+	</territory>
+	<npcmaker name="dion18_tb19_m1" territory="dion18_tb2021_19" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+		<npc id="18273" total="1" respawn="60sec"/>
+		<npc id="21809" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_20" minZ="-12131" maxZ="-11901">
+		<node x="20318" y="116756"/>
+		<node x="21506" y="116704"/>
+		<node x="21509" y="117897"/>
+		<node x="20284" y="117887"/>
+	</territory>
+	<npcmaker name="dion18_tb20_m1" territory="dion18_tb2021_20" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_21" minZ="-12133" maxZ="-11903">
+		<node x="22185" y="116539"/>
+		<node x="22713" y="116539"/>
+		<node x="22685" y="120742"/>
+		<node x="22194" y="120752"/>
+	</territory>
+	<npcmaker name="dion18_tb21_m1" territory="dion18_tb2021_21" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_22" minZ="-12130" maxZ="-11900">
+		<node x="23257" y="116802"/>
+		<node x="24246" y="116799"/>
+		<node x="24241" y="117968"/>
+		<node x="23258" y="117955"/>
+	</territory>
+	<npcmaker name="dion18_tb22_m1" territory="dion18_tb2021_22" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_23" minZ="-12130" maxZ="-11900">
+		<node x="23273" y="119461"/>
+		<node x="24226" y="119461"/>
+		<node x="24226" y="120517"/>
+		<node x="23274" y="120523"/>
+	</territory>
+	<npcmaker name="dion18_tb23_m1" territory="dion18_tb2021_23" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion18_tb2021_24" minZ="-12131" maxZ="-11901">
+		<node x="20168" y="119397"/>
+		<node x="21129" y="119391"/>
+		<node x="21131" y="120505"/>
+		<node x="20157" y="120499"/>
+	</territory>
+	<npcmaker name="dion18_tb24_m1" territory="dion18_tb2021_24" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="60sec"/>
+		<npc id="21808" total="1" respawn="60sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_01" minZ="-9082" maxZ="-8882">
+		<node x="14797" y="108785"/>
+		<node x="15423" y="108787"/>
+		<node x="15420" y="110128"/>
+		<node x="14795" y="110123"/>
+	</territory>
+	<npcmaker name="dion19_2021_01m1" territory="dion19_2021_01" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20219" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20220" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_01m2" territory="dion19_2021_01" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20219" total="1" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20220" total="2" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_02" minZ="-9118" maxZ="-8918">
+		<node x="11953" y="108548"/>
+		<node x="13681" y="108543"/>
+		<node x="13682" y="111412"/>
+		<node x="11957" y="111416"/>
+	</territory>
+	<npcmaker name="dion19_2021_02m1" territory="dion19_2021_02" maximumNpcs="5">
+		<ai type="random_maker"/>
+		<npc id="20219" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21037" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20221" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20222" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_02m2" territory="dion19_2021_02" maximumNpcs="5">
+		<ai type="random_maker"/>
+		<npc id="20219" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21037" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20222" total="2" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_02m3" territory="dion19_2021_02" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20219" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21037" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_02m4" territory="dion19_2021_02" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20219" total="1" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21037" total="2" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20221" total="1" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20222" total="1" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_03" minZ="-9118" maxZ="-8918">
+		<node x="13522" y="112000"/>
+		<node x="13873" y="112002"/>
+		<node x="13867" y="115613"/>
+		<node x="13499" y="115609"/>
+	</territory>
+	<npcmaker name="dion19_2021_03m1" territory="dion19_2021_03" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="21037" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20221" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20222" total="2" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_03m2" territory="dion19_2021_03" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21037" total="2" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20222" total="2" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_04" minZ="-9047" maxZ="-8847">
+		<node x="14084" y="115637"/>
+		<node x="14080" y="116009"/>
+		<node x="13905" y="116276"/>
+		<node x="13481" y="116277"/>
+		<node x="13315" y="116009"/>
+		<node x="13326" y="115635"/>
+	</territory>
+	<npcmaker name="dion19_2021_04" territory="dion19_2021_04" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21037" total="2" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_05" minZ="-9090" maxZ="-8890">
+		<node x="12584" y="111892"/>
+		<node x="12875" y="111888"/>
+		<node x="12869" y="116362"/>
+		<node x="12583" y="116364"/>
+	</territory>
+	<npcmaker name="dion19_2021_05" territory="dion19_2021_05" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20220" total="3" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_06" minZ="-9118" maxZ="-8918">
+		<node x="11758" y="116701"/>
+		<node x="13425" y="116712"/>
+		<node x="13420" y="119731"/>
+		<node x="11721" y="119733"/>
+	</territory>
+	<npcmaker name="dion19_2021_06m1" territory="dion19_2021_06" maximumNpcs="5">
+		<ai type="random_maker"/>
+		<npc id="20222" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21038" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20136" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_06m2" territory="dion19_2021_06" maximumNpcs="5">
+		<ai type="random_maker"/>
+		<npc id="20222" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21038" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20136" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_06m3" territory="dion19_2021_06" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20222" total="2" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21038" total="2" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20136" total="1" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_07" minZ="-9118" maxZ="-8918">
+		<node x="11611" y="112620"/>
+		<node x="11962" y="112622"/>
+		<node x="11956" y="116227"/>
+		<node x="11588" y="116223"/>
+	</territory>
+	<npcmaker name="dion19_2021_07m1" territory="dion19_2021_07" maximumNpcs="2">
+		<ai type="random_maker"/>
+		<npc id="20222" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21038" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_07m2" territory="dion19_2021_07" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20222" total="1" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21038" total="2" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_08" minZ="-9038" maxZ="-8868">
+		<node x="11982" y="111971"/>
+		<node x="12125" y="112248"/>
+		<node x="12124" y="112593"/>
+		<node x="11433" y="112593"/>
+		<node x="11430" y="112239"/>
+		<node x="11555" y="111972"/>
+	</territory>
+	<npcmaker name="dion19_2021_08" territory="dion19_2021_08" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21038" total="2" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_09" minZ="-9118" maxZ="-8918">
+		<node x="14828" y="118326"/>
+		<node x="15442" y="118325"/>
+		<node x="15452" y="119788"/>
+		<node x="14836" y="119786"/>
+	</territory>
+	<npcmaker name="dion19_2021_09m1" territory="dion19_2021_09" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20222" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21038" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20136" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_09m2" territory="dion19_2021_09" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20222" total="2" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21038" total="2" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_10" minZ="-9118" maxZ="-8918">
+		<node x="20036" y="118253"/>
+		<node x="20647" y="118264"/>
+		<node x="20634" y="119731"/>
+		<node x="20035" y="119732"/>
+	</territory>
+	<npcmaker name="dion19_2021_10m1" territory="dion19_2021_10" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20222" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21038" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20136" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_10m2" territory="dion19_2021_10" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20222" total="2" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21038" total="2" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_11" minZ="-9092" maxZ="-8892">
+		<node x="21374" y="116816"/>
+		<node x="22327" y="116804"/>
+		<node x="22330" y="118718"/>
+		<node x="21388" y="118711"/>
+	</territory>
+	<npcmaker name="dion19_2021_11m1" territory="dion19_2021_11" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20222" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21038" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20136" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_11m2" territory="dion19_2021_11" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20222" total="2" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21038" total="1" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_14" minZ="-9087" maxZ="-8937">
+		<node x="21577" y="113394"/>
+		<node x="23747" y="113403"/>
+		<node x="23746" y="114820"/>
+		<node x="21576" y="114827"/>
+	</territory>
+	<npcmaker name="dion19_2021_14m1" territory="dion19_2021_14" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20221" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20222" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21038" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20136" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_14m2" territory="dion19_2021_14" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="20222" total="2" respawn="38sec" respawnRand="15sec"/>
+		<npc id="21038" total="2" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_14m3" territory="dion19_2021_14" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20221" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20222" total="1" respawn="45sec" respawnRand="20sec"/>
+		<npc id="21038" total="2" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20136" total="1" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_15" minZ="-9090" maxZ="-8940">
+		<node x="23056" y="109558"/>
+		<node x="23976" y="109539"/>
+		<node x="23993" y="111400"/>
+		<node x="23061" y="111396"/>
+	</territory>
+	<npcmaker name="dion19_2021_15m1" territory="dion19_2021_15" maximumNpcs="4">
+		<ai type="random_maker"/>
+		<npc id="21037" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20221" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20222" total="2" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_15m2" territory="dion19_2021_15" maximumNpcs="2">
+		<ai type="random_maker"/>
+		<npc id="21037" total="2" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_15m3" territory="dion19_2021_15" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21037" total="2" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20221" total="1" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20222" total="2" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_16" minZ="-9091" maxZ="-8891">
+		<node x="21354" y="109607"/>
+		<node x="21758" y="109606"/>
+		<node x="21763" y="111586"/>
+		<node x="21342" y="111586"/>
+	</territory>
+	<npcmaker name="dion19_2021_16m1" territory="dion19_2021_16" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21037" total="1" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20221" total="1" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20222" total="1" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_16m2" territory="dion19_2021_16" maximumNpcs="2">
+		<ai type="random_maker"/>
+		<npc id="21037" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20222" total="1" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_17" minZ="-9018" maxZ="-8848">
+		<node x="21762" y="109027"/>
+		<node x="21905" y="109304"/>
+		<node x="21904" y="109649"/>
+		<node x="21213" y="109649"/>
+		<node x="21210" y="109295"/>
+		<node x="21335" y="109027"/>
+	</territory>
+	<npcmaker name="dion19_2021_17" territory="dion19_2021_17" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21037" total="2" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_18" minZ="-9095" maxZ="-8945">
+		<node x="20013" y="108437"/>
+		<node x="20656" y="108436"/>
+		<node x="20651" y="109948"/>
+		<node x="20011" y="109941"/>
+	</territory>
+	<npcmaker name="dion19_2021_18m1" territory="dion19_2021_18" maximumNpcs="3">
+		<ai type="random_maker"/>
+		<npc id="20219" total="1" respawn="38sec" respawnRand="15sec"/>
+		<npc id="20220" total="2" respawn="38sec" respawnRand="15sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_2021_18m2" territory="dion19_2021_18" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20219" total="2" respawn="45sec" respawnRand="20sec"/>
+		<npc id="20220" total="1" respawn="45sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_p06" minZ="-9118" maxZ="-8918">
+		<node x="11360" y="116720"/>
+		<node x="13813" y="116728"/>
+		<node x="13798" y="119844"/>
+		<node x="11368" y="119848"/>
+	</territory>
+	<npcmaker name="dion19_2021_p06" territory="dion19_2021_p06" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="20753" total="2" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20754" weight="1" respawn="0sec"/>
+				<private id="20754" weight="1" respawn="0sec"/>
+				<private id="21040" weight="1" respawn="0sec"/>
+				<private id="21040" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_p07" minZ="-9118" maxZ="-8918">
+		<node x="11605" y="112097"/>
+		<node x="11956" y="112099"/>
+		<node x="11956" y="116227"/>
+		<node x="11588" y="116223"/>
+	</territory>
+	<npcmaker name="dion19_2021_p07" territory="dion19_2021_p07" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20753" total="1" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20754" weight="1" respawn="0sec"/>
+				<private id="20754" weight="1" respawn="0sec"/>
+				<private id="21040" weight="1" respawn="0sec"/>
+				<private id="21040" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_p11" minZ="-9092" maxZ="-8892">
+		<node x="21236" y="116690"/>
+		<node x="22427" y="116692"/>
+		<node x="22426" y="118827"/>
+		<node x="21234" y="118827"/>
+	</territory>
+	<npcmaker name="dion19_2021_p11" territory="dion19_2021_p11" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20753" total="1" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20754" weight="1" respawn="0sec"/>
+				<private id="20754" weight="1" respawn="0sec"/>
+				<private id="21040" weight="1" respawn="0sec"/>
+				<private id="21040" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_2021_p14" minZ="-9087" maxZ="-8937">
+		<node x="21307" y="113198"/>
+		<node x="23984" y="113207"/>
+		<node x="23983" y="115019"/>
+		<node x="21306" y="115032"/>
+	</territory>
+	<npcmaker name="dion19_2021_p14" territory="dion19_2021_p14" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="20753" total="2" respawn="45sec" respawnRand="15sec">
+			<privates>
+				<private id="20754" weight="1" respawn="0sec"/>
+				<private id="20754" weight="1" respawn="0sec"/>
+				<private id="21040" weight="1" respawn="0sec"/>
+				<private id="21040" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_tb2021_01" minZ="-9082" maxZ="-8882">
+		<node x="14797" y="108785"/>
+		<node x="15423" y="108787"/>
+		<node x="15420" y="110128"/>
+		<node x="14795" y="110123"/>
+	</territory>
+	<npcmaker name="dion19_tb01_m1" territory="dion19_tb2021_01" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_tb2021_02" minZ="-9118" maxZ="-8918">
+		<node x="11953" y="108548"/>
+		<node x="13681" y="108543"/>
+		<node x="13682" y="111412"/>
+		<node x="11957" y="111416"/>
+	</territory>
+	<npcmaker name="dion19_tb02_m1" territory="dion19_tb2021_02" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_tb02_m2" territory="dion19_tb2021_02" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_tb02_m3" territory="dion19_tb2021_02" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_tb2021_06" minZ="-9118" maxZ="-8918">
+		<node x="11758" y="116701"/>
+		<node x="13425" y="116712"/>
+		<node x="13420" y="119731"/>
+		<node x="11721" y="119733"/>
+	</territory>
+	<npcmaker name="dion19_tb06_m1" territory="dion19_tb2021_06" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_tb06_m2" territory="dion19_tb2021_06" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	<npcmaker name="dion19_tb06_m3" territory="dion19_tb2021_06" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_tb2021_09" minZ="-9118" maxZ="-8918">
+		<node x="14828" y="118326"/>
+		<node x="15442" y="118325"/>
+		<node x="15452" y="119788"/>
+		<node x="14836" y="119786"/>
+	</territory>
+	<npcmaker name="dion19_tb09_m1" territory="dion19_tb2021_09" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_tb2021_10" minZ="-9118" maxZ="-8918">
+		<node x="20036" y="118253"/>
+		<node x="20647" y="118264"/>
+		<node x="20634" y="119731"/>
+		<node x="20035" y="119732"/>
+	</territory>
+	<npcmaker name="dion19_tb10_m1" territory="dion19_tb2021_10" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_tb2021_11" minZ="-9092" maxZ="-8892">
+		<node x="21374" y="116816"/>
+		<node x="22327" y="116804"/>
+		<node x="22330" y="118718"/>
+		<node x="21388" y="118711"/>
+	</territory>
+	<npcmaker name="dion19_tb11_m1" territory="dion19_tb2021_11" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_tb2021_14" minZ="-9087" maxZ="-8937">
+		<node x="21577" y="113394"/>
+		<node x="23747" y="113403"/>
+		<node x="23746" y="114820"/>
+		<node x="21576" y="114827"/>
+	</territory>
+	<npcmaker name="dion19_tb14_m1" territory="dion19_tb2021_14" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_tb2021_15" minZ="-9090" maxZ="-8940">
+		<node x="23056" y="109558"/>
+		<node x="23976" y="109539"/>
+		<node x="23993" y="111400"/>
+		<node x="23061" y="111396"/>
+	</territory>
+	<npcmaker name="dion19_tb15_m1" territory="dion19_tb2021_15" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="dion19_tb2021_18" minZ="-9095" maxZ="-8945">
+		<node x="20013" y="108437"/>
+		<node x="20656" y="108436"/>
+		<node x="20651" y="109948"/>
+		<node x="20011" y="109941"/>
+	</territory>
+	<npcmaker name="dion19_tb18_m1" territory="dion19_tb2021_18" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18272" total="1" respawn="70sec"/>
+		<npc id="21808" total="1" respawn="70sec"/>
+	</npcmaker>
+</list>

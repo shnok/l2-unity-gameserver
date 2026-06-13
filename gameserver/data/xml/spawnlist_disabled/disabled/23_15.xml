@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Goddard Area
+ * Monastery of Silence
+-->
+<list>
+	<!--  -->
+	<territory name="godard01_npc2315_01" minZ="-3100" maxZ="-2900">
+		<node x="121972" y="-68272"/>
+		<node x="122196" y="-68324"/>
+		<node x="122236" y="-67460"/>
+		<node x="122032" y="-67480"/>
+	</territory>
+	<npcmaker name="godard01_npc2315_0101" territory="godard01_npc2315_01" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="31710" total="3" respawn="1min"/>
+		<npc id="31711" total="1" respawn="1min"/>
+		<npc id="31712" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard01_npc2315_02" minZ="-3180" maxZ="-2980">
+		<node x="127432" y="-70528"/>
+		<node x="127632" y="-70620"/>
+		<node x="127736" y="-69716"/>
+		<node x="127480" y="-69708"/>
+	</territory>
+	<npcmaker name="godard01_npc2315_0201" territory="godard01_npc2315_02" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="31707" total="3" respawn="1min"/>
+		<npc id="31708" total="1" respawn="1min"/>
+		<npc id="31709" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard01_npc2315_03" minZ="-3100" maxZ="-2900">
+		<node x="123612" y="-72296"/>
+		<node x="123812" y="-72296"/>
+		<node x="123812" y="-72096"/>
+		<node x="123612" y="-72096"/>
+	</territory>
+	<npcmaker name="godard01_npc2315_03m1" territory="godard01_npc2315_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31369" pos="123712;-72224;-3008;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard01_npc2315_04" minZ="-3250" maxZ="-3100">
+		<node x="122400" y="-69800"/>
+		<node x="122400" y="-70000"/>
+		<node x="122600" y="-69800"/>
+		<node x="122600" y="-70000"/>
+	</territory>
+	<npcmaker name="godard01_npc2315_04m1" territory="godard01_npc2315_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31654" pos="122512;-69965;-3112;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_01" minZ="-3460" maxZ="-3160">
+		<node x="109723" y="-85857"/>
+		<node x="111310" y="-85862"/>
+		<node x="111311" y="-84827"/>
+		<node x="109724" y="-84828"/>
+	</territory>
+	<npcmaker name="rune13_2315_01m1" territory="rune13_2315_01" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="22123" total="1" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22124" total="4" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="3" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_02" minZ="-3460" maxZ="-3160">
+		<node x="109648" y="-84512"/>
+		<node x="110224" y="-84505"/>
+		<node x="110233" y="-83902"/>
+		<node x="109638" y="-83901"/>
+	</territory>
+	<npcmaker name="rune13_2315_02m1" territory="rune13_2315_02" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="22124" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="2" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_03" minZ="-3460" maxZ="-3160">
+		<node x="109622" y="-83676"/>
+		<node x="109856" y="-83681"/>
+		<node x="109872" y="-81862"/>
+		<node x="109618" y="-81867"/>
+	</territory>
+	<npcmaker name="rune13_2315_03m1" territory="rune13_2315_03" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="22124" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_04" minZ="-3460" maxZ="-3160">
+		<node x="109645" y="-81855"/>
+		<node x="112361" y="-81856"/>
+		<node x="112363" y="-81644"/>
+		<node x="109641" y="-81645"/>
+	</territory>
+	<npcmaker name="rune13_2315_04m1" territory="rune13_2315_04" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="22124" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_05" minZ="-3610" maxZ="-3310">
+		<node x="109129" y="-80705"/>
+		<node x="110254" y="-80708"/>
+		<node x="110252" y="-79848"/>
+		<node x="109127" y="-79840"/>
+	</territory>
+	<npcmaker name="rune13_2315_05m1" territory="rune13_2315_05" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="22123" total="1" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22124" total="3" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="3" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_06" minZ="-3610" maxZ="-3310">
+		<node x="110977" y="-80746"/>
+		<node x="111818" y="-80749"/>
+		<node x="111818" y="-79859"/>
+		<node x="110984" y="-79858"/>
+	</territory>
+	<npcmaker name="rune13_2315_06m1" territory="rune13_2315_06" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="22123" total="1" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22125" total="3" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="3" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_07" minZ="-3460" maxZ="-3160">
+		<node x="112664" y="-82217"/>
+		<node x="113191" y="-82214"/>
+		<node x="113194" y="-81747"/>
+		<node x="112671" y="-81752"/>
+	</territory>
+	<npcmaker name="rune13_2315_07m1" territory="rune13_2315_07" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="22125" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_08" minZ="-3460" maxZ="-3160">
+		<node x="111933" y="-83544"/>
+		<node x="113079" y="-83546"/>
+		<node x="113081" y="-82645"/>
+		<node x="111935" y="-82643"/>
+	</territory>
+	<npcmaker name="rune13_2315_08m1" territory="rune13_2315_08" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="22124" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22123" total="1" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22128" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_09" minZ="-3460" maxZ="-3160">
+		<node x="111514" y="-84517"/>
+		<node x="112030" y="-84527"/>
+		<node x="112027" y="-83962"/>
+		<node x="111510" y="-83966"/>
+	</territory>
+	<npcmaker name="rune13_2315_09m1" territory="rune13_2315_09" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="22125" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_10" minZ="-3460" maxZ="-3160">
+		<node x="112401" y="-85563"/>
+		<node x="113377" y="-85565"/>
+		<node x="113376" y="-84393"/>
+		<node x="112400" y="-84389"/>
+	</territory>
+	<npcmaker name="rune13_2315_10m1" territory="rune13_2315_10" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="22123" total="1" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22124" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22125" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22128" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_11" minZ="-3460" maxZ="-3160">
+		<node x="113199" y="-87450"/>
+		<node x="113739" y="-87452"/>
+		<node x="113742" y="-87014"/>
+		<node x="113201" y="-87007"/>
+	</territory>
+	<npcmaker name="rune13_2315_11m1" territory="rune13_2315_11" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="22124" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_12" minZ="-3587" maxZ="-3287">
+		<node x="114292" y="-89446"/>
+		<node x="116549" y="-89443"/>
+		<node x="116557" y="-89293"/>
+		<node x="114300" y="-89283"/>
+	</territory>
+	<npcmaker name="rune13_2315_12m1" territory="rune13_2315_12" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="22125" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="2" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_13" minZ="-3583" maxZ="-3283">
+		<node x="114292" y="-88446"/>
+		<node x="116550" y="-88443"/>
+		<node x="116558" y="-88293"/>
+		<node x="114300" y="-88283"/>
+	</territory>
+	<npcmaker name="rune13_2315_13m1" territory="rune13_2315_13" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="22125" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="2" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_14" minZ="-3464" maxZ="-3114">
+		<node x="115260" y="-85718"/>
+		<node x="116609" y="-85718"/>
+		<node x="116615" y="-84427"/>
+		<node x="115256" y="-84421"/>
+	</territory>
+	<npcmaker name="rune13_2315_14m1" territory="rune13_2315_14" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="22123" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22125" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22128" total="2" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_15" minZ="-3464" maxZ="-3114">
+		<node x="115582" y="-84413"/>
+		<node x="116262" y="-84428"/>
+		<node x="116258" y="-83572"/>
+		<node x="115578" y="-83569"/>
+	</territory>
+	<npcmaker name="rune13_2315_15m1" territory="rune13_2315_15" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="22125" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_16" minZ="-3464" maxZ="-3114">
+		<node x="115606" y="-86505"/>
+		<node x="116283" y="-86510"/>
+		<node x="116282" y="-85730"/>
+		<node x="115602" y="-85727"/>
+	</territory>
+	<npcmaker name="rune13_2315_16m1" territory="rune13_2315_16" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="22125" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_17" minZ="-3464" maxZ="-3114">
+		<node x="115614" y="-82911"/>
+		<node x="116290" y="-82917"/>
+		<node x="116289" y="-82137"/>
+		<node x="115609" y="-82134"/>
+	</territory>
+	<npcmaker name="rune13_2315_17m1" territory="rune13_2315_17" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="22125" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_18" minZ="-3464" maxZ="-3114">
+		<node x="115240" y="-82121"/>
+		<node x="116589" y="-82121"/>
+		<node x="116594" y="-80831"/>
+		<node x="115236" y="-80825"/>
+	</territory>
+	<npcmaker name="rune13_2315_18m1" territory="rune13_2315_18" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="22123" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22125" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22128" total="2" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_19" minZ="-3464" maxZ="-3114">
+		<node x="115593" y="-80828"/>
+		<node x="116270" y="-80834"/>
+		<node x="116269" y="-80054"/>
+		<node x="115589" y="-80051"/>
+	</territory>
+	<npcmaker name="rune13_2315_19m1" territory="rune13_2315_19" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="22125" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_20" minZ="-3458" maxZ="-3158">
+		<node x="115185" y="-78911"/>
+		<node x="115759" y="-78884"/>
+		<node x="115761" y="-78440"/>
+		<node x="115166" y="-78439"/>
+	</territory>
+	<npcmaker name="rune13_2315_20m1" territory="rune13_2315_20" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="22124" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_21" minZ="-3458" maxZ="-3158">
+		<node x="116096" y="-78230"/>
+		<node x="116713" y="-78235"/>
+		<node x="116717" y="-76950"/>
+		<node x="116092" y="-76950"/>
+	</territory>
+	<npcmaker name="rune13_2315_21m1" territory="rune13_2315_21" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="22123" total="1" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22124" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22128" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_22" minZ="-3458" maxZ="-3158">
+		<node x="116820" y="-78234"/>
+		<node x="117444" y="-78232"/>
+		<node x="117461" y="-76947"/>
+		<node x="116808" y="-76944"/>
+	</territory>
+	<npcmaker name="rune13_2315_22m1" territory="rune13_2315_22" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="22123" total="1" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22124" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22128" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_23" minZ="-3458" maxZ="-3158">
+		<node x="118532" y="-77187"/>
+		<node x="119606" y="-77186"/>
+		<node x="119601" y="-75643"/>
+		<node x="118528" y="-75655"/>
+	</territory>
+	<npcmaker name="rune13_2315_23m1" territory="rune13_2315_23" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="22123" total="1" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22124" total="4" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="3" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_24" minZ="-3597" maxZ="-3297">
+		<node x="118503" y="-79011"/>
+		<node x="119379" y="-79009"/>
+		<node x="119384" y="-78114"/>
+		<node x="118504" y="-78119"/>
+	</territory>
+	<npcmaker name="rune13_2315_24m1" territory="rune13_2315_24" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="22124" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22126" total="2" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_25" minZ="-3163" maxZ="-2813">
+		<node x="118371" y="-84390"/>
+		<node x="119149" y="-84393"/>
+		<node x="119145" y="-82565"/>
+		<node x="118372" y="-82560"/>
+	</territory>
+	<npcmaker name="rune13_2315_25m1" territory="rune13_2315_25" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="22123" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22124" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22128" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_26" minZ="-2332" maxZ="-1982">
+		<node x="116298" y="-80693"/>
+		<node x="117061" y="-80699"/>
+		<node x="117069" y="-78803"/>
+		<node x="116302" y="-78809"/>
+	</territory>
+	<npcmaker name="rune13_2315_26m1" territory="rune13_2315_26" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="22123" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+				<private id="22122" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22125" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22128" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_27" minZ="-1695" maxZ="-1345">
+		<node x="114559" y="-81269"/>
+		<node x="115394" y="-81274"/>
+		<node x="115393" y="-79370"/>
+		<node x="114553" y="-79366"/>
+	</territory>
+	<npcmaker name="rune13_2315_27m1" territory="rune13_2315_27" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="22129" total="3" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="3" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="3" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_28" minZ="-1695" maxZ="-1345">
+		<node x="112335" y="-81456"/>
+		<node x="113850" y="-81458"/>
+		<node x="113855" y="-80492"/>
+		<node x="112331" y="-80496"/>
+	</territory>
+	<npcmaker name="rune13_2315_28m1" territory="rune13_2315_28" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_29" minZ="-1695" maxZ="-1345">
+		<node x="110712" y="-81447"/>
+		<node x="112333" y="-81452"/>
+		<node x="112337" y="-80486"/>
+		<node x="110708" y="-80490"/>
+	</territory>
+	<npcmaker name="rune13_2315_29m1" territory="rune13_2315_29" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_30" minZ="-1695" maxZ="-1345">
+		<node x="112428" y="-80145"/>
+		<node x="113943" y="-80147"/>
+		<node x="113947" y="-79182"/>
+		<node x="112424" y="-79185"/>
+	</territory>
+	<npcmaker name="rune13_2315_30m1" territory="rune13_2315_30" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_31" minZ="-1695" maxZ="-1345">
+		<node x="110734" y="-80141"/>
+		<node x="112419" y="-80146"/>
+		<node x="112423" y="-79181"/>
+		<node x="110740" y="-79194"/>
+	</territory>
+	<npcmaker name="rune13_2315_31m1" territory="rune13_2315_31" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_32" minZ="-1158" maxZ="-808">
+		<node x="108022" y="-79088"/>
+		<node x="109904" y="-79104"/>
+		<node x="109929" y="-78273"/>
+		<node x="108011" y="-78269"/>
+	</territory>
+	<npcmaker name="rune13_2315_32m1" territory="rune13_2315_32" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="22129" total="3" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="3" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="3" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_33" minZ="-1184" maxZ="-834">
+		<node x="107882" y="-77664"/>
+		<node x="108811" y="-77683"/>
+		<node x="108812" y="-76055"/>
+		<node x="107888" y="-76058"/>
+	</territory>
+	<npcmaker name="rune13_2315_33m1" territory="rune13_2315_33" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_34" minZ="-1184" maxZ="-834">
+		<node x="107883" y="-76050"/>
+		<node x="108813" y="-76068"/>
+		<node x="108813" y="-74441"/>
+		<node x="107889" y="-74443"/>
+	</territory>
+	<npcmaker name="rune13_2315_34m1" territory="rune13_2315_34" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_35" minZ="-1184" maxZ="-834">
+		<node x="109156" y="-77663"/>
+		<node x="110085" y="-77682"/>
+		<node x="110086" y="-76054"/>
+		<node x="109162" y="-76057"/>
+	</territory>
+	<npcmaker name="rune13_2315_35m1" territory="rune13_2315_35" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_36" minZ="-1184" maxZ="-834">
+		<node x="109157" y="-76045"/>
+		<node x="110086" y="-76064"/>
+		<node x="110087" y="-74436"/>
+		<node x="109163" y="-74439"/>
+	</territory>
+	<npcmaker name="rune13_2315_36m1" territory="rune13_2315_36" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_37" minZ="-644" maxZ="-294">
+		<node x="110205" y="-73644"/>
+		<node x="111039" y="-73648"/>
+		<node x="111038" y="-71745"/>
+		<node x="110198" y="-71741"/>
+	</territory>
+	<npcmaker name="rune13_2315_37m1" territory="rune13_2315_37" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="22129" total="3" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="3" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="3" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_38" minZ="-685" maxZ="-335">
+		<node x="111658" y="-73829"/>
+		<node x="113173" y="-73831"/>
+		<node x="113177" y="-72866"/>
+		<node x="111654" y="-72869"/>
+	</territory>
+	<npcmaker name="rune13_2315_38m1" territory="rune13_2315_38" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_39" minZ="-685" maxZ="-335">
+		<node x="113171" y="-73828"/>
+		<node x="114833" y="-73824"/>
+		<node x="114834" y="-72868"/>
+		<node x="113167" y="-72868"/>
+	</territory>
+	<npcmaker name="rune13_2315_39m1" territory="rune13_2315_39" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_40" minZ="-685" maxZ="-335">
+		<node x="111655" y="-72543"/>
+		<node x="113170" y="-72546"/>
+		<node x="113175" y="-71580"/>
+		<node x="111651" y="-71584"/>
+	</territory>
+	<npcmaker name="rune13_2315_40m1" territory="rune13_2315_40" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_41" minZ="-685" maxZ="-335">
+		<node x="113175" y="-72539"/>
+		<node x="114837" y="-72535"/>
+		<node x="114838" y="-71579"/>
+		<node x="113172" y="-71579"/>
+	</territory>
+	<npcmaker name="rune13_2315_41m1" territory="rune13_2315_41" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_42" minZ="-139" maxZ="211">
+		<node x="115672" y="-74733"/>
+		<node x="117554" y="-74748"/>
+		<node x="117579" y="-73918"/>
+		<node x="115661" y="-73913"/>
+	</territory>
+	<npcmaker name="rune13_2315_42m1" territory="rune13_2315_42" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="22129" total="3" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22132" total="3" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="3" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_43" minZ="-144" maxZ="206">
+		<node x="115500" y="-76978"/>
+		<node x="116430" y="-76996"/>
+		<node x="116430" y="-75368"/>
+		<node x="115506" y="-75371"/>
+	</territory>
+	<npcmaker name="rune13_2315_43m1" territory="rune13_2315_43" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_44" minZ="-144" maxZ="206">
+		<node x="115499" y="-78595"/>
+		<node x="116428" y="-78613"/>
+		<node x="116429" y="-76985"/>
+		<node x="115505" y="-76988"/>
+	</territory>
+	<npcmaker name="rune13_2315_44m1" territory="rune13_2315_44" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_45" minZ="-144" maxZ="206">
+		<node x="116782" y="-76943"/>
+		<node x="117711" y="-76961"/>
+		<node x="117711" y="-75333"/>
+		<node x="116788" y="-75336"/>
+	</territory>
+	<npcmaker name="rune13_2315_45m1" territory="rune13_2315_45" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_46" minZ="-144" maxZ="206">
+		<node x="116780" y="-78560"/>
+		<node x="117710" y="-78578"/>
+		<node x="117710" y="-76950"/>
+		<node x="116786" y="-76953"/>
+	</territory>
+	<npcmaker name="rune13_2315_46m1" territory="rune13_2315_46" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_47" minZ="-137" maxZ="213">
+		<node x="115719" y="-81339"/>
+		<node x="117597" y="-81330"/>
+		<node x="117588" y="-80510"/>
+		<node x="115723" y="-80517"/>
+	</territory>
+	<npcmaker name="rune13_2315_47m1" territory="rune13_2315_47" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_48" minZ="-137" maxZ="213">
+		<node x="114311" y="-81062"/>
+		<node x="115108" y="-81081"/>
+		<node x="115109" y="-79223"/>
+		<node x="114305" y="-79226"/>
+	</territory>
+	<npcmaker name="rune13_2315_48m1" territory="rune13_2315_48" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22129" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22133" total="1" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22134" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22135" total="2" respawn="90sec" respawnRand="15sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_2315_49" minZ="-3604" maxZ="-3304">
+		<node x="117089" y="-87708"/>
+		<node x="117618" y="-87714"/>
+		<node x="117623" y="-87309"/>
+		<node x="117103" y="-87309"/>
+	</territory>
+	<npcmaker name="rune13_2315_49m1" territory="rune13_2315_49" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="22125" total="2" respawn="90sec" respawnRand="15sec"/>
+		<npc id="22127" total="1" respawn="90sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_mb2315_01" minZ="-128" maxZ="772">
+		<node x="114221" y="-75923"/>
+		<node x="113401" y="-75085"/>
+		<node x="112196" y="-75073"/>
+		<node x="111353" y="-75914"/>
+		<node x="111360" y="-77082"/>
+		<node x="112211" y="-77938"/>
+		<node x="113387" y="-77948"/>
+		<node x="114243" y="-77118"/>
+	</territory>
+	<npcmaker name="rune13_mb2315_01m1" territory="rune13_mb2315_01" maximumNpcs="8">
+		<ai type="default_use_db_maker"/>
+		<npc id="29096" pos="112800;-76160;10;49152" total="1" respawn="36hour" respawnRand="24hour" dbName="anais_brilliance_master"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_mb2315_02" minZ="-64" maxZ="286">
+		<node x="112161" y="-75181"/>
+		<node x="111407" y="-75946"/>
+		<node x="111411" y="-76484"/>
+		<node x="112399" y="-75500"/>
+	</territory>
+	<npcmaker name="rune13_mb2315_02m1" territory="rune13_mb2315_02" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="22135" total="1" respawn="50sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22134" total="1" respawn="50sec"/>
+		<npc id="22134" total="1" respawn="50sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_mb2315_03" minZ="-64" maxZ="286">
+		<node x="111715" y="-76879"/>
+		<node x="111443" y="-77101"/>
+		<node x="112200" y="-77854"/>
+		<node x="112502" y="-77640"/>
+	</territory>
+	<npcmaker name="rune13_mb2315_03m1" territory="rune13_mb2315_03" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="22135" total="1" respawn="50sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22134" total="1" respawn="50sec"/>
+		<npc id="22134" total="1" respawn="50sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_mb2315_04" minZ="-64" maxZ="286">
+		<node x="113440" y="-77798"/>
+		<node x="114159" y="-77052"/>
+		<node x="114129" y="-76630"/>
+		<node x="113210" y="-77542"/>
+	</territory>
+	<npcmaker name="rune13_mb2315_04m1" territory="rune13_mb2315_04" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="22135" total="1" respawn="50sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22134" total="1" respawn="50sec"/>
+		<npc id="22134" total="1" respawn="50sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_mb2315_05" minZ="-64" maxZ="286">
+		<node x="114192" y="-75964"/>
+		<node x="113395" y="-75133"/>
+		<node x="112882" y="-75130"/>
+		<node x="113869" y="-76135"/>
+	</territory>
+	<npcmaker name="rune13_mb2315_05m1" territory="rune13_mb2315_05" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="22135" total="1" respawn="50sec">
+			<privates>
+				<private id="22130" weight="1" respawn="0sec"/>
+				<private id="22131" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22134" total="1" respawn="50sec"/>
+		<npc id="22134" total="1" respawn="50sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_mb2315_06" minZ="-144" maxZ="356">
+		<node x="112272" y="-77820"/>
+		<node x="113360" y="-77831"/>
+		<node x="114118" y="-77046"/>
+		<node x="114115" y="-75963"/>
+		<node x="113357" y="-75201"/>
+		<node x="112258" y="-75191"/>
+		<node x="111482" y="-75951"/>
+		<node x="111464" y="-77065"/>
+	</territory>
+	<territory name="rune13_mb2315_06b" minZ="-136" maxZ="464">
+		<node x="112518" y="-76787"/>
+		<node x="113035" y="-76792"/>
+		<node x="113035" y="-76257"/>
+		<node x="112518" y="-76261"/>
+	</territory>
+	<npcmaker name="rune13_mb2315_06m1" territory="rune13_mb2315_06" ban="rune13_mb2315_06b" maximumNpcs="16">
+		<ai type="exclusive_despawn_normal">
+				<set name="maker_name2" val="rune13_mb2315_06m1"/>
+				<set name="despawn_count" val="4"/>
+		</ai>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+		<npc id="22133" total="1" respawn="50sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_npc2315_1" minZ="-112" maxZ="188">
+		<node x="113612" y="-77492"/>
+		<node x="113812" y="-77492"/>
+		<node x="113812" y="-77292"/>
+		<node x="113612" y="-77292"/>
+	</territory>
+	<npcmaker name="rune13_npc2315_1m1" territory="rune13_npc2315_1" maximumNpcs="1">
+		<ai type="exclusive_despawn_normal">
+				<set name="unique_npc" val="holy_brazier"/>
+				<set name="maker_name1" val="rune13_mb2315_04m1"/>
+				<set name="maker_name2" val="rune13_mb2315_06m1"/>
+		</ai>
+		<npc id="32027" pos="113712;-77392;61;0" total="1" respawn="5min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_npc2315_2" minZ="-104" maxZ="196">
+		<node x="113580" y="-75700"/>
+		<node x="113780" y="-75700"/>
+		<node x="113780" y="-75500"/>
+		<node x="113580" y="-75500"/>
+	</territory>
+	<npcmaker name="rune13_npc2315_2m1" territory="rune13_npc2315_2" maximumNpcs="1">
+		<ai type="exclusive_despawn_normal">
+				<set name="unique_npc" val="holy_brazier"/>
+				<set name="maker_name1" val="rune13_mb2315_05m1"/>
+				<set name="maker_name2" val="rune13_mb2315_06m1"/>
+		</ai>
+		<npc id="32027" pos="113680;-75600;61;0" total="1" respawn="5min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_npc2315_3" minZ="-104" maxZ="196">
+		<node x="111804" y="-75700"/>
+		<node x="112004" y="-75700"/>
+		<node x="112004" y="-75500"/>
+		<node x="111804" y="-75500"/>
+	</territory>
+	<npcmaker name="rune13_npc2315_3m1" territory="rune13_npc2315_3" maximumNpcs="1">
+		<ai type="exclusive_despawn_normal">
+				<set name="unique_npc" val="holy_brazier"/>
+				<set name="maker_name1" val="rune13_mb2315_02m1"/>
+				<set name="maker_name2" val="rune13_mb2315_06m1"/>
+		</ai>
+		<npc id="32027" pos="111904;-75600;61;0" total="1" respawn="5min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_npc2315_4" minZ="-68" maxZ="232">
+		<node x="111820" y="-77476"/>
+		<node x="112020" y="-77476"/>
+		<node x="112020" y="-77276"/>
+		<node x="111820" y="-77276"/>
+	</territory>
+	<npcmaker name="rune13_npc2315_4m1" territory="rune13_npc2315_4" maximumNpcs="1">
+		<ai type="exclusive_despawn_normal">
+				<set name="unique_npc" val="holy_brazier"/>
+				<set name="maker_name1" val="rune13_mb2315_03m1"/>
+				<set name="maker_name2" val="rune13_mb2315_06m1"/>
+		</ai>
+		<npc id="32027" pos="111920;-77376;61;0" total="1" respawn="5min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_npc2315_5" minZ="-48" maxZ="142">
+		<node x="112700" y="-76612"/>
+		<node x="112900" y="-76612"/>
+		<node x="112900" y="-76412"/>
+		<node x="112700" y="-76412"/>
+	</territory>
+	<npcmaker name="rune13_npc2315_5m1" territory="rune13_npc2315_5" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="32028" pos="112800;-76508;86;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune13_npc2315_6" minZ="-668" maxZ="-418">
+		<node x="114572" y="-70948"/>
+		<node x="114772" y="-70948"/>
+		<node x="114772" y="-70748"/>
+		<node x="114572" y="-70748"/>
+	</territory>
+	<npcmaker name="rune13_npc2315_6m1" territory="rune13_npc2315_6" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="32008" pos="114672;-70848;-547;49152" total="1" respawn="1min"/>
+	</npcmaker>
+</list>

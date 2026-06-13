@@ -1,0 +1,5158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Rune Area
+ * Swamp of Screams
+ * Stakato Nest
+ * Devil's Pass
+-->
+<list>
+	<!--  -->
+	<territory name="rune01_npc2216_11" minZ="-2684" maxZ="-2184">
+		<node x="94817" y="-60894"/>
+		<node x="95017" y="-60894"/>
+		<node x="95017" y="-60694"/>
+		<node x="94817" y="-60694"/>
+	</territory>
+	<npcmaker name="rune01_npc2216_1101" territory="rune01_npc2216_11" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="31751" pos="94912;-60800;-2512;12288" total="1" respawn="1min"/>
+		<npc id="31752" pos="94880;-60768;-2496;12288" total="1" respawn="1min"/>
+		<npc id="31752" pos="94960;-60768;-2496;0" total="1" respawn="1min"/>
+		<npc id="31752" pos="94976;-60832;-2496;28672" total="1" respawn="1min"/>
+		<npc id="31752" pos="94864;-60844;-2512;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_01" minZ="-3256" maxZ="-2756">
+		<node x="73124" y="-59849"/>
+		<node x="73866" y="-60198"/>
+		<node x="74209" y="-57442"/>
+		<node x="73811" y="-55871"/>
+		<node x="70541" y="-52532"/>
+		<node x="69136" y="-53542"/>
+		<node x="68560" y="-56264"/>
+		<node x="69049" y="-57964"/>
+		<node x="71837" y="-57215"/>
+	</territory>
+	<territory name="rune12_2216_01b" minZ="-3218" maxZ="-2918">
+		<node x="70269" y="-56829"/>
+		<node x="71055" y="-57067"/>
+		<node x="72056" y="-56708"/>
+		<node x="72781" y="-55861"/>
+		<node x="72318" y="-54445"/>
+		<node x="71432" y="-53938"/>
+		<node x="70299" y="-54158"/>
+		<node x="69563" y="-54956"/>
+		<node x="69478" y="-55910"/>
+	</territory>
+	<npcmaker name="rune12_2216_01m1" territory="rune12_2216_01" ban="rune12_2216_01b" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="21508" total="4" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="4" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="42sec" respawnRand="20sec"/>
+		<npc id="21511" total="1" respawn="42sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_02" minZ="-3196" maxZ="-2696">
+		<node x="72980" y="-54964"/>
+		<node x="74278" y="-56014"/>
+		<node x="75109" y="-55877"/>
+		<node x="76704" y="-56289"/>
+		<node x="77096" y="-55510"/>
+		<node x="77405" y="-53896"/>
+		<node x="76242" y="-52528"/>
+	</territory>
+	<territory name="rune12_2216_02b" minZ="-3208" maxZ="-2978">
+		<node x="75067" y="-55125"/>
+		<node x="75649" y="-55341"/>
+		<node x="76231" y="-55212"/>
+		<node x="76635" y="-54641"/>
+		<node x="76577" y="-53945"/>
+		<node x="75987" y="-53652"/>
+		<node x="75587" y="-53588"/>
+		<node x="75156" y="-53724"/>
+		<node x="74770" y="-54493"/>
+	</territory>
+	<npcmaker name="rune12_2216_02m1" territory="rune12_2216_02" ban="rune12_2216_02b" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21508" total="3" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="75750"/>
+				<set name="flee_y" val="-54438"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="3" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="75750"/>
+				<set name="flee_y" val="-54438"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="75750"/>
+				<set name="flee_y" val="-54438"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="75750"/>
+				<set name="flee_y" val="-54438"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_03" minZ="-3196" maxZ="-2696">
+		<node x="70813" y="-52549"/>
+		<node x="72984" y="-54916"/>
+		<node x="75871" y="-52724"/>
+		<node x="75303" y="-51564"/>
+		<node x="75345" y="-50872"/>
+		<node x="74532" y="-49507"/>
+		<node x="71804" y="-51028"/>
+	</territory>
+	<territory name="rune12_2216_03b" minZ="-3199" maxZ="-2969">
+		<node x="72922" y="-51634"/>
+		<node x="73524" y="-52106"/>
+		<node x="74166" y="-52169"/>
+		<node x="74539" y="-51791"/>
+		<node x="74508" y="-50996"/>
+		<node x="74117" y="-50536"/>
+		<node x="73706" y="-50429"/>
+		<node x="73279" y="-50643"/>
+		<node x="72954" y="-51017"/>
+	</territory>
+	<npcmaker name="rune12_2216_03m1" territory="rune12_2216_03" ban="rune12_2216_03b" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21508" total="3" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="3" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_04s" minZ="-3174" maxZ="-2874">
+		<node x="69233" y="-57647"/>
+		<node x="69786" y="-57387"/>
+		<node x="70082" y="-56760"/>
+		<node x="69042" y="-54997"/>
+		<node x="68724" y="-56286"/>
+	</territory>
+	<npcmaker name="rune12_2216_04sm1" territory="rune12_2216_04s" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_05s" minZ="-3218" maxZ="-2918">
+		<node x="70349" y="-56417"/>
+		<node x="71237" y="-56750"/>
+		<node x="71912" y="-56306"/>
+		<node x="72223" y="-55555"/>
+		<node x="72090" y="-54737"/>
+		<node x="71243" y="-54265"/>
+		<node x="70470" y="-54479"/>
+		<node x="69950" y="-54936"/>
+		<node x="69912" y="-55870"/>
+	</territory>
+	<npcmaker name="rune12_2216_05sm1" territory="rune12_2216_05s" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21512" total="1" respawn="42sec" respawnRand="20sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21510" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_06s" minZ="-3228" maxZ="-2928">
+		<node x="72842" y="-58627"/>
+		<node x="73643" y="-58974"/>
+		<node x="73691" y="-57938"/>
+		<node x="72974" y="-56494"/>
+		<node x="72329" y="-57337"/>
+	</territory>
+	<npcmaker name="rune12_2216_06sm1" territory="rune12_2216_06s" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="71059"/>
+				<set name="flee_y" val="-55540"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_07s" minZ="-3195" maxZ="-2895">
+		<node x="74033" y="-55663"/>
+		<node x="74897" y="-55422"/>
+		<node x="74656" y="-54031"/>
+		<node x="73264" y="-54889"/>
+	</territory>
+	<npcmaker name="rune12_2216_07sm1" territory="rune12_2216_07s" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="75750"/>
+				<set name="flee_y" val="-54438"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="75750"/>
+				<set name="flee_y" val="-54438"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="75750"/>
+				<set name="flee_y" val="-54438"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="75750"/>
+				<set name="flee_y" val="-54438"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_08s" minZ="-3238" maxZ="-2938">
+		<node x="72299" y="-53898"/>
+		<node x="72781" y="-52929"/>
+		<node x="72724" y="-51310"/>
+		<node x="71112" y="-52506"/>
+	</territory>
+	<npcmaker name="rune12_2216_08sm1" territory="rune12_2216_08s" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_09s" minZ="-3213" maxZ="-2913">
+		<node x="73962" y="-53794"/>
+		<node x="74767" y="-52964"/>
+		<node x="74945" y="-51691"/>
+		<node x="73458" y="-52659"/>
+	</territory>
+	<npcmaker name="rune12_2216_09sm1" territory="rune12_2216_09s" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_100" minZ="-2354" maxZ="-2154">
+		<node x="75603" y="-59148"/>
+		<node x="78559" y="-60260"/>
+		<node x="78991" y="-59392"/>
+		<node x="77975" y="-58944"/>
+	</territory>
+	<npcmaker name="rune12_2216_100m1" territory="rune12_2216_100" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77512"/>
+				<set name="flee_y" val="-58412"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77712"/>
+				<set name="flee_y" val="-58412"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77512"/>
+				<set name="flee_y" val="-58212"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77712"/>
+				<set name="flee_y" val="-58212"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_101" minZ="-2507" maxZ="-2207">
+		<node x="78022" y="-58982"/>
+		<node x="78974" y="-59386"/>
+		<node x="79878" y="-57950"/>
+		<node x="77654" y="-56590"/>
+		<node x="78378" y="-58370"/>
+	</territory>
+	<npcmaker name="rune12_2216_101m1" territory="rune12_2216_101" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77512"/>
+				<set name="flee_y" val="-58412"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77712"/>
+				<set name="flee_y" val="-58412"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77512"/>
+				<set name="flee_y" val="-58212"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77712"/>
+				<set name="flee_y" val="-58212"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_102" minZ="-2500" maxZ="-2300">
+		<node x="77081" y="-57796"/>
+		<node x="78077" y="-57652"/>
+		<node x="77633" y="-56596"/>
+		<node x="77205" y="-57248"/>
+		<node x="75573" y="-57552"/>
+	</territory>
+	<npcmaker name="rune12_2216_102m1" territory="rune12_2216_102" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77512"/>
+				<set name="flee_y" val="-58412"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77712"/>
+				<set name="flee_y" val="-58412"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77512"/>
+				<set name="flee_y" val="-58212"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77712"/>
+				<set name="flee_y" val="-58212"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_103" minZ="-2391" maxZ="-2191">
+		<node x="77411" y="-58984"/>
+		<node x="76931" y="-58304"/>
+		<node x="77143" y="-57852"/>
+		<node x="75571" y="-57556"/>
+		<node x="75599" y="-59164"/>
+	</territory>
+	<npcmaker name="rune12_2216_103m1" territory="rune12_2216_103" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77512"/>
+				<set name="flee_y" val="-58412"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77712"/>
+				<set name="flee_y" val="-58412"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77512"/>
+				<set name="flee_y" val="-58212"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77712"/>
+				<set name="flee_y" val="-58212"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_104" minZ="-2659" maxZ="-2459">
+		<node x="88186" y="-54313"/>
+		<node x="88938" y="-52761"/>
+		<node x="88606" y="-52017"/>
+		<node x="89034" y="-51193"/>
+		<node x="89638" y="-51145"/>
+		<node x="88226" y="-50253"/>
+		<node x="87946" y="-50597"/>
+		<node x="87878" y="-53497"/>
+	</territory>
+	<npcmaker name="rune12_2216_104m1" territory="rune12_2216_104" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89436"/>
+				<set name="flee_y" val="-52116"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89636"/>
+				<set name="flee_y" val="-51916"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89636"/>
+				<set name="flee_y" val="-52116"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89436"/>
+				<set name="flee_y" val="-51916"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_105" minZ="-2685" maxZ="-2485">
+		<node x="90272" y="-51931"/>
+		<node x="90756" y="-51919"/>
+		<node x="91020" y="-50291"/>
+		<node x="88244" y="-50255"/>
+		<node x="90100" y="-51423"/>
+	</territory>
+	<npcmaker name="rune12_2216_105m1" territory="rune12_2216_105" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89436"/>
+				<set name="flee_y" val="-52116"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89636"/>
+				<set name="flee_y" val="-51916"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89636"/>
+				<set name="flee_y" val="-52116"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89436"/>
+				<set name="flee_y" val="-51916"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_106" minZ="-2699" maxZ="-2499">
+		<node x="88245" y="-54213"/>
+		<node x="90201" y="-54849"/>
+		<node x="90745" y="-51921"/>
+		<node x="90269" y="-51949"/>
+		<node x="90117" y="-52449"/>
+		<node x="89749" y="-52869"/>
+		<node x="88953" y="-52757"/>
+	</territory>
+	<npcmaker name="rune12_2216_106m1" territory="rune12_2216_106" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89436"/>
+				<set name="flee_y" val="-52116"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89636"/>
+				<set name="flee_y" val="-51916"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89636"/>
+				<set name="flee_y" val="-52116"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89436"/>
+				<set name="flee_y" val="-51916"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_107" minZ="-2714" maxZ="-2514">
+		<node x="90231" y="-54841"/>
+		<node x="92391" y="-55961"/>
+		<node x="92395" y="-54065"/>
+		<node x="91255" y="-53733"/>
+		<node x="90987" y="-53209"/>
+		<node x="91083" y="-52485"/>
+		<node x="90615" y="-52781"/>
+	</territory>
+	<npcmaker name="rune12_2216_107m1" territory="rune12_2216_107" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92124"/>
+				<set name="flee_y" val="-53060"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92324"/>
+				<set name="flee_y" val="-53060"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92124"/>
+				<set name="flee_y" val="-52860"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92324"/>
+				<set name="flee_y" val="-52860"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_108" minZ="-2701" maxZ="-2501">
+		<node x="90604" y="-52749"/>
+		<node x="91952" y="-51881"/>
+		<node x="92848" y="-52089"/>
+		<node x="92628" y="-50469"/>
+		<node x="91032" y="-50325"/>
+	</territory>
+	<npcmaker name="rune12_2216_108m1" territory="rune12_2216_108" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92124"/>
+				<set name="flee_y" val="-53060"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92324"/>
+				<set name="flee_y" val="-53060"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92124"/>
+				<set name="flee_y" val="-52860"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92324"/>
+				<set name="flee_y" val="-52860"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_109" minZ="-2707" maxZ="-2507">
+		<node x="92620" y="-50470"/>
+		<node x="93552" y="-50390"/>
+		<node x="93452" y="-53650"/>
+		<node x="93148" y="-53990"/>
+	</territory>
+	<npcmaker name="rune12_2216_109m1" territory="rune12_2216_109" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92124"/>
+				<set name="flee_y" val="-53060"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92324"/>
+				<set name="flee_y" val="-53060"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92124"/>
+				<set name="flee_y" val="-52860"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92324"/>
+				<set name="flee_y" val="-52860"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_10s" minZ="-3208" maxZ="-2978">
+		<node x="75327" y="-55017"/>
+		<node x="75694" y="-54999"/>
+		<node x="76091" y="-54839"/>
+		<node x="76184" y="-54600"/>
+		<node x="76419" y="-54400"/>
+		<node x="75925" y="-53902"/>
+		<node x="75486" y="-53831"/>
+		<node x="75200" y="-54119"/>
+		<node x="75147" y="-54492"/>
+	</territory>
+	<npcmaker name="rune12_2216_10sm1" territory="rune12_2216_10s" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21512" total="2" respawn="42sec" respawnRand="20sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21510" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="75750"/>
+				<set name="flee_y" val="-54438"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="75750"/>
+				<set name="flee_y" val="-54438"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_110" minZ="-2689" maxZ="-2489">
+		<node x="92406" y="-55021"/>
+		<node x="93142" y="-53981"/>
+		<node x="93086" y="-53553"/>
+		<node x="92410" y="-54085"/>
+	</territory>
+	<npcmaker name="rune12_2216_110m1" territory="rune12_2216_110" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92324"/>
+				<set name="flee_y" val="-53060"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92124"/>
+				<set name="flee_y" val="-52860"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_111" minZ="-2667" maxZ="-2467">
+		<node x="93100" y="-55982"/>
+		<node x="93392" y="-54326"/>
+		<node x="94184" y="-54226"/>
+		<node x="93456" y="-53670"/>
+		<node x="92416" y="-55006"/>
+		<node x="92396" y="-55926"/>
+	</territory>
+	<npcmaker name="rune12_2216_111m1" territory="rune12_2216_111" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="93996"/>
+				<set name="flee_y" val="-54932"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94196"/>
+				<set name="flee_y" val="-54932"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="93996"/>
+				<set name="flee_y" val="-54732"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94196"/>
+				<set name="flee_y" val="-54732"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_112" minZ="-2708" maxZ="-2508">
+		<node x="94918" y="-55993"/>
+		<node x="94734" y="-55157"/>
+		<node x="93982" y="-55785"/>
+		<node x="93254" y="-55141"/>
+		<node x="93102" y="-55977"/>
+		<node x="94194" y="-56349"/>
+	</territory>
+	<npcmaker name="rune12_2216_112m1" territory="rune12_2216_112" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="93996"/>
+				<set name="flee_y" val="-54932"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94196"/>
+				<set name="flee_y" val="-54932"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="93996"/>
+				<set name="flee_y" val="-54732"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94196"/>
+				<set name="flee_y" val="-54732"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_113" minZ="-2663" maxZ="-2463">
+		<node x="94930" y="-55997"/>
+		<node x="95490" y="-55525"/>
+		<node x="95506" y="-53945"/>
+		<node x="93478" y="-53669"/>
+		<node x="94670" y="-54577"/>
+	</territory>
+	<npcmaker name="rune12_2216_113m1" territory="rune12_2216_113" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="93996"/>
+				<set name="flee_y" val="-54932"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94196"/>
+				<set name="flee_y" val="-54932"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="93996"/>
+				<set name="flee_y" val="-54732"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94196"/>
+				<set name="flee_y" val="-54732"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_114" minZ="-2679" maxZ="-2479">
+		<node x="93459" y="-53670"/>
+		<node x="95479" y="-53938"/>
+		<node x="94975" y="-53270"/>
+		<node x="94207" y="-53186"/>
+		<node x="93515" y="-51858"/>
+	</territory>
+	<npcmaker name="rune12_2216_114m1" territory="rune12_2216_114" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94572"/>
+				<set name="flee_y" val="-52644"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94772"/>
+				<set name="flee_y" val="-52644"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94572"/>
+				<set name="flee_y" val="-52444"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94772"/>
+				<set name="flee_y" val="-52444"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_115" minZ="-2655" maxZ="-2455">
+		<node x="95487" y="-53928"/>
+		<node x="95003" y="-53260"/>
+		<node x="95347" y="-52472"/>
+		<node x="95075" y="-51916"/>
+		<node x="95843" y="-51804"/>
+	</territory>
+	<npcmaker name="rune12_2216_115m1" territory="rune12_2216_115" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94572"/>
+				<set name="flee_y" val="-52644"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94772"/>
+				<set name="flee_y" val="-52644"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94572"/>
+				<set name="flee_y" val="-52444"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_116" minZ="-2726" maxZ="-2526">
+		<node x="94307" y="-51974"/>
+		<node x="95815" y="-51802"/>
+		<node x="94895" y="-50330"/>
+		<node x="94115" y="-50302"/>
+	</territory>
+	<npcmaker name="rune12_2216_116m1" territory="rune12_2216_116" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94572"/>
+				<set name="flee_y" val="-52644"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94772"/>
+				<set name="flee_y" val="-52644"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94572"/>
+				<set name="flee_y" val="-52444"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94772"/>
+				<set name="flee_y" val="-52444"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_117" minZ="-2706" maxZ="-2506">
+		<node x="93834" y="-52434"/>
+		<node x="94282" y="-51942"/>
+		<node x="94106" y="-50306"/>
+		<node x="93562" y="-50418"/>
+		<node x="93522" y="-51858"/>
+	</territory>
+	<npcmaker name="rune12_2216_117m1" territory="rune12_2216_117" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94772"/>
+				<set name="flee_y" val="-52644"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94572"/>
+				<set name="flee_y" val="-52444"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94772"/>
+				<set name="flee_y" val="-52444"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_11s" minZ="-3208" maxZ="-2978">
+		<node x="73224" y="-51717"/>
+		<node x="73790" y="-51897"/>
+		<node x="74093" y="-51714"/>
+		<node x="74286" y="-51421"/>
+		<node x="74262" y="-51037"/>
+		<node x="73916" y="-50744"/>
+		<node x="73683" y="-50704"/>
+		<node x="73417" y="-50833"/>
+		<node x="73221" y="-51147"/>
+	</territory>
+	<npcmaker name="rune12_2216_11sm1" territory="rune12_2216_11s" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21512" total="1" respawn="42sec" respawnRand="20sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21510" total="1" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="2" respawn="42sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="73747"/>
+				<set name="flee_y" val="-51298"/>
+				<set name="flee_z" val="-3136"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_12s" minZ="-3285" maxZ="-3055">
+		<node x="71600" y="-45989"/>
+		<node x="71934" y="-46233"/>
+		<node x="72629" y="-46043"/>
+		<node x="73017" y="-45569"/>
+		<node x="73049" y="-44842"/>
+		<node x="72460" y="-44487"/>
+		<node x="72097" y="-44543"/>
+		<node x="71809" y="-44560"/>
+		<node x="71468" y="-45264"/>
+	</territory>
+	<npcmaker name="rune12_2216_12sm1" territory="rune12_2216_12s" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="72221"/>
+				<set name="flee_y" val="-45383"/>
+				<set name="flee_z" val="-3285"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="2" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="72221"/>
+				<set name="flee_y" val="-45383"/>
+				<set name="flee_z" val="-3285"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="90sec" respawnRand="35sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_13" minZ="-3311" maxZ="-2961">
+		<node x="71180" y="-46868"/>
+		<node x="72689" y="-47335"/>
+		<node x="72524" y="-48295"/>
+		<node x="74403" y="-48536"/>
+		<node x="75822" y="-48045"/>
+		<node x="75207" y="-44970"/>
+		<node x="74294" y="-43684"/>
+		<node x="69468" y="-43061"/>
+		<node x="69237" y="-44255"/>
+	</territory>
+	<npcmaker name="rune12_2216_13m1" territory="rune12_2216_13" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="72221"/>
+				<set name="flee_y" val="-45383"/>
+				<set name="flee_z" val="-3285"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="72221"/>
+				<set name="flee_y" val="-45383"/>
+				<set name="flee_z" val="-3285"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="72221"/>
+				<set name="flee_y" val="-45383"/>
+				<set name="flee_z" val="-3285"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="72221"/>
+				<set name="flee_y" val="-45383"/>
+				<set name="flee_z" val="-3285"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_14s" minZ="-3282" maxZ="-3032">
+		<node x="73565" y="-47617"/>
+		<node x="75494" y="-47494"/>
+		<node x="74803" y="-45515"/>
+		<node x="73103" y="-46701"/>
+	</territory>
+	<npcmaker name="rune12_2216_14sm1" territory="rune12_2216_14s" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="72221"/>
+				<set name="flee_y" val="-45383"/>
+				<set name="flee_z" val="-3285"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="72221"/>
+				<set name="flee_y" val="-45383"/>
+				<set name="flee_z" val="-3285"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="72221"/>
+				<set name="flee_y" val="-45383"/>
+				<set name="flee_z" val="-3285"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="72221"/>
+				<set name="flee_y" val="-45383"/>
+				<set name="flee_z" val="-3285"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_15s" minZ="-3281" maxZ="-3051">
+		<node x="72714" y="-42643"/>
+		<node x="73106" y="-42874"/>
+		<node x="73553" y="-42862"/>
+		<node x="73945" y="-42571"/>
+		<node x="73848" y="-42035"/>
+		<node x="73485" y="-41720"/>
+		<node x="73110" y="-41803"/>
+		<node x="72821" y="-42015"/>
+		<node x="72645" y="-42328"/>
+	</territory>
+	<npcmaker name="rune12_2216_15sm1" territory="rune12_2216_15s" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="73305"/>
+				<set name="flee_y" val="-42394"/>
+				<set name="flee_z" val="-3281"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="73305"/>
+				<set name="flee_y" val="-42394"/>
+				<set name="flee_z" val="-3281"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="90sec" respawnRand="35sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_16" minZ="-3287" maxZ="-3037">
+		<node x="69960" y="-42980"/>
+		<node x="71993" y="-43999"/>
+		<node x="74304" y="-43497"/>
+		<node x="75067" y="-41946"/>
+		<node x="74897" y="-39762"/>
+		<node x="72553" y="-40022"/>
+		<node x="72050" y="-40233"/>
+		<node x="71102" y="-38839"/>
+		<node x="70157" y="-40364"/>
+	</territory>
+	<npcmaker name="rune12_2216_16m1" territory="rune12_2216_16" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="73305"/>
+				<set name="flee_y" val="-42394"/>
+				<set name="flee_z" val="-3281"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="73305"/>
+				<set name="flee_y" val="-42394"/>
+				<set name="flee_z" val="-3281"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="73305"/>
+				<set name="flee_y" val="-42394"/>
+				<set name="flee_z" val="-3281"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="73305"/>
+				<set name="flee_y" val="-42394"/>
+				<set name="flee_z" val="-3281"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_17s" minZ="-3275" maxZ="-3025">
+		<node x="70291" y="-41389"/>
+		<node x="71699" y="-41689"/>
+		<node x="71860" y="-40910"/>
+		<node x="71114" y="-40020"/>
+		<node x="70332" y="-40394"/>
+	</territory>
+	<npcmaker name="rune12_2216_17sm1" territory="rune12_2216_17s" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="73305"/>
+				<set name="flee_y" val="-42394"/>
+				<set name="flee_z" val="-3281"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="73305"/>
+				<set name="flee_y" val="-42394"/>
+				<set name="flee_z" val="-3281"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="73305"/>
+				<set name="flee_y" val="-42394"/>
+				<set name="flee_z" val="-3281"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="73305"/>
+				<set name="flee_y" val="-42394"/>
+				<set name="flee_z" val="-3281"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_18s" minZ="-3308" maxZ="-3078">
+		<node x="75243" y="-44279"/>
+		<node x="76195" y="-44769"/>
+		<node x="77030" y="-44403"/>
+		<node x="77444" y="-43504"/>
+		<node x="77376" y="-42613"/>
+		<node x="76507" y="-42025"/>
+		<node x="75641" y="-42164"/>
+		<node x="74974" y="-42604"/>
+		<node x="74798" y="-43585"/>
+	</territory>
+	<npcmaker name="rune12_2216_18sm1" territory="rune12_2216_18s" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="76293"/>
+				<set name="flee_y" val="-43415"/>
+				<set name="flee_z" val="-3308"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="2" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="76293"/>
+				<set name="flee_y" val="-43415"/>
+				<set name="flee_z" val="-3308"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="90sec" respawnRand="35sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_19" minZ="-3290" maxZ="-3060">
+		<node x="75822" y="-47437"/>
+		<node x="77622" y="-46513"/>
+		<node x="78751" y="-46811"/>
+		<node x="79165" y="-45140"/>
+		<node x="77802" y="-42116"/>
+		<node x="77608" y="-40376"/>
+		<node x="75839" y="-39579"/>
+		<node x="75020" y="-40019"/>
+		<node x="74854" y="-43447"/>
+	</territory>
+	<npcmaker name="rune12_2216_19m1" territory="rune12_2216_19" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="76293"/>
+				<set name="flee_y" val="-43415"/>
+				<set name="flee_z" val="-3308"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="76293"/>
+				<set name="flee_y" val="-43415"/>
+				<set name="flee_z" val="-3308"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="76293"/>
+				<set name="flee_y" val="-43415"/>
+				<set name="flee_z" val="-3308"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="76293"/>
+				<set name="flee_y" val="-43415"/>
+				<set name="flee_z" val="-3308"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_20s" minZ="-3275" maxZ="-3075">
+		<node x="76638" y="-46284"/>
+		<node x="78146" y="-45633"/>
+		<node x="78146" y="-44662"/>
+		<node x="75923" y="-45388"/>
+	</territory>
+	<npcmaker name="rune12_2216_20sm1" territory="rune12_2216_20s" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="76293"/>
+				<set name="flee_y" val="-43415"/>
+				<set name="flee_z" val="-3308"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="2" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="76293"/>
+				<set name="flee_y" val="-43415"/>
+				<set name="flee_z" val="-3308"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_21s" minZ="-3280" maxZ="-3080">
+		<node x="75539" y="-41412"/>
+		<node x="77018" y="-41441"/>
+		<node x="77047" y="-40478"/>
+		<node x="75446" y="-40210"/>
+	</territory>
+	<npcmaker name="rune12_2216_21sm1" territory="rune12_2216_21s" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21509" total="2" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="76293"/>
+				<set name="flee_y" val="-43415"/>
+				<set name="flee_z" val="-3308"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="76293"/>
+				<set name="flee_y" val="-43415"/>
+				<set name="flee_z" val="-3308"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_22s" minZ="-3332" maxZ="-3102">
+		<node x="81102" y="-45167"/>
+		<node x="81490" y="-45368"/>
+		<node x="81950" y="-45130"/>
+		<node x="82161" y="-44708"/>
+		<node x="82067" y="-44288"/>
+		<node x="81731" y="-44188"/>
+		<node x="81398" y="-44174"/>
+		<node x="81117" y="-44370"/>
+		<node x="80844" y="-44686"/>
+	</territory>
+	<npcmaker name="rune12_2216_22sm1" territory="rune12_2216_22s" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="81503"/>
+				<set name="flee_y" val="-44735"/>
+				<set name="flee_z" val="-3332"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="2" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="81503"/>
+				<set name="flee_y" val="-44735"/>
+				<set name="flee_z" val="-3332"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="90sec" respawnRand="35sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_23" minZ="-3284" maxZ="-2934">
+		<node x="78893" y="-46476"/>
+		<node x="81268" y="-47534"/>
+		<node x="82964" y="-47224"/>
+		<node x="84685" y="-45478"/>
+		<node x="83735" y="-44696"/>
+		<node x="83796" y="-43572"/>
+		<node x="80363" y="-43708"/>
+		<node x="79066" y="-44354"/>
+	</territory>
+	<npcmaker name="rune12_2216_23m1" territory="rune12_2216_23" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="81503"/>
+				<set name="flee_y" val="-44735"/>
+				<set name="flee_z" val="-3332"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="81503"/>
+				<set name="flee_y" val="-44735"/>
+				<set name="flee_z" val="-3332"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="81503"/>
+				<set name="flee_y" val="-44735"/>
+				<set name="flee_z" val="-3332"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="81503"/>
+				<set name="flee_y" val="-44735"/>
+				<set name="flee_z" val="-3332"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_24s" minZ="-3258" maxZ="-3008">
+		<node x="79513" y="-46583"/>
+		<node x="80870" y="-46141"/>
+		<node x="80552" y="-45473"/>
+		<node x="79239" y="-45729"/>
+	</territory>
+	<npcmaker name="rune12_2216_24sm1" territory="rune12_2216_24s" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="81503"/>
+				<set name="flee_y" val="-44735"/>
+				<set name="flee_z" val="-3332"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="81503"/>
+				<set name="flee_y" val="-44735"/>
+				<set name="flee_z" val="-3332"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_25s" minZ="-3277" maxZ="-3027">
+		<node x="82161" y="-46691"/>
+		<node x="83597" y="-46205"/>
+		<node x="83076" y="-44715"/>
+		<node x="81657" y="-45811"/>
+	</territory>
+	<npcmaker name="rune12_2216_25sm1" territory="rune12_2216_25s" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21509" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="81503"/>
+				<set name="flee_y" val="-44735"/>
+				<set name="flee_z" val="-3332"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="81503"/>
+				<set name="flee_y" val="-44735"/>
+				<set name="flee_z" val="-3332"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_26s" minZ="-3315" maxZ="-3085">
+		<node x="79031" y="-42721"/>
+		<node x="79533" y="-42963"/>
+		<node x="80116" y="-42624"/>
+		<node x="80354" y="-42143"/>
+		<node x="80192" y="-41587"/>
+		<node x="79765" y="-41505"/>
+		<node x="79397" y="-41545"/>
+		<node x="79041" y="-41719"/>
+		<node x="78732" y="-42140"/>
+	</territory>
+	<npcmaker name="rune12_2216_26sm1" territory="rune12_2216_26s" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21511" total="2" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="79532"/>
+				<set name="flee_y" val="-42193"/>
+				<set name="flee_z" val="-3315"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="90sec" respawnRand="35sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_27" minZ="-3285" maxZ="-3025">
+		<node x="78694" y="-43948"/>
+		<node x="79515" y="-44073"/>
+		<node x="81316" y="-43608"/>
+		<node x="81000" y="-40145"/>
+		<node x="80821" y="-39950"/>
+		<node x="79999" y="-39910"/>
+		<node x="79278" y="-39379"/>
+		<node x="77688" y="-40359"/>
+		<node x="77849" y="-42091"/>
+	</territory>
+	<npcmaker name="rune12_2216_27m1" territory="rune12_2216_27" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="79532"/>
+				<set name="flee_y" val="-42193"/>
+				<set name="flee_z" val="-3315"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="79532"/>
+				<set name="flee_y" val="-42193"/>
+				<set name="flee_z" val="-3315"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="79532"/>
+				<set name="flee_y" val="-42193"/>
+				<set name="flee_z" val="-3315"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="79532"/>
+				<set name="flee_y" val="-42193"/>
+				<set name="flee_z" val="-3315"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_28s" minZ="-3292" maxZ="-3062">
+		<node x="81881" y="-42063"/>
+		<node x="82309" y="-42180"/>
+		<node x="82790" y="-41915"/>
+		<node x="82987" y="-41481"/>
+		<node x="82723" y="-41090"/>
+		<node x="82287" y="-40953"/>
+		<node x="81909" y="-41220"/>
+		<node x="81725" y="-41625"/>
+	</territory>
+	<npcmaker name="rune12_2216_28sm1" territory="rune12_2216_28s" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21511" total="2" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="82345"/>
+				<set name="flee_y" val="-41623"/>
+				<set name="flee_z" val="-3292"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="90sec" respawnRand="35sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_29" minZ="-3264" maxZ="-2914">
+		<node x="81412" y="-43593"/>
+		<node x="83579" y="-43510"/>
+		<node x="83176" y="-43092"/>
+		<node x="83772" y="-40711"/>
+		<node x="83616" y="-40298"/>
+		<node x="81941" y="-39645"/>
+		<node x="81841" y="-40034"/>
+		<node x="81056" y="-40232"/>
+	</territory>
+	<npcmaker name="rune12_2216_29m1" territory="rune12_2216_29" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="82345"/>
+				<set name="flee_y" val="-41623"/>
+				<set name="flee_z" val="-3292"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="82345"/>
+				<set name="flee_y" val="-41623"/>
+				<set name="flee_z" val="-3292"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="2" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="82345"/>
+				<set name="flee_y" val="-41623"/>
+				<set name="flee_z" val="-3292"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="90sec" respawnRand="35sec">
+			<ai>
+				<set name="flee_x" val="82345"/>
+				<set name="flee_y" val="-41623"/>
+				<set name="flee_z" val="-3292"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_521" minZ="-2403" maxZ="-2203">
+		<node x="77638" y="-51370"/>
+		<node x="78342" y="-50690"/>
+		<node x="79182" y="-50370"/>
+		<node x="78494" y="-49750"/>
+		<node x="77698" y="-49502"/>
+	</territory>
+	<npcmaker name="rune12_2216_521m1" territory="rune12_2216_521" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78796"/>
+				<set name="flee_y" val="-51380"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78996"/>
+				<set name="flee_y" val="-51380"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78796"/>
+				<set name="flee_y" val="-51180"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78996"/>
+				<set name="flee_y" val="-51180"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_53" minZ="-2366" maxZ="-2166">
+		<node x="78612" y="-52058"/>
+		<node x="78088" y="-51534"/>
+		<node x="78060" y="-50974"/>
+		<node x="77636" y="-51378"/>
+		<node x="77904" y="-52354"/>
+	</territory>
+	<npcmaker name="rune12_2216_53m1" territory="rune12_2216_53" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78996"/>
+				<set name="flee_y" val="-51380"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78796"/>
+				<set name="flee_y" val="-51180"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_54" minZ="-2390" maxZ="-2190">
+		<node x="80114" y="-52511"/>
+		<node x="79546" y="-51811"/>
+		<node x="79126" y="-52059"/>
+		<node x="78630" y="-52047"/>
+		<node x="78242" y="-52207"/>
+		<node x="78806" y="-53127"/>
+	</territory>
+	<npcmaker name="rune12_2216_54m1" territory="rune12_2216_54" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78796"/>
+				<set name="flee_y" val="-51380"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78996"/>
+				<set name="flee_y" val="-51380"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78796"/>
+				<set name="flee_y" val="-51180"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_55" minZ="-2380" maxZ="-2180">
+		<node x="79571" y="-51786"/>
+		<node x="80127" y="-52506"/>
+		<node x="81319" y="-51994"/>
+		<node x="81019" y="-50670"/>
+		<node x="79771" y="-50894"/>
+	</territory>
+	<npcmaker name="rune12_2216_55m1" territory="rune12_2216_55" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78796"/>
+				<set name="flee_y" val="-51380"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78996"/>
+				<set name="flee_y" val="-51380"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78796"/>
+				<set name="flee_y" val="-51180"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78996"/>
+				<set name="flee_y" val="-51180"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_56" minZ="-2357" maxZ="-2157">
+		<node x="79784" y="-50884"/>
+		<node x="80988" y="-50660"/>
+		<node x="80820" y="-50312"/>
+		<node x="79756" y="-50344"/>
+		<node x="78864" y="-50076"/>
+	</territory>
+	<npcmaker name="rune12_2216_56m1" territory="rune12_2216_56" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78996"/>
+				<set name="flee_y" val="-51380"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78796"/>
+				<set name="flee_y" val="-51180"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78996"/>
+				<set name="flee_y" val="-51180"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_57" minZ="-2414" maxZ="-2214">
+		<node x="82475" y="-51494"/>
+		<node x="82031" y="-50862"/>
+		<node x="82359" y="-50050"/>
+		<node x="80919" y="-50254"/>
+		<node x="81319" y="-51998"/>
+	</territory>
+	<npcmaker name="rune12_2216_57m1" territory="rune12_2216_57" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82876"/>
+				<set name="flee_y" val="-50900"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="83076"/>
+				<set name="flee_y" val="-50900"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82876"/>
+				<set name="flee_y" val="-50700"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="83076"/>
+				<set name="flee_y" val="-50700"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_58" minZ="-2421" maxZ="-2221">
+		<node x="82974" y="-52601"/>
+		<node x="83074" y="-51609"/>
+		<node x="82582" y="-51473"/>
+		<node x="81366" y="-52005"/>
+		<node x="82258" y="-52553"/>
+	</territory>
+	<npcmaker name="rune12_2216_58m1" territory="rune12_2216_58" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="83076"/>
+				<set name="flee_y" val="-50900"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82876"/>
+				<set name="flee_y" val="-50700"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="83076"/>
+				<set name="flee_y" val="-50700"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_59" minZ="-2494" maxZ="-2194">
+		<node x="83853" y="-53000"/>
+		<node x="85261" y="-52444"/>
+		<node x="83645" y="-51244"/>
+		<node x="83105" y="-51620"/>
+		<node x="83017" y="-52580"/>
+	</territory>
+	<npcmaker name="rune12_2216_59m1" territory="rune12_2216_59" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82876"/>
+				<set name="flee_y" val="-50900"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="83076"/>
+				<set name="flee_y" val="-50900"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82876"/>
+				<set name="flee_y" val="-50700"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="83076"/>
+				<set name="flee_y" val="-50700"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_60" minZ="-2605" maxZ="-2205">
+		<node x="83680" y="-51248"/>
+		<node x="84844" y="-52092"/>
+		<node x="84156" y="-49948"/>
+		<node x="83320" y="-50040"/>
+		<node x="83828" y="-50596"/>
+	</territory>
+	<npcmaker name="rune12_2216_60m1" territory="rune12_2216_60" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82876"/>
+				<set name="flee_y" val="-50900"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="83076"/>
+				<set name="flee_y" val="-50900"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82876"/>
+				<set name="flee_y" val="-50700"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="83076"/>
+				<set name="flee_y" val="-50700"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_61" minZ="-2370" maxZ="-2070">
+		<node x="85375" y="-54082"/>
+		<node x="85867" y="-54166"/>
+		<node x="85523" y="-52986"/>
+		<node x="84259" y="-53530"/>
+		<node x="84815" y="-54410"/>
+	</territory>
+	<npcmaker name="rune12_2216_61m1" territory="rune12_2216_61" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85584"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85667"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85584"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85667"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_62" minZ="-2401" maxZ="-2101">
+		<node x="84293" y="-55548"/>
+		<node x="84909" y="-55356"/>
+		<node x="84821" y="-54420"/>
+		<node x="84257" y="-53512"/>
+		<node x="84257" y="-54720"/>
+	</territory>
+	<npcmaker name="rune12_2216_62m1" territory="rune12_2216_62" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85667"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85584"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85667"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_63" minZ="-2429" maxZ="-2129">
+		<node x="86976" y="-56458"/>
+		<node x="86264" y="-54670"/>
+		<node x="85832" y="-55458"/>
+		<node x="84320" y="-55554"/>
+		<node x="84296" y="-56498"/>
+	</territory>
+	<npcmaker name="rune12_2216_63m1" territory="rune12_2216_63" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85584"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85667"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85584"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85667"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_64" minZ="-2369" maxZ="-2169">
+		<node x="83100" y="-56065"/>
+		<node x="84288" y="-56485"/>
+		<node x="84252" y="-52877"/>
+		<node x="82600" y="-53641"/>
+		<node x="83240" y="-55093"/>
+	</territory>
+	<npcmaker name="rune12_2216_64m1" territory="rune12_2216_64" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_65" minZ="-2384" maxZ="-2184">
+		<node x="80515" y="-53407"/>
+		<node x="82583" y="-53631"/>
+		<node x="83839" y="-53019"/>
+		<node x="83031" y="-52619"/>
+		<node x="82263" y="-52575"/>
+		<node x="81303" y="-51971"/>
+	</territory>
+	<npcmaker name="rune12_2216_65m1" territory="rune12_2216_65" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_66" minZ="-2401" maxZ="-1901">
+		<node x="78596" y="-55331"/>
+		<node x="80500" y="-53419"/>
+		<node x="81280" y="-52015"/>
+		<node x="80124" y="-52543"/>
+		<node x="78804" y="-53147"/>
+	</territory>
+	<npcmaker name="rune12_2216_66m1" territory="rune12_2216_66" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_67" minZ="-2575" maxZ="-2075">
+		<node x="77500" y="-56487"/>
+		<node x="79948" y="-57971"/>
+		<node x="79436" y="-54427"/>
+	</territory>
+	<npcmaker name="rune12_2216_67m1" territory="rune12_2216_67" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_68" minZ="-2405" maxZ="-2205">
+		<node x="79950" y="-57967"/>
+		<node x="82378" y="-58227"/>
+		<node x="81866" y="-57295"/>
+		<node x="80930" y="-57499"/>
+		<node x="79750" y="-56671"/>
+	</territory>
+	<npcmaker name="rune12_2216_68m1" territory="rune12_2216_68" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_69" minZ="-2414" maxZ="-2214">
+		<node x="84174" y="-58149"/>
+		<node x="84282" y="-56501"/>
+		<node x="83274" y="-56161"/>
+		<node x="81878" y="-57305"/>
+		<node x="82390" y="-58229"/>
+	</territory>
+	<npcmaker name="rune12_2216_69m1" territory="rune12_2216_69" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_70" minZ="-2432" maxZ="-2232">
+		<node x="84213" y="-58121"/>
+		<node x="86917" y="-57833"/>
+		<node x="86981" y="-56489"/>
+		<node x="84277" y="-56489"/>
+	</territory>
+	<npcmaker name="rune12_2216_70m1" territory="rune12_2216_70" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85452"/>
+				<set name="flee_y" val="-54836"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85356"/>
+				<set name="flee_y" val="-59476"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_71" minZ="-2415" maxZ="-2115">
+		<node x="84280" y="-53492"/>
+		<node x="85500" y="-52984"/>
+		<node x="85256" y="-52476"/>
+		<node x="84276" y="-52872"/>
+	</territory>
+	<npcmaker name="rune12_2216_71m1" territory="rune12_2216_71" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85584"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85667"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_72" minZ="-2422" maxZ="-2222">
+		<node x="86927" y="-57833"/>
+		<node x="88119" y="-57689"/>
+		<node x="88411" y="-56645"/>
+		<node x="86995" y="-56481"/>
+	</territory>
+	<npcmaker name="rune12_2216_72m1" territory="rune12_2216_72" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_73" minZ="-2543" maxZ="-2243">
+		<node x="88812" y="-59323"/>
+		<node x="90580" y="-58271"/>
+		<node x="89688" y="-57299"/>
+		<node x="88400" y="-56643"/>
+		<node x="88116" y="-57695"/>
+	</territory>
+	<npcmaker name="rune12_2216_73m1" territory="rune12_2216_73" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_74" minZ="-2408" maxZ="-2108">
+		<node x="90620" y="-62087"/>
+		<node x="91444" y="-59863"/>
+		<node x="90548" y="-58315"/>
+		<node x="88904" y="-59283"/>
+		<node x="89900" y="-60139"/>
+		<node x="89536" y="-61999"/>
+	</territory>
+	<npcmaker name="rune12_2216_74m1" territory="rune12_2216_74" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_75" minZ="-2434" maxZ="-2134">
+		<node x="87914" y="-62159"/>
+		<node x="89542" y="-61987"/>
+		<node x="89714" y="-61083"/>
+		<node x="88358" y="-61627"/>
+		<node x="87478" y="-60691"/>
+		<node x="87022" y="-61499"/>
+	</territory>
+	<npcmaker name="rune12_2216_75m1" territory="rune12_2216_75" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_76" minZ="-2406" maxZ="-2206">
+		<node x="86834" y="-61157"/>
+		<node x="87054" y="-61441"/>
+		<node x="87826" y="-59561"/>
+		<node x="86954" y="-59625"/>
+		<node x="86274" y="-60873"/>
+	</territory>
+	<npcmaker name="rune12_2216_76m1" territory="rune12_2216_76" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_77" minZ="-2415" maxZ="-2215">
+		<node x="88062" y="-59317"/>
+		<node x="88798" y="-59317"/>
+		<node x="88098" y="-57729"/>
+		<node x="86958" y="-57861"/>
+		<node x="86978" y="-59601"/>
+	</territory>
+	<npcmaker name="rune12_2216_77m1" territory="rune12_2216_77" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60452"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88788"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_78" minZ="-2399" maxZ="-2199">
+		<node x="86291" y="-59465"/>
+		<node x="86975" y="-59605"/>
+		<node x="86927" y="-57845"/>
+		<node x="83567" y="-58189"/>
+		<node x="85127" y="-58761"/>
+		<node x="85927" y="-58733"/>
+	</territory>
+	<npcmaker name="rune12_2216_78m1" territory="rune12_2216_78" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85356"/>
+				<set name="flee_y" val="-59476"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85556"/>
+				<set name="flee_y" val="-59476"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85356"/>
+				<set name="flee_y" val="-59276"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85556"/>
+				<set name="flee_y" val="-59276"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_79" minZ="-2394" maxZ="-2194">
+		<node x="84784" y="-60987"/>
+		<node x="84764" y="-59327"/>
+		<node x="85100" y="-58759"/>
+		<node x="83556" y="-58187"/>
+		<node x="83800" y="-60979"/>
+	</territory>
+	<npcmaker name="rune12_2216_79m1" territory="rune12_2216_79" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85356"/>
+				<set name="flee_y" val="-59476"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85556"/>
+				<set name="flee_y" val="-59476"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85356"/>
+				<set name="flee_y" val="-59276"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85556"/>
+				<set name="flee_y" val="-59276"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_80" minZ="-2466" maxZ="-2266">
+		<node x="86269" y="-59530"/>
+		<node x="85757" y="-60158"/>
+		<node x="85265" y="-60042"/>
+		<node x="84789" y="-59362"/>
+		<node x="84797" y="-60978"/>
+		<node x="85997" y="-61342"/>
+		<node x="86945" y="-59638"/>
+	</territory>
+	<npcmaker name="rune12_2216_80m1" territory="rune12_2216_80" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85356"/>
+				<set name="flee_y" val="-59476"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85556"/>
+				<set name="flee_y" val="-59476"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85356"/>
+				<set name="flee_y" val="-59276"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_81" minZ="-2414" maxZ="-2214">
+		<node x="81624" y="-61028"/>
+		<node x="83744" y="-60992"/>
+		<node x="83548" y="-58216"/>
+		<node x="81516" y="-58236"/>
+		<node x="82196" y="-59992"/>
+	</territory>
+	<npcmaker name="rune12_2216_81m1" territory="rune12_2216_81" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81116"/>
+				<set name="flee_y" val="-60068"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81316"/>
+				<set name="flee_y" val="-60068"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81116"/>
+				<set name="flee_y" val="-59868"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81316"/>
+				<set name="flee_y" val="-59868"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_82" minZ="-2386" maxZ="-2186">
+		<node x="80447" y="-58883"/>
+		<node x="81759" y="-58967"/>
+		<node x="81439" y="-58119"/>
+		<node x="79899" y="-57955"/>
+		<node x="79011" y="-59363"/>
+		<node x="79739" y="-60031"/>
+	</territory>
+	<npcmaker name="rune12_2216_82m1" territory="rune12_2216_82" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81316"/>
+				<set name="flee_y" val="-60068"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81116"/>
+				<set name="flee_y" val="-59868"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81316"/>
+				<set name="flee_y" val="-59868"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_83" minZ="-2392" maxZ="-2192">
+		<node x="80301" y="-61984"/>
+		<node x="80553" y="-61160"/>
+		<node x="79781" y="-60076"/>
+		<node x="78985" y="-59384"/>
+		<node x="78577" y="-60280"/>
+	</territory>
+	<npcmaker name="rune12_2216_83m1" territory="rune12_2216_83" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81116"/>
+				<set name="flee_y" val="-60068"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81316"/>
+				<set name="flee_y" val="-60068"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81116"/>
+				<set name="flee_y" val="-59868"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81316"/>
+				<set name="flee_y" val="-59868"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_84" minZ="-2383" maxZ="-2183">
+		<node x="80305" y="-61977"/>
+		<node x="83069" y="-62105"/>
+		<node x="83681" y="-61021"/>
+		<node x="80589" y="-61177"/>
+	</territory>
+	<npcmaker name="rune12_2216_84m1" territory="rune12_2216_84" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81116"/>
+				<set name="flee_y" val="-60068"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81316"/>
+				<set name="flee_y" val="-60068"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81116"/>
+				<set name="flee_y" val="-59868"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81316"/>
+				<set name="flee_y" val="-59868"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_85" minZ="-2395" maxZ="-2195">
+		<node x="83099" y="-62095"/>
+		<node x="84523" y="-62579"/>
+		<node x="85143" y="-62155"/>
+		<node x="84783" y="-61007"/>
+		<node x="83699" y="-60955"/>
+	</territory>
+	<npcmaker name="rune12_2216_85m1" territory="rune12_2216_85" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="84940"/>
+				<set name="flee_y" val="-63028"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85140"/>
+				<set name="flee_y" val="-63028"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="84940"/>
+				<set name="flee_y" val="-62828"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85140"/>
+				<set name="flee_y" val="-62828"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_86" minZ="-2422" maxZ="-2222">
+		<node x="85148" y="-62167"/>
+		<node x="85680" y="-62427"/>
+		<node x="85984" y="-61351"/>
+		<node x="84808" y="-61011"/>
+	</territory>
+	<npcmaker name="rune12_2216_86m1" territory="rune12_2216_86" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="84940"/>
+				<set name="flee_y" val="-63028"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85140"/>
+				<set name="flee_y" val="-63028"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="84940"/>
+				<set name="flee_y" val="-62828"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_87" minZ="-2358" maxZ="-2058">
+		<node x="85693" y="-63964"/>
+		<node x="86445" y="-63752"/>
+		<node x="86637" y="-63256"/>
+		<node x="85681" y="-62440"/>
+		<node x="85785" y="-63196"/>
+		<node x="85121" y="-63628"/>
+	</territory>
+	<npcmaker name="rune12_2216_87m1" territory="rune12_2216_87" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="84940"/>
+				<set name="flee_y" val="-63028"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85140"/>
+				<set name="flee_y" val="-63028"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="84940"/>
+				<set name="flee_y" val="-62828"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_88" minZ="-2390" maxZ="-2190">
+		<node x="83494" y="-63376"/>
+		<node x="84730" y="-64164"/>
+		<node x="85690" y="-63952"/>
+		<node x="84454" y="-63276"/>
+	</territory>
+	<npcmaker name="rune12_2216_88m1" territory="rune12_2216_88" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85140"/>
+				<set name="flee_y" val="-63028"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="84940"/>
+				<set name="flee_y" val="-62828"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85140"/>
+				<set name="flee_y" val="-62828"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_89" minZ="-2418" maxZ="-2218">
+		<node x="83492" y="-63354"/>
+		<node x="84404" y="-63258"/>
+		<node x="84460" y="-62554"/>
+		<node x="83080" y="-62094"/>
+	</territory>
+	<npcmaker name="rune12_2216_89m1" territory="rune12_2216_89" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85140"/>
+				<set name="flee_y" val="-63028"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="84940"/>
+				<set name="flee_y" val="-62828"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85140"/>
+				<set name="flee_y" val="-62828"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_90" minZ="-2449" maxZ="-2249">
+		<node x="82407" y="-64117"/>
+		<node x="83555" y="-63549"/>
+		<node x="83071" y="-62113"/>
+		<node x="81931" y="-62045"/>
+		<node x="81919" y="-63573"/>
+	</territory>
+	<npcmaker name="rune12_2216_90m1" territory="rune12_2216_90" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63364"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63364"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_91" minZ="-2398" maxZ="-2198">
+		<node x="81547" y="-64968"/>
+		<node x="82659" y="-64464"/>
+		<node x="81907" y="-63576"/>
+		<node x="81411" y="-64016"/>
+		<node x="80891" y="-63852"/>
+	</territory>
+	<npcmaker name="rune12_2216_91m1" territory="rune12_2216_91" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63364"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63364"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_92" minZ="-2392" maxZ="-2192">
+		<node x="79441" y="-64663"/>
+		<node x="81257" y="-64487"/>
+		<node x="80581" y="-63383"/>
+		<node x="79269" y="-62939"/>
+	</territory>
+	<npcmaker name="rune12_2216_92m1" territory="rune12_2216_92" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63364"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63364"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_93" minZ="-2390" maxZ="-2190">
+		<node x="81410" y="-62568"/>
+		<node x="81918" y="-62956"/>
+		<node x="81918" y="-62060"/>
+		<node x="80282" y="-61988"/>
+		<node x="79294" y="-62940"/>
+		<node x="80582" y="-63396"/>
+		<node x="80878" y="-62704"/>
+	</territory>
+	<npcmaker name="rune12_2216_93m1" territory="rune12_2216_93" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63364"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63364"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_94" minZ="-2419" maxZ="-2219">
+		<node x="78951" y="-62102"/>
+		<node x="79271" y="-62930"/>
+		<node x="80267" y="-61962"/>
+		<node x="79483" y="-61166"/>
+	</territory>
+	<npcmaker name="rune12_2216_94m1" territory="rune12_2216_94" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_95" minZ="-2366" maxZ="-2166">
+		<node x="78317" y="-63135"/>
+		<node x="79305" y="-63419"/>
+		<node x="79273" y="-62951"/>
+		<node x="78945" y="-62111"/>
+	</territory>
+	<npcmaker name="rune12_2216_95m1" territory="rune12_2216_95" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_96" minZ="-2357" maxZ="-2157">
+		<node x="77424" y="-62268"/>
+		<node x="78304" y="-63112"/>
+		<node x="78928" y="-62132"/>
+		<node x="77872" y="-62068"/>
+	</territory>
+	<npcmaker name="rune12_2216_96m1" territory="rune12_2216_96" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77348"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61516"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_97" minZ="-2395" maxZ="-2195">
+		<node x="76472" y="-62971"/>
+		<node x="77264" y="-62267"/>
+		<node x="76620" y="-61915"/>
+		<node x="76780" y="-61015"/>
+		<node x="75196" y="-61235"/>
+		<node x="75320" y="-61991"/>
+	</territory>
+	<npcmaker name="rune12_2216_97m1" territory="rune12_2216_97" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77348"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61516"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77348"/>
+				<set name="flee_y" val="-61516"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_98" minZ="-2426" maxZ="-2226">
+		<node x="75220" y="-61250"/>
+		<node x="78948" y="-60646"/>
+		<node x="78576" y="-60286"/>
+		<node x="75576" y="-59158"/>
+	</territory>
+	<npcmaker name="rune12_2216_98m1" territory="rune12_2216_98" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77348"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61516"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77348"/>
+				<set name="flee_y" val="-61516"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_99" minZ="-2413" maxZ="-2213">
+		<node x="77907" y="-62090"/>
+		<node x="78911" y="-62142"/>
+		<node x="79479" y="-61174"/>
+		<node x="78931" y="-60650"/>
+		<node x="77895" y="-60818"/>
+	</territory>
+	<npcmaker name="rune12_2216_99m1" territory="rune12_2216_99" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77348"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61516"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77348"/>
+				<set name="flee_y" val="-61516"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b06" minZ="-3458" maxZ="-3158">
+		<node x="73198" y="-44860"/>
+		<node x="72682" y="-44392"/>
+		<node x="71766" y="-44416"/>
+		<node x="71314" y="-44836"/>
+		<node x="71378" y="-45248"/>
+		<node x="71430" y="-45960"/>
+		<node x="71850" y="-46264"/>
+		<node x="72594" y="-46236"/>
+		<node x="73034" y="-45800"/>
+	</territory>
+	<npcmaker name="rune12_2216_b06m1" territory="rune12_2216_b06" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="21509" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="72220"/>
+				<set name="flee_y" val="-45284"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="72420"/>
+				<set name="flee_y" val="-45284"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="72220"/>
+				<set name="flee_y" val="-45084"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="42sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b07" minZ="-3418" maxZ="-3118">
+		<node x="74049" y="-42558"/>
+		<node x="73997" y="-41998"/>
+		<node x="73513" y="-41622"/>
+		<node x="73093" y="-41610"/>
+		<node x="72537" y="-42338"/>
+		<node x="72661" y="-42830"/>
+		<node x="73325" y="-43018"/>
+		<node x="73641" y="-42942"/>
+	</territory>
+	<npcmaker name="rune12_2216_b07m1" territory="rune12_2216_b07" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="73212"/>
+				<set name="flee_y" val="-42404"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="73412"/>
+				<set name="flee_y" val="-42404"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="73212"/>
+				<set name="flee_y" val="-42404"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="73212"/>
+				<set name="flee_y" val="-42204"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="42sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b08" minZ="-3410" maxZ="-3110">
+		<node x="77309" y="-42410"/>
+		<node x="76629" y="-41878"/>
+		<node x="75557" y="-41990"/>
+		<node x="74781" y="-42802"/>
+		<node x="74745" y="-43802"/>
+		<node x="75581" y="-44790"/>
+		<node x="76761" y="-44770"/>
+		<node x="77597" y="-44062"/>
+		<node x="77641" y="-43006"/>
+	</territory>
+	<npcmaker name="rune12_2216_b08m1" territory="rune12_2216_b08" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="76084"/>
+				<set name="flee_y" val="-43724"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21509" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="76284"/>
+				<set name="flee_y" val="-43724"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="76084"/>
+				<set name="flee_y" val="-43524"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="76284"/>
+				<set name="flee_y" val="-43524"/>
+				<set name="flee_z" val="-3224"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="42sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b09" minZ="-3422" maxZ="-3122">
+		<node x="80214" y="-42670"/>
+		<node x="80438" y="-42094"/>
+		<node x="80314" y="-41546"/>
+		<node x="79614" y="-41342"/>
+		<node x="78754" y="-41710"/>
+		<node x="78662" y="-42230"/>
+		<node x="79062" y="-42894"/>
+		<node x="79758" y="-43070"/>
+		<node x="79930" y="-42834"/>
+	</territory>
+	<npcmaker name="rune12_2216_b09m1" territory="rune12_2216_b09" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="79580"/>
+				<set name="flee_y" val="-42276"/>
+				<set name="flee_z" val="-3216"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="79780"/>
+				<set name="flee_y" val="-42276"/>
+				<set name="flee_z" val="-3216"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="79580"/>
+				<set name="flee_y" val="-42076"/>
+				<set name="flee_z" val="-3216"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="42sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b10" minZ="-3370" maxZ="-3070">
+		<node x="83118" y="-41483"/>
+		<node x="82686" y="-40931"/>
+		<node x="82046" y="-40887"/>
+		<node x="82050" y="-41079"/>
+		<node x="81734" y="-41263"/>
+		<node x="81610" y="-41879"/>
+		<node x="82366" y="-42299"/>
+		<node x="82758" y="-42155"/>
+		<node x="82910" y="-41879"/>
+		<node x="83086" y="-41823"/>
+	</territory>
+	<npcmaker name="rune12_2216_b10m1" territory="rune12_2216_b10" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21509" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82300"/>
+				<set name="flee_y" val="-41532"/>
+				<set name="flee_z" val="-3216"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82300"/>
+				<set name="flee_y" val="-41532"/>
+				<set name="flee_z" val="-3216"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82300"/>
+				<set name="flee_y" val="-41532"/>
+				<set name="flee_z" val="-3216"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="42sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b11" minZ="-3366" maxZ="-3066">
+		<node x="81654" y="-45503"/>
+		<node x="81886" y="-45267"/>
+		<node x="82222" y="-44899"/>
+		<node x="82266" y="-44547"/>
+		<node x="82098" y="-44207"/>
+		<node x="81506" y="-44063"/>
+		<node x="80846" y="-44375"/>
+		<node x="80786" y="-44795"/>
+		<node x="81094" y="-45271"/>
+	</territory>
+	<npcmaker name="rune12_2216_b11m1" territory="rune12_2216_b11" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21509" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81340"/>
+				<set name="flee_y" val="-44868"/>
+				<set name="flee_z" val="-3232"/>
+			</ai>
+		</npc>
+		<npc id="21510" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81540"/>
+				<set name="flee_y" val="-44868"/>
+				<set name="flee_z" val="-3232"/>
+			</ai>
+		</npc>
+		<npc id="21511" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81340"/>
+				<set name="flee_y" val="-44668"/>
+				<set name="flee_z" val="-3232"/>
+			</ai>
+		</npc>
+		<npc id="21512" total="1" respawn="42sec">
+			<privates>
+				<private id="21518" weight="1" respawn="0sec"/>
+				<private id="21518" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b12" minZ="-2522" maxZ="-2222">
+		<node x="79526" y="-51746"/>
+		<node x="79638" y="-51098"/>
+		<node x="79190" y="-50458"/>
+		<node x="78398" y="-50694"/>
+		<node x="78158" y="-51298"/>
+		<node x="78570" y="-51934"/>
+		<node x="79214" y="-51898"/>
+	</territory>
+	<npcmaker name="rune12_2216_b12m1" territory="rune12_2216_b12" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78796"/>
+				<set name="flee_y" val="-51380"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78996"/>
+				<set name="flee_y" val="-51380"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="78796"/>
+				<set name="flee_y" val="-51180"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b13" minZ="-2470" maxZ="-2170">
+		<node x="83615" y="-50828"/>
+		<node x="83507" y="-50428"/>
+		<node x="83115" y="-50032"/>
+		<node x="82447" y="-50180"/>
+		<node x="82231" y="-50752"/>
+		<node x="82535" y="-51328"/>
+		<node x="82855" y="-51444"/>
+		<node x="83535" y="-51204"/>
+	</territory>
+	<npcmaker name="rune12_2216_b13m1" territory="rune12_2216_b13" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82876"/>
+				<set name="flee_y" val="-50900"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="83076"/>
+				<set name="flee_y" val="-50900"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="82876"/>
+				<set name="flee_y" val="-50700"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b14" minZ="-2458" maxZ="-2158">
+		<node x="81946" y="-53719"/>
+		<node x="81398" y="-53767"/>
+		<node x="80642" y="-53691"/>
+		<node x="79554" y="-54587"/>
+		<node x="79782" y="-55123"/>
+		<node x="79886" y="-56423"/>
+		<node x="81054" y="-57231"/>
+		<node x="81802" y="-57111"/>
+		<node x="82970" y="-56139"/>
+		<node x="82738" y="-54227"/>
+	</territory>
+	<npcmaker name="rune12_2216_b14m1" territory="rune12_2216_b14" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55844"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81100"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81300"/>
+				<set name="flee_y" val="-55644"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="2" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b15" minZ="-2542" maxZ="-2242">
+		<node x="78226" y="-58454"/>
+		<node x="78206" y="-58026"/>
+		<node x="77858" y="-57766"/>
+		<node x="77370" y="-57814"/>
+		<node x="77058" y="-58266"/>
+		<node x="77374" y="-58806"/>
+		<node x="77966" y="-58870"/>
+	</territory>
+	<npcmaker name="rune12_2216_b15m1" territory="rune12_2216_b15" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77512"/>
+				<set name="flee_y" val="-58412"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77712"/>
+				<set name="flee_y" val="-58412"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77512"/>
+				<set name="flee_y" val="-58212"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b16" minZ="-2558" maxZ="-2258">
+		<node x="77796" y="-61961"/>
+		<node x="77836" y="-61333"/>
+		<node x="77524" y="-60969"/>
+		<node x="77100" y="-61041"/>
+		<node x="76796" y="-61233"/>
+		<node x="76728" y="-61865"/>
+		<node x="77368" y="-62213"/>
+	</territory>
+	<npcmaker name="rune12_2216_b16m1" territory="rune12_2216_b16" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77348"/>
+				<set name="flee_y" val="-61716"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="77148"/>
+				<set name="flee_y" val="-61516"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b17" minZ="-2414" maxZ="-2114">
+		<node x="82052" y="-59979"/>
+		<node x="81588" y="-59123"/>
+		<node x="80692" y="-59059"/>
+		<node x="80152" y="-59707"/>
+		<node x="80172" y="-60535"/>
+		<node x="80824" y="-61043"/>
+		<node x="81552" y="-60955"/>
+	</territory>
+	<npcmaker name="rune12_2216_b17m1" territory="rune12_2216_b17" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81316"/>
+				<set name="flee_y" val="-60068"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81116"/>
+				<set name="flee_y" val="-59868"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81316"/>
+				<set name="flee_y" val="-59868"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81116"/>
+				<set name="flee_y" val="-59668"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b18" minZ="-2522" maxZ="-2222">
+		<node x="85533" y="-63207"/>
+		<node x="85685" y="-62647"/>
+		<node x="85249" y="-62239"/>
+		<node x="84589" y="-62535"/>
+		<node x="84549" y="-63151"/>
+		<node x="85101" y="-63443"/>
+	</territory>
+	<npcmaker name="rune12_2216_b18m1" territory="rune12_2216_b18" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85140"/>
+				<set name="flee_y" val="-63028"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="84940"/>
+				<set name="flee_y" val="-62828"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85140"/>
+				<set name="flee_y" val="-62828"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b19" minZ="-2462" maxZ="-2162">
+		<node x="89512" y="-60985"/>
+		<node x="89712" y="-60141"/>
+		<node x="88888" y="-59441"/>
+		<node x="87948" y="-59557"/>
+		<node x="87620" y="-60545"/>
+		<node x="88136" y="-61165"/>
+		<node x="88544" y="-61437"/>
+	</territory>
+	<npcmaker name="rune12_2216_b19m1" territory="rune12_2216_b19" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="88588"/>
+				<set name="flee_y" val="-60252"/>
+				<set name="flee_z" val="-2336"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b20" minZ="-2574" maxZ="-2274">
+		<node x="86034" y="-54576"/>
+		<node x="85642" y="-54220"/>
+		<node x="85238" y="-54224"/>
+		<node x="84862" y="-54636"/>
+		<node x="85082" y="-55248"/>
+		<node x="85526" y="-55364"/>
+		<node x="85950" y="-55020"/>
+	</territory>
+	<npcmaker name="rune12_2216_b20m1" territory="rune12_2216_b20" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85584"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21513" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85667"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85584"/>
+				<set name="flee_y" val="-54781"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b21" minZ="-2727" maxZ="-2427">
+		<node x="90080" y="-52443"/>
+		<node x="90212" y="-51947"/>
+		<node x="89700" y="-51239"/>
+		<node x="88928" y="-51583"/>
+		<node x="88764" y="-51991"/>
+		<node x="89008" y="-52687"/>
+		<node x="89688" y="-52723"/>
+	</territory>
+	<npcmaker name="rune12_2216_b21m1" territory="rune12_2216_b21" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89436"/>
+				<set name="flee_y" val="-52116"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89636"/>
+				<set name="flee_y" val="-51916"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="89636"/>
+				<set name="flee_y" val="-52116"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b22" minZ="-2767" maxZ="-2467">
+		<node x="92777" y="-52363"/>
+		<node x="91981" y="-51967"/>
+		<node x="91281" y="-52519"/>
+		<node x="91229" y="-53299"/>
+		<node x="91385" y="-53679"/>
+		<node x="92405" y="-53943"/>
+		<node x="93025" y="-53439"/>
+	</territory>
+	<npcmaker name="rune12_2216_b22m1" territory="rune12_2216_b22" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92124"/>
+				<set name="flee_y" val="-53060"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92324"/>
+				<set name="flee_y" val="-53060"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="2" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="92124"/>
+				<set name="flee_y" val="-52860"/>
+				<set name="flee_z" val="-2616"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b23" minZ="-2763" maxZ="-2463">
+		<node x="95179" y="-52286"/>
+		<node x="94747" y="-51982"/>
+		<node x="94303" y="-52062"/>
+		<node x="93927" y="-52458"/>
+		<node x="94187" y="-53042"/>
+		<node x="94707" y="-53150"/>
+		<node x="95043" y="-53058"/>
+		<node x="95211" y="-52546"/>
+	</territory>
+	<npcmaker name="rune12_2216_b23m1" territory="rune12_2216_b23" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94572"/>
+				<set name="flee_y" val="-52444"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94572"/>
+				<set name="flee_y" val="-52444"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94572"/>
+				<set name="flee_y" val="-52444"/>
+				<set name="flee_z" val="-2624"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b24" minZ="-2600" maxZ="-1928">
+		<node x="85396" y="-59733"/>
+		<node x="85931" y="-59496"/>
+		<node x="85450" y="-58978"/>
+		<node x="85345" y="-59019"/>
+		<node x="85412" y="-59237"/>
+		<node x="85184" y="-59504"/>
+	</territory>
+	<npcmaker name="rune12_2216_b24m1" territory="rune12_2216_b24" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21515" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85356"/>
+				<set name="flee_y" val="-59476"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85556"/>
+				<set name="flee_y" val="-59476"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="85356"/>
+				<set name="flee_y" val="-59276"/>
+				<set name="flee_z" val="-2512"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b25" minZ="-2486" maxZ="-2286">
+		<node x="81382" y="-63921"/>
+		<node x="81826" y="-63537"/>
+		<node x="81834" y="-62985"/>
+		<node x="81298" y="-62773"/>
+		<node x="80870" y="-62985"/>
+		<node x="80798" y="-63309"/>
+		<node x="80946" y="-63769"/>
+	</territory>
+	<npcmaker name="rune12_2216_b25m1" territory="rune12_2216_b25" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63364"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81396"/>
+				<set name="flee_y" val="-63364"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="81196"/>
+				<set name="flee_y" val="-63164"/>
+				<set name="flee_z" val="-2328"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_2216_b26" minZ="-2838" maxZ="-2419">
+		<node x="93421" y="-55220"/>
+		<node x="94109" y="-55536"/>
+		<node x="94601" y="-55164"/>
+		<node x="94581" y="-54740"/>
+		<node x="94185" y="-54360"/>
+		<node x="93565" y="-54344"/>
+		<node x="93365" y="-54760"/>
+	</territory>
+	<npcmaker name="rune12_2216_b26m1" territory="rune12_2216_b26" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21508" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="93996"/>
+				<set name="flee_y" val="-54932"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21514" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="94196"/>
+				<set name="flee_y" val="-54932"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21516" total="1" respawn="42sec">
+			<ai>
+				<set name="flee_x" val="93996"/>
+				<set name="flee_y" val="-54732"/>
+				<set name="flee_z" val="-2600"/>
+			</ai>
+		</npc>
+		<npc id="21517" total="1" respawn="42sec">
+			<privates>
+				<private id="21519" weight="1" respawn="0sec"/>
+				<private id="21519" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_npc2216_01" minZ="-3308" maxZ="-3108">
+		<node x="69836" y="-50068"/>
+		<node x="70036" y="-50068"/>
+		<node x="70036" y="-49868"/>
+		<node x="69836" y="-49868"/>
+	</territory>
+	<npcmaker name="rune12_npc2216_0101" territory="rune12_npc2216_01" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31554" pos="70000;-50064;-3264;8000" total="1" respawn="1min"/>
+		<npc id="31557" pos="69840;-49888;-3264;7000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_npc2216_02" minZ="-3340" maxZ="-3140">
+		<node x="69084" y="-50260"/>
+		<node x="69284" y="-50260"/>
+		<node x="69284" y="-50060"/>
+		<node x="69084" y="-50060"/>
+	</territory>
+	<npcmaker name="rune12_npc2216_0201" territory="rune12_npc2216_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31553" pos="69248;-50160;-3288;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_npc2216_03" minZ="-3372" maxZ="-3172">
+		<node x="69244" y="-50500"/>
+		<node x="69444" y="-50500"/>
+		<node x="69444" y="-50300"/>
+		<node x="69244" y="-50300"/>
+	</territory>
+	<npcmaker name="rune12_npc2216_0301" territory="rune12_npc2216_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31555" pos="69348;-50408;-3288;10000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_npc2216_04" minZ="-3344" maxZ="-3144">
+		<node x="69132" y="-50068"/>
+		<node x="69332" y="-50068"/>
+		<node x="69332" y="-49868"/>
+		<node x="69132" y="-49868"/>
+	</territory>
+	<npcmaker name="rune12_npc2216_0401" territory="rune12_npc2216_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31556" pos="69232;-49984;-3284;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_npc2216_05" minZ="-3360" maxZ="-3160">
+		<node x="69264" y="-50280"/>
+		<node x="69476" y="-50296"/>
+		<node x="69476" y="-50012"/>
+		<node x="69272" y="-49996"/>
+	</territory>
+	<npcmaker name="rune12_npc2216_0501" territory="rune12_npc2216_05" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="31557" pos="69376;-50080;-3288;0" total="1" respawn="1min"/>
+		<npc id="31557" pos="69372;-50264;-3288;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_npc2216_06" minZ="-3328" maxZ="-3128">
+		<node x="72044" y="-55844"/>
+		<node x="72244" y="-55844"/>
+		<node x="72244" y="-55644"/>
+		<node x="72044" y="-55644"/>
+	</territory>
+	<npcmaker name="rune12_npc2216_0601" territory="rune12_npc2216_06" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31661" pos="72196;-55720;-3144;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_npc2216_07" minZ="-3396" maxZ="-3196">
+		<node x="77084" y="-44164"/>
+		<node x="77284" y="-44164"/>
+		<node x="77284" y="-43964"/>
+		<node x="77084" y="-43964"/>
+	</territory>
+	<npcmaker name="rune12_npc2216_0701" territory="rune12_npc2216_07" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31662" pos="77184;-44064;-3264;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_npc2216_08" minZ="-2400" maxZ="-2200">
+		<node x="78764" y="-61636"/>
+		<node x="78964" y="-61636"/>
+		<node x="78964" y="-61436"/>
+		<node x="78764" y="-61436"/>
+	</territory>
+	<npcmaker name="rune12_npc2216_0801" territory="rune12_npc2216_08" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31663" pos="78832;-61536;-2308;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_npc2216_09" minZ="-2736" maxZ="-2536">
+		<node x="91740" y="-52500"/>
+		<node x="91940" y="-52500"/>
+		<node x="91940" y="-52300"/>
+		<node x="91740" y="-52300"/>
+	</territory>
+	<npcmaker name="rune12_npc2216_0901" territory="rune12_npc2216_09" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31664" pos="91856;-52340;-2636;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune12_npc2216_10" minZ="-2408" maxZ="-2208">
+		<node x="83068" y="-54388"/>
+		<node x="83268" y="-54388"/>
+		<node x="83268" y="-54188"/>
+		<node x="83068" y="-54188"/>
+	</territory>
+	<npcmaker name="rune12_npc2216_1001" territory="rune12_npc2216_10" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31665" pos="83168;-54320;-2328;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_01" minZ="-4172" maxZ="-3972">
+		<node x="87204" y="-44336"/>
+		<node x="88264" y="-44268"/>
+		<node x="88192" y="-43024"/>
+		<node x="87380" y="-42416"/>
+		<node x="86560" y="-43208"/>
+	</territory>
+	<npcmaker name="rune15_2216_01m1" territory="rune15_2216_01" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="22105" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22109" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22111" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="1" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_03" minZ="-4688" maxZ="-4488">
+		<node x="84564" y="-43260"/>
+		<node x="84964" y="-42420"/>
+		<node x="84320" y="-41936"/>
+		<node x="83596" y="-42256"/>
+		<node x="83512" y="-42876"/>
+	</territory>
+	<npcmaker name="rune15_2216_03m1" territory="rune15_2216_03" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="22105" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22107" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22109" total="1" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_05" minZ="-5172" maxZ="-4972">
+		<node x="80148" y="-46176"/>
+		<node x="80720" y="-46104"/>
+		<node x="80824" y="-44060"/>
+		<node x="79132" y="-43928"/>
+		<node x="78868" y="-45260"/>
+		<node x="79536" y="-45960"/>
+	</territory>
+	<npcmaker name="rune15_2216_05m1" territory="rune15_2216_05" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="22105" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22111" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22109" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_07" minZ="-5176" maxZ="-4976">
+		<node x="77944" y="-48068"/>
+		<node x="78328" y="-46804"/>
+		<node x="77828" y="-45868"/>
+		<node x="76692" y="-46284"/>
+		<node x="76780" y="-47976"/>
+	</territory>
+	<npcmaker name="rune15_2216_07m1" territory="rune15_2216_07" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="22105" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22111" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22109" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_09" minZ="-5180" maxZ="-4980">
+		<node x="76480" y="-42756"/>
+		<node x="78092" y="-43092"/>
+		<node x="78080" y="-42132"/>
+		<node x="76384" y="-41972"/>
+	</territory>
+	<npcmaker name="rune15_2216_09m1" territory="rune15_2216_09" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="22105" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22107" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22109" total="1" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_11" minZ="-5180" maxZ="-4980">
+		<node x="74848" y="-47572"/>
+		<node x="75516" y="-47708"/>
+		<node x="75932" y="-46532"/>
+		<node x="75084" y="-46164"/>
+		<node x="74672" y="-46456"/>
+	</territory>
+	<npcmaker name="rune15_2216_11m1" territory="rune15_2216_11" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="22105" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22107" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22109" total="1" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_13" minZ="-5680" maxZ="-5480">
+		<node x="78328" y="-52580"/>
+		<node x="78308" y="-50448"/>
+		<node x="77280" y="-49604"/>
+		<node x="76452" y="-50796"/>
+		<node x="76348" y="-52264"/>
+	</territory>
+	<npcmaker name="rune15_2216_13m1" territory="rune15_2216_13" maximumNpcs="17">
+		<ai type="default_maker"/>
+		<npc id="22105" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22111" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22109" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22111" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_15" minZ="-5676" maxZ="-5476">
+		<node x="76044" y="-55376"/>
+		<node x="76244" y="-54344"/>
+		<node x="75312" y="-53280"/>
+		<node x="74096" y="-53928"/>
+		<node x="74628" y="-55148"/>
+	</territory>
+	<npcmaker name="rune15_2216_15m1" territory="rune15_2216_15" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="22115" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22116" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22121" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22118" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22120" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_17" minZ="-6180" maxZ="-5980">
+		<node x="79444" y="-56776"/>
+		<node x="80744" y="-56596"/>
+		<node x="80996" y="-54912"/>
+		<node x="78596" y="-54004"/>
+		<node x="78396" y="-55772"/>
+	</territory>
+	<npcmaker name="rune15_2216_17m1" territory="rune15_2216_17" maximumNpcs="16">
+		<ai type="exclusive_spawn_normal"/>
+		<npc id="22115" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22116" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22121" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22118" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22120" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_19" minZ="-5684" maxZ="-5484">
+		<node x="80348" y="-52848"/>
+		<node x="81388" y="-52576"/>
+		<node x="81068" y="-50968"/>
+		<node x="79924" y="-51080"/>
+		<node x="79864" y="-52076"/>
+	</territory>
+	<npcmaker name="rune15_2216_19m1" territory="rune15_2216_19" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="22105" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22109" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22111" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="1" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_21" minZ="-5196" maxZ="-4996">
+		<node x="79296" y="-49824"/>
+		<node x="80660" y="-50040"/>
+		<node x="81104" y="-48536"/>
+		<node x="79980" y="-47728"/>
+		<node x="79096" y="-48728"/>
+	</territory>
+	<npcmaker name="rune15_2216_21m1" territory="rune15_2216_21" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="22105" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22109" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22111" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_23" minZ="-4704" maxZ="-4504">
+		<node x="82096" y="-45784"/>
+		<node x="83340" y="-45936"/>
+		<node x="83716" y="-44312"/>
+		<node x="82288" y="-44060"/>
+		<node x="81872" y="-45008"/>
+	</territory>
+	<npcmaker name="rune15_2216_23m1" territory="rune15_2216_23" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="22105" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22109" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22111" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="1" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_25" minZ="-4688" maxZ="-4488">
+		<node x="86792" y="-47416"/>
+		<node x="86860" y="-46108"/>
+		<node x="85368" y="-45256"/>
+		<node x="84800" y="-46184"/>
+		<node x="85144" y="-47640"/>
+	</territory>
+	<npcmaker name="rune15_2216_25m1" territory="rune15_2216_25" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="22105" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22109" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22111" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_27" minZ="-5204" maxZ="-5004">
+		<node x="86268" y="-50896"/>
+		<node x="86312" y="-49524"/>
+		<node x="85512" y="-49188"/>
+		<node x="84720" y="-49468"/>
+		<node x="85020" y="-51372"/>
+	</territory>
+	<npcmaker name="rune15_2216_27m1" territory="rune15_2216_27" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="22105" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22106" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22109" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22108" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22111" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_29" minZ="-4684" maxZ="-4484">
+		<node x="81836" y="-49468"/>
+		<node x="82912" y="-50216"/>
+		<node x="83452" y="-49544"/>
+		<node x="83164" y="-48208"/>
+		<node x="81880" y="-48232"/>
+	</territory>
+	<npcmaker name="rune15_2216_29m1" territory="rune15_2216_29" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="22115" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22116" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22121" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22118" total="1" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22120" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_31" minZ="-4692" maxZ="-4492">
+		<node x="81868" y="-53240"/>
+		<node x="82276" y="-54020"/>
+		<node x="83240" y="-53600"/>
+		<node x="83052" y="-52636"/>
+		<node x="82428" y="-52544"/>
+	</territory>
+	<npcmaker name="rune15_2216_31m1" territory="rune15_2216_31" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="22115" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22116" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22121" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22118" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22120" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_33" minZ="-5192" maxZ="-4992">
+		<node x="84276" y="-53828"/>
+		<node x="85084" y="-54488"/>
+		<node x="86140" y="-53728"/>
+		<node x="85940" y="-52480"/>
+		<node x="84892" y="-52304"/>
+	</territory>
+	<npcmaker name="rune15_2216_33m1" territory="rune15_2216_33" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="22115" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22116" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22121" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22118" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22120" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_35" minZ="-5180" maxZ="-4980">
+		<node x="88552" y="-51396"/>
+		<node x="89704" y="-50452"/>
+		<node x="89032" y="-49292"/>
+		<node x="87860" y="-49564"/>
+		<node x="87524" y="-50644"/>
+	</territory>
+	<npcmaker name="rune15_2216_35m1" territory="rune15_2216_35" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="22115" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22116" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22121" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22118" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22120" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_37" minZ="-5172" maxZ="-4972">
+		<node x="88464" y="-54512"/>
+		<node x="88972" y="-53444"/>
+		<node x="88328" y="-52296"/>
+		<node x="87180" y="-52596"/>
+		<node x="87196" y="-54240"/>
+	</territory>
+	<npcmaker name="rune15_2216_37m1" territory="rune15_2216_37" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="22115" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22116" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22121" total="1" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22118" total="2" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22120" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_2216_39" minZ="-4684" maxZ="-4484">
+		<node x="89572" y="-47432"/>
+		<node x="89736" y="-46836"/>
+		<node x="89404" y="-46032"/>
+		<node x="88184" y="-45740"/>
+		<node x="87892" y="-46568"/>
+		<node x="88976" y="-46648"/>
+		<node x="89024" y="-47424"/>
+	</territory>
+	<npcmaker name="rune15_2216_39m1" territory="rune15_2216_39" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="22115" total="3" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22116" total="4" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22113" total="1" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22112" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="22121" total="2" respawn="100sec" respawnRand="30sec"/>
+		<npc id="22118" total="1" respawn="100sec" respawnRand="30sec">
+			<privates>
+				<private id="22120" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_mb2216_01" minZ="-6180" maxZ="-5980">
+		<node x="79444" y="-56776"/>
+		<node x="80744" y="-56596"/>
+		<node x="80996" y="-54912"/>
+		<node x="78596" y="-54004"/>
+		<node x="78396" y="-55772"/>
+	</territory>
+	<npcmaker name="rune15_mb2216_01m1" territory="rune15_mb2216_01" maximumNpcs="8">
+		<ai type="exclusive_spawn_use_db">
+				<set name="unique_npc" val="spike_stakato_qn_shyid"/>
+				<set name="maker_name" val="rune15_2216_17m1"/>
+		</ai>
+		<npc id="25514" total="1" respawn="36hour" respawnRand="24hour" dbName="spike_stakato_qn_shyid"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="rune15_npc2216_01" minZ="-2196" maxZ="-1996">
+		<node x="89772" y="-44996"/>
+		<node x="89972" y="-44996"/>
+		<node x="89972" y="-44796"/>
+		<node x="89772" y="-44796"/>
+	</territory>
+	<npcmaker name="rune15_npc2216_01m1" territory="rune15_npc2216_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="32015" pos="89872;-44896;-2144;33000" total="1" respawn="1min"/>
+	</npcmaker>
+</list>

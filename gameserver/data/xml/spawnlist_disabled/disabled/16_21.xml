@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Gludin Area
+ * Orc Baracks
+-->
+<list>
+	<!--  -->
+	<territory name="gludio15_1621_01" minZ="-3692" maxZ="-2992">
+		<node x="-99708" y="100418"/>
+		<node x="-98553" y="100158"/>
+		<node x="-98637" y="104050"/>
+		<node x="-101237" y="103989"/>
+	</territory>
+	<npcmaker name="gludio15_1621_01m1" territory="gludio15_1621_01" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20498" total="2" respawn="60sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="-95152"/>
+				<set name="flee_y" val="102304"/>
+				<set name="flee_z" val="-3552"/>
+			</ai>
+		</npc>
+		<npc id="20497" total="2" respawn="60sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="-95152"/>
+				<set name="flee_y" val="102304"/>
+				<set name="flee_z" val="-3552"/>
+			</ai>
+		</npc>
+		<npc id="20501" total="1" respawn="60sec" respawnRand="20sec"/>
+		<npc id="20495" total="1" respawn="60sec" respawnRand="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="gludio15_1621_02" minZ="-3715" maxZ="-3015">
+		<node x="-100403" y="104743"/>
+		<node x="-98598" y="104208"/>
+		<node x="-98544" y="109423"/>
+		<node x="-100571" y="106885"/>
+	</territory>
+	<npcmaker name="gludio15_1621_02m1" territory="gludio15_1621_02" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20498" total="2" respawn="60sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="-97392"/>
+				<set name="flee_y" val="106816"/>
+				<set name="flee_z" val="-3392"/>
+			</ai>
+		</npc>
+		<npc id="20497" total="2" respawn="60sec" respawnRand="20sec">
+			<ai>
+				<set name="flee_x" val="-97392"/>
+				<set name="flee_y" val="106816"/>
+				<set name="flee_z" val="-3392"/>
+			</ai>
+		</npc>
+		<npc id="20501" total="2" respawn="60sec" respawnRand="20sec"/>
+	</npcmaker>
+</list>

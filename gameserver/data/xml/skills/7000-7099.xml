@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="7000" levels="1" name="NPC Default" >
+		<set name="magicLvl" val="1"/>
+		<set name="target" val="SELF" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="PASSIVE" />
+	</skill>
+	<skill id="7001" levels="1" name="Dispel Buff" >
+		<set name="magicLvl" val="99" />
+		<set name="target" val="ONE" />
+		<set name="skillType" val="NEGATE" />
+		<set name="negateStats" val="BUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="100" />
+	</skill>
+	<skill id="7002" levels="1" name="Dispel Debuff" >
+		<set name="magicLvl" val="99" />
+		<set name="target" val="ONE" />
+		<set name="skillType" val="NEGATE" />
+		<set name="negateStats" val="DEBUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="100" />
+	</skill>
+	<skill id="7003" levels="1" name="Dispel All" >
+		<set name="magicLvl" val="99" />
+		<set name="target" val="ONE" />
+		<set name="skillType" val="NEGATE" />
+		<set name="negateStats" val="BUFF DEBUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="100" />
+	</skill>
+	<skill id="7004" levels="2" name="Dispel Petrification" >
+		<set name="magicLvl" val="60" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="NEGATE" />
+		<set name="negateStats" val="PARALYZE" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="10000" />
+		<set name="isMagic" val="true" />
+		<set name="aggroPoints" val="566" />
+	</skill>
+	<skill id="7005" levels="4" name="Greater Chant of Vampire" >
+		<set name="magicLvl" val="74" />
+		<set name="mpInitialConsume" val="55" />
+		<set name="mpConsume" val="217" />
+		<set name="target" val="PARTY"/>
+		<set name="skillType" val="BUFF" />
+		<set name="hitTime" val="2500" />
+		<set name="reuseDelay" val="20000" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="655" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="4" stackType="vampiric_attack">
+				<add stat="absorbDam" val="18" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="7006" levels="13" name="The Love of Pa'agrio" >
+		<!-- Needs to be done -->
+		<set name="magicLvl" val="74"/>
+		<set name="mpConsume" val="265" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="reuseDelay" val="20000" />
+		<set name="hitTime" val="2500" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="655" />
+	</skill>
+	<skill id="7007" levels="4" name="Greater Seal of Flame" >
+		<table name="#dmg"> 150 200 250 300 </table>
+		<table name="#mpInitialConsume"> 20 23 29 31 </table>
+		<table name="#mpConsume"> 77 92 113 122 </table>
+		<table name="#stackOrder"> 1 2 3 4 </table>
+		<set name="magicLvl" val="74"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="35"/>
+		<set name="target" val="AURA"/>
+		<set name="element" val="FIRE"/>
+		<set name="skillType" val="DOT"/>
+		<set name="reuseDelay" val="20000" />
+		<set name="hitTime" val="4000" />
+		<set name="lvlDepend" val="1" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="isDebuff" val="true" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<for>
+			<effect count="30" name="DamOverTime" val="#dmg" stackOrder="#stackOrder" stackType="dot_attr" abnormal="flame" />
+		</for>
+	</skill>
+	<skill id="7028" levels="1" name="For Stationary NPCs" >
+		<set name="target" val="SELF" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="PASSIVE" />
+	</skill>
+	<skill id="7029" levels="4" name="Super Haste" >
+		<table name="#amount"> 1.25 1.5 1.75 2 </table>
+		<table name="#reuse"> 0.75 0.50 0.25 0.01 </table>
+		<set name="magicLvl" val="1"/>
+		<set name="skillType" val="CONT"/>
+		<set name="operateType" val="TOGGLE"/>
+		<set name="target" val="SELF" />
+		<for>
+			<effect count="0x7fffffff" name="ManaDamOverTime" time="10" val="0">
+				<mul stat="pAtkSpd" val="#amount" />
+				<mul stat="runSpd" val="#amount" />
+				<mul stat="mAtkSpd" val="#amount" />
+				<mul stat="pReuse" val="#reuse" />
+				<mul stat="mReuse" val="#reuse" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="7030" levels="1" name="Summon King Bugbear" >
+		<set name="magicLvl" val="1"/>
+		<set name="itemConsumeId" val="1458" />
+		<set name="mpConsume" val="3" />
+		<set name="itemConsumeSteps" val="0" />
+		<set name="summonTotalLifeTime" val="1200000" />
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
+		<set name="target" val="SELF" />
+		<set name="itemConsumeCount" val="8" />
+		<set name="reuseDelay" val="4500" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="SUMMON" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="npcId" val="20150" />
+	</skill>
+	<skill id="7031" levels="1" name="Summon Skeleton Royal Guard" >
+		<set name="magicLvl" val="1"/>
+		<set name="itemConsumeId" val="1458" />
+		<set name="mpConsume" val="3" />
+		<set name="itemConsumeSteps" val="0" />
+		<set name="summonTotalLifeTime" val="1200000" />
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
+		<set name="target" val="SELF" />
+		<set name="itemConsumeCount" val="8" />
+		<set name="reuseDelay" val="4500" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="SUMMON" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="npcId" val="20169" />
+	</skill>
+	<skill id="7032" levels="1" name="Summon Hunter Gargoyle" >
+		<set name="magicLvl" val="1"/>
+		<set name="itemConsumeId" val="1458" />
+		<set name="mpConsume" val="3" />
+		<set name="itemConsumeSteps" val="0" />
+		<set name="summonTotalLifeTime" val="1200000" />
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
+		<set name="target" val="SELF" />
+		<set name="itemConsumeCount" val="8" />
+		<set name="reuseDelay" val="4500" />
+		<set name="hitTime" val="4000" />
+		<set name="skillType" val="SUMMON" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="npcId" val="20241" />
+	</skill>
+	<skill id="7033" levels="1" name="Test Flame Strike" >
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="PASSIVE" />
+	</skill>
+	<skill id="7034" levels="1" name="Test Aqua Splash" >
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="PASSIVE" />
+	</skill>
+	<skill id="7035" levels="1" name="Display - Swoop Cannon" >
+		<set name="magicLvl" val="70"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="PASSIVE" />
+	</skill>
+	<skill id="7036" levels="1" name="Display - Valakas" >
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="PASSIVE" />
+	</skill>
+	<skill id="7037" levels="1" name="Display - Tyrannosaurus Capture" >
+		<set name="magicLvl" val="85"/>
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="PASSIVE" />
+	</skill>
+	<skill id="7038" levels="1" name="Channeling DD Test: Short" >
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="PASSIVE" />
+	</skill>
+	<skill id="7039" levels="1" name="Channeling DD Test: Middle" >
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="PASSIVE" />
+	</skill>
+	<skill id="7040" levels="1" name="Channeling DD Test: Long" >
+		<set name="target" val="NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="PASSIVE" />
+	</skill>
+</list>

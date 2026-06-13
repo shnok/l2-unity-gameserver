@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- 
+@param String message - the message to be announced 
+@param Boolean critical - type of announcement (true = critical,false = normal) 
+@param Boolean auto - when the announcement will be displayed (true = auto,false = on player login) 
+@param Integer initial_delay - time delay for the first announce (used only if auto=true;value in seconds) 
+@param Integer delay - time delay for the announces following the first announce (used only if auto=true;value in seconds) 
+@param Integer limit - limit of announces (used only if auto=true, 0 = unlimited) 
+--> 
+<list>
+</list>

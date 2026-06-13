@@ -1,0 +1,67 @@
+<html><body><center>
+	<table width=270>
+		<tr>
+			<td width=45><button value="Main" action="bypass -h admin_admin" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+			<td width=180 align=center>Player: %name%</td>
+			<td width=45><button value="Back" action="bypass -h admin_find" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		</tr>
+	</table><br>
+	
+	<table width=260>
+		<tr>
+			<td><button value="Kick" action="bypass -h admin_kick %name%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td><button value="Effects" action="bypass -h admin_effect" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td><button value="Ban Char." action="bypass -h admin_ban player %name%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td><button value="Jail" action="bypass -h admin_jail %name%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		</tr><tr>
+			<td><button value="Kill" action="bypass -h admin_kill %name%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td><button value="Skills" action="bypass -h admin_skill" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td><button value="Ban Acc." action="bypass -h admin_ban account %name%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td><button value="Unjail" action="bypass -h admin_unjail %name%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		</tr>
+	</table><br>
+		
+	<table width=260>
+		<tr>
+			<td><button value="Teleport To" action="bypass -h admin_teleportto %name%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td><button value="Recall" action="bypass -h admin_recall %name%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td><button value="Recall Clan" action="bypass -h admin_recall clan %name%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			<td><button value="Recall Party" action="bypass -h admin_recall party %name%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		</tr>
+	</table><br>
+	<table width=260>
+		<tr>
+			<td><combobox width=65 height=21 var="param" list=access;class;color;exp;karma;level;name;noble;rec;sex;sp;tcolor;title;></td>
+			<td><edit width=130 var="set"></td>
+			<td><button value="Set" action="bypass -h admin_set $param $set" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		</tr>
+	</table><br>
+	<font color="LEVEL">General Informations</font>
+	<table width=260>
+		<tr>
+			<td><font color="LEVEL">Acc.:</font></td>
+			<td><a action="bypass -h admin_find account %name%">%account%</a></td>
+			<td><font color="LEVEL">IP:</font></td>
+			<td><a action="bypass -h admin_find ip %ip%">%ip%</a></td>
+		</tr><tr>
+			<td><font color="LEVEL">Name:</font></td>
+			<td>%name%</td>
+			<td><font color="LEVEL">ObjId:</font></td>
+			<td>%objid%</td>
+		</tr><tr>
+			<td><font color="LEVEL">Clan:</font></td>
+			<td>%clan%</td>
+			<td><font color="LEVEL">Class:</font></td>
+			<td>%baseclass%</td>
+		</tr><tr>
+			<td><font color="LEVEL">Party:</font></td>
+			<td>%party%</td>
+			<td><font color="LEVEL">EXP:</font></td>
+			<td>%xp%</td>
+		</tr>
+	</table><br>
+	<font color="LEVEL">Intention Informations</font><br1>
+	%curai% <> %nextai%<br>
+	<font color="LEVEL">Coordinates</font><br1>
+	%loc%
+</center></body></html>

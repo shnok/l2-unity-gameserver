@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Goddard Area
+ * Forge of the Gods
+ * Hall of Flames
+-->
+<list>
+	<!--  -->
+	<territory name="godard08_2514_01" minZ="-3647" maxZ="-3447">
+		<node x="179651" y="-116994"/>
+		<node x="179519" y="-116706"/>
+		<node x="179231" y="-116702"/>
+		<node x="178791" y="-116826"/>
+		<node x="178799" y="-117082"/>
+		<node x="179143" y="-117374"/>
+		<node x="179679" y="-117146"/>
+	</territory>
+	<npcmaker name="godard08_2514_01m1" territory="godard08_2514_01" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21377" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21376" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21378" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21652" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_02" minZ="-3675" maxZ="-3475">
+		<node x="180621" y="-115487"/>
+		<node x="180461" y="-115247"/>
+		<node x="180181" y="-114811"/>
+		<node x="179561" y="-114695"/>
+		<node x="179229" y="-114915"/>
+		<node x="179117" y="-115287"/>
+		<node x="179373" y="-116223"/>
+		<node x="180349" y="-116003"/>
+	</territory>
+	<npcmaker name="godard08_2514_02m1" territory="godard08_2514_02" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21377" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21376" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21378" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21652" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_03" minZ="-4165" maxZ="-3965">
+		<node x="178529" y="-119994"/>
+		<node x="178734" y="-119409"/>
+		<node x="177546" y="-119205"/>
+		<node x="177326" y="-119735"/>
+		<node x="177614" y="-120055"/>
+		<node x="178102" y="-120227"/>
+	</territory>
+	<npcmaker name="godard08_2514_03m1" territory="godard08_2514_03" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21377" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21376" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21378" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21652" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_05" minZ="-4148" maxZ="-3948">
+		<node x="176164" y="-121387"/>
+		<node x="177436" y="-121403"/>
+		<node x="177544" y="-120827"/>
+		<node x="177068" y="-120007"/>
+		<node x="176824" y="-119927"/>
+		<node x="176092" y="-120371"/>
+	</territory>
+	<territory name="godard08_2514_05b" minZ="-4272" maxZ="-3772">
+		<node x="176380" y="-121148"/>
+		<node x="176992" y="-121156"/>
+		<node x="176948" y="-120492"/>
+		<node x="176388" y="-120516"/>
+	</territory>
+	<npcmaker name="godard08_2514_05m1" territory="godard08_2514_05" ban="godard08_2514_05b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21377" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21376" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21378" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21652" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_06" minZ="-3710" maxZ="-3510">
+		<node x="181328" y="-119542"/>
+		<node x="181328" y="-119542"/>
+		<node x="180572" y="-119854"/>
+		<node x="180392" y="-120578"/>
+		<node x="180860" y="-121058"/>
+		<node x="181336" y="-120926"/>
+		<node x="181792" y="-120418"/>
+		<node x="181600" y="-119602"/>
+	</territory>
+	<npcmaker name="godard08_2514_06m1" territory="godard08_2514_06" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21377" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21376" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21378" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21652" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_07" minZ="-3382" maxZ="-3182">
+		<node x="182415" y="-117705"/>
+		<node x="182059" y="-117521"/>
+		<node x="181819" y="-117529"/>
+		<node x="181439" y="-117973"/>
+		<node x="181791" y="-118273"/>
+		<node x="181987" y="-118193"/>
+		<node x="182307" y="-118405"/>
+		<node x="182567" y="-118041"/>
+	</territory>
+	<npcmaker name="godard08_2514_07m1" territory="godard08_2514_07" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21377" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21376" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21378" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21652" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+				<private id="21378" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_08" minZ="-3329" maxZ="-3129">
+		<node x="185977" y="-118936"/>
+		<node x="186445" y="-118884"/>
+		<node x="186637" y="-118496"/>
+		<node x="187157" y="-117612"/>
+		<node x="186797" y="-116776"/>
+		<node x="186141" y="-117316"/>
+		<node x="185537" y="-118260"/>
+	</territory>
+	<territory name="godard08_2514_08b" minZ="-3320" maxZ="-2820">
+		<node x="186284" y="-117708"/>
+		<node x="186888" y="-117844"/>
+		<node x="186912" y="-117220"/>
+		<node x="186404" y="-117204"/>
+	</territory>
+	<npcmaker name="godard08_2514_08m1" territory="godard08_2514_08" ban="godard08_2514_08b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21379" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21380" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21381" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21653" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_09" minZ="-3124" maxZ="-2924">
+		<node x="184154" y="-118553"/>
+		<node x="184534" y="-119217"/>
+		<node x="184262" y="-119741"/>
+		<node x="184022" y="-120049"/>
+		<node x="183410" y="-120093"/>
+		<node x="182942" y="-119373"/>
+		<node x="183138" y="-118873"/>
+	</territory>
+	<territory name="godard08_2514_09b" minZ="-3176" maxZ="-2676">
+		<node x="183608" y="-119784"/>
+		<node x="184028" y="-119792"/>
+		<node x="184048" y="-119332"/>
+		<node x="183572" y="-119344"/>
+	</territory>
+	<npcmaker name="godard08_2514_09m1" territory="godard08_2514_09" ban="godard08_2514_09b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21379" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21380" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21381" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21653" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_10" minZ="-3136" maxZ="-2936">
+		<node x="185916" y="-120861"/>
+		<node x="185920" y="-120505"/>
+		<node x="185592" y="-119957"/>
+		<node x="184656" y="-120029"/>
+		<node x="184440" y="-120325"/>
+		<node x="184384" y="-121241"/>
+		<node x="185336" y="-121453"/>
+	</territory>
+	<territory name="godard08_2514_10b" minZ="-3116" maxZ="-2916">
+		<node x="184868" y="-120920"/>
+		<node x="185360" y="-120904"/>
+		<node x="185316" y="-120480"/>
+		<node x="184900" y="-120460"/>
+	</territory>
+	<npcmaker name="godard08_2514_10m1" territory="godard08_2514_10" ban="godard08_2514_10b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21379" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21380" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21381" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21653" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_11" minZ="-3136" maxZ="-2936">
+		<node x="187906" y="-121665"/>
+		<node x="188526" y="-121049"/>
+		<node x="188438" y="-120549"/>
+		<node x="187718" y="-120037"/>
+		<node x="187106" y="-120665"/>
+		<node x="186926" y="-120909"/>
+		<node x="187190" y="-121453"/>
+	</territory>
+	<territory name="godard08_2514_11b" minZ="-3196" maxZ="-2696">
+		<node x="187352" y="-121108"/>
+		<node x="187832" y="-121092"/>
+		<node x="187800" y="-120620"/>
+		<node x="187328" y="-120640"/>
+	</territory>
+	<npcmaker name="godard08_2514_11m1" territory="godard08_2514_11" ban="godard08_2514_11b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21379" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21380" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21381" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21653" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_12" minZ="-3134" maxZ="-2934">
+		<node x="190497" y="-120846"/>
+		<node x="190353" y="-120154"/>
+		<node x="189941" y="-119750"/>
+		<node x="189273" y="-119714"/>
+		<node x="188885" y="-120602"/>
+		<node x="189037" y="-120946"/>
+		<node x="189737" y="-121322"/>
+	</territory>
+	<territory name="godard08_2514_12b" minZ="-3124" maxZ="-2624">
+		<node x="188864" y="-120616"/>
+		<node x="189216" y="-120844"/>
+		<node x="189448" y="-120412"/>
+		<node x="189016" y="-120248"/>
+	</territory>
+	<npcmaker name="godard08_2514_12m1" territory="godard08_2514_12" ban="godard08_2514_12b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21379" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21380" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21381" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21653" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_13" minZ="-3352" maxZ="-3152">
+		<node x="189260" y="-119154"/>
+		<node x="189252" y="-118574"/>
+		<node x="188992" y="-118366"/>
+		<node x="188596" y="-118238"/>
+		<node x="187748" y="-118642"/>
+		<node x="187552" y="-119134"/>
+		<node x="188156" y="-119758"/>
+		<node x="188876" y="-119542"/>
+	</territory>
+	<territory name="godard08_2514_13b" minZ="-3384" maxZ="-2884">
+		<node x="188308" y="-119220"/>
+		<node x="188740" y="-119084"/>
+		<node x="188568" y="-118608"/>
+		<node x="188140" y="-118824"/>
+	</territory>
+	<npcmaker name="godard08_2514_13m1" territory="godard08_2514_13" ban="godard08_2514_13b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21379" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21380" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21381" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21653" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_14" minZ="-3332" maxZ="-3132">
+		<node x="190058" y="-118093"/>
+		<node x="190590" y="-117357"/>
+		<node x="190522" y="-116457"/>
+		<node x="189542" y="-116113"/>
+		<node x="189178" y="-116405"/>
+		<node x="189122" y="-117733"/>
+		<node x="189486" y="-118229"/>
+	</territory>
+	<territory name="godard08_2514_14b" minZ="-3432" maxZ="-2932">
+		<node x="189588" y="-117368"/>
+		<node x="190052" y="-117368"/>
+		<node x="190028" y="-116868"/>
+		<node x="189560" y="-116892"/>
+	</territory>
+	<npcmaker name="godard08_2514_14m1" territory="godard08_2514_14" ban="godard08_2514_14b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21379" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21380" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21381" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21653" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_15" minZ="-3328" maxZ="-3128">
+		<node x="189479" y="-115830"/>
+		<node x="188663" y="-115174"/>
+		<node x="187479" y="-115006"/>
+		<node x="187139" y="-115370"/>
+		<node x="186611" y="-115566"/>
+		<node x="187123" y="-116466"/>
+		<node x="188635" y="-116454"/>
+	</territory>
+	<npcmaker name="godard08_2514_15m1" territory="godard08_2514_15" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21379" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21380" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21381" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21653" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_16" minZ="-3365" maxZ="-3165">
+		<node x="186172" y="-115111"/>
+		<node x="186508" y="-115355"/>
+		<node x="186776" y="-115159"/>
+		<node x="186728" y="-113727"/>
+		<node x="185872" y="-114111"/>
+	</territory>
+	<territory name="godard08_2514_16b" minZ="-3336" maxZ="-2836">
+		<node x="186008" y="-114824"/>
+		<node x="186264" y="-114624"/>
+		<node x="186180" y="-114284"/>
+		<node x="185872" y="-114276"/>
+	</territory>
+	<npcmaker name="godard08_2514_16m1" territory="godard08_2514_16" ban="godard08_2514_16b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21379" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21380" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21381" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21653" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+				<private id="21381" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_17" minZ="-3398" maxZ="-3198">
+		<node x="186055" y="-113599"/>
+		<node x="185827" y="-112719"/>
+		<node x="185031" y="-112127"/>
+		<node x="184231" y="-112855"/>
+		<node x="184447" y="-113519"/>
+		<node x="184799" y="-114387"/>
+		<node x="185311" y="-114243"/>
+		<node x="185643" y="-113967"/>
+	</territory>
+	<npcmaker name="godard08_2514_17m1" territory="godard08_2514_17" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21382" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21383" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21384" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21654" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_18" minZ="-3324" maxZ="-3124">
+		<node x="188291" y="-112601"/>
+		<node x="187787" y="-112253"/>
+		<node x="187527" y="-112505"/>
+		<node x="187215" y="-112413"/>
+		<node x="187083" y="-112769"/>
+		<node x="187055" y="-113341"/>
+		<node x="187631" y="-113773"/>
+		<node x="188255" y="-113413"/>
+	</territory>
+	<npcmaker name="godard08_2514_18m1" territory="godard08_2514_18" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21382" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21383" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21384" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21654" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_19" minZ="-3332" maxZ="-3132">
+		<node x="190463" y="-113751"/>
+		<node x="190315" y="-112971"/>
+		<node x="189711" y="-112835"/>
+		<node x="189467" y="-112975"/>
+		<node x="188975" y="-113103"/>
+		<node x="189119" y="-113707"/>
+		<node x="189383" y="-114015"/>
+	</territory>
+	<npcmaker name="godard08_2514_19m1" territory="godard08_2514_19" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21382" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21383" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21384" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21654" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_20" minZ="-3336" maxZ="-3136">
+		<node x="188937" y="-112731"/>
+		<node x="188337" y="-112335"/>
+		<node x="188845" y="-111415"/>
+		<node x="188633" y="-111243"/>
+		<node x="189305" y="-110595"/>
+		<node x="190077" y="-110799"/>
+		<node x="189837" y="-111507"/>
+		<node x="189869" y="-112031"/>
+		<node x="189217" y="-112387"/>
+	</territory>
+	<npcmaker name="godard08_2514_20m1" territory="godard08_2514_20" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21382" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21383" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21384" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21654" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_21" minZ="-3332" maxZ="-3182">
+		<node x="191193" y="-109008"/>
+		<node x="190785" y="-107960"/>
+		<node x="189741" y="-107664"/>
+		<node x="189037" y="-108396"/>
+		<node x="188773" y="-109384"/>
+		<node x="189241" y="-110192"/>
+		<node x="190469" y="-110088"/>
+		<node x="190557" y="-109808"/>
+	</territory>
+	<territory name="godard08_2514_211b" minZ="-3320" maxZ="-2820">
+		<node x="189916" y="-109236"/>
+		<node x="190116" y="-109236"/>
+		<node x="190116" y="-109036"/>
+		<node x="189916" y="-109036"/>
+	</territory>
+	<territory name="godard08_2514_212b" minZ="-3320" maxZ="-2820">
+		<node x="190708" y="-109304"/>
+		<node x="190852" y="-109260"/>
+		<node x="190760" y="-108940"/>
+		<node x="190624" y="-108964"/>
+	</territory>
+	<territory name="godard08_2514_213b" minZ="-3340" maxZ="-3140">
+		<node x="189532" y="-108100"/>
+		<node x="189732" y="-108100"/>
+		<node x="189732" y="-107900"/>
+		<node x="189532" y="-107900"/>
+	</territory>
+	<npcmaker name="godard08_2514_21m1" territory="godard08_2514_21" ban="godard08_2514_211b;godard08_2514_212b;godard08_2514_213b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21382" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21383" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21384" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21654" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_22" minZ="-3340" maxZ="-3140">
+		<node x="187762" y="-109743"/>
+		<node x="187082" y="-110095"/>
+		<node x="187326" y="-110235"/>
+		<node x="187554" y="-110635"/>
+		<node x="187386" y="-110939"/>
+		<node x="188242" y="-111219"/>
+		<node x="188346" y="-110015"/>
+	</territory>
+	<npcmaker name="godard08_2514_22m1" territory="godard08_2514_22" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21382" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21383" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21384" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21654" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+				<private id="21384" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_23" minZ="-3332" maxZ="-3132">
+		<node x="186200" y="-109243"/>
+		<node x="186144" y="-108607"/>
+		<node x="185284" y="-108971"/>
+		<node x="185048" y="-108835"/>
+		<node x="184536" y="-109407"/>
+		<node x="184576" y="-110775"/>
+		<node x="185004" y="-110767"/>
+		<node x="185184" y="-111327"/>
+		<node x="185824" y="-111439"/>
+		<node x="186848" y="-110387"/>
+		<node x="186720" y="-109351"/>
+	</territory>
+	<npcmaker name="godard08_2514_23m1" territory="godard08_2514_23" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21385" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21386" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21387" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21655" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_24" minZ="-3719" maxZ="-3569">
+		<node x="181914" y="-108363"/>
+		<node x="181850" y="-107951"/>
+		<node x="180786" y="-108159"/>
+		<node x="180674" y="-109383"/>
+		<node x="181270" y="-110131"/>
+		<node x="181898" y="-110263"/>
+		<node x="182790" y="-109271"/>
+		<node x="182710" y="-108739"/>
+	</territory>
+	<npcmaker name="godard08_2514_24m1" territory="godard08_2514_24" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21385" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21386" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21387" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21655" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_25" minZ="-3740" maxZ="-3540">
+		<node x="183803" y="-112187"/>
+		<node x="183867" y="-111743"/>
+		<node x="184235" y="-111391"/>
+		<node x="183811" y="-110939"/>
+		<node x="182787" y="-111115"/>
+		<node x="182891" y="-111819"/>
+		<node x="183191" y="-112159"/>
+	</territory>
+	<npcmaker name="godard08_2514_25m1" territory="godard08_2514_25" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21385" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21386" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21387" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21655" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_26" minZ="-3707" maxZ="-3507">
+		<node x="182600" y="-112042"/>
+		<node x="181652" y="-111582"/>
+		<node x="181564" y="-112110"/>
+		<node x="181240" y="-112114"/>
+		<node x="181096" y="-112898"/>
+		<node x="181416" y="-113250"/>
+		<node x="181828" y="-113054"/>
+		<node x="182108" y="-113290"/>
+		<node x="182720" y="-112842"/>
+	</territory>
+	<npcmaker name="godard08_2514_26m1" territory="godard08_2514_26" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21385" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21386" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21387" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21655" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_27" minZ="-3751" maxZ="-3551">
+		<node x="180780" y="-112379"/>
+		<node x="180276" y="-112003"/>
+		<node x="179224" y="-111995"/>
+		<node x="179280" y="-112343"/>
+		<node x="178880" y="-112683"/>
+		<node x="178916" y="-113283"/>
+		<node x="179400" y="-113455"/>
+		<node x="179444" y="-113707"/>
+		<node x="180224" y="-113687"/>
+		<node x="180728" y="-113107"/>
+	</territory>
+	<territory name="godard08_2514_27b" minZ="-3728" maxZ="-3228">
+		<node x="179636" y="-113000"/>
+		<node x="179836" y="-113000"/>
+		<node x="179836" y="-112800"/>
+		<node x="179636" y="-112800"/>
+	</territory>
+	<npcmaker name="godard08_2514_27m1" territory="godard08_2514_27" ban="godard08_2514_27b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21385" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21386" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21387" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21655" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_28" minZ="-3711" maxZ="-3511">
+		<node x="179861" y="-108287"/>
+		<node x="180049" y="-107871"/>
+		<node x="179689" y="-107411"/>
+		<node x="178025" y="-107563"/>
+		<node x="177549" y="-108583"/>
+		<node x="177725" y="-109535"/>
+		<node x="178169" y="-109735"/>
+		<node x="178305" y="-110171"/>
+		<node x="179773" y="-109695"/>
+		<node x="180113" y="-108735"/>
+	</territory>
+	<npcmaker name="godard08_2514_28m1" territory="godard08_2514_28" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21385" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21386" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21387" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21655" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_29" minZ="-3703" maxZ="-3503">
+		<node x="176861" y="-108117"/>
+		<node x="176021" y="-107829"/>
+		<node x="175861" y="-108193"/>
+		<node x="175537" y="-108233"/>
+		<node x="175197" y="-109597"/>
+		<node x="175493" y="-109717"/>
+		<node x="175289" y="-110285"/>
+		<node x="175797" y="-110833"/>
+		<node x="176041" y="-110557"/>
+		<node x="176429" y="-110853"/>
+		<node x="176961" y="-110469"/>
+		<node x="176917" y="-109365"/>
+	</territory>
+	<territory name="godard08_2514_29b" minZ="-3720" maxZ="-3220">
+		<node x="175800" y="-110104"/>
+		<node x="176340" y="-110260"/>
+		<node x="176480" y="-109660"/>
+		<node x="175864" y="-109528"/>
+	</territory>
+	<npcmaker name="godard08_2514_29m1" territory="godard08_2514_29" ban="godard08_2514_29b" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21385" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21386" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21387" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21655" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_2514_30" minZ="-3531" maxZ="-3331">
+		<node x="176442" y="-111822"/>
+		<node x="176002" y="-111794"/>
+		<node x="175786" y="-112090"/>
+		<node x="175102" y="-112798"/>
+		<node x="175078" y="-113274"/>
+		<node x="175518" y="-114178"/>
+		<node x="175926" y="-114014"/>
+		<node x="176630" y="-114050"/>
+		<node x="176970" y="-113310"/>
+		<node x="176886" y="-112838"/>
+		<node x="176306" y="-112434"/>
+		<node x="176306" y="-112434"/>
+	</territory>
+	<npcmaker name="godard08_2514_30m1" territory="godard08_2514_30" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="21385" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21386" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21387" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21655" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+				<private id="21387" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21394" total="1" respawn="90sec" respawnRand="30sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard08_npc2514_06" minZ="-3368" maxZ="-3168">
+		<node x="183532" y="-115012"/>
+		<node x="183732" y="-115012"/>
+		<node x="183732" y="-114812"/>
+		<node x="183532" y="-114812"/>
+	</territory>
+	<npcmaker name="godard09_npc2514_0601" territory="godard08_npc2514_06" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31540" pos="183664;-114944;-3335;20000" total="1" respawn="1min">
+			<ai>
+				<set name="TelPosX" val="183829"/>
+				<set name="TelPosY" val="-115406"/>
+				<set name="TelPosZ" val="-3326"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_01" minZ="-5565" maxZ="-5365">
+		<node x="175828" y="-111714"/>
+		<node x="175528" y="-111346"/>
+		<node x="175204" y="-111434"/>
+		<node x="175064" y="-111990"/>
+		<node x="175224" y="-112854"/>
+		<node x="176132" y="-112826"/>
+		<node x="176376" y="-111850"/>
+	</territory>
+	<npcmaker name="godard09_2514_01m1" territory="godard09_2514_01" maximumNpcs="28">
+		<ai type="default_maker"/>
+		<npc id="21388" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21389" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21390" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21656" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21395" total="1" respawn="60sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_02" minZ="-5876" maxZ="-5676">
+		<node x="177666" y="-112338"/>
+		<node x="178118" y="-111838"/>
+		<node x="178330" y="-112266"/>
+		<node x="179262" y="-111942"/>
+		<node x="179446" y="-113082"/>
+		<node x="178806" y="-114178"/>
+		<node x="177990" y="-113862"/>
+		<node x="178126" y="-113266"/>
+		<node x="177678" y="-113122"/>
+	</territory>
+	<npcmaker name="godard09_2514_02m1" territory="godard09_2514_02" maximumNpcs="28">
+		<ai type="default_maker"/>
+		<npc id="21388" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21389" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21390" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21656" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21395" total="1" respawn="60sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_03" minZ="-6170" maxZ="-5970">
+		<node x="181013" y="-115006"/>
+		<node x="180393" y="-114762"/>
+		<node x="179989" y="-115202"/>
+		<node x="179605" y="-114830"/>
+		<node x="179009" y="-115374"/>
+		<node x="179389" y="-116918"/>
+		<node x="179781" y="-116826"/>
+		<node x="180633" y="-117142"/>
+		<node x="181181" y="-116262"/>
+	</territory>
+	<npcmaker name="godard09_2514_03m1" territory="godard09_2514_03" maximumNpcs="28">
+		<ai type="default_maker"/>
+		<npc id="21388" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21389" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21390" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21656" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21395" total="1" respawn="60sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_04" minZ="-6174" maxZ="-5974">
+		<node x="183192" y="-115568"/>
+		<node x="184072" y="-114860"/>
+		<node x="183688" y="-113956"/>
+		<node x="182848" y="-113888"/>
+		<node x="181556" y="-114412"/>
+		<node x="181908" y="-115220"/>
+		<node x="181708" y="-115980"/>
+		<node x="182476" y="-115908"/>
+		<node x="182544" y="-115452"/>
+		<node x="182952" y="-115396"/>
+	</territory>
+	<territory name="godard09_2514_04b" minZ="-6244" maxZ="-5744">
+		<node x="183260" y="-114708"/>
+		<node x="183460" y="-114708"/>
+		<node x="183460" y="-114508"/>
+		<node x="183260" y="-114508"/>
+	</territory>
+	<npcmaker name="godard09_2514_04m1" territory="godard09_2514_04" ban="godard09_2514_04b" maximumNpcs="28">
+		<ai type="default_maker"/>
+		<npc id="21388" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21389" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21390" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21656" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21395" total="1" respawn="60sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_05" minZ="-6182" maxZ="-5982">
+		<node x="184908" y="-118019"/>
+		<node x="185328" y="-117263"/>
+		<node x="184756" y="-115907"/>
+		<node x="184036" y="-115735"/>
+		<node x="183016" y="-116807"/>
+		<node x="183856" y="-118115"/>
+	</territory>
+	<territory name="godard09_2514_05b" minZ="-6184" maxZ="-5684">
+		<node x="184140" y="-117188"/>
+		<node x="184340" y="-117188"/>
+		<node x="184340" y="-116988"/>
+		<node x="184140" y="-116988"/>
+	</territory>
+	<npcmaker name="godard09_2514_05m1" territory="godard09_2514_05" ban="godard09_2514_05b" maximumNpcs="28">
+		<ai type="default_maker"/>
+		<npc id="21388" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21389" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21390" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21656" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+				<private id="21390" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21395" total="1" respawn="60sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_06" minZ="-5894" maxZ="-5694">
+		<node x="182031" y="-111122"/>
+		<node x="182679" y="-110114"/>
+		<node x="181971" y="-108898"/>
+		<node x="180651" y="-109022"/>
+		<node x="180367" y="-109346"/>
+		<node x="180639" y="-111170"/>
+	</territory>
+	<territory name="godard09_2514_06b" minZ="-5912" maxZ="-5412">
+		<node x="181064" y="-109780"/>
+		<node x="181548" y="-110184"/>
+		<node x="181656" y="-109952"/>
+		<node x="181180" y="-109564"/>
+	</territory>
+	<npcmaker name="godard09_2514_06m1" territory="godard09_2514_06" ban="godard09_2514_06b" maximumNpcs="28">
+		<ai type="default_maker"/>
+		<npc id="21391" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21392" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21393" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21657" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21395" total="1" respawn="60sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_07" minZ="-5886" maxZ="-5686">
+		<node x="179604" y="-108013"/>
+		<node x="179592" y="-107193"/>
+		<node x="178728" y="-106757"/>
+		<node x="178192" y="-107437"/>
+		<node x="177804" y="-107465"/>
+		<node x="177580" y="-108377"/>
+		<node x="177836" y="-108765"/>
+		<node x="178728" y="-108877"/>
+		<node x="178716" y="-108093"/>
+	</territory>
+	<npcmaker name="godard09_2514_07m1" territory="godard09_2514_07" maximumNpcs="28">
+		<ai type="default_maker"/>
+		<npc id="21391" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21392" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21393" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21657" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21395" total="1" respawn="60sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_08" minZ="-5896" maxZ="-5676">
+		<node x="178913" y="-110527"/>
+		<node x="179358" y="-110192"/>
+		<node x="178971" y="-109536"/>
+		<node x="178300" y="-109836"/>
+		<node x="177846" y="-110174"/>
+		<node x="177941" y="-110441"/>
+		<node x="178203" y="-110941"/>
+		<node x="178678" y="-110925"/>
+	</territory>
+	<npcmaker name="godard09_2514_08m1" territory="godard09_2514_08" maximumNpcs="28">
+		<ai type="default_maker"/>
+		<npc id="21391" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21392" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21393" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21657" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21395" total="1" respawn="60sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_09" minZ="-6101" maxZ="-5901">
+		<node x="181981" y="-105685"/>
+		<node x="180989" y="-105901"/>
+		<node x="180745" y="-106253"/>
+		<node x="181213" y="-106477"/>
+		<node x="180725" y="-106965"/>
+		<node x="181521" y="-107913"/>
+		<node x="182501" y="-107669"/>
+		<node x="182453" y="-107281"/>
+		<node x="183121" y="-107189"/>
+		<node x="183445" y="-106453"/>
+		<node x="182797" y="-105761"/>
+	</territory>
+	<npcmaker name="godard09_2514_09m1" territory="godard09_2514_09" maximumNpcs="28">
+		<ai type="default_maker"/>
+		<npc id="21391" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21392" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21393" total="3" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21657" total="3" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21395" total="1" respawn="60sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_11" minZ="-6006" maxZ="-5806">
+		<node x="184380" y="-110588"/>
+		<node x="184512" y="-110696"/>
+		<node x="184504" y="-109500"/>
+		<node x="184336" y="-109712"/>
+		<node x="184264" y="-110080"/>
+	</territory>
+	<npcmaker name="godard09_2514_11m1" territory="godard09_2514_11" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21395" total="3" respawn="105sec" respawnRand="35sec"/>
+		<npc id="21393" total="2" respawn="110sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_12" minZ="-5946" maxZ="-5746">
+		<node x="185202" y="-109689"/>
+		<node x="185704" y="-109222"/>
+		<node x="185534" y="-108625"/>
+		<node x="184770" y="-109214"/>
+		<node x="184706" y="-109484"/>
+	</territory>
+	<npcmaker name="godard09_2514_12m1" territory="godard09_2514_12" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="21393" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21657" total="2" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+		<npc id="21395" total="2" respawn="105sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_13" minZ="-5986" maxZ="-5786">
+		<node x="184537" y="-110697"/>
+		<node x="185265" y="-110141"/>
+		<node x="185269" y="-109733"/>
+		<node x="184521" y="-109501"/>
+	</territory>
+	<npcmaker name="godard09_2514_13m1" territory="godard09_2514_13" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21391" total="1" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21392" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21393" total="2" respawn="110sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_14" minZ="-6004" maxZ="-5804">
+		<node x="185386" y="-111386"/>
+		<node x="185534" y="-110414"/>
+		<node x="185270" y="-110162"/>
+		<node x="184526" y="-110734"/>
+		<node x="184690" y="-111166"/>
+	</territory>
+	<npcmaker name="godard09_2514_14m1" territory="godard09_2514_14" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21393" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21391" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21392" total="1" respawn="110sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_15" minZ="-5970" maxZ="-5770">
+		<node x="185407" y="-111408"/>
+		<node x="186103" y="-111832"/>
+		<node x="185879" y="-110408"/>
+		<node x="185543" y="-110428"/>
+	</territory>
+	<npcmaker name="godard09_2514_15m1" territory="godard09_2514_15" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21393" total="1" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21392" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21395" total="2" respawn="105sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_16" minZ="-5928" maxZ="-5728">
+		<node x="187009" y="-111776"/>
+		<node x="187173" y="-110252"/>
+		<node x="186129" y="-110184"/>
+		<node x="185897" y="-110428"/>
+		<node x="186093" y="-111772"/>
+	</territory>
+	<npcmaker name="godard09_2514_16m1" territory="godard09_2514_16" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21393" total="1" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21391" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21392" total="1" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21395" total="2" respawn="105sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_17" minZ="-5932" maxZ="-5732">
+		<node x="185715" y="-109455"/>
+		<node x="186103" y="-109603"/>
+		<node x="186131" y="-108723"/>
+		<node x="185739" y="-108403"/>
+		<node x="185359" y="-108543"/>
+	</territory>
+	<npcmaker name="godard09_2514_17m1" territory="godard09_2514_17" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21393" total="2" respawn="110sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_18" minZ="-5968" maxZ="-5768">
+		<node x="186194" y="-110196"/>
+		<node x="187114" y="-110252"/>
+		<node x="187222" y="-108580"/>
+		<node x="186166" y="-108860"/>
+	</territory>
+	<npcmaker name="godard09_2514_18m1" territory="godard09_2514_18" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="21392" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21391" total="1" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21393" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21395" total="1" respawn="105sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_19" minZ="-5952" maxZ="-5752">
+		<node x="187187" y="-109656"/>
+		<node x="187719" y="-109664"/>
+		<node x="187651" y="-108968"/>
+		<node x="187251" y="-108656"/>
+	</territory>
+	<npcmaker name="godard09_2514_19m1" territory="godard09_2514_19" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21392" total="2" respawn="110sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_20" minZ="-5956" maxZ="-5756">
+		<node x="188399" y="-109529"/>
+		<node x="188487" y="-109357"/>
+		<node x="187999" y="-108741"/>
+		<node x="187667" y="-108941"/>
+		<node x="187735" y="-109665"/>
+		<node x="187979" y="-109909"/>
+	</territory>
+	<npcmaker name="godard09_2514_20m1" territory="godard09_2514_20" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="21391" total="2" respawn="110sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_21" minZ="-5932" maxZ="-5732">
+		<node x="188030" y="-111311"/>
+		<node x="188390" y="-111115"/>
+		<node x="188258" y="-109675"/>
+		<node x="187990" y="-109919"/>
+		<node x="187982" y="-110243"/>
+		<node x="187782" y="-110467"/>
+	</territory>
+	<npcmaker name="godard09_2514_21m1" territory="godard09_2514_21" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="21392" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21391" total="2" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21395" total="1" respawn="105sec" respawnRand="35sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_2514_22" minZ="-5942" maxZ="-5742">
+		<node x="187619" y="-111382"/>
+		<node x="188015" y="-111526"/>
+		<node x="187759" y="-110498"/>
+		<node x="187131" y="-110466"/>
+		<node x="187015" y="-111754"/>
+	</territory>
+	<npcmaker name="godard09_2514_22m1" territory="godard09_2514_22" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="21392" total="1" respawn="110sec" respawnRand="35sec"/>
+		<npc id="21657" total="2" respawn="110sec" respawnRand="35sec">
+			<privates>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+				<private id="21393" weight="1" respawn="0sec"/>
+			</privates>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_mb2514_01" minZ="-6384" maxZ="-6184">
+		<node x="184536" y="-106084"/>
+		<node x="185372" y="-106872"/>
+		<node x="186752" y="-106580"/>
+		<node x="186768" y="-105652"/>
+		<node x="185072" y="-105144"/>
+	</territory>
+	<npcmaker name="godard09_mb2514_01m1" territory="godard09_mb2514_01" maximumNpcs="8">
+		<ai type="default_use_db_maker"/>
+		<npc id="25319" total="1" respawn="36hour" respawnRand="24hour" dbName="amber"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_npc2514_05" minZ="-5856" maxZ="-5656">
+		<node x="180236" y="-111972"/>
+		<node x="180436" y="-111972"/>
+		<node x="180436" y="-111772"/>
+		<node x="180236" y="-111772"/>
+	</territory>
+	<npcmaker name="godard09_npc2514_0501" territory="godard09_npc2514_05" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31539" pos="180352;-111888;-5826;24000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard09_npc2514_08" minZ="-3663" maxZ="-3463">
+		<node x="179580" y="-115572"/>
+		<node x="179780" y="-115572"/>
+		<node x="179780" y="-115372"/>
+		<node x="179580" y="-115372"/>
+	</territory>
+	<npcmaker name="godard09_npc2514_08m1" territory="godard09_npc2514_08" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="32049" pos="179680;-115472;-3613;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_2514_01" minZ="-1896" maxZ="-1696">
+		<node x="191644" y="-117588"/>
+		<node x="191844" y="-117588"/>
+		<node x="191844" y="-117388"/>
+		<node x="191644" y="-117388"/>
+	</territory>
+	<npcmaker name="godard10_2514_01m1" territory="godard10_2514_01" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="21392" total="10" respawn="604800sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_2514_07" minZ="-1464" maxZ="-1264">
+		<node x="192648" y="-113844"/>
+		<node x="193080" y="-114196"/>
+		<node x="193520" y="-114280"/>
+		<node x="193776" y="-114152"/>
+		<node x="192496" y="-113496"/>
+	</territory>
+	<npcmaker name="godard10_2514_07m1" territory="godard10_2514_07" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21395" total="8" respawn="604800sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_2514_08" minZ="-884" maxZ="-684">
+		<node x="188936" y="-107280"/>
+		<node x="189364" y="-107328"/>
+		<node x="189724" y="-107216"/>
+		<node x="189812" y="-106944"/>
+		<node x="188608" y="-107080"/>
+	</territory>
+	<npcmaker name="godard10_2514_08m1" territory="godard10_2514_08" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21395" total="4" respawn="604800sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_2514_09" minZ="-880" maxZ="-680">
+		<node x="190756" y="-106952"/>
+		<node x="190996" y="-106952"/>
+		<node x="191676" y="-106536"/>
+		<node x="191788" y="-106344"/>
+		<node x="190588" y="-106688"/>
+	</territory>
+	<npcmaker name="godard10_2514_09m1" territory="godard10_2514_09" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21395" total="4" respawn="604800sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_mb2514_02" minZ="-1624" maxZ="-1424">
+		<node x="189964" y="-116820"/>
+		<node x="190164" y="-116820"/>
+		<node x="190164" y="-116620"/>
+		<node x="189964" y="-116620"/>
+	</territory>
+	<npcmaker name="godard10_mb2514_02m1" territory="godard10_mb2514_02" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="29030" total="1" respawn="604800sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_mb2514_03" minZ="-1444" maxZ="-1244">
+		<node x="193260" y="-116820"/>
+		<node x="193460" y="-116820"/>
+		<node x="193460" y="-113052"/>
+		<node x="193260" y="-113052"/>
+	</territory>
+	<npcmaker name="godard10_mb2514_03m1" territory="godard10_mb2514_03" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="29033" total="1" respawn="604800sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_mb2514_04" minZ="-1064" maxZ="-864">
+		<node x="189388" y="-109476"/>
+		<node x="189588" y="-109476"/>
+		<node x="189588" y="-109276"/>
+		<node x="189388" y="-109276"/>
+	</territory>
+	<npcmaker name="godard10_mb2514_04m1" territory="godard10_mb2514_04" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="29036" total="1" respawn="604800sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_mb2514_05" minZ="-1060" maxZ="-860">
+		<node x="192156" y="-108980"/>
+		<node x="192356" y="-108980"/>
+		<node x="192356" y="-108780"/>
+		<node x="192156" y="-108780"/>
+	</territory>
+	<npcmaker name="godard10_mb2514_05m1" territory="godard10_mb2514_05" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="29037" total="1" respawn="604800sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_mb2514_06" minZ="-844" maxZ="-644">
+		<node x="189404" y="-106296"/>
+		<node x="190372" y="-106276"/>
+		<node x="190408" y="-105516"/>
+		<node x="189428" y="-105516"/>
+	</territory>
+	<npcmaker name="godard10_mb2514_06m1" territory="godard10_mb2514_06" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="29040" total="1" respawn="604800sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_npc2514_02" minZ="-1064" maxZ="-864">
+		<node x="189468" y="-108868"/>
+		<node x="189668" y="-108868"/>
+		<node x="189668" y="-108668"/>
+		<node x="189468" y="-108668"/>
+	</territory>
+	<npcmaker name="godard10_npc2514_0201" territory="godard10_npc2514_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31686" pos="189584;-108768;-1017;43000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_npc2514_03" minZ="-1068" maxZ="-868">
+		<node x="191356" y="-108564"/>
+		<node x="191556" y="-108564"/>
+		<node x="191556" y="-108364"/>
+		<node x="191356" y="-108364"/>
+	</territory>
+	<npcmaker name="godard10_npc2514_0301" territory="godard10_npc2514_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31687" pos="191456;-108448;-1017;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_npc2514_04" minZ="-1620" maxZ="-1420">
+		<node x="191212" y="-115572"/>
+		<node x="191412" y="-115572"/>
+		<node x="191412" y="-115372"/>
+		<node x="191212" y="-115372"/>
+	</territory>
+	<npcmaker name="godard10_npc2514_0401" territory="godard10_npc2514_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31384" pos="191296;-115472;-1580;56000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard10_npc2514_07" minZ="-804" maxZ="-604">
+		<node x="189772" y="-105236"/>
+		<node x="189972" y="-105236"/>
+		<node x="189972" y="-105036"/>
+		<node x="189772" y="-105036"/>
+	</territory>
+	<npcmaker name="godard10_npc2514_0701" territory="godard10_npc2514_07" maximumNpcs="1">
+		<ai type="default_use_db_maker"/>
+		<npc id="31385" pos="189872;-105152;-724;49000" total="1" respawn="1min" dbName="heart_of_volcano">
+			<ai>
+				<set name="TelPosX" val="204187"/>
+				<set name="TelPosY" val="-111864"/>
+				<set name="TelPosZ" val="34"/>
+			</ai>
+		</npc>
+	</npcmaker>
+</list>

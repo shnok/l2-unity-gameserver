@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Goddard Area
+ * Valakas' Lair
+ * Hall of Flames
+-->
+<list>
+	<!--  -->
+	<territory name="godard11_2614_01" minZ="-2572" maxZ="5428">
+		<node x="196866" y="-130845"/>
+		<node x="229289" y="-130860"/>
+		<node x="229176" y="-98508"/>
+		<node x="196880" y="-98498"/>
+	</territory>
+	<npcmaker name="boss_26_14" territory="godard11_2614_01" maximumNpcs="93">
+		<ai type="default_use_db_maker">
+				<set name="maker_name" val="valakascuve_2614"/>
+		</ai>
+		<npc id="29028" pos="-105200;-253104;-15264;0" total="1" respawn="264hour" respawnRand="72hour" dbName="valakas"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="godard11_2614_02" minZ="-2572" maxZ="5428">
+		<node x="196866" y="-130845"/>
+		<node x="229289" y="-130860"/>
+		<node x="229176" y="-98508"/>
+		<node x="196880" y="-98498"/>
+	</territory>
+	<npcmaker name="valakascuve_2614" territory="godard11_2614_02" maximumNpcs="30">
+		<ai type="default_maker">
+				<set name="on_start_spawn" val="0"/>
+		</ai>
+		<npc id="31759" pos="214880;-116144;-1644;0" total="1" respawn="no"/>
+		<npc id="31759" pos="213696;-116592;-1644;0" total="1" respawn="no"/>
+		<npc id="31759" pos="212112;-116688;-1644;0" total="1" respawn="no"/>
+		<npc id="31759" pos="211184;-115472;-1664;0" total="1" respawn="no"/>
+		<npc id="31759" pos="210336;-114592;-1644;0" total="1" respawn="no"/>
+		<npc id="31759" pos="211360;-113904;-1644;0" total="1" respawn="no"/>
+		<npc id="31759" pos="213152;-112352;-1644;0" total="1" respawn="no"/>
+		<npc id="31759" pos="214032;-113232;-1644;0" total="1" respawn="no"/>
+		<npc id="31759" pos="214752;-114592;-1644;0" total="1" respawn="no"/>
+		<npc id="31759" pos="209824;-115568;-1421;0" total="1" respawn="no"/>
+		<npc id="31759" pos="210528;-112192;-1403;0" total="1" respawn="no"/>
+		<npc id="31759" pos="213120;-111136;-1408;0" total="1" respawn="no"/>
+		<npc id="31759" pos="215184;-111504;-1392;0" total="1" respawn="no"/>
+		<npc id="31759" pos="215456;-117328;-1392;0" total="1" respawn="no"/>
+		<npc id="31759" pos="213200;-118160;-1424;0" total="1" respawn="no"/>
+	</npcmaker>
+</list>

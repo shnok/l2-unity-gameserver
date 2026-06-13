@@ -1,0 +1,50 @@
+<html><title>NPC Info</title><body>
+	<center>
+		<table width=260>
+			<tr>
+				<td><button value="General" action="bypass -h admin_info" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="AI" action="bypass -h admin_info ai" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Spawn" action="bypass -h admin_info spawn" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Stat" action="bypass -h admin_info stat" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			</tr>
+		</table>
+		<img src="l2ui.SquareWhite" width=275 height=1><br>
+		
+		<table width=260>
+			<tr>
+				<td><button value="Aggro" action="bypass -h admin_info aggro" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Desire" action="bypass -h admin_info desire" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Knownlist" action="bypass -h admin_knownlist" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Script" action="bypass -h admin_info script" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			</tr><tr>
+				<td><button value="Spawns" action="bypass -h admin_list_spawns %id%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Drops" action="bypass -h admin_info drop" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Spoils" action="bypass -h admin_info spoil" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Shop" action="bypass -h admin_info shop" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+			</tr><tr>
+				<td><button value="Skills" action="bypass -h admin_info skill" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td><button value="Effects" action="bypass -h admin_effect" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table><br>
+		
+		<table width=260>
+			<tr>
+				<td width=180 align=center><font color="LEVEL">General Informations</font></td>
+				<td width=20></td>
+				<td width=40><a action="bypass -h admin_info">1</a>&nbsp;[2]&nbsp;<a action="bypass -h admin_info 2">3</a></td>
+			</tr>
+		</table><br>
+		
+	</center>
+	<font color="LEVEL">Exp :</font> %exp%<br1>
+	<font color="LEVEL">Sp :</font> %sp%<br>
+	<font color="LEVEL">BaseAttackRange :</font> %baseAttackRange%<br1>
+	<font color="LEVEL">BaseDamageRange :</font> %baseDamageRange%<br1>
+	<font color="LEVEL">BaseRandomDamage :</font> %baseRandomDamage%<br>
+	<font color="LEVEL">Race :</font> %race%<br>
+	<font color="LEVEL">Clan :</font> %clan%<br1>
+	<font color="LEVEL">Clan Range :</font> %clanRange%<br1>
+	<font color="LEVEL">Ignored Ids :</font> %ignoredIds%
+</body></html>

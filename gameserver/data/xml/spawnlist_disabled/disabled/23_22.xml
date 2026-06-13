@@ -1,0 +1,4157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Giran Area
+ * Giran Castle
+ * Necropolis of Martyrdom
+-->
+<list>
+	<!--  -->
+	<territory name="giran01_qm2322_01" minZ="-3531" maxZ="-3331">
+		<node x="106252" y="135416"/>
+		<node x="106452" y="135416"/>
+		<node x="106452" y="135616"/>
+		<node x="106252" y="135616"/>
+	</territory>
+	<npcmaker name="giran01_qm2322_01m1" territory="giran01_qm2322_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="27107" total="1" respawn="3min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran15_npc2322_01" minZ="-2613" maxZ="-2413">
+		<node x="116876" y="145180"/>
+		<node x="117076" y="145180"/>
+		<node x="117076" y="145380"/>
+		<node x="116876" y="145380"/>
+	</territory>
+	<npcmaker name="giran15_npc2322_0101" territory="giran15_npc2322_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35186" pos="116984;145278;-2555;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran15_npc2322_03" minZ="-2870" maxZ="-2670">
+		<node x="116284" y="145452"/>
+		<node x="116484" y="145452"/>
+		<node x="116484" y="145652"/>
+		<node x="116284" y="145652"/>
+	</territory>
+	<npcmaker name="giran15_npc2322_0301" territory="giran15_npc2322_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35182" pos="116382;145568;-2750;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran15_npc2322_04" minZ="-2858" maxZ="-2658">
+		<node x="115836" y="144972"/>
+		<node x="116036" y="144972"/>
+		<node x="116036" y="145172"/>
+		<node x="115836" y="145172"/>
+	</territory>
+	<npcmaker name="giran15_npc2322_0401" territory="giran15_npc2322_04" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35183" pos="115922;145080;-2730;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran15_npc2322_06" minZ="-2135" maxZ="-1935">
+		<node x="117676" y="145228"/>
+		<node x="117876" y="145228"/>
+		<node x="117876" y="145428"/>
+		<node x="117676" y="145428"/>
+	</territory>
+	<npcmaker name="giran15_npc2322_0601" territory="giran15_npc2322_06" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35185" pos="117780;145257;-2099;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran15_npc2322_07" minZ="-2612" maxZ="-2412">
+		<node x="116876" y="144764"/>
+		<node x="117076" y="144764"/>
+		<node x="117076" y="144964"/>
+		<node x="116876" y="144964"/>
+	</territory>
+	<npcmaker name="giran15_npc2322_07m1" territory="giran15_npc2322_07" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35650" pos="116984;144864;-2562;32768" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_01" minZ="-3684" maxZ="-3084">
+		<node x="98552" y="131280"/>
+		<node x="103160" y="131268"/>
+		<node x="103056" y="133876"/>
+		<node x="100432" y="136044"/>
+		<node x="98604" y="136436"/>
+	</territory>
+	<npcmaker name="giran17_2322_01m1" territory="giran17_2322_01" maximumNpcs="78">
+		<ai type="default_maker"/>
+		<npc id="20248" total="6" respawn="27sec"/>
+		<npc id="20145" total="6" respawn="27sec"/>
+		<npc id="20249" total="6" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_02" minZ="-3656" maxZ="-3056">
+		<node x="103196" y="131248"/>
+		<node x="108356" y="131288"/>
+		<node x="108292" y="132692"/>
+		<node x="103956" y="134148"/>
+		<node x="103116" y="133776"/>
+	</territory>
+	<npcmaker name="giran17_2322_02m1" territory="giran17_2322_02" maximumNpcs="52">
+		<ai type="default_maker"/>
+		<npc id="20248" total="4" respawn="27sec"/>
+		<npc id="20145" total="4" respawn="27sec"/>
+		<npc id="20249" total="4" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_03" minZ="-3688" maxZ="-3228">
+		<node x="101904" y="136448"/>
+		<node x="103108" y="135076"/>
+		<node x="105008" y="134864"/>
+		<node x="107884" y="138588"/>
+		<node x="106032" y="139908"/>
+		<node x="104556" y="139632"/>
+	</territory>
+	<npcmaker name="giran17_2322_03m1" territory="giran17_2322_03" maximumNpcs="65">
+		<ai type="default_maker"/>
+		<npc id="20248" total="5" respawn="27sec"/>
+		<npc id="20145" total="5" respawn="27sec"/>
+		<npc id="20249" total="5" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_04" minZ="-3628" maxZ="-3228">
+		<node x="105260" y="134848"/>
+		<node x="108352" y="133880"/>
+		<node x="111764" y="135268"/>
+		<node x="110768" y="137216"/>
+		<node x="107724" y="138068"/>
+	</territory>
+	<npcmaker name="giran17_2322_04m1" territory="giran17_2322_04" maximumNpcs="18">
+		<ai type="default_maker"/>
+		<npc id="20249" total="6" respawn="27sec"/>
+		<npc id="20158" total="6" respawn="27sec"/>
+		<npc id="20176" total="6" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_05" minZ="-3712" maxZ="-2712">
+		<node x="111856" y="135344"/>
+		<node x="118060" y="136228"/>
+		<node x="114668" y="138212"/>
+		<node x="111768" y="138656"/>
+		<node x="110916" y="137272"/>
+	</territory>
+	<npcmaker name="giran17_2322_05m1" territory="giran17_2322_05" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20249" total="5" respawn="27sec"/>
+		<npc id="20158" total="5" respawn="27sec"/>
+		<npc id="20176" total="5" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_06" minZ="-3692" maxZ="-3092">
+		<node x="116428" y="135160"/>
+		<node x="119916" y="133456"/>
+		<node x="122688" y="134232"/>
+		<node x="121532" y="137616"/>
+	</territory>
+	<npcmaker name="giran17_2322_06m1" territory="giran17_2322_06" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="20249" total="4" respawn="27sec"/>
+		<npc id="20158" total="4" respawn="27sec"/>
+		<npc id="20176" total="5" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_07" minZ="-3656" maxZ="-3056">
+		<node x="118568" y="131272"/>
+		<node x="122612" y="131248"/>
+		<node x="122700" y="134072"/>
+		<node x="120068" y="133340"/>
+	</territory>
+	<npcmaker name="giran17_2322_07m1" territory="giran17_2322_07" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20249" total="3" respawn="27sec"/>
+		<npc id="20158" total="3" respawn="27sec"/>
+		<npc id="20176" total="3" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_08" minZ="-3708" maxZ="-2708">
+		<node x="122928" y="133828"/>
+		<node x="126056" y="132704"/>
+		<node x="127224" y="134600"/>
+		<node x="124816" y="138108"/>
+		<node x="122572" y="137740"/>
+		<node x="122084" y="136600"/>
+	</territory>
+	<npcmaker name="giran17_2322_08m1" territory="giran17_2322_08" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20249" total="5" respawn="27sec"/>
+		<npc id="20158" total="5" respawn="27sec"/>
+		<npc id="20176" total="5" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_09" minZ="-3608" maxZ="-2608">
+		<node x="127360" y="134580"/>
+		<node x="129868" y="134556"/>
+		<node x="129976" y="136468"/>
+		<node x="128196" y="138976"/>
+		<node x="125852" y="138988"/>
+		<node x="124916" y="138068"/>
+	</territory>
+	<npcmaker name="giran17_2322_09m1" territory="giran17_2322_09" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20249" total="4" respawn="27sec"/>
+		<npc id="20158" total="4" respawn="27sec"/>
+		<npc id="20176" total="4" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_10" minZ="-3616" maxZ="-2816">
+		<node x="98448" y="137656"/>
+		<node x="100480" y="137220"/>
+		<node x="102272" y="138700"/>
+		<node x="101580" y="140324"/>
+		<node x="98508" y="138960"/>
+	</territory>
+	<npcmaker name="giran17_2322_10m1" territory="giran17_2322_10" maximumNpcs="24">
+		<ai type="default_maker"/>
+		<npc id="20248" total="1" respawn="27sec"/>
+		<npc id="20145" total="2" respawn="27sec"/>
+		<npc id="20249" total="1" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_11" minZ="-3700" maxZ="-3100">
+		<node x="103800" y="139548"/>
+		<node x="105820" y="139988"/>
+		<node x="106624" y="141076"/>
+		<node x="104860" y="143748"/>
+	</territory>
+	<npcmaker name="giran17_2322_11m1" territory="giran17_2322_11" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="20248" total="1" respawn="27sec"/>
+		<npc id="20145" total="2" respawn="27sec"/>
+		<npc id="20249" total="2" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_12" minZ="-3668" maxZ="-3268">
+		<node x="100212" y="141260"/>
+		<node x="101876" y="141168"/>
+		<node x="103216" y="141744"/>
+		<node x="103864" y="143884"/>
+		<node x="100756" y="144032"/>
+	</territory>
+	<npcmaker name="giran17_2322_12m1" territory="giran17_2322_12" maximumNpcs="26">
+		<ai type="default_maker"/>
+		<npc id="20248" total="2" respawn="27sec"/>
+		<npc id="20145" total="2" respawn="27sec"/>
+		<npc id="20249" total="2" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_13" minZ="-3688" maxZ="-3088">
+		<node x="100720" y="144180"/>
+		<node x="103764" y="143940"/>
+		<node x="106548" y="145576"/>
+		<node x="105344" y="147584"/>
+		<node x="102188" y="146140"/>
+	</territory>
+	<npcmaker name="giran17_2322_13m1" territory="giran17_2322_13" maximumNpcs="39">
+		<ai type="default_maker"/>
+		<npc id="20248" total="3" respawn="27sec"/>
+		<npc id="20145" total="3" respawn="27sec"/>
+		<npc id="20249" total="3" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_14" minZ="-3760" maxZ="-3160">
+		<node x="98484" y="145328"/>
+		<node x="100636" y="144216"/>
+		<node x="102076" y="146220"/>
+		<node x="101520" y="148776"/>
+		<node x="98468" y="147624"/>
+	</territory>
+	<npcmaker name="giran17_2322_14m1" territory="giran17_2322_14" maximumNpcs="26">
+		<ai type="default_maker"/>
+		<npc id="20248" total="2" respawn="27sec"/>
+		<npc id="20145" total="2" respawn="27sec"/>
+		<npc id="20249" total="2" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_2322_15" minZ="-3732" maxZ="-3132">
+		<node x="98540" y="147792"/>
+		<node x="101476" y="148904"/>
+		<node x="100820" y="150852"/>
+		<node x="98688" y="151548"/>
+	</territory>
+	<npcmaker name="giran17_2322_15m1" territory="giran17_2322_15" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="20248" total="2" respawn="27sec"/>
+		<npc id="20145" total="2" respawn="27sec"/>
+		<npc id="20249" total="1" respawn="27sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_mb2322_01" minZ="-3724" maxZ="-3124">
+		<node x="115456" y="139440"/>
+		<node x="116372" y="138980"/>
+		<node x="117104" y="139444"/>
+		<node x="115944" y="139968"/>
+	</territory>
+	<npcmaker name="giran17_mb2322_01" territory="giran17_mb2322_01" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25112" total="1" respawn="36hour" respawnRand="24hour" dbName="meana_agent_of_beres" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_mb2322_03" minZ="-3756" maxZ="-3156">
+		<node x="122904" y="133668"/>
+		<node x="123764" y="132856"/>
+		<node x="124344" y="133232"/>
+		<node x="123268" y="134268"/>
+	</territory>
+	<npcmaker name="giran17_mb2322_03" territory="giran17_mb2322_03" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25098" total="1" respawn="36hour" respawnRand="24hour" dbName="sejarr_s_summoner" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_mb2323_01" minZ="-3564" maxZ="-2964">
+		<node x="127908" y="138360"/>
+		<node x="128532" y="137880"/>
+		<node x="128824" y="138548"/>
+		<node x="128312" y="139188"/>
+	</territory>
+	<npcmaker name="giran17_mb2323_01" territory="giran17_mb2323_01" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25415" total="1" respawn="36hour" respawnRand="24hour" dbName="nakondas" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_npc2322_02" minZ="-3531" maxZ="-3331">
+		<node x="106252" y="135416"/>
+		<node x="106452" y="135416"/>
+		<node x="106452" y="135616"/>
+		<node x="106252" y="135616"/>
+	</territory>
+	<npcmaker name="giran17_npc2322_0201" territory="giran17_npc2322_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30640" pos="106345;135523;-3415;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_02" minZ="-3656" maxZ="-3056">
+		<node x="103196" y="131248"/>
+		<node x="108356" y="131288"/>
+		<node x="108292" y="132692"/>
+		<node x="103956" y="134148"/>
+		<node x="103116" y="133776"/>
+	</territory>
+	<npcmaker name="giran17_tb02_m1" territory="giran17_tb2322_02" maximumNpcs="2">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18269" total="1" respawn="90sec"/>
+		<npc id="21805" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_03" minZ="-3688" maxZ="-3228">
+		<node x="117904" y="136448"/>
+		<node x="103108" y="135076"/>
+		<node x="105008" y="134864"/>
+		<node x="107884" y="138588"/>
+		<node x="116032" y="139908"/>
+		<node x="104556" y="139632"/>
+	</territory>
+	<npcmaker name="giran17_tb03_m1" territory="giran17_tb2322_03" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18269" total="1" respawn="90sec"/>
+		<npc id="21805" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_04" minZ="-3628" maxZ="-3228">
+		<node x="105260" y="134848"/>
+		<node x="108352" y="133880"/>
+		<node x="111764" y="135268"/>
+		<node x="110768" y="137216"/>
+		<node x="107724" y="138168"/>
+	</territory>
+	<npcmaker name="giran17_tb04_m1" territory="giran17_tb2322_04" maximumNpcs="2">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18269" total="1" respawn="90sec"/>
+		<npc id="21805" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_05" minZ="-3712" maxZ="-2712">
+		<node x="111856" y="135344"/>
+		<node x="118160" y="136228"/>
+		<node x="114668" y="138212"/>
+		<node x="111768" y="138656"/>
+		<node x="110916" y="137272"/>
+	</territory>
+	<npcmaker name="giran17_tb05_m1" territory="giran17_tb2322_05" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18269" total="1" respawn="90sec"/>
+		<npc id="21805" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_07" minZ="-3656" maxZ="-3056">
+		<node x="118568" y="131272"/>
+		<node x="122612" y="131248"/>
+		<node x="122700" y="134072"/>
+		<node x="120168" y="133340"/>
+	</territory>
+	<npcmaker name="giran17_tb07_m1" territory="giran17_tb2322_07" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18270" total="1" respawn="90sec"/>
+		<npc id="21806" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_08" minZ="-3708" maxZ="-2708">
+		<node x="122928" y="133828"/>
+		<node x="126056" y="132704"/>
+		<node x="127224" y="134600"/>
+		<node x="124816" y="138108"/>
+		<node x="122572" y="137740"/>
+		<node x="122084" y="136600"/>
+	</territory>
+	<npcmaker name="giran17_tb08_m1" territory="giran17_tb2322_08" maximumNpcs="2">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18270" total="1" respawn="90sec"/>
+		<npc id="21806" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_09" minZ="-3608" maxZ="-2608">
+		<node x="127360" y="134580"/>
+		<node x="129868" y="134556"/>
+		<node x="129976" y="136468"/>
+		<node x="128196" y="138976"/>
+		<node x="125852" y="138988"/>
+		<node x="124916" y="138168"/>
+	</territory>
+	<npcmaker name="giran17_tb09_m1" territory="giran17_tb2322_09" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18270" total="1" respawn="90sec"/>
+		<npc id="21806" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_10" minZ="-3616" maxZ="-2816">
+		<node x="98448" y="137656"/>
+		<node x="100480" y="137220"/>
+		<node x="102272" y="138700"/>
+		<node x="117580" y="140324"/>
+		<node x="98508" y="138960"/>
+	</territory>
+	<npcmaker name="giran17_tb10_m1" territory="giran17_tb2322_10" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18270" total="1" respawn="90sec"/>
+		<npc id="21806" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_11" minZ="-3700" maxZ="-3100">
+		<node x="103800" y="139548"/>
+		<node x="105820" y="139988"/>
+		<node x="116624" y="141076"/>
+		<node x="104860" y="143748"/>
+	</territory>
+	<npcmaker name="giran17_tb11_m1" territory="giran17_tb2322_11" maximumNpcs="2">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18270" total="1" respawn="90sec"/>
+		<npc id="21806" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_12" minZ="-3668" maxZ="-3268">
+		<node x="100212" y="141260"/>
+		<node x="117876" y="141168"/>
+		<node x="103216" y="141744"/>
+		<node x="103864" y="143884"/>
+		<node x="100756" y="144032"/>
+	</territory>
+	<npcmaker name="giran17_tb12_m1" territory="giran17_tb2322_12" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18270" total="1" respawn="90sec"/>
+		<npc id="21806" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_13" minZ="-3688" maxZ="-3088">
+		<node x="100720" y="144180"/>
+		<node x="103764" y="143940"/>
+		<node x="116548" y="145576"/>
+		<node x="105344" y="147584"/>
+		<node x="102188" y="146140"/>
+	</territory>
+	<npcmaker name="giran17_tb13_m1" territory="giran17_tb2322_13" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18270" total="1" respawn="90sec"/>
+		<npc id="21806" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_14" minZ="-3760" maxZ="-3160">
+		<node x="98484" y="145328"/>
+		<node x="101636" y="144216"/>
+		<node x="102076" y="146220"/>
+		<node x="117520" y="148776"/>
+		<node x="98468" y="147624"/>
+	</territory>
+	<npcmaker name="giran17_tb14_m1" territory="giran17_tb2322_14" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18270" total="1" respawn="90sec"/>
+		<npc id="21806" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_15" minZ="-3732" maxZ="-3132">
+		<node x="98540" y="147792"/>
+		<node x="117476" y="148904"/>
+		<node x="100820" y="150852"/>
+		<node x="98688" y="151548"/>
+	</territory>
+	<npcmaker name="giran17_tb15_m1" territory="giran17_tb2322_15" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18270" total="1" respawn="90sec"/>
+		<npc id="21806" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_16" minZ="-3692" maxZ="-3092">
+		<node x="116428" y="135160"/>
+		<node x="119916" y="133456"/>
+		<node x="122688" y="134232"/>
+		<node x="121532" y="137616"/>
+	</territory>
+	<npcmaker name="giran17_tb16_m1" territory="giran17_tb2322_16" maximumNpcs="2">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18269" total="1" respawn="90sec"/>
+		<npc id="21805" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran17_tb2322_17" minZ="-3684" maxZ="-3084">
+		<node x="98552" y="131280"/>
+		<node x="103160" y="131268"/>
+		<node x="103056" y="133876"/>
+		<node x="100432" y="136044"/>
+		<node x="98604" y="136436"/>
+	</territory>
+	<npcmaker name="giran17_tb17_m1" territory="giran17_tb2322_17" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18269" total="1" respawn="90sec"/>
+		<npc id="21805" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_2322_pg01" minZ="-3748" maxZ="-3048">
+		<node x="101384" y="139728"/>
+		<node x="103992" y="139774"/>
+		<node x="109390" y="142302"/>
+		<node x="107330" y="147529"/>
+		<node x="102237" y="145774"/>
+		<node x="99681" y="142316"/>
+	</territory>
+	<npcmaker name="giran_2322_pg01m1" territory="giran_2322_pg01" maximumNpcs="52">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="15" respawn="20sec"/>
+		<npc id="13035" total="1" respawn="10min" respawnRand="3min"/>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_2322_pg02" minZ="-2878" maxZ="-2678">
+		<node x="111858" y="145040"/>
+		<node x="112058" y="145040"/>
+		<node x="112058" y="145240"/>
+		<node x="111858" y="145240"/>
+	</territory>
+	<npcmaker name="giran_2322_pg02m1" territory="giran_2322_pg02" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="112013;145088;-2832;46496" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_chamberlain_etc" minZ="-4564" maxZ="16886">
+		<node x="120172" y="137787"/>
+		<node x="120172" y="148158"/>
+		<node x="109099" y="148157"/>
+		<node x="109099" y="137787"/>
+	</territory>
+	<npcmaker name="giran_chamberlain_etc" territory="giran_chamberlain_etc" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="35184" pos="117095;144997;-2539;32768" total="1" respawn="1min"/>
+		<npc id="35188" pos="107386;145807;-3300;32768" total="1" respawn="1min"/>
+		<npc id="35180" pos="112661;144757;-2817;32768" total="1" respawn="3hour"/>
+		<npc id="35180" pos="113009;144703;-2817;49152" total="1" respawn="3hour"/>
+		<npc id="35181" pos="115220;144930;-2527;32768" total="1" respawn="3hour"/>
+		<npc id="35181" pos="115575;144864;-2567;49152" total="1" respawn="3hour"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_mass_teleporter" minZ="-1907" maxZ="14844">
+		<node x="116726" y="145983"/>
+		<node x="116726" y="146937"/>
+		<node x="116373" y="146937"/>
+		<node x="116372" y="145984"/>
+	</territory>
+	<npcmaker name="giran_mass_teleporter" territory="giran_mass_teleporter" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="35179" pos="116535;146677;-1851;49152" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege01" minZ="-2858" maxZ="13793">
+		<node x="112870" y="144698"/>
+		<node x="112867" y="145039"/>
+		<node x="112649" y="145033"/>
+		<node x="112649" y="144698"/>
+	</territory>
+	<npcmaker name="giran_siege01" territory="giran_siege01" spawnTime="siege_warfare_start(3)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35169" pos="112815;144749;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_001" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112815;144777;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_002" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112815;144805;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_003" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112815;144833;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_004" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112815;144861;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_005" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112815;144889;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_006" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112815;144917;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_007" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112815;144945;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_008" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112815;144973;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_009" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="112795;144749;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_010" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="112795;144777;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_011" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="112795;144805;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_012" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="112795;144833;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_013" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="112795;144861;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_014" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="112795;144889;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_015" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="112795;144917;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_016" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="112795;144945;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_017" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="112795;144973;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_018" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="112775;144749;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_019" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="112775;144777;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_020" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="112775;144805;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_021" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="112775;144833;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_022" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35163" pos="112775;144861;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_023" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="112775;144889;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_024" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="112775;144917;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_025" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="112775;144945;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_026" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="112775;144973;-2826;31992" total="1" respawn="3hour" dbName="giran_siege_027" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege02" minZ="-2889" maxZ="13762">
+		<node x="114014" y="144220"/>
+		<node x="114005" y="144687"/>
+		<node x="113128" y="144674"/>
+		<node x="113128" y="144192"/>
+	</territory>
+	<npcmaker name="giran_siege02" territory="giran_siege02" spawnTime="siege_warfare_start(3)" maximumNpcs="50">
+		<ai type="default_maker"/>
+		<npc id="35168" pos="113193;144606;-2816;15696" total="1" respawn="3hour" dbName="giran_siege_028" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="113224;144607;-2815;15696" total="1" respawn="3hour" dbName="giran_siege_029" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35163" pos="113254;144607;-2815;15696" total="1" respawn="3hour" dbName="giran_siege_030" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="113284;144607;-2814;15696" total="1" respawn="3hour" dbName="giran_siege_031" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="113315;144606;-2815;15696" total="1" respawn="3hour" dbName="giran_siege_032" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="113344;144608;-2814;15696" total="1" respawn="3hour" dbName="giran_siege_033" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35163" pos="113374;144608;-2814;15696" total="1" respawn="3hour" dbName="giran_siege_034" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="113404;144608;-2813;15696" total="1" respawn="3hour" dbName="giran_siege_035" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="113435;144607;-2814;15696" total="1" respawn="3hour" dbName="giran_siege_036" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="113211;144581;-2834;15696" total="1" respawn="3hour" dbName="giran_siege_037" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="113241;144581;-2834;15696" total="1" respawn="3hour" dbName="giran_siege_038" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="113272;144581;-2833;15696" total="1" respawn="3hour" dbName="giran_siege_039" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="113302;144580;-2834;15696" total="1" respawn="3hour" dbName="giran_siege_040" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="113332;144582;-2833;15696" total="1" respawn="3hour" dbName="giran_siege_041" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="113362;144582;-2833;15696" total="1" respawn="3hour" dbName="giran_siege_042" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="113391;144583;-2832;15696" total="1" respawn="3hour" dbName="giran_siege_043" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="113423;144582;-2833;15696" total="1" respawn="3hour" dbName="giran_siege_044" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113195;144560;-2838;15696" total="1" respawn="3hour" dbName="giran_siege_045" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113225;144561;-2838;15696" total="1" respawn="3hour" dbName="giran_siege_046" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113255;144561;-2837;15696" total="1" respawn="3hour" dbName="giran_siege_047" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113286;144562;-2837;15696" total="1" respawn="3hour" dbName="giran_siege_048" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113316;144560;-2837;15696" total="1" respawn="3hour" dbName="giran_siege_049" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113346;144562;-2836;15696" total="1" respawn="3hour" dbName="giran_siege_050" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113376;144562;-2836;15696" total="1" respawn="3hour" dbName="giran_siege_051" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113405;144563;-2835;15696" total="1" respawn="3hour" dbName="giran_siege_052" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113437;144562;-2836;15696" total="1" respawn="3hour" dbName="giran_siege_053" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113213;144414;-2839;15696" total="1" respawn="3hour" dbName="giran_siege_054" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113243;144414;-2838;15696" total="1" respawn="3hour" dbName="giran_siege_055" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113274;144414;-2838;15696" total="1" respawn="3hour" dbName="giran_siege_056" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113304;144415;-2837;15696" total="1" respawn="3hour" dbName="giran_siege_057" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113334;144414;-2837;15696" total="1" respawn="3hour" dbName="giran_siege_058" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113364;144416;-2837;15696" total="1" respawn="3hour" dbName="giran_siege_059" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113394;144417;-2836;15696" total="1" respawn="3hour" dbName="giran_siege_060" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113424;144417;-2836;15696" total="1" respawn="3hour" dbName="giran_siege_061" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="113544;144313;-2830;32284" total="1" respawn="3hour" dbName="giran_siege_062" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="113545;144343;-2831;32284" total="1" respawn="3hour" dbName="giran_siege_063" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="113426;144551;-2814;15696" total="1" respawn="1min" dbName="giran_siege_064" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="113362;144550;-2814;15696" total="1" respawn="1min" dbName="giran_siege_065" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="113273;144550;-2814;15696" total="1" respawn="1min" dbName="giran_siege_066" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="113213;144553;-2814;15696" total="1" respawn="1min" dbName="giran_siege_067" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege03" minZ="-2713" maxZ="13938">
+		<node x="113643" y="144557"/>
+		<node x="113646" y="145481"/>
+		<node x="113224" y="145504"/>
+		<node x="113223" y="144552"/>
+	</territory>
+	<npcmaker name="giran_siege03m1" territory="giran_siege03" spawnTime="siege_warfare_start(3)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35169" pos="113566;144799;-2565;32284" total="1" respawn="3hour" dbName="giran_siege_068" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113567;144829;-2566;32284" total="1" respawn="3hour" dbName="giran_siege_069" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="113564;144859;-2565;32284" total="1" respawn="3hour" dbName="giran_siege_070" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113563;144889;-2565;32284" total="1" respawn="3hour" dbName="giran_siege_071" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113562;144918;-2564;32284" total="1" respawn="3hour" dbName="giran_siege_072" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113500;144569;-2563;32284" total="1" respawn="3hour" dbName="giran_siege_073" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113501;144599;-2564;32284" total="1" respawn="3hour" dbName="giran_siege_074" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="113498;144628;-2563;32284" total="1" respawn="3hour" dbName="giran_siege_075" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113497;144658;-2563;32284" total="1" respawn="3hour" dbName="giran_siege_076" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113496;144688;-2562;32284" total="1" respawn="3hour" dbName="giran_siege_077" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113362;145102;-2564;48048" total="1" respawn="3hour" dbName="giran_siege_078" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113332;145105;-2565;48048" total="1" respawn="3hour" dbName="giran_siege_079" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="113303;145103;-2564;48048" total="1" respawn="3hour" dbName="giran_siege_080" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113273;145104;-2564;48048" total="1" respawn="3hour" dbName="giran_siege_081" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113243;145105;-2563;48048" total="1" respawn="3hour" dbName="giran_siege_082" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="113568;145369;-2667;16328" total="1" respawn="3hour" dbName="giran_siege_083" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35163" pos="113602;145370;-2667;16328" total="1" respawn="3hour" dbName="giran_siege_084" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="113643;145374;-2666;16328" total="1" respawn="3hour" dbName="giran_siege_085" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="113568;145348;-2656;16328" total="1" respawn="3hour" dbName="giran_siege_086" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="113602;145349;-2657;16328" total="1" respawn="3hour" dbName="giran_siege_087" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="113643;145353;-2656;16328" total="1" respawn="3hour" dbName="giran_siege_088" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="113568;145330;-2642;16328" total="1" respawn="3hour" dbName="giran_siege_089" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="113602;145331;-2643;16328" total="1" respawn="3hour" dbName="giran_siege_090" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="113643;145335;-2642;16328" total="1" respawn="3hour" dbName="giran_siege_091" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="113609;145002;-2565;39060" total="1" respawn="3hour" dbName="giran_siege_092" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="giran_siege03m2" territory="giran_siege03" spawnTime="pc_siege_warfare_start(3)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35169" pos="113566;144799;-2565;32284" total="1" respawn="3hour" dbName="giran_siege_400" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="113564;144859;-2565;32284" total="1" respawn="3hour" dbName="giran_siege_401" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113562;144918;-2564;32284" total="1" respawn="3hour" dbName="giran_siege_402" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113500;144569;-2563;32284" total="1" respawn="3hour" dbName="giran_siege_403" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113501;144599;-2564;32284" total="1" respawn="3hour" dbName="giran_siege_404" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="113498;144628;-2563;32284" total="1" respawn="3hour" dbName="giran_siege_405" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113497;144658;-2563;32284" total="1" respawn="3hour" dbName="giran_siege_406" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113362;145102;-2564;48048" total="1" respawn="3hour" dbName="giran_siege_407" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="113303;145103;-2564;48048" total="1" respawn="3hour" dbName="giran_siege_408" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="113243;145105;-2563;48048" total="1" respawn="3hour" dbName="giran_siege_409" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege04" minZ="-2660" maxZ="13991">
+		<node x="116247" y="144715"/>
+		<node x="117594" y="145657"/>
+		<node x="115251" y="145459"/>
+		<node x="115222" y="144728"/>
+	</territory>
+	<npcmaker name="giran_siege04" territory="giran_siege04" spawnTime="siege_warfare_start(3)" maximumNpcs="70">
+		<ai type="default_maker"/>
+		<npc id="35166" pos="115587;144952;-2560;22704" total="1" respawn="3hour" dbName="giran_siege_093" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="115612;144969;-2561;22704" total="1" respawn="3hour" dbName="giran_siege_094" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="115638;144993;-2560;22704" total="1" respawn="3hour" dbName="giran_siege_095" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="115661;145012;-2560;22704" total="1" respawn="3hour" dbName="giran_siege_096" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="115679;145027;-2559;22704" total="1" respawn="3hour" dbName="giran_siege_097" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="115705;145049;-2561;22704" total="1" respawn="3hour" dbName="giran_siege_098" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="115730;145066;-2561;22704" total="1" respawn="3hour" dbName="giran_siege_099" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="115751;145086;-2561;22704" total="1" respawn="3hour" dbName="giran_siege_100" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="115762;145110;-2562;33460" total="1" respawn="3hour" dbName="giran_siege_101" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="115743;145135;-2561;41952" total="1" respawn="3hour" dbName="giran_siege_102" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="115719;145153;-2561;41952" total="1" respawn="3hour" dbName="giran_siege_103" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="115699;145166;-2560;41952" total="1" respawn="3hour" dbName="giran_siege_104" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="115672;145185;-2562;41952" total="1" respawn="3hour" dbName="giran_siege_105" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="115648;145204;-2563;41952" total="1" respawn="3hour" dbName="giran_siege_106" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="115618;145223;-2562;41952" total="1" respawn="3hour" dbName="giran_siege_107" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="115593;145240;-2562;41952" total="1" respawn="3hour" dbName="giran_siege_108" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="115574;145253;-2561;41952" total="1" respawn="3hour" dbName="giran_siege_109" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="115607;144937;-2562;22704" total="1" respawn="3hour" dbName="giran_siege_110" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115631;144955;-2563;22704" total="1" respawn="3hour" dbName="giran_siege_111" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="115657;144979;-2562;22704" total="1" respawn="3hour" dbName="giran_siege_112" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115681;144998;-2562;22704" total="1" respawn="3hour" dbName="giran_siege_113" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="115699;145013;-2561;22704" total="1" respawn="3hour" dbName="giran_siege_114" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115725;145034;-2563;22704" total="1" respawn="3hour" dbName="giran_siege_115" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="115749;145052;-2563;22704" total="1" respawn="3hour" dbName="giran_siege_116" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115770;145071;-2563;22704" total="1" respawn="3hour" dbName="giran_siege_117" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="115781;145096;-2564;33460" total="1" respawn="3hour" dbName="giran_siege_118" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115780;145124;-2561;33460" total="1" respawn="3hour" dbName="giran_siege_119" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="115761;145149;-2560;41952" total="1" respawn="3hour" dbName="giran_siege_120" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115737;145167;-2560;41952" total="1" respawn="3hour" dbName="giran_siege_121" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="115717;145180;-2559;41952" total="1" respawn="3hour" dbName="giran_siege_122" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115690;145199;-2561;41952" total="1" respawn="3hour" dbName="giran_siege_123" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="115666;145218;-2562;41952" total="1" respawn="3hour" dbName="giran_siege_124" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115636;145237;-2561;41952" total="1" respawn="3hour" dbName="giran_siege_125" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="115611;145254;-2561;41952" total="1" respawn="3hour" dbName="giran_siege_126" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115592;145267;-2560;41952" total="1" respawn="3hour" dbName="giran_siege_127" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115712;144909;-2560;22704" total="1" respawn="3hour" dbName="giran_siege_128" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115735;144928;-2560;22704" total="1" respawn="3hour" dbName="giran_siege_129" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115753;144943;-2559;22704" total="1" respawn="3hour" dbName="giran_siege_130" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115779;144965;-2561;22704" total="1" respawn="3hour" dbName="giran_siege_131" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115804;144982;-2562;22704" total="1" respawn="3hour" dbName="giran_siege_132" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115770;145210;-2556;41952" total="1" respawn="3hour" dbName="giran_siege_133" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115750;145223;-2555;41952" total="1" respawn="3hour" dbName="giran_siege_134" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115723;145243;-2557;41952" total="1" respawn="3hour" dbName="giran_siege_135" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115699;145261;-2558;41952" total="1" respawn="3hour" dbName="giran_siege_136" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115669;145280;-2557;41952" total="1" respawn="3hour" dbName="giran_siege_137" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="115846;145241;-2558;32004" total="1" respawn="3hour" dbName="giran_siege_138" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="115846;145275;-2559;32004" total="1" respawn="3hour" dbName="giran_siege_139" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="115849;144996;-2559;32004" total="1" respawn="3hour" dbName="giran_siege_140" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="115848;145019;-2559;32004" total="1" respawn="3hour" dbName="giran_siege_141" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115574;144944;-2557;41952" total="1" respawn="3hour" dbName="giran_siege_142" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="115628;144935;-2560;22704" total="1" respawn="1min" dbName="giran_siege_143" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="115719;145016;-2560;22704" total="1" respawn="1min" dbName="giran_siege_144" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="115710;145201;-2560;22704" total="1" respawn="1min" dbName="giran_siege_145" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="115607;145273;-2560;22704" total="1" respawn="1min" dbName="giran_siege_146" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege05" minZ="-2689" maxZ="13962">
+		<node x="117993" y="144317"/>
+		<node x="118001" y="145845"/>
+		<node x="117395" y="145858"/>
+		<node x="117396" y="144317"/>
+	</territory>
+	<npcmaker name="giran_siege05" territory="giran_siege05" spawnTime="siege_warfare_start(3)" maximumNpcs="60">
+		<ai type="default_maker"/>
+		<npc id="35148" pos="117732;145036;-2622;32728" total="1" respawn="5min"/>
+		<npc id="35107" pos="117735;145148;-2621;32728" total="1" respawn="3min"/>
+		<npc id="35156" pos="117718;145250;-2627;32728" total="1" respawn="2min" dbName="giran_siege_147" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117719;145287;-2627;32728" total="1" respawn="2min" dbName="giran_siege_148" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117719;145320;-2627;32728" total="1" respawn="2min" dbName="giran_siege_149" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117720;145358;-2627;32728" total="1" respawn="2min" dbName="giran_siege_150" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117720;145395;-2626;32728" total="1" respawn="2min" dbName="giran_siege_151" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117721;145433;-2626;32728" total="1" respawn="2min" dbName="giran_siege_152" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117721;145465;-2626;32728" total="1" respawn="2min" dbName="giran_siege_153" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117722;145503;-2626;32728" total="1" respawn="2min" dbName="giran_siege_154" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117684;145250;-2628;32728" total="1" respawn="2min" dbName="giran_siege_155" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117685;145288;-2628;32728" total="1" respawn="2min" dbName="giran_siege_156" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117685;145321;-2628;32728" total="1" respawn="2min" dbName="giran_siege_157" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117686;145358;-2628;32728" total="1" respawn="2min" dbName="giran_siege_158" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117686;145396;-2627;32728" total="1" respawn="2min" dbName="giran_siege_159" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117687;145433;-2627;32728" total="1" respawn="2min" dbName="giran_siege_160" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117687;145466;-2627;32728" total="1" respawn="2min" dbName="giran_siege_161" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117688;145503;-2627;32728" total="1" respawn="2min" dbName="giran_siege_162" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117646;145252;-2629;32728" total="1" respawn="2min" dbName="giran_siege_163" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117647;145290;-2629;32728" total="1" respawn="2min" dbName="giran_siege_164" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35150" pos="117647;145322;-2629;32728" total="1" respawn="2min" dbName="giran_siege_165" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117648;145360;-2629;32728" total="1" respawn="2min" dbName="giran_siege_166" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117648;145397;-2628;32728" total="1" respawn="2min" dbName="giran_siege_167" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35150" pos="117649;145435;-2628;32728" total="1" respawn="2min" dbName="giran_siege_168" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117649;145467;-2628;32728" total="1" respawn="2min" dbName="giran_siege_169" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117650;145505;-2628;32728" total="1" respawn="2min" dbName="giran_siege_170" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117712;144690;-2623;32728" total="1" respawn="2min" dbName="giran_siege_171" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117712;144728;-2623;32728" total="1" respawn="2min" dbName="giran_siege_172" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117712;144760;-2623;32728" total="1" respawn="2min" dbName="giran_siege_173" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117713;144798;-2623;32728" total="1" respawn="2min" dbName="giran_siege_174" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117714;144835;-2622;32728" total="1" respawn="2min" dbName="giran_siege_175" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117714;144873;-2622;32728" total="1" respawn="2min" dbName="giran_siege_176" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117715;144906;-2622;32728" total="1" respawn="2min" dbName="giran_siege_177" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="117715;144943;-2622;32728" total="1" respawn="2min" dbName="giran_siege_178" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117677;144691;-2624;32728" total="1" respawn="2min" dbName="giran_siege_179" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117678;144729;-2624;32728" total="1" respawn="2min" dbName="giran_siege_180" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117678;144761;-2624;32728" total="1" respawn="2min" dbName="giran_siege_181" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117679;144799;-2624;32728" total="1" respawn="2min" dbName="giran_siege_182" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117680;144836;-2623;32728" total="1" respawn="2min" dbName="giran_siege_183" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117680;144874;-2623;32728" total="1" respawn="2min" dbName="giran_siege_184" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117680;144906;-2623;32728" total="1" respawn="2min" dbName="giran_siege_185" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35153" pos="117681;144944;-2623;32728" total="1" respawn="2min" dbName="giran_siege_186" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117640;144692;-2625;32728" total="1" respawn="2min" dbName="giran_siege_187" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117641;144730;-2625;32728" total="1" respawn="2min" dbName="giran_siege_188" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35150" pos="117641;144763;-2625;32728" total="1" respawn="2min" dbName="giran_siege_189" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117642;144800;-2625;32728" total="1" respawn="2min" dbName="giran_siege_190" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117642;144838;-2624;32728" total="1" respawn="2min" dbName="giran_siege_191" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35150" pos="117643;144875;-2624;32728" total="1" respawn="2min" dbName="giran_siege_192" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117643;144908;-2624;32728" total="1" respawn="2min" dbName="giran_siege_193" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="117644;144945;-2624;32728" total="1" respawn="2min" dbName="giran_siege_194" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="117877;144770;-2622;32728" total="1" respawn="2min" dbName="giran_siege_195" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="117877;144854;-2621;32728" total="1" respawn="2min" dbName="giran_siege_196" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="117878;144933;-2621;32728" total="1" respawn="2min" dbName="giran_siege_197" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="117878;145008;-2621;32728" total="1" respawn="2min" dbName="giran_siege_198" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="117878;145185;-2618;32728" total="1" respawn="2min" dbName="giran_siege_199" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="117878;145268;-2618;32728" total="1" respawn="2min" dbName="giran_siege_200" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="117879;145348;-2618;32728" total="1" respawn="2min" dbName="giran_siege_201" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="117879;145422;-2618;32728" total="1" respawn="2min" dbName="giran_siege_202" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege06" minZ="-2459" maxZ="14192">
+		<node x="117826" y="145337"/>
+		<node x="117837" y="145677"/>
+		<node x="116702" y="145677"/>
+		<node x="116703" y="145341"/>
+	</territory>
+	<npcmaker name="giran_siege06" territory="giran_siege06" spawnTime="siege_warfare_start(3)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35168" pos="116752;145610;-2400;32472" total="1" respawn="3hour" dbName="giran_siege_203" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35163" pos="116752;145584;-2400;32472" total="1" respawn="3hour" dbName="giran_siege_204" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="116752;145556;-2399;32472" total="1" respawn="3hour" dbName="giran_siege_205" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="116774;145610;-2404;32472" total="1" respawn="3hour" dbName="giran_siege_206" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="116774;145583;-2404;32472" total="1" respawn="3hour" dbName="giran_siege_207" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="116774;145556;-2403;32472" total="1" respawn="3hour" dbName="giran_siege_208" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="116799;145609;-2402;32472" total="1" respawn="3hour" dbName="giran_siege_209" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="116799;145582;-2402;32472" total="1" respawn="3hour" dbName="giran_siege_210" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="116798;145555;-2401;32472" total="1" respawn="3hour" dbName="giran_siege_211" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="116876;145669;-2402;32472" total="1" respawn="3hour" dbName="giran_siege_212" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="116876;145643;-2402;32472" total="1" respawn="3hour" dbName="giran_siege_213" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="116876;145615;-2401;32472" total="1" respawn="3hour" dbName="giran_siege_214" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117449;145414;-2405;49076" total="1" respawn="3hour" dbName="giran_siege_215" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117486;145415;-2405;49076" total="1" respawn="3hour" dbName="giran_siege_216" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="117523;145415;-2404;49076" total="1" respawn="3hour" dbName="giran_siege_217" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117559;145416;-2404;49076" total="1" respawn="3hour" dbName="giran_siege_218" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117595;145416;-2404;49076" total="1" respawn="3hour" dbName="giran_siege_219" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="117633;145417;-2404;49076" total="1" respawn="3hour" dbName="giran_siege_220" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117664;145417;-2403;49076" total="1" respawn="3hour" dbName="giran_siege_221" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117701;145418;-2403;49076" total="1" respawn="3hour" dbName="giran_siege_222" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="117736;145419;-2403;49076" total="1" respawn="3hour" dbName="giran_siege_223" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117773;145419;-2403;49076" total="1" respawn="3hour" dbName="giran_siege_224" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117810;145419;-2403;49076" total="1" respawn="3hour" dbName="giran_siege_225" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege07" minZ="-2459" maxZ="14192">
+		<node x="117822" y="144500"/>
+		<node x="117822" y="144840"/>
+		<node x="116616" y="144840"/>
+		<node x="116617" y="144504"/>
+	</territory>
+	<npcmaker name="giran_siege07" territory="giran_siege07" spawnTime="siege_warfare_start(3)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35168" pos="116686;144635;-2400;32472" total="1" respawn="3hour" dbName="giran_siege_226" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35163" pos="116686;144609;-2400;32472" total="1" respawn="3hour" dbName="giran_siege_227" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35168" pos="116689;144566;-2399;32472" total="1" respawn="3hour" dbName="giran_siege_228" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="116708;144635;-2404;32472" total="1" respawn="3hour" dbName="giran_siege_229" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="116708;144608;-2404;32472" total="1" respawn="3hour" dbName="giran_siege_230" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35167" pos="116708;144581;-2403;32472" total="1" respawn="3hour" dbName="giran_siege_231" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="116733;144634;-2402;32472" total="1" respawn="3hour" dbName="giran_siege_232" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="116733;144607;-2402;32472" total="1" respawn="3hour" dbName="giran_siege_233" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35166" pos="116732;144580;-2401;32472" total="1" respawn="3hour" dbName="giran_siege_234" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="116974;144673;-2402;32472" total="1" respawn="3hour" dbName="giran_siege_235" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="116974;144647;-2402;32472" total="1" respawn="3hour" dbName="giran_siege_236" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="116974;144619;-2401;32472" total="1" respawn="3hour" dbName="giran_siege_237" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117804;144781;-2405;16000" total="1" respawn="3hour" dbName="giran_siege_238" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117768;144782;-2405;16000" total="1" respawn="3hour" dbName="giran_siege_239" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="117731;144783;-2404;16000" total="1" respawn="3hour" dbName="giran_siege_240" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117695;144783;-2404;16000" total="1" respawn="3hour" dbName="giran_siege_241" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117659;144783;-2404;16000" total="1" respawn="3hour" dbName="giran_siege_242" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="117621;144784;-2404;16000" total="1" respawn="3hour" dbName="giran_siege_243" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117590;144784;-2403;16000" total="1" respawn="3hour" dbName="giran_siege_244" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117553;144785;-2403;16000" total="1" respawn="3hour" dbName="giran_siege_245" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="117518;144785;-2403;16000" total="1" respawn="3hour" dbName="giran_siege_246" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117481;144786;-2403;16000" total="1" respawn="3hour" dbName="giran_siege_247" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="117444;144787;-2403;16000" total="1" respawn="3hour" dbName="giran_siege_248" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege08" minZ="-2600" maxZ="-600">
+		<node x="113111" y="144111"/>
+		<node x="113111" y="145546"/>
+		<node x="112510" y="145589"/>
+		<node x="112510" y="144149"/>
+	</territory>
+	<npcmaker name="giran_siege08m1" territory="giran_siege08" spawnTime="siege_warfare_start(3)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35169" pos="112740;145089;-2440;49152" total="1" respawn="3hour" dbName="giran_siege_249" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112671;145088;-2400;49152" total="1" respawn="3hour" dbName="giran_siege_250" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112612;145089;-2440;40960" total="1" respawn="3hour" dbName="giran_siege_251" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112585;145136;-2440;32768" total="1" respawn="3hour" dbName="giran_siege_252" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112582;145181;-2440;32768" total="1" respawn="3hour" dbName="giran_siege_253" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112582;145219;-2440;32768" total="1" respawn="3hour" dbName="giran_siege_254" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112582;145259;-2440;16384" total="1" respawn="3hour" dbName="giran_siege_255" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112730;144624;-2440;49152" total="1" respawn="3hour" dbName="giran_siege_256" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112683;144620;-2440;16384" total="1" respawn="3hour" dbName="giran_siege_257" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112612;144628;-2440;16384" total="1" respawn="3hour" dbName="giran_siege_258" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112582;144589;-2440;24576" total="1" respawn="3hour" dbName="giran_siege_259" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112577;144541;-2440;32768" total="1" respawn="3hour" dbName="giran_siege_260" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112577;144503;-2440;32768" total="1" respawn="3hour" dbName="giran_siege_261" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112583;144464;-2440;32768" total="1" respawn="3hour" dbName="giran_siege_262" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="112697;145089;-2440;16384" total="1" respawn="3hour" dbName="giran_siege_263" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="112636;145090;-2440;24576" total="1" respawn="3hour" dbName="giran_siege_264" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="112705;144621;-2440;40960" total="1" respawn="3hour" dbName="giran_siege_265" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="112652;144627;-2440;49152" total="1" respawn="3hour" dbName="giran_siege_266" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="112659;145168;-2440;24576" total="1" respawn="3hour" dbName="giran_siege_267" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="112659;144553;-2440;40960" total="1" respawn="3hour" dbName="giran_siege_268" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	<npcmaker name="giran_siege08m2" territory="giran_siege08" spawnTime="pc_siege_warfare_start(3)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35169" pos="112751;145105;-2440;49152" total="1" respawn="3hour" dbName="giran_siege_413" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112639;145105;-2440;49152" total="1" respawn="3hour" dbName="giran_siege_414" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112580;145152;-2440;40960" total="1" respawn="3hour" dbName="giran_siege_415" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112566;145219;-2440;32768" total="1" respawn="3hour" dbName="giran_siege_416" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112712;144620;-2440;16384" total="1" respawn="3hour" dbName="giran_siege_417" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112632;144621;-2440;16384" total="1" respawn="3hour" dbName="giran_siege_418" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112575;144575;-2440;24576" total="1" respawn="3hour" dbName="giran_siege_419" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="112563;144503;-2440;32768" total="1" respawn="3hour" dbName="giran_siege_420" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="112671;144620;-2439;16384" total="1" respawn="3hour" dbName="giran_siege_421" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="112600;144609;-2439;24576" total="1" respawn="3hour" dbName="giran_siege_422" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="112603;145115;-2439;40960" total="1" respawn="3hour" dbName="giran_siege_423" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="112687;145105;-2440;49152" total="1" respawn="3hour" dbName="giran_siege_424" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="112602;144521;-2440;24576" total="1" respawn="3hour" dbName="giran_siege_425" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="112610;145211;-2440;40960" total="1" respawn="3hour" dbName="giran_siege_426" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege09" minZ="-2779" maxZ="13872">
+		<node x="114654" y="144586"/>
+		<node x="114654" y="145568"/>
+		<node x="114247" y="145561"/>
+		<node x="114254" y="144584"/>
+	</territory>
+	<npcmaker name="giran_siege09" territory="giran_siege09" spawnTime="siege_warfare_start(3)" maximumNpcs="30">
+		<ai type="default_maker"/>
+		<npc id="35156" pos="114502;145033;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_269" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="114502;145161;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_270" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="114502;145224;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_271" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="114502;144969;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_272" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="114502;144838;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_273" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="114502;144710;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_274" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="114502;145352;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_275" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35156" pos="114502;145481;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_276" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35151" pos="114502;144905;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_277" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35151" pos="114502;145288;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_278" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35151" pos="114502;145545;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_279" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35151" pos="114502;144646;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_280" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="114502;145097;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_281" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="114502;145416;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_282" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35152" pos="114502;144774;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_283" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;144649;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_284" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;144713;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_285" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;145545;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_286" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;145481;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_287" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35150" pos="114352;145097;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_288" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;144777;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_289" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;144841;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_290" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;144905;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_291" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;144969;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_292" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35150" pos="114352;145033;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_293" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35150" pos="114352;145160;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_294" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;145224;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_295" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;145288;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_296" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;145352;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_297" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35155" pos="114352;145416;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_298" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege10" minZ="-2330" maxZ="14321">
+		<node x="115324" y="144619"/>
+		<node x="115322" y="145581"/>
+		<node x="114990" y="145571"/>
+		<node x="114990" y="144614"/>
+	</territory>
+	<npcmaker name="giran_siege10" territory="giran_siege10" spawnTime="siege_warfare_start(3)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35169" pos="115255;145329;-2258;49152" total="1" respawn="3hour" dbName="giran_siege_299"/>
+		<npc id="35169" pos="115133;145328;-2258;49152" total="1" respawn="3hour" dbName="giran_siege_300"/>
+		<npc id="35169" pos="115072;145383;-2258;40960" total="1" respawn="3hour" dbName="giran_siege_301"/>
+		<npc id="35169" pos="115053;145408;-2258;32768" total="1" respawn="3hour" dbName="giran_siege_302"/>
+		<npc id="35169" pos="115052;145447;-2258;32768" total="1" respawn="3hour" dbName="giran_siege_303"/>
+		<npc id="35169" pos="115052;145483;-2258;32768" total="1" respawn="3hour" dbName="giran_siege_304"/>
+		<npc id="35169" pos="115212;145329;-2258;49152" total="1" respawn="3hour" dbName="giran_siege_305"/>
+		<npc id="35164" pos="115097;145357;-2258;40960" total="1" respawn="3hour" dbName="giran_siege_306"/>
+		<npc id="35164" pos="115173;145329;-2257;49152" total="1" respawn="3hour" dbName="giran_siege_307"/>
+		<npc id="35165" pos="115118;145431;-2259;40960" total="1" respawn="3hour" dbName="giran_siege_308"/>
+		<npc id="35169" pos="115261;144876;-2260;16384" total="1" respawn="3hour" dbName="giran_siege_309"/>
+		<npc id="35169" pos="115221;144876;-2258;16384" total="1" respawn="3hour" dbName="giran_siege_310"/>
+		<npc id="35169" pos="115136;144876;-2259;16384" total="1" respawn="3hour" dbName="giran_siege_311"/>
+		<npc id="35169" pos="115071;144818;-2258;24576" total="1" respawn="3hour" dbName="giran_siege_312"/>
+		<npc id="35169" pos="115051;144791;-2257;32768" total="1" respawn="3hour" dbName="giran_siege_313"/>
+		<npc id="35169" pos="115052;144751;-2258;32768" total="1" respawn="3hour" dbName="giran_siege_314"/>
+		<npc id="35169" pos="115051;144712;-2258;32768" total="1" respawn="3hour" dbName="giran_siege_315"/>
+		<npc id="35164" pos="115177;144876;-2256;16384" total="1" respawn="3hour" dbName="giran_siege_316"/>
+		<npc id="35164" pos="115107;144854;-2259;24576" total="1" respawn="3hour" dbName="giran_siege_317"/>
+		<npc id="35165" pos="115125;144774;-2256;24576" total="1" respawn="3hour" dbName="giran_siege_318"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege11" minZ="-2860" maxZ="13991">
+		<node x="116236" y="144687"/>
+		<node x="117583" y="145629"/>
+		<node x="115240" y="145431"/>
+		<node x="115211" y="144700"/>
+	</territory>
+	<npcmaker name="giran_siege11" territory="giran_siege11" spawnTime="siege_warfare_start(3)" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="35169" pos="115382;144989;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_319" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115382;145020;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_320" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115382;145051;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_321" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115382;145083;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_322" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115382;145114;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_323" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115382;145146;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_324" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115382;145177;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_325" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="115382;145209;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_326" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="115362;144989;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_327" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="115362;145020;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_328" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115362;145051;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_329" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115362;145083;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_330" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115362;145114;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_331" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115362;145146;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_332" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115362;145177;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_333" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="115362;145209;-2567;32768" total="1" respawn="3hour" dbName="giran_siege_334" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege12" minZ="-2989" maxZ="13991">
+		<node x="114847" y="146559"/>
+		<node x="114847" y="146686"/>
+		<node x="114232" y="146687"/>
+		<node x="114232" y="146560"/>
+	</territory>
+	<npcmaker name="giran_siege12" territory="giran_siege12" spawnTime="siege_warfare_start(3)" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="35169" pos="114269;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_335" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114320;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_336" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114370;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_337" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114420;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_338" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="114470;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_339" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114520;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_340" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114570;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_341" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114620;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_342" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114670;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_343" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="114720;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_344" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114770;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_345" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114820;146661;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_346" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="giran_siege13" minZ="-2989" maxZ="13991">
+		<node x="114848" y="143234"/>
+		<node x="114848" y="143361"/>
+		<node x="114234" y="143361"/>
+		<node x="114234" y="143234"/>
+	</territory>
+	<npcmaker name="giran_siege13" territory="giran_siege13" spawnTime="siege_warfare_start(3)" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="35169" pos="114269;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_347" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114320;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_348" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114370;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_349" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114420;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_350" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35165" pos="114470;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_351" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114520;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_352" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114570;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_353" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114620;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_354" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114670;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_355" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35164" pos="114720;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_356" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114770;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_357" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+		<npc id="35169" pos="114820;143259;-2443;16384" total="1" respawn="3hour" dbName="giran_siege_358" dbSaving="DEATH_TIME;PARAMETERS;POS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril01_mb2322_01" minZ="-3769" maxZ="-3169">
+		<node x="102190" y="157206"/>
+		<node x="102621" y="157074"/>
+		<node x="103122" y="157330"/>
+		<node x="103078" y="157838"/>
+		<node x="102375" y="157888"/>
+	</territory>
+	<npcmaker name="innadril01_mb2322_01" territory="innadril01_mb2322_01" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25198" pos="102656;157424;-3735;0" total="1" respawn="36hour" respawnRand="24hour" dbName="faf_herald_lokness" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril01_mb2322_02" minZ="-3726" maxZ="-3126">
+		<node x="107326" y="157433"/>
+		<node x="107517" y="156886"/>
+		<node x="108399" y="157136"/>
+		<node x="108429" y="157923"/>
+		<node x="107798" y="158022"/>
+	</territory>
+	<npcmaker name="innadril01_mb2322_02" territory="innadril01_mb2322_02" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25199" pos="108096;157408;-3688;0" total="1" respawn="36hour" respawnRand="24hour" dbName="wdragon_priest_sheshark" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril01_mb2322_03" minZ="-3788" maxZ="-3188">
+		<node x="119047" y="157332"/>
+		<node x="119459" y="156684"/>
+		<node x="120182" y="156985"/>
+		<node x="120258" y="157624"/>
+		<node x="119894" y="158034"/>
+		<node x="119319" y="157929"/>
+	</territory>
+	<npcmaker name="innadril01_mb2322_03" territory="innadril01_mb2322_03" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25202" pos="119760;157392;-3744;0" total="1" respawn="36hour" respawnRand="24hour" dbName="krokian_padisha_sobekk" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="innadril01_mb2322_04" minZ="-3701" maxZ="-3101">
+		<node x="123329" y="152928"/>
+		<node x="124069" y="152715"/>
+		<node x="124405" y="153476"/>
+		<node x="124056" y="154200"/>
+		<node x="123243" y="153875"/>
+	</territory>
+	<npcmaker name="innadril01_mb2322_04" territory="innadril01_mb2322_04" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25205" pos="123808;153408;-3671;0" total="1" respawn="36hour" respawnRand="24hour" dbName="ocean_flame_ashakiel" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq01_npc1824_da11" minZ="-4900" maxZ="-4700">
+		<node x="118314" y="132543"/>
+		<node x="118305" y="132632"/>
+		<node x="118410" y="132634"/>
+		<node x="118407" y="132544"/>
+	</territory>
+	<npcmaker name="ssq01_npc1824_da11m1" territory="ssq01_npc1824_da11" event="ssq_seal1_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31113" pos="118336;132592;-4826;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX1" val="45551"/>
+				<set name="PosY1" val="123769"/>
+				<set name="PosZ1" val="-5408"/>
+				<set name="PosX2" val="-21680"/>
+				<set name="PosY2" val="77152"/>
+				<set name="PosZ2" val="-5171"/>
+				<set name="PosX3" val="-52208"/>
+				<set name="PosY3" val="78896"/>
+				<set name="PosZ3" val="-4739"/>
+				<set name="PosX4" val="-41856"/>
+				<set name="PosY4" val="209904"/>
+				<set name="PosZ4" val="-5088"/>
+				<set name="PosX5" val="45551"/>
+				<set name="PosY5" val="123769"/>
+				<set name="PosZ5" val="-5408"/>
+				<set name="PosX6" val="-21680"/>
+				<set name="PosY6" val="77152"/>
+				<set name="PosZ6" val="-5171"/>
+				<set name="PosX7" val="-52208"/>
+				<set name="PosY7" val="78896"/>
+				<set name="PosZ7" val="-4739"/>
+				<set name="PosX8" val="-41856"/>
+				<set name="PosY8" val="209904"/>
+				<set name="PosZ8" val="-5088"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq01_npc1824_tw11" minZ="-4900" maxZ="-4700">
+		<node x="118314" y="132543"/>
+		<node x="118305" y="132632"/>
+		<node x="118410" y="132634"/>
+		<node x="118407" y="132544"/>
+	</territory>
+	<npcmaker name="ssq01_npc1824_tw11m1" territory="ssq01_npc1824_tw11" event="ssq_seal1_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31113" pos="118336;132592;-4826;0" total="1" respawn="1min">
+			<ai>
+				<set name="PosX1" val="45551"/>
+				<set name="PosY1" val="123769"/>
+				<set name="PosZ1" val="-5408"/>
+				<set name="PosX2" val="-21680"/>
+				<set name="PosY2" val="77152"/>
+				<set name="PosZ2" val="-5171"/>
+				<set name="PosX3" val="-52208"/>
+				<set name="PosY3" val="78896"/>
+				<set name="PosZ3" val="-4739"/>
+				<set name="PosX4" val="-41856"/>
+				<set name="PosY4" val="209904"/>
+				<set name="PosZ4" val="-5088"/>
+				<set name="PosX5" val="45551"/>
+				<set name="PosY5" val="123769"/>
+				<set name="PosZ5" val="-5408"/>
+				<set name="PosX6" val="-21680"/>
+				<set name="PosY6" val="77152"/>
+				<set name="PosZ6" val="-5171"/>
+				<set name="PosX7" val="-52208"/>
+				<set name="PosY7" val="78896"/>
+				<set name="PosZ7" val="-4739"/>
+				<set name="PosX8" val="-41856"/>
+				<set name="PosY8" val="209904"/>
+				<set name="PosZ8" val="-5088"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da01" minZ="-4864" maxZ="-4664">
+		<node x="119732" y="132514"/>
+		<node x="120458" y="132508"/>
+		<node x="120437" y="134430"/>
+		<node x="119729" y="134425"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da01m1" territory="ssq10_2322_da01" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da02" minZ="-4872" maxZ="-4672">
+		<node x="118608" y="134356"/>
+		<node x="119320" y="134348"/>
+		<node x="119280" y="135712"/>
+		<node x="118620" y="135704"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da02m1" territory="ssq10_2322_da02" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da03" minZ="-4864" maxZ="-4664">
+		<node x="118332" y="137084"/>
+		<node x="118936" y="137076"/>
+		<node x="118924" y="137728"/>
+		<node x="118333" y="137724"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da03m1" territory="ssq10_2322_da03" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da04" minZ="-4860" maxZ="-4660">
+		<node x="119676" y="137048"/>
+		<node x="121036" y="137080"/>
+		<node x="121052" y="137752"/>
+		<node x="119688" y="137720"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da04m1" territory="ssq10_2322_da04" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da05" minZ="-4864" maxZ="-4664">
+		<node x="119475" y="135947"/>
+		<node x="120079" y="135939"/>
+		<node x="120067" y="136591"/>
+		<node x="119476" y="136587"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da05m1" territory="ssq10_2322_da05" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da06" minZ="-4864" maxZ="-4664">
+		<node x="120566" y="135809"/>
+		<node x="121170" y="135801"/>
+		<node x="121158" y="136453"/>
+		<node x="120568" y="136449"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da06m1" territory="ssq10_2322_da06" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da07" minZ="-4864" maxZ="-4664">
+		<node x="121680" y="135797"/>
+		<node x="123554" y="135808"/>
+		<node x="123546" y="136451"/>
+		<node x="121665" y="136440"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da07m1" territory="ssq10_2322_da07" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21227" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da08" minZ="-4872" maxZ="-4672">
+		<node x="121006" y="133629"/>
+		<node x="121718" y="133621"/>
+		<node x="121678" y="134985"/>
+		<node x="121018" y="134977"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da08m1" territory="ssq10_2322_da08" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da09" minZ="-4864" maxZ="-4664">
+		<node x="122964" y="132470"/>
+		<node x="123568" y="132462"/>
+		<node x="123556" y="133114"/>
+		<node x="122966" y="133110"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da09m1" territory="ssq10_2322_da09" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da10" minZ="-4864" maxZ="-4664">
+		<node x="122955" y="137122"/>
+		<node x="123559" y="137114"/>
+		<node x="123547" y="137766"/>
+		<node x="122956" y="137762"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da10m1" territory="ssq10_2322_da10" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da11" minZ="-4864" maxZ="-4664">
+		<node x="124021" y="137112"/>
+		<node x="124625" y="137104"/>
+		<node x="124613" y="137756"/>
+		<node x="124022" y="137752"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da11m1" territory="ssq10_2322_da11" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da12" minZ="-4872" maxZ="-4672">
+		<node x="123993" y="134516"/>
+		<node x="124705" y="134508"/>
+		<node x="124665" y="135872"/>
+		<node x="124005" y="135864"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da12m1" territory="ssq10_2322_da12" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da13" minZ="-4860" maxZ="-4660">
+		<node x="124046" y="133401"/>
+		<node x="125406" y="133433"/>
+		<node x="125422" y="134105"/>
+		<node x="124058" y="134073"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da13m1" territory="ssq10_2322_da13" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21227" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da14" minZ="-4864" maxZ="-4664">
+		<node x="124063" y="132467"/>
+		<node x="124667" y="132459"/>
+		<node x="124655" y="133111"/>
+		<node x="124064" y="133107"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da14m1" territory="ssq10_2322_da14" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da15" minZ="-4872" maxZ="-4672">
+		<node x="126724" y="132508"/>
+		<node x="127436" y="132500"/>
+		<node x="127396" y="133864"/>
+		<node x="126736" y="133856"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da15m1" territory="ssq10_2322_da15" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da16" minZ="-4872" maxZ="-4672">
+		<node x="125382" y="136341"/>
+		<node x="126094" y="136333"/>
+		<node x="126054" y="137697"/>
+		<node x="125394" y="137689"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da16m1" territory="ssq10_2322_da16" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da17" minZ="-4876" maxZ="-4676">
+		<node x="126511" y="134584"/>
+		<node x="128385" y="134594"/>
+		<node x="128377" y="135238"/>
+		<node x="126497" y="135226"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da17m1" territory="ssq10_2322_da17" event="ssq_seal1_dawn" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da18" minZ="-4864" maxZ="-4664">
+		<node x="128647" y="137077"/>
+		<node x="129251" y="137069"/>
+		<node x="129239" y="137721"/>
+		<node x="128649" y="137717"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da18m1" territory="ssq10_2322_da18" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21228" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_da19" minZ="-4864" maxZ="-4664">
+		<node x="128638" y="132457"/>
+		<node x="129242" y="132449"/>
+		<node x="129230" y="133101"/>
+		<node x="128639" y="133097"/>
+	</territory>
+	<npcmaker name="ssq10_2322_da19m1" territory="ssq10_2322_da19" event="ssq_seal1_dawn" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21228" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no01" minZ="-4864" maxZ="-4664">
+		<node x="119732" y="132514"/>
+		<node x="120458" y="132508"/>
+		<node x="120437" y="134430"/>
+		<node x="119729" y="134425"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no01m1" territory="ssq10_2322_no01" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21227" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no02" minZ="-4872" maxZ="-4672">
+		<node x="118608" y="134356"/>
+		<node x="119320" y="134348"/>
+		<node x="119280" y="135712"/>
+		<node x="118620" y="135704"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no02m1" territory="ssq10_2322_no02" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21227" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no03" minZ="-4864" maxZ="-4664">
+		<node x="118332" y="137084"/>
+		<node x="118936" y="137076"/>
+		<node x="118924" y="137728"/>
+		<node x="118333" y="137724"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no03m1" territory="ssq10_2322_no03" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no04" minZ="-4860" maxZ="-4660">
+		<node x="119676" y="137048"/>
+		<node x="121036" y="137080"/>
+		<node x="121052" y="137752"/>
+		<node x="119688" y="137720"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no04m1" territory="ssq10_2322_no04" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21227" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no05" minZ="-4864" maxZ="-4664">
+		<node x="119475" y="135947"/>
+		<node x="120079" y="135939"/>
+		<node x="120067" y="136591"/>
+		<node x="119476" y="136587"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no05m1" territory="ssq10_2322_no05" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no06" minZ="-4864" maxZ="-4664">
+		<node x="120566" y="135809"/>
+		<node x="121170" y="135801"/>
+		<node x="121158" y="136453"/>
+		<node x="120568" y="136449"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no06m1" territory="ssq10_2322_no06" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no07" minZ="-4864" maxZ="-4664">
+		<node x="121680" y="135797"/>
+		<node x="123554" y="135808"/>
+		<node x="123546" y="136451"/>
+		<node x="121665" y="136440"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no07m1" territory="ssq10_2322_no07" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21227" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no08" minZ="-4872" maxZ="-4672">
+		<node x="121006" y="133629"/>
+		<node x="121718" y="133621"/>
+		<node x="121678" y="134985"/>
+		<node x="121018" y="134977"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no08m1" territory="ssq10_2322_no08" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no09" minZ="-4864" maxZ="-4664">
+		<node x="122964" y="132470"/>
+		<node x="123568" y="132462"/>
+		<node x="123556" y="133114"/>
+		<node x="122966" y="133110"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no09m1" territory="ssq10_2322_no09" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no10" minZ="-4864" maxZ="-4664">
+		<node x="122955" y="137122"/>
+		<node x="123559" y="137114"/>
+		<node x="123547" y="137766"/>
+		<node x="122956" y="137762"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no10m1" territory="ssq10_2322_no10" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no11" minZ="-4864" maxZ="-4664">
+		<node x="124021" y="137112"/>
+		<node x="124625" y="137104"/>
+		<node x="124613" y="137756"/>
+		<node x="124022" y="137752"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no11m1" territory="ssq10_2322_no11" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no12" minZ="-4872" maxZ="-4672">
+		<node x="123993" y="134516"/>
+		<node x="124705" y="134508"/>
+		<node x="124665" y="135872"/>
+		<node x="124005" y="135864"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no12m1" territory="ssq10_2322_no12" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no13" minZ="-4860" maxZ="-4660">
+		<node x="124046" y="133401"/>
+		<node x="125406" y="133433"/>
+		<node x="125422" y="134105"/>
+		<node x="124058" y="134073"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no13m1" territory="ssq10_2322_no13" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21227" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no14" minZ="-4864" maxZ="-4664">
+		<node x="124063" y="132467"/>
+		<node x="124667" y="132459"/>
+		<node x="124655" y="133111"/>
+		<node x="124064" y="133107"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no14m1" territory="ssq10_2322_no14" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21227" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no15" minZ="-4872" maxZ="-4672">
+		<node x="126724" y="132508"/>
+		<node x="127436" y="132500"/>
+		<node x="127396" y="133864"/>
+		<node x="126736" y="133856"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no15m1" territory="ssq10_2322_no15" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no16" minZ="-4872" maxZ="-4672">
+		<node x="125382" y="136341"/>
+		<node x="126094" y="136333"/>
+		<node x="126054" y="137697"/>
+		<node x="125394" y="137689"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no16m1" territory="ssq10_2322_no16" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no17" minZ="-4876" maxZ="-4676">
+		<node x="126511" y="134584"/>
+		<node x="128385" y="134594"/>
+		<node x="128377" y="135238"/>
+		<node x="126497" y="135226"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no17m1" territory="ssq10_2322_no17" event="ssq_seal1_none" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="3" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no18" minZ="-4864" maxZ="-4664">
+		<node x="128647" y="137077"/>
+		<node x="129251" y="137069"/>
+		<node x="129239" y="137721"/>
+		<node x="128649" y="137717"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no18m1" territory="ssq10_2322_no18" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_no19" minZ="-4864" maxZ="-4664">
+		<node x="128638" y="132457"/>
+		<node x="129242" y="132449"/>
+		<node x="129230" y="133101"/>
+		<node x="128639" y="133097"/>
+	</territory>
+	<npcmaker name="ssq10_2322_no19m1" territory="ssq10_2322_no19" event="ssq_seal1_none" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq01" minZ="-4864" maxZ="-4664">
+		<node x="119732" y="132514"/>
+		<node x="120458" y="132508"/>
+		<node x="120437" y="134430"/>
+		<node x="119729" y="134425"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq01m1" territory="ssq10_2322_ssq01" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq02" minZ="-4872" maxZ="-4672">
+		<node x="118608" y="134356"/>
+		<node x="119320" y="134348"/>
+		<node x="119280" y="135712"/>
+		<node x="118620" y="135704"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq02m1" territory="ssq10_2322_ssq02" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq03" minZ="-4864" maxZ="-4664">
+		<node x="118332" y="137084"/>
+		<node x="118936" y="137076"/>
+		<node x="118924" y="137728"/>
+		<node x="118333" y="137724"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq03m1" territory="ssq10_2322_ssq03" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq04" minZ="-4860" maxZ="-4660">
+		<node x="119676" y="137048"/>
+		<node x="121036" y="137080"/>
+		<node x="121052" y="137752"/>
+		<node x="119688" y="137720"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq04m1" territory="ssq10_2322_ssq04" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq05" minZ="-4864" maxZ="-4664">
+		<node x="119475" y="135947"/>
+		<node x="120079" y="135939"/>
+		<node x="120067" y="136591"/>
+		<node x="119476" y="136587"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq05m1" territory="ssq10_2322_ssq05" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq06" minZ="-4864" maxZ="-4664">
+		<node x="120566" y="135809"/>
+		<node x="121170" y="135801"/>
+		<node x="121158" y="136453"/>
+		<node x="120568" y="136449"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq06m1" territory="ssq10_2322_ssq06" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq07" minZ="-4864" maxZ="-4664">
+		<node x="121680" y="135797"/>
+		<node x="123554" y="135808"/>
+		<node x="123546" y="136451"/>
+		<node x="121665" y="136440"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq07m1" territory="ssq10_2322_ssq07" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21227" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq08" minZ="-4872" maxZ="-4672">
+		<node x="121006" y="133629"/>
+		<node x="121718" y="133621"/>
+		<node x="121678" y="134985"/>
+		<node x="121018" y="134977"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq08m1" territory="ssq10_2322_ssq08" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21181" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq09" minZ="-4864" maxZ="-4664">
+		<node x="122964" y="132470"/>
+		<node x="123568" y="132462"/>
+		<node x="123556" y="133114"/>
+		<node x="122966" y="133110"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq09m1" territory="ssq10_2322_ssq09" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq10" minZ="-4864" maxZ="-4664">
+		<node x="122955" y="137122"/>
+		<node x="123559" y="137114"/>
+		<node x="123547" y="137766"/>
+		<node x="122956" y="137762"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq10m1" territory="ssq10_2322_ssq10" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq11" minZ="-4864" maxZ="-4664">
+		<node x="124021" y="137112"/>
+		<node x="124625" y="137104"/>
+		<node x="124613" y="137756"/>
+		<node x="124022" y="137752"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq11m1" territory="ssq10_2322_ssq11" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq12" minZ="-4872" maxZ="-4672">
+		<node x="123993" y="134516"/>
+		<node x="124705" y="134508"/>
+		<node x="124665" y="135872"/>
+		<node x="124005" y="135864"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq12m1" territory="ssq10_2322_ssq12" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq13" minZ="-4860" maxZ="-4660">
+		<node x="124046" y="133401"/>
+		<node x="125406" y="133433"/>
+		<node x="125422" y="134105"/>
+		<node x="124058" y="134073"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq13m1" territory="ssq10_2322_ssq13" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21227" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq14" minZ="-4864" maxZ="-4664">
+		<node x="124063" y="132467"/>
+		<node x="124667" y="132459"/>
+		<node x="124655" y="133111"/>
+		<node x="124064" y="133107"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq14m1" territory="ssq10_2322_ssq14" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21182" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq15" minZ="-4872" maxZ="-4672">
+		<node x="126724" y="132508"/>
+		<node x="127436" y="132500"/>
+		<node x="127396" y="133864"/>
+		<node x="126736" y="133856"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq15m1" territory="ssq10_2322_ssq15" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq16" minZ="-4872" maxZ="-4672">
+		<node x="125382" y="136341"/>
+		<node x="126094" y="136333"/>
+		<node x="126054" y="137697"/>
+		<node x="125394" y="137689"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq16m1" territory="ssq10_2322_ssq16" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq17" minZ="-4876" maxZ="-4676">
+		<node x="126511" y="134584"/>
+		<node x="128385" y="134594"/>
+		<node x="128377" y="135238"/>
+		<node x="126497" y="135226"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq17m1" territory="ssq10_2322_ssq17" event="ssq_event" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq18" minZ="-4864" maxZ="-4664">
+		<node x="128647" y="137077"/>
+		<node x="129251" y="137069"/>
+		<node x="129239" y="137721"/>
+		<node x="128649" y="137717"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq18m1" territory="ssq10_2322_ssq18" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21228" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_ssq19" minZ="-4864" maxZ="-4664">
+		<node x="128638" y="132457"/>
+		<node x="129242" y="132449"/>
+		<node x="129230" y="133101"/>
+		<node x="128639" y="133097"/>
+	</territory>
+	<npcmaker name="ssq10_2322_ssq19m1" territory="ssq10_2322_ssq19" event="ssq_event" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21228" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21183" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw01" minZ="-4864" maxZ="-4664">
+		<node x="119732" y="132514"/>
+		<node x="120458" y="132508"/>
+		<node x="120437" y="134430"/>
+		<node x="119729" y="134425"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw01m1" territory="ssq10_2322_tw01" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw02" minZ="-4872" maxZ="-4672">
+		<node x="118608" y="134356"/>
+		<node x="119320" y="134348"/>
+		<node x="119280" y="135712"/>
+		<node x="118620" y="135704"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw02m1" territory="ssq10_2322_tw02" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw03" minZ="-4864" maxZ="-4664">
+		<node x="118332" y="137084"/>
+		<node x="118936" y="137076"/>
+		<node x="118924" y="137728"/>
+		<node x="118333" y="137724"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw03m1" territory="ssq10_2322_tw03" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw04" minZ="-4860" maxZ="-4660">
+		<node x="119676" y="137048"/>
+		<node x="121036" y="137080"/>
+		<node x="121052" y="137752"/>
+		<node x="119688" y="137720"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw04m1" territory="ssq10_2322_tw04" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21226" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw05" minZ="-4864" maxZ="-4664">
+		<node x="119475" y="135947"/>
+		<node x="120079" y="135939"/>
+		<node x="120067" y="136591"/>
+		<node x="119476" y="136587"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw05m1" territory="ssq10_2322_tw05" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw06" minZ="-4864" maxZ="-4664">
+		<node x="120566" y="135809"/>
+		<node x="121170" y="135801"/>
+		<node x="121158" y="136453"/>
+		<node x="120568" y="136449"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw06m1" territory="ssq10_2322_tw06" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw07" minZ="-4864" maxZ="-4664">
+		<node x="121680" y="135797"/>
+		<node x="123554" y="135808"/>
+		<node x="123546" y="136451"/>
+		<node x="121665" y="136440"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw07m1" territory="ssq10_2322_tw07" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21227" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw08" minZ="-4872" maxZ="-4672">
+		<node x="121006" y="133629"/>
+		<node x="121718" y="133621"/>
+		<node x="121678" y="134985"/>
+		<node x="121018" y="134977"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw08m1" territory="ssq10_2322_tw08" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21226" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21158" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21202" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw09" minZ="-4864" maxZ="-4664">
+		<node x="122964" y="132470"/>
+		<node x="123568" y="132462"/>
+		<node x="123556" y="133114"/>
+		<node x="122966" y="133110"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw09m1" territory="ssq10_2322_tw09" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw10" minZ="-4864" maxZ="-4664">
+		<node x="122955" y="137122"/>
+		<node x="123559" y="137114"/>
+		<node x="123547" y="137766"/>
+		<node x="122956" y="137762"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw10m1" territory="ssq10_2322_tw10" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw11" minZ="-4864" maxZ="-4664">
+		<node x="124021" y="137112"/>
+		<node x="124625" y="137104"/>
+		<node x="124613" y="137756"/>
+		<node x="124022" y="137752"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw11m1" territory="ssq10_2322_tw11" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw12" minZ="-4872" maxZ="-4672">
+		<node x="123993" y="134516"/>
+		<node x="124705" y="134508"/>
+		<node x="124665" y="135872"/>
+		<node x="124005" y="135864"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw12m1" territory="ssq10_2322_tw12" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw13" minZ="-4860" maxZ="-4660">
+		<node x="124046" y="133401"/>
+		<node x="125406" y="133433"/>
+		<node x="125422" y="134105"/>
+		<node x="124058" y="134073"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw13m1" territory="ssq10_2322_tw13" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21227" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw14" minZ="-4864" maxZ="-4664">
+		<node x="124063" y="132467"/>
+		<node x="124667" y="132459"/>
+		<node x="124655" y="133111"/>
+		<node x="124064" y="133107"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw14m1" territory="ssq10_2322_tw14" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21227" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21159" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21203" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115001"/>
+				<set name="SSQTelPosY" val="133281"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw15" minZ="-4872" maxZ="-4672">
+		<node x="126724" y="132508"/>
+		<node x="127436" y="132500"/>
+		<node x="127396" y="133864"/>
+		<node x="126736" y="133856"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw15m1" territory="ssq10_2322_tw15" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw16" minZ="-4872" maxZ="-4672">
+		<node x="125382" y="136341"/>
+		<node x="126094" y="136333"/>
+		<node x="126054" y="137697"/>
+		<node x="125394" y="137689"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw16m1" territory="ssq10_2322_tw16" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw17" minZ="-4876" maxZ="-4676">
+		<node x="126511" y="134584"/>
+		<node x="128385" y="134594"/>
+		<node x="128377" y="135238"/>
+		<node x="126497" y="135226"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw17m1" territory="ssq10_2322_tw17" event="ssq_seal1_twilight" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="21228" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="4" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw18" minZ="-4864" maxZ="-4664">
+		<node x="128647" y="137077"/>
+		<node x="129251" y="137069"/>
+		<node x="129239" y="137721"/>
+		<node x="128649" y="137717"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw18m1" territory="ssq10_2322_tw18" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21228" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_2322_tw19" minZ="-4864" maxZ="-4664">
+		<node x="128638" y="132457"/>
+		<node x="129242" y="132449"/>
+		<node x="129230" y="133101"/>
+		<node x="128639" y="133097"/>
+	</territory>
+	<npcmaker name="ssq10_2322_tw19m1" territory="ssq10_2322_tw19" event="ssq_seal1_twilight" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="21228" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21160" total="1" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+		<npc id="21204" total="2" respawn="136sec" respawnRand="40sec">
+			<ai>
+				<set name="SSQLoserTeleport" val="@SEAL_AVARICE"/>
+				<set name="SSQTelPosX" val="115344"/>
+				<set name="SSQTelPosY" val="132824"/>
+				<set name="SSQTelPosZ" val="-3096"/>
+			</ai>
+		</npc>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_npc2322_01" minZ="-4865" maxZ="-4665">
+		<node x="118524" y="132700"/>
+		<node x="118724" y="132700"/>
+		<node x="118724" y="132900"/>
+		<node x="118524" y="132900"/>
+	</territory>
+	<npcmaker name="ssq10_npc2322_0101" territory="ssq10_npc2322_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31108" pos="118640;132800;-4832;16500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_npc2322_02" minZ="-4867" maxZ="-4667">
+		<node x="117772" y="132700"/>
+		<node x="117972" y="132700"/>
+		<node x="117972" y="132900"/>
+		<node x="117772" y="132900"/>
+	</territory>
+	<npcmaker name="ssq10_npc2322_0201" territory="ssq10_npc2322_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31100" pos="117872;132800;-4829;32500" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_npc2322_03" minZ="-4869" maxZ="-4669">
+		<node x="118268" y="132332"/>
+		<node x="118468" y="132332"/>
+		<node x="118468" y="132532"/>
+		<node x="118268" y="132532"/>
+	</territory>
+	<npcmaker name="ssq10_npc2322_0301" territory="ssq10_npc2322_03" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31503" pos="118387;132477;-4824;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_npc2322_f21" minZ="-4152" maxZ="-2152">
+		<node x="114376" y="132359"/>
+		<node x="115380" y="132237"/>
+		<node x="115380" y="133300"/>
+		<node x="114374" y="133300"/>
+	</territory>
+	<npcmaker name="ssq10_npc2322_f21m1" territory="ssq10_npc2322_f21" event="ssq_seal1_dawn" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31170" pos="115136;133057;-3161;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="ssq10_npc2322_f22" minZ="-4152" maxZ="-2152">
+		<node x="114376" y="132359"/>
+		<node x="115380" y="132237"/>
+		<node x="115380" y="133300"/>
+		<node x="114374" y="133300"/>
+	</territory>
+	<npcmaker name="ssq10_npc2322_f22m1" territory="ssq10_npc2322_f22" event="ssq_seal1_twilight" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31171" pos="115136;133057;-3161;0" total="1" respawn="1min"/>
+	</npcmaker>
+</list>

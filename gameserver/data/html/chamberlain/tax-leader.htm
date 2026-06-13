@@ -1,0 +1,20 @@
+<html><body>
+<font color="LEVEL">[Adjust Tax Rate]</font><br>
+Today's tax rate is <font color="00FFFF">%currentTaxRate%%</font> and tomorrow's tax rate will be <font color="00FFFF">%nextTaxRate%</font><font color="00FFFF">%</font>.<br>
+The tax rate may be set in the range of <font color="LEVEL">0% ~ %taxLimit%%</font>. The tax rate entered will be applied from midnight of the same day.<br>
+Please note that the tax rate will be set to <font color="LEVEL">0%</font> if the "OK" button is pressed without any value being entered.<br>
+<br>
+<center>
+<table width=170 height=27 bgcolor="CCCCCC">
+<tr>
+<td width=40 align=center>Enter</td>
+<td width=30 align=right><edit type=number var="value" width=30 length=2></td>
+<td width=15 align=left>%</td>
+<td>
+<button action="bypass -h npc_%objectId%_tax_adjust $value" value="OK" width=74 height=21 back="L2UI_CH3.Btn1_normalOn" fore="L2UI_CH3.Btn1_normal">
+</td>
+</tr>
+</table><br>
+<button action="bypass -h npc_%objectId%_Link chamberlain/chamberlain.htm" value="Back" width=74 height=21 back="L2UI_CH3.Btn1_normalOn" fore="L2UI_CH3.Btn1_normal">
+</center>
+</body></html>

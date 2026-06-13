@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Aden Area
+ * The Enchanted Valley
+-->
+<list>
+	<!--  -->
+	<territory name="aden01_mb2319_05" minZ="3496" maxZ="4096">
+		<node x="130076" y="58960"/>
+		<node x="130432" y="58772"/>
+		<node x="130844" y="58888"/>
+		<node x="130812" y="59528"/>
+		<node x="130176" y="59476"/>
+	</territory>
+	<npcmaker name="aden01_mb2319_05" territory="aden01_mb2319_05" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25163" total="1" respawn="36hour" respawnRand="24hour" dbName="roar_skylancer" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_01" minZ="-4624" maxZ="-4424">
+		<node x="106844" y="37864"/>
+		<node x="107436" y="37756"/>
+		<node x="108140" y="38532"/>
+		<node x="108264" y="39116"/>
+		<node x="107696" y="39204"/>
+		<node x="106696" y="38280"/>
+	</territory>
+	<npcmaker name="aden08_2319_01m1" territory="aden08_2319_01" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_02" minZ="-4688" maxZ="-4438">
+		<node x="109340" y="38528"/>
+		<node x="110416" y="39320"/>
+		<node x="110372" y="39560"/>
+		<node x="109448" y="39768"/>
+		<node x="108824" y="39096"/>
+	</territory>
+	<npcmaker name="aden08_2319_02m1" territory="aden08_2319_02" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_03" minZ="-4688" maxZ="-4488">
+		<node x="109240" y="40968"/>
+		<node x="110128" y="40976"/>
+		<node x="110240" y="41932"/>
+		<node x="109704" y="42400"/>
+		<node x="109148" y="42484"/>
+		<node x="109076" y="41252"/>
+	</territory>
+	<npcmaker name="aden08_2319_03m1" territory="aden08_2319_03" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_04" minZ="-4680" maxZ="-4430">
+		<node x="106724" y="41112"/>
+		<node x="108004" y="41396"/>
+		<node x="107892" y="41824"/>
+		<node x="106832" y="41940"/>
+	</territory>
+	<npcmaker name="aden08_2319_04m1" territory="aden08_2319_04" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_05" minZ="-4672" maxZ="-4422">
+		<node x="102868" y="42180"/>
+		<node x="105500" y="40368"/>
+		<node x="106664" y="41172"/>
+		<node x="106556" y="42384"/>
+		<node x="104992" y="43620"/>
+		<node x="104012" y="43836"/>
+	</territory>
+	<npcmaker name="aden08_2319_05m1" territory="aden08_2319_05" maximumNpcs="21">
+		<ai type="default_maker"/>
+		<npc id="20589" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20591" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="3" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_06" minZ="-4636" maxZ="-4436">
+		<node x="103244" y="44320"/>
+		<node x="103876" y="44276"/>
+		<node x="104008" y="46332"/>
+		<node x="103468" y="46268"/>
+		<node x="102864" y="45656"/>
+		<node x="102828" y="44892"/>
+	</territory>
+	<npcmaker name="aden08_2319_06m1" territory="aden08_2319_06" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_07" minZ="-4644" maxZ="-4444">
+		<node x="105012" y="47188"/>
+		<node x="105268" y="46984"/>
+		<node x="105756" y="47204"/>
+		<node x="106456" y="47912"/>
+		<node x="106452" y="48464"/>
+		<node x="106104" y="48896"/>
+		<node x="105128" y="48172"/>
+	</territory>
+	<npcmaker name="aden08_2319_07m1" territory="aden08_2319_07" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_08" minZ="-4556" maxZ="-4356">
+		<node x="105128" y="49680"/>
+		<node x="105608" y="49312"/>
+		<node x="106432" y="50348"/>
+		<node x="106108" y="51488"/>
+		<node x="105160" y="50960"/>
+	</territory>
+	<npcmaker name="aden08_2319_08m1" territory="aden08_2319_08" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20591" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_09" minZ="-4696" maxZ="-4496">
+		<node x="104880" y="52124"/>
+		<node x="105948" y="52004"/>
+		<node x="106232" y="53356"/>
+		<node x="105404" y="54656"/>
+		<node x="103940" y="54644"/>
+		<node x="104024" y="53648"/>
+	</territory>
+	<npcmaker name="aden08_2319_09m1" territory="aden08_2319_09" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20592" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20591" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_10" minZ="-4688" maxZ="-4488">
+		<node x="106264" y="53452"/>
+		<node x="107204" y="54376"/>
+		<node x="107192" y="55684"/>
+		<node x="106804" y="55992"/>
+		<node x="105488" y="54680"/>
+	</territory>
+	<npcmaker name="aden08_2319_10m1" territory="aden08_2319_10" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20591" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_11" minZ="-4624" maxZ="-4124">
+		<node x="102752" y="57424"/>
+		<node x="103940" y="57520"/>
+		<node x="107208" y="60816"/>
+		<node x="107372" y="61732"/>
+		<node x="105112" y="61532"/>
+		<node x="102904" y="58852"/>
+	</territory>
+	<npcmaker name="aden08_2319_11m1" territory="aden08_2319_11" maximumNpcs="10">
+		<ai type="default_maker"/>
+		<npc id="20592" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20591" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="3" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_12" minZ="-4628" maxZ="-4428">
+		<node x="109464" y="60440"/>
+		<node x="110688" y="60440"/>
+		<node x="111852" y="61204"/>
+		<node x="108472" y="61168"/>
+	</territory>
+	<npcmaker name="aden08_2319_12m1" territory="aden08_2319_12" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20590" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_13" minZ="-4656" maxZ="-4196">
+		<node x="112824" y="62460"/>
+		<node x="117268" y="61748"/>
+		<node x="116568" y="62892"/>
+		<node x="115272" y="63376"/>
+		<node x="113304" y="63312"/>
+		<node x="112492" y="62808"/>
+	</territory>
+	<npcmaker name="aden08_2319_13m1" territory="aden08_2319_13" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="20589" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20591" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_14" minZ="-4628" maxZ="-4428">
+		<node x="106012" y="56144"/>
+		<node x="106476" y="56204"/>
+		<node x="107940" y="58292"/>
+		<node x="106844" y="58012"/>
+		<node x="105976" y="57144"/>
+	</territory>
+	<npcmaker name="aden08_2319_14m1" territory="aden08_2319_14" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_15" minZ="-4616" maxZ="-4116">
+		<node x="109992" y="57248"/>
+		<node x="112444" y="57388"/>
+		<node x="112156" y="58296"/>
+		<node x="108864" y="58292"/>
+		<node x="109032" y="57696"/>
+	</territory>
+	<npcmaker name="aden08_2319_15m1" territory="aden08_2319_15" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20592" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_16" minZ="-4620" maxZ="-4420">
+		<node x="113160" y="56676"/>
+		<node x="114324" y="56732"/>
+		<node x="113944" y="58040"/>
+		<node x="112340" y="58064"/>
+	</territory>
+	<npcmaker name="aden08_2319_16m1" territory="aden08_2319_16" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_17" minZ="-4804" maxZ="-4504">
+		<node x="108876" y="52376"/>
+		<node x="109880" y="52232"/>
+		<node x="109632" y="53852"/>
+		<node x="108052" y="53740"/>
+	</territory>
+	<npcmaker name="aden08_2319_17m1" territory="aden08_2319_17" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20594" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20595" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_18" minZ="-4612" maxZ="-4312">
+		<node x="114652" y="53880"/>
+		<node x="115732" y="53756"/>
+		<node x="114768" y="55004"/>
+		<node x="114232" y="55016"/>
+	</territory>
+	<npcmaker name="aden08_2319_18m1" territory="aden08_2319_18" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20594" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_19" minZ="-4696" maxZ="-4296">
+		<node x="114824" y="51168"/>
+		<node x="116784" y="50448"/>
+		<node x="116168" y="51956"/>
+		<node x="115580" y="51952"/>
+	</territory>
+	<npcmaker name="aden08_2319_19m1" territory="aden08_2319_19" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20594" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_20" minZ="-4648" maxZ="-4148">
+		<node x="119776" y="48240"/>
+		<node x="121748" y="48968"/>
+		<node x="121576" y="49528"/>
+		<node x="118744" y="48688"/>
+	</territory>
+	<npcmaker name="aden08_2319_20m1" territory="aden08_2319_20" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_21" minZ="-4692" maxZ="-4242">
+		<node x="123096" y="47668"/>
+		<node x="123984" y="47692"/>
+		<node x="124124" y="48356"/>
+		<node x="122300" y="49648"/>
+		<node x="121664" y="49512"/>
+		<node x="121728" y="49128"/>
+	</territory>
+	<npcmaker name="aden08_2319_21m1" territory="aden08_2319_21" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20592" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_22" minZ="-4720" maxZ="-4520">
+		<node x="125616" y="47700"/>
+		<node x="126404" y="47576"/>
+		<node x="126940" y="48132"/>
+		<node x="126456" y="48756"/>
+		<node x="125940" y="48788"/>
+		<node x="125440" y="48284"/>
+	</territory>
+	<npcmaker name="aden08_2319_22m1" territory="aden08_2319_22" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_23" minZ="-4692" maxZ="-4492">
+		<node x="126976" y="50508"/>
+		<node x="127564" y="50196"/>
+		<node x="128480" y="51396"/>
+		<node x="128304" y="52492"/>
+		<node x="127560" y="53056"/>
+		<node x="126768" y="51276"/>
+	</territory>
+	<npcmaker name="aden08_2319_23m1" territory="aden08_2319_23" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20591" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_24" minZ="-4700" maxZ="-4500">
+		<node x="124068" y="51552"/>
+		<node x="126692" y="51316"/>
+		<node x="127568" y="53240"/>
+		<node x="126660" y="54016"/>
+		<node x="125312" y="53928"/>
+		<node x="124440" y="52956"/>
+	</territory>
+	<npcmaker name="aden08_2319_24m1" territory="aden08_2319_24" maximumNpcs="20">
+		<ai type="default_maker"/>
+		<npc id="20589" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20591" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_25" minZ="-4696" maxZ="-4496">
+		<node x="119504" y="52572"/>
+		<node x="120152" y="52216"/>
+		<node x="121696" y="53816"/>
+		<node x="120300" y="53740"/>
+		<node x="119560" y="53208"/>
+	</territory>
+	<npcmaker name="aden08_2319_25m1" territory="aden08_2319_25" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_26" minZ="-4704" maxZ="-4504">
+		<node x="117300" y="54968"/>
+		<node x="118036" y="54688"/>
+		<node x="118576" y="54996"/>
+		<node x="118124" y="55900"/>
+		<node x="117412" y="55528"/>
+	</territory>
+	<npcmaker name="aden08_2319_26m1" territory="aden08_2319_26" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_27" minZ="-4620" maxZ="-4420">
+		<node x="117856" y="58232"/>
+		<node x="118444" y="58268"/>
+		<node x="118488" y="60040"/>
+		<node x="117792" y="60148"/>
+	</territory>
+	<npcmaker name="aden08_2319_27m1" territory="aden08_2319_27" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_28" minZ="-4656" maxZ="-4456">
+		<node x="120064" y="54944"/>
+		<node x="121296" y="55108"/>
+		<node x="122236" y="55924"/>
+		<node x="122128" y="56144"/>
+		<node x="120928" y="56188"/>
+		<node x="119888" y="55220"/>
+	</territory>
+	<npcmaker name="aden08_2319_28m1" territory="aden08_2319_28" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_29" minZ="-4624" maxZ="-4274">
+		<node x="123040" y="58176"/>
+		<node x="124464" y="59356"/>
+		<node x="124016" y="59500"/>
+		<node x="123224" y="59172"/>
+	</territory>
+	<npcmaker name="aden08_2319_29m1" territory="aden08_2319_29" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_30" minZ="-4704" maxZ="-4404">
+		<node x="126560" y="43268"/>
+		<node x="126960" y="43424"/>
+		<node x="126564" y="45160"/>
+		<node x="125840" y="44932"/>
+		<node x="125784" y="44020"/>
+	</territory>
+	<npcmaker name="aden08_2319_30m1" territory="aden08_2319_30" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_31" minZ="-4680" maxZ="-4280">
+		<node x="122676" y="38892"/>
+		<node x="124816" y="38192"/>
+		<node x="125768" y="38272"/>
+		<node x="126696" y="39668"/>
+		<node x="127036" y="41936"/>
+		<node x="123500" y="41640"/>
+		<node x="122512" y="40444"/>
+	</territory>
+	<npcmaker name="aden08_2319_31m1" territory="aden08_2319_31" maximumNpcs="13">
+		<ai type="default_maker"/>
+		<npc id="20591" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="5" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_32" minZ="-4644" maxZ="-4294">
+		<node x="123892" y="41724"/>
+		<node x="124936" y="41816"/>
+		<node x="123904" y="42852"/>
+		<node x="123088" y="42992"/>
+	</territory>
+	<npcmaker name="aden08_2319_32m1" territory="aden08_2319_32" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20591" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_33" minZ="-4624" maxZ="-4424">
+		<node x="120580" y="42336"/>
+		<node x="121368" y="42100"/>
+		<node x="123264" y="43856"/>
+		<node x="122120" y="44044"/>
+	</territory>
+	<npcmaker name="aden08_2319_33m1" territory="aden08_2319_33" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20591" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_34" minZ="-4636" maxZ="-4436">
+		<node x="119380" y="40632"/>
+		<node x="120696" y="40408"/>
+		<node x="121216" y="40896"/>
+		<node x="121304" y="41588"/>
+		<node x="119244" y="41236"/>
+	</territory>
+	<npcmaker name="aden08_2319_34m1" territory="aden08_2319_34" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_35" minZ="-4604" maxZ="-4404">
+		<node x="117332" y="40032"/>
+		<node x="118236" y="39944"/>
+		<node x="119288" y="40600"/>
+		<node x="117036" y="41296"/>
+		<node x="116840" y="40552"/>
+	</territory>
+	<npcmaker name="aden08_2319_35m1" territory="aden08_2319_35" maximumNpcs="2">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_36" minZ="-4668" maxZ="-4468">
+		<node x="120048" y="37408"/>
+		<node x="121216" y="37360"/>
+		<node x="122520" y="38808"/>
+		<node x="121528" y="39184"/>
+	</territory>
+	<npcmaker name="aden08_2319_36m1" territory="aden08_2319_36" maximumNpcs="3">
+		<ai type="default_maker"/>
+		<npc id="20591" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_37" minZ="-4612" maxZ="-4412">
+		<node x="115720" y="37568"/>
+		<node x="117344" y="36192"/>
+		<node x="117628" y="36916"/>
+		<node x="116656" y="37984"/>
+	</territory>
+	<npcmaker name="aden08_2319_37m1" territory="aden08_2319_37" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_38" minZ="-4660" maxZ="-4360">
+		<node x="114148" y="39944"/>
+		<node x="115660" y="39940"/>
+		<node x="115036" y="41044"/>
+		<node x="113632" y="41104"/>
+	</territory>
+	<npcmaker name="aden08_2319_38m1" territory="aden08_2319_38" maximumNpcs="7">
+		<ai type="default_maker"/>
+		<npc id="20590" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_39" minZ="-4716" maxZ="-4416">
+		<node x="110960" y="41836"/>
+		<node x="112448" y="40828"/>
+		<node x="113656" y="40952"/>
+		<node x="112416" y="41960"/>
+	</territory>
+	<npcmaker name="aden08_2319_39m1" territory="aden08_2319_39" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20589" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20590" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_40" minZ="-4012" maxZ="-3212">
+		<node x="106072" y="39332"/>
+		<node x="108612" y="39480"/>
+		<node x="109232" y="40168"/>
+		<node x="108604" y="40864"/>
+		<node x="106740" y="40564"/>
+		<node x="105804" y="39680"/>
+	</territory>
+	<npcmaker name="aden08_2319_40m1" territory="aden08_2319_40" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="20592" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20594" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_41" minZ="-3876" maxZ="-3276">
+		<node x="109848" y="38212"/>
+		<node x="113164" y="35616"/>
+		<node x="114432" y="37616"/>
+		<node x="114384" y="39200"/>
+		<node x="113080" y="40248"/>
+		<node x="112132" y="40240"/>
+	</territory>
+	<npcmaker name="aden08_2319_41m1" territory="aden08_2319_41" maximumNpcs="25">
+		<ai type="default_maker"/>
+		<npc id="20592" total="5" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="5" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20594" total="5" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_42" minZ="-3860" maxZ="-3410">
+		<node x="110516" y="39924"/>
+		<node x="111012" y="39304"/>
+		<node x="112224" y="40348"/>
+		<node x="111536" y="40840"/>
+		<node x="110660" y="40860"/>
+	</territory>
+	<npcmaker name="aden08_2319_42m1" territory="aden08_2319_42" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20593" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20594" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_43" minZ="-3808" maxZ="-3358">
+		<node x="113280" y="35764"/>
+		<node x="116844" y="35688"/>
+		<node x="115460" y="37176"/>
+		<node x="114420" y="37584"/>
+	</territory>
+	<npcmaker name="aden08_2319_43m1" territory="aden08_2319_43" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20593" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20594" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20595" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_44" minZ="-3820" maxZ="-3520">
+		<node x="118428" y="35980"/>
+		<node x="121284" y="36580"/>
+		<node x="119788" y="36820"/>
+	</territory>
+	<npcmaker name="aden08_2319_44m1" territory="aden08_2319_44" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20594" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20595" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_45" minZ="-3848" maxZ="-3548">
+		<node x="121448" y="36852"/>
+		<node x="123172" y="36932"/>
+		<node x="124724" y="37680"/>
+		<node x="122744" y="38184"/>
+	</territory>
+	<npcmaker name="aden08_2319_45m1" territory="aden08_2319_45" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20594" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20595" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_46" minZ="-3888" maxZ="-3438">
+		<node x="104780" y="44372"/>
+		<node x="107296" y="42500"/>
+		<node x="110100" y="43844"/>
+		<node x="110732" y="44760"/>
+		<node x="109064" y="47240"/>
+		<node x="106332" y="46892"/>
+		<node x="104692" y="45800"/>
+	</territory>
+	<npcmaker name="aden08_2319_46m1" territory="aden08_2319_46" maximumNpcs="26">
+		<ai type="default_maker"/>
+		<npc id="20596" total="7" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="6" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20598" total="6" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20599" total="7" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_48" minZ="-4264" maxZ="-3464">
+		<node x="111636" y="43004"/>
+		<node x="113596" y="41528"/>
+		<node x="115016" y="41472"/>
+		<node x="115104" y="41724"/>
+		<node x="113728" y="43628"/>
+	</territory>
+	<npcmaker name="aden08_2319_48m1" territory="aden08_2319_48" maximumNpcs="14">
+		<ai type="default_maker"/>
+		<npc id="20594" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20595" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_49" minZ="-4024" maxZ="-3424">
+		<node x="118216" y="37356"/>
+		<node x="120648" y="38884"/>
+		<node x="121160" y="40108"/>
+		<node x="116460" y="38808"/>
+	</territory>
+	<npcmaker name="aden08_2319_49m1" territory="aden08_2319_49" maximumNpcs="19">
+		<ai type="default_maker"/>
+		<npc id="20594" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20595" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="4" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_50" minZ="-4132" maxZ="-3732">
+		<node x="121872" y="42036"/>
+		<node x="121496" y="40072"/>
+		<node x="122932" y="41604"/>
+		<node x="122516" y="42552"/>
+	</territory>
+	<npcmaker name="aden08_2319_50m1" territory="aden08_2319_50" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20594" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20595" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_51" minZ="-4352" maxZ="-3352">
+		<node x="117148" y="43828"/>
+		<node x="118580" y="42368"/>
+		<node x="119720" y="42000"/>
+		<node x="121304" y="44064"/>
+		<node x="120060" y="45592"/>
+		<node x="117212" y="44704"/>
+	</territory>
+	<npcmaker name="aden08_2319_51m1" territory="aden08_2319_51" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20596" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20598" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20599" total="3" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_52" minZ="-3792" maxZ="-3192">
+		<node x="115588" y="45116"/>
+		<node x="116936" y="44280"/>
+		<node x="120044" y="45696"/>
+		<node x="117872" y="48224"/>
+	</territory>
+	<npcmaker name="aden08_2319_52m1" territory="aden08_2319_52" maximumNpcs="11">
+		<ai type="default_maker"/>
+		<npc id="20596" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20598" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20599" total="3" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_53" minZ="-4184" maxZ="-3384">
+		<node x="120984" y="44512"/>
+		<node x="123132" y="44608"/>
+		<node x="121548" y="46120"/>
+		<node x="120080" y="45764"/>
+	</territory>
+	<npcmaker name="aden08_2319_53m1" territory="aden08_2319_53" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20596" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20598" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20599" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_54" minZ="-3948" maxZ="-3348">
+		<node x="121744" y="45972"/>
+		<node x="124404" y="43500"/>
+		<node x="125660" y="45408"/>
+		<node x="125296" y="47056"/>
+		<node x="122340" y="47352"/>
+	</territory>
+	<npcmaker name="aden08_2319_54m1" territory="aden08_2319_54" maximumNpcs="17">
+		<ai type="default_maker"/>
+		<npc id="20596" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20598" total="5" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20599" total="4" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_55" minZ="-3992" maxZ="-3592">
+		<node x="119660" y="47028"/>
+		<node x="121548" y="47544"/>
+		<node x="121912" y="48420"/>
+		<node x="119116" y="47556"/>
+	</territory>
+	<npcmaker name="aden08_2319_55m1" territory="aden08_2319_55" maximumNpcs="4">
+		<ai type="default_maker"/>
+		<npc id="20595" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_56" minZ="-3996" maxZ="-3396">
+		<node x="102232" y="46368"/>
+		<node x="104196" y="47016"/>
+		<node x="104756" y="48868"/>
+		<node x="104492" y="51344"/>
+		<node x="103620" y="52580"/>
+		<node x="102064" y="47212"/>
+	</territory>
+	<npcmaker name="aden08_2319_56m1" territory="aden08_2319_56" maximumNpcs="24">
+		<ai type="default_maker"/>
+		<npc id="20594" total="5" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20595" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="5" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_57" minZ="-3828" maxZ="-3428">
+		<node x="104172" y="55760"/>
+		<node x="105284" y="55764"/>
+		<node x="106196" y="58884"/>
+		<node x="103788" y="56628"/>
+	</territory>
+	<npcmaker name="aden08_2319_57m1" territory="aden08_2319_57" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20595" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_58" minZ="-3820" maxZ="-3220">
+		<node x="106368" y="58684"/>
+		<node x="110424" y="58916"/>
+		<node x="111072" y="59756"/>
+		<node x="107720" y="60120"/>
+	</territory>
+	<npcmaker name="aden08_2319_58m1" territory="aden08_2319_58" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="20595" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="3" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_59" minZ="-4008" maxZ="-3408">
+		<node x="107800" y="54052"/>
+		<node x="109548" y="54380"/>
+		<node x="109740" y="56692"/>
+		<node x="108240" y="57196"/>
+		<node x="107656" y="56688"/>
+	</territory>
+	<npcmaker name="aden08_2319_59m1" territory="aden08_2319_59" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20595" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="3" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_60" minZ="-3784" maxZ="-3384">
+		<node x="110316" y="53048"/>
+		<node x="112716" y="52956"/>
+		<node x="113624" y="54012"/>
+		<node x="113276" y="55800"/>
+		<node x="111552" y="56388"/>
+		<node x="109792" y="55956"/>
+	</territory>
+	<npcmaker name="aden08_2319_60m1" territory="aden08_2319_60" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20595" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="4" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_62" minZ="-3936" maxZ="-3536">
+		<node x="112460" y="58752"/>
+		<node x="114468" y="58568"/>
+		<node x="114968" y="60504"/>
+		<node x="113224" y="60524"/>
+	</territory>
+	<npcmaker name="aden08_2319_62m1" territory="aden08_2319_62" maximumNpcs="5">
+		<ai type="default_maker"/>
+		<npc id="20595" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="2" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_63" minZ="-3796" maxZ="-3396">
+		<node x="115456" y="54924"/>
+		<node x="116784" y="54828"/>
+		<node x="117264" y="58388"/>
+		<node x="115600" y="60160"/>
+		<node x="114560" y="58584"/>
+	</territory>
+	<npcmaker name="aden08_2319_63m1" territory="aden08_2319_63" maximumNpcs="12">
+		<ai type="default_maker"/>
+		<npc id="20595" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="4" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_64" minZ="-3980" maxZ="-3380">
+		<node x="120032" y="49520"/>
+		<node x="121516" y="50504"/>
+		<node x="121996" y="51764"/>
+		<node x="121284" y="52504"/>
+		<node x="118688" y="50268"/>
+	</territory>
+	<npcmaker name="aden08_2319_64m1" territory="aden08_2319_64" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20595" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="3" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_65" minZ="-3816" maxZ="-3416">
+		<node x="121768" y="50504"/>
+		<node x="124964" y="48536"/>
+		<node x="126224" y="50556"/>
+		<node x="124480" y="50736"/>
+	</territory>
+	<npcmaker name="aden08_2319_65m1" territory="aden08_2319_65" maximumNpcs="9">
+		<ai type="default_maker"/>
+		<npc id="20595" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20596" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20597" total="3" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_66" minZ="-3900" maxZ="-3500">
+		<node x="118940" y="52720"/>
+		<node x="119872" y="54328"/>
+		<node x="118620" y="54388"/>
+		<node x="118508" y="52856"/>
+	</territory>
+	<npcmaker name="aden08_2319_66m1" territory="aden08_2319_66" maximumNpcs="6">
+		<ai type="default_maker"/>
+		<npc id="20592" total="1" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="2" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20594" total="1" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_67" minZ="-3940" maxZ="-3340">
+		<node x="121512" y="54900"/>
+		<node x="123228" y="53224"/>
+		<node x="124412" y="54396"/>
+		<node x="123712" y="56056"/>
+	</territory>
+	<npcmaker name="aden08_2319_67m1" territory="aden08_2319_67" maximumNpcs="15">
+		<ai type="default_maker"/>
+		<npc id="20592" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20594" total="3" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_2319_68" minZ="-3812" maxZ="-3012">
+		<node x="124380" y="54688"/>
+		<node x="126412" y="54760"/>
+		<node x="125656" y="57292"/>
+		<node x="124016" y="57432"/>
+		<node x="123756" y="56056"/>
+	</territory>
+	<npcmaker name="aden08_2319_68m1" territory="aden08_2319_68" maximumNpcs="16">
+		<ai type="default_maker"/>
+		<npc id="20592" total="4" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20593" total="3" respawn="80sec" respawnRand="15sec"/>
+		<npc id="20594" total="3" respawn="80sec" respawnRand="15sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_mb2318_14" minZ="-4696" maxZ="-4096">
+		<node x="112376" y="46584"/>
+		<node x="112524" y="45992"/>
+		<node x="113028" y="45688"/>
+		<node x="114420" y="45888"/>
+		<node x="115296" y="48036"/>
+		<node x="114080" y="49052"/>
+		<node x="112672" y="48160"/>
+	</territory>
+	<npcmaker name="aden08_mb2318_14" territory="aden08_mb2318_14" maximumNpcs="41">
+		<ai type="default_maker"/>
+		<npc id="25423" total="1" respawn="36hour" respawnRand="24hour" dbName="fairy_queen_timiniel" dbSaving="DEATH_TIME;PARAMETERS"/>
+		<npc id="21797" total="20" respawn="80sec" respawnRand="10sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_mb2319_01" minZ="-3880" maxZ="-3280">
+		<node x="124592" y="43312"/>
+		<node x="125052" y="42796"/>
+		<node x="125584" y="43164"/>
+		<node x="125012" y="43732"/>
+	</territory>
+	<npcmaker name="aden08_mb2319_01" territory="aden08_mb2319_01" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25159" total="1" respawn="36hour" respawnRand="24hour" dbName="unicorn_paniel" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_mb2319_02" minZ="-3792" maxZ="-3192">
+		<node x="121140" y="64192"/>
+		<node x="121956" y="63216"/>
+		<node x="122584" y="64068"/>
+		<node x="121624" y="64840"/>
+	</territory>
+	<npcmaker name="aden08_mb2319_02" territory="aden08_mb2319_02" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25119" total="1" respawn="36hour" respawnRand="24hour" dbName="obern_mgr_of_fairyqueen" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_mb2319_03" minZ="-3848" maxZ="-3348">
+		<node x="125517" y="50068"/>
+		<node x="125733" y="50068"/>
+		<node x="125741" y="50268"/>
+		<node x="125529" y="50268"/>
+	</territory>
+	<npcmaker name="aden08_mb2319_03" territory="aden08_mb2319_03" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25070" total="1" respawn="36hour" respawnRand="24hour" dbName="fairys_watcher_ruell" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_mb2319_04" minZ="-3904" maxZ="-3304">
+		<node x="113048" y="52844"/>
+		<node x="113840" y="52164"/>
+		<node x="114636" y="52640"/>
+		<node x="114888" y="53264"/>
+		<node x="113956" y="53980"/>
+	</territory>
+	<npcmaker name="aden08_mb2319_04" territory="aden08_mb2319_04" maximumNpcs="8">
+		<ai type="default_maker"/>
+		<npc id="25010" total="1" respawn="36hour" respawnRand="24hour" dbName="furious_thieles" dbSaving="DEATH_TIME;PARAMETERS"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_npc2319_01" minZ="-4686" maxZ="-4486">
+		<node x="110316" y="41532"/>
+		<node x="110516" y="41532"/>
+		<node x="110516" y="41732"/>
+		<node x="110316" y="41732"/>
+	</territory>
+	<npcmaker name="aden08_npc2319_0101" territory="aden08_npc2319_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="30747" pos="110395;41625;-4619;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_05" minZ="-4672" maxZ="-4422">
+		<node x="102868" y="42180"/>
+		<node x="105500" y="40368"/>
+		<node x="106664" y="41172"/>
+		<node x="106556" y="42384"/>
+		<node x="104992" y="43620"/>
+		<node x="104012" y="43836"/>
+	</territory>
+	<npcmaker name="aden08_tb05_m1" territory="aden08_tb2319_05" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18273" total="1" respawn="90sec"/>
+		<npc id="21809" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_11" minZ="-4624" maxZ="-4124">
+		<node x="102752" y="57424"/>
+		<node x="103940" y="57520"/>
+		<node x="107208" y="60816"/>
+		<node x="107372" y="61732"/>
+		<node x="105112" y="61532"/>
+		<node x="102904" y="58852"/>
+	</territory>
+	<npcmaker name="aden08_tb11_m1" territory="aden08_tb2319_11" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18273" total="1" respawn="90sec"/>
+		<npc id="21809" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_13" minZ="-4656" maxZ="-4196">
+		<node x="112824" y="62460"/>
+		<node x="117268" y="61748"/>
+		<node x="116568" y="62892"/>
+		<node x="115272" y="63376"/>
+		<node x="113304" y="63312"/>
+		<node x="112492" y="62808"/>
+	</territory>
+	<npcmaker name="aden08_tb13_m1" territory="aden08_tb2319_13" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18273" total="1" respawn="90sec"/>
+		<npc id="21809" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_24" minZ="-4700" maxZ="-4500">
+		<node x="124068" y="51552"/>
+		<node x="126692" y="51316"/>
+		<node x="127568" y="53240"/>
+		<node x="126660" y="54016"/>
+		<node x="125312" y="53928"/>
+		<node x="124440" y="52956"/>
+	</territory>
+	<npcmaker name="aden08_tb24_m1" territory="aden08_tb2319_24" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18273" total="1" respawn="90sec"/>
+		<npc id="21809" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_31" minZ="-4680" maxZ="-4280">
+		<node x="122676" y="38892"/>
+		<node x="124816" y="38192"/>
+		<node x="125768" y="38272"/>
+		<node x="126696" y="39668"/>
+		<node x="127036" y="41936"/>
+		<node x="123500" y="41640"/>
+		<node x="122512" y="40444"/>
+	</territory>
+	<npcmaker name="aden08_tb31_m1" territory="aden08_tb2319_31" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18273" total="1" respawn="90sec"/>
+		<npc id="21809" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_40" minZ="-4012" maxZ="-3212">
+		<node x="106072" y="39332"/>
+		<node x="108612" y="39480"/>
+		<node x="109232" y="40168"/>
+		<node x="108604" y="40864"/>
+		<node x="106740" y="40564"/>
+		<node x="105804" y="39680"/>
+	</territory>
+	<npcmaker name="aden08_tb40_m1" territory="aden08_tb2319_40" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18273" total="1" respawn="90sec"/>
+		<npc id="21809" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_41" minZ="-3876" maxZ="-3276">
+		<node x="109848" y="38212"/>
+		<node x="113164" y="35616"/>
+		<node x="114432" y="37616"/>
+		<node x="114384" y="39200"/>
+		<node x="113080" y="40248"/>
+		<node x="112132" y="40240"/>
+	</territory>
+	<npcmaker name="aden08_tb41_m1" territory="aden08_tb2319_41" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18274" total="1" respawn="90sec"/>
+		<npc id="21810" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_46" minZ="-3888" maxZ="-3438">
+		<node x="104780" y="44372"/>
+		<node x="107296" y="42500"/>
+		<node x="110100" y="43844"/>
+		<node x="110732" y="44760"/>
+		<node x="109064" y="47240"/>
+		<node x="106332" y="46892"/>
+		<node x="104692" y="45800"/>
+	</territory>
+	<npcmaker name="aden08_tb46_m1" territory="aden08_tb2319_46" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18274" total="1" respawn="90sec"/>
+		<npc id="21810" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_47" minZ="-4128" maxZ="-3478">
+		<node x="106960" y="47492"/>
+		<node x="109464" y="48096"/>
+		<node x="110436" y="49240"/>
+		<node x="109752" y="51248"/>
+		<node x="108580" y="51380"/>
+	</territory>
+	<npcmaker name="aden08_tb47_m1" territory="aden08_tb2319_47" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18274" total="1" respawn="90sec"/>
+		<npc id="21810" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_48" minZ="-4264" maxZ="-3464">
+		<node x="111636" y="43004"/>
+		<node x="113596" y="41528"/>
+		<node x="115016" y="41472"/>
+		<node x="115104" y="41724"/>
+		<node x="113728" y="43628"/>
+	</territory>
+	<npcmaker name="aden08_tb48_m1" territory="aden08_tb2319_48" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18274" total="1" respawn="90sec"/>
+		<npc id="21810" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_49" minZ="-4024" maxZ="-3424">
+		<node x="118216" y="37356"/>
+		<node x="120648" y="38884"/>
+		<node x="121160" y="40108"/>
+		<node x="116460" y="38808"/>
+	</territory>
+	<npcmaker name="aden08_tb49_m1" territory="aden08_tb2319_49" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18274" total="1" respawn="90sec"/>
+		<npc id="21810" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_51" minZ="-4352" maxZ="-3352">
+		<node x="117148" y="43828"/>
+		<node x="118580" y="42368"/>
+		<node x="119720" y="42000"/>
+		<node x="121304" y="44064"/>
+		<node x="120060" y="45592"/>
+		<node x="117212" y="44704"/>
+	</territory>
+	<npcmaker name="aden08_tb51_m1" territory="aden08_tb2319_51" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18274" total="1" respawn="90sec"/>
+		<npc id="21810" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_52" minZ="-3792" maxZ="-3192">
+		<node x="115588" y="45116"/>
+		<node x="116936" y="44280"/>
+		<node x="120044" y="45696"/>
+		<node x="117872" y="48224"/>
+	</territory>
+	<npcmaker name="aden08_tb52_m1" territory="aden08_tb2319_52" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18274" total="1" respawn="90sec"/>
+		<npc id="21810" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_53" minZ="-4184" maxZ="-3384">
+		<node x="120984" y="44512"/>
+		<node x="123132" y="44608"/>
+		<node x="121548" y="46120"/>
+		<node x="120080" y="45764"/>
+	</territory>
+	<npcmaker name="aden08_tb53_m1" territory="aden08_tb2319_53" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18275" total="1" respawn="90sec"/>
+		<npc id="21811" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_54" minZ="-3948" maxZ="-3348">
+		<node x="121744" y="45972"/>
+		<node x="124404" y="43500"/>
+		<node x="125660" y="45408"/>
+		<node x="125296" y="47056"/>
+		<node x="122340" y="47352"/>
+	</territory>
+	<npcmaker name="aden08_tb54_m1" territory="aden08_tb2319_54" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18275" total="1" respawn="90sec"/>
+		<npc id="21811" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_56" minZ="-3996" maxZ="-3396">
+		<node x="102232" y="46368"/>
+		<node x="104196" y="47016"/>
+		<node x="104756" y="48868"/>
+		<node x="104492" y="51344"/>
+		<node x="103620" y="52580"/>
+		<node x="102064" y="47212"/>
+	</territory>
+	<npcmaker name="aden08_tb56_m1" territory="aden08_tb2319_56" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18275" total="1" respawn="90sec"/>
+		<npc id="21811" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_58" minZ="-3820" maxZ="-3220">
+		<node x="106368" y="58684"/>
+		<node x="110424" y="58916"/>
+		<node x="111072" y="59756"/>
+		<node x="107720" y="60120"/>
+	</territory>
+	<npcmaker name="aden08_tb58_m1" territory="aden08_tb2319_58" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18275" total="1" respawn="90sec"/>
+		<npc id="21811" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_59" minZ="-4008" maxZ="-3408">
+		<node x="107800" y="54052"/>
+		<node x="109548" y="54380"/>
+		<node x="109740" y="56692"/>
+		<node x="108240" y="57196"/>
+		<node x="107656" y="56688"/>
+	</territory>
+	<npcmaker name="aden08_tb59_m1" territory="aden08_tb2319_59" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18275" total="1" respawn="90sec"/>
+		<npc id="21811" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_60" minZ="-3784" maxZ="-3384">
+		<node x="110316" y="53048"/>
+		<node x="112716" y="52956"/>
+		<node x="113624" y="54012"/>
+		<node x="113276" y="55800"/>
+		<node x="111552" y="56388"/>
+		<node x="109792" y="55956"/>
+	</territory>
+	<npcmaker name="aden08_tb60_m1" territory="aden08_tb2319_60" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18275" total="1" respawn="90sec"/>
+		<npc id="21811" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_61" minZ="-3912" maxZ="-3512">
+		<node x="114080" y="51816"/>
+		<node x="114976" y="51888"/>
+		<node x="115376" y="52908"/>
+		<node x="113588" y="53912"/>
+		<node x="112820" y="52992"/>
+	</territory>
+	<npcmaker name="aden08_tb61_m1" territory="aden08_tb2319_61" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18275" total="1" respawn="90sec"/>
+		<npc id="21811" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_62" minZ="-3936" maxZ="-3536">
+		<node x="112460" y="58752"/>
+		<node x="114468" y="58568"/>
+		<node x="114968" y="60504"/>
+		<node x="113224" y="60524"/>
+	</territory>
+	<npcmaker name="aden08_tb62_m1" territory="aden08_tb2319_62" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="90sec"/>
+		<npc id="21812" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_63" minZ="-3796" maxZ="-3396">
+		<node x="115456" y="54924"/>
+		<node x="116784" y="54828"/>
+		<node x="117264" y="58388"/>
+		<node x="115600" y="60160"/>
+		<node x="114560" y="58584"/>
+	</territory>
+	<npcmaker name="aden08_tb63_m1" territory="aden08_tb2319_63" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="90sec"/>
+		<npc id="21812" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_64" minZ="-3980" maxZ="-3380">
+		<node x="120032" y="49520"/>
+		<node x="121516" y="50504"/>
+		<node x="121996" y="51764"/>
+		<node x="121284" y="52504"/>
+		<node x="118688" y="50268"/>
+	</territory>
+	<npcmaker name="aden08_tb64_m1" territory="aden08_tb2319_64" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="90sec"/>
+		<npc id="21812" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_65" minZ="-3816" maxZ="-3416">
+		<node x="121768" y="50504"/>
+		<node x="124964" y="48536"/>
+		<node x="126224" y="50556"/>
+		<node x="124480" y="50736"/>
+	</territory>
+	<npcmaker name="aden08_tb65_m1" territory="aden08_tb2319_65" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="90sec"/>
+		<npc id="21812" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_66" minZ="-3900" maxZ="-3500">
+		<node x="118940" y="52720"/>
+		<node x="119872" y="54328"/>
+		<node x="118620" y="54388"/>
+		<node x="118508" y="52856"/>
+	</territory>
+	<npcmaker name="aden08_tb66_m1" territory="aden08_tb2319_66" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="90sec"/>
+		<npc id="21812" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_67" minZ="-3940" maxZ="-3340">
+		<node x="121512" y="54900"/>
+		<node x="123228" y="53224"/>
+		<node x="124412" y="54396"/>
+		<node x="123712" y="56056"/>
+	</territory>
+	<npcmaker name="aden08_tb67_m1" territory="aden08_tb2319_67" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="90sec"/>
+		<npc id="21812" total="1" respawn="90sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden08_tb2319_68" minZ="-3812" maxZ="-3012">
+		<node x="124380" y="54688"/>
+		<node x="126412" y="54760"/>
+		<node x="125656" y="57292"/>
+		<node x="124016" y="57432"/>
+		<node x="123756" y="56056"/>
+	</territory>
+	<npcmaker name="aden08_tb68_m1" territory="aden08_tb2319_68" maximumNpcs="1">
+		<ai type="random_spawn_treasurebox"/>
+		<npc id="18276" total="1" respawn="90sec"/>
+		<npc id="21812" total="1" respawn="90sec"/>
+	</npcmaker>
+</list>

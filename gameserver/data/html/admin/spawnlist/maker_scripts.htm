@@ -1,0 +1,38 @@
+<html><title>NPC Maker Scripts</title><body>
+	<center>
+	<table width=270>
+		<tr>
+			<td width=45><button value="Main" action="bypass -h admin_admin" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+			<td width=135 align=center>NPC Maker Scripts</td>
+			<td width=45><button value="Help" action="bypass -h admin_help" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+			<td width=45><button value="Back" action="bypass -h admin_maker" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		</tr>
+	</table><br>
+	<table width="100%">
+		<tr>
+			<td width=65></td>
+			<td width=65></td>
+			<td width=65></td>
+			<td><button value="Maker" action="bypass -h admin_maker %MAKERNAME%" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		</tr>
+	</table><br>
+	<img src="l2ui.SquareGray" width=270 height=1><br>
+	<table>
+		<tr>
+			<td width=60><font color="LEVEL">Name:</font></td>
+			<td width=200>%MAKERNAME%</td>
+		</tr><tr>
+			<td><font color="LEVEL">Spawn:</font></td>
+			<td>%MAKERSPAWN%</td>
+		</tr><tr>
+			<td><font color="LEVEL">Event:</font></td>
+			<td>%MAKEREVENT%</td>
+		</tr><tr>
+			<td><font color="LEVEL">On start:</font></td>
+			<td>%MAKERSTART%</td>
+		</tr>
+	</table><br>
+	<img src="l2ui.SquareGray" width=270 height=1><br>
+	%SCRIPTS%
+	</center>
+</body></html>

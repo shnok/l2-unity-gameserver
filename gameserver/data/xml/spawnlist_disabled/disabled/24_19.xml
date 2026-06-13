@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Aden Area
+ * Coliseum
+ * Narsel Lake
+-->
+<list>
+	<!--  -->
+	<territory name="aden18_npc2419_01" minZ="-3452" maxZ="-3252">
+		<node x="147404" y="46940"/>
+		<node x="147604" y="46940"/>
+		<node x="147604" y="47140"/>
+		<node x="147404" y="47140"/>
+	</territory>
+	<npcmaker name="aden18_npc2419_0101" territory="aden18_npc2419_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31226" pos="147508;47042;-3400;49000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden18_npc2419_02" minZ="-3444" maxZ="-3244">
+		<node x="151356" y="46268"/>
+		<node x="151556" y="46268"/>
+		<node x="151556" y="46468"/>
+		<node x="151356" y="46468"/>
+	</territory>
+	<npcmaker name="aden18_npc2419_0201" territory="aden18_npc2419_02" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31226" pos="151484;46383;-3400;16000" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden18_npc2419_pg1" minZ="-3528" maxZ="-3128">
+		<node x="148234" y="45485"/>
+		<node x="150668" y="45430"/>
+		<node x="150770" y="47958"/>
+		<node x="148226" y="47943"/>
+	</territory>
+	<npcmaker name="aden18_npc2419_pg1m1" territory="aden18_npc2419_pg1" maximumNpcs="60">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="20" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden18_npc2419_pg2" minZ="-3528" maxZ="-3128">
+		<node x="148234" y="45485"/>
+		<node x="150668" y="45430"/>
+		<node x="150770" y="47958"/>
+		<node x="148226" y="47943"/>
+	</territory>
+	<npcmaker name="aden18_npc2419_pg2m1" territory="aden18_npc2419_pg2" maximumNpcs="1">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig_manager"/>
+		</ai>
+		<npc id="32131" pos="149520;46784;-3413;0" total="1" respawn="1min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden18_npc2419_pg3" minZ="-3524" maxZ="-3124">
+		<node x="148356" y="43762"/>
+		<node x="146847" y="45393"/>
+		<node x="146869" y="46238"/>
+		<node x="146250" y="46246"/>
+		<node x="146231" y="45370"/>
+		<node x="147425" y="43763"/>
+	</territory>
+	<npcmaker name="aden18_npc2419_pg3m1" territory="aden18_npc2419_pg3" maximumNpcs="24">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="8" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden18_npc2419_pg4" minZ="-3680" maxZ="-3280">
+		<node x="146875" y="47063"/>
+		<node x="146876" y="47908"/>
+		<node x="148178" y="49572"/>
+		<node x="147386" y="49602"/>
+		<node x="146235" y="48037"/>
+		<node x="146238" y="47063"/>
+	</territory>
+	<npcmaker name="aden18_npc2419_pg4m1" territory="aden18_npc2419_pg4" maximumNpcs="24">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="8" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden18_npc2419_pg5" minZ="-3572" maxZ="-3172">
+		<node x="151531" y="43846"/>
+		<node x="152757" y="45449"/>
+		<node x="152745" y="46365"/>
+		<node x="152173" y="46366"/>
+		<node x="152183" y="45577"/>
+		<node x="150770" y="43831"/>
+	</territory>
+	<npcmaker name="aden18_npc2419_pg5m1" territory="aden18_npc2419_pg5" maximumNpcs="18">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="6" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden18_npc2419_pg6" minZ="-3592" maxZ="-3192">
+		<node x="152213" y="47042"/>
+		<node x="152699" y="47054"/>
+		<node x="152699" y="47995"/>
+		<node x="151578" y="49599"/>
+		<node x="150727" y="49579"/>
+		<node x="152160" y="47860"/>
+	</territory>
+	<npcmaker name="aden18_npc2419_pg6m1" territory="aden18_npc2419_pg6" maximumNpcs="24">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13031" total="8" respawn="20sec"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden18_npc2419_pg10" minZ="-3572" maxZ="-3172">
+		<node x="151531" y="43846"/>
+		<node x="152757" y="45449"/>
+		<node x="152745" y="46365"/>
+		<node x="152173" y="46366"/>
+		<node x="152183" y="45577"/>
+		<node x="150770" y="43831"/>
+	</territory>
+	<territory name="aden18_npc2419_pg11" minZ="-3592" maxZ="-3192">
+		<node x="152213" y="47042"/>
+		<node x="152699" y="47054"/>
+		<node x="152699" y="47995"/>
+		<node x="151578" y="49599"/>
+		<node x="150727" y="49579"/>
+		<node x="152160" y="47860"/>
+	</territory>
+	<territory name="aden18_npc2419_pg7" minZ="-3528" maxZ="-3128">
+		<node x="148234" y="45485"/>
+		<node x="150668" y="45430"/>
+		<node x="150770" y="47958"/>
+		<node x="148226" y="47943"/>
+	</territory>
+	<territory name="aden18_npc2419_pg8" minZ="-3524" maxZ="-3124">
+		<node x="148356" y="43762"/>
+		<node x="146847" y="45393"/>
+		<node x="146869" y="46238"/>
+		<node x="146250" y="46246"/>
+		<node x="146231" y="45370"/>
+		<node x="147425" y="43763"/>
+	</territory>
+	<territory name="aden18_npc2419_pg9" minZ="-3680" maxZ="-3280">
+		<node x="146875" y="47063"/>
+		<node x="146876" y="47908"/>
+		<node x="148178" y="49572"/>
+		<node x="147386" y="49602"/>
+		<node x="146235" y="48037"/>
+		<node x="146238" y="47063"/>
+	</territory>
+	<npcmaker name="aden18_npc2419_pg7m1" territory="aden18_npc2419_pg7;aden18_npc2419_pg8;aden18_npc2419_pg9;aden18_npc2419_pg10;aden18_npc2419_pg11" maximumNpcs="7">
+		<ai type="event_maker">
+				<set name="EventName" val="event_mutant_pig"/>
+		</ai>
+		<npc id="13032" total="1" respawn="1hour" respawnRand="10min"/>
+		<npc id="13035" total="1" respawn="10min" respawnRand="2min"/>
+	</npcmaker>
+	
+	<!--  -->
+	<territory name="aden19_npc2419_01" minZ="-3128" maxZ="-2928">
+		<node x="143116" y="43884"/>
+		<node x="143316" y="43884"/>
+		<node x="143316" y="44084"/>
+		<node x="143116" y="44084"/>
+	</territory>
+	<npcmaker name="aden19_npc2419_0101" territory="aden19_npc2419_01" maximumNpcs="1">
+		<ai type="default_maker"/>
+		<npc id="31745" pos="143200;44000;-3040;0" total="1" respawn="1min"/>
+	</npcmaker>
+</list>
